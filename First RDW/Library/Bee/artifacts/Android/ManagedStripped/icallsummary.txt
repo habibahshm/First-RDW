@@ -224,6 +224,7 @@ UnityEngine.Application::get_version
 UnityEngine.Application::Quit
 UnityEngine.Application::set_targetFrameRate
 UnityEngine.Application::get_platform
+UnityEngine.AsyncOperation::InternalDestroy
 UnityEngine.AudioSettings::StartAudioOutput
 UnityEngine.AudioSettings::StopAudioOutput
 UnityEngine.AudioSource::PlayOneShotHelper
@@ -481,6 +482,7 @@ UnityEngine.GameObject::GetComponentInParent
 UnityEngine.GameObject::Internal_AddComponentWithType
 UnityEngine.GameObject::TryGetComponentInternal
 UnityEngine.GameObject::Find
+UnityEngine.GameObject::FindGameObjectWithTag
 UnityEngine.GameObject::FindGameObjectsWithTag
 UnityEngine.GameObject::get_transform
 UnityEngine.GeometryUtility::TestPlanesAABB_Injected
@@ -1045,6 +1047,7 @@ UnityEngine.SceneManagement.Scene::GetRootGameObjectsInternal
 UnityEngine.SceneManagement.SceneManager::get_sceneCount
 UnityEngine.SceneManagement.SceneManager::GetActiveScene_Injected
 UnityEngine.SceneManagement.SceneManager::GetSceneAt_Injected
+UnityEngine.SceneManagement.SceneManagerAPIInternal::LoadSceneAsyncNameIndexInternal_Injected
 UnityEngine.Screen::get_fullScreen
 UnityEngine.Screen::get_height
 UnityEngine.Screen::get_width
