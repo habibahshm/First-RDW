@@ -13,6 +13,8 @@ Renderer2DData
 CompositeShadowCaster2D
 ShadowCaster2D
 ShadowCasterGroup2D
+SVGImage
+
 InputHelpers
 
 NavMeshPathStatus

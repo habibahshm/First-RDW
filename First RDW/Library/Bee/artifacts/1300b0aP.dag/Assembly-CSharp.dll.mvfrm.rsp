@@ -1,5 +1,6 @@
 Library\Bee\artifacts\mvdfrm\Unity.Burst.ref.dll_59592FE1C19AAD4D.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.InputSystem.ref.dll_A6FF0182FCD80C46.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.InternalAPIEngineBridge.003.ref.dll_E5753042A7A3B44A.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.Mathematics.ref.dll_92C0142275484313.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.RenderPipeline.Universal.ShaderLibrary.ref.dll_C33FC1AA6F3F1AD6.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.RenderPipelines.Core.Runtime.ref.dll_C67A4099BF12A775.mvfrm
@@ -12,6 +13,7 @@ Library\Bee\artifacts\mvdfrm\Unity.Services.Core.Environments.ref.dll_9371070AEE
 Library\Bee\artifacts\mvdfrm\Unity.Services.Core.ref.dll_FF91F9BC6398EB7C.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.TextMeshPro.ref.dll_2E746244A5BDAEA0.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.Timeline.ref.dll_08E11C037DD39E3A.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.VectorGraphics.ref.dll_C1A5F5FA5B446FE7.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.VisualScripting.Core.ref.dll_0FD4FE2CDCC99BDF.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.VisualScripting.Flow.ref.dll_56E5DE835ED3108E.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.VisualScripting.State.ref.dll_A70CD23EFCFC9D47.mvfrm
