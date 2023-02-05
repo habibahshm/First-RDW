@@ -3536,6 +3536,22 @@ void RegisterAllStrippedInternalCalls()
 
 	//End Registrations for type : UnityEngine.PlayerConnectionInternal
 
+	//Start Registrations for type : UnityEngine.PolygonCollider2D
+
+		//System.Int32 UnityEngine.PolygonCollider2D::GetTotalPointCount()
+		void Register_UnityEngine_PolygonCollider2D_GetTotalPointCount();
+		Register_UnityEngine_PolygonCollider2D_GetTotalPointCount();
+
+		//System.Void UnityEngine.PolygonCollider2D::SetPath_Internal(System.Int32,UnityEngine.Vector2[])
+		void Register_UnityEngine_PolygonCollider2D_SetPath_Internal();
+		Register_UnityEngine_PolygonCollider2D_SetPath_Internal();
+
+		//System.Void UnityEngine.PolygonCollider2D::set_pathCount(System.Int32)
+		void Register_UnityEngine_PolygonCollider2D_set_pathCount();
+		Register_UnityEngine_PolygonCollider2D_set_pathCount();
+
+	//End Registrations for type : UnityEngine.PolygonCollider2D
+
 	//Start Registrations for type : UnityEngine.Profiling.Profiler
 
 		//System.Int64 UnityEngine.Profiling.Profiler::GetRuntimeMemorySizeLong(UnityEngine.Object)
@@ -4820,6 +4836,22 @@ void RegisterAllStrippedInternalCalls()
 
 	//End Registrations for type : UnityEngine.Sprite
 
+	//Start Registrations for type : UnityEngine.SpriteRenderer
+
+		//System.Boolean UnityEngine.SpriteRenderer::get_flipX()
+		void Register_UnityEngine_SpriteRenderer_get_flipX();
+		Register_UnityEngine_SpriteRenderer_get_flipX();
+
+		//System.Boolean UnityEngine.SpriteRenderer::get_flipY()
+		void Register_UnityEngine_SpriteRenderer_get_flipY();
+		Register_UnityEngine_SpriteRenderer_get_flipY();
+
+		//UnityEngine.Sprite UnityEngine.SpriteRenderer::get_sprite()
+		void Register_UnityEngine_SpriteRenderer_get_sprite();
+		Register_UnityEngine_SpriteRenderer_get_sprite();
+
+	//End Registrations for type : UnityEngine.SpriteRenderer
+
 	//Start Registrations for type : UnityEngine.SubsystemBindings
 
 		//System.Void UnityEngine.SubsystemBindings::DestroySubsystem(System.IntPtr)
@@ -5257,6 +5289,10 @@ void RegisterAllStrippedInternalCalls()
 		//System.Void UnityEngine.Texture2D::SetPixelsImpl(System.Int32,System.Int32,System.Int32,System.Int32,UnityEngine.Color[],System.Int32,System.Int32)
 		void Register_UnityEngine_Texture2D_SetPixelsImpl();
 		Register_UnityEngine_Texture2D_SetPixelsImpl();
+
+		//UnityEngine.Color[] UnityEngine.Texture2D::GetPixels(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
+		void Register_UnityEngine_Texture2D_GetPixels();
+		Register_UnityEngine_Texture2D_GetPixels();
 
 		//UnityEngine.Texture2D UnityEngine.Texture2D::get_blackTexture()
 		void Register_UnityEngine_Texture2D_get_blackTexture();

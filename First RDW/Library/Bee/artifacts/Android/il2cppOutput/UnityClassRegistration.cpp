@@ -160,8 +160,11 @@ class MeshCollider; template <> void RegisterUnityClass<MeshCollider>(const char
 class PhysicsManager; template <> void RegisterUnityClass<PhysicsManager>(const char*);
 class Rigidbody; template <> void RegisterUnityClass<Rigidbody>(const char*);
 class SphereCollider; template <> void RegisterUnityClass<SphereCollider>(const char*);
+class CapsuleCollider2D; template <> void RegisterUnityClass<CapsuleCollider2D>(const char*);
 class Collider2D; template <> void RegisterUnityClass<Collider2D>(const char*);
 class Physics2DSettings; template <> void RegisterUnityClass<Physics2DSettings>(const char*);
+class PolygonCollider2D; template <> void RegisterUnityClass<PolygonCollider2D>(const char*);
+class Rigidbody2D; template <> void RegisterUnityClass<Rigidbody2D>(const char*);
 namespace TextRendering { class Font; } template <> void RegisterUnityClass<TextRendering::Font>(const char*);
 namespace TextRenderingPrivate { class TextMesh; } template <> void RegisterUnityClass<TextRenderingPrivate::TextMesh>(const char*);
 namespace UI { class Canvas; } template <> void RegisterUnityClass<UI::Canvas>(const char*);
@@ -172,7 +175,7 @@ void RegisterAllClasses()
 {
 void RegisterBuiltinTypes();
 RegisterBuiltinTypes();
-	//Total: 79 non stripped classes
+	//Total: 82 non stripped classes
 	//0. Animator
 	RegisterUnityClass<Animator>("Animation");
 	//1. AnimatorController
@@ -317,19 +320,25 @@ RegisterBuiltinTypes();
 	RegisterUnityClass<Rigidbody>("Physics");
 	//71. SphereCollider
 	RegisterUnityClass<SphereCollider>("Physics");
-	//72. Collider2D
+	//72. CapsuleCollider2D
+	RegisterUnityClass<CapsuleCollider2D>("Physics2D");
+	//73. Collider2D
 	RegisterUnityClass<Collider2D>("Physics2D");
-	//73. Physics2DSettings
+	//74. Physics2DSettings
 	RegisterUnityClass<Physics2DSettings>("Physics2D");
-	//74. Font
+	//75. PolygonCollider2D
+	RegisterUnityClass<PolygonCollider2D>("Physics2D");
+	//76. Rigidbody2D
+	RegisterUnityClass<Rigidbody2D>("Physics2D");
+	//77. Font
 	RegisterUnityClass<TextRendering::Font>("TextRendering");
-	//75. TextMesh
+	//78. TextMesh
 	RegisterUnityClass<TextRenderingPrivate::TextMesh>("TextRendering");
-	//76. Canvas
+	//79. Canvas
 	RegisterUnityClass<UI::Canvas>("UI");
-	//77. CanvasGroup
+	//80. CanvasGroup
 	RegisterUnityClass<UI::CanvasGroup>("UI");
-	//78. CanvasRenderer
+	//81. CanvasRenderer
 	RegisterUnityClass<UI::CanvasRenderer>("UI");
 
 }

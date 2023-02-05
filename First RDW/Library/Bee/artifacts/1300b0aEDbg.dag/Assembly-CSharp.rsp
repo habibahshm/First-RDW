@@ -399,6 +399,7 @@
 -r:"Library/Bee/artifacts/1300b0aEDbg.dag/UnityEngine.UI.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aEDbg.dag/UnityEngine.XR.LegacyInputHelpers.ref.dll"
 "Assets/Scripts/GameManager.cs"
+"Assets/Scripts/Linw.cs"
 "Assets/Scripts/Stick.cs"
 "Assets/Scripts/Wall.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"

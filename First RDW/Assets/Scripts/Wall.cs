@@ -10,6 +10,7 @@ public class Wall : MonoBehaviour
 {
     [SerializeField] private TextMeshProUGUI debugText;
     Stick stickScript;
+    Linw lineScript;
     
 
     // Start is called before the first frame update
@@ -17,6 +18,7 @@ public class Wall : MonoBehaviour
     {
       
         stickScript = GameObject.FindWithTag("Player").GetComponent<Stick>();
+        lineScript = GameObject.Find("--Static--/Vector_zigzag").GetComponent<Linw>();
     }
 
     // Update is called once per frame
@@ -27,34 +29,28 @@ public class Wall : MonoBehaviour
 
     private void OnTriggerStay(Collider other)
     {
-       
-        if (other.CompareTag("Player"))
+        if(stickScript != null && lineScript!=null && other.CompareTag("Player") && !lineScript.onLine)
         {
-            if(stickScript != null)
+            IXRSelectInteractor hand = stickScript.firstInteractorSelecting;
+
+            if (hand != null)
             {
-               
-                IXRSelectInteractor hand = stickScript.firstInteractorSelecting;
+                /*debugText.SetText(hand.ToString());*/
+                InputDevice controller;
 
-                if (hand != null)
+                if (hand.ToString().ToLower().Contains("right"))
                 {
-                    /*debugText.SetText(hand.ToString());*/
-                    InputDevice controller;
-
-                    if (hand.ToString().ToLower().Contains("right"))
-                    {
-                        controller = InputDevices.GetDeviceAtXRNode(XRNode.RightHand);
-                    }
-                    else
-                    {
-                        controller = InputDevices.GetDeviceAtXRNode(XRNode.LeftHand);
-                    }
-                    controller.SendHapticImpulse(0, .3f, .1f);
+                    controller = InputDevices.GetDeviceAtXRNode(XRNode.RightHand);
                 }
-               
-                
+                else
+                {
+                    controller = InputDevices.GetDeviceAtXRNode(XRNode.LeftHand);
+                }
+                controller.SendHapticImpulse(0, .3f, .1f);
             }
-            
         }
+       
+
     }
 
 
