@@ -338,8 +338,6 @@
 -r:"Library/Bee/artifacts/1300b0aP.dag/UnityEngine.SpatialTracking.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aP.dag/UnityEngine.UI.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aP.dag/UnityEngine.XR.LegacyInputHelpers.ref.dll"
-"Assets/AdvancedPolygonCollider/Script/AdvancedPolygonCollider.cs"
-"Assets/AdvancedPolygonCollider/Script/AdvancedPolygonColliderUtilities.cs"
 "Assets/Scripts/GameManager.cs"
 "Assets/Scripts/Linw.cs"
 "Assets/Scripts/Stick.cs"

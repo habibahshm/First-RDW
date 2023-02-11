@@ -576,175 +576,7 @@ extern void U3CWarpTextU3Ed__8_System_Collections_Generic_IEnumeratorU3CSystem_O
 extern void U3CWarpTextU3Ed__8_System_Collections_IEnumerator_Reset_m07746C332D2D8CE5DEA59873C26F2FAD4B369B42 (void);
 // 0x0000011A System.Object TMPro.Examples.WarpTextExample/<WarpText>d__8::System.Collections.IEnumerator.get_Current()
 extern void U3CWarpTextU3Ed__8_System_Collections_IEnumerator_get_Current_m71D7F84D9DEF63BEC6B44866515DDCF35B142A19 (void);
-// 0x0000011B System.Int32 DigitalRuby.AdvancedPolygonCollider.PolygonParameters::GetHashCode()
-extern void PolygonParameters_GetHashCode_m6CB438A17DB0C85F8D605029F52D12476938C816 (void);
-// 0x0000011C System.Boolean DigitalRuby.AdvancedPolygonCollider.PolygonParameters::Equals(System.Object)
-extern void PolygonParameters_Equals_m88889DFCC400B3DF3D4522407AF2F98EA30EA81C (void);
-// 0x0000011D System.Void DigitalRuby.AdvancedPolygonCollider.AdvancedPolygonCollider::Awake()
-extern void AdvancedPolygonCollider_Awake_m010DDF682F4ADF75FCCB81C7CC92D3D0ADA253F6 (void);
-// 0x0000011E System.Void DigitalRuby.AdvancedPolygonCollider.AdvancedPolygonCollider::Start()
-extern void AdvancedPolygonCollider_Start_mF6D4DE1C678DB7EF7DDD84580288633B5528240D (void);
-// 0x0000011F System.Void DigitalRuby.AdvancedPolygonCollider.AdvancedPolygonCollider::UpdateDirtyState()
-extern void AdvancedPolygonCollider_UpdateDirtyState_m7002A14B4137406EBFDF5B15187E7D1CAEBC22B5 (void);
-// 0x00000120 System.Void DigitalRuby.AdvancedPolygonCollider.AdvancedPolygonCollider::Update()
-extern void AdvancedPolygonCollider_Update_m368481177BD6425183958BB86C884D182424BEA0 (void);
-// 0x00000121 System.Void DigitalRuby.AdvancedPolygonCollider.AdvancedPolygonCollider::RecalculatePolygon()
-extern void AdvancedPolygonCollider_RecalculatePolygon_m3E343E6B66A242DA2A98E4C6DF944C7644174319 (void);
-// 0x00000122 System.Void DigitalRuby.AdvancedPolygonCollider.AdvancedPolygonCollider::UpdatePolygonCollider(DigitalRuby.AdvancedPolygonCollider.PolygonParameters&)
-extern void AdvancedPolygonCollider_UpdatePolygonCollider_m16CB7823C97F659D3B0A8ACB0E46ABC2FC6FC92D (void);
-// 0x00000123 System.Int32 DigitalRuby.AdvancedPolygonCollider.AdvancedPolygonCollider::get_VerticesCount()
-extern void AdvancedPolygonCollider_get_VerticesCount_mEC9F3A2FB7F965AEC3954E3C45C411E819321509 (void);
-// 0x00000124 System.Void DigitalRuby.AdvancedPolygonCollider.AdvancedPolygonCollider::PopulateCollider(UnityEngine.PolygonCollider2D,DigitalRuby.AdvancedPolygonCollider.PolygonParameters&)
-extern void AdvancedPolygonCollider_PopulateCollider_m4CEDC7920A7B080BDB6F6E0F41FF63C84DFA44EA (void);
-// 0x00000125 System.Collections.Generic.List`1<UnityEngine.Vector2[]> DigitalRuby.AdvancedPolygonCollider.AdvancedPolygonCollider::ProcessVertices(UnityEngine.PolygonCollider2D,DigitalRuby.AdvancedPolygonCollider.Vertices,System.Collections.Generic.List`1<UnityEngine.Vector2[]>,DigitalRuby.AdvancedPolygonCollider.PolygonParameters&,System.Int32&)
-extern void AdvancedPolygonCollider_ProcessVertices_m98B2CDC6AA45C308DC642C463607AEEA6C100955 (void);
-// 0x00000126 System.Void DigitalRuby.AdvancedPolygonCollider.AdvancedPolygonCollider::.ctor()
-extern void AdvancedPolygonCollider__ctor_mA086F8DF323A5046C398C0591B059090B283BB14 (void);
-// 0x00000127 System.Void DigitalRuby.AdvancedPolygonCollider.AdvancedPolygonCollider::.cctor()
-extern void AdvancedPolygonCollider__cctor_mB06BA13727228E3A2E07BCFEBE2DE983712BFDB3 (void);
-// 0x00000128 System.Int32 DigitalRuby.AdvancedPolygonCollider.AdvancedPolygonCollider/CacheKey::GetHashCode()
-extern void CacheKey_GetHashCode_mC10BD232370573C6286506AE5D9BB89CEB5B4AF8 (void);
-// 0x00000129 System.Boolean DigitalRuby.AdvancedPolygonCollider.AdvancedPolygonCollider/CacheKey::Equals(System.Object)
-extern void CacheKey_Equals_m20869E94490B9065B21A1CF2DBD5EF10AD40F3EA (void);
-// 0x0000012A System.Collections.Generic.List`1<DigitalRuby.AdvancedPolygonCollider.Vertices> DigitalRuby.AdvancedPolygonCollider.TextureConverter::DetectVertices(UnityEngine.Color[],System.Int32,System.Int32)
-extern void TextureConverter_DetectVertices_mBEBE7BDFEF25C1EB7E4395FAD1E5072BDD2CA227 (void);
-// 0x0000012B System.Collections.Generic.List`1<DigitalRuby.AdvancedPolygonCollider.Vertices> DigitalRuby.AdvancedPolygonCollider.TextureConverter::DetectVertices()
-extern void TextureConverter_DetectVertices_mEA2B0FD114AAD9FEC535B391CD4CB4191BA914BB (void);
-// 0x0000012C System.Void DigitalRuby.AdvancedPolygonCollider.TextureConverter::ApplyTriangulationCompatibleWinding(System.Collections.Generic.List`1<DigitalRuby.AdvancedPolygonCollider.Vertices>&)
-extern void TextureConverter_ApplyTriangulationCompatibleWinding_m3099CAB103FC7614DDAA27DB402BD5E5E178A65D (void);
-// 0x0000012D System.Boolean DigitalRuby.AdvancedPolygonCollider.TextureConverter::IsSolid(UnityEngine.Vector2&)
-extern void TextureConverter_IsSolid_mBA5B4371F88FB8896469B248D9E3E1DC99707A35 (void);
-// 0x0000012E System.Boolean DigitalRuby.AdvancedPolygonCollider.TextureConverter::IsSolid(System.Int32,System.Int32)
-extern void TextureConverter_IsSolid_m987B7F0FE0B4DEB78A044005888402CD576B6634 (void);
-// 0x0000012F System.Boolean DigitalRuby.AdvancedPolygonCollider.TextureConverter::IsSolid(System.Int32)
-extern void TextureConverter_IsSolid_m2ADD94FC0DFB529AD10D95C665AE38E5019E482F (void);
-// 0x00000130 System.Boolean DigitalRuby.AdvancedPolygonCollider.TextureConverter::InBounds(UnityEngine.Vector2&)
-extern void TextureConverter_InBounds_m4AA7939504F7D2236C24F603FFBC1755D9CCEB8A (void);
-// 0x00000131 System.Nullable`1<UnityEngine.Vector2> DigitalRuby.AdvancedPolygonCollider.TextureConverter::SearchHoleEntrance(DigitalRuby.AdvancedPolygonCollider.Vertices,System.Nullable`1<UnityEngine.Vector2>)
-extern void TextureConverter_SearchHoleEntrance_mF0A910B55FA5A52E375BE3D55C5F60513516A4FC (void);
-// 0x00000132 System.Boolean DigitalRuby.AdvancedPolygonCollider.TextureConverter::DistanceToHullAcceptableHoles(DigitalRuby.AdvancedPolygonCollider.Vertices,UnityEngine.Vector2,System.Boolean)
-extern void TextureConverter_DistanceToHullAcceptableHoles_mEF12135C789F6624BC5E84FB189FD2122D7610D9 (void);
-// 0x00000133 System.Boolean DigitalRuby.AdvancedPolygonCollider.TextureConverter::DistanceToHullAcceptable(DigitalRuby.AdvancedPolygonCollider.Vertices,UnityEngine.Vector2,System.Boolean)
-extern void TextureConverter_DistanceToHullAcceptable_m7F4105796BD12A64A1E40961B5E8840B35E3B512 (void);
-// 0x00000134 System.Boolean DigitalRuby.AdvancedPolygonCollider.TextureConverter::InPolygon(DigitalRuby.AdvancedPolygonCollider.Vertices,UnityEngine.Vector2)
-extern void TextureConverter_InPolygon_m576F4ED1A7759822436AD00B0DD1C3EF96F2F34F (void);
-// 0x00000135 System.Nullable`1<UnityEngine.Vector2> DigitalRuby.AdvancedPolygonCollider.TextureConverter::GetTopMostVertex(DigitalRuby.AdvancedPolygonCollider.Vertices)
-extern void TextureConverter_GetTopMostVertex_mC7FBC065C479E681C1688B33461AA85A7FEEC691 (void);
-// 0x00000136 System.Single DigitalRuby.AdvancedPolygonCollider.TextureConverter::GetTopMostCoord(DigitalRuby.AdvancedPolygonCollider.Vertices)
-extern void TextureConverter_GetTopMostCoord_m4F5F99FB4FD146E2CCEE00CFB8D2ADE92DB1CD44 (void);
-// 0x00000137 System.Single DigitalRuby.AdvancedPolygonCollider.TextureConverter::GetBottomMostCoord(DigitalRuby.AdvancedPolygonCollider.Vertices)
-extern void TextureConverter_GetBottomMostCoord_m1313046FF6FC5AC16F2F13896F5516BD2E73598E (void);
-// 0x00000138 System.Collections.Generic.List`1<System.Single> DigitalRuby.AdvancedPolygonCollider.TextureConverter::SearchCrossingEdgesHoles(DigitalRuby.AdvancedPolygonCollider.Vertices,System.Int32)
-extern void TextureConverter_SearchCrossingEdgesHoles_mD08822BD02372B9F2BC19DA565FDBAAEF3798A70 (void);
-// 0x00000139 System.Collections.Generic.List`1<System.Single> DigitalRuby.AdvancedPolygonCollider.TextureConverter::SearchCrossingEdges(DigitalRuby.AdvancedPolygonCollider.Vertices,System.Int32)
-extern void TextureConverter_SearchCrossingEdges_m1030F9D89C1B1869431F54EC4797CDEF06D1F9D3 (void);
-// 0x0000013A System.Boolean DigitalRuby.AdvancedPolygonCollider.TextureConverter::SplitPolygonEdge(DigitalRuby.AdvancedPolygonCollider.Vertices,UnityEngine.Vector2,System.Int32&,System.Int32&)
-extern void TextureConverter_SplitPolygonEdge_mABA845A80C0EFC492120E004487CE950D5E11BE4 (void);
-// 0x0000013B DigitalRuby.AdvancedPolygonCollider.Vertices DigitalRuby.AdvancedPolygonCollider.TextureConverter::CreateSimplePolygon(UnityEngine.Vector2,UnityEngine.Vector2)
-extern void TextureConverter_CreateSimplePolygon_m2A7AA39AAB4191A14F6890F4E87C751F09E0BBD1 (void);
-// 0x0000013C System.Boolean DigitalRuby.AdvancedPolygonCollider.TextureConverter::SearchNearPixels(System.Boolean,UnityEngine.Vector2&,UnityEngine.Vector2&)
-extern void TextureConverter_SearchNearPixels_m14122BD0066F1EE08544CD77F05983560F3D88E6 (void);
-// 0x0000013D System.Boolean DigitalRuby.AdvancedPolygonCollider.TextureConverter::IsNearPixel(UnityEngine.Vector2&,UnityEngine.Vector2&)
-extern void TextureConverter_IsNearPixel_m06B38D81D240F2B92DFB514A8C05FB6BF2B5D817 (void);
-// 0x0000013E System.Boolean DigitalRuby.AdvancedPolygonCollider.TextureConverter::SearchHullEntrance(UnityEngine.Vector2&)
-extern void TextureConverter_SearchHullEntrance_m69CA5E27D28EC82184D34E50786E4D5BFCF2B7CB (void);
-// 0x0000013F System.Boolean DigitalRuby.AdvancedPolygonCollider.TextureConverter::SearchNextHullEntrance(System.Collections.Generic.List`1<DigitalRuby.AdvancedPolygonCollider.Vertices>,UnityEngine.Vector2,System.Nullable`1<UnityEngine.Vector2>&)
-extern void TextureConverter_SearchNextHullEntrance_m5BB302D854C17F20680AFEF53B96AFD13015E988 (void);
-// 0x00000140 System.Boolean DigitalRuby.AdvancedPolygonCollider.TextureConverter::GetNextHullPoint(UnityEngine.Vector2&,UnityEngine.Vector2&,UnityEngine.Vector2&)
-extern void TextureConverter_GetNextHullPoint_mF8225E2EAC0150E2911235B12BAEA7A93E94B3C5 (void);
-// 0x00000141 System.Boolean DigitalRuby.AdvancedPolygonCollider.TextureConverter::SearchForOutstandingVertex(DigitalRuby.AdvancedPolygonCollider.Vertices,UnityEngine.Vector2&)
-extern void TextureConverter_SearchForOutstandingVertex_m75FF6F52D638AC175908166F0B52C813BA39F2B9 (void);
-// 0x00000142 System.Int32 DigitalRuby.AdvancedPolygonCollider.TextureConverter::GetIndexOfFirstPixelToCheck(UnityEngine.Vector2&,UnityEngine.Vector2&)
-extern void TextureConverter_GetIndexOfFirstPixelToCheck_m41A0BFCD4D45C1F0E56AED7056F7A12CBABE59B5 (void);
-// 0x00000143 System.Void DigitalRuby.AdvancedPolygonCollider.TextureConverter::.ctor()
-extern void TextureConverter__ctor_m1E8CD4E5D28016F56A41C8170504BF6D254BC342 (void);
-// 0x00000144 System.Void DigitalRuby.AdvancedPolygonCollider.TextureConverter::.cctor()
-extern void TextureConverter__cctor_m12F892B62C512AB5FCF796CC92C45BBDF4CF97D5 (void);
-// 0x00000145 System.Void DigitalRuby.AdvancedPolygonCollider.Vertices::.ctor()
-extern void Vertices__ctor_mD70DFAE24B2C7D7DB83EDDC8CC3A108080603705 (void);
-// 0x00000146 System.Void DigitalRuby.AdvancedPolygonCollider.Vertices::.ctor(System.Int32)
-extern void Vertices__ctor_m3FC1DEB51D9B20B6CEFAFF516386EB8E16560ADA (void);
-// 0x00000147 System.Void DigitalRuby.AdvancedPolygonCollider.Vertices::.ctor(System.Collections.Generic.IEnumerable`1<UnityEngine.Vector2>)
-extern void Vertices__ctor_m5496E06F5EF55A801CED3F14DB2E84993ECEFD79 (void);
-// 0x00000148 System.Int32 DigitalRuby.AdvancedPolygonCollider.Vertices::NextIndex(System.Int32)
-extern void Vertices_NextIndex_m66258D777C323B28839780421B89F288C3E96492 (void);
-// 0x00000149 UnityEngine.Vector2 DigitalRuby.AdvancedPolygonCollider.Vertices::NextVertex(System.Int32)
-extern void Vertices_NextVertex_mCF3E7D224C3DCB3C031FA4F13D49BAA947C38D3A (void);
-// 0x0000014A System.Int32 DigitalRuby.AdvancedPolygonCollider.Vertices::PreviousIndex(System.Int32)
-extern void Vertices_PreviousIndex_mA2B0830BD1FA2DD66BA4DD8C0F61FFC7940A841E (void);
-// 0x0000014B UnityEngine.Vector2 DigitalRuby.AdvancedPolygonCollider.Vertices::PreviousVertex(System.Int32)
-extern void Vertices_PreviousVertex_m23172F7D753EB368C820C9CE049D4FD33190DD86 (void);
-// 0x0000014C System.String DigitalRuby.AdvancedPolygonCollider.Vertices::ToString()
-extern void Vertices_ToString_mB831E5CAD6D359E664AD50C0C59438CDA6DCC092 (void);
-// 0x0000014D System.Single DigitalRuby.AdvancedPolygonCollider.LineTools::DistanceBetweenPointAndLineSegment(UnityEngine.Vector2&,UnityEngine.Vector2&,UnityEngine.Vector2&)
-extern void LineTools_DistanceBetweenPointAndLineSegment_m68FFC5BCF55DB4E5887EEC6C0E7F9049154AA013 (void);
-// 0x0000014E System.Boolean DigitalRuby.AdvancedPolygonCollider.LineTools::LineIntersect2(UnityEngine.Vector2&,UnityEngine.Vector2&,UnityEngine.Vector2&,UnityEngine.Vector2&,UnityEngine.Vector2&)
-extern void LineTools_LineIntersect2_mCE89CFFCAE9BBD31DB8C6D36F38423441B653ED7 (void);
-// 0x0000014F UnityEngine.Vector2 DigitalRuby.AdvancedPolygonCollider.LineTools::LineIntersect(UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2)
-extern void LineTools_LineIntersect_m48D9B4248B465DD17AEC4620C6B943DE529C707F (void);
-// 0x00000150 System.Boolean DigitalRuby.AdvancedPolygonCollider.LineTools::LineIntersect(UnityEngine.Vector2&,UnityEngine.Vector2&,UnityEngine.Vector2&,UnityEngine.Vector2&,System.Boolean,System.Boolean,UnityEngine.Vector2&)
-extern void LineTools_LineIntersect_m4B349CA8126DC34425E8C468611B6C3464079C37 (void);
-// 0x00000151 System.Boolean DigitalRuby.AdvancedPolygonCollider.LineTools::LineIntersect(UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2,System.Boolean,System.Boolean,UnityEngine.Vector2&)
-extern void LineTools_LineIntersect_m39D845F9864DA96731388110ED434BB58F54AD54 (void);
-// 0x00000152 System.Boolean DigitalRuby.AdvancedPolygonCollider.LineTools::LineIntersect(UnityEngine.Vector2&,UnityEngine.Vector2&,UnityEngine.Vector2&,UnityEngine.Vector2&,UnityEngine.Vector2&)
-extern void LineTools_LineIntersect_m6542DCCD73E941CB275D858F1D75CF8095C44976 (void);
-// 0x00000153 System.Boolean DigitalRuby.AdvancedPolygonCollider.LineTools::LineIntersect(UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2&)
-extern void LineTools_LineIntersect_m54306A566152E054507F227C718AFBBAB88591AF (void);
-// 0x00000154 DigitalRuby.AdvancedPolygonCollider.Vertices DigitalRuby.AdvancedPolygonCollider.LineTools::LineSegmentVerticesIntersect(UnityEngine.Vector2&,UnityEngine.Vector2&,DigitalRuby.AdvancedPolygonCollider.Vertices)
-extern void LineTools_LineSegmentVerticesIntersect_mF18A29B1DF2521D4F73E708F6491DAD08C0A1358 (void);
-// 0x00000155 UnityEngine.Vector2 DigitalRuby.AdvancedPolygonCollider.BayazitDecomposer::At(System.Int32,System.Collections.Generic.List`1<UnityEngine.Vector2>)
-extern void BayazitDecomposer_At_m87A20C63C4FC49A68D0089F61CCAD1877C9458D5 (void);
-// 0x00000156 System.Collections.Generic.List`1<UnityEngine.Vector2> DigitalRuby.AdvancedPolygonCollider.BayazitDecomposer::Copy(System.Int32,System.Int32,System.Collections.Generic.List`1<UnityEngine.Vector2>)
-extern void BayazitDecomposer_Copy_m7A2C11AB8EDFAC9E957BCF71E4EE03C56B54A452 (void);
-// 0x00000157 System.Collections.Generic.List`1<System.Collections.Generic.List`1<UnityEngine.Vector2>> DigitalRuby.AdvancedPolygonCollider.BayazitDecomposer::ConvexPartition(System.Collections.Generic.List`1<UnityEngine.Vector2>)
-extern void BayazitDecomposer_ConvexPartition_m36D66B783F0DC797B8F506BBE01C8DBCF1B48E25 (void);
-// 0x00000158 System.Boolean DigitalRuby.AdvancedPolygonCollider.BayazitDecomposer::CanSee(System.Int32,System.Int32,System.Collections.Generic.List`1<UnityEngine.Vector2>)
-extern void BayazitDecomposer_CanSee_m623452CBC4D5498237364482D0DF0D58BB87226D (void);
-// 0x00000159 System.Boolean DigitalRuby.AdvancedPolygonCollider.BayazitDecomposer::Reflex(System.Int32,System.Collections.Generic.List`1<UnityEngine.Vector2>)
-extern void BayazitDecomposer_Reflex_mB2F62CB560422EA9D8B79E5561FE6CC957A3ACA3 (void);
-// 0x0000015A System.Boolean DigitalRuby.AdvancedPolygonCollider.BayazitDecomposer::Right(System.Int32,System.Collections.Generic.List`1<UnityEngine.Vector2>)
-extern void BayazitDecomposer_Right_mC5AD319CB24E6C25974556BCC7CE513F90EAB431 (void);
-// 0x0000015B System.Boolean DigitalRuby.AdvancedPolygonCollider.BayazitDecomposer::Left(UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2)
-extern void BayazitDecomposer_Left_m8997F26D6038DC2903519D0FA1918461CAC3268C (void);
-// 0x0000015C System.Boolean DigitalRuby.AdvancedPolygonCollider.BayazitDecomposer::LeftOn(UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2)
-extern void BayazitDecomposer_LeftOn_mC0C4D0B1A734F9DB940BDCB7BDB50E32D5AF3B96 (void);
-// 0x0000015D System.Boolean DigitalRuby.AdvancedPolygonCollider.BayazitDecomposer::Right(UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2)
-extern void BayazitDecomposer_Right_m49BD38C946A2BE33D35B72BAF94991FA28522D55 (void);
-// 0x0000015E System.Boolean DigitalRuby.AdvancedPolygonCollider.BayazitDecomposer::RightOn(UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2)
-extern void BayazitDecomposer_RightOn_mD4CC05FF1FEE15DE0C43984C4513A172F2EB1173 (void);
-// 0x0000015F System.Single DigitalRuby.AdvancedPolygonCollider.BayazitDecomposer::SquareDist(UnityEngine.Vector2,UnityEngine.Vector2)
-extern void BayazitDecomposer_SquareDist_mB182C7B5329BB4F229428DD3D212B428C4B01039 (void);
-// 0x00000160 System.Void DigitalRuby.AdvancedPolygonCollider.BayazitDecomposer::ForceCounterClockWise(System.Collections.Generic.List`1<UnityEngine.Vector2>)
-extern void BayazitDecomposer_ForceCounterClockWise_m3094E130141B5875ED60645A381D108E87E178F5 (void);
-// 0x00000161 System.Boolean DigitalRuby.AdvancedPolygonCollider.BayazitDecomposer::IsCounterClockWise(System.Collections.Generic.List`1<UnityEngine.Vector2>)
-extern void BayazitDecomposer_IsCounterClockWise_mDD29FA1EE902FD21C12827A07E9E08C53D2490A4 (void);
-// 0x00000162 System.Single DigitalRuby.AdvancedPolygonCollider.BayazitDecomposer::GetSignedArea(System.Collections.Generic.List`1<UnityEngine.Vector2>)
-extern void BayazitDecomposer_GetSignedArea_m0472823472DB2DDF610F083EA754BBA937FC375D (void);
-// 0x00000163 UnityEngine.Vector2 DigitalRuby.AdvancedPolygonCollider.BayazitDecomposer::LineIntersect(UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2)
-extern void BayazitDecomposer_LineIntersect_mFB006CE7993AFFC1ED883B9D63ACDC8CF6F8E4C2 (void);
-// 0x00000164 System.Boolean DigitalRuby.AdvancedPolygonCollider.BayazitDecomposer::LineIntersect2(UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2&)
-extern void BayazitDecomposer_LineIntersect2_m76EA1C29985076DBF4B538D8538E9191E9335E38 (void);
-// 0x00000165 System.Boolean DigitalRuby.AdvancedPolygonCollider.BayazitDecomposer::FloatEquals(System.Single,System.Single)
-extern void BayazitDecomposer_FloatEquals_m5D9E1ADF8FA7C311F7662EDC35E8A223D7FF1712 (void);
-// 0x00000166 System.Single DigitalRuby.AdvancedPolygonCollider.BayazitDecomposer::Area(UnityEngine.Vector2&,UnityEngine.Vector2&,UnityEngine.Vector2&)
-extern void BayazitDecomposer_Area_m8EFDDEC34951252AAFF01CA3CCA18E605CEE40F5 (void);
-// 0x00000167 DigitalRuby.AdvancedPolygonCollider.Vertices DigitalRuby.AdvancedPolygonCollider.SimplifyTools::DouglasPeuckerSimplify(DigitalRuby.AdvancedPolygonCollider.Vertices,System.Single)
-extern void SimplifyTools_DouglasPeuckerSimplify_m3B0B11A961685F1B131AC0B2794CEE848D126C62 (void);
-// 0x00000168 System.Void DigitalRuby.AdvancedPolygonCollider.SimplifyTools::SimplifySection(DigitalRuby.AdvancedPolygonCollider.Vertices,System.Int32,System.Int32,System.Boolean[],System.Single)
-extern void SimplifyTools_SimplifySection_mA7BF442106BB206B5C09ED7F509F3B1042FD9986 (void);
-// 0x00000169 System.Single DigitalRuby.AdvancedPolygonCollider.SimplifyTools::Cross(UnityEngine.Vector2&,UnityEngine.Vector2&)
-extern void SimplifyTools_Cross_m62A06055B70F56C50FD4A3B8680A9EE11B9A5FE5 (void);
-// 0x0000016A DigitalRuby.AdvancedPolygonCollider.Vertices DigitalRuby.AdvancedPolygonCollider.SimplifyTools::MergeParallelEdges(DigitalRuby.AdvancedPolygonCollider.Vertices,System.Single)
-extern void SimplifyTools_MergeParallelEdges_m629FDEA54D5727223FBB1909FDF339F97A938AC3 (void);
-// 0x0000016B DigitalRuby.AdvancedPolygonCollider.Vertices DigitalRuby.AdvancedPolygonCollider.SimplifyTools::MergeIdenticalPoints(DigitalRuby.AdvancedPolygonCollider.Vertices)
-extern void SimplifyTools_MergeIdenticalPoints_m273CA5174892E5B1854435BCEAAFA683F225FA45 (void);
-// 0x0000016C DigitalRuby.AdvancedPolygonCollider.Vertices DigitalRuby.AdvancedPolygonCollider.SimplifyTools::ReduceByDistance(DigitalRuby.AdvancedPolygonCollider.Vertices,System.Single)
-extern void SimplifyTools_ReduceByDistance_mB28ED2C9430EDCAB341C187AAB9CCB7C5197B85B (void);
-// 0x0000016D DigitalRuby.AdvancedPolygonCollider.Vertices DigitalRuby.AdvancedPolygonCollider.SimplifyTools::ReduceByNth(DigitalRuby.AdvancedPolygonCollider.Vertices,System.Int32)
-extern void SimplifyTools_ReduceByNth_m44DF30B6CC6A393EC4E68770ECCEB7BAF4C64F14 (void);
-// 0x0000016E DigitalRuby.AdvancedPolygonCollider.Vertices DigitalRuby.AdvancedPolygonCollider.SimplifyTools::ReduceByArea(DigitalRuby.AdvancedPolygonCollider.Vertices,System.Single)
-extern void SimplifyTools_ReduceByArea_mB5DC8C7667D58A6B7E737E5A6BBD4C56384CF2A8 (void);
-static Il2CppMethodPointer s_methodPointers[366] = 
+static Il2CppMethodPointer s_methodPointers[282] = 
 {
 	GameManager_Start_m87A71D65F3171A58DBDDBFB03832ADA65643D0E2,
 	GameManager_Update_m7F29D8E933B8D21D2E67507979C0F12ACF87BB41,
@@ -1028,479 +860,300 @@ static Il2CppMethodPointer s_methodPointers[366] =
 	U3CWarpTextU3Ed__8_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mD80368E9B7E259311C03E406B75161ED6F7618E3,
 	U3CWarpTextU3Ed__8_System_Collections_IEnumerator_Reset_m07746C332D2D8CE5DEA59873C26F2FAD4B369B42,
 	U3CWarpTextU3Ed__8_System_Collections_IEnumerator_get_Current_m71D7F84D9DEF63BEC6B44866515DDCF35B142A19,
-	PolygonParameters_GetHashCode_m6CB438A17DB0C85F8D605029F52D12476938C816,
-	PolygonParameters_Equals_m88889DFCC400B3DF3D4522407AF2F98EA30EA81C,
-	AdvancedPolygonCollider_Awake_m010DDF682F4ADF75FCCB81C7CC92D3D0ADA253F6,
-	AdvancedPolygonCollider_Start_mF6D4DE1C678DB7EF7DDD84580288633B5528240D,
-	AdvancedPolygonCollider_UpdateDirtyState_m7002A14B4137406EBFDF5B15187E7D1CAEBC22B5,
-	AdvancedPolygonCollider_Update_m368481177BD6425183958BB86C884D182424BEA0,
-	AdvancedPolygonCollider_RecalculatePolygon_m3E343E6B66A242DA2A98E4C6DF944C7644174319,
-	AdvancedPolygonCollider_UpdatePolygonCollider_m16CB7823C97F659D3B0A8ACB0E46ABC2FC6FC92D,
-	AdvancedPolygonCollider_get_VerticesCount_mEC9F3A2FB7F965AEC3954E3C45C411E819321509,
-	AdvancedPolygonCollider_PopulateCollider_m4CEDC7920A7B080BDB6F6E0F41FF63C84DFA44EA,
-	AdvancedPolygonCollider_ProcessVertices_m98B2CDC6AA45C308DC642C463607AEEA6C100955,
-	AdvancedPolygonCollider__ctor_mA086F8DF323A5046C398C0591B059090B283BB14,
-	AdvancedPolygonCollider__cctor_mB06BA13727228E3A2E07BCFEBE2DE983712BFDB3,
-	CacheKey_GetHashCode_mC10BD232370573C6286506AE5D9BB89CEB5B4AF8,
-	CacheKey_Equals_m20869E94490B9065B21A1CF2DBD5EF10AD40F3EA,
-	TextureConverter_DetectVertices_mBEBE7BDFEF25C1EB7E4395FAD1E5072BDD2CA227,
-	TextureConverter_DetectVertices_mEA2B0FD114AAD9FEC535B391CD4CB4191BA914BB,
-	TextureConverter_ApplyTriangulationCompatibleWinding_m3099CAB103FC7614DDAA27DB402BD5E5E178A65D,
-	TextureConverter_IsSolid_mBA5B4371F88FB8896469B248D9E3E1DC99707A35,
-	TextureConverter_IsSolid_m987B7F0FE0B4DEB78A044005888402CD576B6634,
-	TextureConverter_IsSolid_m2ADD94FC0DFB529AD10D95C665AE38E5019E482F,
-	TextureConverter_InBounds_m4AA7939504F7D2236C24F603FFBC1755D9CCEB8A,
-	TextureConverter_SearchHoleEntrance_mF0A910B55FA5A52E375BE3D55C5F60513516A4FC,
-	TextureConverter_DistanceToHullAcceptableHoles_mEF12135C789F6624BC5E84FB189FD2122D7610D9,
-	TextureConverter_DistanceToHullAcceptable_m7F4105796BD12A64A1E40961B5E8840B35E3B512,
-	TextureConverter_InPolygon_m576F4ED1A7759822436AD00B0DD1C3EF96F2F34F,
-	TextureConverter_GetTopMostVertex_mC7FBC065C479E681C1688B33461AA85A7FEEC691,
-	TextureConverter_GetTopMostCoord_m4F5F99FB4FD146E2CCEE00CFB8D2ADE92DB1CD44,
-	TextureConverter_GetBottomMostCoord_m1313046FF6FC5AC16F2F13896F5516BD2E73598E,
-	TextureConverter_SearchCrossingEdgesHoles_mD08822BD02372B9F2BC19DA565FDBAAEF3798A70,
-	TextureConverter_SearchCrossingEdges_m1030F9D89C1B1869431F54EC4797CDEF06D1F9D3,
-	TextureConverter_SplitPolygonEdge_mABA845A80C0EFC492120E004487CE950D5E11BE4,
-	TextureConverter_CreateSimplePolygon_m2A7AA39AAB4191A14F6890F4E87C751F09E0BBD1,
-	TextureConverter_SearchNearPixels_m14122BD0066F1EE08544CD77F05983560F3D88E6,
-	TextureConverter_IsNearPixel_m06B38D81D240F2B92DFB514A8C05FB6BF2B5D817,
-	TextureConverter_SearchHullEntrance_m69CA5E27D28EC82184D34E50786E4D5BFCF2B7CB,
-	TextureConverter_SearchNextHullEntrance_m5BB302D854C17F20680AFEF53B96AFD13015E988,
-	TextureConverter_GetNextHullPoint_mF8225E2EAC0150E2911235B12BAEA7A93E94B3C5,
-	TextureConverter_SearchForOutstandingVertex_m75FF6F52D638AC175908166F0B52C813BA39F2B9,
-	TextureConverter_GetIndexOfFirstPixelToCheck_m41A0BFCD4D45C1F0E56AED7056F7A12CBABE59B5,
-	TextureConverter__ctor_m1E8CD4E5D28016F56A41C8170504BF6D254BC342,
-	TextureConverter__cctor_m12F892B62C512AB5FCF796CC92C45BBDF4CF97D5,
-	Vertices__ctor_mD70DFAE24B2C7D7DB83EDDC8CC3A108080603705,
-	Vertices__ctor_m3FC1DEB51D9B20B6CEFAFF516386EB8E16560ADA,
-	Vertices__ctor_m5496E06F5EF55A801CED3F14DB2E84993ECEFD79,
-	Vertices_NextIndex_m66258D777C323B28839780421B89F288C3E96492,
-	Vertices_NextVertex_mCF3E7D224C3DCB3C031FA4F13D49BAA947C38D3A,
-	Vertices_PreviousIndex_mA2B0830BD1FA2DD66BA4DD8C0F61FFC7940A841E,
-	Vertices_PreviousVertex_m23172F7D753EB368C820C9CE049D4FD33190DD86,
-	Vertices_ToString_mB831E5CAD6D359E664AD50C0C59438CDA6DCC092,
-	LineTools_DistanceBetweenPointAndLineSegment_m68FFC5BCF55DB4E5887EEC6C0E7F9049154AA013,
-	LineTools_LineIntersect2_mCE89CFFCAE9BBD31DB8C6D36F38423441B653ED7,
-	LineTools_LineIntersect_m48D9B4248B465DD17AEC4620C6B943DE529C707F,
-	LineTools_LineIntersect_m4B349CA8126DC34425E8C468611B6C3464079C37,
-	LineTools_LineIntersect_m39D845F9864DA96731388110ED434BB58F54AD54,
-	LineTools_LineIntersect_m6542DCCD73E941CB275D858F1D75CF8095C44976,
-	LineTools_LineIntersect_m54306A566152E054507F227C718AFBBAB88591AF,
-	LineTools_LineSegmentVerticesIntersect_mF18A29B1DF2521D4F73E708F6491DAD08C0A1358,
-	BayazitDecomposer_At_m87A20C63C4FC49A68D0089F61CCAD1877C9458D5,
-	BayazitDecomposer_Copy_m7A2C11AB8EDFAC9E957BCF71E4EE03C56B54A452,
-	BayazitDecomposer_ConvexPartition_m36D66B783F0DC797B8F506BBE01C8DBCF1B48E25,
-	BayazitDecomposer_CanSee_m623452CBC4D5498237364482D0DF0D58BB87226D,
-	BayazitDecomposer_Reflex_mB2F62CB560422EA9D8B79E5561FE6CC957A3ACA3,
-	BayazitDecomposer_Right_mC5AD319CB24E6C25974556BCC7CE513F90EAB431,
-	BayazitDecomposer_Left_m8997F26D6038DC2903519D0FA1918461CAC3268C,
-	BayazitDecomposer_LeftOn_mC0C4D0B1A734F9DB940BDCB7BDB50E32D5AF3B96,
-	BayazitDecomposer_Right_m49BD38C946A2BE33D35B72BAF94991FA28522D55,
-	BayazitDecomposer_RightOn_mD4CC05FF1FEE15DE0C43984C4513A172F2EB1173,
-	BayazitDecomposer_SquareDist_mB182C7B5329BB4F229428DD3D212B428C4B01039,
-	BayazitDecomposer_ForceCounterClockWise_m3094E130141B5875ED60645A381D108E87E178F5,
-	BayazitDecomposer_IsCounterClockWise_mDD29FA1EE902FD21C12827A07E9E08C53D2490A4,
-	BayazitDecomposer_GetSignedArea_m0472823472DB2DDF610F083EA754BBA937FC375D,
-	BayazitDecomposer_LineIntersect_mFB006CE7993AFFC1ED883B9D63ACDC8CF6F8E4C2,
-	BayazitDecomposer_LineIntersect2_m76EA1C29985076DBF4B538D8538E9191E9335E38,
-	BayazitDecomposer_FloatEquals_m5D9E1ADF8FA7C311F7662EDC35E8A223D7FF1712,
-	BayazitDecomposer_Area_m8EFDDEC34951252AAFF01CA3CCA18E605CEE40F5,
-	SimplifyTools_DouglasPeuckerSimplify_m3B0B11A961685F1B131AC0B2794CEE848D126C62,
-	SimplifyTools_SimplifySection_mA7BF442106BB206B5C09ED7F509F3B1042FD9986,
-	SimplifyTools_Cross_m62A06055B70F56C50FD4A3B8680A9EE11B9A5FE5,
-	SimplifyTools_MergeParallelEdges_m629FDEA54D5727223FBB1909FDF339F97A938AC3,
-	SimplifyTools_MergeIdenticalPoints_m273CA5174892E5B1854435BCEAAFA683F225FA45,
-	SimplifyTools_ReduceByDistance_mB28ED2C9430EDCAB341C187AAB9CCB7C5197B85B,
-	SimplifyTools_ReduceByNth_m44DF30B6CC6A393EC4E68770ECCEB7BAF4C64F14,
-	SimplifyTools_ReduceByArea_mB5DC8C7667D58A6B7E737E5A6BBD4C56384CF2A8,
 };
-extern void PolygonParameters_GetHashCode_m6CB438A17DB0C85F8D605029F52D12476938C816_AdjustorThunk (void);
-extern void PolygonParameters_Equals_m88889DFCC400B3DF3D4522407AF2F98EA30EA81C_AdjustorThunk (void);
-extern void CacheKey_GetHashCode_mC10BD232370573C6286506AE5D9BB89CEB5B4AF8_AdjustorThunk (void);
-extern void CacheKey_Equals_m20869E94490B9065B21A1CF2DBD5EF10AD40F3EA_AdjustorThunk (void);
-static Il2CppTokenAdjustorThunkPair s_adjustorThunks[4] = 
+static const int32_t s_InvokerIndices[282] = 
 {
-	{ 0x0600011B, PolygonParameters_GetHashCode_m6CB438A17DB0C85F8D605029F52D12476938C816_AdjustorThunk },
-	{ 0x0600011C, PolygonParameters_Equals_m88889DFCC400B3DF3D4522407AF2F98EA30EA81C_AdjustorThunk },
-	{ 0x06000128, CacheKey_GetHashCode_mC10BD232370573C6286506AE5D9BB89CEB5B4AF8_AdjustorThunk },
-	{ 0x06000129, CacheKey_Equals_m20869E94490B9065B21A1CF2DBD5EF10AD40F3EA_AdjustorThunk },
-};
-static const int32_t s_InvokerIndices[366] = 
-{
-	7155,
-	7155,
-	7155,
-	7155,
-	7155,
-	5676,
-	5676,
-	7155,
-	7155,
-	7155,
-	7155,
-	7155,
-	7155,
-	5676,
-	7155,
-	7155,
-	7155,
-	5676,
-	7155,
-	7155,
-	7155,
-	7155,
-	7025,
-	7155,
-	5640,
-	7155,
-	6911,
-	7025,
-	7155,
-	7025,
-	7155,
-	7155,
-	1393,
-	7155,
-	1393,
-	7155,
-	7025,
-	5676,
-	7025,
-	5676,
-	7025,
-	5676,
-	7025,
-	5676,
-	7025,
-	5676,
-	7155,
-	7155,
-	5676,
-	5676,
-	3193,
-	3193,
-	1562,
-	1562,
-	1584,
-	7155,
-	7155,
-	7155,
-	7155,
-	7155,
-	7155,
-	7025,
-	7155,
-	5640,
-	7155,
-	6911,
-	7025,
-	7155,
-	7025,
-	7025,
-	7155,
-	5640,
-	7155,
-	6911,
-	7025,
-	7155,
-	7025,
-	7155,
-	7155,
-	7155,
-	7155,
-	7155,
-	7155,
-	7155,
-	7155,
-	7155,
-	7155,
-	7155,
-	7155,
-	7155,
-	7155,
-	7155,
-	7155,
-	7155,
-	7025,
-	7155,
-	5640,
-	7155,
-	6911,
-	7025,
-	7155,
-	7025,
-	7155,
-	7155,
-	7155,
-	7155,
-	7155,
-	5033,
-	7025,
-	7155,
-	5640,
-	7155,
-	6911,
-	7025,
-	7155,
-	7025,
-	7155,
-	7025,
-	7155,
-	5640,
-	7155,
-	6911,
-	7025,
-	7155,
-	7025,
-	7155,
-	7155,
-	7155,
-	7155,
-	5676,
-	5033,
-	5033,
-	7155,
-	5640,
-	7155,
-	6911,
-	7025,
-	7155,
-	7025,
-	5640,
-	7155,
-	6911,
-	7025,
-	7155,
-	7025,
-	7155,
-	7155,
-	7025,
-	7025,
-	7155,
-	12792,
-	5640,
-	7155,
-	6911,
-	7025,
-	7155,
-	7025,
-	5640,
-	7155,
-	6911,
-	7025,
-	7155,
-	7025,
-	7155,
-	7155,
-	7155,
-	7155,
-	5640,
-	7155,
-	7155,
-	7155,
-	7155,
-	7155,
-	7155,
-	7155,
-	5640,
-	7155,
-	7155,
-	7155,
-	3193,
-	3193,
-	1562,
-	1562,
-	1584,
-	7155,
-	7155,
-	7155,
-	7155,
-	5676,
-	5676,
-	7155,
-	7155,
-	7155,
-	7155,
-	5676,
-	7155,
-	5676,
-	5676,
-	5676,
-	5676,
-	5640,
-	7155,
-	7155,
-	7155,
-	7155,
-	5640,
-	7155,
-	7155,
-	7155,
-	7025,
-	7155,
-	5640,
-	7155,
-	6911,
-	7025,
-	7155,
-	7025,
-	7155,
-	7155,
-	7155,
-	7155,
-	5676,
-	7025,
-	7155,
-	5640,
-	7155,
-	6911,
-	7025,
-	7155,
-	7025,
-	7155,
-	7155,
-	7155,
-	7155,
-	5676,
-	7025,
-	7155,
-	5640,
-	7155,
-	6911,
-	7025,
-	7155,
-	7025,
-	7155,
-	7155,
-	7155,
-	7155,
-	5676,
-	7025,
-	7155,
-	5640,
-	7155,
-	6911,
-	7025,
-	7155,
-	7025,
-	7155,
-	7155,
-	7155,
-	7155,
-	5676,
-	7025,
-	7155,
-	7155,
-	2178,
-	5640,
-	7155,
-	6911,
-	7025,
-	7155,
-	7025,
-	7155,
-	7155,
-	5033,
-	7025,
-	7155,
-	5640,
-	7155,
-	6911,
-	7025,
-	7155,
-	7025,
-	6988,
-	4016,
-	7155,
-	7155,
-	7155,
-	7155,
-	7155,
-	5549,
-	6988,
-	3099,
-	473,
-	7155,
-	12792,
-	6988,
-	4016,
-	1354,
-	7025,
-	5549,
-	3877,
-	1853,
-	3979,
-	3877,
-	1749,
-	1266,
-	1266,
-	1912,
-	3483,
-	5137,
-	5137,
-	2440,
-	2440,
-	611,
-	2452,
-	1200,
-	1807,
-	3877,
-	1265,
-	1195,
-	1892,
-	2139,
-	7155,
-	12792,
-	7155,
-	5640,
-	5676,
-	4703,
-	5233,
-	4703,
-	5233,
-	7025,
-	9138,
-	7712,
-	8552,
-	7490,
-	7506,
-	7712,
-	7752,
-	9063,
-	10271,
-	9075,
-	11604,
-	8869,
-	9764,
-	9764,
-	8912,
-	8912,
-	8912,
-	8912,
-	10192,
-	11905,
-	11352,
-	11706,
-	8552,
-	7752,
-	9813,
-	9138,
-	10098,
-	8129,
-	10175,
-	10098,
-	11604,
-	10098,
-	10091,
-	10098,
+	7082,
+	7082,
+	7082,
+	7082,
+	7082,
+	5620,
+	5620,
+	7082,
+	7082,
+	7082,
+	7082,
+	7082,
+	7082,
+	5620,
+	7082,
+	7082,
+	7082,
+	5620,
+	7082,
+	7082,
+	7082,
+	7082,
+	6952,
+	7082,
+	5584,
+	7082,
+	6838,
+	6952,
+	7082,
+	6952,
+	7082,
+	7082,
+	1378,
+	7082,
+	1378,
+	7082,
+	6952,
+	5620,
+	6952,
+	5620,
+	6952,
+	5620,
+	6952,
+	5620,
+	6952,
+	5620,
+	7082,
+	7082,
+	5620,
+	5620,
+	3158,
+	3158,
+	1546,
+	1546,
+	1568,
+	7082,
+	7082,
+	7082,
+	7082,
+	7082,
+	7082,
+	6952,
+	7082,
+	5584,
+	7082,
+	6838,
+	6952,
+	7082,
+	6952,
+	6952,
+	7082,
+	5584,
+	7082,
+	6838,
+	6952,
+	7082,
+	6952,
+	7082,
+	7082,
+	7082,
+	7082,
+	7082,
+	7082,
+	7082,
+	7082,
+	7082,
+	7082,
+	7082,
+	7082,
+	7082,
+	7082,
+	7082,
+	7082,
+	7082,
+	6952,
+	7082,
+	5584,
+	7082,
+	6838,
+	6952,
+	7082,
+	6952,
+	7082,
+	7082,
+	7082,
+	7082,
+	7082,
+	4981,
+	6952,
+	7082,
+	5584,
+	7082,
+	6838,
+	6952,
+	7082,
+	6952,
+	7082,
+	6952,
+	7082,
+	5584,
+	7082,
+	6838,
+	6952,
+	7082,
+	6952,
+	7082,
+	7082,
+	7082,
+	7082,
+	5620,
+	4981,
+	4981,
+	7082,
+	5584,
+	7082,
+	6838,
+	6952,
+	7082,
+	6952,
+	5584,
+	7082,
+	6838,
+	6952,
+	7082,
+	6952,
+	7082,
+	7082,
+	6952,
+	6952,
+	7082,
+	12699,
+	5584,
+	7082,
+	6838,
+	6952,
+	7082,
+	6952,
+	5584,
+	7082,
+	6838,
+	6952,
+	7082,
+	6952,
+	7082,
+	7082,
+	7082,
+	7082,
+	5584,
+	7082,
+	7082,
+	7082,
+	7082,
+	7082,
+	7082,
+	7082,
+	5584,
+	7082,
+	7082,
+	7082,
+	3158,
+	3158,
+	1546,
+	1546,
+	1568,
+	7082,
+	7082,
+	7082,
+	7082,
+	5620,
+	5620,
+	7082,
+	7082,
+	7082,
+	7082,
+	5620,
+	7082,
+	5620,
+	5620,
+	5620,
+	5620,
+	5584,
+	7082,
+	7082,
+	7082,
+	7082,
+	5584,
+	7082,
+	7082,
+	7082,
+	6952,
+	7082,
+	5584,
+	7082,
+	6838,
+	6952,
+	7082,
+	6952,
+	7082,
+	7082,
+	7082,
+	7082,
+	5620,
+	6952,
+	7082,
+	5584,
+	7082,
+	6838,
+	6952,
+	7082,
+	6952,
+	7082,
+	7082,
+	7082,
+	7082,
+	5620,
+	6952,
+	7082,
+	5584,
+	7082,
+	6838,
+	6952,
+	7082,
+	6952,
+	7082,
+	7082,
+	7082,
+	7082,
+	5620,
+	6952,
+	7082,
+	5584,
+	7082,
+	6838,
+	6952,
+	7082,
+	6952,
+	7082,
+	7082,
+	7082,
+	7082,
+	5620,
+	6952,
+	7082,
+	7082,
+	2154,
+	5584,
+	7082,
+	6838,
+	6952,
+	7082,
+	6952,
+	7082,
+	7082,
+	4981,
+	6952,
+	7082,
+	5584,
+	7082,
+	6838,
+	6952,
+	7082,
+	6952,
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	366,
+	282,
 	s_methodPointers,
-	4,
-	s_adjustorThunks,
+	0,
+	NULL,
 	s_InvokerIndices,
 	0,
 	NULL,

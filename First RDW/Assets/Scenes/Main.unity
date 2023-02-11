@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18178095, g: 0.22745073, b: 0.30742174, a: 1}
+  m_IndirectSpecularColor: {r: 0.18178113, g: 0.22745088, b: 0.3074218, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2179,6 +2179,8 @@ MonoBehaviour:
   stick: {fileID: 857662589}
   Env: {fileID: 190541074}
   zigzag: {fileID: 713272765}
+  mainCamera: {fileID: 1820774766}
+  radius: 10
 --- !u!4 &1607188699
 Transform:
   m_ObjectHideFlags: 0
