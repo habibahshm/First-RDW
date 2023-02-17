@@ -1924,19 +1924,14 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float3x3__ctor_mA652DC011B89
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4__ctor_mB2F7F2D8BCE8159BEF5A0D6400499E211858ED2D (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float ___x0, float ___y1, float ___z2, float ___w3, const RuntimeMethod* method) 
 {
 	{
-		// this.x = x;
 		float L_0 = ___x0;
 		__this->___x_0 = L_0;
-		// this.y = y;
 		float L_1 = ___y1;
 		__this->___y_1 = L_1;
-		// this.z = z;
 		float L_2 = ___z2;
 		__this->___z_2 = L_2;
-		// this.w = w;
 		float L_3 = ___w3;
 		__this->___w_3 = L_3;
-		// }
 		return;
 	}
 }
@@ -1951,21 +1946,16 @@ IL2CPP_EXTERN_C  void float4__ctor_mB2F7F2D8BCE8159BEF5A0D6400499E211858ED2D_Adj
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4__ctor_m5D846AF169FF94E3EF16F1755147FF2BFFBA4D49 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float ___x0, float ___y1, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___zw2, const RuntimeMethod* method) 
 {
 	{
-		// this.x = x;
 		float L_0 = ___x0;
 		__this->___x_0 = L_0;
-		// this.y = y;
 		float L_1 = ___y1;
 		__this->___y_1 = L_1;
-		// this.z = zw.x;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_2 = ___zw2;
 		float L_3 = L_2.___x_0;
 		__this->___z_2 = L_3;
-		// this.w = zw.y;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_4 = ___zw2;
 		float L_5 = L_4.___y_1;
 		__this->___w_3 = L_5;
-		// }
 		return;
 	}
 }
@@ -1980,21 +1970,16 @@ IL2CPP_EXTERN_C  void float4__ctor_m5D846AF169FF94E3EF16F1755147FF2BFFBA4D49_Adj
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4__ctor_mE0127BF9C28C1E4C277B2A428629D4E169E5B54A (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float ___x0, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___yz1, float ___w2, const RuntimeMethod* method) 
 {
 	{
-		// this.x = x;
 		float L_0 = ___x0;
 		__this->___x_0 = L_0;
-		// this.y = yz.x;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_1 = ___yz1;
 		float L_2 = L_1.___x_0;
 		__this->___y_1 = L_2;
-		// this.z = yz.y;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_3 = ___yz1;
 		float L_4 = L_3.___y_1;
 		__this->___z_2 = L_4;
-		// this.w = w;
 		float L_5 = ___w2;
 		__this->___w_3 = L_5;
-		// }
 		return;
 	}
 }
@@ -2009,22 +1994,17 @@ IL2CPP_EXTERN_C  void float4__ctor_mE0127BF9C28C1E4C277B2A428629D4E169E5B54A_Adj
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4__ctor_mE1578C83CF9AE91C0503F565A0742AB8F23387D5 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float ___x0, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___yzw1, const RuntimeMethod* method) 
 {
 	{
-		// this.x = x;
 		float L_0 = ___x0;
 		__this->___x_0 = L_0;
-		// this.y = yzw.x;
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_1 = ___yzw1;
 		float L_2 = L_1.___x_0;
 		__this->___y_1 = L_2;
-		// this.z = yzw.y;
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_3 = ___yzw1;
 		float L_4 = L_3.___y_1;
 		__this->___z_2 = L_4;
-		// this.w = yzw.z;
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_5 = ___yzw1;
 		float L_6 = L_5.___z_2;
 		__this->___w_3 = L_6;
-		// }
 		return;
 	}
 }
@@ -2039,21 +2019,16 @@ IL2CPP_EXTERN_C  void float4__ctor_mE1578C83CF9AE91C0503F565A0742AB8F23387D5_Adj
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4__ctor_m2A6267BB3EF610ED0F833FD07322B70EA219E9C7 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___xy0, float ___z1, float ___w2, const RuntimeMethod* method) 
 {
 	{
-		// this.x = xy.x;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_0 = ___xy0;
 		float L_1 = L_0.___x_0;
 		__this->___x_0 = L_1;
-		// this.y = xy.y;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_2 = ___xy0;
 		float L_3 = L_2.___y_1;
 		__this->___y_1 = L_3;
-		// this.z = z;
 		float L_4 = ___z1;
 		__this->___z_2 = L_4;
-		// this.w = w;
 		float L_5 = ___w2;
 		__this->___w_3 = L_5;
-		// }
 		return;
 	}
 }
@@ -2068,23 +2043,18 @@ IL2CPP_EXTERN_C  void float4__ctor_m2A6267BB3EF610ED0F833FD07322B70EA219E9C7_Adj
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4__ctor_m062DCDEE8A8DFB587E88A4F1D18E7415B683CB00 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___xy0, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___zw1, const RuntimeMethod* method) 
 {
 	{
-		// this.x = xy.x;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_0 = ___xy0;
 		float L_1 = L_0.___x_0;
 		__this->___x_0 = L_1;
-		// this.y = xy.y;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_2 = ___xy0;
 		float L_3 = L_2.___y_1;
 		__this->___y_1 = L_3;
-		// this.z = zw.x;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_4 = ___zw1;
 		float L_5 = L_4.___x_0;
 		__this->___z_2 = L_5;
-		// this.w = zw.y;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_6 = ___zw1;
 		float L_7 = L_6.___y_1;
 		__this->___w_3 = L_7;
-		// }
 		return;
 	}
 }
@@ -2099,22 +2069,17 @@ IL2CPP_EXTERN_C  void float4__ctor_m062DCDEE8A8DFB587E88A4F1D18E7415B683CB00_Adj
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4__ctor_m2A21052EF06884F609D1CDA9A2C2ED84A7584345 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___xyz0, float ___w1, const RuntimeMethod* method) 
 {
 	{
-		// this.x = xyz.x;
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_0 = ___xyz0;
 		float L_1 = L_0.___x_0;
 		__this->___x_0 = L_1;
-		// this.y = xyz.y;
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_2 = ___xyz0;
 		float L_3 = L_2.___y_1;
 		__this->___y_1 = L_3;
-		// this.z = xyz.z;
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_4 = ___xyz0;
 		float L_5 = L_4.___z_2;
 		__this->___z_2 = L_5;
-		// this.w = w;
 		float L_6 = ___w1;
 		__this->___w_3 = L_6;
-		// }
 		return;
 	}
 }
@@ -2129,23 +2094,18 @@ IL2CPP_EXTERN_C  void float4__ctor_m2A21052EF06884F609D1CDA9A2C2ED84A7584345_Adj
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4__ctor_m5377E3019CD30E1ECB87AF0FC64300131C7AECF0 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___xyzw0, const RuntimeMethod* method) 
 {
 	{
-		// this.x = xyzw.x;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = ___xyzw0;
 		float L_1 = L_0.___x_0;
 		__this->___x_0 = L_1;
-		// this.y = xyzw.y;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2 = ___xyzw0;
 		float L_3 = L_2.___y_1;
 		__this->___y_1 = L_3;
-		// this.z = xyzw.z;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_4 = ___xyzw0;
 		float L_5 = L_4.___z_2;
 		__this->___z_2 = L_5;
-		// this.w = xyzw.w;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_6 = ___xyzw0;
 		float L_7 = L_6.___w_3;
 		__this->___w_3 = L_7;
-		// }
 		return;
 	}
 }
@@ -2160,19 +2120,14 @@ IL2CPP_EXTERN_C  void float4__ctor_m5377E3019CD30E1ECB87AF0FC64300131C7AECF0_Adj
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4__ctor_m103F8D391212FB2B0F01D09F7E9CCE4BDF0C7839 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float ___v0, const RuntimeMethod* method) 
 {
 	{
-		// this.x = v;
 		float L_0 = ___v0;
 		__this->___x_0 = L_0;
-		// this.y = v;
 		float L_1 = ___v0;
 		__this->___y_1 = L_1;
-		// this.z = v;
 		float L_2 = ___v0;
 		__this->___z_2 = L_2;
-		// this.w = v;
 		float L_3 = ___v0;
 		__this->___w_3 = L_3;
-		// }
 		return;
 	}
 }
@@ -2203,7 +2158,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4__ctor_m6B456D859102E9B43CC64217F2
 	float G_B12_0 = 0.0f;
 	float4_t89D9A294E7A79BD81BFBDD18654508532958555E* G_B12_1 = NULL;
 	{
-		// this.x = v ? 1.0f : 0.0f;
 		bool L_0 = ___v0;
 		G_B1_0 = __this;
 		if (L_0)
@@ -2227,7 +2181,6 @@ IL_000b:
 IL_0010:
 	{
 		G_B3_1->___x_0 = G_B3_0;
-		// this.y = v ? 1.0f : 0.0f;
 		bool L_1 = ___v0;
 		G_B4_0 = __this;
 		if (L_1)
@@ -2251,7 +2204,6 @@ IL_0020:
 IL_0025:
 	{
 		G_B6_1->___y_1 = G_B6_0;
-		// this.z = v ? 1.0f : 0.0f;
 		bool L_2 = ___v0;
 		G_B7_0 = __this;
 		if (L_2)
@@ -2275,7 +2227,6 @@ IL_0035:
 IL_003a:
 	{
 		G_B9_1->___z_2 = G_B9_0;
-		// this.w = v ? 1.0f : 0.0f;
 		bool L_3 = ___v0;
 		G_B10_0 = __this;
 		if (L_3)
@@ -2299,7 +2250,6 @@ IL_004a:
 IL_004f:
 	{
 		G_B12_1->___w_3 = G_B12_0;
-		// }
 		return;
 	}
 }
@@ -2330,7 +2280,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4__ctor_mDB676EF528732C882299801431
 	float G_B12_0 = 0.0f;
 	float4_t89D9A294E7A79BD81BFBDD18654508532958555E* G_B12_1 = NULL;
 	{
-		// this.x = v.x ? 1.0f : 0.0f;
 		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_0 = ___v0;
 		bool L_1 = L_0.___x_0;
 		G_B1_0 = __this;
@@ -2355,7 +2304,6 @@ IL_0010:
 IL_0015:
 	{
 		G_B3_1->___x_0 = G_B3_0;
-		// this.y = v.y ? 1.0f : 0.0f;
 		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_2 = ___v0;
 		bool L_3 = L_2.___y_1;
 		G_B4_0 = __this;
@@ -2380,7 +2328,6 @@ IL_002a:
 IL_002f:
 	{
 		G_B6_1->___y_1 = G_B6_0;
-		// this.z = v.z ? 1.0f : 0.0f;
 		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_4 = ___v0;
 		bool L_5 = L_4.___z_2;
 		G_B7_0 = __this;
@@ -2405,7 +2352,6 @@ IL_0044:
 IL_0049:
 	{
 		G_B9_1->___z_2 = G_B9_0;
-		// this.w = v.w ? 1.0f : 0.0f;
 		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_6 = ___v0;
 		bool L_7 = L_6.___w_3;
 		G_B10_0 = __this;
@@ -2430,7 +2376,6 @@ IL_005e:
 IL_0063:
 	{
 		G_B12_1->___w_3 = G_B12_0;
-		// }
 		return;
 	}
 }
@@ -2445,19 +2390,14 @@ IL2CPP_EXTERN_C  void float4__ctor_mDB676EF528732C882299801431716AAFBEE25DE6_Adj
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4__ctor_m72B2617C7A1E41F3FB190167B6A5F0C6BA1D9E26 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, int32_t ___v0, const RuntimeMethod* method) 
 {
 	{
-		// this.x = v;
 		int32_t L_0 = ___v0;
 		__this->___x_0 = ((float)L_0);
-		// this.y = v;
 		int32_t L_1 = ___v0;
 		__this->___y_1 = ((float)L_1);
-		// this.z = v;
 		int32_t L_2 = ___v0;
 		__this->___z_2 = ((float)L_2);
-		// this.w = v;
 		int32_t L_3 = ___v0;
 		__this->___w_3 = ((float)L_3);
-		// }
 		return;
 	}
 }
@@ -2472,23 +2412,18 @@ IL2CPP_EXTERN_C  void float4__ctor_m72B2617C7A1E41F3FB190167B6A5F0C6BA1D9E26_Adj
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4__ctor_mDE7B1FCF1C1895705616AB2D0C0ED42422743D1D (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, int4_tBA77D4945786DE82C3A487B33955EA1004996052 ___v0, const RuntimeMethod* method) 
 {
 	{
-		// this.x = v.x;
 		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_0 = ___v0;
 		int32_t L_1 = L_0.___x_0;
 		__this->___x_0 = ((float)L_1);
-		// this.y = v.y;
 		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_2 = ___v0;
 		int32_t L_3 = L_2.___y_1;
 		__this->___y_1 = ((float)L_3);
-		// this.z = v.z;
 		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_4 = ___v0;
 		int32_t L_5 = L_4.___z_2;
 		__this->___z_2 = ((float)L_5);
-		// this.w = v.w;
 		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_6 = ___v0;
 		int32_t L_7 = L_6.___w_3;
 		__this->___w_3 = ((float)L_7);
-		// }
 		return;
 	}
 }
@@ -2503,19 +2438,14 @@ IL2CPP_EXTERN_C  void float4__ctor_mDE7B1FCF1C1895705616AB2D0C0ED42422743D1D_Adj
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4__ctor_m0E4D8C9D9051CF73ED7A572495A9585896FB09EC (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, uint32_t ___v0, const RuntimeMethod* method) 
 {
 	{
-		// this.x = v;
 		uint32_t L_0 = ___v0;
 		__this->___x_0 = ((float)((double)(uint32_t)L_0));
-		// this.y = v;
 		uint32_t L_1 = ___v0;
 		__this->___y_1 = ((float)((double)(uint32_t)L_1));
-		// this.z = v;
 		uint32_t L_2 = ___v0;
 		__this->___z_2 = ((float)((double)(uint32_t)L_2));
-		// this.w = v;
 		uint32_t L_3 = ___v0;
 		__this->___w_3 = ((float)((double)(uint32_t)L_3));
-		// }
 		return;
 	}
 }
@@ -2530,23 +2460,18 @@ IL2CPP_EXTERN_C  void float4__ctor_m0E4D8C9D9051CF73ED7A572495A9585896FB09EC_Adj
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4__ctor_m79386B3F45D2C76926D4AC54F5D57C7BC0192B9A (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 ___v0, const RuntimeMethod* method) 
 {
 	{
-		// this.x = v.x;
 		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_0 = ___v0;
 		uint32_t L_1 = L_0.___x_0;
 		__this->___x_0 = ((float)((double)(uint32_t)L_1));
-		// this.y = v.y;
 		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_2 = ___v0;
 		uint32_t L_3 = L_2.___y_1;
 		__this->___y_1 = ((float)((double)(uint32_t)L_3));
-		// this.z = v.z;
 		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_4 = ___v0;
 		uint32_t L_5 = L_4.___z_2;
 		__this->___z_2 = ((float)((double)(uint32_t)L_5));
-		// this.w = v.w;
 		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_6 = ___v0;
 		uint32_t L_7 = L_6.___w_3;
 		__this->___w_3 = ((float)((double)(uint32_t)L_7));
-		// }
 		return;
 	}
 }
@@ -2561,27 +2486,22 @@ IL2CPP_EXTERN_C  void float4__ctor_m79386B3F45D2C76926D4AC54F5D57C7BC0192B9A_Adj
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4__ctor_m22048628BEDCF4B12C0CFC9F1536192563D7A3F9 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, half_tE8A6792149696F478D662DD4B736964C0FF018AF ___v0, const RuntimeMethod* method) 
 {
 	{
-		// this.x = v;
 		half_tE8A6792149696F478D662DD4B736964C0FF018AF L_0 = ___v0;
 		float L_1;
 		L_1 = half_op_Implicit_mCF67502DEA255982F0292914D6E06ED5823A9675_inline(L_0, NULL);
 		__this->___x_0 = L_1;
-		// this.y = v;
 		half_tE8A6792149696F478D662DD4B736964C0FF018AF L_2 = ___v0;
 		float L_3;
 		L_3 = half_op_Implicit_mCF67502DEA255982F0292914D6E06ED5823A9675_inline(L_2, NULL);
 		__this->___y_1 = L_3;
-		// this.z = v;
 		half_tE8A6792149696F478D662DD4B736964C0FF018AF L_4 = ___v0;
 		float L_5;
 		L_5 = half_op_Implicit_mCF67502DEA255982F0292914D6E06ED5823A9675_inline(L_4, NULL);
 		__this->___z_2 = L_5;
-		// this.w = v;
 		half_tE8A6792149696F478D662DD4B736964C0FF018AF L_6 = ___v0;
 		float L_7;
 		L_7 = half_op_Implicit_mCF67502DEA255982F0292914D6E06ED5823A9675_inline(L_6, NULL);
 		__this->___w_3 = L_7;
-		// }
 		return;
 	}
 }
@@ -2596,31 +2516,26 @@ IL2CPP_EXTERN_C  void float4__ctor_m22048628BEDCF4B12C0CFC9F1536192563D7A3F9_Adj
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4__ctor_m01CCEB586EAAE29F243B120FB95B6965EA2F1E53 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, half4_t69CC75C393FD0ED1CEFC8B6F1C0FBE7746CF9826 ___v0, const RuntimeMethod* method) 
 {
 	{
-		// this.x = v.x;
 		half4_t69CC75C393FD0ED1CEFC8B6F1C0FBE7746CF9826 L_0 = ___v0;
 		half_tE8A6792149696F478D662DD4B736964C0FF018AF L_1 = L_0.___x_0;
 		float L_2;
 		L_2 = half_op_Implicit_mCF67502DEA255982F0292914D6E06ED5823A9675_inline(L_1, NULL);
 		__this->___x_0 = L_2;
-		// this.y = v.y;
 		half4_t69CC75C393FD0ED1CEFC8B6F1C0FBE7746CF9826 L_3 = ___v0;
 		half_tE8A6792149696F478D662DD4B736964C0FF018AF L_4 = L_3.___y_1;
 		float L_5;
 		L_5 = half_op_Implicit_mCF67502DEA255982F0292914D6E06ED5823A9675_inline(L_4, NULL);
 		__this->___y_1 = L_5;
-		// this.z = v.z;
 		half4_t69CC75C393FD0ED1CEFC8B6F1C0FBE7746CF9826 L_6 = ___v0;
 		half_tE8A6792149696F478D662DD4B736964C0FF018AF L_7 = L_6.___z_2;
 		float L_8;
 		L_8 = half_op_Implicit_mCF67502DEA255982F0292914D6E06ED5823A9675_inline(L_7, NULL);
 		__this->___z_2 = L_8;
-		// this.w = v.w;
 		half4_t69CC75C393FD0ED1CEFC8B6F1C0FBE7746CF9826 L_9 = ___v0;
 		half_tE8A6792149696F478D662DD4B736964C0FF018AF L_10 = L_9.___w_3;
 		float L_11;
 		L_11 = half_op_Implicit_mCF67502DEA255982F0292914D6E06ED5823A9675_inline(L_10, NULL);
 		__this->___w_3 = L_11;
-		// }
 		return;
 	}
 }
@@ -2635,19 +2550,14 @@ IL2CPP_EXTERN_C  void float4__ctor_m01CCEB586EAAE29F243B120FB95B6965EA2F1E53_Adj
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4__ctor_m45A0F0F4BE8109A78BE8CBA5E469FB1E60948853 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, double ___v0, const RuntimeMethod* method) 
 {
 	{
-		// this.x = (float)v;
 		double L_0 = ___v0;
 		__this->___x_0 = ((float)L_0);
-		// this.y = (float)v;
 		double L_1 = ___v0;
 		__this->___y_1 = ((float)L_1);
-		// this.z = (float)v;
 		double L_2 = ___v0;
 		__this->___z_2 = ((float)L_2);
-		// this.w = (float)v;
 		double L_3 = ___v0;
 		__this->___w_3 = ((float)L_3);
-		// }
 		return;
 	}
 }
@@ -2662,23 +2572,18 @@ IL2CPP_EXTERN_C  void float4__ctor_m45A0F0F4BE8109A78BE8CBA5E469FB1E60948853_Adj
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4__ctor_m1ADDCFC0D2A013BC3C9CD225095F6A4219930613 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 ___v0, const RuntimeMethod* method) 
 {
 	{
-		// this.x = (float)v.x;
 		double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 L_0 = ___v0;
 		double L_1 = L_0.___x_0;
 		__this->___x_0 = ((float)L_1);
-		// this.y = (float)v.y;
 		double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 L_2 = ___v0;
 		double L_3 = L_2.___y_1;
 		__this->___y_1 = ((float)L_3);
-		// this.z = (float)v.z;
 		double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 L_4 = ___v0;
 		double L_5 = L_4.___z_2;
 		__this->___z_2 = ((float)L_5);
-		// this.w = (float)v.w;
 		double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 L_6 = ___v0;
 		double L_7 = L_6.___w_3;
 		__this->___w_3 = ((float)L_7);
-		// }
 		return;
 	}
 }
@@ -2693,7 +2598,6 @@ IL2CPP_EXTERN_C  void float4__ctor_m1ADDCFC0D2A013BC3C9CD225095F6A4219930613_Adj
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_op_Implicit_m3DF77A1795E1232FCE3A62302FF23601F8C042DD (float ___v0, const RuntimeMethod* method) 
 {
 	{
-		// public static implicit operator float4(float v) { return new float4(v); }
 		float L_0 = ___v0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1;
 		memset((&L_1), 0, sizeof(L_1));
@@ -2705,7 +2609,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186545085329585
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_op_Explicit_m8DB88A46ADFBB42506B6304C1DD1C249E2134D0F (bool ___v0, const RuntimeMethod* method) 
 {
 	{
-		// public static explicit operator float4(bool v) { return new float4(v); }
 		bool L_0 = ___v0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1;
 		memset((&L_1), 0, sizeof(L_1));
@@ -2717,7 +2620,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186545085329585
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_op_Explicit_mD4EAA288F813143783175618954E5D5F12567CF8 (bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 ___v0, const RuntimeMethod* method) 
 {
 	{
-		// public static explicit operator float4(bool4 v) { return new float4(v); }
 		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_0 = ___v0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1;
 		memset((&L_1), 0, sizeof(L_1));
@@ -2729,7 +2631,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186545085329585
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_op_Implicit_mB41AE98F26EA1F866D8DFEB7FD76E2CA217D52B6 (int32_t ___v0, const RuntimeMethod* method) 
 {
 	{
-		// public static implicit operator float4(int v) { return new float4(v); }
 		int32_t L_0 = ___v0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1;
 		memset((&L_1), 0, sizeof(L_1));
@@ -2741,7 +2642,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186545085329585
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_op_Implicit_mA889A779BA63B2654EEEF1F5CE2407DAA0E33142 (int4_tBA77D4945786DE82C3A487B33955EA1004996052 ___v0, const RuntimeMethod* method) 
 {
 	{
-		// public static implicit operator float4(int4 v) { return new float4(v); }
 		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_0 = ___v0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1;
 		memset((&L_1), 0, sizeof(L_1));
@@ -2753,7 +2653,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186545085329585
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_op_Implicit_mED209EFA9280A609F964FE9EEB8B85C91505456D (uint32_t ___v0, const RuntimeMethod* method) 
 {
 	{
-		// public static implicit operator float4(uint v) { return new float4(v); }
 		uint32_t L_0 = ___v0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1;
 		memset((&L_1), 0, sizeof(L_1));
@@ -2765,7 +2664,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186545085329585
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_op_Implicit_m82EA1881742FD480C2CE2386DF3D25C34502100B (uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 ___v0, const RuntimeMethod* method) 
 {
 	{
-		// public static implicit operator float4(uint4 v) { return new float4(v); }
 		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_0 = ___v0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1;
 		memset((&L_1), 0, sizeof(L_1));
@@ -2777,7 +2675,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186545085329585
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_op_Implicit_m02B801F82483F9FF9D538EC9C00183EF1AE301FF (half_tE8A6792149696F478D662DD4B736964C0FF018AF ___v0, const RuntimeMethod* method) 
 {
 	{
-		// public static implicit operator float4(half v) { return new float4(v); }
 		half_tE8A6792149696F478D662DD4B736964C0FF018AF L_0 = ___v0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1;
 		memset((&L_1), 0, sizeof(L_1));
@@ -2789,7 +2686,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186545085329585
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_op_Implicit_m7821C639FFD50CF1DCED1888EFD19411063E125C (half4_t69CC75C393FD0ED1CEFC8B6F1C0FBE7746CF9826 ___v0, const RuntimeMethod* method) 
 {
 	{
-		// public static implicit operator float4(half4 v) { return new float4(v); }
 		half4_t69CC75C393FD0ED1CEFC8B6F1C0FBE7746CF9826 L_0 = ___v0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1;
 		memset((&L_1), 0, sizeof(L_1));
@@ -2801,7 +2697,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186545085329585
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_op_Explicit_mE1B66196EF40555EA57BAF264CEC0A4CE271DF7E (double ___v0, const RuntimeMethod* method) 
 {
 	{
-		// public static explicit operator float4(double v) { return new float4(v); }
 		double L_0 = ___v0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1;
 		memset((&L_1), 0, sizeof(L_1));
@@ -2813,7 +2708,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186545085329585
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_op_Explicit_mBD6BF71CF079224435AFBF2408554A53AD557950 (double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 ___v0, const RuntimeMethod* method) 
 {
 	{
-		// public static explicit operator float4(double4 v) { return new float4(v); }
 		double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 L_0 = ___v0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1;
 		memset((&L_1), 0, sizeof(L_1));
@@ -2825,7 +2719,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186545085329585
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_op_Multiply_m0E98338FB7DFF55B101EBCD78A8703ADB9C08667 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___lhs0, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static float4 operator * (float4 lhs, float4 rhs) { return new float4 (lhs.x * rhs.x, lhs.y * rhs.y, lhs.z * rhs.z, lhs.w * rhs.w); }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = ___lhs0;
 		float L_1 = L_0.___x_0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2 = ___rhs1;
@@ -2852,7 +2745,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186545085329585
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_op_Multiply_m712573F441DA8AF0843DE2167927FB76E642B1EB (float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___lhs0, float ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static float4 operator * (float4 lhs, float rhs) { return new float4 (lhs.x * rhs, lhs.y * rhs, lhs.z * rhs, lhs.w * rhs); }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = ___lhs0;
 		float L_1 = L_0.___x_0;
 		float L_2 = ___rhs1;
@@ -2875,7 +2767,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186545085329585
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_op_Multiply_m94C65B5751B7969CD82F15DADB8A6F182BFBD581 (float ___lhs0, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static float4 operator * (float lhs, float4 rhs) { return new float4 (lhs * rhs.x, lhs * rhs.y, lhs * rhs.z, lhs * rhs.w); }
 		float L_0 = ___lhs0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1 = ___rhs1;
 		float L_2 = L_1.___x_0;
@@ -2898,7 +2789,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186545085329585
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_op_Addition_m2CF2E1B2DAD4996DE3C5B6DFB90185E4CC8F0F44 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___lhs0, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static float4 operator + (float4 lhs, float4 rhs) { return new float4 (lhs.x + rhs.x, lhs.y + rhs.y, lhs.z + rhs.z, lhs.w + rhs.w); }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = ___lhs0;
 		float L_1 = L_0.___x_0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2 = ___rhs1;
@@ -2925,7 +2815,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186545085329585
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_op_Addition_mF5FA17D905018429B3CC41959DD9F93E3276B6BC (float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___lhs0, float ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static float4 operator + (float4 lhs, float rhs) { return new float4 (lhs.x + rhs, lhs.y + rhs, lhs.z + rhs, lhs.w + rhs); }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = ___lhs0;
 		float L_1 = L_0.___x_0;
 		float L_2 = ___rhs1;
@@ -2948,7 +2837,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186545085329585
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_op_Addition_m1E24C4187C7B9161A9B1A07D10FD91A1C0EFB912 (float ___lhs0, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static float4 operator + (float lhs, float4 rhs) { return new float4 (lhs + rhs.x, lhs + rhs.y, lhs + rhs.z, lhs + rhs.w); }
 		float L_0 = ___lhs0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1 = ___rhs1;
 		float L_2 = L_1.___x_0;
@@ -2971,7 +2859,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186545085329585
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_op_Subtraction_mBC40F52B8A8EF499A1AA3CC987E5935BD188B4E3 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___lhs0, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static float4 operator - (float4 lhs, float4 rhs) { return new float4 (lhs.x - rhs.x, lhs.y - rhs.y, lhs.z - rhs.z, lhs.w - rhs.w); }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = ___lhs0;
 		float L_1 = L_0.___x_0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2 = ___rhs1;
@@ -2998,7 +2885,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186545085329585
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_op_Subtraction_m8139554182AD5D95062FA5F0EC405106355F7CA1 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___lhs0, float ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static float4 operator - (float4 lhs, float rhs) { return new float4 (lhs.x - rhs, lhs.y - rhs, lhs.z - rhs, lhs.w - rhs); }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = ___lhs0;
 		float L_1 = L_0.___x_0;
 		float L_2 = ___rhs1;
@@ -3021,7 +2907,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186545085329585
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_op_Subtraction_m2CB0DDFA10FC0C1D39F9980E876A67E52F4938BE (float ___lhs0, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static float4 operator - (float lhs, float4 rhs) { return new float4 (lhs - rhs.x, lhs - rhs.y, lhs - rhs.z, lhs - rhs.w); }
 		float L_0 = ___lhs0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1 = ___rhs1;
 		float L_2 = L_1.___x_0;
@@ -3044,7 +2929,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186545085329585
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_op_Division_m0DEAEFE4E26659FBB9BB51D7F8B359590A6B338F (float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___lhs0, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static float4 operator / (float4 lhs, float4 rhs) { return new float4 (lhs.x / rhs.x, lhs.y / rhs.y, lhs.z / rhs.z, lhs.w / rhs.w); }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = ___lhs0;
 		float L_1 = L_0.___x_0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2 = ___rhs1;
@@ -3071,7 +2955,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186545085329585
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_op_Division_mA82993BB826C4799764D5B0E543D0D7776F4F8A2 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___lhs0, float ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static float4 operator / (float4 lhs, float rhs) { return new float4 (lhs.x / rhs, lhs.y / rhs, lhs.z / rhs, lhs.w / rhs); }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = ___lhs0;
 		float L_1 = L_0.___x_0;
 		float L_2 = ___rhs1;
@@ -3094,7 +2977,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186545085329585
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_op_Division_m2B28F6D61B90A06440F0B69C31228A6D164DB396 (float ___lhs0, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static float4 operator / (float lhs, float4 rhs) { return new float4 (lhs / rhs.x, lhs / rhs.y, lhs / rhs.z, lhs / rhs.w); }
 		float L_0 = ___lhs0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1 = ___rhs1;
 		float L_2 = L_1.___x_0;
@@ -3117,7 +2999,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186545085329585
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_op_Modulus_mDC84A2317FD57925ED24BBA344E6D0AE392120BE (float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___lhs0, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static float4 operator % (float4 lhs, float4 rhs) { return new float4 (lhs.x % rhs.x, lhs.y % rhs.y, lhs.z % rhs.z, lhs.w % rhs.w); }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = ___lhs0;
 		float L_1 = L_0.___x_0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2 = ___rhs1;
@@ -3144,7 +3025,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186545085329585
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_op_Modulus_m53BA278FB6F0AE62848064AAC1D1A606D415BF4F (float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___lhs0, float ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static float4 operator % (float4 lhs, float rhs) { return new float4 (lhs.x % rhs, lhs.y % rhs, lhs.z % rhs, lhs.w % rhs); }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = ___lhs0;
 		float L_1 = L_0.___x_0;
 		float L_2 = ___rhs1;
@@ -3167,7 +3047,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186545085329585
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_op_Modulus_mA0ED674183869A453E28CA3B30E1518739ADDAE2 (float ___lhs0, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static float4 operator % (float lhs, float4 rhs) { return new float4 (lhs % rhs.x, lhs % rhs.y, lhs % rhs.z, lhs % rhs.w); }
 		float L_0 = ___lhs0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1 = ___rhs1;
 		float L_2 = L_1.___x_0;
@@ -3191,7 +3070,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186545085329585
 {
 	float V_0 = 0.0f;
 	{
-		// public static float4 operator ++ (float4 val) { return new float4 (++val.x, ++val.y, ++val.z, ++val.w); }
 		float* L_0 = (&(&___val0)->___x_0);
 		float* L_1 = L_0;
 		float L_2 = *((float*)L_1);
@@ -3231,7 +3109,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186545085329585
 {
 	float V_0 = 0.0f;
 	{
-		// public static float4 operator -- (float4 val) { return new float4 (--val.x, --val.y, --val.z, --val.w); }
 		float* L_0 = (&(&___val0)->___x_0);
 		float* L_1 = L_0;
 		float L_2 = *((float*)L_1);
@@ -3270,7 +3147,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186545085329585
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 float4_op_LessThan_mE58C0AE08E7145B15A2BE0280751B39BB4B9B4AF (float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___lhs0, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static bool4 operator < (float4 lhs, float4 rhs) { return new bool4 (lhs.x < rhs.x, lhs.y < rhs.y, lhs.z < rhs.z, lhs.w < rhs.w); }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = ___lhs0;
 		float L_1 = L_0.___x_0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2 = ___rhs1;
@@ -3297,7 +3173,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A6
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 float4_op_LessThan_m12710731DD61F05F0B98262FA8C42F2E3FFC7940 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___lhs0, float ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static bool4 operator < (float4 lhs, float rhs) { return new bool4 (lhs.x < rhs, lhs.y < rhs, lhs.z < rhs, lhs.w < rhs); }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = ___lhs0;
 		float L_1 = L_0.___x_0;
 		float L_2 = ___rhs1;
@@ -3320,7 +3195,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A6
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 float4_op_LessThan_mA42CC2283C70A3D76FBAE5D751DFC90F53AEA02A (float ___lhs0, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static bool4 operator < (float lhs, float4 rhs) { return new bool4 (lhs < rhs.x, lhs < rhs.y, lhs < rhs.z, lhs < rhs.w); }
 		float L_0 = ___lhs0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1 = ___rhs1;
 		float L_2 = L_1.___x_0;
@@ -3343,7 +3217,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A6
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 float4_op_LessThanOrEqual_m165BF902A77B9807D42AAEA7219AB73403C799E1 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___lhs0, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static bool4 operator <= (float4 lhs, float4 rhs) { return new bool4 (lhs.x <= rhs.x, lhs.y <= rhs.y, lhs.z <= rhs.z, lhs.w <= rhs.w); }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = ___lhs0;
 		float L_1 = L_0.___x_0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2 = ___rhs1;
@@ -3370,7 +3243,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A6
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 float4_op_LessThanOrEqual_mC2E36604EC9C97A5172F8574906BE7B08ACF846A (float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___lhs0, float ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static bool4 operator <= (float4 lhs, float rhs) { return new bool4 (lhs.x <= rhs, lhs.y <= rhs, lhs.z <= rhs, lhs.w <= rhs); }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = ___lhs0;
 		float L_1 = L_0.___x_0;
 		float L_2 = ___rhs1;
@@ -3393,7 +3265,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A6
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 float4_op_LessThanOrEqual_m4D22D653AA68A37B8A6D3BB105A2DB39B3FB2242 (float ___lhs0, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static bool4 operator <= (float lhs, float4 rhs) { return new bool4 (lhs <= rhs.x, lhs <= rhs.y, lhs <= rhs.z, lhs <= rhs.w); }
 		float L_0 = ___lhs0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1 = ___rhs1;
 		float L_2 = L_1.___x_0;
@@ -3416,7 +3287,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A6
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 float4_op_GreaterThan_m48677C9BFCCA8B0238B1169E55C85B24A3FF9C1E (float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___lhs0, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static bool4 operator > (float4 lhs, float4 rhs) { return new bool4 (lhs.x > rhs.x, lhs.y > rhs.y, lhs.z > rhs.z, lhs.w > rhs.w); }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = ___lhs0;
 		float L_1 = L_0.___x_0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2 = ___rhs1;
@@ -3443,7 +3313,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A6
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 float4_op_GreaterThan_m5F2D7A993D9B28F0FC1A4505754179244F0DF353 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___lhs0, float ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static bool4 operator > (float4 lhs, float rhs) { return new bool4 (lhs.x > rhs, lhs.y > rhs, lhs.z > rhs, lhs.w > rhs); }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = ___lhs0;
 		float L_1 = L_0.___x_0;
 		float L_2 = ___rhs1;
@@ -3466,7 +3335,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A6
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 float4_op_GreaterThan_mFE67FEC83DE3033B1BE754FD94C7C60EC837BE49 (float ___lhs0, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static bool4 operator > (float lhs, float4 rhs) { return new bool4 (lhs > rhs.x, lhs > rhs.y, lhs > rhs.z, lhs > rhs.w); }
 		float L_0 = ___lhs0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1 = ___rhs1;
 		float L_2 = L_1.___x_0;
@@ -3489,7 +3357,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A6
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 float4_op_GreaterThanOrEqual_mFC98AE5166038C19186F68EBF925E22D0C198FDD (float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___lhs0, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static bool4 operator >= (float4 lhs, float4 rhs) { return new bool4 (lhs.x >= rhs.x, lhs.y >= rhs.y, lhs.z >= rhs.z, lhs.w >= rhs.w); }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = ___lhs0;
 		float L_1 = L_0.___x_0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2 = ___rhs1;
@@ -3516,7 +3383,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A6
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 float4_op_GreaterThanOrEqual_m52A3AE235E7DC79B06E438888F68CC049C51D8EE (float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___lhs0, float ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static bool4 operator >= (float4 lhs, float rhs) { return new bool4 (lhs.x >= rhs, lhs.y >= rhs, lhs.z >= rhs, lhs.w >= rhs); }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = ___lhs0;
 		float L_1 = L_0.___x_0;
 		float L_2 = ___rhs1;
@@ -3539,7 +3405,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A6
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 float4_op_GreaterThanOrEqual_m9A3DB4A702C3427D69293376080557EA2B7BDB04 (float ___lhs0, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static bool4 operator >= (float lhs, float4 rhs) { return new bool4 (lhs >= rhs.x, lhs >= rhs.y, lhs >= rhs.z, lhs >= rhs.w); }
 		float L_0 = ___lhs0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1 = ___rhs1;
 		float L_2 = L_1.___x_0;
@@ -3562,7 +3427,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A6
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_op_UnaryNegation_m5A491FC1978650D62EBEDC51992CF4B2113C8C5B (float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___val0, const RuntimeMethod* method) 
 {
 	{
-		// public static float4 operator - (float4 val) { return new float4 (-val.x, -val.y, -val.z, -val.w); }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = ___val0;
 		float L_1 = L_0.___x_0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2 = ___val0;
@@ -3581,7 +3445,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186545085329585
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_op_UnaryPlus_m31D0004F25845E6476F309C4895646DB6C9EAA3A (float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___val0, const RuntimeMethod* method) 
 {
 	{
-		// public static float4 operator + (float4 val) { return new float4 (+val.x, +val.y, +val.z, +val.w); }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = ___val0;
 		float L_1 = L_0.___x_0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2 = ___val0;
@@ -3600,7 +3463,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186545085329585
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 float4_op_Equality_mDBB7FE23BF9C4CFC547DD8162F6677DBFFAFE1AF (float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___lhs0, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static bool4 operator == (float4 lhs, float4 rhs) { return new bool4 (lhs.x == rhs.x, lhs.y == rhs.y, lhs.z == rhs.z, lhs.w == rhs.w); }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = ___lhs0;
 		float L_1 = L_0.___x_0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2 = ___rhs1;
@@ -3627,7 +3489,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A6
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 float4_op_Equality_mCF3B13ACC40CA43354D18AFF775D209585438FC5 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___lhs0, float ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static bool4 operator == (float4 lhs, float rhs) { return new bool4 (lhs.x == rhs, lhs.y == rhs, lhs.z == rhs, lhs.w == rhs); }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = ___lhs0;
 		float L_1 = L_0.___x_0;
 		float L_2 = ___rhs1;
@@ -3650,7 +3511,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A6
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 float4_op_Equality_m0FD47823684E8AAB360F381D488AF4294C789B83 (float ___lhs0, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static bool4 operator == (float lhs, float4 rhs) { return new bool4 (lhs == rhs.x, lhs == rhs.y, lhs == rhs.z, lhs == rhs.w); }
 		float L_0 = ___lhs0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1 = ___rhs1;
 		float L_2 = L_1.___x_0;
@@ -3673,7 +3533,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A6
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 float4_op_Inequality_m3189CB04F9128BDC8296977693042108C75A03B7 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___lhs0, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static bool4 operator != (float4 lhs, float4 rhs) { return new bool4 (lhs.x != rhs.x, lhs.y != rhs.y, lhs.z != rhs.z, lhs.w != rhs.w); }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = ___lhs0;
 		float L_1 = L_0.___x_0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2 = ___rhs1;
@@ -3700,7 +3559,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A6
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 float4_op_Inequality_m73E9642A4EE8C80BD4913031CFAB84D65E426697 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___lhs0, float ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static bool4 operator != (float4 lhs, float rhs) { return new bool4 (lhs.x != rhs, lhs.y != rhs, lhs.z != rhs, lhs.w != rhs); }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = ___lhs0;
 		float L_1 = L_0.___x_0;
 		float L_2 = ___rhs1;
@@ -3723,7 +3581,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A6
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 float4_op_Inequality_m349375FEEF22CDEA56477067095592C3C3F948BF (float ___lhs0, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static bool4 operator != (float lhs, float4 rhs) { return new bool4 (lhs != rhs.x, lhs != rhs.y, lhs != rhs.z, lhs != rhs.w); }
 		float L_0 = ___lhs0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1 = ___rhs1;
 		float L_2 = L_1.___x_0;
@@ -3746,7 +3603,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A6
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xxxx_m8F40EC9430A1D59D2B31A60ACBC58C577CF983F1 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(x, x, x, x); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___x_0;
@@ -3770,7 +3626,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xxx
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xxxy_mB60A06792D3B75CA8ED7494FD001D645C48B6A07 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(x, x, x, y); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___x_0;
@@ -3794,7 +3649,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xxx
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xxxz_m7C7FAD54D570B90B587EC7D5A91394BFFA4B4AAC (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(x, x, x, z); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___x_0;
@@ -3818,7 +3672,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xxx
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xxxw_m87505AE7A303B218AEB3FD569AB5F86177A46BFC (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(x, x, x, w); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___x_0;
@@ -3842,7 +3695,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xxx
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xxyx_m4C69FB321F0350260A41BFC56D80E459B352C40E (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(x, x, y, x); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___y_1;
@@ -3866,7 +3718,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xxy
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xxyy_m55E70D8F4F6D9D8A51815A47545A0E91F2560D48 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(x, x, y, y); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___y_1;
@@ -3890,7 +3741,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xxy
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xxyz_mDDE8B44EAF0CD83D56B7BA56C60E0CB72C860DFC (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(x, x, y, z); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___y_1;
@@ -3914,7 +3764,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xxy
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xxyw_mDE1A1CC0B75113EF8E0A936B7A25CD02E11841CD (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(x, x, y, w); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___y_1;
@@ -3938,7 +3787,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xxy
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xxzx_m83AE5E29E5AFD8D8A46CBF37A10C3D653BDCB803 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(x, x, z, x); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___z_2;
@@ -3962,7 +3810,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xxz
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xxzy_m124673EFE844B47C74767459A426BE130849B1F4 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(x, x, z, y); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___z_2;
@@ -3986,7 +3833,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xxz
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xxzz_m830E476C93880BCE47EC0BB886FD7FF51E311B45 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(x, x, z, z); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___z_2;
@@ -4010,7 +3856,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xxz
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xxzw_m857408B09FFBB19E3ECE7AF8986DBFE6A2B1B646 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(x, x, z, w); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___z_2;
@@ -4034,7 +3879,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xxz
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xxwx_m55ED1CF16F3E7211C25A7A2E98F884C4F2F0C5A1 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(x, x, w, x); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___w_3;
@@ -4058,7 +3902,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xxw
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xxwy_m3224D4A8D48AA6B9802A0B0EEEACD0223C540EED (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(x, x, w, y); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___w_3;
@@ -4082,7 +3925,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xxw
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xxwz_m3A024CA815262DBAB4D00E58813E536B23DC20A7 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(x, x, w, z); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___w_3;
@@ -4106,7 +3948,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xxw
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xxww_mDF61FDD70AE94BB58DC83B7EE6531693C1D58C56 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(x, x, w, w); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___w_3;
@@ -4130,7 +3971,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xxw
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xyxx_mD131B09234088607C323D1704F2BBBE6A47031C7 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(x, y, x, x); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___x_0;
@@ -4154,7 +3994,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xyx
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xyxy_m82B693104B67CCDBFACE9C458A8CA02AAE729E4C (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(x, y, x, y); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___x_0;
@@ -4178,7 +4017,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xyx
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xyxz_m195E01E8C5B8C67D00251357EE777221A3A47F5C (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(x, y, x, z); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___x_0;
@@ -4202,7 +4040,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xyx
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xyxw_mC3F0B7721711B84ACAA538916489DDB9E2FB70E8 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(x, y, x, w); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___x_0;
@@ -4226,7 +4063,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xyx
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xyyx_m4499B417F971B3BACF245E47DA306D7A74069C0B (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(x, y, y, x); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___y_1;
@@ -4250,7 +4086,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xyy
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xyyy_m0A996586AA18A44036289D74FB1AA5D0BD713B67 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(x, y, y, y); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___y_1;
@@ -4274,7 +4109,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xyy
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xyyz_mD584376E45A2527A25DB7D11FCA21A1FA4F404A0 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(x, y, y, z); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___y_1;
@@ -4298,7 +4132,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xyy
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xyyw_m9A5372E17FF0D36F4A5B56C5946F704ADA12916E (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(x, y, y, w); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___y_1;
@@ -4322,7 +4155,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xyy
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xyzx_m5FFC709BBF25AC7B7755AE077E4288E47089C76C (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(x, y, z, x); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___z_2;
@@ -4346,7 +4178,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xyz
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xyzy_m53051A22D8C89B560FB2E65D6D0707157978F6AE (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(x, y, z, y); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___z_2;
@@ -4370,7 +4201,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xyz
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xyzz_mE43081C0A7DD7E7D91C0E8CA3FF8922D7590ADD1 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(x, y, z, z); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___z_2;
@@ -4394,7 +4224,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xyz
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xyzw_m4C11FB08575F69AE6A1FF3A818ABE84B249700F5 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(x, y, z, w); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___z_2;
@@ -4418,23 +4247,18 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xyz
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4_set_xyzw_m4160F7EEBE5151D1D68BBC7CA3F28E6529DF1074 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___value0, const RuntimeMethod* method) 
 {
 	{
-		// set { x = value.x; y = value.y; z = value.z; w = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = ___value0;
 		float L_1 = L_0.___x_0;
 		__this->___x_0 = L_1;
-		// set { x = value.x; y = value.y; z = value.z; w = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2 = ___value0;
 		float L_3 = L_2.___y_1;
 		__this->___y_1 = L_3;
-		// set { x = value.x; y = value.y; z = value.z; w = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_4 = ___value0;
 		float L_5 = L_4.___z_2;
 		__this->___z_2 = L_5;
-		// set { x = value.x; y = value.y; z = value.z; w = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_6 = ___value0;
 		float L_7 = L_6.___w_3;
 		__this->___w_3 = L_7;
-		// set { x = value.x; y = value.y; z = value.z; w = value.w; }
 		return;
 	}
 }
@@ -4449,7 +4273,6 @@ IL2CPP_EXTERN_C  void float4_set_xyzw_m4160F7EEBE5151D1D68BBC7CA3F28E6529DF1074_
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xywx_mD7F489351DED2B57D8504612DE5241CBD623F461 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(x, y, w, x); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___w_3;
@@ -4473,7 +4296,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xyw
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xywy_mC0DB39FF4599BF358B75B37E3CF845736B626A14 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(x, y, w, y); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___w_3;
@@ -4497,7 +4319,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xyw
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xywz_mC8EA9B8618EAF8D0B0D239551877F01748D1D956 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(x, y, w, z); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___w_3;
@@ -4521,23 +4342,18 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xyw
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4_set_xywz_m478C243C3192CE3283517030A761A39265D0F620 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___value0, const RuntimeMethod* method) 
 {
 	{
-		// set { x = value.x; y = value.y; w = value.z; z = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = ___value0;
 		float L_1 = L_0.___x_0;
 		__this->___x_0 = L_1;
-		// set { x = value.x; y = value.y; w = value.z; z = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2 = ___value0;
 		float L_3 = L_2.___y_1;
 		__this->___y_1 = L_3;
-		// set { x = value.x; y = value.y; w = value.z; z = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_4 = ___value0;
 		float L_5 = L_4.___z_2;
 		__this->___w_3 = L_5;
-		// set { x = value.x; y = value.y; w = value.z; z = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_6 = ___value0;
 		float L_7 = L_6.___w_3;
 		__this->___z_2 = L_7;
-		// set { x = value.x; y = value.y; w = value.z; z = value.w; }
 		return;
 	}
 }
@@ -4552,7 +4368,6 @@ IL2CPP_EXTERN_C  void float4_set_xywz_m478C243C3192CE3283517030A761A39265D0F620_
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xyww_m3E3B689D7E772061F694D35CEAA0A26700458622 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(x, y, w, w); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___w_3;
@@ -4576,7 +4391,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xyw
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xzxx_m3F050B17072B0886C93D43197E2018A204159DB2 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(x, z, x, x); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___x_0;
@@ -4600,7 +4414,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xzx
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xzxy_mAD1E39B48DC81D5174810AE1706FBC870F35B2F6 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(x, z, x, y); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___x_0;
@@ -4624,7 +4437,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xzx
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xzxz_mB4AB5ED96774A2670A4D54049ADA28DC3FE2EC3D (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(x, z, x, z); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___x_0;
@@ -4648,7 +4460,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xzx
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xzxw_mE516CBF1C74647D2BCE0A243B23BFE0674B56EC5 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(x, z, x, w); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___x_0;
@@ -4672,7 +4483,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xzx
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xzyx_mD73D5B20135DCCCFCDEB4284E63413A425909B64 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(x, z, y, x); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___y_1;
@@ -4696,7 +4506,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xzy
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xzyy_mAE6087BFD2F09778038BDE80AADDBBD53C7F3368 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(x, z, y, y); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___y_1;
@@ -4720,7 +4529,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xzy
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xzyz_mD2DCE3634D416574714D73BD16EFFBC0D8CCF0BB (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(x, z, y, z); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___y_1;
@@ -4744,7 +4552,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xzy
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xzyw_m42B89FD2162D9149DEAB13081EFA51F6C6259B78 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(x, z, y, w); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___y_1;
@@ -4768,23 +4575,18 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xzy
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4_set_xzyw_m6D455CF6D73CE902BD93695A2F12C056CD2B817E (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___value0, const RuntimeMethod* method) 
 {
 	{
-		// set { x = value.x; z = value.y; y = value.z; w = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = ___value0;
 		float L_1 = L_0.___x_0;
 		__this->___x_0 = L_1;
-		// set { x = value.x; z = value.y; y = value.z; w = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2 = ___value0;
 		float L_3 = L_2.___y_1;
 		__this->___z_2 = L_3;
-		// set { x = value.x; z = value.y; y = value.z; w = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_4 = ___value0;
 		float L_5 = L_4.___z_2;
 		__this->___y_1 = L_5;
-		// set { x = value.x; z = value.y; y = value.z; w = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_6 = ___value0;
 		float L_7 = L_6.___w_3;
 		__this->___w_3 = L_7;
-		// set { x = value.x; z = value.y; y = value.z; w = value.w; }
 		return;
 	}
 }
@@ -4799,7 +4601,6 @@ IL2CPP_EXTERN_C  void float4_set_xzyw_m6D455CF6D73CE902BD93695A2F12C056CD2B817E_
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xzzx_m7B9054BBAB84D51031DB67F60170BA0C0301010B (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(x, z, z, x); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___z_2;
@@ -4823,7 +4624,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xzz
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xzzy_mCBA67AE28C7AB0DD7EE4FCE5133ABA8B8D8D09A9 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(x, z, z, y); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___z_2;
@@ -4847,7 +4647,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xzz
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xzzz_m4789CE16B63FEE6D45A15C5435EE6E37114FA3D6 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(x, z, z, z); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___z_2;
@@ -4871,7 +4670,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xzz
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xzzw_mD03D4FC26A957B51D9EE918E8D807BA53835D016 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(x, z, z, w); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___z_2;
@@ -4895,7 +4693,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xzz
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xzwx_m714C214A3F188066563B149B10F1C22CF30E8527 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(x, z, w, x); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___w_3;
@@ -4919,7 +4716,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xzw
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xzwy_m907593A4BABCC34B5DB8BACC2AB01ACD60358897 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(x, z, w, y); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___w_3;
@@ -4943,23 +4739,18 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xzw
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4_set_xzwy_mA076F44E38C1FDAE6AEE06F26AEA261B1C8E0715 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___value0, const RuntimeMethod* method) 
 {
 	{
-		// set { x = value.x; z = value.y; w = value.z; y = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = ___value0;
 		float L_1 = L_0.___x_0;
 		__this->___x_0 = L_1;
-		// set { x = value.x; z = value.y; w = value.z; y = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2 = ___value0;
 		float L_3 = L_2.___y_1;
 		__this->___z_2 = L_3;
-		// set { x = value.x; z = value.y; w = value.z; y = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_4 = ___value0;
 		float L_5 = L_4.___z_2;
 		__this->___w_3 = L_5;
-		// set { x = value.x; z = value.y; w = value.z; y = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_6 = ___value0;
 		float L_7 = L_6.___w_3;
 		__this->___y_1 = L_7;
-		// set { x = value.x; z = value.y; w = value.z; y = value.w; }
 		return;
 	}
 }
@@ -4974,7 +4765,6 @@ IL2CPP_EXTERN_C  void float4_set_xzwy_mA076F44E38C1FDAE6AEE06F26AEA261B1C8E0715_
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xzwz_mEC6139F8F6D8ACDE486DA80CA8E16972E2B94EEF (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(x, z, w, z); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___w_3;
@@ -4998,7 +4788,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xzw
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xzww_m39D1F8DF7F0FA3B0691E7EB428DD18DD3A97DA13 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(x, z, w, w); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___w_3;
@@ -5022,7 +4811,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xzw
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xwxx_m79BE58A4FC9E8D4EA911E7BC66DAB664C05E9CA9 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(x, w, x, x); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___x_0;
@@ -5046,7 +4834,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xwx
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xwxy_m4568547930CFE1953B96737806D895E77F0AA0BB (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(x, w, x, y); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___x_0;
@@ -5070,7 +4857,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xwx
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xwxz_mF57CF8A4E231AEB46BE20D9FC51D2D716E4127E8 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(x, w, x, z); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___x_0;
@@ -5094,7 +4880,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xwx
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xwxw_m43C3341863787DC2C8AF0EFDA2CF916DD1AB267F (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(x, w, x, w); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___x_0;
@@ -5118,7 +4903,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xwx
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xwyx_mC541EEB85D3D6CCDCC9B7715F0B8D4AC0F61CF21 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(x, w, y, x); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___y_1;
@@ -5142,7 +4926,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xwy
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xwyy_m5AEB69D65350F56D01AC1C62CC81368AE40D696E (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(x, w, y, y); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___y_1;
@@ -5166,7 +4949,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xwy
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xwyz_m3208DE71CEC9BBD07E121E18E91719560FA0F580 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(x, w, y, z); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___y_1;
@@ -5190,23 +4972,18 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xwy
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4_set_xwyz_mC30F5E8A6968A44274EB7A4EF19575FB6B19C0A2 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___value0, const RuntimeMethod* method) 
 {
 	{
-		// set { x = value.x; w = value.y; y = value.z; z = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = ___value0;
 		float L_1 = L_0.___x_0;
 		__this->___x_0 = L_1;
-		// set { x = value.x; w = value.y; y = value.z; z = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2 = ___value0;
 		float L_3 = L_2.___y_1;
 		__this->___w_3 = L_3;
-		// set { x = value.x; w = value.y; y = value.z; z = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_4 = ___value0;
 		float L_5 = L_4.___z_2;
 		__this->___y_1 = L_5;
-		// set { x = value.x; w = value.y; y = value.z; z = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_6 = ___value0;
 		float L_7 = L_6.___w_3;
 		__this->___z_2 = L_7;
-		// set { x = value.x; w = value.y; y = value.z; z = value.w; }
 		return;
 	}
 }
@@ -5221,7 +4998,6 @@ IL2CPP_EXTERN_C  void float4_set_xwyz_mC30F5E8A6968A44274EB7A4EF19575FB6B19C0A2_
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xwyw_mF14B69D71988C2A1F4A59FCC366132AE9205EC4C (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(x, w, y, w); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___y_1;
@@ -5245,7 +5021,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xwy
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xwzx_m72E42BD38AE0EA992D6B09BD77E680F32F67189B (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(x, w, z, x); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___z_2;
@@ -5269,7 +5044,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xwz
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xwzy_mC26819BCCDDCAFFBEFAC7D7B7F7790D913A0E40F (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(x, w, z, y); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___z_2;
@@ -5293,23 +5067,18 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xwz
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4_set_xwzy_mA7F17751290C4A6D07DAB098DBA229238DB7D356 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___value0, const RuntimeMethod* method) 
 {
 	{
-		// set { x = value.x; w = value.y; z = value.z; y = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = ___value0;
 		float L_1 = L_0.___x_0;
 		__this->___x_0 = L_1;
-		// set { x = value.x; w = value.y; z = value.z; y = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2 = ___value0;
 		float L_3 = L_2.___y_1;
 		__this->___w_3 = L_3;
-		// set { x = value.x; w = value.y; z = value.z; y = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_4 = ___value0;
 		float L_5 = L_4.___z_2;
 		__this->___z_2 = L_5;
-		// set { x = value.x; w = value.y; z = value.z; y = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_6 = ___value0;
 		float L_7 = L_6.___w_3;
 		__this->___y_1 = L_7;
-		// set { x = value.x; w = value.y; z = value.z; y = value.w; }
 		return;
 	}
 }
@@ -5324,7 +5093,6 @@ IL2CPP_EXTERN_C  void float4_set_xwzy_mA7F17751290C4A6D07DAB098DBA229238DB7D356_
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xwzz_mBB10AD5950DF7CABEC50ADF714D95187FFA5F237 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(x, w, z, z); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___z_2;
@@ -5348,7 +5116,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xwz
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xwzw_m92ECCD9CA58CF273558A7CCA268507C319725B03 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(x, w, z, w); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___z_2;
@@ -5372,7 +5139,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xwz
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xwwx_m395E9D1F778D65738411B887A5560902C4BF62BF (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(x, w, w, x); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___w_3;
@@ -5396,7 +5162,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xww
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xwwy_m57BD28F861AA4C4B51068BFDAB2AB248F72A8537 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(x, w, w, y); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___w_3;
@@ -5420,7 +5185,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xww
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xwwz_m334D1E4F857B5FE78B48314873A1722E1C760430 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(x, w, w, z); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___w_3;
@@ -5444,7 +5208,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xww
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xwww_mC4936C0CBE0CD3CCDE453D13718807AFDBE39F19 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(x, w, w, w); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___w_3;
@@ -5468,7 +5231,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xww
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yxxx_mD1DA91560C448F059680B5C1D52629585B0D362E (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(y, x, x, x); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___x_0;
@@ -5492,7 +5254,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yxx
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yxxy_mF847115FCC1161BD05190606D87D53075C91E80A (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(y, x, x, y); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___x_0;
@@ -5516,7 +5277,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yxx
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yxxz_m8CF2508FDA1FF57F187C98B52661DEDCA57A68B2 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(y, x, x, z); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___x_0;
@@ -5540,7 +5300,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yxx
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yxxw_m2376397B481912C9F1D803B9266ABDA4D9123D99 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(y, x, x, w); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___x_0;
@@ -5564,7 +5323,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yxx
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yxyx_m99E51161A6A3C92496C9E97D80839C47CE7DEE0A (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(y, x, y, x); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___y_1;
@@ -5588,7 +5346,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yxy
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yxyy_m5F6FAE60DA46C98DDE3226AB29A6067C9E41CA2C (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(y, x, y, y); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___y_1;
@@ -5612,7 +5369,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yxy
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yxyz_m28404E28683869FDD70EAF09412F4EC54FEC104B (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(y, x, y, z); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___y_1;
@@ -5636,7 +5392,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yxy
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yxyw_m84CAF63B2D0356485CF9BAB8487C0972F69AE701 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(y, x, y, w); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___y_1;
@@ -5660,7 +5415,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yxy
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yxzx_m81D55AF08944224BC9EF3B9F51C1B2FFC755838B (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(y, x, z, x); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___z_2;
@@ -5684,7 +5438,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yxz
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yxzy_m16E2A16D34B3D91D72AE39A915CF8F21B6F33846 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(y, x, z, y); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___z_2;
@@ -5708,7 +5461,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yxz
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yxzz_mE114C7ADF54286DE85D98FBEB41C3CB1DF2AA6E3 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(y, x, z, z); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___z_2;
@@ -5732,7 +5484,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yxz
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yxzw_mB1678C1C0D87193A581588937D4F357C5B6737F0 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(y, x, z, w); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___z_2;
@@ -5756,23 +5507,18 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yxz
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4_set_yxzw_m0AB9B2D33097C07B90B841F9049F5A06EFAF9A76 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___value0, const RuntimeMethod* method) 
 {
 	{
-		// set { y = value.x; x = value.y; z = value.z; w = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = ___value0;
 		float L_1 = L_0.___x_0;
 		__this->___y_1 = L_1;
-		// set { y = value.x; x = value.y; z = value.z; w = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2 = ___value0;
 		float L_3 = L_2.___y_1;
 		__this->___x_0 = L_3;
-		// set { y = value.x; x = value.y; z = value.z; w = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_4 = ___value0;
 		float L_5 = L_4.___z_2;
 		__this->___z_2 = L_5;
-		// set { y = value.x; x = value.y; z = value.z; w = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_6 = ___value0;
 		float L_7 = L_6.___w_3;
 		__this->___w_3 = L_7;
-		// set { y = value.x; x = value.y; z = value.z; w = value.w; }
 		return;
 	}
 }
@@ -5787,7 +5533,6 @@ IL2CPP_EXTERN_C  void float4_set_yxzw_m0AB9B2D33097C07B90B841F9049F5A06EFAF9A76_
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yxwx_m9D317F57218E92749D708EA8E77E94229C652934 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(y, x, w, x); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___w_3;
@@ -5811,7 +5556,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yxw
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yxwy_m2FFC155E0F37818F650CABED01409A713E011B12 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(y, x, w, y); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___w_3;
@@ -5835,7 +5579,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yxw
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yxwz_m56B77B6F75B2E36100950DBEDE10E76EB36A44BD (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(y, x, w, z); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___w_3;
@@ -5859,23 +5602,18 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yxw
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4_set_yxwz_m0B1E38C892B41419BDEE8C6247B36CD9594F61E1 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___value0, const RuntimeMethod* method) 
 {
 	{
-		// set { y = value.x; x = value.y; w = value.z; z = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = ___value0;
 		float L_1 = L_0.___x_0;
 		__this->___y_1 = L_1;
-		// set { y = value.x; x = value.y; w = value.z; z = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2 = ___value0;
 		float L_3 = L_2.___y_1;
 		__this->___x_0 = L_3;
-		// set { y = value.x; x = value.y; w = value.z; z = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_4 = ___value0;
 		float L_5 = L_4.___z_2;
 		__this->___w_3 = L_5;
-		// set { y = value.x; x = value.y; w = value.z; z = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_6 = ___value0;
 		float L_7 = L_6.___w_3;
 		__this->___z_2 = L_7;
-		// set { y = value.x; x = value.y; w = value.z; z = value.w; }
 		return;
 	}
 }
@@ -5890,7 +5628,6 @@ IL2CPP_EXTERN_C  void float4_set_yxwz_m0B1E38C892B41419BDEE8C6247B36CD9594F61E1_
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yxww_mDCD9EF0EC33AA983193C2FEE3D01CA20C7F7BE14 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(y, x, w, w); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___w_3;
@@ -5914,7 +5651,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yxw
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yyxx_mE9B0F0B89589B962DAC63FFE523D89F3309C36B3 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(y, y, x, x); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___x_0;
@@ -5938,7 +5674,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yyx
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yyxy_m566D88BC46A73DBFD4D61B84E7BBDC6994F193B6 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(y, y, x, y); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___x_0;
@@ -5962,7 +5697,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yyx
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yyxz_m9F9A4FEC87515800A5B70C90EF3CA47295F1DA67 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(y, y, x, z); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___x_0;
@@ -5986,7 +5720,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yyx
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yyxw_mEB3F2C44FAB357ACCBB6542D31697D08C008A8DA (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(y, y, x, w); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___x_0;
@@ -6010,7 +5743,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yyx
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yyyx_m31649B4987F7A1EC6EBFE13C18FF14EC45FF1384 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(y, y, y, x); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___y_1;
@@ -6034,7 +5766,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yyy
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yyyy_m4E8CB6E8881B2242B409458B39F29AA184D8B89B (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(y, y, y, y); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___y_1;
@@ -6058,7 +5789,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yyy
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yyyz_m906BC4D47E52A32E5EE5D12257EA72F8244EA345 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(y, y, y, z); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___y_1;
@@ -6082,7 +5812,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yyy
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yyyw_m87838E307CAF75CE6B1630E083FC1B47F95073A4 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(y, y, y, w); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___y_1;
@@ -6106,7 +5835,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yyy
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yyzx_m262A3AE8F8DF12FC116E92D3E327A053AABF2189 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(y, y, z, x); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___z_2;
@@ -6130,7 +5858,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yyz
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yyzy_m2376255396A17E5DCFE19FAE13688D1626901E68 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(y, y, z, y); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___z_2;
@@ -6154,7 +5881,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yyz
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yyzz_mCE81FA9314E2AE0B623DFC005958839E61AC102B (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(y, y, z, z); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___z_2;
@@ -6178,7 +5904,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yyz
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yyzw_mF195C040003F07CFE9E8963CF082D84FFD7A9FC6 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(y, y, z, w); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___z_2;
@@ -6202,7 +5927,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yyz
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yywx_m1C7BEE739F12E5EA36CF0AA30061E23A460C9581 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(y, y, w, x); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___w_3;
@@ -6226,7 +5950,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yyw
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yywy_m5D2B1BC630DF66923051017C931D6827D909C463 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(y, y, w, y); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___w_3;
@@ -6250,7 +5973,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yyw
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yywz_mE5F53E18DC3C169E50BA1A3976D8E451E38F8417 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(y, y, w, z); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___w_3;
@@ -6274,7 +5996,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yyw
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yyww_mE5427433653949704E958B131B8F94B23D2C72B0 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(y, y, w, w); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___w_3;
@@ -6298,7 +6019,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yyw
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yzxx_m5EAECB5141E5ECDE8D1CA49EEF9335FEC619F75D (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(y, z, x, x); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___x_0;
@@ -6322,7 +6042,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yzx
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yzxy_m78C60157637373AC6CB36343778B04CAA046ADDD (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(y, z, x, y); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___x_0;
@@ -6346,7 +6065,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yzx
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yzxz_mE81FC33B6A0D370B2C8DB339CC5501533BB31223 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(y, z, x, z); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___x_0;
@@ -6370,7 +6088,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yzx
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yzxw_mFCEE6F5B880C4EA7AD20BFB8C70987219D0B4CF3 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(y, z, x, w); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___x_0;
@@ -6394,23 +6111,18 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yzx
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4_set_yzxw_m276856A6CF759AEF45DCAE15D7BB72C1831BB774 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___value0, const RuntimeMethod* method) 
 {
 	{
-		// set { y = value.x; z = value.y; x = value.z; w = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = ___value0;
 		float L_1 = L_0.___x_0;
 		__this->___y_1 = L_1;
-		// set { y = value.x; z = value.y; x = value.z; w = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2 = ___value0;
 		float L_3 = L_2.___y_1;
 		__this->___z_2 = L_3;
-		// set { y = value.x; z = value.y; x = value.z; w = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_4 = ___value0;
 		float L_5 = L_4.___z_2;
 		__this->___x_0 = L_5;
-		// set { y = value.x; z = value.y; x = value.z; w = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_6 = ___value0;
 		float L_7 = L_6.___w_3;
 		__this->___w_3 = L_7;
-		// set { y = value.x; z = value.y; x = value.z; w = value.w; }
 		return;
 	}
 }
@@ -6425,7 +6137,6 @@ IL2CPP_EXTERN_C  void float4_set_yzxw_m276856A6CF759AEF45DCAE15D7BB72C1831BB774_
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yzyx_mD7952E1E0FECE47136A2AE69FAFD5D7B94641F9D (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(y, z, y, x); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___y_1;
@@ -6449,7 +6160,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yzy
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yzyy_m8D3BE2116DB8737468D5921C6D8CCF5DC1078B0F (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(y, z, y, y); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___y_1;
@@ -6473,7 +6183,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yzy
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yzyz_m5D5812005A81556A35721F3C2EA9EAABDF615B7B (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(y, z, y, z); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___y_1;
@@ -6497,7 +6206,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yzy
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yzyw_m859A2DBC7A75E5AE2A5D2422A7E2866967964F19 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(y, z, y, w); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___y_1;
@@ -6521,7 +6229,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yzy
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yzzx_m9647EF506B4CEFCA85B509496D5707D2DE773430 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(y, z, z, x); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___z_2;
@@ -6545,7 +6252,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yzz
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yzzy_mD82CFB7783DD55F16072E893F57B7B3B376F84F4 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(y, z, z, y); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___z_2;
@@ -6569,7 +6275,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yzz
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yzzz_mA72487B67357F6882D6EF8A45C42B045F916C7F8 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(y, z, z, z); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___z_2;
@@ -6593,7 +6298,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yzz
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yzzw_m70733B3400199B70B32BBD9F1FE338DED349F5A2 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(y, z, z, w); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___z_2;
@@ -6617,7 +6321,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yzz
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yzwx_m4A3FE22B5B0ECD034C12F96F4EEC64D64253ED50 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(y, z, w, x); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___w_3;
@@ -6641,23 +6344,18 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yzw
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4_set_yzwx_m44C58F9A95DE9355D9AA442A90B84F89D461A5B1 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___value0, const RuntimeMethod* method) 
 {
 	{
-		// set { y = value.x; z = value.y; w = value.z; x = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = ___value0;
 		float L_1 = L_0.___x_0;
 		__this->___y_1 = L_1;
-		// set { y = value.x; z = value.y; w = value.z; x = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2 = ___value0;
 		float L_3 = L_2.___y_1;
 		__this->___z_2 = L_3;
-		// set { y = value.x; z = value.y; w = value.z; x = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_4 = ___value0;
 		float L_5 = L_4.___z_2;
 		__this->___w_3 = L_5;
-		// set { y = value.x; z = value.y; w = value.z; x = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_6 = ___value0;
 		float L_7 = L_6.___w_3;
 		__this->___x_0 = L_7;
-		// set { y = value.x; z = value.y; w = value.z; x = value.w; }
 		return;
 	}
 }
@@ -6672,7 +6370,6 @@ IL2CPP_EXTERN_C  void float4_set_yzwx_m44C58F9A95DE9355D9AA442A90B84F89D461A5B1_
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yzwy_m9775BCBF12CC24DE97209F8BF76B6FE9EE91071C (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(y, z, w, y); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___w_3;
@@ -6696,7 +6393,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yzw
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yzwz_m7BC412D31A396F93A3AC7AE11A168219D97BD5FC (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(y, z, w, z); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___w_3;
@@ -6720,7 +6416,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yzw
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yzww_mB946A74549C0E69CD08697AC40DF32DB4497E093 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(y, z, w, w); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___w_3;
@@ -6744,7 +6439,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yzw
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_ywxx_mEEFE5E02F09C954DA068C8F00E5F212B4AA41EC4 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(y, w, x, x); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___x_0;
@@ -6768,7 +6462,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_ywx
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_ywxy_m152F97C86E3C35FB4A0E7FBB9365FCAD31768BF6 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(y, w, x, y); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___x_0;
@@ -6792,7 +6485,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_ywx
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_ywxz_mE6CBA29E92C26D6EA08770F0B272D41FD0B9236E (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(y, w, x, z); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___x_0;
@@ -6816,23 +6508,18 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_ywx
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4_set_ywxz_m8DE25D3C990904DA62BF269CD5102905F72591E9 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___value0, const RuntimeMethod* method) 
 {
 	{
-		// set { y = value.x; w = value.y; x = value.z; z = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = ___value0;
 		float L_1 = L_0.___x_0;
 		__this->___y_1 = L_1;
-		// set { y = value.x; w = value.y; x = value.z; z = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2 = ___value0;
 		float L_3 = L_2.___y_1;
 		__this->___w_3 = L_3;
-		// set { y = value.x; w = value.y; x = value.z; z = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_4 = ___value0;
 		float L_5 = L_4.___z_2;
 		__this->___x_0 = L_5;
-		// set { y = value.x; w = value.y; x = value.z; z = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_6 = ___value0;
 		float L_7 = L_6.___w_3;
 		__this->___z_2 = L_7;
-		// set { y = value.x; w = value.y; x = value.z; z = value.w; }
 		return;
 	}
 }
@@ -6847,7 +6534,6 @@ IL2CPP_EXTERN_C  void float4_set_ywxz_m8DE25D3C990904DA62BF269CD5102905F72591E9_
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_ywxw_m9452BA4D21A7CAA18A2248552A15AB504391E3A6 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(y, w, x, w); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___x_0;
@@ -6871,7 +6557,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_ywx
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_ywyx_mD05A329D0EBF05737859A30B6887427B9701A7B0 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(y, w, y, x); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___y_1;
@@ -6895,7 +6580,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_ywy
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_ywyy_m414CC0845575F6550B5CD213485213C715E87400 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(y, w, y, y); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___y_1;
@@ -6919,7 +6603,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_ywy
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_ywyz_m4F4220199EE70B02C15B3E9DC4BC9359B989AF43 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(y, w, y, z); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___y_1;
@@ -6943,7 +6626,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_ywy
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_ywyw_m919D82A39B5AE5F78BEDEE2F08D42DF93A564A3D (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(y, w, y, w); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___y_1;
@@ -6967,7 +6649,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_ywy
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_ywzx_m7A95AA3E8B053BFBF712EDBC0D70264ACB5D4C3C (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(y, w, z, x); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___z_2;
@@ -6991,23 +6672,18 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_ywz
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4_set_ywzx_m9D4CAF14D333A16BE182954652DEBC5B310CAF71 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___value0, const RuntimeMethod* method) 
 {
 	{
-		// set { y = value.x; w = value.y; z = value.z; x = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = ___value0;
 		float L_1 = L_0.___x_0;
 		__this->___y_1 = L_1;
-		// set { y = value.x; w = value.y; z = value.z; x = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2 = ___value0;
 		float L_3 = L_2.___y_1;
 		__this->___w_3 = L_3;
-		// set { y = value.x; w = value.y; z = value.z; x = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_4 = ___value0;
 		float L_5 = L_4.___z_2;
 		__this->___z_2 = L_5;
-		// set { y = value.x; w = value.y; z = value.z; x = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_6 = ___value0;
 		float L_7 = L_6.___w_3;
 		__this->___x_0 = L_7;
-		// set { y = value.x; w = value.y; z = value.z; x = value.w; }
 		return;
 	}
 }
@@ -7022,7 +6698,6 @@ IL2CPP_EXTERN_C  void float4_set_ywzx_m9D4CAF14D333A16BE182954652DEBC5B310CAF71_
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_ywzy_m5791D3E5F902DC90512A7C2141B5E3473831E1DD (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(y, w, z, y); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___z_2;
@@ -7046,7 +6721,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_ywz
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_ywzz_m8357F436DFC7C9361B0896A8F4978AB23A82D871 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(y, w, z, z); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___z_2;
@@ -7070,7 +6744,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_ywz
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_ywzw_mF0CB6FCC7E5C3A135C7DE945788C387E93BCB8DE (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(y, w, z, w); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___z_2;
@@ -7094,7 +6767,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_ywz
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_ywwx_mD564FCDCC8FCD9079609AEB53EA33DA1EEB20113 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(y, w, w, x); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___w_3;
@@ -7118,7 +6790,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yww
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_ywwy_mFD16F05D2D2EFB8FFF37E64C752365C18B811EC4 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(y, w, w, y); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___w_3;
@@ -7142,7 +6813,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yww
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_ywwz_m20865206CBADAD29BB1A6B6F879DB04B11CDB110 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(y, w, w, z); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___w_3;
@@ -7166,7 +6836,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yww
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_ywww_mB50B06CC416F05226E697A5D54987FE108B6E4DD (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(y, w, w, w); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___w_3;
@@ -7190,7 +6859,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yww
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zxxx_mAF1A2B558EC0A3FD25BAD6DF6BFFF63CFD8CEB45 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(z, x, x, x); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___x_0;
@@ -7214,7 +6882,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zxx
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zxxy_mB3B6A83BD2107651D6E8A542BE38AF1ABED9BD0A (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(z, x, x, y); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___x_0;
@@ -7238,7 +6905,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zxx
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zxxz_m8EC36A158A5DD29D86E7530AD72CD489851824CE (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(z, x, x, z); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___x_0;
@@ -7262,7 +6928,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zxx
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zxxw_m6931F5DA9D07172C64B81408EDD4DB06AD0ED98E (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(z, x, x, w); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___x_0;
@@ -7286,7 +6951,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zxx
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zxyx_mB2964421160CD219A90CB83015B2A3EE995012F8 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(z, x, y, x); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___y_1;
@@ -7310,7 +6974,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zxy
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zxyy_m4B8D0449EEB8DD3CE5A79C96E911C70617339C4E (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(z, x, y, y); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___y_1;
@@ -7334,7 +6997,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zxy
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zxyz_m91C90CDA336353253B33F0407198ACCC593EBB1B (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(z, x, y, z); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___y_1;
@@ -7358,7 +7020,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zxy
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zxyw_m5503A7454C492BA259F158D0E7D48BA2AD17D938 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(z, x, y, w); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___y_1;
@@ -7382,23 +7043,18 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zxy
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4_set_zxyw_mEE0D1905E04035E08CE494E0B178EC391BE8E246 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___value0, const RuntimeMethod* method) 
 {
 	{
-		// set { z = value.x; x = value.y; y = value.z; w = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = ___value0;
 		float L_1 = L_0.___x_0;
 		__this->___z_2 = L_1;
-		// set { z = value.x; x = value.y; y = value.z; w = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2 = ___value0;
 		float L_3 = L_2.___y_1;
 		__this->___x_0 = L_3;
-		// set { z = value.x; x = value.y; y = value.z; w = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_4 = ___value0;
 		float L_5 = L_4.___z_2;
 		__this->___y_1 = L_5;
-		// set { z = value.x; x = value.y; y = value.z; w = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_6 = ___value0;
 		float L_7 = L_6.___w_3;
 		__this->___w_3 = L_7;
-		// set { z = value.x; x = value.y; y = value.z; w = value.w; }
 		return;
 	}
 }
@@ -7413,7 +7069,6 @@ IL2CPP_EXTERN_C  void float4_set_zxyw_mEE0D1905E04035E08CE494E0B178EC391BE8E246_
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zxzx_m33CDECA7815D5EEC710E7BCE7F7C8C4D54175EC5 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(z, x, z, x); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___z_2;
@@ -7437,7 +7092,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zxz
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zxzy_mE08A967496AF61C5AA54FC3099CE57A6D89D23C7 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(z, x, z, y); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___z_2;
@@ -7461,7 +7115,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zxz
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zxzz_m19C6AB09CF494D463946F3E1DD1DC23D3493C28B (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(z, x, z, z); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___z_2;
@@ -7485,7 +7138,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zxz
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zxzw_mC96802F426E6799C943A056FBB9F17609DDF041C (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(z, x, z, w); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___z_2;
@@ -7509,7 +7161,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zxz
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zxwx_m942B3E7343D6A7C28F1916B9CFF9A04C3EE9D6E8 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(z, x, w, x); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___w_3;
@@ -7533,7 +7184,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zxw
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zxwy_m3EE74109AFDB9D414DB41CD9B724BA27234BA39C (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(z, x, w, y); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___w_3;
@@ -7557,23 +7207,18 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zxw
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4_set_zxwy_m6A48DFF8F0D6FA30AC8551CB1DDDCD1CBB16C4D2 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___value0, const RuntimeMethod* method) 
 {
 	{
-		// set { z = value.x; x = value.y; w = value.z; y = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = ___value0;
 		float L_1 = L_0.___x_0;
 		__this->___z_2 = L_1;
-		// set { z = value.x; x = value.y; w = value.z; y = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2 = ___value0;
 		float L_3 = L_2.___y_1;
 		__this->___x_0 = L_3;
-		// set { z = value.x; x = value.y; w = value.z; y = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_4 = ___value0;
 		float L_5 = L_4.___z_2;
 		__this->___w_3 = L_5;
-		// set { z = value.x; x = value.y; w = value.z; y = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_6 = ___value0;
 		float L_7 = L_6.___w_3;
 		__this->___y_1 = L_7;
-		// set { z = value.x; x = value.y; w = value.z; y = value.w; }
 		return;
 	}
 }
@@ -7588,7 +7233,6 @@ IL2CPP_EXTERN_C  void float4_set_zxwy_m6A48DFF8F0D6FA30AC8551CB1DDDCD1CBB16C4D2_
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zxwz_m94E1D5491BA8680B3DFEB3CA56EB345D176A21A4 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(z, x, w, z); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___w_3;
@@ -7612,7 +7256,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zxw
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zxww_m47A0DF76C41654CC8880E6654E6F9F923FA97F91 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(z, x, w, w); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___w_3;
@@ -7636,7 +7279,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zxw
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zyxx_mB2FD68E60CCE644C6A5730F292121A1CDE43E20F (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(z, y, x, x); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___x_0;
@@ -7660,7 +7302,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zyx
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zyxy_m22C0BCE3FCC4B52DF893D90B4DCDD116C98AD31D (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(z, y, x, y); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___x_0;
@@ -7684,7 +7325,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zyx
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zyxz_mD360FD01B6138EAC95E006AD4417CF8D11F158D0 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(z, y, x, z); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___x_0;
@@ -7708,7 +7348,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zyx
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zyxw_m85AD562F0038A7FAA101301B479E03A6BFECFC82 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(z, y, x, w); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___x_0;
@@ -7732,23 +7371,18 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zyx
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4_set_zyxw_m3D6C803F58AD95B7D7A5F11907CD8AC774CF6123 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___value0, const RuntimeMethod* method) 
 {
 	{
-		// set { z = value.x; y = value.y; x = value.z; w = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = ___value0;
 		float L_1 = L_0.___x_0;
 		__this->___z_2 = L_1;
-		// set { z = value.x; y = value.y; x = value.z; w = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2 = ___value0;
 		float L_3 = L_2.___y_1;
 		__this->___y_1 = L_3;
-		// set { z = value.x; y = value.y; x = value.z; w = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_4 = ___value0;
 		float L_5 = L_4.___z_2;
 		__this->___x_0 = L_5;
-		// set { z = value.x; y = value.y; x = value.z; w = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_6 = ___value0;
 		float L_7 = L_6.___w_3;
 		__this->___w_3 = L_7;
-		// set { z = value.x; y = value.y; x = value.z; w = value.w; }
 		return;
 	}
 }
@@ -7763,7 +7397,6 @@ IL2CPP_EXTERN_C  void float4_set_zyxw_m3D6C803F58AD95B7D7A5F11907CD8AC774CF6123_
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zyyx_m746B4AF7B1B562CD5F54AF132ECA061B1C9AF89F (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(z, y, y, x); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___y_1;
@@ -7787,7 +7420,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zyy
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zyyy_mF13FABED5B27E4B9D5826BC7AD303326D72F39FE (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(z, y, y, y); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___y_1;
@@ -7811,7 +7443,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zyy
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zyyz_m0FD0E79FEB909CC3D7E09FD382CF8DD7A3276191 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(z, y, y, z); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___y_1;
@@ -7835,7 +7466,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zyy
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zyyw_m5086101A6F96178CDF4D5BC7CB8D090A9A95D033 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(z, y, y, w); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___y_1;
@@ -7859,7 +7489,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zyy
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zyzx_m6D843F414CF14837CB3D6583B4AE2351DF542603 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(z, y, z, x); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___z_2;
@@ -7883,7 +7512,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zyz
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zyzy_mB341A9B151502610F5298DE265B675E86183D770 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(z, y, z, y); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___z_2;
@@ -7907,7 +7535,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zyz
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zyzz_mDFDCF6ACFF7B395842ACC28769B73A0102E5F20D (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(z, y, z, z); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___z_2;
@@ -7931,7 +7558,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zyz
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zyzw_m4D15DCDA593BCBD5380AB5051BD49A2A97D9F295 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(z, y, z, w); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___z_2;
@@ -7955,7 +7581,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zyz
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zywx_m0A2F29E2C1296D110BBD8074DA7551F0AF8B654A (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(z, y, w, x); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___w_3;
@@ -7979,23 +7604,18 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zyw
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4_set_zywx_m3C57B8B6D7E05C06CBF0C291AD6F8827A8A015E4 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___value0, const RuntimeMethod* method) 
 {
 	{
-		// set { z = value.x; y = value.y; w = value.z; x = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = ___value0;
 		float L_1 = L_0.___x_0;
 		__this->___z_2 = L_1;
-		// set { z = value.x; y = value.y; w = value.z; x = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2 = ___value0;
 		float L_3 = L_2.___y_1;
 		__this->___y_1 = L_3;
-		// set { z = value.x; y = value.y; w = value.z; x = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_4 = ___value0;
 		float L_5 = L_4.___z_2;
 		__this->___w_3 = L_5;
-		// set { z = value.x; y = value.y; w = value.z; x = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_6 = ___value0;
 		float L_7 = L_6.___w_3;
 		__this->___x_0 = L_7;
-		// set { z = value.x; y = value.y; w = value.z; x = value.w; }
 		return;
 	}
 }
@@ -8010,7 +7630,6 @@ IL2CPP_EXTERN_C  void float4_set_zywx_m3C57B8B6D7E05C06CBF0C291AD6F8827A8A015E4_
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zywy_m4757B552D79DA45702E2FE97273FBB5F789A1731 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(z, y, w, y); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___w_3;
@@ -8034,7 +7653,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zyw
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zywz_m616020B5005DD2F97DBE6C963AD8D470EAA51737 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(z, y, w, z); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___w_3;
@@ -8058,7 +7676,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zyw
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zyww_mC7318837FF436E236413B2BE58CF9444ACC9E26A (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(z, y, w, w); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___w_3;
@@ -8082,7 +7699,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zyw
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zzxx_m6EAF5AA4951B159658531A688AB360658CCC8CB9 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(z, z, x, x); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___x_0;
@@ -8106,7 +7722,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zzx
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zzxy_mF0C165A95FF08C85556D4FB7B4AFF040F35E2DFB (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(z, z, x, y); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___x_0;
@@ -8130,7 +7745,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zzx
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zzxz_mF878DA93E758AE964611F21A344DD0610A4244F6 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(z, z, x, z); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___x_0;
@@ -8154,7 +7768,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zzx
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zzxw_m463EED02E649133E58E7625FC465464366DB126D (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(z, z, x, w); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___x_0;
@@ -8178,7 +7791,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zzx
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zzyx_m682EF17DD76B44A1B4087DEEA78340BF97853C6C (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(z, z, y, x); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___y_1;
@@ -8202,7 +7814,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zzy
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zzyy_mE0F2D85C3BA6E838846D6425634573F7D81E3890 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(z, z, y, y); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___y_1;
@@ -8226,7 +7837,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zzy
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zzyz_m27D9B26CFF6439BBC51ECF16B86A7C090D46D603 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(z, z, y, z); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___y_1;
@@ -8250,7 +7860,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zzy
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zzyw_mF66B8931BF161212793EC0861B38A0C3A8EBE21D (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(z, z, y, w); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___y_1;
@@ -8274,7 +7883,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zzy
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zzzx_mBA844228EEDE1FD4872127D76C0DB82FC34039C2 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(z, z, z, x); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___z_2;
@@ -8298,7 +7906,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zzz
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zzzy_mC05548907E218DFFAF5B980BB0063CCBBAACEA7E (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(z, z, z, y); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___z_2;
@@ -8322,7 +7929,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zzz
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zzzz_m3356B383529B6B9D6DA45789BB87E5AD12313788 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(z, z, z, z); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___z_2;
@@ -8346,7 +7952,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zzz
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zzzw_m5FE84DAFE4191267C033A893293B264A2175BC03 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(z, z, z, w); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___z_2;
@@ -8370,7 +7975,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zzz
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zzwx_mE99B005BCF6BC85F592E557820A827139B5B862E (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(z, z, w, x); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___w_3;
@@ -8394,7 +7998,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zzw
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zzwy_m9159BD76E95292428106894CEFEA5140246F373C (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(z, z, w, y); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___w_3;
@@ -8418,7 +8021,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zzw
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zzwz_mABA5A42C29FE793B5CC28DC57A730F476725DC3F (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(z, z, w, z); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___w_3;
@@ -8442,7 +8044,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zzw
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zzww_mC3ED41BFCF876CF2DC9C869091D0194812FF4029 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(z, z, w, w); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___w_3;
@@ -8466,7 +8067,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zzw
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zwxx_m82C85C15DB155B85BACF51DE477934AFC44AB886 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(z, w, x, x); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___x_0;
@@ -8490,7 +8090,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zwx
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zwxy_m8F8007FD25E49C0644615EABA414DA7672794563 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(z, w, x, y); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___x_0;
@@ -8514,23 +8113,18 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zwx
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4_set_zwxy_mC732F86883B7F21BA8087DE8E510ED6AAF316CC2 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___value0, const RuntimeMethod* method) 
 {
 	{
-		// set { z = value.x; w = value.y; x = value.z; y = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = ___value0;
 		float L_1 = L_0.___x_0;
 		__this->___z_2 = L_1;
-		// set { z = value.x; w = value.y; x = value.z; y = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2 = ___value0;
 		float L_3 = L_2.___y_1;
 		__this->___w_3 = L_3;
-		// set { z = value.x; w = value.y; x = value.z; y = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_4 = ___value0;
 		float L_5 = L_4.___z_2;
 		__this->___x_0 = L_5;
-		// set { z = value.x; w = value.y; x = value.z; y = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_6 = ___value0;
 		float L_7 = L_6.___w_3;
 		__this->___y_1 = L_7;
-		// set { z = value.x; w = value.y; x = value.z; y = value.w; }
 		return;
 	}
 }
@@ -8545,7 +8139,6 @@ IL2CPP_EXTERN_C  void float4_set_zwxy_mC732F86883B7F21BA8087DE8E510ED6AAF316CC2_
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zwxz_m98CA6B9DC0C6F0E170F974D29102126CBF5C3150 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(z, w, x, z); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___x_0;
@@ -8569,7 +8162,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zwx
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zwxw_m533C6E8D2B27681EA05ECCF33450AA95005EAA6F (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(z, w, x, w); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___x_0;
@@ -8593,7 +8185,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zwx
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zwyx_m6FD882ED92F80B88AE7E79AFEBD7B1F04062D567 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(z, w, y, x); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___y_1;
@@ -8617,23 +8208,18 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zwy
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4_set_zwyx_mC6CA81DF0339943F939C507AC6F7D2B7EFC59270 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___value0, const RuntimeMethod* method) 
 {
 	{
-		// set { z = value.x; w = value.y; y = value.z; x = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = ___value0;
 		float L_1 = L_0.___x_0;
 		__this->___z_2 = L_1;
-		// set { z = value.x; w = value.y; y = value.z; x = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2 = ___value0;
 		float L_3 = L_2.___y_1;
 		__this->___w_3 = L_3;
-		// set { z = value.x; w = value.y; y = value.z; x = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_4 = ___value0;
 		float L_5 = L_4.___z_2;
 		__this->___y_1 = L_5;
-		// set { z = value.x; w = value.y; y = value.z; x = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_6 = ___value0;
 		float L_7 = L_6.___w_3;
 		__this->___x_0 = L_7;
-		// set { z = value.x; w = value.y; y = value.z; x = value.w; }
 		return;
 	}
 }
@@ -8648,7 +8234,6 @@ IL2CPP_EXTERN_C  void float4_set_zwyx_mC6CA81DF0339943F939C507AC6F7D2B7EFC59270_
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zwyy_mD881536BAB41B7362386FA19CFBA9885DC0E4C11 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(z, w, y, y); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___y_1;
@@ -8672,7 +8257,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zwy
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zwyz_m13B8FCA913154AB1FB133CC3587D7BE5900E6A18 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(z, w, y, z); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___y_1;
@@ -8696,7 +8280,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zwy
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zwyw_m0476A37D8E216EB29C211CA55C59843EFCD75FEC (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(z, w, y, w); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___y_1;
@@ -8720,7 +8303,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zwy
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zwzx_m07BAA74DA5ED2B03E9538CD57A0B819B01B466FC (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(z, w, z, x); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___z_2;
@@ -8744,7 +8326,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zwz
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zwzy_mE87DA5270CC6332E78363CA7D4A9BC530F19A8FF (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(z, w, z, y); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___z_2;
@@ -8768,7 +8349,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zwz
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zwzz_m42AB148FA21D9E1B1BEA5A5A4ECE9260E81F4E37 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(z, w, z, z); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___z_2;
@@ -8792,7 +8372,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zwz
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zwzw_mE1670DA2AC789B2617A48E0AA146E58F7E86F08E (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(z, w, z, w); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___z_2;
@@ -8816,7 +8395,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zwz
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zwwx_mEFAEC4CD92349661BD4A4E365143B71378461CBD (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(z, w, w, x); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___w_3;
@@ -8840,7 +8418,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zww
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zwwy_m7D3BC2DEAB920C71E2B5D0A5509A2527B649F20A (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(z, w, w, y); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___w_3;
@@ -8864,7 +8441,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zww
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zwwz_mD6E82D7D93EE6F2F9CD07234D8BFEC2F1102114B (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(z, w, w, z); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___w_3;
@@ -8888,7 +8464,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zww
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zwww_m6D88F5FBBCE86DC1551C043132A442E4CB253C93 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(z, w, w, w); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___w_3;
@@ -8912,7 +8487,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zww
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wxxx_m63FA7EDEEDD655C66C2E7D5A35B75C2A1D4EC52E (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(w, x, x, x); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___x_0;
@@ -8936,7 +8510,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wxx
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wxxy_m6A3D9AEFE6E5782C6FB69BA0D9ED8D2277B4295D (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(w, x, x, y); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___x_0;
@@ -8960,7 +8533,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wxx
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wxxz_mD41867AE36207427AA8ED2549431FA20B5F222C0 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(w, x, x, z); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___x_0;
@@ -8984,7 +8556,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wxx
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wxxw_m21C60B79D6AC6757226444FC3CA30EAAB8C66886 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(w, x, x, w); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___x_0;
@@ -9008,7 +8579,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wxx
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wxyx_m6D2B31673FE66C495DE9B58AB1F6515A897E4B2A (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(w, x, y, x); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___y_1;
@@ -9032,7 +8602,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wxy
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wxyy_mA716B4E4D612A0CEC3294AB21DDC571ABF3A2F79 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(w, x, y, y); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___y_1;
@@ -9056,7 +8625,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wxy
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wxyz_m3BF903FC0A3AB1F9C797ABB3886F1D9D46AFE1EF (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(w, x, y, z); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___y_1;
@@ -9080,23 +8648,18 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wxy
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4_set_wxyz_mE1D952874B36FE5ACF045BA41D7D7980EED80355 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___value0, const RuntimeMethod* method) 
 {
 	{
-		// set { w = value.x; x = value.y; y = value.z; z = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = ___value0;
 		float L_1 = L_0.___x_0;
 		__this->___w_3 = L_1;
-		// set { w = value.x; x = value.y; y = value.z; z = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2 = ___value0;
 		float L_3 = L_2.___y_1;
 		__this->___x_0 = L_3;
-		// set { w = value.x; x = value.y; y = value.z; z = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_4 = ___value0;
 		float L_5 = L_4.___z_2;
 		__this->___y_1 = L_5;
-		// set { w = value.x; x = value.y; y = value.z; z = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_6 = ___value0;
 		float L_7 = L_6.___w_3;
 		__this->___z_2 = L_7;
-		// set { w = value.x; x = value.y; y = value.z; z = value.w; }
 		return;
 	}
 }
@@ -9111,7 +8674,6 @@ IL2CPP_EXTERN_C  void float4_set_wxyz_mE1D952874B36FE5ACF045BA41D7D7980EED80355_
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wxyw_mEAE54096AC5E034D4FC42007084CFC95927E5AED (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(w, x, y, w); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___y_1;
@@ -9135,7 +8697,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wxy
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wxzx_m5ADAD7E04FEC46763C5A93C74A37ECF2F401954F (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(w, x, z, x); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___z_2;
@@ -9159,7 +8720,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wxz
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wxzy_m81F2515DC91EC6471325C0927E51F6B1DE593AA5 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(w, x, z, y); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___z_2;
@@ -9183,23 +8743,18 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wxz
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4_set_wxzy_mCA85394321E788161A69B0784BA2CE9FB3E8197F (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___value0, const RuntimeMethod* method) 
 {
 	{
-		// set { w = value.x; x = value.y; z = value.z; y = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = ___value0;
 		float L_1 = L_0.___x_0;
 		__this->___w_3 = L_1;
-		// set { w = value.x; x = value.y; z = value.z; y = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2 = ___value0;
 		float L_3 = L_2.___y_1;
 		__this->___x_0 = L_3;
-		// set { w = value.x; x = value.y; z = value.z; y = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_4 = ___value0;
 		float L_5 = L_4.___z_2;
 		__this->___z_2 = L_5;
-		// set { w = value.x; x = value.y; z = value.z; y = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_6 = ___value0;
 		float L_7 = L_6.___w_3;
 		__this->___y_1 = L_7;
-		// set { w = value.x; x = value.y; z = value.z; y = value.w; }
 		return;
 	}
 }
@@ -9214,7 +8769,6 @@ IL2CPP_EXTERN_C  void float4_set_wxzy_mCA85394321E788161A69B0784BA2CE9FB3E8197F_
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wxzz_m86D59A1ACED4707B5C169885E2743BBB511BB2F4 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(w, x, z, z); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___z_2;
@@ -9238,7 +8792,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wxz
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wxzw_m00B2516EB23CEFD569F77E66845EEAC5F7A2B4F7 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(w, x, z, w); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___z_2;
@@ -9262,7 +8815,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wxz
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wxwx_m6A78A6844E503C951B17A4ED499DA02B91DEF33C (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(w, x, w, x); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___w_3;
@@ -9286,7 +8838,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wxw
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wxwy_m0F6107483C02AFE72F71878A1EEDA37562BB2A00 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(w, x, w, y); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___w_3;
@@ -9310,7 +8861,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wxw
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wxwz_m2B90ACD944B5571981C2219758625669776BDCAB (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(w, x, w, z); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___w_3;
@@ -9334,7 +8884,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wxw
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wxww_m15B219604FCF96E56B8AC947FEBF57EF1349364D (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(w, x, w, w); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___w_3;
@@ -9358,7 +8907,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wxw
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wyxx_m67991CAA41DA4F57E139C19050D3929852BB416E (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(w, y, x, x); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___x_0;
@@ -9382,7 +8930,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wyx
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wyxy_mB5F4FB815F512810397FA946182383A7A66AD761 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(w, y, x, y); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___x_0;
@@ -9406,7 +8953,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wyx
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wyxz_m3394985B92BB53EC5C6424CFCDCB6060477CAE8C (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(w, y, x, z); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___x_0;
@@ -9430,23 +8976,18 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wyx
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4_set_wyxz_mF40C4BED44D36A28D4AAB71178C1B589CC16F1B1 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___value0, const RuntimeMethod* method) 
 {
 	{
-		// set { w = value.x; y = value.y; x = value.z; z = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = ___value0;
 		float L_1 = L_0.___x_0;
 		__this->___w_3 = L_1;
-		// set { w = value.x; y = value.y; x = value.z; z = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2 = ___value0;
 		float L_3 = L_2.___y_1;
 		__this->___y_1 = L_3;
-		// set { w = value.x; y = value.y; x = value.z; z = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_4 = ___value0;
 		float L_5 = L_4.___z_2;
 		__this->___x_0 = L_5;
-		// set { w = value.x; y = value.y; x = value.z; z = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_6 = ___value0;
 		float L_7 = L_6.___w_3;
 		__this->___z_2 = L_7;
-		// set { w = value.x; y = value.y; x = value.z; z = value.w; }
 		return;
 	}
 }
@@ -9461,7 +9002,6 @@ IL2CPP_EXTERN_C  void float4_set_wyxz_mF40C4BED44D36A28D4AAB71178C1B589CC16F1B1_
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wyxw_m8837A825EFFA7927121164848BBBBE83D12DF12A (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(w, y, x, w); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___x_0;
@@ -9485,7 +9025,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wyx
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wyyx_m6FD88593062651D474F21FCA998D0FFC4C5AE322 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(w, y, y, x); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___y_1;
@@ -9509,7 +9048,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wyy
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wyyy_mBED85DD76203E4011497A40EF5188EA252BBC906 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(w, y, y, y); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___y_1;
@@ -9533,7 +9071,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wyy
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wyyz_m72CB1847FDF55726D923D7E77FEFA9BE213D38B1 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(w, y, y, z); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___y_1;
@@ -9557,7 +9094,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wyy
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wyyw_mA10443D2E66AFC85932915094E6336751FAE2418 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(w, y, y, w); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___y_1;
@@ -9581,7 +9117,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wyy
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wyzx_mA1CB36440FE772B258372D82335129665FF57230 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(w, y, z, x); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___z_2;
@@ -9605,23 +9140,18 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wyz
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4_set_wyzx_mA7D9F9F4DC4BFC4B4217157B1F967597CBF6A050 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___value0, const RuntimeMethod* method) 
 {
 	{
-		// set { w = value.x; y = value.y; z = value.z; x = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = ___value0;
 		float L_1 = L_0.___x_0;
 		__this->___w_3 = L_1;
-		// set { w = value.x; y = value.y; z = value.z; x = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2 = ___value0;
 		float L_3 = L_2.___y_1;
 		__this->___y_1 = L_3;
-		// set { w = value.x; y = value.y; z = value.z; x = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_4 = ___value0;
 		float L_5 = L_4.___z_2;
 		__this->___z_2 = L_5;
-		// set { w = value.x; y = value.y; z = value.z; x = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_6 = ___value0;
 		float L_7 = L_6.___w_3;
 		__this->___x_0 = L_7;
-		// set { w = value.x; y = value.y; z = value.z; x = value.w; }
 		return;
 	}
 }
@@ -9636,7 +9166,6 @@ IL2CPP_EXTERN_C  void float4_set_wyzx_mA7D9F9F4DC4BFC4B4217157B1F967597CBF6A050_
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wyzy_m29F0D3D40C053B9E1A08FA6F904B5C4598A8B405 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(w, y, z, y); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___z_2;
@@ -9660,7 +9189,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wyz
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wyzz_mF1B23CDA51774704A25B0D2ECE336591766A78E5 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(w, y, z, z); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___z_2;
@@ -9684,7 +9212,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wyz
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wyzw_mF13E5EE9EEFD442E385F6C172B10D6B9498DA137 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(w, y, z, w); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___z_2;
@@ -9708,7 +9235,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wyz
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wywx_m00B1E2EB6D2317E4E5937B422626AF07F1C37E09 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(w, y, w, x); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___w_3;
@@ -9732,7 +9258,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wyw
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wywy_mF443345FC06951A65C543D5DE1656E6954C2B3B4 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(w, y, w, y); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___w_3;
@@ -9756,7 +9281,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wyw
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wywz_m36EFF70D936E9E5FA8B2294AEDDB50378DCC305D (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(w, y, w, z); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___w_3;
@@ -9780,7 +9304,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wyw
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wyww_mCE50B73D04C7F90D8D37BCA52A6EB6491CB8E85D (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(w, y, w, w); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___w_3;
@@ -9804,7 +9327,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wyw
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wzxx_m6F79786D640A4E7568D6FAF172AD1D76D5657A9B (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(w, z, x, x); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___x_0;
@@ -9828,7 +9350,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wzx
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wzxy_m276D17196E18EEEFF9E033AB999FFC812238D93B (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(w, z, x, y); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___x_0;
@@ -9852,23 +9373,18 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wzx
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4_set_wzxy_m41B1C77F84699FA8BFB772FABB73B3AB786AB9D2 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___value0, const RuntimeMethod* method) 
 {
 	{
-		// set { w = value.x; z = value.y; x = value.z; y = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = ___value0;
 		float L_1 = L_0.___x_0;
 		__this->___w_3 = L_1;
-		// set { w = value.x; z = value.y; x = value.z; y = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2 = ___value0;
 		float L_3 = L_2.___y_1;
 		__this->___z_2 = L_3;
-		// set { w = value.x; z = value.y; x = value.z; y = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_4 = ___value0;
 		float L_5 = L_4.___z_2;
 		__this->___x_0 = L_5;
-		// set { w = value.x; z = value.y; x = value.z; y = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_6 = ___value0;
 		float L_7 = L_6.___w_3;
 		__this->___y_1 = L_7;
-		// set { w = value.x; z = value.y; x = value.z; y = value.w; }
 		return;
 	}
 }
@@ -9883,7 +9399,6 @@ IL2CPP_EXTERN_C  void float4_set_wzxy_m41B1C77F84699FA8BFB772FABB73B3AB786AB9D2_
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wzxz_mE4FAE189EC20EA0875A3965AC251D95F00688877 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(w, z, x, z); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___x_0;
@@ -9907,7 +9422,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wzx
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wzxw_m0633E6084BC0E6BA0BD7A5D874E64FDF5196A44F (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(w, z, x, w); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___x_0;
@@ -9931,7 +9445,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wzx
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wzyx_mA9531BFB41E8CC9E8070F8C4A1C23BCAAD7648E8 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(w, z, y, x); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___y_1;
@@ -9955,23 +9468,18 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wzy
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4_set_wzyx_mFF611A5ECC0DD93E7032D53097803C8134EB6F22 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___value0, const RuntimeMethod* method) 
 {
 	{
-		// set { w = value.x; z = value.y; y = value.z; x = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = ___value0;
 		float L_1 = L_0.___x_0;
 		__this->___w_3 = L_1;
-		// set { w = value.x; z = value.y; y = value.z; x = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2 = ___value0;
 		float L_3 = L_2.___y_1;
 		__this->___z_2 = L_3;
-		// set { w = value.x; z = value.y; y = value.z; x = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_4 = ___value0;
 		float L_5 = L_4.___z_2;
 		__this->___y_1 = L_5;
-		// set { w = value.x; z = value.y; y = value.z; x = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_6 = ___value0;
 		float L_7 = L_6.___w_3;
 		__this->___x_0 = L_7;
-		// set { w = value.x; z = value.y; y = value.z; x = value.w; }
 		return;
 	}
 }
@@ -9986,7 +9494,6 @@ IL2CPP_EXTERN_C  void float4_set_wzyx_mFF611A5ECC0DD93E7032D53097803C8134EB6F22_
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wzyy_mEB945A64C52AE80F08978345269E573D67501609 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(w, z, y, y); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___y_1;
@@ -10010,7 +9517,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wzy
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wzyz_m2E84120721ACAB3917E3A36AEA18592F87CECC4D (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(w, z, y, z); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___y_1;
@@ -10034,7 +9540,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wzy
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wzyw_mBCEB4EB1D54BDD94885B2DB7925EAE45F81415AA (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(w, z, y, w); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___y_1;
@@ -10058,7 +9563,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wzy
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wzzx_mC7E9D73B1AE8E10370CBAC22E611FBD274F595AE (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(w, z, z, x); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___z_2;
@@ -10082,7 +9586,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wzz
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wzzy_m7CA1BA5759357632B464DC6DB92E93DDEA96B4C6 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(w, z, z, y); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___z_2;
@@ -10106,7 +9609,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wzz
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wzzz_mFBB83F0D93A870DF915CCDAF2B989955DFA0E2F0 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(w, z, z, z); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___z_2;
@@ -10130,7 +9632,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wzz
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wzzw_m7010914D2D3105ABF0FD0E08FE96BF9B77DB14F9 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(w, z, z, w); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___z_2;
@@ -10154,7 +9655,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wzz
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wzwx_mA08B5B47E287C0960CE74802BE98DCB267AC4CCB (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(w, z, w, x); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___w_3;
@@ -10178,7 +9678,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wzw
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wzwy_m6F76EFC24E006BD59287707C09A09CC8217D3192 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(w, z, w, y); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___w_3;
@@ -10202,7 +9701,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wzw
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wzwz_m410E17FDC6F5686F0FF3A4761620C549B2838E45 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(w, z, w, z); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___w_3;
@@ -10226,7 +9724,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wzw
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wzww_mA9F78660F36FCE7875354389549CF939E7E9F972 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(w, z, w, w); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___w_3;
@@ -10250,7 +9747,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wzw
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wwxx_m765A794B77323239ABEB28AA65D80CFEFBB375D3 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(w, w, x, x); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___x_0;
@@ -10274,7 +9770,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wwx
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wwxy_m2842748F704B91736EFB6F62B9F598886E46424E (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(w, w, x, y); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___x_0;
@@ -10298,7 +9793,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wwx
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wwxz_m525D485E01088D366FC6846C5950E97913086523 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(w, w, x, z); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___x_0;
@@ -10322,7 +9816,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wwx
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wwxw_m1E714496DD5BC30C1589CCF3F49C4A1BD5D6BAEC (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(w, w, x, w); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___x_0;
@@ -10346,7 +9839,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wwx
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wwyx_mE89C2966DAFBDC7991A7DD98421B4E46E1106C13 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(w, w, y, x); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___y_1;
@@ -10370,7 +9862,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wwy
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wwyy_mE54201D8D95BE0BEC375AE3240E7FF8818F72C5A (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(w, w, y, y); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___y_1;
@@ -10394,7 +9885,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wwy
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wwyz_m9B424E38C6CFAAECDDA5E8503DA33FD5D8FA3FE6 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(w, w, y, z); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___y_1;
@@ -10418,7 +9908,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wwy
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wwyw_m73A5C4851C27E2FA1FC6332E316BC8CE5919E796 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(w, w, y, w); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___y_1;
@@ -10442,7 +9931,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wwy
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wwzx_m534EE89B94569328D041C14811B84E5237C9C2F1 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(w, w, z, x); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___z_2;
@@ -10466,7 +9954,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wwz
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wwzy_mAAA82717E1F9D633D2A23BA8F82DF89F22E8C955 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(w, w, z, y); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___z_2;
@@ -10490,7 +9977,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wwz
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wwzz_mF5324C9CAD776190F5E8E535F0B79B9CF3CE1B87 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(w, w, z, z); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___z_2;
@@ -10514,7 +10000,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wwz
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wwzw_m8A9986CCA7DF83912D04F7FE10C78B4C50A37AB5 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(w, w, z, w); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___z_2;
@@ -10538,7 +10023,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wwz
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wwwx_m698BBD6517D0DCF19C3529E0E686FF430642E480 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(w, w, w, x); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___w_3;
@@ -10562,7 +10046,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_www
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wwwy_mB4373E9E93F5A3AE18A1D3DB0C2D9EEFBEA0FD37 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(w, w, w, y); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___w_3;
@@ -10586,7 +10069,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_www
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wwwz_m5F811F61DBA641C951B779A1E7FB394E5872FC26 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(w, w, w, z); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___w_3;
@@ -10610,7 +10092,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_www
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wwww_mF04E8B99431D2717DEE58BDAE207EF4C7E1A0009 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(w, w, w, w); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___w_3;
@@ -10634,7 +10115,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_www
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_xxx_m2F2861606B5A6D534E7186D2590A60CFBF87B503 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float3(x, x, x); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___x_0;
@@ -10657,7 +10137,6 @@ IL2CPP_EXTERN_C  float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_xxx
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_xxy_mB4AD1FA7C02D719FFB7B657FD576EEFA7A71152D (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float3(x, x, y); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___y_1;
@@ -10680,7 +10159,6 @@ IL2CPP_EXTERN_C  float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_xxy
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_xxz_mDBB3F27B89EF7DC9795086DF4B70D80D104653B4 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float3(x, x, z); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___z_2;
@@ -10703,7 +10181,6 @@ IL2CPP_EXTERN_C  float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_xxz
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_xxw_m2BBBA5600B80941829310BEA6A3107DD1135958B (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float3(x, x, w); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___w_3;
@@ -10726,7 +10203,6 @@ IL2CPP_EXTERN_C  float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_xxw
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_xyx_m9EB39E239BEB1E434261B2374E4D11B106099CF0 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float3(x, y, x); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___x_0;
@@ -10749,7 +10225,6 @@ IL2CPP_EXTERN_C  float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_xyx
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_xyy_mA8EF090026E8497DC6185CC8872B9470FA1CEC65 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float3(x, y, y); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___y_1;
@@ -10772,7 +10247,6 @@ IL2CPP_EXTERN_C  float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_xyy
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_xyz_mE6EC829F35512C7BC159047FDC134E80F3B37A06 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float3(x, y, z); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___z_2;
@@ -10795,19 +10269,15 @@ IL2CPP_EXTERN_C  float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_xyz
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4_set_xyz_m331D16059D51A5C6CA8AE8FD1E13A68C0570A9C7 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___value0, const RuntimeMethod* method) 
 {
 	{
-		// set { x = value.x; y = value.y; z = value.z; }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_0 = ___value0;
 		float L_1 = L_0.___x_0;
 		__this->___x_0 = L_1;
-		// set { x = value.x; y = value.y; z = value.z; }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_2 = ___value0;
 		float L_3 = L_2.___y_1;
 		__this->___y_1 = L_3;
-		// set { x = value.x; y = value.y; z = value.z; }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_4 = ___value0;
 		float L_5 = L_4.___z_2;
 		__this->___z_2 = L_5;
-		// set { x = value.x; y = value.y; z = value.z; }
 		return;
 	}
 }
@@ -10822,7 +10292,6 @@ IL2CPP_EXTERN_C  void float4_set_xyz_m331D16059D51A5C6CA8AE8FD1E13A68C0570A9C7_A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_xyw_m52F30A1865AE93386F1127E4D9B5F8B6911E655B (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float3(x, y, w); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___w_3;
@@ -10845,19 +10314,15 @@ IL2CPP_EXTERN_C  float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_xyw
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4_set_xyw_m692EC14A8E6407B1C53E2A0AC181FA6EC93F6C66 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___value0, const RuntimeMethod* method) 
 {
 	{
-		// set { x = value.x; y = value.y; w = value.z; }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_0 = ___value0;
 		float L_1 = L_0.___x_0;
 		__this->___x_0 = L_1;
-		// set { x = value.x; y = value.y; w = value.z; }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_2 = ___value0;
 		float L_3 = L_2.___y_1;
 		__this->___y_1 = L_3;
-		// set { x = value.x; y = value.y; w = value.z; }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_4 = ___value0;
 		float L_5 = L_4.___z_2;
 		__this->___w_3 = L_5;
-		// set { x = value.x; y = value.y; w = value.z; }
 		return;
 	}
 }
@@ -10872,7 +10337,6 @@ IL2CPP_EXTERN_C  void float4_set_xyw_m692EC14A8E6407B1C53E2A0AC181FA6EC93F6C66_A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_xzx_m587B6CE9E198F668D727E18E5477509B7E946AA6 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float3(x, z, x); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___x_0;
@@ -10895,7 +10359,6 @@ IL2CPP_EXTERN_C  float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_xzx
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_xzy_m73B21685449B6BF1EAE284E5A4614E92021E4E29 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float3(x, z, y); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___y_1;
@@ -10918,19 +10381,15 @@ IL2CPP_EXTERN_C  float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_xzy
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4_set_xzy_mBD2D3E620D26141510F3A80970EC53FEFA097221 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___value0, const RuntimeMethod* method) 
 {
 	{
-		// set { x = value.x; z = value.y; y = value.z; }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_0 = ___value0;
 		float L_1 = L_0.___x_0;
 		__this->___x_0 = L_1;
-		// set { x = value.x; z = value.y; y = value.z; }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_2 = ___value0;
 		float L_3 = L_2.___y_1;
 		__this->___z_2 = L_3;
-		// set { x = value.x; z = value.y; y = value.z; }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_4 = ___value0;
 		float L_5 = L_4.___z_2;
 		__this->___y_1 = L_5;
-		// set { x = value.x; z = value.y; y = value.z; }
 		return;
 	}
 }
@@ -10945,7 +10404,6 @@ IL2CPP_EXTERN_C  void float4_set_xzy_mBD2D3E620D26141510F3A80970EC53FEFA097221_A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_xzz_mCC98FFFEFBA01F24C4B8D1A68BBFA69326ABCFCE (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float3(x, z, z); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___z_2;
@@ -10968,7 +10426,6 @@ IL2CPP_EXTERN_C  float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_xzz
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_xzw_m87531E24675C293E9F2DB522958360D33436439F (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float3(x, z, w); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___w_3;
@@ -10991,19 +10448,15 @@ IL2CPP_EXTERN_C  float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_xzw
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4_set_xzw_m2E778A44120C8CA75EAB0832B2A4D2AFBFEAD89E (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___value0, const RuntimeMethod* method) 
 {
 	{
-		// set { x = value.x; z = value.y; w = value.z; }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_0 = ___value0;
 		float L_1 = L_0.___x_0;
 		__this->___x_0 = L_1;
-		// set { x = value.x; z = value.y; w = value.z; }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_2 = ___value0;
 		float L_3 = L_2.___y_1;
 		__this->___z_2 = L_3;
-		// set { x = value.x; z = value.y; w = value.z; }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_4 = ___value0;
 		float L_5 = L_4.___z_2;
 		__this->___w_3 = L_5;
-		// set { x = value.x; z = value.y; w = value.z; }
 		return;
 	}
 }
@@ -11018,7 +10471,6 @@ IL2CPP_EXTERN_C  void float4_set_xzw_m2E778A44120C8CA75EAB0832B2A4D2AFBFEAD89E_A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_xwx_m361EFE08807B27027EF1EA47BD96A694BC376FD8 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float3(x, w, x); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___x_0;
@@ -11041,7 +10493,6 @@ IL2CPP_EXTERN_C  float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_xwx
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_xwy_mF7D73506E320EC8708FB2A55A990C00619D91A55 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float3(x, w, y); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___y_1;
@@ -11064,19 +10515,15 @@ IL2CPP_EXTERN_C  float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_xwy
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4_set_xwy_m9094E01D15A27FEDAC8C15B06A0BB63433B523E7 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___value0, const RuntimeMethod* method) 
 {
 	{
-		// set { x = value.x; w = value.y; y = value.z; }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_0 = ___value0;
 		float L_1 = L_0.___x_0;
 		__this->___x_0 = L_1;
-		// set { x = value.x; w = value.y; y = value.z; }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_2 = ___value0;
 		float L_3 = L_2.___y_1;
 		__this->___w_3 = L_3;
-		// set { x = value.x; w = value.y; y = value.z; }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_4 = ___value0;
 		float L_5 = L_4.___z_2;
 		__this->___y_1 = L_5;
-		// set { x = value.x; w = value.y; y = value.z; }
 		return;
 	}
 }
@@ -11091,7 +10538,6 @@ IL2CPP_EXTERN_C  void float4_set_xwy_m9094E01D15A27FEDAC8C15B06A0BB63433B523E7_A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_xwz_m0649D879354B08B37DA817055337DC193D146A7A (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float3(x, w, z); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___z_2;
@@ -11114,19 +10560,15 @@ IL2CPP_EXTERN_C  float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_xwz
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4_set_xwz_m4D0E792D2B62D516326AAF66B7DAE59EA2FD14C3 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___value0, const RuntimeMethod* method) 
 {
 	{
-		// set { x = value.x; w = value.y; z = value.z; }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_0 = ___value0;
 		float L_1 = L_0.___x_0;
 		__this->___x_0 = L_1;
-		// set { x = value.x; w = value.y; z = value.z; }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_2 = ___value0;
 		float L_3 = L_2.___y_1;
 		__this->___w_3 = L_3;
-		// set { x = value.x; w = value.y; z = value.z; }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_4 = ___value0;
 		float L_5 = L_4.___z_2;
 		__this->___z_2 = L_5;
-		// set { x = value.x; w = value.y; z = value.z; }
 		return;
 	}
 }
@@ -11141,7 +10583,6 @@ IL2CPP_EXTERN_C  void float4_set_xwz_m4D0E792D2B62D516326AAF66B7DAE59EA2FD14C3_A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_xww_m7CFE89005AFC3F0A0D99C05ECEA6833F261AAC2C (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float3(x, w, w); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___w_3;
@@ -11164,7 +10605,6 @@ IL2CPP_EXTERN_C  float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_xww
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_yxx_m7E657866E2FDD9AD277DBA3305155148D8046D30 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float3(y, x, x); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___x_0;
@@ -11187,7 +10627,6 @@ IL2CPP_EXTERN_C  float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_yxx
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_yxy_m1C9F44F616CDE25C7BA7DD5BAA8273A5A6D54894 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float3(y, x, y); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___y_1;
@@ -11210,7 +10649,6 @@ IL2CPP_EXTERN_C  float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_yxy
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_yxz_m1E3CDB5CA47E89C611BA44DFFFB030EF5D2BEF55 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float3(y, x, z); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___z_2;
@@ -11233,19 +10671,15 @@ IL2CPP_EXTERN_C  float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_yxz
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4_set_yxz_mD0D6372715BBA5CDF973DDB9D20138E64E692D9B (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___value0, const RuntimeMethod* method) 
 {
 	{
-		// set { y = value.x; x = value.y; z = value.z; }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_0 = ___value0;
 		float L_1 = L_0.___x_0;
 		__this->___y_1 = L_1;
-		// set { y = value.x; x = value.y; z = value.z; }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_2 = ___value0;
 		float L_3 = L_2.___y_1;
 		__this->___x_0 = L_3;
-		// set { y = value.x; x = value.y; z = value.z; }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_4 = ___value0;
 		float L_5 = L_4.___z_2;
 		__this->___z_2 = L_5;
-		// set { y = value.x; x = value.y; z = value.z; }
 		return;
 	}
 }
@@ -11260,7 +10694,6 @@ IL2CPP_EXTERN_C  void float4_set_yxz_mD0D6372715BBA5CDF973DDB9D20138E64E692D9B_A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_yxw_mBACC7261DBDD87BA51639CE46D9958D97B18DD05 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float3(y, x, w); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___w_3;
@@ -11283,19 +10716,15 @@ IL2CPP_EXTERN_C  float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_yxw
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4_set_yxw_m7D4E534F79DECCBC4A85E26AB513B649E5B98360 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___value0, const RuntimeMethod* method) 
 {
 	{
-		// set { y = value.x; x = value.y; w = value.z; }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_0 = ___value0;
 		float L_1 = L_0.___x_0;
 		__this->___y_1 = L_1;
-		// set { y = value.x; x = value.y; w = value.z; }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_2 = ___value0;
 		float L_3 = L_2.___y_1;
 		__this->___x_0 = L_3;
-		// set { y = value.x; x = value.y; w = value.z; }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_4 = ___value0;
 		float L_5 = L_4.___z_2;
 		__this->___w_3 = L_5;
-		// set { y = value.x; x = value.y; w = value.z; }
 		return;
 	}
 }
@@ -11310,7 +10739,6 @@ IL2CPP_EXTERN_C  void float4_set_yxw_m7D4E534F79DECCBC4A85E26AB513B649E5B98360_A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_yyx_mC0BB21417A099093100A1DF7F3ED341C913AED3E (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float3(y, y, x); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___x_0;
@@ -11333,7 +10761,6 @@ IL2CPP_EXTERN_C  float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_yyx
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_yyy_mAEE8E6F6F3842A64D16B5EF26E96D36F0B01A978 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float3(y, y, y); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___y_1;
@@ -11356,7 +10783,6 @@ IL2CPP_EXTERN_C  float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_yyy
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_yyz_m30A3550D7C98B7180DE55E14AFBC1CA481C03AEC (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float3(y, y, z); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___z_2;
@@ -11379,7 +10805,6 @@ IL2CPP_EXTERN_C  float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_yyz
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_yyw_m26E083B334CE9B73D603320F535200705FD27062 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float3(y, y, w); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___w_3;
@@ -11402,7 +10827,6 @@ IL2CPP_EXTERN_C  float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_yyw
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_yzx_mC778F30D636C17B9D21DE2F7BA3F0C43C7BBF470 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float3(y, z, x); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___x_0;
@@ -11425,19 +10849,15 @@ IL2CPP_EXTERN_C  float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_yzx
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4_set_yzx_mC342B32FD9BA362F5CEF92C5E2AE7DAEFE819974 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___value0, const RuntimeMethod* method) 
 {
 	{
-		// set { y = value.x; z = value.y; x = value.z; }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_0 = ___value0;
 		float L_1 = L_0.___x_0;
 		__this->___y_1 = L_1;
-		// set { y = value.x; z = value.y; x = value.z; }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_2 = ___value0;
 		float L_3 = L_2.___y_1;
 		__this->___z_2 = L_3;
-		// set { y = value.x; z = value.y; x = value.z; }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_4 = ___value0;
 		float L_5 = L_4.___z_2;
 		__this->___x_0 = L_5;
-		// set { y = value.x; z = value.y; x = value.z; }
 		return;
 	}
 }
@@ -11452,7 +10872,6 @@ IL2CPP_EXTERN_C  void float4_set_yzx_mC342B32FD9BA362F5CEF92C5E2AE7DAEFE819974_A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_yzy_m621798D97F7C6CA18A4040F85C8345EFA987F9B3 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float3(y, z, y); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___y_1;
@@ -11475,7 +10894,6 @@ IL2CPP_EXTERN_C  float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_yzy
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_yzz_mCF9172CE1DD63450216DD3095E4595A64E971A73 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float3(y, z, z); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___z_2;
@@ -11498,7 +10916,6 @@ IL2CPP_EXTERN_C  float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_yzz
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_yzw_m7C4427E628E39E34646B53D646B1792636C07098 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float3(y, z, w); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___w_3;
@@ -11521,19 +10938,15 @@ IL2CPP_EXTERN_C  float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_yzw
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4_set_yzw_mCBF4D708A6C58AB3BBD598061063019E696E6F10 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___value0, const RuntimeMethod* method) 
 {
 	{
-		// set { y = value.x; z = value.y; w = value.z; }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_0 = ___value0;
 		float L_1 = L_0.___x_0;
 		__this->___y_1 = L_1;
-		// set { y = value.x; z = value.y; w = value.z; }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_2 = ___value0;
 		float L_3 = L_2.___y_1;
 		__this->___z_2 = L_3;
-		// set { y = value.x; z = value.y; w = value.z; }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_4 = ___value0;
 		float L_5 = L_4.___z_2;
 		__this->___w_3 = L_5;
-		// set { y = value.x; z = value.y; w = value.z; }
 		return;
 	}
 }
@@ -11548,7 +10961,6 @@ IL2CPP_EXTERN_C  void float4_set_yzw_mCBF4D708A6C58AB3BBD598061063019E696E6F10_A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_ywx_m3005B7442A9C5CF58089D6C41B932D4EDEFBA285 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float3(y, w, x); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___x_0;
@@ -11571,19 +10983,15 @@ IL2CPP_EXTERN_C  float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_ywx
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4_set_ywx_mCFF1098BB8FCE57B2FB007E541A006A4C16D6C15 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___value0, const RuntimeMethod* method) 
 {
 	{
-		// set { y = value.x; w = value.y; x = value.z; }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_0 = ___value0;
 		float L_1 = L_0.___x_0;
 		__this->___y_1 = L_1;
-		// set { y = value.x; w = value.y; x = value.z; }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_2 = ___value0;
 		float L_3 = L_2.___y_1;
 		__this->___w_3 = L_3;
-		// set { y = value.x; w = value.y; x = value.z; }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_4 = ___value0;
 		float L_5 = L_4.___z_2;
 		__this->___x_0 = L_5;
-		// set { y = value.x; w = value.y; x = value.z; }
 		return;
 	}
 }
@@ -11598,7 +11006,6 @@ IL2CPP_EXTERN_C  void float4_set_ywx_mCFF1098BB8FCE57B2FB007E541A006A4C16D6C15_A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_ywy_m4CA93E6F794217B9FAEDDD49510853A58417DACA (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float3(y, w, y); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___y_1;
@@ -11621,7 +11028,6 @@ IL2CPP_EXTERN_C  float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_ywy
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_ywz_mCDCC7707B8DB673B7380D4BCAAC1FA0CF42690FA (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float3(y, w, z); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___z_2;
@@ -11644,19 +11050,15 @@ IL2CPP_EXTERN_C  float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_ywz
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4_set_ywz_mB70BE06BDF027533B7BC3C18ED4AB8AFFEF83B7D (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___value0, const RuntimeMethod* method) 
 {
 	{
-		// set { y = value.x; w = value.y; z = value.z; }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_0 = ___value0;
 		float L_1 = L_0.___x_0;
 		__this->___y_1 = L_1;
-		// set { y = value.x; w = value.y; z = value.z; }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_2 = ___value0;
 		float L_3 = L_2.___y_1;
 		__this->___w_3 = L_3;
-		// set { y = value.x; w = value.y; z = value.z; }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_4 = ___value0;
 		float L_5 = L_4.___z_2;
 		__this->___z_2 = L_5;
-		// set { y = value.x; w = value.y; z = value.z; }
 		return;
 	}
 }
@@ -11671,7 +11073,6 @@ IL2CPP_EXTERN_C  void float4_set_ywz_mB70BE06BDF027533B7BC3C18ED4AB8AFFEF83B7D_A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_yww_m79C72484B5456CECC5286578E0E14C86BB893029 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float3(y, w, w); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___w_3;
@@ -11694,7 +11095,6 @@ IL2CPP_EXTERN_C  float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_yww
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_zxx_mF981115AEC89A29E393C940EAEF50D2D153958ED (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float3(z, x, x); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___x_0;
@@ -11717,7 +11117,6 @@ IL2CPP_EXTERN_C  float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_zxx
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_zxy_m770237ACE5D096EF4D6D9A3EE0591471D87EC18A (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float3(z, x, y); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___y_1;
@@ -11740,19 +11139,15 @@ IL2CPP_EXTERN_C  float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_zxy
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4_set_zxy_mAC2072130C0CEBEC5A77E6538AB03AF7724A69E0 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___value0, const RuntimeMethod* method) 
 {
 	{
-		// set { z = value.x; x = value.y; y = value.z; }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_0 = ___value0;
 		float L_1 = L_0.___x_0;
 		__this->___z_2 = L_1;
-		// set { z = value.x; x = value.y; y = value.z; }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_2 = ___value0;
 		float L_3 = L_2.___y_1;
 		__this->___x_0 = L_3;
-		// set { z = value.x; x = value.y; y = value.z; }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_4 = ___value0;
 		float L_5 = L_4.___z_2;
 		__this->___y_1 = L_5;
-		// set { z = value.x; x = value.y; y = value.z; }
 		return;
 	}
 }
@@ -11767,7 +11162,6 @@ IL2CPP_EXTERN_C  void float4_set_zxy_mAC2072130C0CEBEC5A77E6538AB03AF7724A69E0_A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_zxz_m60F0B80BEFAF6F7162822145D6A11E1CE7CCD2EC (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float3(z, x, z); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___z_2;
@@ -11790,7 +11184,6 @@ IL2CPP_EXTERN_C  float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_zxz
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_zxw_mAEE6CA20A46AB3BDDB1015970AA8C1B2EB4E3029 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float3(z, x, w); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___w_3;
@@ -11813,19 +11206,15 @@ IL2CPP_EXTERN_C  float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_zxw
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4_set_zxw_mCEE9851A41560D5D14E1C028A418B39CABB8729F (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___value0, const RuntimeMethod* method) 
 {
 	{
-		// set { z = value.x; x = value.y; w = value.z; }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_0 = ___value0;
 		float L_1 = L_0.___x_0;
 		__this->___z_2 = L_1;
-		// set { z = value.x; x = value.y; w = value.z; }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_2 = ___value0;
 		float L_3 = L_2.___y_1;
 		__this->___x_0 = L_3;
-		// set { z = value.x; x = value.y; w = value.z; }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_4 = ___value0;
 		float L_5 = L_4.___z_2;
 		__this->___w_3 = L_5;
-		// set { z = value.x; x = value.y; w = value.z; }
 		return;
 	}
 }
@@ -11840,7 +11229,6 @@ IL2CPP_EXTERN_C  void float4_set_zxw_mCEE9851A41560D5D14E1C028A418B39CABB8729F_A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_zyx_mC0162C08DB177CE9CE180C7C9B2B6117708E2E07 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float3(z, y, x); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___x_0;
@@ -11863,19 +11251,15 @@ IL2CPP_EXTERN_C  float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_zyx
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4_set_zyx_mBAA365DAC3934BC53E140CD1DF93205E7778E5DF (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___value0, const RuntimeMethod* method) 
 {
 	{
-		// set { z = value.x; y = value.y; x = value.z; }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_0 = ___value0;
 		float L_1 = L_0.___x_0;
 		__this->___z_2 = L_1;
-		// set { z = value.x; y = value.y; x = value.z; }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_2 = ___value0;
 		float L_3 = L_2.___y_1;
 		__this->___y_1 = L_3;
-		// set { z = value.x; y = value.y; x = value.z; }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_4 = ___value0;
 		float L_5 = L_4.___z_2;
 		__this->___x_0 = L_5;
-		// set { z = value.x; y = value.y; x = value.z; }
 		return;
 	}
 }
@@ -11890,7 +11274,6 @@ IL2CPP_EXTERN_C  void float4_set_zyx_mBAA365DAC3934BC53E140CD1DF93205E7778E5DF_A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_zyy_m63C586FCBDF52741999D150ECF1C14F28A64F37A (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float3(z, y, y); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___y_1;
@@ -11913,7 +11296,6 @@ IL2CPP_EXTERN_C  float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_zyy
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_zyz_mC06D24BF06B6A7F0011881548C8BBA0DB448889D (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float3(z, y, z); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___z_2;
@@ -11936,7 +11318,6 @@ IL2CPP_EXTERN_C  float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_zyz
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_zyw_mEBFF19FA48AD629D3A78452CF53FB01C85231686 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float3(z, y, w); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___w_3;
@@ -11959,19 +11340,15 @@ IL2CPP_EXTERN_C  float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_zyw
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4_set_zyw_m1F505ACDDE76D5189227AD77515EDEDC29108E80 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___value0, const RuntimeMethod* method) 
 {
 	{
-		// set { z = value.x; y = value.y; w = value.z; }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_0 = ___value0;
 		float L_1 = L_0.___x_0;
 		__this->___z_2 = L_1;
-		// set { z = value.x; y = value.y; w = value.z; }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_2 = ___value0;
 		float L_3 = L_2.___y_1;
 		__this->___y_1 = L_3;
-		// set { z = value.x; y = value.y; w = value.z; }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_4 = ___value0;
 		float L_5 = L_4.___z_2;
 		__this->___w_3 = L_5;
-		// set { z = value.x; y = value.y; w = value.z; }
 		return;
 	}
 }
@@ -11986,7 +11363,6 @@ IL2CPP_EXTERN_C  void float4_set_zyw_m1F505ACDDE76D5189227AD77515EDEDC29108E80_A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_zzx_m98A9CE84A09E76C270D84BBFD5E4C1E26D73FEB2 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float3(z, z, x); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___x_0;
@@ -12009,7 +11385,6 @@ IL2CPP_EXTERN_C  float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_zzx
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_zzy_m65764D69FDC364098B6256152D421D71FAB8570B (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float3(z, z, y); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___y_1;
@@ -12032,7 +11407,6 @@ IL2CPP_EXTERN_C  float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_zzy
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_zzz_m2E4DE79E025D8BA921DB40538A65FDE5F6B4C3F9 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float3(z, z, z); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___z_2;
@@ -12055,7 +11429,6 @@ IL2CPP_EXTERN_C  float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_zzz
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_zzw_m67834EDE36F67B09C2450B09F10B721C6D205583 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float3(z, z, w); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___w_3;
@@ -12078,7 +11451,6 @@ IL2CPP_EXTERN_C  float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_zzw
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_zwx_mF2EB9E380A5092E72833677BC468332F5493A4E6 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float3(z, w, x); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___x_0;
@@ -12101,19 +11473,15 @@ IL2CPP_EXTERN_C  float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_zwx
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4_set_zwx_m000186A901E0638B6D5AA0839A5A6FF1E6CFF428 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___value0, const RuntimeMethod* method) 
 {
 	{
-		// set { z = value.x; w = value.y; x = value.z; }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_0 = ___value0;
 		float L_1 = L_0.___x_0;
 		__this->___z_2 = L_1;
-		// set { z = value.x; w = value.y; x = value.z; }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_2 = ___value0;
 		float L_3 = L_2.___y_1;
 		__this->___w_3 = L_3;
-		// set { z = value.x; w = value.y; x = value.z; }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_4 = ___value0;
 		float L_5 = L_4.___z_2;
 		__this->___x_0 = L_5;
-		// set { z = value.x; w = value.y; x = value.z; }
 		return;
 	}
 }
@@ -12128,7 +11496,6 @@ IL2CPP_EXTERN_C  void float4_set_zwx_m000186A901E0638B6D5AA0839A5A6FF1E6CFF428_A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_zwy_m5A765B57D21D47EB1E5F6A48FE203776F5948466 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float3(z, w, y); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___y_1;
@@ -12151,19 +11518,15 @@ IL2CPP_EXTERN_C  float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_zwy
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4_set_zwy_m7F5F7374CBE312AB1B1B03A8BCB7F7D3FB985471 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___value0, const RuntimeMethod* method) 
 {
 	{
-		// set { z = value.x; w = value.y; y = value.z; }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_0 = ___value0;
 		float L_1 = L_0.___x_0;
 		__this->___z_2 = L_1;
-		// set { z = value.x; w = value.y; y = value.z; }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_2 = ___value0;
 		float L_3 = L_2.___y_1;
 		__this->___w_3 = L_3;
-		// set { z = value.x; w = value.y; y = value.z; }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_4 = ___value0;
 		float L_5 = L_4.___z_2;
 		__this->___y_1 = L_5;
-		// set { z = value.x; w = value.y; y = value.z; }
 		return;
 	}
 }
@@ -12178,7 +11541,6 @@ IL2CPP_EXTERN_C  void float4_set_zwy_m7F5F7374CBE312AB1B1B03A8BCB7F7D3FB985471_A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_zwz_m9760BDA51BBF5AB6A7C68E756C3E83FD9A30BCB1 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float3(z, w, z); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___z_2;
@@ -12201,7 +11563,6 @@ IL2CPP_EXTERN_C  float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_zwz
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_zww_mBDE2711461FE7F12AC6FE3B814C0BC88C8B36E5A (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float3(z, w, w); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___w_3;
@@ -12224,7 +11585,6 @@ IL2CPP_EXTERN_C  float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_zww
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_wxx_m77B7F1449061CD2F5236EA088559B66C33BCA702 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float3(w, x, x); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___x_0;
@@ -12247,7 +11607,6 @@ IL2CPP_EXTERN_C  float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_wxx
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_wxy_m0225ACBC48FD08DC7A8CB9DD93EC3777C1BCE933 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float3(w, x, y); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___y_1;
@@ -12270,19 +11629,15 @@ IL2CPP_EXTERN_C  float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_wxy
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4_set_wxy_m606A4C3B3AF7A97AEB4940F4F9B93143613888D6 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___value0, const RuntimeMethod* method) 
 {
 	{
-		// set { w = value.x; x = value.y; y = value.z; }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_0 = ___value0;
 		float L_1 = L_0.___x_0;
 		__this->___w_3 = L_1;
-		// set { w = value.x; x = value.y; y = value.z; }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_2 = ___value0;
 		float L_3 = L_2.___y_1;
 		__this->___x_0 = L_3;
-		// set { w = value.x; x = value.y; y = value.z; }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_4 = ___value0;
 		float L_5 = L_4.___z_2;
 		__this->___y_1 = L_5;
-		// set { w = value.x; x = value.y; y = value.z; }
 		return;
 	}
 }
@@ -12297,7 +11652,6 @@ IL2CPP_EXTERN_C  void float4_set_wxy_m606A4C3B3AF7A97AEB4940F4F9B93143613888D6_A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_wxz_mA9CDEF24BA0705766B65232E50C7883EDC224DB6 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float3(w, x, z); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___z_2;
@@ -12320,19 +11674,15 @@ IL2CPP_EXTERN_C  float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_wxz
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4_set_wxz_m38029EAD798A283C3E2CF2FE9E6E367ACA4F1443 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___value0, const RuntimeMethod* method) 
 {
 	{
-		// set { w = value.x; x = value.y; z = value.z; }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_0 = ___value0;
 		float L_1 = L_0.___x_0;
 		__this->___w_3 = L_1;
-		// set { w = value.x; x = value.y; z = value.z; }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_2 = ___value0;
 		float L_3 = L_2.___y_1;
 		__this->___x_0 = L_3;
-		// set { w = value.x; x = value.y; z = value.z; }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_4 = ___value0;
 		float L_5 = L_4.___z_2;
 		__this->___z_2 = L_5;
-		// set { w = value.x; x = value.y; z = value.z; }
 		return;
 	}
 }
@@ -12347,7 +11697,6 @@ IL2CPP_EXTERN_C  void float4_set_wxz_m38029EAD798A283C3E2CF2FE9E6E367ACA4F1443_A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_wxw_m109EC4BD39AE75FAD1A83DFC9E246572C56C2926 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float3(w, x, w); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___w_3;
@@ -12370,7 +11719,6 @@ IL2CPP_EXTERN_C  float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_wxw
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_wyx_m9AED62E96CB42DFD3180BFC0DF692186AD8F7410 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float3(w, y, x); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___x_0;
@@ -12393,19 +11741,15 @@ IL2CPP_EXTERN_C  float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_wyx
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4_set_wyx_m65701E568998CD3B97E99C98DBA74CE2AA4A7693 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___value0, const RuntimeMethod* method) 
 {
 	{
-		// set { w = value.x; y = value.y; x = value.z; }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_0 = ___value0;
 		float L_1 = L_0.___x_0;
 		__this->___w_3 = L_1;
-		// set { w = value.x; y = value.y; x = value.z; }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_2 = ___value0;
 		float L_3 = L_2.___y_1;
 		__this->___y_1 = L_3;
-		// set { w = value.x; y = value.y; x = value.z; }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_4 = ___value0;
 		float L_5 = L_4.___z_2;
 		__this->___x_0 = L_5;
-		// set { w = value.x; y = value.y; x = value.z; }
 		return;
 	}
 }
@@ -12420,7 +11764,6 @@ IL2CPP_EXTERN_C  void float4_set_wyx_m65701E568998CD3B97E99C98DBA74CE2AA4A7693_A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_wyy_m51BC0DE17E6540A511674E33922DAD8B36AC6D36 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float3(w, y, y); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___y_1;
@@ -12443,7 +11786,6 @@ IL2CPP_EXTERN_C  float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_wyy
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_wyz_mD0FA8B74AFF0C34FC0270FFFB3E2ECC2E16A0B8F (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float3(w, y, z); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___z_2;
@@ -12466,19 +11808,15 @@ IL2CPP_EXTERN_C  float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_wyz
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4_set_wyz_mAC6BD7B3D3CF3411860BE60E096B6FD3E47398DC (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___value0, const RuntimeMethod* method) 
 {
 	{
-		// set { w = value.x; y = value.y; z = value.z; }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_0 = ___value0;
 		float L_1 = L_0.___x_0;
 		__this->___w_3 = L_1;
-		// set { w = value.x; y = value.y; z = value.z; }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_2 = ___value0;
 		float L_3 = L_2.___y_1;
 		__this->___y_1 = L_3;
-		// set { w = value.x; y = value.y; z = value.z; }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_4 = ___value0;
 		float L_5 = L_4.___z_2;
 		__this->___z_2 = L_5;
-		// set { w = value.x; y = value.y; z = value.z; }
 		return;
 	}
 }
@@ -12493,7 +11831,6 @@ IL2CPP_EXTERN_C  void float4_set_wyz_mAC6BD7B3D3CF3411860BE60E096B6FD3E47398DC_A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_wyw_m82D217F2B8B1FB0727E7D583661893773F76567C (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float3(w, y, w); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___w_3;
@@ -12516,7 +11853,6 @@ IL2CPP_EXTERN_C  float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_wyw
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_wzx_m1E73BBBED9216D6D2ABF73B0270D1A6ED935DF35 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float3(w, z, x); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___x_0;
@@ -12539,19 +11875,15 @@ IL2CPP_EXTERN_C  float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_wzx
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4_set_wzx_m80DAD50FC5D0C7C1B7BC003BF758059D4C863ADD (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___value0, const RuntimeMethod* method) 
 {
 	{
-		// set { w = value.x; z = value.y; x = value.z; }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_0 = ___value0;
 		float L_1 = L_0.___x_0;
 		__this->___w_3 = L_1;
-		// set { w = value.x; z = value.y; x = value.z; }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_2 = ___value0;
 		float L_3 = L_2.___y_1;
 		__this->___z_2 = L_3;
-		// set { w = value.x; z = value.y; x = value.z; }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_4 = ___value0;
 		float L_5 = L_4.___z_2;
 		__this->___x_0 = L_5;
-		// set { w = value.x; z = value.y; x = value.z; }
 		return;
 	}
 }
@@ -12566,7 +11898,6 @@ IL2CPP_EXTERN_C  void float4_set_wzx_m80DAD50FC5D0C7C1B7BC003BF758059D4C863ADD_A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_wzy_m38FCFC0E1F5BB656A426E039349E69B8D5AA24EF (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float3(w, z, y); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___y_1;
@@ -12589,19 +11920,15 @@ IL2CPP_EXTERN_C  float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_wzy
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4_set_wzy_m0724F05C3D07899AFF2CFA6A5A69910E46326C12 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___value0, const RuntimeMethod* method) 
 {
 	{
-		// set { w = value.x; z = value.y; y = value.z; }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_0 = ___value0;
 		float L_1 = L_0.___x_0;
 		__this->___w_3 = L_1;
-		// set { w = value.x; z = value.y; y = value.z; }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_2 = ___value0;
 		float L_3 = L_2.___y_1;
 		__this->___z_2 = L_3;
-		// set { w = value.x; z = value.y; y = value.z; }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_4 = ___value0;
 		float L_5 = L_4.___z_2;
 		__this->___y_1 = L_5;
-		// set { w = value.x; z = value.y; y = value.z; }
 		return;
 	}
 }
@@ -12616,7 +11943,6 @@ IL2CPP_EXTERN_C  void float4_set_wzy_m0724F05C3D07899AFF2CFA6A5A69910E46326C12_A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_wzz_m6BD10241750ADA5605FE1195B58CEDDEDEB45709 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float3(w, z, z); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___z_2;
@@ -12639,7 +11965,6 @@ IL2CPP_EXTERN_C  float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_wzz
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_wzw_m09316611243B48CACF9E6F2ACA516372C3CA4066 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float3(w, z, w); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___w_3;
@@ -12662,7 +11987,6 @@ IL2CPP_EXTERN_C  float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_wzw
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_wwx_m2E84759822A52021AED9BD6FF245DDC973DC7005 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float3(w, w, x); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___x_0;
@@ -12685,7 +12009,6 @@ IL2CPP_EXTERN_C  float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_wwx
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_wwy_mD739C475AF888D115CCBB168809B299CFC3FEFB4 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float3(w, w, y); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___y_1;
@@ -12708,7 +12031,6 @@ IL2CPP_EXTERN_C  float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_wwy
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_wwz_mBE98345C232D48942FED5AFC9B12991552B13B2C (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float3(w, w, z); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___z_2;
@@ -12731,7 +12053,6 @@ IL2CPP_EXTERN_C  float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_wwz
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_www_m0C02789209EE749EEEDBC90F293D284B269A1675 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float3(w, w, w); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___w_3;
@@ -12754,7 +12075,6 @@ IL2CPP_EXTERN_C  float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_www
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA float4_get_xx_mE6500C8E7B1479193DBF52283B2141BE9128A56F (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float2(x, x); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___x_0;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_2;
@@ -12776,7 +12096,6 @@ IL2CPP_EXTERN_C  float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA float4_get_xx_
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA float4_get_xy_m26BE8952E15131592B83837998D1EDC33FA9E6DF (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float2(x, y); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___y_1;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_2;
@@ -12798,15 +12117,12 @@ IL2CPP_EXTERN_C  float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA float4_get_xy_
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4_set_xy_m64C1F6DADDF798DECD8F5881D39C3FBF87E2E140 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___value0, const RuntimeMethod* method) 
 {
 	{
-		// set { x = value.x; y = value.y; }
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_0 = ___value0;
 		float L_1 = L_0.___x_0;
 		__this->___x_0 = L_1;
-		// set { x = value.x; y = value.y; }
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_2 = ___value0;
 		float L_3 = L_2.___y_1;
 		__this->___y_1 = L_3;
-		// set { x = value.x; y = value.y; }
 		return;
 	}
 }
@@ -12821,7 +12137,6 @@ IL2CPP_EXTERN_C  void float4_set_xy_m64C1F6DADDF798DECD8F5881D39C3FBF87E2E140_Ad
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA float4_get_xz_m8264CF56E949A2C898B0470FB146D7FEDBB848A4 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float2(x, z); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___z_2;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_2;
@@ -12843,15 +12158,12 @@ IL2CPP_EXTERN_C  float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA float4_get_xz_
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4_set_xz_mF4350144F62AE9A59E7577759547FB5DADF8B50D (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___value0, const RuntimeMethod* method) 
 {
 	{
-		// set { x = value.x; z = value.y; }
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_0 = ___value0;
 		float L_1 = L_0.___x_0;
 		__this->___x_0 = L_1;
-		// set { x = value.x; z = value.y; }
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_2 = ___value0;
 		float L_3 = L_2.___y_1;
 		__this->___z_2 = L_3;
-		// set { x = value.x; z = value.y; }
 		return;
 	}
 }
@@ -12866,7 +12178,6 @@ IL2CPP_EXTERN_C  void float4_set_xz_mF4350144F62AE9A59E7577759547FB5DADF8B50D_Ad
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA float4_get_xw_mEAA8F15FF5EF20B4D27589D4C4F9EDC187A715E6 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float2(x, w); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___w_3;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_2;
@@ -12888,15 +12199,12 @@ IL2CPP_EXTERN_C  float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA float4_get_xw_
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4_set_xw_mAAFB3F7A7682961027038A2996080D1B25E0D7CE (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___value0, const RuntimeMethod* method) 
 {
 	{
-		// set { x = value.x; w = value.y; }
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_0 = ___value0;
 		float L_1 = L_0.___x_0;
 		__this->___x_0 = L_1;
-		// set { x = value.x; w = value.y; }
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_2 = ___value0;
 		float L_3 = L_2.___y_1;
 		__this->___w_3 = L_3;
-		// set { x = value.x; w = value.y; }
 		return;
 	}
 }
@@ -12911,7 +12219,6 @@ IL2CPP_EXTERN_C  void float4_set_xw_mAAFB3F7A7682961027038A2996080D1B25E0D7CE_Ad
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA float4_get_yx_m2ED1BBAE3B7D0DEA62DFBA53853BACC057971224 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float2(y, x); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___x_0;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_2;
@@ -12933,15 +12240,12 @@ IL2CPP_EXTERN_C  float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA float4_get_yx_
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4_set_yx_m6358DF4210921DF32CE069753E42F716C5C53810 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___value0, const RuntimeMethod* method) 
 {
 	{
-		// set { y = value.x; x = value.y; }
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_0 = ___value0;
 		float L_1 = L_0.___x_0;
 		__this->___y_1 = L_1;
-		// set { y = value.x; x = value.y; }
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_2 = ___value0;
 		float L_3 = L_2.___y_1;
 		__this->___x_0 = L_3;
-		// set { y = value.x; x = value.y; }
 		return;
 	}
 }
@@ -12956,7 +12260,6 @@ IL2CPP_EXTERN_C  void float4_set_yx_m6358DF4210921DF32CE069753E42F716C5C53810_Ad
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA float4_get_yy_mD2ABF6E2E79C1787416A177F56CBE9DCC807DE90 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float2(y, y); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___y_1;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_2;
@@ -12978,7 +12281,6 @@ IL2CPP_EXTERN_C  float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA float4_get_yy_
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA float4_get_yz_mFD779C2EE7A9EFFE31780ADA057D64323F9A90C4 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float2(y, z); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___z_2;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_2;
@@ -13000,15 +12302,12 @@ IL2CPP_EXTERN_C  float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA float4_get_yz_
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4_set_yz_m7FE68F8395810B1B4BD95204EEEBD992E49AED3F (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___value0, const RuntimeMethod* method) 
 {
 	{
-		// set { y = value.x; z = value.y; }
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_0 = ___value0;
 		float L_1 = L_0.___x_0;
 		__this->___y_1 = L_1;
-		// set { y = value.x; z = value.y; }
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_2 = ___value0;
 		float L_3 = L_2.___y_1;
 		__this->___z_2 = L_3;
-		// set { y = value.x; z = value.y; }
 		return;
 	}
 }
@@ -13023,7 +12322,6 @@ IL2CPP_EXTERN_C  void float4_set_yz_m7FE68F8395810B1B4BD95204EEEBD992E49AED3F_Ad
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA float4_get_yw_mB432EDA9D7F7D34A617AF4CC5405D7CB0EA71EBE (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float2(y, w); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___w_3;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_2;
@@ -13045,15 +12343,12 @@ IL2CPP_EXTERN_C  float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA float4_get_yw_
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4_set_yw_m6F7B788A9A5C9EFEB4C71E13B3F70EA305C2186F (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___value0, const RuntimeMethod* method) 
 {
 	{
-		// set { y = value.x; w = value.y; }
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_0 = ___value0;
 		float L_1 = L_0.___x_0;
 		__this->___y_1 = L_1;
-		// set { y = value.x; w = value.y; }
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_2 = ___value0;
 		float L_3 = L_2.___y_1;
 		__this->___w_3 = L_3;
-		// set { y = value.x; w = value.y; }
 		return;
 	}
 }
@@ -13068,7 +12363,6 @@ IL2CPP_EXTERN_C  void float4_set_yw_m6F7B788A9A5C9EFEB4C71E13B3F70EA305C2186F_Ad
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA float4_get_zx_m380531CD34DB08B574128D46D72060C50457C712 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float2(z, x); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___x_0;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_2;
@@ -13090,15 +12384,12 @@ IL2CPP_EXTERN_C  float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA float4_get_zx_
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4_set_zx_m3F6673682505621B3D0672485936391B0A10BB13 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___value0, const RuntimeMethod* method) 
 {
 	{
-		// set { z = value.x; x = value.y; }
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_0 = ___value0;
 		float L_1 = L_0.___x_0;
 		__this->___z_2 = L_1;
-		// set { z = value.x; x = value.y; }
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_2 = ___value0;
 		float L_3 = L_2.___y_1;
 		__this->___x_0 = L_3;
-		// set { z = value.x; x = value.y; }
 		return;
 	}
 }
@@ -13113,7 +12404,6 @@ IL2CPP_EXTERN_C  void float4_set_zx_m3F6673682505621B3D0672485936391B0A10BB13_Ad
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA float4_get_zy_m52EEE5DBA5F92F2AB54A53A8E4BBB258B639074B (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float2(z, y); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___y_1;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_2;
@@ -13135,15 +12425,12 @@ IL2CPP_EXTERN_C  float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA float4_get_zy_
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4_set_zy_m22F48B8B355D2F90EF598FE3609C0BAD14B01C8D (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___value0, const RuntimeMethod* method) 
 {
 	{
-		// set { z = value.x; y = value.y; }
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_0 = ___value0;
 		float L_1 = L_0.___x_0;
 		__this->___z_2 = L_1;
-		// set { z = value.x; y = value.y; }
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_2 = ___value0;
 		float L_3 = L_2.___y_1;
 		__this->___y_1 = L_3;
-		// set { z = value.x; y = value.y; }
 		return;
 	}
 }
@@ -13158,7 +12445,6 @@ IL2CPP_EXTERN_C  void float4_set_zy_m22F48B8B355D2F90EF598FE3609C0BAD14B01C8D_Ad
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA float4_get_zz_mF62178DB810C0A678911C5CCACFA25B423B34CD7 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float2(z, z); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___z_2;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_2;
@@ -13180,7 +12466,6 @@ IL2CPP_EXTERN_C  float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA float4_get_zz_
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA float4_get_zw_mE9148903506B6AC51F8BA30DBDE2CD34C67107BB (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float2(z, w); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___w_3;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_2;
@@ -13202,15 +12487,12 @@ IL2CPP_EXTERN_C  float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA float4_get_zw_
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4_set_zw_mAEE753D7E8AB833C1C49B5594EFBB60888CB3871 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___value0, const RuntimeMethod* method) 
 {
 	{
-		// set { z = value.x; w = value.y; }
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_0 = ___value0;
 		float L_1 = L_0.___x_0;
 		__this->___z_2 = L_1;
-		// set { z = value.x; w = value.y; }
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_2 = ___value0;
 		float L_3 = L_2.___y_1;
 		__this->___w_3 = L_3;
-		// set { z = value.x; w = value.y; }
 		return;
 	}
 }
@@ -13225,7 +12507,6 @@ IL2CPP_EXTERN_C  void float4_set_zw_mAEE753D7E8AB833C1C49B5594EFBB60888CB3871_Ad
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA float4_get_wx_m2EE2A81E23795F5792E42D63D5FB65626589799C (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float2(w, x); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___x_0;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_2;
@@ -13247,15 +12528,12 @@ IL2CPP_EXTERN_C  float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA float4_get_wx_
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4_set_wx_m402672A0333D4D6C35AC0D41BC0504ABE1F85DAC (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___value0, const RuntimeMethod* method) 
 {
 	{
-		// set { w = value.x; x = value.y; }
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_0 = ___value0;
 		float L_1 = L_0.___x_0;
 		__this->___w_3 = L_1;
-		// set { w = value.x; x = value.y; }
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_2 = ___value0;
 		float L_3 = L_2.___y_1;
 		__this->___x_0 = L_3;
-		// set { w = value.x; x = value.y; }
 		return;
 	}
 }
@@ -13270,7 +12548,6 @@ IL2CPP_EXTERN_C  void float4_set_wx_m402672A0333D4D6C35AC0D41BC0504ABE1F85DAC_Ad
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA float4_get_wy_m2CB7136E6137E3E815E6F62C5A404187AE159755 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float2(w, y); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___y_1;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_2;
@@ -13292,15 +12569,12 @@ IL2CPP_EXTERN_C  float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA float4_get_wy_
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4_set_wy_m671FE62C6FF77C7F0A53C579105D069B2FCBEBB8 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___value0, const RuntimeMethod* method) 
 {
 	{
-		// set { w = value.x; y = value.y; }
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_0 = ___value0;
 		float L_1 = L_0.___x_0;
 		__this->___w_3 = L_1;
-		// set { w = value.x; y = value.y; }
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_2 = ___value0;
 		float L_3 = L_2.___y_1;
 		__this->___y_1 = L_3;
-		// set { w = value.x; y = value.y; }
 		return;
 	}
 }
@@ -13315,7 +12589,6 @@ IL2CPP_EXTERN_C  void float4_set_wy_m671FE62C6FF77C7F0A53C579105D069B2FCBEBB8_Ad
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA float4_get_wz_mF62F748138B72747FB28A123301FC51BD54F79E0 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float2(w, z); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___z_2;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_2;
@@ -13337,15 +12610,12 @@ IL2CPP_EXTERN_C  float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA float4_get_wz_
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4_set_wz_m2C1E4F9CDA17F1052FD2C16C1D09B559B0DCD54E (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___value0, const RuntimeMethod* method) 
 {
 	{
-		// set { w = value.x; z = value.y; }
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_0 = ___value0;
 		float L_1 = L_0.___x_0;
 		__this->___w_3 = L_1;
-		// set { w = value.x; z = value.y; }
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_2 = ___value0;
 		float L_3 = L_2.___y_1;
 		__this->___z_2 = L_3;
-		// set { w = value.x; z = value.y; }
 		return;
 	}
 }
@@ -13360,7 +12630,6 @@ IL2CPP_EXTERN_C  void float4_set_wz_m2C1E4F9CDA17F1052FD2C16C1D09B559B0DCD54E_Ad
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA float4_get_ww_m009EC36BECA00F71841BFF18C3C9F5F5C53D6E5E (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float2(w, w); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___w_3;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_2;
@@ -13383,11 +12652,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float float4_get_Item_m42C2633E42BEBFB2230FF9
 {
 	float4_t89D9A294E7A79BD81BFBDD18654508532958555E* V_0 = NULL;
 	{
-		// {
 		V_0 = __this;
-		// fixed (float4* array = &this) { return ((float*)array)[index]; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E* L_0 = V_0;
-		// fixed (float4* array = &this) { return ((float*)array)[index]; }
 		int32_t L_1 = ___index0;
 		float L_2 = *((float*)((intptr_t)il2cpp_codegen_add((intptr_t)((uintptr_t)L_0), ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_1), 4)))));
 		return L_2;
@@ -13407,17 +12673,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4_set_Item_m96DA990882049B7CDDE20DB
 {
 	float* V_0 = NULL;
 	{
-		// {
 		float* L_0 = (&__this->___x_0);
 		V_0 = L_0;
-		// fixed (float* array = &x) { array[index] = value; }
 		float* L_1 = V_0;
-		// fixed (float* array = &x) { array[index] = value; }
 		int32_t L_2 = ___index0;
 		float L_3 = ___value1;
 		*((float*)((intptr_t)il2cpp_codegen_add((intptr_t)((uintptr_t)L_1), ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_2), 4))))) = (float)L_3;
 		V_0 = (float*)((uintptr_t)0);
-		// }
 		return;
 	}
 }
@@ -13432,7 +12694,6 @@ IL2CPP_EXTERN_C  void float4_set_Item_m96DA990882049B7CDDE20DB9C8B3685F60278BC4_
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool float4_Equals_m5E14C29D104399C399A11F52E7C2D507504AC0D1 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___rhs0, const RuntimeMethod* method) 
 {
 	{
-		// public bool Equals(float4 rhs) { return x == rhs.x && y == rhs.y && z == rhs.z && w == rhs.w; }
 		float L_0 = __this->___x_0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1 = ___rhs0;
 		float L_2 = L_1.___x_0;
@@ -13492,7 +12753,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool float4_Equals_m4D841ABA91D26FA16B07205DC
 	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		// public override bool Equals(object o) { return o is float4 converted && Equals(converted); }
 		RuntimeObject* L_0 = ___o0;
 		if (!((RuntimeObject*)IsInstSealed((RuntimeObject*)L_0, float4_t89D9A294E7A79BD81BFBDD18654508532958555E_il2cpp_TypeInfo_var)))
 		{
@@ -13526,7 +12786,6 @@ IL2CPP_EXTERN_C  bool float4_Equals_m4D841ABA91D26FA16B07205DC9D51612265FFAB4_Ad
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t float4_GetHashCode_m73A9ACC41256A6E98F883A72ED1EB0047947DA48 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// public override int GetHashCode() { return (int)math.hash(this); }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = (*(float4_t89D9A294E7A79BD81BFBDD18654508532958555E*)__this);
 		uint32_t L_1;
 		L_1 = math_hash_m53E875B2DC4324BD20573419DBE27D0F651FA4D4_inline(L_0, NULL);
@@ -13554,7 +12813,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* float4_ToString_m63852A53A6218EBA6C
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		// return string.Format("float4({0}f, {1}f, {2}f, {3}f)", x, y, z, w);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_0 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)4);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_1 = L_0;
 		float L_2 = __this->___x_0;
@@ -13609,7 +12867,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* float4_ToString_mF0B7870047A0CB5918
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		// return string.Format("float4({0}f, {1}f, {2}f, {3}f)", x.ToString(format, formatProvider), y.ToString(format, formatProvider), z.ToString(format, formatProvider), w.ToString(format, formatProvider));
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_0 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)4);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_1 = L_0;
 		float* L_2 = (&__this->___x_0);
@@ -13665,7 +12922,6 @@ IL2CPP_EXTERN_C  String_t* float4_ToString_mF0B7870047A0CB59185C85DE13ECECFAC578
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_op_Implicit_m6D2091EB2CF6E0629A029A7BE9AD230F5F394CB2 (Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___v0, const RuntimeMethod* method) 
 {
 	{
-		// public static implicit operator float4(Vector4 v)     { return new float4(v.x, v.y, v.z, v.w); }
 		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_0 = ___v0;
 		float L_1 = L_0.___x_1;
 		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_2 = ___v0;
@@ -13684,7 +12940,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186545085329585
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 float4_op_Implicit_m5E3AEBAF5F12155549CC051E1EEEE81DF3516E92 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___v0, const RuntimeMethod* method) 
 {
 	{
-		// public static implicit operator Vector4(float4 v)     { return new Vector4(v.x, v.y, v.z, v.w); }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = ___v0;
 		float L_1 = L_0.___x_0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2 = ___v0;
@@ -13711,25 +12966,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80E
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DebuggerProxy__ctor_m5868EDDBC438498A6A62CD1062B0CE7D8B58509F (DebuggerProxy_tD5F63FE661BF3F780BEFBE721E36E7A87B310121* __this, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___v0, const RuntimeMethod* method) 
 {
 	{
-		// public DebuggerProxy(float4 v)
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		// x = v.x;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = ___v0;
 		float L_1 = L_0.___x_0;
 		__this->___x_0 = L_1;
-		// y = v.y;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2 = ___v0;
 		float L_3 = L_2.___y_1;
 		__this->___y_1 = L_3;
-		// z = v.z;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_4 = ___v0;
 		float L_5 = L_4.___z_2;
 		__this->___z_2 = L_5;
-		// w = v.w;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_6 = ___v0;
 		float L_7 = L_6.___w_3;
 		__this->___w_3 = L_7;
-		// }
 		return;
 	}
 }
@@ -13745,13 +12994,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DebuggerProxy__ctor_m5868EDDBC438498A6A6
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4x2__ctor_m2BF22D12793804DDB54ECAC6C6BA3DA927C7E728 (float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27* __this, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___c00, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___c11, const RuntimeMethod* method) 
 {
 	{
-		// this.c0 = c0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = ___c00;
 		__this->___c0_0 = L_0;
-		// this.c1 = c1;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1 = ___c11;
 		__this->___c1_1 = L_1;
-		// }
 		return;
 	}
 }
@@ -13766,7 +13012,6 @@ IL2CPP_EXTERN_C  void float4x2__ctor_m2BF22D12793804DDB54ECAC6C6BA3DA927C7E728_A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4x2__ctor_mC4F21726DB1D61A5A040ADCC55566D0BDB488459 (float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27* __this, float ___m000, float ___m011, float ___m102, float ___m113, float ___m204, float ___m215, float ___m306, float ___m317, const RuntimeMethod* method) 
 {
 	{
-		// this.c0 = new float4(m00, m10, m20, m30);
 		float L_0 = ___m000;
 		float L_1 = ___m102;
 		float L_2 = ___m204;
@@ -13775,7 +13020,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4x2__ctor_mC4F21726DB1D61A5A040ADCC
 		memset((&L_4), 0, sizeof(L_4));
 		float4__ctor_mB2F7F2D8BCE8159BEF5A0D6400499E211858ED2D_inline((&L_4), L_0, L_1, L_2, L_3, /*hidden argument*/NULL);
 		__this->___c0_0 = L_4;
-		// this.c1 = new float4(m01, m11, m21, m31);
 		float L_5 = ___m011;
 		float L_6 = ___m113;
 		float L_7 = ___m215;
@@ -13784,7 +13028,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4x2__ctor_mC4F21726DB1D61A5A040ADCC
 		memset((&L_9), 0, sizeof(L_9));
 		float4__ctor_mB2F7F2D8BCE8159BEF5A0D6400499E211858ED2D_inline((&L_9), L_5, L_6, L_7, L_8, /*hidden argument*/NULL);
 		__this->___c1_1 = L_9;
-		// }
 		return;
 	}
 }
@@ -13799,17 +13042,14 @@ IL2CPP_EXTERN_C  void float4x2__ctor_mC4F21726DB1D61A5A040ADCC55566D0BDB488459_A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4x2__ctor_mB2296A67C8202F77B9A012097CA1FD080605F57E (float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27* __this, float ___v0, const RuntimeMethod* method) 
 {
 	{
-		// this.c0 = v;
 		float L_0 = ___v0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1;
 		L_1 = float4_op_Implicit_m3DF77A1795E1232FCE3A62302FF23601F8C042DD_inline(L_0, NULL);
 		__this->___c0_0 = L_1;
-		// this.c1 = v;
 		float L_2 = ___v0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_3;
 		L_3 = float4_op_Implicit_m3DF77A1795E1232FCE3A62302FF23601F8C042DD_inline(L_2, NULL);
 		__this->___c1_1 = L_3;
-		// }
 		return;
 	}
 }
@@ -13824,7 +13064,6 @@ IL2CPP_EXTERN_C  void float4x2__ctor_mB2296A67C8202F77B9A012097CA1FD080605F57E_A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4x2__ctor_mFF64836914EF6DF89C5BBF0D17329798580592FF (float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27* __this, bool ___v0, const RuntimeMethod* method) 
 {
 	{
-		// this.c0 = math.select(new float4(0.0f), new float4(1.0f), v);
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0;
 		memset((&L_0), 0, sizeof(L_0));
 		float4__ctor_m103F8D391212FB2B0F01D09F7E9CCE4BDF0C7839_inline((&L_0), (0.0f), /*hidden argument*/NULL);
@@ -13835,7 +13074,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4x2__ctor_mFF64836914EF6DF89C5BBF0D
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_3;
 		L_3 = math_select_m7B43FDAE30A8A4D7AD42684DF8C090FC697AF346_inline(L_0, L_1, L_2, NULL);
 		__this->___c0_0 = L_3;
-		// this.c1 = math.select(new float4(0.0f), new float4(1.0f), v);
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_4;
 		memset((&L_4), 0, sizeof(L_4));
 		float4__ctor_m103F8D391212FB2B0F01D09F7E9CCE4BDF0C7839_inline((&L_4), (0.0f), /*hidden argument*/NULL);
@@ -13846,7 +13084,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4x2__ctor_mFF64836914EF6DF89C5BBF0D
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_7;
 		L_7 = math_select_m7B43FDAE30A8A4D7AD42684DF8C090FC697AF346_inline(L_4, L_5, L_6, NULL);
 		__this->___c1_1 = L_7;
-		// }
 		return;
 	}
 }
@@ -13861,7 +13098,6 @@ IL2CPP_EXTERN_C  void float4x2__ctor_mFF64836914EF6DF89C5BBF0D17329798580592FF_A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4x2__ctor_m8CA7B69C3E72C8A310406A5C1DA78E611B60D1B1 (float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27* __this, bool4x2_t1DF140A16C98814548E15AA8F520119EC7C1AADE ___v0, const RuntimeMethod* method) 
 {
 	{
-		// this.c0 = math.select(new float4(0.0f), new float4(1.0f), v.c0);
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0;
 		memset((&L_0), 0, sizeof(L_0));
 		float4__ctor_m103F8D391212FB2B0F01D09F7E9CCE4BDF0C7839_inline((&L_0), (0.0f), /*hidden argument*/NULL);
@@ -13873,7 +13109,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4x2__ctor_m8CA7B69C3E72C8A310406A5C
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_4;
 		L_4 = math_select_m8A60689AC883C0130FC2F32E7D1096199D2AD31E_inline(L_0, L_1, L_3, NULL);
 		__this->___c0_0 = L_4;
-		// this.c1 = math.select(new float4(0.0f), new float4(1.0f), v.c1);
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_5;
 		memset((&L_5), 0, sizeof(L_5));
 		float4__ctor_m103F8D391212FB2B0F01D09F7E9CCE4BDF0C7839_inline((&L_5), (0.0f), /*hidden argument*/NULL);
@@ -13885,7 +13120,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4x2__ctor_m8CA7B69C3E72C8A310406A5C
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_9;
 		L_9 = math_select_m8A60689AC883C0130FC2F32E7D1096199D2AD31E_inline(L_5, L_6, L_8, NULL);
 		__this->___c1_1 = L_9;
-		// }
 		return;
 	}
 }
@@ -13900,17 +13134,14 @@ IL2CPP_EXTERN_C  void float4x2__ctor_m8CA7B69C3E72C8A310406A5C1DA78E611B60D1B1_A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4x2__ctor_m624D6DAF1ED5685AB5C4933B25445E7B72792B53 (float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27* __this, int32_t ___v0, const RuntimeMethod* method) 
 {
 	{
-		// this.c0 = v;
 		int32_t L_0 = ___v0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1;
 		L_1 = float4_op_Implicit_mB41AE98F26EA1F866D8DFEB7FD76E2CA217D52B6_inline(L_0, NULL);
 		__this->___c0_0 = L_1;
-		// this.c1 = v;
 		int32_t L_2 = ___v0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_3;
 		L_3 = float4_op_Implicit_mB41AE98F26EA1F866D8DFEB7FD76E2CA217D52B6_inline(L_2, NULL);
 		__this->___c1_1 = L_3;
-		// }
 		return;
 	}
 }
@@ -13925,19 +13156,16 @@ IL2CPP_EXTERN_C  void float4x2__ctor_m624D6DAF1ED5685AB5C4933B25445E7B72792B53_A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4x2__ctor_m8D6AE828F425899619AEC48D142812659BB5525A (float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27* __this, int4x2_t4B98454F51F5E8A8F4201FA33A01D2692B692996 ___v0, const RuntimeMethod* method) 
 {
 	{
-		// this.c0 = v.c0;
 		int4x2_t4B98454F51F5E8A8F4201FA33A01D2692B692996 L_0 = ___v0;
 		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_1 = L_0.___c0_0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2;
 		L_2 = float4_op_Implicit_mA889A779BA63B2654EEEF1F5CE2407DAA0E33142_inline(L_1, NULL);
 		__this->___c0_0 = L_2;
-		// this.c1 = v.c1;
 		int4x2_t4B98454F51F5E8A8F4201FA33A01D2692B692996 L_3 = ___v0;
 		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_4 = L_3.___c1_1;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_5;
 		L_5 = float4_op_Implicit_mA889A779BA63B2654EEEF1F5CE2407DAA0E33142_inline(L_4, NULL);
 		__this->___c1_1 = L_5;
-		// }
 		return;
 	}
 }
@@ -13952,17 +13180,14 @@ IL2CPP_EXTERN_C  void float4x2__ctor_m8D6AE828F425899619AEC48D142812659BB5525A_A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4x2__ctor_mC0032295C0D3A1C0CD5A067E01BD5D02082610B9 (float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27* __this, uint32_t ___v0, const RuntimeMethod* method) 
 {
 	{
-		// this.c0 = v;
 		uint32_t L_0 = ___v0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1;
 		L_1 = float4_op_Implicit_mED209EFA9280A609F964FE9EEB8B85C91505456D_inline(L_0, NULL);
 		__this->___c0_0 = L_1;
-		// this.c1 = v;
 		uint32_t L_2 = ___v0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_3;
 		L_3 = float4_op_Implicit_mED209EFA9280A609F964FE9EEB8B85C91505456D_inline(L_2, NULL);
 		__this->___c1_1 = L_3;
-		// }
 		return;
 	}
 }
@@ -13977,19 +13202,16 @@ IL2CPP_EXTERN_C  void float4x2__ctor_mC0032295C0D3A1C0CD5A067E01BD5D02082610B9_A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4x2__ctor_m395E2446D3B709C29D8C157E0B28237B319C6B0A (float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27* __this, uint4x2_t03005BA82F8429C71C2A4F30895BD93E04FB8FB6 ___v0, const RuntimeMethod* method) 
 {
 	{
-		// this.c0 = v.c0;
 		uint4x2_t03005BA82F8429C71C2A4F30895BD93E04FB8FB6 L_0 = ___v0;
 		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_1 = L_0.___c0_0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2;
 		L_2 = float4_op_Implicit_m82EA1881742FD480C2CE2386DF3D25C34502100B_inline(L_1, NULL);
 		__this->___c0_0 = L_2;
-		// this.c1 = v.c1;
 		uint4x2_t03005BA82F8429C71C2A4F30895BD93E04FB8FB6 L_3 = ___v0;
 		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_4 = L_3.___c1_1;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_5;
 		L_5 = float4_op_Implicit_m82EA1881742FD480C2CE2386DF3D25C34502100B_inline(L_4, NULL);
 		__this->___c1_1 = L_5;
-		// }
 		return;
 	}
 }
@@ -14004,17 +13226,14 @@ IL2CPP_EXTERN_C  void float4x2__ctor_m395E2446D3B709C29D8C157E0B28237B319C6B0A_A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4x2__ctor_m859B4CA6C00A6E9233BF1034175400F80EB0A541 (float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27* __this, double ___v0, const RuntimeMethod* method) 
 {
 	{
-		// this.c0 = (float4)v;
 		double L_0 = ___v0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1;
 		L_1 = float4_op_Explicit_mE1B66196EF40555EA57BAF264CEC0A4CE271DF7E_inline(L_0, NULL);
 		__this->___c0_0 = L_1;
-		// this.c1 = (float4)v;
 		double L_2 = ___v0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_3;
 		L_3 = float4_op_Explicit_mE1B66196EF40555EA57BAF264CEC0A4CE271DF7E_inline(L_2, NULL);
 		__this->___c1_1 = L_3;
-		// }
 		return;
 	}
 }
@@ -14029,19 +13248,16 @@ IL2CPP_EXTERN_C  void float4x2__ctor_m859B4CA6C00A6E9233BF1034175400F80EB0A541_A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4x2__ctor_mBC9BD79A95A91EA58BA5455D0F2EA1CA4F1AA366 (float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27* __this, double4x2_t4C5322E8266A54928FDB298BD4D1BCC6F1E5DB16 ___v0, const RuntimeMethod* method) 
 {
 	{
-		// this.c0 = (float4)v.c0;
 		double4x2_t4C5322E8266A54928FDB298BD4D1BCC6F1E5DB16 L_0 = ___v0;
 		double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 L_1 = L_0.___c0_0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2;
 		L_2 = float4_op_Explicit_mBD6BF71CF079224435AFBF2408554A53AD557950_inline(L_1, NULL);
 		__this->___c0_0 = L_2;
-		// this.c1 = (float4)v.c1;
 		double4x2_t4C5322E8266A54928FDB298BD4D1BCC6F1E5DB16 L_3 = ___v0;
 		double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 L_4 = L_3.___c1_1;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_5;
 		L_5 = float4_op_Explicit_mBD6BF71CF079224435AFBF2408554A53AD557950_inline(L_4, NULL);
 		__this->___c1_1 = L_5;
-		// }
 		return;
 	}
 }
@@ -14056,7 +13272,6 @@ IL2CPP_EXTERN_C  void float4x2__ctor_mBC9BD79A95A91EA58BA5455D0F2EA1CA4F1AA366_A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27 float4x2_op_Implicit_mAF34D673E59475805575B8A4CFD6215FAD41D2B3 (float ___v0, const RuntimeMethod* method) 
 {
 	{
-		// public static implicit operator float4x2(float v) { return new float4x2(v); }
 		float L_0 = ___v0;
 		float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27 L_1;
 		memset((&L_1), 0, sizeof(L_1));
@@ -14068,7 +13283,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x2_tC4211FC542D48326AB01E7CEADEC950ADB3
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27 float4x2_op_Explicit_m8DB15A24694790C1A3A1BAA1C88DA22415F42D68 (bool ___v0, const RuntimeMethod* method) 
 {
 	{
-		// public static explicit operator float4x2(bool v) { return new float4x2(v); }
 		bool L_0 = ___v0;
 		float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27 L_1;
 		memset((&L_1), 0, sizeof(L_1));
@@ -14080,7 +13294,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x2_tC4211FC542D48326AB01E7CEADEC950ADB3
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27 float4x2_op_Explicit_m44D7E4466B2D3ADF91616B02F5CDF1C460AD7BDD (bool4x2_t1DF140A16C98814548E15AA8F520119EC7C1AADE ___v0, const RuntimeMethod* method) 
 {
 	{
-		// public static explicit operator float4x2(bool4x2 v) { return new float4x2(v); }
 		bool4x2_t1DF140A16C98814548E15AA8F520119EC7C1AADE L_0 = ___v0;
 		float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27 L_1;
 		memset((&L_1), 0, sizeof(L_1));
@@ -14092,7 +13305,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x2_tC4211FC542D48326AB01E7CEADEC950ADB3
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27 float4x2_op_Implicit_m1F611E0FBEE593FBC821398EBBF3850D88C104FC (int32_t ___v0, const RuntimeMethod* method) 
 {
 	{
-		// public static implicit operator float4x2(int v) { return new float4x2(v); }
 		int32_t L_0 = ___v0;
 		float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27 L_1;
 		memset((&L_1), 0, sizeof(L_1));
@@ -14104,7 +13316,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x2_tC4211FC542D48326AB01E7CEADEC950ADB3
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27 float4x2_op_Implicit_m0B089644D172DEC1E9D9FC3D17E396F20F453BA7 (int4x2_t4B98454F51F5E8A8F4201FA33A01D2692B692996 ___v0, const RuntimeMethod* method) 
 {
 	{
-		// public static implicit operator float4x2(int4x2 v) { return new float4x2(v); }
 		int4x2_t4B98454F51F5E8A8F4201FA33A01D2692B692996 L_0 = ___v0;
 		float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27 L_1;
 		memset((&L_1), 0, sizeof(L_1));
@@ -14116,7 +13327,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x2_tC4211FC542D48326AB01E7CEADEC950ADB3
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27 float4x2_op_Implicit_m4FB1F93A0E1CDD2102CF1A6696EBD3FCB291EE63 (uint32_t ___v0, const RuntimeMethod* method) 
 {
 	{
-		// public static implicit operator float4x2(uint v) { return new float4x2(v); }
 		uint32_t L_0 = ___v0;
 		float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27 L_1;
 		memset((&L_1), 0, sizeof(L_1));
@@ -14128,7 +13338,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x2_tC4211FC542D48326AB01E7CEADEC950ADB3
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27 float4x2_op_Implicit_mED5CB0E2880E5DA99D46F630DA5F1E808BA64F77 (uint4x2_t03005BA82F8429C71C2A4F30895BD93E04FB8FB6 ___v0, const RuntimeMethod* method) 
 {
 	{
-		// public static implicit operator float4x2(uint4x2 v) { return new float4x2(v); }
 		uint4x2_t03005BA82F8429C71C2A4F30895BD93E04FB8FB6 L_0 = ___v0;
 		float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27 L_1;
 		memset((&L_1), 0, sizeof(L_1));
@@ -14140,7 +13349,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x2_tC4211FC542D48326AB01E7CEADEC950ADB3
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27 float4x2_op_Explicit_mE18D8172ABA9A199FBB0B20BDAC858BC4C64A868 (double ___v0, const RuntimeMethod* method) 
 {
 	{
-		// public static explicit operator float4x2(double v) { return new float4x2(v); }
 		double L_0 = ___v0;
 		float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27 L_1;
 		memset((&L_1), 0, sizeof(L_1));
@@ -14152,7 +13360,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x2_tC4211FC542D48326AB01E7CEADEC950ADB3
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27 float4x2_op_Explicit_m5B107B4F45E67EF94B08EBAC79FA68999A98E4BE (double4x2_t4C5322E8266A54928FDB298BD4D1BCC6F1E5DB16 ___v0, const RuntimeMethod* method) 
 {
 	{
-		// public static explicit operator float4x2(double4x2 v) { return new float4x2(v); }
 		double4x2_t4C5322E8266A54928FDB298BD4D1BCC6F1E5DB16 L_0 = ___v0;
 		float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27 L_1;
 		memset((&L_1), 0, sizeof(L_1));
@@ -14164,7 +13371,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x2_tC4211FC542D48326AB01E7CEADEC950ADB3
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27 float4x2_op_Multiply_m7601615A98162ECEE922726E1FD965310DB0B378 (float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27 ___lhs0, float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27 ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static float4x2 operator * (float4x2 lhs, float4x2 rhs) { return new float4x2 (lhs.c0 * rhs.c0, lhs.c1 * rhs.c1); }
 		float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27 L_0 = ___lhs0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1 = L_0.___c0_0;
 		float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27 L_2 = ___rhs1;
@@ -14187,7 +13393,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x2_tC4211FC542D48326AB01E7CEADEC950ADB3
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27 float4x2_op_Multiply_mD0C869C3969F06B9B1EBBA24824E4FFC3E619912 (float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27 ___lhs0, float ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static float4x2 operator * (float4x2 lhs, float rhs) { return new float4x2 (lhs.c0 * rhs, lhs.c1 * rhs); }
 		float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27 L_0 = ___lhs0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1 = L_0.___c0_0;
 		float L_2 = ___rhs1;
@@ -14208,7 +13413,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x2_tC4211FC542D48326AB01E7CEADEC950ADB3
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27 float4x2_op_Multiply_mA612A02967C2A62A67487BF2E8A99E016DC66DF4 (float ___lhs0, float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27 ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static float4x2 operator * (float lhs, float4x2 rhs) { return new float4x2 (lhs * rhs.c0, lhs * rhs.c1); }
 		float L_0 = ___lhs0;
 		float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27 L_1 = ___rhs1;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2 = L_1.___c0_0;
@@ -14229,7 +13433,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x2_tC4211FC542D48326AB01E7CEADEC950ADB3
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27 float4x2_op_Addition_mE9E06455C6A2554ADC611B00A01A3D132B2A9646 (float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27 ___lhs0, float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27 ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static float4x2 operator + (float4x2 lhs, float4x2 rhs) { return new float4x2 (lhs.c0 + rhs.c0, lhs.c1 + rhs.c1); }
 		float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27 L_0 = ___lhs0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1 = L_0.___c0_0;
 		float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27 L_2 = ___rhs1;
@@ -14252,7 +13455,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x2_tC4211FC542D48326AB01E7CEADEC950ADB3
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27 float4x2_op_Addition_m15966C16834A2D0790ECE0FCBAD979F26950D9A1 (float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27 ___lhs0, float ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static float4x2 operator + (float4x2 lhs, float rhs) { return new float4x2 (lhs.c0 + rhs, lhs.c1 + rhs); }
 		float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27 L_0 = ___lhs0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1 = L_0.___c0_0;
 		float L_2 = ___rhs1;
@@ -14273,7 +13475,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x2_tC4211FC542D48326AB01E7CEADEC950ADB3
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27 float4x2_op_Addition_m8161ABC4BFC7AD4B927B3EF42BEC74DAAF484698 (float ___lhs0, float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27 ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static float4x2 operator + (float lhs, float4x2 rhs) { return new float4x2 (lhs + rhs.c0, lhs + rhs.c1); }
 		float L_0 = ___lhs0;
 		float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27 L_1 = ___rhs1;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2 = L_1.___c0_0;
@@ -14294,7 +13495,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x2_tC4211FC542D48326AB01E7CEADEC950ADB3
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27 float4x2_op_Subtraction_m48FAA772071BC03DCA34EB1427F018670B65A271 (float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27 ___lhs0, float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27 ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static float4x2 operator - (float4x2 lhs, float4x2 rhs) { return new float4x2 (lhs.c0 - rhs.c0, lhs.c1 - rhs.c1); }
 		float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27 L_0 = ___lhs0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1 = L_0.___c0_0;
 		float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27 L_2 = ___rhs1;
@@ -14317,7 +13517,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x2_tC4211FC542D48326AB01E7CEADEC950ADB3
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27 float4x2_op_Subtraction_mB6BC9FEDAE400EE0936131718DF4113170EEE1C3 (float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27 ___lhs0, float ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static float4x2 operator - (float4x2 lhs, float rhs) { return new float4x2 (lhs.c0 - rhs, lhs.c1 - rhs); }
 		float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27 L_0 = ___lhs0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1 = L_0.___c0_0;
 		float L_2 = ___rhs1;
@@ -14338,7 +13537,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x2_tC4211FC542D48326AB01E7CEADEC950ADB3
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27 float4x2_op_Subtraction_m726824A99E294E364D274F802BC2981A67F53306 (float ___lhs0, float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27 ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static float4x2 operator - (float lhs, float4x2 rhs) { return new float4x2 (lhs - rhs.c0, lhs - rhs.c1); }
 		float L_0 = ___lhs0;
 		float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27 L_1 = ___rhs1;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2 = L_1.___c0_0;
@@ -14359,7 +13557,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x2_tC4211FC542D48326AB01E7CEADEC950ADB3
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27 float4x2_op_Division_mB2C3C690CCEF8D5A10C01756B316C117163A03B6 (float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27 ___lhs0, float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27 ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static float4x2 operator / (float4x2 lhs, float4x2 rhs) { return new float4x2 (lhs.c0 / rhs.c0, lhs.c1 / rhs.c1); }
 		float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27 L_0 = ___lhs0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1 = L_0.___c0_0;
 		float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27 L_2 = ___rhs1;
@@ -14382,7 +13579,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x2_tC4211FC542D48326AB01E7CEADEC950ADB3
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27 float4x2_op_Division_mDC09C2E0A50E2D563E8DF482746F0BD91D0DD8C0 (float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27 ___lhs0, float ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static float4x2 operator / (float4x2 lhs, float rhs) { return new float4x2 (lhs.c0 / rhs, lhs.c1 / rhs); }
 		float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27 L_0 = ___lhs0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1 = L_0.___c0_0;
 		float L_2 = ___rhs1;
@@ -14403,7 +13599,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x2_tC4211FC542D48326AB01E7CEADEC950ADB3
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27 float4x2_op_Division_m9202A032FE914CA0239B7F90EA9EAC9450045F71 (float ___lhs0, float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27 ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static float4x2 operator / (float lhs, float4x2 rhs) { return new float4x2 (lhs / rhs.c0, lhs / rhs.c1); }
 		float L_0 = ___lhs0;
 		float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27 L_1 = ___rhs1;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2 = L_1.___c0_0;
@@ -14424,7 +13619,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x2_tC4211FC542D48326AB01E7CEADEC950ADB3
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27 float4x2_op_Modulus_m7A5F4B0E27A45A61EAC8FA51DABF300014AC0B97 (float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27 ___lhs0, float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27 ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static float4x2 operator % (float4x2 lhs, float4x2 rhs) { return new float4x2 (lhs.c0 % rhs.c0, lhs.c1 % rhs.c1); }
 		float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27 L_0 = ___lhs0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1 = L_0.___c0_0;
 		float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27 L_2 = ___rhs1;
@@ -14447,7 +13641,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x2_tC4211FC542D48326AB01E7CEADEC950ADB3
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27 float4x2_op_Modulus_m6B946010C9A6272DB569D831FC2B00BE28EDB700 (float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27 ___lhs0, float ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static float4x2 operator % (float4x2 lhs, float rhs) { return new float4x2 (lhs.c0 % rhs, lhs.c1 % rhs); }
 		float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27 L_0 = ___lhs0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1 = L_0.___c0_0;
 		float L_2 = ___rhs1;
@@ -14468,7 +13661,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x2_tC4211FC542D48326AB01E7CEADEC950ADB3
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27 float4x2_op_Modulus_mC8D4C6F8856482783235E29074AC52EB56A79CD0 (float ___lhs0, float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27 ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static float4x2 operator % (float lhs, float4x2 rhs) { return new float4x2 (lhs % rhs.c0, lhs % rhs.c1); }
 		float L_0 = ___lhs0;
 		float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27 L_1 = ___rhs1;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2 = L_1.___c0_0;
@@ -14491,7 +13683,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x2_tC4211FC542D48326AB01E7CEADEC950ADB3
 	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		// public static float4x2 operator ++ (float4x2 val) { return new float4x2 (++val.c0, ++val.c1); }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E* L_0 = (&(&___val0)->___c0_0);
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E* L_1 = L_0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2 = (*(float4_t89D9A294E7A79BD81BFBDD18654508532958555E*)L_1);
@@ -14522,7 +13713,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x2_tC4211FC542D48326AB01E7CEADEC950ADB3
 	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		// public static float4x2 operator -- (float4x2 val) { return new float4x2 (--val.c0, --val.c1); }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E* L_0 = (&(&___val0)->___c0_0);
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E* L_1 = L_0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2 = (*(float4_t89D9A294E7A79BD81BFBDD18654508532958555E*)L_1);
@@ -14551,7 +13741,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x2_tC4211FC542D48326AB01E7CEADEC950ADB3
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool4x2_t1DF140A16C98814548E15AA8F520119EC7C1AADE float4x2_op_LessThan_m26C53D87A559ED6F7549D990011B5CDEF142BE6D (float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27 ___lhs0, float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27 ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static bool4x2 operator < (float4x2 lhs, float4x2 rhs) { return new bool4x2 (lhs.c0 < rhs.c0, lhs.c1 < rhs.c1); }
 		float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27 L_0 = ___lhs0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1 = L_0.___c0_0;
 		float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27 L_2 = ___rhs1;
@@ -14574,7 +13763,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool4x2_t1DF140A16C98814548E15AA8F520119EC7C1
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool4x2_t1DF140A16C98814548E15AA8F520119EC7C1AADE float4x2_op_LessThan_m501D8389F77A5F3A667F5B232857944226335EED (float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27 ___lhs0, float ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static bool4x2 operator < (float4x2 lhs, float rhs) { return new bool4x2 (lhs.c0 < rhs, lhs.c1 < rhs); }
 		float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27 L_0 = ___lhs0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1 = L_0.___c0_0;
 		float L_2 = ___rhs1;
@@ -14595,7 +13783,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool4x2_t1DF140A16C98814548E15AA8F520119EC7C1
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool4x2_t1DF140A16C98814548E15AA8F520119EC7C1AADE float4x2_op_LessThan_mB2829DDB7676E7196AA6351A49C7AB2D82A31EA5 (float ___lhs0, float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27 ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static bool4x2 operator < (float lhs, float4x2 rhs) { return new bool4x2 (lhs < rhs.c0, lhs < rhs.c1); }
 		float L_0 = ___lhs0;
 		float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27 L_1 = ___rhs1;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2 = L_1.___c0_0;
@@ -14616,7 +13803,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool4x2_t1DF140A16C98814548E15AA8F520119EC7C1
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool4x2_t1DF140A16C98814548E15AA8F520119EC7C1AADE float4x2_op_LessThanOrEqual_mB1F30D06C0EA5B56192245243A1DB37B4EFDFAEB (float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27 ___lhs0, float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27 ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static bool4x2 operator <= (float4x2 lhs, float4x2 rhs) { return new bool4x2 (lhs.c0 <= rhs.c0, lhs.c1 <= rhs.c1); }
 		float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27 L_0 = ___lhs0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1 = L_0.___c0_0;
 		float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27 L_2 = ___rhs1;
@@ -14639,7 +13825,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool4x2_t1DF140A16C98814548E15AA8F520119EC7C1
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool4x2_t1DF140A16C98814548E15AA8F520119EC7C1AADE float4x2_op_LessThanOrEqual_mFFD616E384F3DDEE440DB53BB18A57850F2BF243 (float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27 ___lhs0, float ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static bool4x2 operator <= (float4x2 lhs, float rhs) { return new bool4x2 (lhs.c0 <= rhs, lhs.c1 <= rhs); }
 		float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27 L_0 = ___lhs0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1 = L_0.___c0_0;
 		float L_2 = ___rhs1;
@@ -14660,7 +13845,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool4x2_t1DF140A16C98814548E15AA8F520119EC7C1
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool4x2_t1DF140A16C98814548E15AA8F520119EC7C1AADE float4x2_op_LessThanOrEqual_m38BC24D960771600F8B5A3E2B140D640675D0009 (float ___lhs0, float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27 ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static bool4x2 operator <= (float lhs, float4x2 rhs) { return new bool4x2 (lhs <= rhs.c0, lhs <= rhs.c1); }
 		float L_0 = ___lhs0;
 		float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27 L_1 = ___rhs1;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2 = L_1.___c0_0;
@@ -14681,7 +13865,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool4x2_t1DF140A16C98814548E15AA8F520119EC7C1
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool4x2_t1DF140A16C98814548E15AA8F520119EC7C1AADE float4x2_op_GreaterThan_m7220BED5922D3B42F3C442D21850D3865613D14E (float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27 ___lhs0, float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27 ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static bool4x2 operator > (float4x2 lhs, float4x2 rhs) { return new bool4x2 (lhs.c0 > rhs.c0, lhs.c1 > rhs.c1); }
 		float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27 L_0 = ___lhs0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1 = L_0.___c0_0;
 		float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27 L_2 = ___rhs1;
@@ -14704,7 +13887,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool4x2_t1DF140A16C98814548E15AA8F520119EC7C1
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool4x2_t1DF140A16C98814548E15AA8F520119EC7C1AADE float4x2_op_GreaterThan_m7E14FC32D713B4404D84B26E9DB2B591EC000EE2 (float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27 ___lhs0, float ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static bool4x2 operator > (float4x2 lhs, float rhs) { return new bool4x2 (lhs.c0 > rhs, lhs.c1 > rhs); }
 		float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27 L_0 = ___lhs0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1 = L_0.___c0_0;
 		float L_2 = ___rhs1;
@@ -14725,7 +13907,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool4x2_t1DF140A16C98814548E15AA8F520119EC7C1
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool4x2_t1DF140A16C98814548E15AA8F520119EC7C1AADE float4x2_op_GreaterThan_m5E7E328BA6E022D1C9FC22655C9DBADE3F1790D3 (float ___lhs0, float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27 ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static bool4x2 operator > (float lhs, float4x2 rhs) { return new bool4x2 (lhs > rhs.c0, lhs > rhs.c1); }
 		float L_0 = ___lhs0;
 		float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27 L_1 = ___rhs1;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2 = L_1.___c0_0;
@@ -14746,7 +13927,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool4x2_t1DF140A16C98814548E15AA8F520119EC7C1
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool4x2_t1DF140A16C98814548E15AA8F520119EC7C1AADE float4x2_op_GreaterThanOrEqual_mE897CF206A8CCE5D1AC5DF96DA5CDAF3EE676CC8 (float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27 ___lhs0, float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27 ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static bool4x2 operator >= (float4x2 lhs, float4x2 rhs) { return new bool4x2 (lhs.c0 >= rhs.c0, lhs.c1 >= rhs.c1); }
 		float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27 L_0 = ___lhs0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1 = L_0.___c0_0;
 		float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27 L_2 = ___rhs1;
@@ -14769,7 +13949,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool4x2_t1DF140A16C98814548E15AA8F520119EC7C1
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool4x2_t1DF140A16C98814548E15AA8F520119EC7C1AADE float4x2_op_GreaterThanOrEqual_mB33F15CA87CA1550221AF8A12D47F76719ABB368 (float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27 ___lhs0, float ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static bool4x2 operator >= (float4x2 lhs, float rhs) { return new bool4x2 (lhs.c0 >= rhs, lhs.c1 >= rhs); }
 		float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27 L_0 = ___lhs0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1 = L_0.___c0_0;
 		float L_2 = ___rhs1;
@@ -14790,7 +13969,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool4x2_t1DF140A16C98814548E15AA8F520119EC7C1
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool4x2_t1DF140A16C98814548E15AA8F520119EC7C1AADE float4x2_op_GreaterThanOrEqual_m1F0D756AC959BC2DAE5B9AB1760B52D70C95FC26 (float ___lhs0, float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27 ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static bool4x2 operator >= (float lhs, float4x2 rhs) { return new bool4x2 (lhs >= rhs.c0, lhs >= rhs.c1); }
 		float L_0 = ___lhs0;
 		float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27 L_1 = ___rhs1;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2 = L_1.___c0_0;
@@ -14811,7 +13989,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool4x2_t1DF140A16C98814548E15AA8F520119EC7C1
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27 float4x2_op_UnaryNegation_m701C50A63BF4A0AE9F0C4D8E6DB14E5E9BC15E1B (float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27 ___val0, const RuntimeMethod* method) 
 {
 	{
-		// public static float4x2 operator - (float4x2 val) { return new float4x2 (-val.c0, -val.c1); }
 		float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27 L_0 = ___val0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1 = L_0.___c0_0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2;
@@ -14830,7 +14007,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x2_tC4211FC542D48326AB01E7CEADEC950ADB3
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27 float4x2_op_UnaryPlus_m1B37C5DCF14612823C2C4EBA2402C07AF82B0CC6 (float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27 ___val0, const RuntimeMethod* method) 
 {
 	{
-		// public static float4x2 operator + (float4x2 val) { return new float4x2 (+val.c0, +val.c1); }
 		float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27 L_0 = ___val0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1 = L_0.___c0_0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2;
@@ -14849,7 +14025,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x2_tC4211FC542D48326AB01E7CEADEC950ADB3
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool4x2_t1DF140A16C98814548E15AA8F520119EC7C1AADE float4x2_op_Equality_mDD2355B13BCE563540904F1C7FCC92605D449FA1 (float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27 ___lhs0, float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27 ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static bool4x2 operator == (float4x2 lhs, float4x2 rhs) { return new bool4x2 (lhs.c0 == rhs.c0, lhs.c1 == rhs.c1); }
 		float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27 L_0 = ___lhs0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1 = L_0.___c0_0;
 		float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27 L_2 = ___rhs1;
@@ -14872,7 +14047,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool4x2_t1DF140A16C98814548E15AA8F520119EC7C1
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool4x2_t1DF140A16C98814548E15AA8F520119EC7C1AADE float4x2_op_Equality_m5DBACC5527C675ABCEC0AB5E797E41EC389A3F64 (float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27 ___lhs0, float ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static bool4x2 operator == (float4x2 lhs, float rhs) { return new bool4x2 (lhs.c0 == rhs, lhs.c1 == rhs); }
 		float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27 L_0 = ___lhs0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1 = L_0.___c0_0;
 		float L_2 = ___rhs1;
@@ -14893,7 +14067,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool4x2_t1DF140A16C98814548E15AA8F520119EC7C1
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool4x2_t1DF140A16C98814548E15AA8F520119EC7C1AADE float4x2_op_Equality_m45C16AA36058000042F28A1B57806734AB05A97D (float ___lhs0, float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27 ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static bool4x2 operator == (float lhs, float4x2 rhs) { return new bool4x2 (lhs == rhs.c0, lhs == rhs.c1); }
 		float L_0 = ___lhs0;
 		float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27 L_1 = ___rhs1;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2 = L_1.___c0_0;
@@ -14914,7 +14087,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool4x2_t1DF140A16C98814548E15AA8F520119EC7C1
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool4x2_t1DF140A16C98814548E15AA8F520119EC7C1AADE float4x2_op_Inequality_mD1240A5F2F0E7A9B751D41504B35FE376799272A (float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27 ___lhs0, float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27 ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static bool4x2 operator != (float4x2 lhs, float4x2 rhs) { return new bool4x2 (lhs.c0 != rhs.c0, lhs.c1 != rhs.c1); }
 		float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27 L_0 = ___lhs0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1 = L_0.___c0_0;
 		float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27 L_2 = ___rhs1;
@@ -14937,7 +14109,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool4x2_t1DF140A16C98814548E15AA8F520119EC7C1
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool4x2_t1DF140A16C98814548E15AA8F520119EC7C1AADE float4x2_op_Inequality_m2B031EF6CD16C207821A837B7A65A762F25340B5 (float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27 ___lhs0, float ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static bool4x2 operator != (float4x2 lhs, float rhs) { return new bool4x2 (lhs.c0 != rhs, lhs.c1 != rhs); }
 		float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27 L_0 = ___lhs0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1 = L_0.___c0_0;
 		float L_2 = ___rhs1;
@@ -14958,7 +14129,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool4x2_t1DF140A16C98814548E15AA8F520119EC7C1
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool4x2_t1DF140A16C98814548E15AA8F520119EC7C1AADE float4x2_op_Inequality_m9B08ED6FB0F9C8E1650496AEF700BAEEAD3A024F (float ___lhs0, float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27 ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static bool4x2 operator != (float lhs, float4x2 rhs) { return new bool4x2 (lhs != rhs.c0, lhs != rhs.c1); }
 		float L_0 = ___lhs0;
 		float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27 L_1 = ___rhs1;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2 = L_1.___c0_0;
@@ -14980,11 +14150,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186545085329585
 {
 	float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27* V_0 = NULL;
 	{
-		// {
 		V_0 = __this;
-		// fixed (float4x2* array = &this) { return ref ((float4*)array)[index]; }
 		float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27* L_0 = V_0;
-		// fixed (float4x2* array = &this) { return ref ((float4*)array)[index]; }
 		int32_t L_1 = ___index0;
 		uint32_t L_2 = sizeof(float4_t89D9A294E7A79BD81BFBDD18654508532958555E);
 		return (float4_t89D9A294E7A79BD81BFBDD18654508532958555E*)(((intptr_t)il2cpp_codegen_add((intptr_t)((uintptr_t)L_0), ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_1), (int32_t)L_2)))));
@@ -15003,7 +14170,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E* float4x2_get_
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool float4x2_Equals_m65157E71DEB3B161C5F2AA05945294537B923C0A (float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27* __this, float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27 ___rhs0, const RuntimeMethod* method) 
 {
 	{
-		// public bool Equals(float4x2 rhs) { return c0.Equals(rhs.c0) && c1.Equals(rhs.c1); }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E* L_0 = (&__this->___c0_0);
 		float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27 L_1 = ___rhs0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2 = L_1.___c0_0;
@@ -15049,7 +14215,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool float4x2_Equals_mB82ECB69A1BA074D9A57190
 	float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		// public override bool Equals(object o) { return o is float4x2 converted && Equals(converted); }
 		RuntimeObject* L_0 = ___o0;
 		if (!((RuntimeObject*)IsInstSealed((RuntimeObject*)L_0, float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27_il2cpp_TypeInfo_var)))
 		{
@@ -15083,7 +14248,6 @@ IL2CPP_EXTERN_C  bool float4x2_Equals_mB82ECB69A1BA074D9A57190B5D4DCFAAA1C73445_
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t float4x2_GetHashCode_m535819505C38AAC585C51A47BEB749D6A4BACA08 (float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27* __this, const RuntimeMethod* method) 
 {
 	{
-		// public override int GetHashCode() { return (int)math.hash(this); }
 		float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27 L_0 = (*(float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27*)__this);
 		uint32_t L_1;
 		L_1 = math_hash_m65367DBA719177C4564C05436542A4C5C39A714F_inline(L_0, NULL);
@@ -15111,7 +14275,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* float4x2_ToString_m92590D0F2CA1B200
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		// return string.Format("float4x2({0}f, {1}f,  {2}f, {3}f,  {4}f, {5}f,  {6}f, {7}f)", c0.x, c1.x, c0.y, c1.y, c0.z, c1.z, c0.w, c1.w);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_0 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)8);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_1 = L_0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E* L_2 = (&__this->___c0_0);
@@ -15202,7 +14365,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* float4x2_ToString_m017A13B7F70E4D78
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		// return string.Format("float4x2({0}f, {1}f,  {2}f, {3}f,  {4}f, {5}f,  {6}f, {7}f)", c0.x.ToString(format, formatProvider), c1.x.ToString(format, formatProvider), c0.y.ToString(format, formatProvider), c1.y.ToString(format, formatProvider), c0.z.ToString(format, formatProvider), c1.z.ToString(format, formatProvider), c0.w.ToString(format, formatProvider), c1.w.ToString(format, formatProvider));
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_0 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)8);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_1 = L_0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E* L_2 = (&__this->___c0_0);
@@ -15310,16 +14472,12 @@ IL2CPP_EXTERN_C  String_t* float4x2_ToString_m017A13B7F70E4D78D74F41ABAE1C4350E7
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4x3__ctor_mEA21BBD3BB218FBA75FE3934670C0A9C0E63FCF8 (float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC* __this, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___c00, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___c11, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___c22, const RuntimeMethod* method) 
 {
 	{
-		// this.c0 = c0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = ___c00;
 		__this->___c0_0 = L_0;
-		// this.c1 = c1;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1 = ___c11;
 		__this->___c1_1 = L_1;
-		// this.c2 = c2;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2 = ___c22;
 		__this->___c2_2 = L_2;
-		// }
 		return;
 	}
 }
@@ -15334,7 +14492,6 @@ IL2CPP_EXTERN_C  void float4x3__ctor_mEA21BBD3BB218FBA75FE3934670C0A9C0E63FCF8_A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4x3__ctor_mE22B57702FAF990965B3CCF33B448B6BBDA935FF (float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC* __this, float ___m000, float ___m011, float ___m022, float ___m103, float ___m114, float ___m125, float ___m206, float ___m217, float ___m228, float ___m309, float ___m3110, float ___m3211, const RuntimeMethod* method) 
 {
 	{
-		// this.c0 = new float4(m00, m10, m20, m30);
 		float L_0 = ___m000;
 		float L_1 = ___m103;
 		float L_2 = ___m206;
@@ -15343,7 +14500,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4x3__ctor_mE22B57702FAF990965B3CCF3
 		memset((&L_4), 0, sizeof(L_4));
 		float4__ctor_mB2F7F2D8BCE8159BEF5A0D6400499E211858ED2D_inline((&L_4), L_0, L_1, L_2, L_3, /*hidden argument*/NULL);
 		__this->___c0_0 = L_4;
-		// this.c1 = new float4(m01, m11, m21, m31);
 		float L_5 = ___m011;
 		float L_6 = ___m114;
 		float L_7 = ___m217;
@@ -15352,7 +14508,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4x3__ctor_mE22B57702FAF990965B3CCF3
 		memset((&L_9), 0, sizeof(L_9));
 		float4__ctor_mB2F7F2D8BCE8159BEF5A0D6400499E211858ED2D_inline((&L_9), L_5, L_6, L_7, L_8, /*hidden argument*/NULL);
 		__this->___c1_1 = L_9;
-		// this.c2 = new float4(m02, m12, m22, m32);
 		float L_10 = ___m022;
 		float L_11 = ___m125;
 		float L_12 = ___m228;
@@ -15361,7 +14516,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4x3__ctor_mE22B57702FAF990965B3CCF3
 		memset((&L_14), 0, sizeof(L_14));
 		float4__ctor_mB2F7F2D8BCE8159BEF5A0D6400499E211858ED2D_inline((&L_14), L_10, L_11, L_12, L_13, /*hidden argument*/NULL);
 		__this->___c2_2 = L_14;
-		// }
 		return;
 	}
 }
@@ -15376,22 +14530,18 @@ IL2CPP_EXTERN_C  void float4x3__ctor_mE22B57702FAF990965B3CCF33B448B6BBDA935FF_A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4x3__ctor_m3C82811453B82DC569F571F3026DE19A8404D0CF (float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC* __this, float ___v0, const RuntimeMethod* method) 
 {
 	{
-		// this.c0 = v;
 		float L_0 = ___v0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1;
 		L_1 = float4_op_Implicit_m3DF77A1795E1232FCE3A62302FF23601F8C042DD_inline(L_0, NULL);
 		__this->___c0_0 = L_1;
-		// this.c1 = v;
 		float L_2 = ___v0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_3;
 		L_3 = float4_op_Implicit_m3DF77A1795E1232FCE3A62302FF23601F8C042DD_inline(L_2, NULL);
 		__this->___c1_1 = L_3;
-		// this.c2 = v;
 		float L_4 = ___v0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_5;
 		L_5 = float4_op_Implicit_m3DF77A1795E1232FCE3A62302FF23601F8C042DD_inline(L_4, NULL);
 		__this->___c2_2 = L_5;
-		// }
 		return;
 	}
 }
@@ -15406,7 +14556,6 @@ IL2CPP_EXTERN_C  void float4x3__ctor_m3C82811453B82DC569F571F3026DE19A8404D0CF_A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4x3__ctor_m5A7EFEDFE0BC80A95D1BF00F4BADE5E9F4B6784C (float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC* __this, bool ___v0, const RuntimeMethod* method) 
 {
 	{
-		// this.c0 = math.select(new float4(0.0f), new float4(1.0f), v);
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0;
 		memset((&L_0), 0, sizeof(L_0));
 		float4__ctor_m103F8D391212FB2B0F01D09F7E9CCE4BDF0C7839_inline((&L_0), (0.0f), /*hidden argument*/NULL);
@@ -15417,7 +14566,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4x3__ctor_m5A7EFEDFE0BC80A95D1BF00F
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_3;
 		L_3 = math_select_m7B43FDAE30A8A4D7AD42684DF8C090FC697AF346_inline(L_0, L_1, L_2, NULL);
 		__this->___c0_0 = L_3;
-		// this.c1 = math.select(new float4(0.0f), new float4(1.0f), v);
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_4;
 		memset((&L_4), 0, sizeof(L_4));
 		float4__ctor_m103F8D391212FB2B0F01D09F7E9CCE4BDF0C7839_inline((&L_4), (0.0f), /*hidden argument*/NULL);
@@ -15428,7 +14576,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4x3__ctor_m5A7EFEDFE0BC80A95D1BF00F
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_7;
 		L_7 = math_select_m7B43FDAE30A8A4D7AD42684DF8C090FC697AF346_inline(L_4, L_5, L_6, NULL);
 		__this->___c1_1 = L_7;
-		// this.c2 = math.select(new float4(0.0f), new float4(1.0f), v);
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_8;
 		memset((&L_8), 0, sizeof(L_8));
 		float4__ctor_m103F8D391212FB2B0F01D09F7E9CCE4BDF0C7839_inline((&L_8), (0.0f), /*hidden argument*/NULL);
@@ -15439,7 +14586,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4x3__ctor_m5A7EFEDFE0BC80A95D1BF00F
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_11;
 		L_11 = math_select_m7B43FDAE30A8A4D7AD42684DF8C090FC697AF346_inline(L_8, L_9, L_10, NULL);
 		__this->___c2_2 = L_11;
-		// }
 		return;
 	}
 }
@@ -15454,7 +14600,6 @@ IL2CPP_EXTERN_C  void float4x3__ctor_m5A7EFEDFE0BC80A95D1BF00F4BADE5E9F4B6784C_A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4x3__ctor_m4FACD57D10F52EEDE81F74EBFC06F84C49056307 (float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC* __this, bool4x3_t1373A1AFFA890B9F3DB734F9505B56E08D425D34 ___v0, const RuntimeMethod* method) 
 {
 	{
-		// this.c0 = math.select(new float4(0.0f), new float4(1.0f), v.c0);
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0;
 		memset((&L_0), 0, sizeof(L_0));
 		float4__ctor_m103F8D391212FB2B0F01D09F7E9CCE4BDF0C7839_inline((&L_0), (0.0f), /*hidden argument*/NULL);
@@ -15466,7 +14611,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4x3__ctor_m4FACD57D10F52EEDE81F74EB
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_4;
 		L_4 = math_select_m8A60689AC883C0130FC2F32E7D1096199D2AD31E_inline(L_0, L_1, L_3, NULL);
 		__this->___c0_0 = L_4;
-		// this.c1 = math.select(new float4(0.0f), new float4(1.0f), v.c1);
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_5;
 		memset((&L_5), 0, sizeof(L_5));
 		float4__ctor_m103F8D391212FB2B0F01D09F7E9CCE4BDF0C7839_inline((&L_5), (0.0f), /*hidden argument*/NULL);
@@ -15478,7 +14622,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4x3__ctor_m4FACD57D10F52EEDE81F74EB
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_9;
 		L_9 = math_select_m8A60689AC883C0130FC2F32E7D1096199D2AD31E_inline(L_5, L_6, L_8, NULL);
 		__this->___c1_1 = L_9;
-		// this.c2 = math.select(new float4(0.0f), new float4(1.0f), v.c2);
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_10;
 		memset((&L_10), 0, sizeof(L_10));
 		float4__ctor_m103F8D391212FB2B0F01D09F7E9CCE4BDF0C7839_inline((&L_10), (0.0f), /*hidden argument*/NULL);
@@ -15490,7 +14633,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4x3__ctor_m4FACD57D10F52EEDE81F74EB
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_14;
 		L_14 = math_select_m8A60689AC883C0130FC2F32E7D1096199D2AD31E_inline(L_10, L_11, L_13, NULL);
 		__this->___c2_2 = L_14;
-		// }
 		return;
 	}
 }
@@ -15505,22 +14647,18 @@ IL2CPP_EXTERN_C  void float4x3__ctor_m4FACD57D10F52EEDE81F74EBFC06F84C49056307_A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4x3__ctor_m835D595D94EF39A109EA44A4A4C0956029EEEBD3 (float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC* __this, int32_t ___v0, const RuntimeMethod* method) 
 {
 	{
-		// this.c0 = v;
 		int32_t L_0 = ___v0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1;
 		L_1 = float4_op_Implicit_mB41AE98F26EA1F866D8DFEB7FD76E2CA217D52B6_inline(L_0, NULL);
 		__this->___c0_0 = L_1;
-		// this.c1 = v;
 		int32_t L_2 = ___v0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_3;
 		L_3 = float4_op_Implicit_mB41AE98F26EA1F866D8DFEB7FD76E2CA217D52B6_inline(L_2, NULL);
 		__this->___c1_1 = L_3;
-		// this.c2 = v;
 		int32_t L_4 = ___v0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_5;
 		L_5 = float4_op_Implicit_mB41AE98F26EA1F866D8DFEB7FD76E2CA217D52B6_inline(L_4, NULL);
 		__this->___c2_2 = L_5;
-		// }
 		return;
 	}
 }
@@ -15535,25 +14673,21 @@ IL2CPP_EXTERN_C  void float4x3__ctor_m835D595D94EF39A109EA44A4A4C0956029EEEBD3_A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4x3__ctor_m7F9B0FCFF00BEBCC7A892DE181182507D0A8DB08 (float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC* __this, int4x3_tC8B8554AAF213125795C70EC9760DE5831E4079A ___v0, const RuntimeMethod* method) 
 {
 	{
-		// this.c0 = v.c0;
 		int4x3_tC8B8554AAF213125795C70EC9760DE5831E4079A L_0 = ___v0;
 		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_1 = L_0.___c0_0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2;
 		L_2 = float4_op_Implicit_mA889A779BA63B2654EEEF1F5CE2407DAA0E33142_inline(L_1, NULL);
 		__this->___c0_0 = L_2;
-		// this.c1 = v.c1;
 		int4x3_tC8B8554AAF213125795C70EC9760DE5831E4079A L_3 = ___v0;
 		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_4 = L_3.___c1_1;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_5;
 		L_5 = float4_op_Implicit_mA889A779BA63B2654EEEF1F5CE2407DAA0E33142_inline(L_4, NULL);
 		__this->___c1_1 = L_5;
-		// this.c2 = v.c2;
 		int4x3_tC8B8554AAF213125795C70EC9760DE5831E4079A L_6 = ___v0;
 		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_7 = L_6.___c2_2;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_8;
 		L_8 = float4_op_Implicit_mA889A779BA63B2654EEEF1F5CE2407DAA0E33142_inline(L_7, NULL);
 		__this->___c2_2 = L_8;
-		// }
 		return;
 	}
 }
@@ -15568,22 +14702,18 @@ IL2CPP_EXTERN_C  void float4x3__ctor_m7F9B0FCFF00BEBCC7A892DE181182507D0A8DB08_A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4x3__ctor_mB7262D096073C6FEBC352B56A70D61831FFAAF4B (float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC* __this, uint32_t ___v0, const RuntimeMethod* method) 
 {
 	{
-		// this.c0 = v;
 		uint32_t L_0 = ___v0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1;
 		L_1 = float4_op_Implicit_mED209EFA9280A609F964FE9EEB8B85C91505456D_inline(L_0, NULL);
 		__this->___c0_0 = L_1;
-		// this.c1 = v;
 		uint32_t L_2 = ___v0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_3;
 		L_3 = float4_op_Implicit_mED209EFA9280A609F964FE9EEB8B85C91505456D_inline(L_2, NULL);
 		__this->___c1_1 = L_3;
-		// this.c2 = v;
 		uint32_t L_4 = ___v0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_5;
 		L_5 = float4_op_Implicit_mED209EFA9280A609F964FE9EEB8B85C91505456D_inline(L_4, NULL);
 		__this->___c2_2 = L_5;
-		// }
 		return;
 	}
 }
@@ -15598,25 +14728,21 @@ IL2CPP_EXTERN_C  void float4x3__ctor_mB7262D096073C6FEBC352B56A70D61831FFAAF4B_A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4x3__ctor_m92C19ADA105CC230A7332C9FF5866484E07CB565 (float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC* __this, uint4x3_t9BA1847AC3EE8447BC913F77C7CB0FDFCD0E8F3C ___v0, const RuntimeMethod* method) 
 {
 	{
-		// this.c0 = v.c0;
 		uint4x3_t9BA1847AC3EE8447BC913F77C7CB0FDFCD0E8F3C L_0 = ___v0;
 		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_1 = L_0.___c0_0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2;
 		L_2 = float4_op_Implicit_m82EA1881742FD480C2CE2386DF3D25C34502100B_inline(L_1, NULL);
 		__this->___c0_0 = L_2;
-		// this.c1 = v.c1;
 		uint4x3_t9BA1847AC3EE8447BC913F77C7CB0FDFCD0E8F3C L_3 = ___v0;
 		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_4 = L_3.___c1_1;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_5;
 		L_5 = float4_op_Implicit_m82EA1881742FD480C2CE2386DF3D25C34502100B_inline(L_4, NULL);
 		__this->___c1_1 = L_5;
-		// this.c2 = v.c2;
 		uint4x3_t9BA1847AC3EE8447BC913F77C7CB0FDFCD0E8F3C L_6 = ___v0;
 		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_7 = L_6.___c2_2;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_8;
 		L_8 = float4_op_Implicit_m82EA1881742FD480C2CE2386DF3D25C34502100B_inline(L_7, NULL);
 		__this->___c2_2 = L_8;
-		// }
 		return;
 	}
 }
@@ -15631,22 +14757,18 @@ IL2CPP_EXTERN_C  void float4x3__ctor_m92C19ADA105CC230A7332C9FF5866484E07CB565_A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4x3__ctor_m0B1C94EC543E6F2EA5AC421F203752DF037CBCD8 (float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC* __this, double ___v0, const RuntimeMethod* method) 
 {
 	{
-		// this.c0 = (float4)v;
 		double L_0 = ___v0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1;
 		L_1 = float4_op_Explicit_mE1B66196EF40555EA57BAF264CEC0A4CE271DF7E_inline(L_0, NULL);
 		__this->___c0_0 = L_1;
-		// this.c1 = (float4)v;
 		double L_2 = ___v0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_3;
 		L_3 = float4_op_Explicit_mE1B66196EF40555EA57BAF264CEC0A4CE271DF7E_inline(L_2, NULL);
 		__this->___c1_1 = L_3;
-		// this.c2 = (float4)v;
 		double L_4 = ___v0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_5;
 		L_5 = float4_op_Explicit_mE1B66196EF40555EA57BAF264CEC0A4CE271DF7E_inline(L_4, NULL);
 		__this->___c2_2 = L_5;
-		// }
 		return;
 	}
 }
@@ -15661,25 +14783,21 @@ IL2CPP_EXTERN_C  void float4x3__ctor_m0B1C94EC543E6F2EA5AC421F203752DF037CBCD8_A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4x3__ctor_m9486F88493BFF5FF95ED3FA5D16E2A22F2264C7A (float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC* __this, double4x3_tFBD39CBC9F5188E71E889F604159BE18FEB8F18E ___v0, const RuntimeMethod* method) 
 {
 	{
-		// this.c0 = (float4)v.c0;
 		double4x3_tFBD39CBC9F5188E71E889F604159BE18FEB8F18E L_0 = ___v0;
 		double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 L_1 = L_0.___c0_0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2;
 		L_2 = float4_op_Explicit_mBD6BF71CF079224435AFBF2408554A53AD557950_inline(L_1, NULL);
 		__this->___c0_0 = L_2;
-		// this.c1 = (float4)v.c1;
 		double4x3_tFBD39CBC9F5188E71E889F604159BE18FEB8F18E L_3 = ___v0;
 		double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 L_4 = L_3.___c1_1;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_5;
 		L_5 = float4_op_Explicit_mBD6BF71CF079224435AFBF2408554A53AD557950_inline(L_4, NULL);
 		__this->___c1_1 = L_5;
-		// this.c2 = (float4)v.c2;
 		double4x3_tFBD39CBC9F5188E71E889F604159BE18FEB8F18E L_6 = ___v0;
 		double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 L_7 = L_6.___c2_2;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_8;
 		L_8 = float4_op_Explicit_mBD6BF71CF079224435AFBF2408554A53AD557950_inline(L_7, NULL);
 		__this->___c2_2 = L_8;
-		// }
 		return;
 	}
 }
@@ -15694,7 +14812,6 @@ IL2CPP_EXTERN_C  void float4x3__ctor_m9486F88493BFF5FF95ED3FA5D16E2A22F2264C7A_A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC float4x3_op_Implicit_m652C93C31E07808CB8D535F5F8005629C818DD2E (float ___v0, const RuntimeMethod* method) 
 {
 	{
-		// public static implicit operator float4x3(float v) { return new float4x3(v); }
 		float L_0 = ___v0;
 		float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC L_1;
 		memset((&L_1), 0, sizeof(L_1));
@@ -15706,7 +14823,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x3_t06008E654CCB12CD786C3E335A1E4C89A8A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC float4x3_op_Explicit_mB4D00A3D6742AD40515AE4189DF3837B6C4A0AB1 (bool ___v0, const RuntimeMethod* method) 
 {
 	{
-		// public static explicit operator float4x3(bool v) { return new float4x3(v); }
 		bool L_0 = ___v0;
 		float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC L_1;
 		memset((&L_1), 0, sizeof(L_1));
@@ -15718,7 +14834,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x3_t06008E654CCB12CD786C3E335A1E4C89A8A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC float4x3_op_Explicit_mEE8D502EE28F5C05A070C5ABAA65BA652FF8FC50 (bool4x3_t1373A1AFFA890B9F3DB734F9505B56E08D425D34 ___v0, const RuntimeMethod* method) 
 {
 	{
-		// public static explicit operator float4x3(bool4x3 v) { return new float4x3(v); }
 		bool4x3_t1373A1AFFA890B9F3DB734F9505B56E08D425D34 L_0 = ___v0;
 		float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC L_1;
 		memset((&L_1), 0, sizeof(L_1));
@@ -15730,7 +14845,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x3_t06008E654CCB12CD786C3E335A1E4C89A8A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC float4x3_op_Implicit_m0084870CF88296002EAE7A80A9106EA00A5858D7 (int32_t ___v0, const RuntimeMethod* method) 
 {
 	{
-		// public static implicit operator float4x3(int v) { return new float4x3(v); }
 		int32_t L_0 = ___v0;
 		float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC L_1;
 		memset((&L_1), 0, sizeof(L_1));
@@ -15742,7 +14856,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x3_t06008E654CCB12CD786C3E335A1E4C89A8A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC float4x3_op_Implicit_m8923AEB6E325A929856128082153E79C3B12C033 (int4x3_tC8B8554AAF213125795C70EC9760DE5831E4079A ___v0, const RuntimeMethod* method) 
 {
 	{
-		// public static implicit operator float4x3(int4x3 v) { return new float4x3(v); }
 		int4x3_tC8B8554AAF213125795C70EC9760DE5831E4079A L_0 = ___v0;
 		float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC L_1;
 		memset((&L_1), 0, sizeof(L_1));
@@ -15754,7 +14867,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x3_t06008E654CCB12CD786C3E335A1E4C89A8A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC float4x3_op_Implicit_m0B5E140A2D9AF6553754D7DE1AFEDF47CEEB6FA7 (uint32_t ___v0, const RuntimeMethod* method) 
 {
 	{
-		// public static implicit operator float4x3(uint v) { return new float4x3(v); }
 		uint32_t L_0 = ___v0;
 		float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC L_1;
 		memset((&L_1), 0, sizeof(L_1));
@@ -15766,7 +14878,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x3_t06008E654CCB12CD786C3E335A1E4C89A8A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC float4x3_op_Implicit_mD4587B820105A541E087042A2D22EE7E58538A11 (uint4x3_t9BA1847AC3EE8447BC913F77C7CB0FDFCD0E8F3C ___v0, const RuntimeMethod* method) 
 {
 	{
-		// public static implicit operator float4x3(uint4x3 v) { return new float4x3(v); }
 		uint4x3_t9BA1847AC3EE8447BC913F77C7CB0FDFCD0E8F3C L_0 = ___v0;
 		float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC L_1;
 		memset((&L_1), 0, sizeof(L_1));
@@ -15778,7 +14889,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x3_t06008E654CCB12CD786C3E335A1E4C89A8A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC float4x3_op_Explicit_m8335B6AFF6A5E6E068193EBA6F5EAABD61165668 (double ___v0, const RuntimeMethod* method) 
 {
 	{
-		// public static explicit operator float4x3(double v) { return new float4x3(v); }
 		double L_0 = ___v0;
 		float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC L_1;
 		memset((&L_1), 0, sizeof(L_1));
@@ -15790,7 +14900,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x3_t06008E654CCB12CD786C3E335A1E4C89A8A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC float4x3_op_Explicit_mE7BC86BD943CE74B0F8A6294AE6CCA6F47405BC7 (double4x3_tFBD39CBC9F5188E71E889F604159BE18FEB8F18E ___v0, const RuntimeMethod* method) 
 {
 	{
-		// public static explicit operator float4x3(double4x3 v) { return new float4x3(v); }
 		double4x3_tFBD39CBC9F5188E71E889F604159BE18FEB8F18E L_0 = ___v0;
 		float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC L_1;
 		memset((&L_1), 0, sizeof(L_1));
@@ -15802,7 +14911,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x3_t06008E654CCB12CD786C3E335A1E4C89A8A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC float4x3_op_Multiply_mE6EEE4ACB1DB7E07FC06154848B3BEDD609F5D13 (float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC ___lhs0, float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static float4x3 operator * (float4x3 lhs, float4x3 rhs) { return new float4x3 (lhs.c0 * rhs.c0, lhs.c1 * rhs.c1, lhs.c2 * rhs.c2); }
 		float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC L_0 = ___lhs0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1 = L_0.___c0_0;
 		float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC L_2 = ___rhs1;
@@ -15831,7 +14939,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x3_t06008E654CCB12CD786C3E335A1E4C89A8A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC float4x3_op_Multiply_mEE3CA807074D3EB0A7803D2F5CC03F28353F6B52 (float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC ___lhs0, float ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static float4x3 operator * (float4x3 lhs, float rhs) { return new float4x3 (lhs.c0 * rhs, lhs.c1 * rhs, lhs.c2 * rhs); }
 		float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC L_0 = ___lhs0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1 = L_0.___c0_0;
 		float L_2 = ___rhs1;
@@ -15857,7 +14964,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x3_t06008E654CCB12CD786C3E335A1E4C89A8A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC float4x3_op_Multiply_m20BAAA29D37F00530EBB8B8C6ECB01C102BCBE61 (float ___lhs0, float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static float4x3 operator * (float lhs, float4x3 rhs) { return new float4x3 (lhs * rhs.c0, lhs * rhs.c1, lhs * rhs.c2); }
 		float L_0 = ___lhs0;
 		float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC L_1 = ___rhs1;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2 = L_1.___c0_0;
@@ -15883,7 +14989,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x3_t06008E654CCB12CD786C3E335A1E4C89A8A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC float4x3_op_Addition_m256E40F988FB355D5C48D939A2EDB13CD6BFCA61 (float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC ___lhs0, float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static float4x3 operator + (float4x3 lhs, float4x3 rhs) { return new float4x3 (lhs.c0 + rhs.c0, lhs.c1 + rhs.c1, lhs.c2 + rhs.c2); }
 		float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC L_0 = ___lhs0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1 = L_0.___c0_0;
 		float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC L_2 = ___rhs1;
@@ -15912,7 +15017,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x3_t06008E654CCB12CD786C3E335A1E4C89A8A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC float4x3_op_Addition_mC03347BC84CF69606E8CA206DFC60C1D69294D3D (float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC ___lhs0, float ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static float4x3 operator + (float4x3 lhs, float rhs) { return new float4x3 (lhs.c0 + rhs, lhs.c1 + rhs, lhs.c2 + rhs); }
 		float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC L_0 = ___lhs0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1 = L_0.___c0_0;
 		float L_2 = ___rhs1;
@@ -15938,7 +15042,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x3_t06008E654CCB12CD786C3E335A1E4C89A8A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC float4x3_op_Addition_m0B7213D90E8CC4FEA9F622BAC7FD946821DEF630 (float ___lhs0, float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static float4x3 operator + (float lhs, float4x3 rhs) { return new float4x3 (lhs + rhs.c0, lhs + rhs.c1, lhs + rhs.c2); }
 		float L_0 = ___lhs0;
 		float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC L_1 = ___rhs1;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2 = L_1.___c0_0;
@@ -15964,7 +15067,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x3_t06008E654CCB12CD786C3E335A1E4C89A8A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC float4x3_op_Subtraction_m08CFC8A112173B29732843EC4DDDE99530B404B3 (float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC ___lhs0, float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static float4x3 operator - (float4x3 lhs, float4x3 rhs) { return new float4x3 (lhs.c0 - rhs.c0, lhs.c1 - rhs.c1, lhs.c2 - rhs.c2); }
 		float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC L_0 = ___lhs0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1 = L_0.___c0_0;
 		float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC L_2 = ___rhs1;
@@ -15993,7 +15095,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x3_t06008E654CCB12CD786C3E335A1E4C89A8A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC float4x3_op_Subtraction_m3020DF1723B56208FA4E99898B5B84169C15763E (float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC ___lhs0, float ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static float4x3 operator - (float4x3 lhs, float rhs) { return new float4x3 (lhs.c0 - rhs, lhs.c1 - rhs, lhs.c2 - rhs); }
 		float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC L_0 = ___lhs0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1 = L_0.___c0_0;
 		float L_2 = ___rhs1;
@@ -16019,7 +15120,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x3_t06008E654CCB12CD786C3E335A1E4C89A8A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC float4x3_op_Subtraction_mF06F085A7AED848D4CF87701E0C9AB10C8C9D1C9 (float ___lhs0, float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static float4x3 operator - (float lhs, float4x3 rhs) { return new float4x3 (lhs - rhs.c0, lhs - rhs.c1, lhs - rhs.c2); }
 		float L_0 = ___lhs0;
 		float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC L_1 = ___rhs1;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2 = L_1.___c0_0;
@@ -16045,7 +15145,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x3_t06008E654CCB12CD786C3E335A1E4C89A8A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC float4x3_op_Division_m4EF3CD20C493BE903ED2B319848665244668BF2A (float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC ___lhs0, float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static float4x3 operator / (float4x3 lhs, float4x3 rhs) { return new float4x3 (lhs.c0 / rhs.c0, lhs.c1 / rhs.c1, lhs.c2 / rhs.c2); }
 		float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC L_0 = ___lhs0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1 = L_0.___c0_0;
 		float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC L_2 = ___rhs1;
@@ -16074,7 +15173,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x3_t06008E654CCB12CD786C3E335A1E4C89A8A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC float4x3_op_Division_m6110FF812D0E02BD19F098E4381D609611AF09DE (float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC ___lhs0, float ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static float4x3 operator / (float4x3 lhs, float rhs) { return new float4x3 (lhs.c0 / rhs, lhs.c1 / rhs, lhs.c2 / rhs); }
 		float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC L_0 = ___lhs0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1 = L_0.___c0_0;
 		float L_2 = ___rhs1;
@@ -16100,7 +15198,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x3_t06008E654CCB12CD786C3E335A1E4C89A8A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC float4x3_op_Division_m9A5972E94C6C1CB040B48AAE1F4DEAD800BD5D15 (float ___lhs0, float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static float4x3 operator / (float lhs, float4x3 rhs) { return new float4x3 (lhs / rhs.c0, lhs / rhs.c1, lhs / rhs.c2); }
 		float L_0 = ___lhs0;
 		float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC L_1 = ___rhs1;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2 = L_1.___c0_0;
@@ -16126,7 +15223,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x3_t06008E654CCB12CD786C3E335A1E4C89A8A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC float4x3_op_Modulus_m78870C2EB118E13986AA9420014FD41ECEC98126 (float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC ___lhs0, float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static float4x3 operator % (float4x3 lhs, float4x3 rhs) { return new float4x3 (lhs.c0 % rhs.c0, lhs.c1 % rhs.c1, lhs.c2 % rhs.c2); }
 		float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC L_0 = ___lhs0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1 = L_0.___c0_0;
 		float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC L_2 = ___rhs1;
@@ -16155,7 +15251,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x3_t06008E654CCB12CD786C3E335A1E4C89A8A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC float4x3_op_Modulus_m31FA36989416113B93FE486EAB3849E9EF3E7847 (float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC ___lhs0, float ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static float4x3 operator % (float4x3 lhs, float rhs) { return new float4x3 (lhs.c0 % rhs, lhs.c1 % rhs, lhs.c2 % rhs); }
 		float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC L_0 = ___lhs0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1 = L_0.___c0_0;
 		float L_2 = ___rhs1;
@@ -16181,7 +15276,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x3_t06008E654CCB12CD786C3E335A1E4C89A8A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC float4x3_op_Modulus_m10769EF58D35A879A93304219DA2004F05210299 (float ___lhs0, float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static float4x3 operator % (float lhs, float4x3 rhs) { return new float4x3 (lhs % rhs.c0, lhs % rhs.c1, lhs % rhs.c2); }
 		float L_0 = ___lhs0;
 		float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC L_1 = ___rhs1;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2 = L_1.___c0_0;
@@ -16209,7 +15303,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x3_t06008E654CCB12CD786C3E335A1E4C89A8A
 	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		// public static float4x3 operator ++ (float4x3 val) { return new float4x3 (++val.c0, ++val.c1, ++val.c2); }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E* L_0 = (&(&___val0)->___c0_0);
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E* L_1 = L_0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2 = (*(float4_t89D9A294E7A79BD81BFBDD18654508532958555E*)L_1);
@@ -16249,7 +15342,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x3_t06008E654CCB12CD786C3E335A1E4C89A8A
 	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		// public static float4x3 operator -- (float4x3 val) { return new float4x3 (--val.c0, --val.c1, --val.c2); }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E* L_0 = (&(&___val0)->___c0_0);
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E* L_1 = L_0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2 = (*(float4_t89D9A294E7A79BD81BFBDD18654508532958555E*)L_1);
@@ -16287,7 +15379,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x3_t06008E654CCB12CD786C3E335A1E4C89A8A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool4x3_t1373A1AFFA890B9F3DB734F9505B56E08D425D34 float4x3_op_LessThan_m1065744BD52D7D5AFE511CB1ABEA87607CDE6F8B (float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC ___lhs0, float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static bool4x3 operator < (float4x3 lhs, float4x3 rhs) { return new bool4x3 (lhs.c0 < rhs.c0, lhs.c1 < rhs.c1, lhs.c2 < rhs.c2); }
 		float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC L_0 = ___lhs0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1 = L_0.___c0_0;
 		float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC L_2 = ___rhs1;
@@ -16316,7 +15407,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool4x3_t1373A1AFFA890B9F3DB734F9505B56E08D42
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool4x3_t1373A1AFFA890B9F3DB734F9505B56E08D425D34 float4x3_op_LessThan_mF85A8FAA6A9370D564A55AA8E04434D98C21945B (float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC ___lhs0, float ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static bool4x3 operator < (float4x3 lhs, float rhs) { return new bool4x3 (lhs.c0 < rhs, lhs.c1 < rhs, lhs.c2 < rhs); }
 		float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC L_0 = ___lhs0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1 = L_0.___c0_0;
 		float L_2 = ___rhs1;
@@ -16342,7 +15432,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool4x3_t1373A1AFFA890B9F3DB734F9505B56E08D42
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool4x3_t1373A1AFFA890B9F3DB734F9505B56E08D425D34 float4x3_op_LessThan_m6FA6C58BF00E6931BA2AB10E17D4615B93E9AE6A (float ___lhs0, float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static bool4x3 operator < (float lhs, float4x3 rhs) { return new bool4x3 (lhs < rhs.c0, lhs < rhs.c1, lhs < rhs.c2); }
 		float L_0 = ___lhs0;
 		float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC L_1 = ___rhs1;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2 = L_1.___c0_0;
@@ -16368,7 +15457,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool4x3_t1373A1AFFA890B9F3DB734F9505B56E08D42
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool4x3_t1373A1AFFA890B9F3DB734F9505B56E08D425D34 float4x3_op_LessThanOrEqual_m1DE53373E307DEECBE1EDB8176BE0E433DDB9723 (float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC ___lhs0, float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static bool4x3 operator <= (float4x3 lhs, float4x3 rhs) { return new bool4x3 (lhs.c0 <= rhs.c0, lhs.c1 <= rhs.c1, lhs.c2 <= rhs.c2); }
 		float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC L_0 = ___lhs0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1 = L_0.___c0_0;
 		float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC L_2 = ___rhs1;
@@ -16397,7 +15485,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool4x3_t1373A1AFFA890B9F3DB734F9505B56E08D42
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool4x3_t1373A1AFFA890B9F3DB734F9505B56E08D425D34 float4x3_op_LessThanOrEqual_m7E213952BEC9F845FB44E65AEC9481FF11D5DDA6 (float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC ___lhs0, float ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static bool4x3 operator <= (float4x3 lhs, float rhs) { return new bool4x3 (lhs.c0 <= rhs, lhs.c1 <= rhs, lhs.c2 <= rhs); }
 		float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC L_0 = ___lhs0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1 = L_0.___c0_0;
 		float L_2 = ___rhs1;
@@ -16423,7 +15510,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool4x3_t1373A1AFFA890B9F3DB734F9505B56E08D42
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool4x3_t1373A1AFFA890B9F3DB734F9505B56E08D425D34 float4x3_op_LessThanOrEqual_mCA9D5941C17ABDE7878C5B00C792531D6D154E57 (float ___lhs0, float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static bool4x3 operator <= (float lhs, float4x3 rhs) { return new bool4x3 (lhs <= rhs.c0, lhs <= rhs.c1, lhs <= rhs.c2); }
 		float L_0 = ___lhs0;
 		float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC L_1 = ___rhs1;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2 = L_1.___c0_0;
@@ -16449,7 +15535,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool4x3_t1373A1AFFA890B9F3DB734F9505B56E08D42
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool4x3_t1373A1AFFA890B9F3DB734F9505B56E08D425D34 float4x3_op_GreaterThan_m8475DADB84E1C4F618E019C770B544DE3B5E7C02 (float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC ___lhs0, float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static bool4x3 operator > (float4x3 lhs, float4x3 rhs) { return new bool4x3 (lhs.c0 > rhs.c0, lhs.c1 > rhs.c1, lhs.c2 > rhs.c2); }
 		float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC L_0 = ___lhs0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1 = L_0.___c0_0;
 		float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC L_2 = ___rhs1;
@@ -16478,7 +15563,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool4x3_t1373A1AFFA890B9F3DB734F9505B56E08D42
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool4x3_t1373A1AFFA890B9F3DB734F9505B56E08D425D34 float4x3_op_GreaterThan_m3BE1E43D1F8BB636B850BE4719C098DDA7266F3F (float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC ___lhs0, float ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static bool4x3 operator > (float4x3 lhs, float rhs) { return new bool4x3 (lhs.c0 > rhs, lhs.c1 > rhs, lhs.c2 > rhs); }
 		float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC L_0 = ___lhs0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1 = L_0.___c0_0;
 		float L_2 = ___rhs1;
@@ -16504,7 +15588,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool4x3_t1373A1AFFA890B9F3DB734F9505B56E08D42
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool4x3_t1373A1AFFA890B9F3DB734F9505B56E08D425D34 float4x3_op_GreaterThan_m9E51FAA4C36B31A278CE94DF39D3D8530E2BB5CF (float ___lhs0, float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static bool4x3 operator > (float lhs, float4x3 rhs) { return new bool4x3 (lhs > rhs.c0, lhs > rhs.c1, lhs > rhs.c2); }
 		float L_0 = ___lhs0;
 		float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC L_1 = ___rhs1;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2 = L_1.___c0_0;
@@ -16530,7 +15613,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool4x3_t1373A1AFFA890B9F3DB734F9505B56E08D42
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool4x3_t1373A1AFFA890B9F3DB734F9505B56E08D425D34 float4x3_op_GreaterThanOrEqual_m246B7161F07C4C7C2C65E5B608031261D5774F38 (float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC ___lhs0, float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static bool4x3 operator >= (float4x3 lhs, float4x3 rhs) { return new bool4x3 (lhs.c0 >= rhs.c0, lhs.c1 >= rhs.c1, lhs.c2 >= rhs.c2); }
 		float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC L_0 = ___lhs0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1 = L_0.___c0_0;
 		float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC L_2 = ___rhs1;
@@ -16559,7 +15641,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool4x3_t1373A1AFFA890B9F3DB734F9505B56E08D42
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool4x3_t1373A1AFFA890B9F3DB734F9505B56E08D425D34 float4x3_op_GreaterThanOrEqual_mFB0B845A0059C3BA8532358042F12CE429AB9CFC (float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC ___lhs0, float ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static bool4x3 operator >= (float4x3 lhs, float rhs) { return new bool4x3 (lhs.c0 >= rhs, lhs.c1 >= rhs, lhs.c2 >= rhs); }
 		float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC L_0 = ___lhs0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1 = L_0.___c0_0;
 		float L_2 = ___rhs1;
@@ -16585,7 +15666,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool4x3_t1373A1AFFA890B9F3DB734F9505B56E08D42
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool4x3_t1373A1AFFA890B9F3DB734F9505B56E08D425D34 float4x3_op_GreaterThanOrEqual_m910F3B784AF1621BB4CC0013A103D8AA796DA920 (float ___lhs0, float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static bool4x3 operator >= (float lhs, float4x3 rhs) { return new bool4x3 (lhs >= rhs.c0, lhs >= rhs.c1, lhs >= rhs.c2); }
 		float L_0 = ___lhs0;
 		float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC L_1 = ___rhs1;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2 = L_1.___c0_0;
@@ -16611,7 +15691,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool4x3_t1373A1AFFA890B9F3DB734F9505B56E08D42
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC float4x3_op_UnaryNegation_mFC42D1E945BADBC5429A23E4DB1ACACDC2DE1272 (float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC ___val0, const RuntimeMethod* method) 
 {
 	{
-		// public static float4x3 operator - (float4x3 val) { return new float4x3 (-val.c0, -val.c1, -val.c2); }
 		float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC L_0 = ___val0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1 = L_0.___c0_0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2;
@@ -16634,7 +15713,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x3_t06008E654CCB12CD786C3E335A1E4C89A8A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC float4x3_op_UnaryPlus_mD844E71394EF79042FF5AD5854AC4BD87D654226 (float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC ___val0, const RuntimeMethod* method) 
 {
 	{
-		// public static float4x3 operator + (float4x3 val) { return new float4x3 (+val.c0, +val.c1, +val.c2); }
 		float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC L_0 = ___val0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1 = L_0.___c0_0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2;
@@ -16657,7 +15735,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x3_t06008E654CCB12CD786C3E335A1E4C89A8A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool4x3_t1373A1AFFA890B9F3DB734F9505B56E08D425D34 float4x3_op_Equality_m6B85A0E3E71768121D2253AA725CEDE71FE2C6A9 (float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC ___lhs0, float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static bool4x3 operator == (float4x3 lhs, float4x3 rhs) { return new bool4x3 (lhs.c0 == rhs.c0, lhs.c1 == rhs.c1, lhs.c2 == rhs.c2); }
 		float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC L_0 = ___lhs0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1 = L_0.___c0_0;
 		float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC L_2 = ___rhs1;
@@ -16686,7 +15763,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool4x3_t1373A1AFFA890B9F3DB734F9505B56E08D42
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool4x3_t1373A1AFFA890B9F3DB734F9505B56E08D425D34 float4x3_op_Equality_mEB5EEC5270E06F3E176E4EAFF5A27FC583A01E62 (float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC ___lhs0, float ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static bool4x3 operator == (float4x3 lhs, float rhs) { return new bool4x3 (lhs.c0 == rhs, lhs.c1 == rhs, lhs.c2 == rhs); }
 		float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC L_0 = ___lhs0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1 = L_0.___c0_0;
 		float L_2 = ___rhs1;
@@ -16712,7 +15788,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool4x3_t1373A1AFFA890B9F3DB734F9505B56E08D42
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool4x3_t1373A1AFFA890B9F3DB734F9505B56E08D425D34 float4x3_op_Equality_m58932AC314D1A6305D9CAFE86471CE9F62D68CEA (float ___lhs0, float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static bool4x3 operator == (float lhs, float4x3 rhs) { return new bool4x3 (lhs == rhs.c0, lhs == rhs.c1, lhs == rhs.c2); }
 		float L_0 = ___lhs0;
 		float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC L_1 = ___rhs1;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2 = L_1.___c0_0;
@@ -16738,7 +15813,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool4x3_t1373A1AFFA890B9F3DB734F9505B56E08D42
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool4x3_t1373A1AFFA890B9F3DB734F9505B56E08D425D34 float4x3_op_Inequality_mB76FE9AE91015FD6FD6207558B06631C4D339DC0 (float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC ___lhs0, float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static bool4x3 operator != (float4x3 lhs, float4x3 rhs) { return new bool4x3 (lhs.c0 != rhs.c0, lhs.c1 != rhs.c1, lhs.c2 != rhs.c2); }
 		float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC L_0 = ___lhs0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1 = L_0.___c0_0;
 		float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC L_2 = ___rhs1;
@@ -16767,7 +15841,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool4x3_t1373A1AFFA890B9F3DB734F9505B56E08D42
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool4x3_t1373A1AFFA890B9F3DB734F9505B56E08D425D34 float4x3_op_Inequality_m59101AAC6D54258BF61DB8C35AFD00B107E3ACEB (float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC ___lhs0, float ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static bool4x3 operator != (float4x3 lhs, float rhs) { return new bool4x3 (lhs.c0 != rhs, lhs.c1 != rhs, lhs.c2 != rhs); }
 		float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC L_0 = ___lhs0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1 = L_0.___c0_0;
 		float L_2 = ___rhs1;
@@ -16793,7 +15866,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool4x3_t1373A1AFFA890B9F3DB734F9505B56E08D42
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool4x3_t1373A1AFFA890B9F3DB734F9505B56E08D425D34 float4x3_op_Inequality_mE152BD4AE0008881D8DCC6F7EE5D8033F687AC40 (float ___lhs0, float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static bool4x3 operator != (float lhs, float4x3 rhs) { return new bool4x3 (lhs != rhs.c0, lhs != rhs.c1, lhs != rhs.c2); }
 		float L_0 = ___lhs0;
 		float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC L_1 = ___rhs1;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2 = L_1.___c0_0;
@@ -16820,11 +15892,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186545085329585
 {
 	float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC* V_0 = NULL;
 	{
-		// {
 		V_0 = __this;
-		// fixed (float4x3* array = &this) { return ref ((float4*)array)[index]; }
 		float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC* L_0 = V_0;
-		// fixed (float4x3* array = &this) { return ref ((float4*)array)[index]; }
 		int32_t L_1 = ___index0;
 		uint32_t L_2 = sizeof(float4_t89D9A294E7A79BD81BFBDD18654508532958555E);
 		return (float4_t89D9A294E7A79BD81BFBDD18654508532958555E*)(((intptr_t)il2cpp_codegen_add((intptr_t)((uintptr_t)L_0), ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_1), (int32_t)L_2)))));
@@ -16843,7 +15912,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E* float4x3_get_
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool float4x3_Equals_mF062B16FA233106637F345F6817A577921843783 (float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC* __this, float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC ___rhs0, const RuntimeMethod* method) 
 {
 	{
-		// public bool Equals(float4x3 rhs) { return c0.Equals(rhs.c0) && c1.Equals(rhs.c1) && c2.Equals(rhs.c2); }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E* L_0 = (&__this->___c0_0);
 		float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC L_1 = ___rhs0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2 = L_1.___c0_0;
@@ -16900,7 +15968,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool float4x3_Equals_m153216AA634342CAF54BB35
 	float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		// public override bool Equals(object o) { return o is float4x3 converted && Equals(converted); }
 		RuntimeObject* L_0 = ___o0;
 		if (!((RuntimeObject*)IsInstSealed((RuntimeObject*)L_0, float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC_il2cpp_TypeInfo_var)))
 		{
@@ -16934,7 +16001,6 @@ IL2CPP_EXTERN_C  bool float4x3_Equals_m153216AA634342CAF54BB35FE1DBF919D362DB79_
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t float4x3_GetHashCode_m3E80A5380BD9F88528FF4CB271015E4EF081B955 (float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC* __this, const RuntimeMethod* method) 
 {
 	{
-		// public override int GetHashCode() { return (int)math.hash(this); }
 		float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC L_0 = (*(float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC*)__this);
 		uint32_t L_1;
 		L_1 = math_hash_mB7C63570DA99303C0C8D392242E069B2C6FBEE99_inline(L_0, NULL);
@@ -16962,7 +16028,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* float4x3_ToString_m84E41F096179B7DE
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		// return string.Format("float4x3({0}f, {1}f, {2}f,  {3}f, {4}f, {5}f,  {6}f, {7}f, {8}f,  {9}f, {10}f, {11}f)", c0.x, c1.x, c2.x, c0.y, c1.y, c2.y, c0.z, c1.z, c2.z, c0.w, c1.w, c2.w);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_0 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)((int32_t)12));
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_1 = L_0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E* L_2 = (&__this->___c0_0);
@@ -17085,7 +16150,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* float4x3_ToString_m526D15AC412FF932
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		// return string.Format("float4x3({0}f, {1}f, {2}f,  {3}f, {4}f, {5}f,  {6}f, {7}f, {8}f,  {9}f, {10}f, {11}f)", c0.x.ToString(format, formatProvider), c1.x.ToString(format, formatProvider), c2.x.ToString(format, formatProvider), c0.y.ToString(format, formatProvider), c1.y.ToString(format, formatProvider), c2.y.ToString(format, formatProvider), c0.z.ToString(format, formatProvider), c1.z.ToString(format, formatProvider), c2.z.ToString(format, formatProvider), c0.w.ToString(format, formatProvider), c1.w.ToString(format, formatProvider), c2.w.ToString(format, formatProvider));
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_0 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)((int32_t)12));
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_1 = L_0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E* L_2 = (&__this->___c0_0);
@@ -17233,19 +16297,14 @@ IL2CPP_EXTERN_C  String_t* float4x3_ToString_m526D15AC412FF93282E9D009F3D7A9C6F6
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4x4__ctor_mF0B7C823E36025A539E8024123057CAC380E97EF (float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2* __this, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___c00, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___c11, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___c22, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___c33, const RuntimeMethod* method) 
 {
 	{
-		// this.c0 = c0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = ___c00;
 		__this->___c0_0 = L_0;
-		// this.c1 = c1;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1 = ___c11;
 		__this->___c1_1 = L_1;
-		// this.c2 = c2;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2 = ___c22;
 		__this->___c2_2 = L_2;
-		// this.c3 = c3;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_3 = ___c33;
 		__this->___c3_3 = L_3;
-		// }
 		return;
 	}
 }
@@ -17260,7 +16319,6 @@ IL2CPP_EXTERN_C  void float4x4__ctor_mF0B7C823E36025A539E8024123057CAC380E97EF_A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4x4__ctor_m89D3EDF09863C02553147CDA696E48B8D2622AC5 (float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2* __this, float ___m000, float ___m011, float ___m022, float ___m033, float ___m104, float ___m115, float ___m126, float ___m137, float ___m208, float ___m219, float ___m2210, float ___m2311, float ___m3012, float ___m3113, float ___m3214, float ___m3315, const RuntimeMethod* method) 
 {
 	{
-		// this.c0 = new float4(m00, m10, m20, m30);
 		float L_0 = ___m000;
 		float L_1 = ___m104;
 		float L_2 = ___m208;
@@ -17269,7 +16327,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4x4__ctor_m89D3EDF09863C02553147CDA
 		memset((&L_4), 0, sizeof(L_4));
 		float4__ctor_mB2F7F2D8BCE8159BEF5A0D6400499E211858ED2D_inline((&L_4), L_0, L_1, L_2, L_3, /*hidden argument*/NULL);
 		__this->___c0_0 = L_4;
-		// this.c1 = new float4(m01, m11, m21, m31);
 		float L_5 = ___m011;
 		float L_6 = ___m115;
 		float L_7 = ___m219;
@@ -17278,7 +16335,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4x4__ctor_m89D3EDF09863C02553147CDA
 		memset((&L_9), 0, sizeof(L_9));
 		float4__ctor_mB2F7F2D8BCE8159BEF5A0D6400499E211858ED2D_inline((&L_9), L_5, L_6, L_7, L_8, /*hidden argument*/NULL);
 		__this->___c1_1 = L_9;
-		// this.c2 = new float4(m02, m12, m22, m32);
 		float L_10 = ___m022;
 		float L_11 = ___m126;
 		float L_12 = ___m2210;
@@ -17287,7 +16343,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4x4__ctor_m89D3EDF09863C02553147CDA
 		memset((&L_14), 0, sizeof(L_14));
 		float4__ctor_mB2F7F2D8BCE8159BEF5A0D6400499E211858ED2D_inline((&L_14), L_10, L_11, L_12, L_13, /*hidden argument*/NULL);
 		__this->___c2_2 = L_14;
-		// this.c3 = new float4(m03, m13, m23, m33);
 		float L_15 = ___m033;
 		float L_16 = ___m137;
 		float L_17 = ___m2311;
@@ -17296,7 +16351,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4x4__ctor_m89D3EDF09863C02553147CDA
 		memset((&L_19), 0, sizeof(L_19));
 		float4__ctor_mB2F7F2D8BCE8159BEF5A0D6400499E211858ED2D_inline((&L_19), L_15, L_16, L_17, L_18, /*hidden argument*/NULL);
 		__this->___c3_3 = L_19;
-		// }
 		return;
 	}
 }
@@ -17311,27 +16365,22 @@ IL2CPP_EXTERN_C  void float4x4__ctor_m89D3EDF09863C02553147CDA696E48B8D2622AC5_A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4x4__ctor_mD500047CD55182AAD4AB2DF610272351C2901339 (float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2* __this, float ___v0, const RuntimeMethod* method) 
 {
 	{
-		// this.c0 = v;
 		float L_0 = ___v0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1;
 		L_1 = float4_op_Implicit_m3DF77A1795E1232FCE3A62302FF23601F8C042DD_inline(L_0, NULL);
 		__this->___c0_0 = L_1;
-		// this.c1 = v;
 		float L_2 = ___v0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_3;
 		L_3 = float4_op_Implicit_m3DF77A1795E1232FCE3A62302FF23601F8C042DD_inline(L_2, NULL);
 		__this->___c1_1 = L_3;
-		// this.c2 = v;
 		float L_4 = ___v0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_5;
 		L_5 = float4_op_Implicit_m3DF77A1795E1232FCE3A62302FF23601F8C042DD_inline(L_4, NULL);
 		__this->___c2_2 = L_5;
-		// this.c3 = v;
 		float L_6 = ___v0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_7;
 		L_7 = float4_op_Implicit_m3DF77A1795E1232FCE3A62302FF23601F8C042DD_inline(L_6, NULL);
 		__this->___c3_3 = L_7;
-		// }
 		return;
 	}
 }
@@ -17346,7 +16395,6 @@ IL2CPP_EXTERN_C  void float4x4__ctor_mD500047CD55182AAD4AB2DF610272351C2901339_A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4x4__ctor_m9E9D2988F1ED946CA645C5E252B196F10E0796D4 (float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2* __this, bool ___v0, const RuntimeMethod* method) 
 {
 	{
-		// this.c0 = math.select(new float4(0.0f), new float4(1.0f), v);
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0;
 		memset((&L_0), 0, sizeof(L_0));
 		float4__ctor_m103F8D391212FB2B0F01D09F7E9CCE4BDF0C7839_inline((&L_0), (0.0f), /*hidden argument*/NULL);
@@ -17357,7 +16405,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4x4__ctor_m9E9D2988F1ED946CA645C5E2
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_3;
 		L_3 = math_select_m7B43FDAE30A8A4D7AD42684DF8C090FC697AF346_inline(L_0, L_1, L_2, NULL);
 		__this->___c0_0 = L_3;
-		// this.c1 = math.select(new float4(0.0f), new float4(1.0f), v);
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_4;
 		memset((&L_4), 0, sizeof(L_4));
 		float4__ctor_m103F8D391212FB2B0F01D09F7E9CCE4BDF0C7839_inline((&L_4), (0.0f), /*hidden argument*/NULL);
@@ -17368,7 +16415,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4x4__ctor_m9E9D2988F1ED946CA645C5E2
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_7;
 		L_7 = math_select_m7B43FDAE30A8A4D7AD42684DF8C090FC697AF346_inline(L_4, L_5, L_6, NULL);
 		__this->___c1_1 = L_7;
-		// this.c2 = math.select(new float4(0.0f), new float4(1.0f), v);
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_8;
 		memset((&L_8), 0, sizeof(L_8));
 		float4__ctor_m103F8D391212FB2B0F01D09F7E9CCE4BDF0C7839_inline((&L_8), (0.0f), /*hidden argument*/NULL);
@@ -17379,7 +16425,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4x4__ctor_m9E9D2988F1ED946CA645C5E2
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_11;
 		L_11 = math_select_m7B43FDAE30A8A4D7AD42684DF8C090FC697AF346_inline(L_8, L_9, L_10, NULL);
 		__this->___c2_2 = L_11;
-		// this.c3 = math.select(new float4(0.0f), new float4(1.0f), v);
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_12;
 		memset((&L_12), 0, sizeof(L_12));
 		float4__ctor_m103F8D391212FB2B0F01D09F7E9CCE4BDF0C7839_inline((&L_12), (0.0f), /*hidden argument*/NULL);
@@ -17390,7 +16435,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4x4__ctor_m9E9D2988F1ED946CA645C5E2
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_15;
 		L_15 = math_select_m7B43FDAE30A8A4D7AD42684DF8C090FC697AF346_inline(L_12, L_13, L_14, NULL);
 		__this->___c3_3 = L_15;
-		// }
 		return;
 	}
 }
@@ -17405,7 +16449,6 @@ IL2CPP_EXTERN_C  void float4x4__ctor_m9E9D2988F1ED946CA645C5E252B196F10E0796D4_A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4x4__ctor_m3770F7D03675A49226CC603056842F8FB2BF453F (float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2* __this, bool4x4_t4D8C1B679F35EA8DA2C8F8E4D536596582BAD936 ___v0, const RuntimeMethod* method) 
 {
 	{
-		// this.c0 = math.select(new float4(0.0f), new float4(1.0f), v.c0);
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0;
 		memset((&L_0), 0, sizeof(L_0));
 		float4__ctor_m103F8D391212FB2B0F01D09F7E9CCE4BDF0C7839_inline((&L_0), (0.0f), /*hidden argument*/NULL);
@@ -17417,7 +16460,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4x4__ctor_m3770F7D03675A49226CC6030
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_4;
 		L_4 = math_select_m8A60689AC883C0130FC2F32E7D1096199D2AD31E_inline(L_0, L_1, L_3, NULL);
 		__this->___c0_0 = L_4;
-		// this.c1 = math.select(new float4(0.0f), new float4(1.0f), v.c1);
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_5;
 		memset((&L_5), 0, sizeof(L_5));
 		float4__ctor_m103F8D391212FB2B0F01D09F7E9CCE4BDF0C7839_inline((&L_5), (0.0f), /*hidden argument*/NULL);
@@ -17429,7 +16471,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4x4__ctor_m3770F7D03675A49226CC6030
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_9;
 		L_9 = math_select_m8A60689AC883C0130FC2F32E7D1096199D2AD31E_inline(L_5, L_6, L_8, NULL);
 		__this->___c1_1 = L_9;
-		// this.c2 = math.select(new float4(0.0f), new float4(1.0f), v.c2);
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_10;
 		memset((&L_10), 0, sizeof(L_10));
 		float4__ctor_m103F8D391212FB2B0F01D09F7E9CCE4BDF0C7839_inline((&L_10), (0.0f), /*hidden argument*/NULL);
@@ -17441,7 +16482,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4x4__ctor_m3770F7D03675A49226CC6030
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_14;
 		L_14 = math_select_m8A60689AC883C0130FC2F32E7D1096199D2AD31E_inline(L_10, L_11, L_13, NULL);
 		__this->___c2_2 = L_14;
-		// this.c3 = math.select(new float4(0.0f), new float4(1.0f), v.c3);
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_15;
 		memset((&L_15), 0, sizeof(L_15));
 		float4__ctor_m103F8D391212FB2B0F01D09F7E9CCE4BDF0C7839_inline((&L_15), (0.0f), /*hidden argument*/NULL);
@@ -17453,7 +16493,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4x4__ctor_m3770F7D03675A49226CC6030
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_19;
 		L_19 = math_select_m8A60689AC883C0130FC2F32E7D1096199D2AD31E_inline(L_15, L_16, L_18, NULL);
 		__this->___c3_3 = L_19;
-		// }
 		return;
 	}
 }
@@ -17468,27 +16507,22 @@ IL2CPP_EXTERN_C  void float4x4__ctor_m3770F7D03675A49226CC603056842F8FB2BF453F_A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4x4__ctor_m92CCDB79FF73D09ECD9F609D321DF2F8C0A6CBC8 (float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2* __this, int32_t ___v0, const RuntimeMethod* method) 
 {
 	{
-		// this.c0 = v;
 		int32_t L_0 = ___v0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1;
 		L_1 = float4_op_Implicit_mB41AE98F26EA1F866D8DFEB7FD76E2CA217D52B6_inline(L_0, NULL);
 		__this->___c0_0 = L_1;
-		// this.c1 = v;
 		int32_t L_2 = ___v0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_3;
 		L_3 = float4_op_Implicit_mB41AE98F26EA1F866D8DFEB7FD76E2CA217D52B6_inline(L_2, NULL);
 		__this->___c1_1 = L_3;
-		// this.c2 = v;
 		int32_t L_4 = ___v0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_5;
 		L_5 = float4_op_Implicit_mB41AE98F26EA1F866D8DFEB7FD76E2CA217D52B6_inline(L_4, NULL);
 		__this->___c2_2 = L_5;
-		// this.c3 = v;
 		int32_t L_6 = ___v0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_7;
 		L_7 = float4_op_Implicit_mB41AE98F26EA1F866D8DFEB7FD76E2CA217D52B6_inline(L_6, NULL);
 		__this->___c3_3 = L_7;
-		// }
 		return;
 	}
 }
@@ -17503,31 +16537,26 @@ IL2CPP_EXTERN_C  void float4x4__ctor_m92CCDB79FF73D09ECD9F609D321DF2F8C0A6CBC8_A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4x4__ctor_mF9FA9C979256B2E53918BBAE3031832D2A19DC8D (float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2* __this, int4x4_tEF359B46039347312A6AC932AD04CA9CE675AB30 ___v0, const RuntimeMethod* method) 
 {
 	{
-		// this.c0 = v.c0;
 		int4x4_tEF359B46039347312A6AC932AD04CA9CE675AB30 L_0 = ___v0;
 		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_1 = L_0.___c0_0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2;
 		L_2 = float4_op_Implicit_mA889A779BA63B2654EEEF1F5CE2407DAA0E33142_inline(L_1, NULL);
 		__this->___c0_0 = L_2;
-		// this.c1 = v.c1;
 		int4x4_tEF359B46039347312A6AC932AD04CA9CE675AB30 L_3 = ___v0;
 		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_4 = L_3.___c1_1;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_5;
 		L_5 = float4_op_Implicit_mA889A779BA63B2654EEEF1F5CE2407DAA0E33142_inline(L_4, NULL);
 		__this->___c1_1 = L_5;
-		// this.c2 = v.c2;
 		int4x4_tEF359B46039347312A6AC932AD04CA9CE675AB30 L_6 = ___v0;
 		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_7 = L_6.___c2_2;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_8;
 		L_8 = float4_op_Implicit_mA889A779BA63B2654EEEF1F5CE2407DAA0E33142_inline(L_7, NULL);
 		__this->___c2_2 = L_8;
-		// this.c3 = v.c3;
 		int4x4_tEF359B46039347312A6AC932AD04CA9CE675AB30 L_9 = ___v0;
 		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_10 = L_9.___c3_3;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_11;
 		L_11 = float4_op_Implicit_mA889A779BA63B2654EEEF1F5CE2407DAA0E33142_inline(L_10, NULL);
 		__this->___c3_3 = L_11;
-		// }
 		return;
 	}
 }
@@ -17542,27 +16571,22 @@ IL2CPP_EXTERN_C  void float4x4__ctor_mF9FA9C979256B2E53918BBAE3031832D2A19DC8D_A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4x4__ctor_mD15AC6ABC07B61D1CDE6D6AFB2363D45548C2938 (float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2* __this, uint32_t ___v0, const RuntimeMethod* method) 
 {
 	{
-		// this.c0 = v;
 		uint32_t L_0 = ___v0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1;
 		L_1 = float4_op_Implicit_mED209EFA9280A609F964FE9EEB8B85C91505456D_inline(L_0, NULL);
 		__this->___c0_0 = L_1;
-		// this.c1 = v;
 		uint32_t L_2 = ___v0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_3;
 		L_3 = float4_op_Implicit_mED209EFA9280A609F964FE9EEB8B85C91505456D_inline(L_2, NULL);
 		__this->___c1_1 = L_3;
-		// this.c2 = v;
 		uint32_t L_4 = ___v0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_5;
 		L_5 = float4_op_Implicit_mED209EFA9280A609F964FE9EEB8B85C91505456D_inline(L_4, NULL);
 		__this->___c2_2 = L_5;
-		// this.c3 = v;
 		uint32_t L_6 = ___v0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_7;
 		L_7 = float4_op_Implicit_mED209EFA9280A609F964FE9EEB8B85C91505456D_inline(L_6, NULL);
 		__this->___c3_3 = L_7;
-		// }
 		return;
 	}
 }
@@ -17577,31 +16601,26 @@ IL2CPP_EXTERN_C  void float4x4__ctor_mD15AC6ABC07B61D1CDE6D6AFB2363D45548C2938_A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4x4__ctor_mE96CAB2F1AFF3AE5A258F167A7EE9EE561E6900A (float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2* __this, uint4x4_tB8C643F0E9FDEFEA2B05271B6917682F6BEE584A ___v0, const RuntimeMethod* method) 
 {
 	{
-		// this.c0 = v.c0;
 		uint4x4_tB8C643F0E9FDEFEA2B05271B6917682F6BEE584A L_0 = ___v0;
 		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_1 = L_0.___c0_0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2;
 		L_2 = float4_op_Implicit_m82EA1881742FD480C2CE2386DF3D25C34502100B_inline(L_1, NULL);
 		__this->___c0_0 = L_2;
-		// this.c1 = v.c1;
 		uint4x4_tB8C643F0E9FDEFEA2B05271B6917682F6BEE584A L_3 = ___v0;
 		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_4 = L_3.___c1_1;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_5;
 		L_5 = float4_op_Implicit_m82EA1881742FD480C2CE2386DF3D25C34502100B_inline(L_4, NULL);
 		__this->___c1_1 = L_5;
-		// this.c2 = v.c2;
 		uint4x4_tB8C643F0E9FDEFEA2B05271B6917682F6BEE584A L_6 = ___v0;
 		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_7 = L_6.___c2_2;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_8;
 		L_8 = float4_op_Implicit_m82EA1881742FD480C2CE2386DF3D25C34502100B_inline(L_7, NULL);
 		__this->___c2_2 = L_8;
-		// this.c3 = v.c3;
 		uint4x4_tB8C643F0E9FDEFEA2B05271B6917682F6BEE584A L_9 = ___v0;
 		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_10 = L_9.___c3_3;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_11;
 		L_11 = float4_op_Implicit_m82EA1881742FD480C2CE2386DF3D25C34502100B_inline(L_10, NULL);
 		__this->___c3_3 = L_11;
-		// }
 		return;
 	}
 }
@@ -17616,27 +16635,22 @@ IL2CPP_EXTERN_C  void float4x4__ctor_mE96CAB2F1AFF3AE5A258F167A7EE9EE561E6900A_A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4x4__ctor_m9A58CFC3AF7C8553DE3552491221AE8B98FA49C8 (float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2* __this, double ___v0, const RuntimeMethod* method) 
 {
 	{
-		// this.c0 = (float4)v;
 		double L_0 = ___v0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1;
 		L_1 = float4_op_Explicit_mE1B66196EF40555EA57BAF264CEC0A4CE271DF7E_inline(L_0, NULL);
 		__this->___c0_0 = L_1;
-		// this.c1 = (float4)v;
 		double L_2 = ___v0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_3;
 		L_3 = float4_op_Explicit_mE1B66196EF40555EA57BAF264CEC0A4CE271DF7E_inline(L_2, NULL);
 		__this->___c1_1 = L_3;
-		// this.c2 = (float4)v;
 		double L_4 = ___v0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_5;
 		L_5 = float4_op_Explicit_mE1B66196EF40555EA57BAF264CEC0A4CE271DF7E_inline(L_4, NULL);
 		__this->___c2_2 = L_5;
-		// this.c3 = (float4)v;
 		double L_6 = ___v0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_7;
 		L_7 = float4_op_Explicit_mE1B66196EF40555EA57BAF264CEC0A4CE271DF7E_inline(L_6, NULL);
 		__this->___c3_3 = L_7;
-		// }
 		return;
 	}
 }
@@ -17651,31 +16665,26 @@ IL2CPP_EXTERN_C  void float4x4__ctor_m9A58CFC3AF7C8553DE3552491221AE8B98FA49C8_A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4x4__ctor_mB3FF9132C04D88B528096F7DE118AD442ABA4BBB (float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2* __this, double4x4_tB452F9489714C6B8D74D46CA2CF1F0CA8F185D3C ___v0, const RuntimeMethod* method) 
 {
 	{
-		// this.c0 = (float4)v.c0;
 		double4x4_tB452F9489714C6B8D74D46CA2CF1F0CA8F185D3C L_0 = ___v0;
 		double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 L_1 = L_0.___c0_0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2;
 		L_2 = float4_op_Explicit_mBD6BF71CF079224435AFBF2408554A53AD557950_inline(L_1, NULL);
 		__this->___c0_0 = L_2;
-		// this.c1 = (float4)v.c1;
 		double4x4_tB452F9489714C6B8D74D46CA2CF1F0CA8F185D3C L_3 = ___v0;
 		double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 L_4 = L_3.___c1_1;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_5;
 		L_5 = float4_op_Explicit_mBD6BF71CF079224435AFBF2408554A53AD557950_inline(L_4, NULL);
 		__this->___c1_1 = L_5;
-		// this.c2 = (float4)v.c2;
 		double4x4_tB452F9489714C6B8D74D46CA2CF1F0CA8F185D3C L_6 = ___v0;
 		double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 L_7 = L_6.___c2_2;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_8;
 		L_8 = float4_op_Explicit_mBD6BF71CF079224435AFBF2408554A53AD557950_inline(L_7, NULL);
 		__this->___c2_2 = L_8;
-		// this.c3 = (float4)v.c3;
 		double4x4_tB452F9489714C6B8D74D46CA2CF1F0CA8F185D3C L_9 = ___v0;
 		double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 L_10 = L_9.___c3_3;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_11;
 		L_11 = float4_op_Explicit_mBD6BF71CF079224435AFBF2408554A53AD557950_inline(L_10, NULL);
 		__this->___c3_3 = L_11;
-		// }
 		return;
 	}
 }
@@ -17690,7 +16699,6 @@ IL2CPP_EXTERN_C  void float4x4__ctor_mB3FF9132C04D88B528096F7DE118AD442ABA4BBB_A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 float4x4_op_Implicit_m1B9EA7B7E25C4A490318FC02B5A012B8B9BB6E5E (float ___v0, const RuntimeMethod* method) 
 {
 	{
-		// public static implicit operator float4x4(float v) { return new float4x4(v); }
 		float L_0 = ___v0;
 		float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 L_1;
 		memset((&L_1), 0, sizeof(L_1));
@@ -17702,7 +16710,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB979
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 float4x4_op_Explicit_m2B738CCE47C51158534592C364133F4403D8446E (bool ___v0, const RuntimeMethod* method) 
 {
 	{
-		// public static explicit operator float4x4(bool v) { return new float4x4(v); }
 		bool L_0 = ___v0;
 		float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 L_1;
 		memset((&L_1), 0, sizeof(L_1));
@@ -17714,7 +16721,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB979
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 float4x4_op_Explicit_m925EFF54AC6D6887FBAADFF530478C35FE854BE3 (bool4x4_t4D8C1B679F35EA8DA2C8F8E4D536596582BAD936 ___v0, const RuntimeMethod* method) 
 {
 	{
-		// public static explicit operator float4x4(bool4x4 v) { return new float4x4(v); }
 		bool4x4_t4D8C1B679F35EA8DA2C8F8E4D536596582BAD936 L_0 = ___v0;
 		float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 L_1;
 		memset((&L_1), 0, sizeof(L_1));
@@ -17726,7 +16732,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB979
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 float4x4_op_Implicit_mED589A55AAB1E62D06CE9028B00D9BC0F72E3AD5 (int32_t ___v0, const RuntimeMethod* method) 
 {
 	{
-		// public static implicit operator float4x4(int v) { return new float4x4(v); }
 		int32_t L_0 = ___v0;
 		float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 L_1;
 		memset((&L_1), 0, sizeof(L_1));
@@ -17738,7 +16743,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB979
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 float4x4_op_Implicit_m95398E57C4887EE83DC727D4725BB72AA18FDACF (int4x4_tEF359B46039347312A6AC932AD04CA9CE675AB30 ___v0, const RuntimeMethod* method) 
 {
 	{
-		// public static implicit operator float4x4(int4x4 v) { return new float4x4(v); }
 		int4x4_tEF359B46039347312A6AC932AD04CA9CE675AB30 L_0 = ___v0;
 		float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 L_1;
 		memset((&L_1), 0, sizeof(L_1));
@@ -17750,7 +16754,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB979
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 float4x4_op_Implicit_m1F55206F23EAAEAF1C5CE453DF088871B5EE8F65 (uint32_t ___v0, const RuntimeMethod* method) 
 {
 	{
-		// public static implicit operator float4x4(uint v) { return new float4x4(v); }
 		uint32_t L_0 = ___v0;
 		float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 L_1;
 		memset((&L_1), 0, sizeof(L_1));
@@ -17762,7 +16765,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB979
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 float4x4_op_Implicit_mE41CDBE191EE0A887B67485CF088099B51F012C3 (uint4x4_tB8C643F0E9FDEFEA2B05271B6917682F6BEE584A ___v0, const RuntimeMethod* method) 
 {
 	{
-		// public static implicit operator float4x4(uint4x4 v) { return new float4x4(v); }
 		uint4x4_tB8C643F0E9FDEFEA2B05271B6917682F6BEE584A L_0 = ___v0;
 		float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 L_1;
 		memset((&L_1), 0, sizeof(L_1));
@@ -17774,7 +16776,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB979
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 float4x4_op_Explicit_mC3E5B0439B91E3A9D7F528665ACD0276695526F0 (double ___v0, const RuntimeMethod* method) 
 {
 	{
-		// public static explicit operator float4x4(double v) { return new float4x4(v); }
 		double L_0 = ___v0;
 		float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 L_1;
 		memset((&L_1), 0, sizeof(L_1));
@@ -17786,7 +16787,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB979
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 float4x4_op_Explicit_m727350491FAC6FAFC2681AF2AA6FA54BA4DC7EC3 (double4x4_tB452F9489714C6B8D74D46CA2CF1F0CA8F185D3C ___v0, const RuntimeMethod* method) 
 {
 	{
-		// public static explicit operator float4x4(double4x4 v) { return new float4x4(v); }
 		double4x4_tB452F9489714C6B8D74D46CA2CF1F0CA8F185D3C L_0 = ___v0;
 		float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 L_1;
 		memset((&L_1), 0, sizeof(L_1));
@@ -17798,7 +16798,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB979
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 float4x4_op_Multiply_m61CDD703975B407B8A9C1340F8F5F3E156CECA86 (float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 ___lhs0, float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static float4x4 operator * (float4x4 lhs, float4x4 rhs) { return new float4x4 (lhs.c0 * rhs.c0, lhs.c1 * rhs.c1, lhs.c2 * rhs.c2, lhs.c3 * rhs.c3); }
 		float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 L_0 = ___lhs0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1 = L_0.___c0_0;
 		float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 L_2 = ___rhs1;
@@ -17833,7 +16832,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB979
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 float4x4_op_Multiply_m2E31F72D3526E933F04BD97FFDDC6F99D844A66C (float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 ___lhs0, float ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static float4x4 operator * (float4x4 lhs, float rhs) { return new float4x4 (lhs.c0 * rhs, lhs.c1 * rhs, lhs.c2 * rhs, lhs.c3 * rhs); }
 		float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 L_0 = ___lhs0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1 = L_0.___c0_0;
 		float L_2 = ___rhs1;
@@ -17864,7 +16862,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB979
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 float4x4_op_Multiply_m25666091402C376992C09976043525AEB5D722FA (float ___lhs0, float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static float4x4 operator * (float lhs, float4x4 rhs) { return new float4x4 (lhs * rhs.c0, lhs * rhs.c1, lhs * rhs.c2, lhs * rhs.c3); }
 		float L_0 = ___lhs0;
 		float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 L_1 = ___rhs1;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2 = L_1.___c0_0;
@@ -17895,7 +16892,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB979
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 float4x4_op_Addition_mC7545245C293E1210388843746A786BBCF56CD7F (float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 ___lhs0, float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static float4x4 operator + (float4x4 lhs, float4x4 rhs) { return new float4x4 (lhs.c0 + rhs.c0, lhs.c1 + rhs.c1, lhs.c2 + rhs.c2, lhs.c3 + rhs.c3); }
 		float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 L_0 = ___lhs0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1 = L_0.___c0_0;
 		float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 L_2 = ___rhs1;
@@ -17930,7 +16926,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB979
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 float4x4_op_Addition_mAAC3BAF96D2C434E611CF9ADF7CEBF0BB0586B6D (float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 ___lhs0, float ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static float4x4 operator + (float4x4 lhs, float rhs) { return new float4x4 (lhs.c0 + rhs, lhs.c1 + rhs, lhs.c2 + rhs, lhs.c3 + rhs); }
 		float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 L_0 = ___lhs0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1 = L_0.___c0_0;
 		float L_2 = ___rhs1;
@@ -17961,7 +16956,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB979
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 float4x4_op_Addition_m7046E850CFA0BC604B8295557679C73E37556F2C (float ___lhs0, float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static float4x4 operator + (float lhs, float4x4 rhs) { return new float4x4 (lhs + rhs.c0, lhs + rhs.c1, lhs + rhs.c2, lhs + rhs.c3); }
 		float L_0 = ___lhs0;
 		float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 L_1 = ___rhs1;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2 = L_1.___c0_0;
@@ -17992,7 +16986,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB979
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 float4x4_op_Subtraction_m4DEE83C07E58A466E28D640ECB9C5F1E784E3297 (float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 ___lhs0, float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static float4x4 operator - (float4x4 lhs, float4x4 rhs) { return new float4x4 (lhs.c0 - rhs.c0, lhs.c1 - rhs.c1, lhs.c2 - rhs.c2, lhs.c3 - rhs.c3); }
 		float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 L_0 = ___lhs0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1 = L_0.___c0_0;
 		float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 L_2 = ___rhs1;
@@ -18027,7 +17020,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB979
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 float4x4_op_Subtraction_m4BD9C0901F880784FF8F845B1E0CF25F345F1022 (float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 ___lhs0, float ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static float4x4 operator - (float4x4 lhs, float rhs) { return new float4x4 (lhs.c0 - rhs, lhs.c1 - rhs, lhs.c2 - rhs, lhs.c3 - rhs); }
 		float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 L_0 = ___lhs0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1 = L_0.___c0_0;
 		float L_2 = ___rhs1;
@@ -18058,7 +17050,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB979
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 float4x4_op_Subtraction_m300A1CD68BAD416DCF95EA38FD6F4FC1DBB3BC6D (float ___lhs0, float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static float4x4 operator - (float lhs, float4x4 rhs) { return new float4x4 (lhs - rhs.c0, lhs - rhs.c1, lhs - rhs.c2, lhs - rhs.c3); }
 		float L_0 = ___lhs0;
 		float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 L_1 = ___rhs1;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2 = L_1.___c0_0;
@@ -18089,7 +17080,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB979
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 float4x4_op_Division_m903E1327634764D0E0C3E2DB097B8509C93F21DB (float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 ___lhs0, float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static float4x4 operator / (float4x4 lhs, float4x4 rhs) { return new float4x4 (lhs.c0 / rhs.c0, lhs.c1 / rhs.c1, lhs.c2 / rhs.c2, lhs.c3 / rhs.c3); }
 		float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 L_0 = ___lhs0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1 = L_0.___c0_0;
 		float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 L_2 = ___rhs1;
@@ -18124,7 +17114,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB979
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 float4x4_op_Division_m2F2FF50BDEAC576C8A08FCDC2838762DDB48FF37 (float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 ___lhs0, float ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static float4x4 operator / (float4x4 lhs, float rhs) { return new float4x4 (lhs.c0 / rhs, lhs.c1 / rhs, lhs.c2 / rhs, lhs.c3 / rhs); }
 		float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 L_0 = ___lhs0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1 = L_0.___c0_0;
 		float L_2 = ___rhs1;
@@ -18155,7 +17144,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB979
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 float4x4_op_Division_m07A834B85F3EF66E4089B37D0EC366B2DACF6803 (float ___lhs0, float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static float4x4 operator / (float lhs, float4x4 rhs) { return new float4x4 (lhs / rhs.c0, lhs / rhs.c1, lhs / rhs.c2, lhs / rhs.c3); }
 		float L_0 = ___lhs0;
 		float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 L_1 = ___rhs1;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2 = L_1.___c0_0;
@@ -18186,7 +17174,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB979
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 float4x4_op_Modulus_mD4903A97E478D4D166AA6F7557057398EFCDD697 (float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 ___lhs0, float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static float4x4 operator % (float4x4 lhs, float4x4 rhs) { return new float4x4 (lhs.c0 % rhs.c0, lhs.c1 % rhs.c1, lhs.c2 % rhs.c2, lhs.c3 % rhs.c3); }
 		float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 L_0 = ___lhs0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1 = L_0.___c0_0;
 		float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 L_2 = ___rhs1;
@@ -18221,7 +17208,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB979
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 float4x4_op_Modulus_mFDA7BA317D6BD24BB62CCC7EDBE573F63CE120D3 (float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 ___lhs0, float ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static float4x4 operator % (float4x4 lhs, float rhs) { return new float4x4 (lhs.c0 % rhs, lhs.c1 % rhs, lhs.c2 % rhs, lhs.c3 % rhs); }
 		float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 L_0 = ___lhs0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1 = L_0.___c0_0;
 		float L_2 = ___rhs1;
@@ -18252,7 +17238,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB979
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 float4x4_op_Modulus_m5E6416B7AA875FFCFA6098187D0E5760AEDB8431 (float ___lhs0, float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static float4x4 operator % (float lhs, float4x4 rhs) { return new float4x4 (lhs % rhs.c0, lhs % rhs.c1, lhs % rhs.c2, lhs % rhs.c3); }
 		float L_0 = ___lhs0;
 		float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 L_1 = ___rhs1;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2 = L_1.___c0_0;
@@ -18285,7 +17270,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB979
 	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		// public static float4x4 operator ++ (float4x4 val) { return new float4x4 (++val.c0, ++val.c1, ++val.c2, ++val.c3); }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E* L_0 = (&(&___val0)->___c0_0);
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E* L_1 = L_0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2 = (*(float4_t89D9A294E7A79BD81BFBDD18654508532958555E*)L_1);
@@ -18334,7 +17318,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB979
 	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		// public static float4x4 operator -- (float4x4 val) { return new float4x4 (--val.c0, --val.c1, --val.c2, --val.c3); }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E* L_0 = (&(&___val0)->___c0_0);
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E* L_1 = L_0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2 = (*(float4_t89D9A294E7A79BD81BFBDD18654508532958555E*)L_1);
@@ -18381,7 +17364,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB979
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool4x4_t4D8C1B679F35EA8DA2C8F8E4D536596582BAD936 float4x4_op_LessThan_mCAFC2F31D0E7B7E2F3205958FFB938DD230FDAAF (float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 ___lhs0, float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static bool4x4 operator < (float4x4 lhs, float4x4 rhs) { return new bool4x4 (lhs.c0 < rhs.c0, lhs.c1 < rhs.c1, lhs.c2 < rhs.c2, lhs.c3 < rhs.c3); }
 		float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 L_0 = ___lhs0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1 = L_0.___c0_0;
 		float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 L_2 = ___rhs1;
@@ -18416,7 +17398,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool4x4_t4D8C1B679F35EA8DA2C8F8E4D536596582BA
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool4x4_t4D8C1B679F35EA8DA2C8F8E4D536596582BAD936 float4x4_op_LessThan_mC64F44B209E896D14AA81853BE21A22CF8BC578C (float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 ___lhs0, float ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static bool4x4 operator < (float4x4 lhs, float rhs) { return new bool4x4 (lhs.c0 < rhs, lhs.c1 < rhs, lhs.c2 < rhs, lhs.c3 < rhs); }
 		float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 L_0 = ___lhs0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1 = L_0.___c0_0;
 		float L_2 = ___rhs1;
@@ -18447,7 +17428,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool4x4_t4D8C1B679F35EA8DA2C8F8E4D536596582BA
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool4x4_t4D8C1B679F35EA8DA2C8F8E4D536596582BAD936 float4x4_op_LessThan_m166791D957201A335E4D565172D11790E4637B65 (float ___lhs0, float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static bool4x4 operator < (float lhs, float4x4 rhs) { return new bool4x4 (lhs < rhs.c0, lhs < rhs.c1, lhs < rhs.c2, lhs < rhs.c3); }
 		float L_0 = ___lhs0;
 		float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 L_1 = ___rhs1;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2 = L_1.___c0_0;
@@ -18478,7 +17458,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool4x4_t4D8C1B679F35EA8DA2C8F8E4D536596582BA
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool4x4_t4D8C1B679F35EA8DA2C8F8E4D536596582BAD936 float4x4_op_LessThanOrEqual_m7DEF85ECB71910C87C4A95EC01730978D8D5B6FC (float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 ___lhs0, float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static bool4x4 operator <= (float4x4 lhs, float4x4 rhs) { return new bool4x4 (lhs.c0 <= rhs.c0, lhs.c1 <= rhs.c1, lhs.c2 <= rhs.c2, lhs.c3 <= rhs.c3); }
 		float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 L_0 = ___lhs0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1 = L_0.___c0_0;
 		float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 L_2 = ___rhs1;
@@ -18513,7 +17492,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool4x4_t4D8C1B679F35EA8DA2C8F8E4D536596582BA
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool4x4_t4D8C1B679F35EA8DA2C8F8E4D536596582BAD936 float4x4_op_LessThanOrEqual_m6ADAD1CE5FF423CF41D863E71A2DA2413912A26C (float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 ___lhs0, float ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static bool4x4 operator <= (float4x4 lhs, float rhs) { return new bool4x4 (lhs.c0 <= rhs, lhs.c1 <= rhs, lhs.c2 <= rhs, lhs.c3 <= rhs); }
 		float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 L_0 = ___lhs0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1 = L_0.___c0_0;
 		float L_2 = ___rhs1;
@@ -18544,7 +17522,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool4x4_t4D8C1B679F35EA8DA2C8F8E4D536596582BA
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool4x4_t4D8C1B679F35EA8DA2C8F8E4D536596582BAD936 float4x4_op_LessThanOrEqual_m4230C9E498AA7577ACAB1F8A2D827938BA1E3B1C (float ___lhs0, float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static bool4x4 operator <= (float lhs, float4x4 rhs) { return new bool4x4 (lhs <= rhs.c0, lhs <= rhs.c1, lhs <= rhs.c2, lhs <= rhs.c3); }
 		float L_0 = ___lhs0;
 		float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 L_1 = ___rhs1;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2 = L_1.___c0_0;
@@ -18575,7 +17552,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool4x4_t4D8C1B679F35EA8DA2C8F8E4D536596582BA
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool4x4_t4D8C1B679F35EA8DA2C8F8E4D536596582BAD936 float4x4_op_GreaterThan_m27A6B39E5CFAC343B96D51C02633EABD2854C01E (float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 ___lhs0, float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static bool4x4 operator > (float4x4 lhs, float4x4 rhs) { return new bool4x4 (lhs.c0 > rhs.c0, lhs.c1 > rhs.c1, lhs.c2 > rhs.c2, lhs.c3 > rhs.c3); }
 		float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 L_0 = ___lhs0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1 = L_0.___c0_0;
 		float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 L_2 = ___rhs1;
@@ -18610,7 +17586,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool4x4_t4D8C1B679F35EA8DA2C8F8E4D536596582BA
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool4x4_t4D8C1B679F35EA8DA2C8F8E4D536596582BAD936 float4x4_op_GreaterThan_mFD4C3C8AB0DD7BDCA17EE03DFA2E2FE41B36D019 (float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 ___lhs0, float ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static bool4x4 operator > (float4x4 lhs, float rhs) { return new bool4x4 (lhs.c0 > rhs, lhs.c1 > rhs, lhs.c2 > rhs, lhs.c3 > rhs); }
 		float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 L_0 = ___lhs0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1 = L_0.___c0_0;
 		float L_2 = ___rhs1;
@@ -18641,7 +17616,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool4x4_t4D8C1B679F35EA8DA2C8F8E4D536596582BA
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool4x4_t4D8C1B679F35EA8DA2C8F8E4D536596582BAD936 float4x4_op_GreaterThan_m6A6E90D3A3E6B1F366022093B486CA92EFC61159 (float ___lhs0, float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static bool4x4 operator > (float lhs, float4x4 rhs) { return new bool4x4 (lhs > rhs.c0, lhs > rhs.c1, lhs > rhs.c2, lhs > rhs.c3); }
 		float L_0 = ___lhs0;
 		float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 L_1 = ___rhs1;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2 = L_1.___c0_0;
@@ -18672,7 +17646,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool4x4_t4D8C1B679F35EA8DA2C8F8E4D536596582BA
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool4x4_t4D8C1B679F35EA8DA2C8F8E4D536596582BAD936 float4x4_op_GreaterThanOrEqual_m5C86FC66FD79288EC47AFDECB84B42663B3E76AF (float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 ___lhs0, float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static bool4x4 operator >= (float4x4 lhs, float4x4 rhs) { return new bool4x4 (lhs.c0 >= rhs.c0, lhs.c1 >= rhs.c1, lhs.c2 >= rhs.c2, lhs.c3 >= rhs.c3); }
 		float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 L_0 = ___lhs0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1 = L_0.___c0_0;
 		float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 L_2 = ___rhs1;
@@ -18707,7 +17680,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool4x4_t4D8C1B679F35EA8DA2C8F8E4D536596582BA
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool4x4_t4D8C1B679F35EA8DA2C8F8E4D536596582BAD936 float4x4_op_GreaterThanOrEqual_m241DE782FDAAE2FFFA81D793F31542CBA419506C (float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 ___lhs0, float ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static bool4x4 operator >= (float4x4 lhs, float rhs) { return new bool4x4 (lhs.c0 >= rhs, lhs.c1 >= rhs, lhs.c2 >= rhs, lhs.c3 >= rhs); }
 		float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 L_0 = ___lhs0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1 = L_0.___c0_0;
 		float L_2 = ___rhs1;
@@ -18738,7 +17710,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool4x4_t4D8C1B679F35EA8DA2C8F8E4D536596582BA
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool4x4_t4D8C1B679F35EA8DA2C8F8E4D536596582BAD936 float4x4_op_GreaterThanOrEqual_mA837E72B73E42D2CCE6A419499E1E72362D1AE2F (float ___lhs0, float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static bool4x4 operator >= (float lhs, float4x4 rhs) { return new bool4x4 (lhs >= rhs.c0, lhs >= rhs.c1, lhs >= rhs.c2, lhs >= rhs.c3); }
 		float L_0 = ___lhs0;
 		float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 L_1 = ___rhs1;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2 = L_1.___c0_0;
@@ -18769,7 +17740,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool4x4_t4D8C1B679F35EA8DA2C8F8E4D536596582BA
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 float4x4_op_UnaryNegation_mB75D638B6197F8B4683B2F5518FA22B9EA600AF7 (float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 ___val0, const RuntimeMethod* method) 
 {
 	{
-		// public static float4x4 operator - (float4x4 val) { return new float4x4 (-val.c0, -val.c1, -val.c2, -val.c3); }
 		float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 L_0 = ___val0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1 = L_0.___c0_0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2;
@@ -18796,7 +17766,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB979
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 float4x4_op_UnaryPlus_m29E82E2F713FE3D8AD219CF2DDFC8F3D95B30E82 (float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 ___val0, const RuntimeMethod* method) 
 {
 	{
-		// public static float4x4 operator + (float4x4 val) { return new float4x4 (+val.c0, +val.c1, +val.c2, +val.c3); }
 		float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 L_0 = ___val0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1 = L_0.___c0_0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2;
@@ -18823,7 +17792,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB979
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool4x4_t4D8C1B679F35EA8DA2C8F8E4D536596582BAD936 float4x4_op_Equality_m2179DA55B6925A4EE5A48A161D1A4F35ACFA3EC0 (float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 ___lhs0, float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static bool4x4 operator == (float4x4 lhs, float4x4 rhs) { return new bool4x4 (lhs.c0 == rhs.c0, lhs.c1 == rhs.c1, lhs.c2 == rhs.c2, lhs.c3 == rhs.c3); }
 		float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 L_0 = ___lhs0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1 = L_0.___c0_0;
 		float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 L_2 = ___rhs1;
@@ -18858,7 +17826,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool4x4_t4D8C1B679F35EA8DA2C8F8E4D536596582BA
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool4x4_t4D8C1B679F35EA8DA2C8F8E4D536596582BAD936 float4x4_op_Equality_m1B580DBF9743B7AC77423C630C59D0FAA3EF897F (float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 ___lhs0, float ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static bool4x4 operator == (float4x4 lhs, float rhs) { return new bool4x4 (lhs.c0 == rhs, lhs.c1 == rhs, lhs.c2 == rhs, lhs.c3 == rhs); }
 		float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 L_0 = ___lhs0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1 = L_0.___c0_0;
 		float L_2 = ___rhs1;
@@ -18889,7 +17856,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool4x4_t4D8C1B679F35EA8DA2C8F8E4D536596582BA
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool4x4_t4D8C1B679F35EA8DA2C8F8E4D536596582BAD936 float4x4_op_Equality_mC071EB9470010DD55B0A522F0EFB26645577B169 (float ___lhs0, float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static bool4x4 operator == (float lhs, float4x4 rhs) { return new bool4x4 (lhs == rhs.c0, lhs == rhs.c1, lhs == rhs.c2, lhs == rhs.c3); }
 		float L_0 = ___lhs0;
 		float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 L_1 = ___rhs1;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2 = L_1.___c0_0;
@@ -18920,7 +17886,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool4x4_t4D8C1B679F35EA8DA2C8F8E4D536596582BA
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool4x4_t4D8C1B679F35EA8DA2C8F8E4D536596582BAD936 float4x4_op_Inequality_m7045CB8691044D7821DBC42BE807F1EF9032176D (float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 ___lhs0, float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static bool4x4 operator != (float4x4 lhs, float4x4 rhs) { return new bool4x4 (lhs.c0 != rhs.c0, lhs.c1 != rhs.c1, lhs.c2 != rhs.c2, lhs.c3 != rhs.c3); }
 		float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 L_0 = ___lhs0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1 = L_0.___c0_0;
 		float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 L_2 = ___rhs1;
@@ -18955,7 +17920,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool4x4_t4D8C1B679F35EA8DA2C8F8E4D536596582BA
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool4x4_t4D8C1B679F35EA8DA2C8F8E4D536596582BAD936 float4x4_op_Inequality_mA54FB698795498D2AE97D4FF83BB21DD3A5633E4 (float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 ___lhs0, float ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static bool4x4 operator != (float4x4 lhs, float rhs) { return new bool4x4 (lhs.c0 != rhs, lhs.c1 != rhs, lhs.c2 != rhs, lhs.c3 != rhs); }
 		float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 L_0 = ___lhs0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1 = L_0.___c0_0;
 		float L_2 = ___rhs1;
@@ -18986,7 +17950,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool4x4_t4D8C1B679F35EA8DA2C8F8E4D536596582BA
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool4x4_t4D8C1B679F35EA8DA2C8F8E4D536596582BAD936 float4x4_op_Inequality_m32CDE34954335CB6A1F00902DD2EA0C2120AE438 (float ___lhs0, float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static bool4x4 operator != (float lhs, float4x4 rhs) { return new bool4x4 (lhs != rhs.c0, lhs != rhs.c1, lhs != rhs.c2, lhs != rhs.c3); }
 		float L_0 = ___lhs0;
 		float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 L_1 = ___rhs1;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2 = L_1.___c0_0;
@@ -19018,11 +17981,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186545085329585
 {
 	float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2* V_0 = NULL;
 	{
-		// {
 		V_0 = __this;
-		// fixed (float4x4* array = &this) { return ref ((float4*)array)[index]; }
 		float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2* L_0 = V_0;
-		// fixed (float4x4* array = &this) { return ref ((float4*)array)[index]; }
 		int32_t L_1 = ___index0;
 		uint32_t L_2 = sizeof(float4_t89D9A294E7A79BD81BFBDD18654508532958555E);
 		return (float4_t89D9A294E7A79BD81BFBDD18654508532958555E*)(((intptr_t)il2cpp_codegen_add((intptr_t)((uintptr_t)L_0), ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_1), (int32_t)L_2)))));
@@ -19041,7 +18001,6 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E* float4x4_get_
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool float4x4_Equals_mB22F89A6EC760BECED603A00205294B0C185CCBB (float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2* __this, float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 ___rhs0, const RuntimeMethod* method) 
 {
 	{
-		// public bool Equals(float4x4 rhs) { return c0.Equals(rhs.c0) && c1.Equals(rhs.c1) && c2.Equals(rhs.c2) && c3.Equals(rhs.c3); }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E* L_0 = (&__this->___c0_0);
 		float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 L_1 = ___rhs0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2 = L_1.___c0_0;
@@ -19109,7 +18068,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool float4x4_Equals_mD77FF5880D1151E85DC213A
 	float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		// public override bool Equals(object o) { return o is float4x4 converted && Equals(converted); }
 		RuntimeObject* L_0 = ___o0;
 		if (!((RuntimeObject*)IsInstSealed((RuntimeObject*)L_0, float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2_il2cpp_TypeInfo_var)))
 		{
@@ -19143,7 +18101,6 @@ IL2CPP_EXTERN_C  bool float4x4_Equals_mD77FF5880D1151E85DC213AFF8E24B12044DB6B8_
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t float4x4_GetHashCode_m260D00DFB6FDDAA4052A0893C7AEA6E5599DF9F7 (float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2* __this, const RuntimeMethod* method) 
 {
 	{
-		// public override int GetHashCode() { return (int)math.hash(this); }
 		float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 L_0 = (*(float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2*)__this);
 		uint32_t L_1;
 		L_1 = math_hash_m20286BA0E4D2F6DC3C7013DA713AADCFFD87D444_inline(L_0, NULL);
@@ -19171,7 +18128,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* float4x4_ToString_mB25DD7002ADF39A9
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		// return string.Format("float4x4({0}f, {1}f, {2}f, {3}f,  {4}f, {5}f, {6}f, {7}f,  {8}f, {9}f, {10}f, {11}f,  {12}f, {13}f, {14}f, {15}f)", c0.x, c1.x, c2.x, c3.x, c0.y, c1.y, c2.y, c3.y, c0.z, c1.z, c2.z, c3.z, c0.w, c1.w, c2.w, c3.w);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_0 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)((int32_t)16));
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_1 = L_0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E* L_2 = (&__this->___c0_0);
@@ -19326,7 +18282,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* float4x4_ToString_mB33825C3DB524BA4
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		// return string.Format("float4x4({0}f, {1}f, {2}f, {3}f,  {4}f, {5}f, {6}f, {7}f,  {8}f, {9}f, {10}f, {11}f,  {12}f, {13}f, {14}f, {15}f)", c0.x.ToString(format, formatProvider), c1.x.ToString(format, formatProvider), c2.x.ToString(format, formatProvider), c3.x.ToString(format, formatProvider), c0.y.ToString(format, formatProvider), c1.y.ToString(format, formatProvider), c2.y.ToString(format, formatProvider), c3.y.ToString(format, formatProvider), c0.z.ToString(format, formatProvider), c1.z.ToString(format, formatProvider), c2.z.ToString(format, formatProvider), c3.z.ToString(format, formatProvider), c0.w.ToString(format, formatProvider), c1.w.ToString(format, formatProvider), c2.w.ToString(format, formatProvider), c3.w.ToString(format, formatProvider));
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_0 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)((int32_t)16));
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_1 = L_0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E* L_2 = (&__this->___c0_0);
@@ -19506,7 +18461,6 @@ IL2CPP_EXTERN_C  String_t* float4x4_ToString_mB33825C3DB524BA41F1DF5356C61B0F8BA
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 float4x4_op_Implicit_mCDD72C5454A8DAFB2A659484006D18D5979BE6AB (Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 ___m0, const RuntimeMethod* method) 
 {
 	{
-		// public static implicit operator float4x4(Matrix4x4 m) { return new float4x4(m.GetColumn(0), m.GetColumn(1), m.GetColumn(2), m.GetColumn(3)); }
 		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_0;
 		L_0 = Matrix4x4_GetColumn_m5CE079D7A69DE70E3144BADD20A1651C73A8D118((&___m0), 0, NULL);
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1;
@@ -19533,7 +18487,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB979
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 float4x4_op_Implicit_mC056D7C9F17B6D06E026163034B5414E56DA04B4 (float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 ___m0, const RuntimeMethod* method) 
 {
 	{
-		// public static implicit operator Matrix4x4(float4x4 m) { return new Matrix4x4(m.c0, m.c1, m.c2, m.c3); }
 		float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 L_0 = ___m0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1 = L_0.___c0_0;
 		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_2;
@@ -19560,30 +18513,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4x4__ctor_m22B570B60DB18EDBBABA30899236C48FA68AA8DC (float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2* __this, float3x3_tB318DB8C7E54B6CA9E14EB9AC7F5964C1189FC79 ___rotation0, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___translation1, const RuntimeMethod* method) 
 {
 	{
-		// c0 = float4(rotation.c0, 0.0f);
 		float3x3_tB318DB8C7E54B6CA9E14EB9AC7F5964C1189FC79 L_0 = ___rotation0;
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_1 = L_0.___c0_0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2;
 		L_2 = math_float4_mE54104D60E6B9A358C75CB6F378118AB4914BFC4_inline(L_1, (0.0f), NULL);
 		__this->___c0_0 = L_2;
-		// c1 = float4(rotation.c1, 0.0f);
 		float3x3_tB318DB8C7E54B6CA9E14EB9AC7F5964C1189FC79 L_3 = ___rotation0;
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_4 = L_3.___c1_1;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_5;
 		L_5 = math_float4_mE54104D60E6B9A358C75CB6F378118AB4914BFC4_inline(L_4, (0.0f), NULL);
 		__this->___c1_1 = L_5;
-		// c2 = float4(rotation.c2, 0.0f);
 		float3x3_tB318DB8C7E54B6CA9E14EB9AC7F5964C1189FC79 L_6 = ___rotation0;
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_7 = L_6.___c2_2;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_8;
 		L_8 = math_float4_mE54104D60E6B9A358C75CB6F378118AB4914BFC4_inline(L_7, (0.0f), NULL);
 		__this->___c2_2 = L_8;
-		// c3 = float4(translation, 1.0f);
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_9 = ___translation1;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_10;
 		L_10 = math_float4_mE54104D60E6B9A358C75CB6F378118AB4914BFC4_inline(L_9, (1.0f), NULL);
 		__this->___c3_3 = L_10;
-		// }
 		return;
 	}
 }
@@ -19600,35 +18548,29 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4x4__ctor_m36D57BB3339FCFAE6FA39D35
 	float3x3_tB318DB8C7E54B6CA9E14EB9AC7F5964C1189FC79 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		// float3x3 rot = float3x3(rotation);
 		quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 L_0 = ___rotation0;
 		float3x3_tB318DB8C7E54B6CA9E14EB9AC7F5964C1189FC79 L_1;
 		L_1 = math_float3x3_m850F2B065688B7C95009136DAA44853A04069298_inline(L_0, NULL);
 		V_0 = L_1;
-		// c0 = float4(rot.c0, 0.0f);
 		float3x3_tB318DB8C7E54B6CA9E14EB9AC7F5964C1189FC79 L_2 = V_0;
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_3 = L_2.___c0_0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_4;
 		L_4 = math_float4_mE54104D60E6B9A358C75CB6F378118AB4914BFC4_inline(L_3, (0.0f), NULL);
 		__this->___c0_0 = L_4;
-		// c1 = float4(rot.c1, 0.0f);
 		float3x3_tB318DB8C7E54B6CA9E14EB9AC7F5964C1189FC79 L_5 = V_0;
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_6 = L_5.___c1_1;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_7;
 		L_7 = math_float4_mE54104D60E6B9A358C75CB6F378118AB4914BFC4_inline(L_6, (0.0f), NULL);
 		__this->___c1_1 = L_7;
-		// c2 = float4(rot.c2, 0.0f);
 		float3x3_tB318DB8C7E54B6CA9E14EB9AC7F5964C1189FC79 L_8 = V_0;
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_9 = L_8.___c2_2;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_10;
 		L_10 = math_float4_mE54104D60E6B9A358C75CB6F378118AB4914BFC4_inline(L_9, (0.0f), NULL);
 		__this->___c2_2 = L_10;
-		// c3 = float4(translation, 1.0f);
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_11 = ___translation1;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_12;
 		L_12 = math_float4_mE54104D60E6B9A358C75CB6F378118AB4914BFC4_inline(L_11, (1.0f), NULL);
 		__this->___c3_3 = L_12;
-		// }
 		return;
 	}
 }
@@ -19645,37 +18587,31 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4x4__ctor_m7BC460D95F6148A5448235FA
 	float3x3_tB318DB8C7E54B6CA9E14EB9AC7F5964C1189FC79 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		// float3x3 rot = float3x3(transform.rot);
 		RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD L_0 = ___transform0;
 		quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 L_1 = L_0.___rot_0;
 		float3x3_tB318DB8C7E54B6CA9E14EB9AC7F5964C1189FC79 L_2;
 		L_2 = math_float3x3_m850F2B065688B7C95009136DAA44853A04069298_inline(L_1, NULL);
 		V_0 = L_2;
-		// c0 = float4(rot.c0, 0.0f);
 		float3x3_tB318DB8C7E54B6CA9E14EB9AC7F5964C1189FC79 L_3 = V_0;
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_4 = L_3.___c0_0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_5;
 		L_5 = math_float4_mE54104D60E6B9A358C75CB6F378118AB4914BFC4_inline(L_4, (0.0f), NULL);
 		__this->___c0_0 = L_5;
-		// c1 = float4(rot.c1, 0.0f);
 		float3x3_tB318DB8C7E54B6CA9E14EB9AC7F5964C1189FC79 L_6 = V_0;
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_7 = L_6.___c1_1;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_8;
 		L_8 = math_float4_mE54104D60E6B9A358C75CB6F378118AB4914BFC4_inline(L_7, (0.0f), NULL);
 		__this->___c1_1 = L_8;
-		// c2 = float4(rot.c2, 0.0f);
 		float3x3_tB318DB8C7E54B6CA9E14EB9AC7F5964C1189FC79 L_9 = V_0;
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_10 = L_9.___c2_2;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_11;
 		L_11 = math_float4_mE54104D60E6B9A358C75CB6F378118AB4914BFC4_inline(L_10, (0.0f), NULL);
 		__this->___c2_2 = L_11;
-		// c3 = float4(transform.pos, 1.0f);
 		RigidTransform_tDC22CD9569EC04E16791C2AB53DA5ABD34E88FDD L_12 = ___transform0;
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_13 = L_12.___pos_1;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_14;
 		L_14 = math_float4_mE54104D60E6B9A358C75CB6F378118AB4914BFC4_inline(L_13, (1.0f), NULL);
 		__this->___c3_3 = L_14;
-		// }
 		return;
 	}
 }
@@ -19706,21 +18642,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB979
 	uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 V_8;
 	memset((&V_8), 0, sizeof(V_8));
 	{
-		// math.sincos(angle, out sina, out cosa);
 		float L_0 = ___angle1;
 		math_sincos_mCA97E81FBD3BEEE76CD632E8407D21DBED186F18_inline(L_0, (&V_0), (&V_1), NULL);
-		// float4 u = float4(axis, 0.0f);
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_1 = ___axis0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2;
 		L_2 = math_float4_mE54104D60E6B9A358C75CB6F378118AB4914BFC4_inline(L_1, (0.0f), NULL);
 		V_2 = L_2;
-		// float4 u_yzx = u.yzxx;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_3;
 		L_3 = float4_get_yzxx_m5EAECB5141E5ECDE8D1CA49EEF9335FEC619F75D_inline((&V_2), NULL);
-		// float4 u_zxy = u.zxyx;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_4;
 		L_4 = float4_get_zxyx_mB2964421160CD219A90CB83015B2A3EE995012F8_inline((&V_2), NULL);
-		// float4 u_inv_cosa = u - u * cosa;  // u * (1.0f - cosa);
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_5 = V_2;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_6 = V_2;
 		float L_7 = V_1;
@@ -19729,7 +18660,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB979
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_9;
 		L_9 = float4_op_Subtraction_mBC40F52B8A8EF499A1AA3CC987E5935BD188B4E3_inline(L_5, L_8, NULL);
 		V_3 = L_9;
-		// float4 t = float4(u.xyz * sina, cosa);
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_10;
 		L_10 = float4_get_xyz_mE6EC829F35512C7BC159047FDC134E80F3B37A06_inline((&V_2), NULL);
 		float L_11 = V_0;
@@ -19739,28 +18669,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB979
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_14;
 		L_14 = math_float4_mE54104D60E6B9A358C75CB6F378118AB4914BFC4_inline(L_12, L_13, NULL);
 		V_4 = L_14;
-		// uint4 ppnp = uint4(0x00000000, 0x00000000, 0x80000000, 0x00000000);
 		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_15;
 		L_15 = math_uint4_m7F6A5341327B9EF6B80C82FD1B93E4F32287A336_inline(0, 0, ((int32_t)-2147483648LL), 0, NULL);
 		V_5 = L_15;
-		// uint4 nppp = uint4(0x80000000, 0x00000000, 0x00000000, 0x00000000);
 		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_16;
 		L_16 = math_uint4_m7F6A5341327B9EF6B80C82FD1B93E4F32287A336_inline(((int32_t)-2147483648LL), 0, 0, 0, NULL);
 		V_6 = L_16;
-		// uint4 pnpp = uint4(0x00000000, 0x80000000, 0x00000000, 0x00000000);
 		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_17;
 		L_17 = math_uint4_m7F6A5341327B9EF6B80C82FD1B93E4F32287A336_inline(0, ((int32_t)-2147483648LL), 0, 0, NULL);
 		V_7 = L_17;
-		// uint4 mask = uint4(0xFFFFFFFF, 0xFFFFFFFF, 0xFFFFFFFF, 0x00000000);
 		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_18;
 		L_18 = math_uint4_m7F6A5341327B9EF6B80C82FD1B93E4F32287A336_inline((-1), (-1), (-1), 0, NULL);
 		V_8 = L_18;
-		// return float4x4(
-		//     u.x * u_inv_cosa + asfloat((asuint(t.wzyx) ^ ppnp) & mask),
-		//     u.y * u_inv_cosa + asfloat((asuint(t.zwxx) ^ nppp) & mask),
-		//     u.z * u_inv_cosa + asfloat((asuint(t.yxwx) ^ pnpp) & mask),
-		//     float4(0.0f, 0.0f, 0.0f, 1.0f)
-		//     );
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_19 = V_2;
 		float L_20 = L_19.___x_0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_21 = V_3;
@@ -19833,15 +18753,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB979
 	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// sincos(xyz, out s, out c);
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_0 = ___xyz0;
 		math_sincos_m28D7C74E99CF12DE35172DC6F26C77FD4D46D1B7_inline(L_0, (&V_0), (&V_1), NULL);
-		// return float4x4(
-		//     c.y * c.z,  c.z * s.x * s.y - c.x * s.z,    c.x * c.z * s.y + s.x * s.z,    0.0f,
-		//     c.y * s.z,  c.x * c.z + s.x * s.y * s.z,    c.x * s.y * s.z - c.z * s.x,    0.0f,
-		//     -s.y,       c.y * s.x,                      c.x * c.y,                      0.0f,
-		//     0.0f,       0.0f,                           0.0f,                           1.0f
-		//     );
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_1 = V_1;
 		float L_2 = L_1.___y_1;
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_3 = V_1;
@@ -19913,15 +18826,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB979
 	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// sincos(xyz, out s, out c);
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_0 = ___xyz0;
 		math_sincos_m28D7C74E99CF12DE35172DC6F26C77FD4D46D1B7_inline(L_0, (&V_0), (&V_1), NULL);
-		// return float4x4(
-		//     c.y * c.z,  s.x * s.y - c.x * c.y * s.z,    c.x * s.y + c.y * s.x * s.z,    0.0f,
-		//     s.z,        c.x * c.z,                      -c.z * s.x,                     0.0f,
-		//     -c.z * s.y, c.y * s.x + c.x * s.y * s.z,    c.x * c.y - s.x * s.y * s.z,    0.0f,
-		//     0.0f,       0.0f,                           0.0f,                           1.0f
-		//     );
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_1 = V_1;
 		float L_2 = L_1.___y_1;
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_3 = V_1;
@@ -19993,15 +18899,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB979
 	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// sincos(xyz, out s, out c);
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_0 = ___xyz0;
 		math_sincos_m28D7C74E99CF12DE35172DC6F26C77FD4D46D1B7_inline(L_0, (&V_0), (&V_1), NULL);
-		// return float4x4(
-		//     c.y * c.z - s.x * s.y * s.z,    -c.x * s.z, c.z * s.y + c.y * s.x * s.z,    0.0f,
-		//     c.z * s.x * s.y + c.y * s.z,    c.x * c.z,  s.y * s.z - c.y * c.z * s.x,    0.0f,
-		//     -c.x * s.y,                     s.x,        c.x * c.y,                      0.0f,
-		//     0.0f,                           0.0f,       0.0f,                           1.0f
-		//     );
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_1 = V_1;
 		float L_2 = L_1.___y_1;
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_3 = V_1;
@@ -20073,15 +18972,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB979
 	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// sincos(xyz, out s, out c);
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_0 = ___xyz0;
 		math_sincos_m28D7C74E99CF12DE35172DC6F26C77FD4D46D1B7_inline(L_0, (&V_0), (&V_1), NULL);
-		// return float4x4(
-		//     c.y * c.z,                      -s.z,       c.z * s.y,                      0.0f,
-		//     s.x * s.y + c.x * c.y * s.z,    c.x * c.z,  c.x * s.y * s.z - c.y * s.x,    0.0f,
-		//     c.y * s.x * s.z - c.x * s.y,    c.z * s.x,  c.x * c.y + s.x * s.y * s.z,    0.0f,
-		//     0.0f,                           0.0f,       0.0f,                           1.0f
-		//     );
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_1 = V_1;
 		float L_2 = L_1.___y_1;
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_3 = V_1;
@@ -20153,15 +19045,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB979
 	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// sincos(xyz, out s, out c);
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_0 = ___xyz0;
 		math_sincos_m28D7C74E99CF12DE35172DC6F26C77FD4D46D1B7_inline(L_0, (&V_0), (&V_1), NULL);
-		// return float4x4(
-		//     c.y * c.z + s.x * s.y * s.z,    c.z * s.x * s.y - c.y * s.z,    c.x * s.y,  0.0f,
-		//     c.x * s.z,                      c.x * c.z,                      -s.x,       0.0f,
-		//     c.y * s.x * s.z - c.z * s.y,    c.y * c.z * s.x + s.y * s.z,    c.x * c.y,  0.0f,
-		//     0.0f,                           0.0f,                           0.0f,       1.0f
-		//     );
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_1 = V_1;
 		float L_2 = L_1.___y_1;
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_3 = V_1;
@@ -20233,15 +19118,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB979
 	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// sincos(xyz, out s, out c);
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_0 = ___xyz0;
 		math_sincos_m28D7C74E99CF12DE35172DC6F26C77FD4D46D1B7_inline(L_0, (&V_0), (&V_1), NULL);
-		// return float4x4(
-		//     c.y * c.z,                      -c.y * s.z,                     s.y,        0.0f,
-		//     c.z * s.x * s.y + c.x * s.z,    c.x * c.z - s.x * s.y * s.z,    -c.y * s.x, 0.0f,
-		//     s.x * s.z - c.x * c.z * s.y,    c.z * s.x + c.x * s.y * s.z,    c.x * c.y,  0.0f,
-		//     0.0f,                           0.0f,                           0.0f,       1.0f
-		//     );
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_1 = V_1;
 		float L_2 = L_1.___y_1;
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_3 = V_1;
@@ -20309,7 +19187,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB979
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 float4x4_EulerXYZ_mD83B3CC0089F4AA15B781A043859B46BDE5F40A1 (float ___x0, float ___y1, float ___z2, const RuntimeMethod* method) 
 {
 	{
-		// public static float4x4 EulerXYZ(float x, float y, float z) { return EulerXYZ(float3(x, y, z)); }
 		float L_0 = ___x0;
 		float L_1 = ___y1;
 		float L_2 = ___z2;
@@ -20324,7 +19201,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB979
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 float4x4_EulerXZY_m8199601698351F0891E42FE2AEC6A39394FD081F (float ___x0, float ___y1, float ___z2, const RuntimeMethod* method) 
 {
 	{
-		// public static float4x4 EulerXZY(float x, float y, float z) { return EulerXZY(float3(x, y, z)); }
 		float L_0 = ___x0;
 		float L_1 = ___y1;
 		float L_2 = ___z2;
@@ -20339,7 +19215,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB979
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 float4x4_EulerYXZ_mF9F405B9948CBD532DE472ED051358C1C75E0779 (float ___x0, float ___y1, float ___z2, const RuntimeMethod* method) 
 {
 	{
-		// public static float4x4 EulerYXZ(float x, float y, float z) { return EulerYXZ(float3(x, y, z)); }
 		float L_0 = ___x0;
 		float L_1 = ___y1;
 		float L_2 = ___z2;
@@ -20354,7 +19229,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB979
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 float4x4_EulerYZX_mC582CEF80E54CD9F5F79D8BE92C933A0B18501B1 (float ___x0, float ___y1, float ___z2, const RuntimeMethod* method) 
 {
 	{
-		// public static float4x4 EulerYZX(float x, float y, float z) { return EulerYZX(float3(x, y, z)); }
 		float L_0 = ___x0;
 		float L_1 = ___y1;
 		float L_2 = ___z2;
@@ -20369,7 +19243,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB979
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 float4x4_EulerZXY_m58FF51A618AE723AA7C5389F2B8B192BF48A0391 (float ___x0, float ___y1, float ___z2, const RuntimeMethod* method) 
 {
 	{
-		// public static float4x4 EulerZXY(float x, float y, float z) { return EulerZXY(float3(x, y, z)); }
 		float L_0 = ___x0;
 		float L_1 = ___y1;
 		float L_2 = ___z2;
@@ -20384,7 +19257,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB979
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 float4x4_EulerZYX_mAB1E092EFA11E4F93D0AC87A817D692D0F92DA95 (float ___x0, float ___y1, float ___z2, const RuntimeMethod* method) 
 {
 	{
-		// public static float4x4 EulerZYX(float x, float y, float z) { return EulerZYX(float3(x, y, z)); }
 		float L_0 = ___x0;
 		float L_1 = ___y1;
 		float L_2 = ___z2;
@@ -20440,7 +19312,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB979
 
 IL_0020:
 	{
-		// return EulerXYZ(xyz);
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_1 = ___xyz0;
 		float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 L_2;
 		L_2 = float4x4_EulerXYZ_mF8B1988F45BCDF500880C4142FA9E74F2D62E15D_inline(L_1, NULL);
@@ -20449,7 +19320,6 @@ IL_0020:
 
 IL_0027:
 	{
-		// return EulerXZY(xyz);
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_3 = ___xyz0;
 		float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 L_4;
 		L_4 = float4x4_EulerXZY_m94185260C5C20E0E6F56BF71BD283F20D730B156_inline(L_3, NULL);
@@ -20458,7 +19328,6 @@ IL_0027:
 
 IL_002e:
 	{
-		// return EulerYXZ(xyz);
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_5 = ___xyz0;
 		float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 L_6;
 		L_6 = float4x4_EulerYXZ_m391410E19C7BF15D10420E8FC49591D8A3DCE474_inline(L_5, NULL);
@@ -20467,7 +19336,6 @@ IL_002e:
 
 IL_0035:
 	{
-		// return EulerYZX(xyz);
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_7 = ___xyz0;
 		float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 L_8;
 		L_8 = float4x4_EulerYZX_mC696E8B3A0CCB06E807EC16D6C9E71CFEB0A37DE_inline(L_7, NULL);
@@ -20476,7 +19344,6 @@ IL_0035:
 
 IL_003c:
 	{
-		// return EulerZXY(xyz);
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_9 = ___xyz0;
 		float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 L_10;
 		L_10 = float4x4_EulerZXY_m9E256F3896CA110444A2A6D4F5A26A7D380F7514_inline(L_9, NULL);
@@ -20485,7 +19352,6 @@ IL_003c:
 
 IL_0043:
 	{
-		// return EulerZYX(xyz);
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_11 = ___xyz0;
 		float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 L_12;
 		L_12 = float4x4_EulerZYX_mAE4DDCD8712F5666F0939D0260FC5BFA7ABD67F3_inline(L_11, NULL);
@@ -20494,7 +19360,6 @@ IL_0043:
 
 IL_004a:
 	{
-		// return float4x4.identity;
 		float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 L_13 = ((float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2_StaticFields*)il2cpp_codegen_static_fields_for(float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2_il2cpp_TypeInfo_var))->___identity_4;
 		return L_13;
 	}
@@ -20503,7 +19368,6 @@ IL_004a:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 float4x4_Euler_m7E6C7A93304D39DB55C8CD70533C138DCDD371D6 (float ___x0, float ___y1, float ___z2, uint8_t ___order3, const RuntimeMethod* method) 
 {
 	{
-		// return Euler(float3(x, y, z), order);
 		float L_0 = ___x0;
 		float L_1 = ___y1;
 		float L_2 = ___z2;
@@ -20521,13 +19385,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB979
 	float V_0 = 0.0f;
 	float V_1 = 0.0f;
 	{
-		// sincos(angle, out s, out c);
 		float L_0 = ___angle0;
 		math_sincos_mCA97E81FBD3BEEE76CD632E8407D21DBED186F18_inline(L_0, (&V_0), (&V_1), NULL);
-		// return float4x4(1.0f, 0.0f, 0.0f, 0.0f,
-		//                 0.0f, c,    -s,   0.0f,
-		//                 0.0f, s,    c,    0.0f,
-		//                 0.0f, 0.0f, 0.0f, 1.0f);
 		float L_1 = V_1;
 		float L_2 = V_0;
 		float L_3 = V_0;
@@ -20543,13 +19402,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB979
 	float V_0 = 0.0f;
 	float V_1 = 0.0f;
 	{
-		// sincos(angle, out s, out c);
 		float L_0 = ___angle0;
 		math_sincos_mCA97E81FBD3BEEE76CD632E8407D21DBED186F18_inline(L_0, (&V_0), (&V_1), NULL);
-		// return float4x4(c,    0.0f, s,    0.0f,
-		//                 0.0f, 1.0f, 0.0f, 0.0f,
-		//                 -s,   0.0f, c,    0.0f,
-		//                 0.0f, 0.0f, 0.0f, 1.0f);
 		float L_1 = V_1;
 		float L_2 = V_0;
 		float L_3 = V_0;
@@ -20565,13 +19419,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB979
 	float V_0 = 0.0f;
 	float V_1 = 0.0f;
 	{
-		// sincos(angle, out s, out c);
 		float L_0 = ___angle0;
 		math_sincos_mCA97E81FBD3BEEE76CD632E8407D21DBED186F18_inline(L_0, (&V_0), (&V_1), NULL);
-		// return float4x4(c,    -s,   0.0f, 0.0f,
-		//                 s,    c,    0.0f, 0.0f,
-		//                 0.0f, 0.0f, 1.0f, 0.0f,
-		//                 0.0f, 0.0f, 0.0f, 1.0f);
 		float L_1 = V_1;
 		float L_2 = V_0;
 		float L_3 = V_0;
@@ -20585,10 +19434,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB979
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 float4x4_Scale_mBDC8CD285E74BD07CA06B1EEFA4E53645CD18383 (float ___s0, const RuntimeMethod* method) 
 {
 	{
-		// return float4x4(s,    0.0f, 0.0f, 0.0f,
-		//                 0.0f, s,    0.0f, 0.0f,
-		//                 0.0f, 0.0f, s,    0.0f,
-		//                 0.0f, 0.0f, 0.0f, 1.0f);
 		float L_0 = ___s0;
 		float L_1 = ___s0;
 		float L_2 = ___s0;
@@ -20601,10 +19446,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB979
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 float4x4_Scale_m60F4005809D2CCEF16DB5213CF424743FAFEFB43 (float ___x0, float ___y1, float ___z2, const RuntimeMethod* method) 
 {
 	{
-		// return float4x4(x,    0.0f, 0.0f, 0.0f,
-		//                 0.0f, y,    0.0f, 0.0f,
-		//                 0.0f, 0.0f, z,    0.0f,
-		//                 0.0f, 0.0f, 0.0f, 1.0f);
 		float L_0 = ___x0;
 		float L_1 = ___y1;
 		float L_2 = ___z2;
@@ -20617,7 +19458,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB979
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 float4x4_Scale_mCEAC9BFFBAEEC790DA41F1621307528398A1D502 (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___scales0, const RuntimeMethod* method) 
 {
 	{
-		// return Scale(scales.x, scales.y, scales.z);
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_0 = ___scales0;
 		float L_1 = L_0.___x_0;
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_2 = ___scales0;
@@ -20633,10 +19473,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB979
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 float4x4_Translate_m9E175251B31CA1FAE96979B4E75FE9DD1855095E (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___vector0, const RuntimeMethod* method) 
 {
 	{
-		// return float4x4(float4(1.0f, 0.0f, 0.0f, 0.0f),
-		//                 float4(0.0f, 1.0f, 0.0f, 0.0f),
-		//                 float4(0.0f, 0.0f, 1.0f, 0.0f),
-		//                 float4(vector.x, vector.y, vector.z, 1.0f));
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0;
 		L_0 = math_float4_m16697C284FA0C25A84F3DC3E99F3D4C306B6BFBF_inline((1.0f), (0.0f), (0.0f), (0.0f), NULL);
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1;
@@ -20664,7 +19500,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB979
 	float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// float3x3 rot = float3x3.LookRotation(normalize(target - eye), up);
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_0 = ___target1;
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_1 = ___eye0;
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_2;
@@ -20675,30 +19510,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB979
 		float3x3_tB318DB8C7E54B6CA9E14EB9AC7F5964C1189FC79 L_5;
 		L_5 = float3x3_LookRotation_m6F571F2117F992BD9D1C2EFFEC91833DC8518497_inline(L_3, L_4, NULL);
 		V_0 = L_5;
-		// matrix.c0 = float4(rot.c0, 0.0F);
 		float3x3_tB318DB8C7E54B6CA9E14EB9AC7F5964C1189FC79 L_6 = V_0;
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_7 = L_6.___c0_0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_8;
 		L_8 = math_float4_mE54104D60E6B9A358C75CB6F378118AB4914BFC4_inline(L_7, (0.0f), NULL);
 		(&V_1)->___c0_0 = L_8;
-		// matrix.c1 = float4(rot.c1, 0.0F);
 		float3x3_tB318DB8C7E54B6CA9E14EB9AC7F5964C1189FC79 L_9 = V_0;
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_10 = L_9.___c1_1;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_11;
 		L_11 = math_float4_mE54104D60E6B9A358C75CB6F378118AB4914BFC4_inline(L_10, (0.0f), NULL);
 		(&V_1)->___c1_1 = L_11;
-		// matrix.c2 = float4(rot.c2, 0.0F);
 		float3x3_tB318DB8C7E54B6CA9E14EB9AC7F5964C1189FC79 L_12 = V_0;
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_13 = L_12.___c2_2;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_14;
 		L_14 = math_float4_mE54104D60E6B9A358C75CB6F378118AB4914BFC4_inline(L_13, (0.0f), NULL);
 		(&V_1)->___c2_2 = L_14;
-		// matrix.c3 = float4(eye, 1.0F);
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_15 = ___eye0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_16;
 		L_16 = math_float4_mE54104D60E6B9A358C75CB6F378118AB4914BFC4_inline(L_15, (1.0f), NULL);
 		(&V_1)->___c3_3 = L_16;
-		// return matrix;
 		float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 L_17 = V_1;
 		return L_17;
 	}
@@ -20710,22 +19540,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB979
 	float V_1 = 0.0f;
 	float V_2 = 0.0f;
 	{
-		// float rcpdx = 1.0f / width;
 		float L_0 = ___width0;
 		V_0 = ((float)((1.0f)/L_0));
-		// float rcpdy = 1.0f / height;
 		float L_1 = ___height1;
 		V_1 = ((float)((1.0f)/L_1));
-		// float rcpdz = 1.0f / (far - near);
 		float L_2 = ___far3;
 		float L_3 = ___near2;
 		V_2 = ((float)((1.0f)/((float)il2cpp_codegen_subtract(L_2, L_3))));
-		// return float4x4(
-		//     2.0f * rcpdx,   0.0f,            0.0f,           0.0f,
-		//     0.0f,           2.0f * rcpdy,    0.0f,           0.0f,
-		//     0.0f,           0.0f,           -2.0f * rcpdz,  -(far + near) * rcpdz,
-		//     0.0f,           0.0f,            0.0f,           1.0f
-		//     );
 		float L_4 = V_0;
 		float L_5 = V_1;
 		float L_6 = V_2;
@@ -20744,24 +19565,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB979
 	float V_1 = 0.0f;
 	float V_2 = 0.0f;
 	{
-		// float rcpdx = 1.0f / (right - left);
 		float L_0 = ___right1;
 		float L_1 = ___left0;
 		V_0 = ((float)((1.0f)/((float)il2cpp_codegen_subtract(L_0, L_1))));
-		// float rcpdy = 1.0f / (top - bottom);
 		float L_2 = ___top3;
 		float L_3 = ___bottom2;
 		V_1 = ((float)((1.0f)/((float)il2cpp_codegen_subtract(L_2, L_3))));
-		// float rcpdz = 1.0f / (far - near);
 		float L_4 = ___far5;
 		float L_5 = ___near4;
 		V_2 = ((float)((1.0f)/((float)il2cpp_codegen_subtract(L_4, L_5))));
-		// return float4x4(
-		//     2.0f * rcpdx,   0.0f,           0.0f,               -(right + left) * rcpdx,
-		//     0.0f,           2.0f * rcpdy,   0.0f,               -(top + bottom) * rcpdy,
-		//     0.0f,           0.0f,          -2.0f * rcpdz,       -(far + near) * rcpdz,
-		//     0.0f,           0.0f,           0.0f,                1.0f
-		//     );
 		float L_6 = V_0;
 		float L_7 = ___right1;
 		float L_8 = ___left0;
@@ -20785,21 +19597,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB979
 	float V_0 = 0.0f;
 	float V_1 = 0.0f;
 	{
-		// float cotangent = 1.0f / tan(verticalFov * 0.5f);
 		float L_0 = ___verticalFov0;
 		float L_1;
 		L_1 = math_tan_mA71C2BACBC4B74573F38AE433BFE92DD19102ADC_inline(((float)il2cpp_codegen_multiply(L_0, (0.5f))), NULL);
 		V_0 = ((float)((1.0f)/L_1));
-		// float rcpdz = 1.0f / (near - far);
 		float L_2 = ___near2;
 		float L_3 = ___far3;
 		V_1 = ((float)((1.0f)/((float)il2cpp_codegen_subtract(L_2, L_3))));
-		// return float4x4(
-		//     cotangent / aspect, 0.0f,       0.0f,                   0.0f,
-		//     0.0f,               cotangent,  0.0f,                   0.0f,
-		//     0.0f,               0.0f,       (far + near) * rcpdz,   2.0f * near * far * rcpdz,
-		//     0.0f,               0.0f,      -1.0f,                   0.0f
-		//     );
 		float L_4 = V_0;
 		float L_5 = ___aspect1;
 		float L_6 = V_0;
@@ -20821,24 +19625,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB979
 	float V_1 = 0.0f;
 	float V_2 = 0.0f;
 	{
-		// float rcpdz = 1.0f / (near - far);
 		float L_0 = ___near4;
 		float L_1 = ___far5;
 		V_0 = ((float)((1.0f)/((float)il2cpp_codegen_subtract(L_0, L_1))));
-		// float rcpWidth = 1.0f / (right - left);
 		float L_2 = ___right1;
 		float L_3 = ___left0;
 		V_1 = ((float)((1.0f)/((float)il2cpp_codegen_subtract(L_2, L_3))));
-		// float rcpHeight = 1.0f / (top - bottom);
 		float L_4 = ___top3;
 		float L_5 = ___bottom2;
 		V_2 = ((float)((1.0f)/((float)il2cpp_codegen_subtract(L_4, L_5))));
-		// return float4x4(
-		//     2.0f * near * rcpWidth,     0.0f,                       (left + right) * rcpWidth,     0.0f,
-		//     0.0f,                       2.0f * near * rcpHeight,    (bottom + top) * rcpHeight,    0.0f,
-		//     0.0f,                       0.0f,                        (far + near) * rcpdz,          2.0f * near * far * rcpdz,
-		//     0.0f,                       0.0f,                       -1.0f,                          0.0f
-		//     );
 		float L_6 = ___near4;
 		float L_7 = V_1;
 		float L_8 = ___left0;
@@ -20866,15 +19661,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB979
 	float3x3_tB318DB8C7E54B6CA9E14EB9AC7F5964C1189FC79 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		// float3x3 r = float3x3(rotation);
 		quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 L_0 = ___rotation1;
 		float3x3_tB318DB8C7E54B6CA9E14EB9AC7F5964C1189FC79 L_1;
 		L_1 = math_float3x3_m850F2B065688B7C95009136DAA44853A04069298_inline(L_0, NULL);
 		V_0 = L_1;
-		// return float4x4(  float4(r.c0 * scale.x, 0.0f),
-		//                   float4(r.c1 * scale.y, 0.0f),
-		//                   float4(r.c2 * scale.z, 0.0f),
-		//                   float4(translation, 1.0f));
 		float3x3_tB318DB8C7E54B6CA9E14EB9AC7F5964C1189FC79 L_2 = V_0;
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_3 = L_2.___c0_0;
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_4 = ___scale2;
@@ -20917,7 +19707,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4x4__cctor_m8AD96186FE409BAF9B9D69D
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		// public static readonly float4x4 identity = new float4x4(1.0f, 0.0f, 0.0f, 0.0f,   0.0f, 1.0f, 0.0f, 0.0f,   0.0f, 0.0f, 1.0f, 0.0f,   0.0f, 0.0f, 0.0f, 1.0f);
 		float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 L_0;
 		memset((&L_0), 0, sizeof(L_0));
 		float4x4__ctor_m89D3EDF09863C02553147CDA696E48B8D2622AC5_inline((&L_0), (1.0f), (0.0f), (0.0f), (0.0f), (0.0f), (1.0f), (0.0f), (0.0f), (0.0f), (0.0f), (1.0f), (0.0f), (0.0f), (0.0f), (0.0f), (1.0f), /*hidden argument*/NULL);
@@ -20931,191 +19720,146 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4x4__cctor_m8AD96186FE409BAF9B9D69D
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4__ctor_mB2F7F2D8BCE8159BEF5A0D6400499E211858ED2D_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float ___x0, float ___y1, float ___z2, float ___w3, const RuntimeMethod* method) 
 {
 	{
-		// this.x = x;
 		float L_0 = ___x0;
 		__this->___x_0 = L_0;
-		// this.y = y;
 		float L_1 = ___y1;
 		__this->___y_1 = L_1;
-		// this.z = z;
 		float L_2 = ___z2;
 		__this->___z_2 = L_2;
-		// this.w = w;
 		float L_3 = ___w3;
 		__this->___w_3 = L_3;
-		// }
 		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4__ctor_m5D846AF169FF94E3EF16F1755147FF2BFFBA4D49_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float ___x0, float ___y1, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___zw2, const RuntimeMethod* method) 
 {
 	{
-		// this.x = x;
 		float L_0 = ___x0;
 		__this->___x_0 = L_0;
-		// this.y = y;
 		float L_1 = ___y1;
 		__this->___y_1 = L_1;
-		// this.z = zw.x;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_2 = ___zw2;
 		float L_3 = L_2.___x_0;
 		__this->___z_2 = L_3;
-		// this.w = zw.y;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_4 = ___zw2;
 		float L_5 = L_4.___y_1;
 		__this->___w_3 = L_5;
-		// }
 		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4__ctor_mE0127BF9C28C1E4C277B2A428629D4E169E5B54A_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float ___x0, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___yz1, float ___w2, const RuntimeMethod* method) 
 {
 	{
-		// this.x = x;
 		float L_0 = ___x0;
 		__this->___x_0 = L_0;
-		// this.y = yz.x;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_1 = ___yz1;
 		float L_2 = L_1.___x_0;
 		__this->___y_1 = L_2;
-		// this.z = yz.y;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_3 = ___yz1;
 		float L_4 = L_3.___y_1;
 		__this->___z_2 = L_4;
-		// this.w = w;
 		float L_5 = ___w2;
 		__this->___w_3 = L_5;
-		// }
 		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4__ctor_mE1578C83CF9AE91C0503F565A0742AB8F23387D5_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float ___x0, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___yzw1, const RuntimeMethod* method) 
 {
 	{
-		// this.x = x;
 		float L_0 = ___x0;
 		__this->___x_0 = L_0;
-		// this.y = yzw.x;
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_1 = ___yzw1;
 		float L_2 = L_1.___x_0;
 		__this->___y_1 = L_2;
-		// this.z = yzw.y;
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_3 = ___yzw1;
 		float L_4 = L_3.___y_1;
 		__this->___z_2 = L_4;
-		// this.w = yzw.z;
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_5 = ___yzw1;
 		float L_6 = L_5.___z_2;
 		__this->___w_3 = L_6;
-		// }
 		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4__ctor_m2A6267BB3EF610ED0F833FD07322B70EA219E9C7_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___xy0, float ___z1, float ___w2, const RuntimeMethod* method) 
 {
 	{
-		// this.x = xy.x;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_0 = ___xy0;
 		float L_1 = L_0.___x_0;
 		__this->___x_0 = L_1;
-		// this.y = xy.y;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_2 = ___xy0;
 		float L_3 = L_2.___y_1;
 		__this->___y_1 = L_3;
-		// this.z = z;
 		float L_4 = ___z1;
 		__this->___z_2 = L_4;
-		// this.w = w;
 		float L_5 = ___w2;
 		__this->___w_3 = L_5;
-		// }
 		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4__ctor_m062DCDEE8A8DFB587E88A4F1D18E7415B683CB00_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___xy0, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___zw1, const RuntimeMethod* method) 
 {
 	{
-		// this.x = xy.x;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_0 = ___xy0;
 		float L_1 = L_0.___x_0;
 		__this->___x_0 = L_1;
-		// this.y = xy.y;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_2 = ___xy0;
 		float L_3 = L_2.___y_1;
 		__this->___y_1 = L_3;
-		// this.z = zw.x;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_4 = ___zw1;
 		float L_5 = L_4.___x_0;
 		__this->___z_2 = L_5;
-		// this.w = zw.y;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_6 = ___zw1;
 		float L_7 = L_6.___y_1;
 		__this->___w_3 = L_7;
-		// }
 		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4__ctor_m2A21052EF06884F609D1CDA9A2C2ED84A7584345_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___xyz0, float ___w1, const RuntimeMethod* method) 
 {
 	{
-		// this.x = xyz.x;
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_0 = ___xyz0;
 		float L_1 = L_0.___x_0;
 		__this->___x_0 = L_1;
-		// this.y = xyz.y;
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_2 = ___xyz0;
 		float L_3 = L_2.___y_1;
 		__this->___y_1 = L_3;
-		// this.z = xyz.z;
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_4 = ___xyz0;
 		float L_5 = L_4.___z_2;
 		__this->___z_2 = L_5;
-		// this.w = w;
 		float L_6 = ___w1;
 		__this->___w_3 = L_6;
-		// }
 		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4__ctor_m5377E3019CD30E1ECB87AF0FC64300131C7AECF0_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___xyzw0, const RuntimeMethod* method) 
 {
 	{
-		// this.x = xyzw.x;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = ___xyzw0;
 		float L_1 = L_0.___x_0;
 		__this->___x_0 = L_1;
-		// this.y = xyzw.y;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2 = ___xyzw0;
 		float L_3 = L_2.___y_1;
 		__this->___y_1 = L_3;
-		// this.z = xyzw.z;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_4 = ___xyzw0;
 		float L_5 = L_4.___z_2;
 		__this->___z_2 = L_5;
-		// this.w = xyzw.w;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_6 = ___xyzw0;
 		float L_7 = L_6.___w_3;
 		__this->___w_3 = L_7;
-		// }
 		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4__ctor_m103F8D391212FB2B0F01D09F7E9CCE4BDF0C7839_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float ___v0, const RuntimeMethod* method) 
 {
 	{
-		// this.x = v;
 		float L_0 = ___v0;
 		__this->___x_0 = L_0;
-		// this.y = v;
 		float L_1 = ___v0;
 		__this->___y_1 = L_1;
-		// this.z = v;
 		float L_2 = ___v0;
 		__this->___z_2 = L_2;
-		// this.w = v;
 		float L_3 = ___v0;
 		__this->___w_3 = L_3;
-		// }
 		return;
 	}
 }
@@ -21138,7 +19882,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4__ctor_m6B456D859102E9
 	float G_B12_0 = 0.0f;
 	float4_t89D9A294E7A79BD81BFBDD18654508532958555E* G_B12_1 = NULL;
 	{
-		// this.x = v ? 1.0f : 0.0f;
 		bool L_0 = ___v0;
 		G_B1_0 = __this;
 		if (L_0)
@@ -21162,7 +19905,6 @@ IL_000b:
 IL_0010:
 	{
 		G_B3_1->___x_0 = G_B3_0;
-		// this.y = v ? 1.0f : 0.0f;
 		bool L_1 = ___v0;
 		G_B4_0 = __this;
 		if (L_1)
@@ -21186,7 +19928,6 @@ IL_0020:
 IL_0025:
 	{
 		G_B6_1->___y_1 = G_B6_0;
-		// this.z = v ? 1.0f : 0.0f;
 		bool L_2 = ___v0;
 		G_B7_0 = __this;
 		if (L_2)
@@ -21210,7 +19951,6 @@ IL_0035:
 IL_003a:
 	{
 		G_B9_1->___z_2 = G_B9_0;
-		// this.w = v ? 1.0f : 0.0f;
 		bool L_3 = ___v0;
 		G_B10_0 = __this;
 		if (L_3)
@@ -21234,7 +19974,6 @@ IL_004a:
 IL_004f:
 	{
 		G_B12_1->___w_3 = G_B12_0;
-		// }
 		return;
 	}
 }
@@ -21257,7 +19996,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4__ctor_mDB676EF528732C
 	float G_B12_0 = 0.0f;
 	float4_t89D9A294E7A79BD81BFBDD18654508532958555E* G_B12_1 = NULL;
 	{
-		// this.x = v.x ? 1.0f : 0.0f;
 		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_0 = ___v0;
 		bool L_1 = L_0.___x_0;
 		G_B1_0 = __this;
@@ -21282,7 +20020,6 @@ IL_0010:
 IL_0015:
 	{
 		G_B3_1->___x_0 = G_B3_0;
-		// this.y = v.y ? 1.0f : 0.0f;
 		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_2 = ___v0;
 		bool L_3 = L_2.___y_1;
 		G_B4_0 = __this;
@@ -21307,7 +20044,6 @@ IL_002a:
 IL_002f:
 	{
 		G_B6_1->___y_1 = G_B6_0;
-		// this.z = v.z ? 1.0f : 0.0f;
 		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_4 = ___v0;
 		bool L_5 = L_4.___z_2;
 		G_B7_0 = __this;
@@ -21332,7 +20068,6 @@ IL_0044:
 IL_0049:
 	{
 		G_B9_1->___z_2 = G_B9_0;
-		// this.w = v.w ? 1.0f : 0.0f;
 		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_6 = ___v0;
 		bool L_7 = L_6.___w_3;
 		G_B10_0 = __this;
@@ -21357,98 +20092,76 @@ IL_005e:
 IL_0063:
 	{
 		G_B12_1->___w_3 = G_B12_0;
-		// }
 		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4__ctor_m72B2617C7A1E41F3FB190167B6A5F0C6BA1D9E26_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, int32_t ___v0, const RuntimeMethod* method) 
 {
 	{
-		// this.x = v;
 		int32_t L_0 = ___v0;
 		__this->___x_0 = ((float)L_0);
-		// this.y = v;
 		int32_t L_1 = ___v0;
 		__this->___y_1 = ((float)L_1);
-		// this.z = v;
 		int32_t L_2 = ___v0;
 		__this->___z_2 = ((float)L_2);
-		// this.w = v;
 		int32_t L_3 = ___v0;
 		__this->___w_3 = ((float)L_3);
-		// }
 		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4__ctor_mDE7B1FCF1C1895705616AB2D0C0ED42422743D1D_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, int4_tBA77D4945786DE82C3A487B33955EA1004996052 ___v0, const RuntimeMethod* method) 
 {
 	{
-		// this.x = v.x;
 		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_0 = ___v0;
 		int32_t L_1 = L_0.___x_0;
 		__this->___x_0 = ((float)L_1);
-		// this.y = v.y;
 		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_2 = ___v0;
 		int32_t L_3 = L_2.___y_1;
 		__this->___y_1 = ((float)L_3);
-		// this.z = v.z;
 		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_4 = ___v0;
 		int32_t L_5 = L_4.___z_2;
 		__this->___z_2 = ((float)L_5);
-		// this.w = v.w;
 		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_6 = ___v0;
 		int32_t L_7 = L_6.___w_3;
 		__this->___w_3 = ((float)L_7);
-		// }
 		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4__ctor_m0E4D8C9D9051CF73ED7A572495A9585896FB09EC_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, uint32_t ___v0, const RuntimeMethod* method) 
 {
 	{
-		// this.x = v;
 		uint32_t L_0 = ___v0;
 		__this->___x_0 = ((float)((double)(uint32_t)L_0));
-		// this.y = v;
 		uint32_t L_1 = ___v0;
 		__this->___y_1 = ((float)((double)(uint32_t)L_1));
-		// this.z = v;
 		uint32_t L_2 = ___v0;
 		__this->___z_2 = ((float)((double)(uint32_t)L_2));
-		// this.w = v;
 		uint32_t L_3 = ___v0;
 		__this->___w_3 = ((float)((double)(uint32_t)L_3));
-		// }
 		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4__ctor_m79386B3F45D2C76926D4AC54F5D57C7BC0192B9A_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 ___v0, const RuntimeMethod* method) 
 {
 	{
-		// this.x = v.x;
 		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_0 = ___v0;
 		uint32_t L_1 = L_0.___x_0;
 		__this->___x_0 = ((float)((double)(uint32_t)L_1));
-		// this.y = v.y;
 		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_2 = ___v0;
 		uint32_t L_3 = L_2.___y_1;
 		__this->___y_1 = ((float)((double)(uint32_t)L_3));
-		// this.z = v.z;
 		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_4 = ___v0;
 		uint32_t L_5 = L_4.___z_2;
 		__this->___z_2 = ((float)((double)(uint32_t)L_5));
-		// this.w = v.w;
 		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_6 = ___v0;
 		uint32_t L_7 = L_6.___w_3;
 		__this->___w_3 = ((float)((double)(uint32_t)L_7));
-		// }
 		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float half_op_Implicit_mCF67502DEA255982F0292914D6E06ED5823A9675_inline (half_tE8A6792149696F478D662DD4B736964C0FF018AF ___d0, const RuntimeMethod* method) 
 {
 	{
-		// public static implicit operator float(half d) { return math.f16tof32(d.value); }
 		half_tE8A6792149696F478D662DD4B736964C0FF018AF L_0 = ___d0;
 		uint16_t L_1 = L_0.___value_0;
 		float L_2;
@@ -21459,126 +20172,100 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float half_op_Implicit_mCF67502DE
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4__ctor_m22048628BEDCF4B12C0CFC9F1536192563D7A3F9_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, half_tE8A6792149696F478D662DD4B736964C0FF018AF ___v0, const RuntimeMethod* method) 
 {
 	{
-		// this.x = v;
 		half_tE8A6792149696F478D662DD4B736964C0FF018AF L_0 = ___v0;
 		float L_1;
 		L_1 = half_op_Implicit_mCF67502DEA255982F0292914D6E06ED5823A9675_inline(L_0, NULL);
 		__this->___x_0 = L_1;
-		// this.y = v;
 		half_tE8A6792149696F478D662DD4B736964C0FF018AF L_2 = ___v0;
 		float L_3;
 		L_3 = half_op_Implicit_mCF67502DEA255982F0292914D6E06ED5823A9675_inline(L_2, NULL);
 		__this->___y_1 = L_3;
-		// this.z = v;
 		half_tE8A6792149696F478D662DD4B736964C0FF018AF L_4 = ___v0;
 		float L_5;
 		L_5 = half_op_Implicit_mCF67502DEA255982F0292914D6E06ED5823A9675_inline(L_4, NULL);
 		__this->___z_2 = L_5;
-		// this.w = v;
 		half_tE8A6792149696F478D662DD4B736964C0FF018AF L_6 = ___v0;
 		float L_7;
 		L_7 = half_op_Implicit_mCF67502DEA255982F0292914D6E06ED5823A9675_inline(L_6, NULL);
 		__this->___w_3 = L_7;
-		// }
 		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4__ctor_m01CCEB586EAAE29F243B120FB95B6965EA2F1E53_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, half4_t69CC75C393FD0ED1CEFC8B6F1C0FBE7746CF9826 ___v0, const RuntimeMethod* method) 
 {
 	{
-		// this.x = v.x;
 		half4_t69CC75C393FD0ED1CEFC8B6F1C0FBE7746CF9826 L_0 = ___v0;
 		half_tE8A6792149696F478D662DD4B736964C0FF018AF L_1 = L_0.___x_0;
 		float L_2;
 		L_2 = half_op_Implicit_mCF67502DEA255982F0292914D6E06ED5823A9675_inline(L_1, NULL);
 		__this->___x_0 = L_2;
-		// this.y = v.y;
 		half4_t69CC75C393FD0ED1CEFC8B6F1C0FBE7746CF9826 L_3 = ___v0;
 		half_tE8A6792149696F478D662DD4B736964C0FF018AF L_4 = L_3.___y_1;
 		float L_5;
 		L_5 = half_op_Implicit_mCF67502DEA255982F0292914D6E06ED5823A9675_inline(L_4, NULL);
 		__this->___y_1 = L_5;
-		// this.z = v.z;
 		half4_t69CC75C393FD0ED1CEFC8B6F1C0FBE7746CF9826 L_6 = ___v0;
 		half_tE8A6792149696F478D662DD4B736964C0FF018AF L_7 = L_6.___z_2;
 		float L_8;
 		L_8 = half_op_Implicit_mCF67502DEA255982F0292914D6E06ED5823A9675_inline(L_7, NULL);
 		__this->___z_2 = L_8;
-		// this.w = v.w;
 		half4_t69CC75C393FD0ED1CEFC8B6F1C0FBE7746CF9826 L_9 = ___v0;
 		half_tE8A6792149696F478D662DD4B736964C0FF018AF L_10 = L_9.___w_3;
 		float L_11;
 		L_11 = half_op_Implicit_mCF67502DEA255982F0292914D6E06ED5823A9675_inline(L_10, NULL);
 		__this->___w_3 = L_11;
-		// }
 		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4__ctor_m45A0F0F4BE8109A78BE8CBA5E469FB1E60948853_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, double ___v0, const RuntimeMethod* method) 
 {
 	{
-		// this.x = (float)v;
 		double L_0 = ___v0;
 		__this->___x_0 = ((float)L_0);
-		// this.y = (float)v;
 		double L_1 = ___v0;
 		__this->___y_1 = ((float)L_1);
-		// this.z = (float)v;
 		double L_2 = ___v0;
 		__this->___z_2 = ((float)L_2);
-		// this.w = (float)v;
 		double L_3 = ___v0;
 		__this->___w_3 = ((float)L_3);
-		// }
 		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4__ctor_m1ADDCFC0D2A013BC3C9CD225095F6A4219930613_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 ___v0, const RuntimeMethod* method) 
 {
 	{
-		// this.x = (float)v.x;
 		double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 L_0 = ___v0;
 		double L_1 = L_0.___x_0;
 		__this->___x_0 = ((float)L_1);
-		// this.y = (float)v.y;
 		double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 L_2 = ___v0;
 		double L_3 = L_2.___y_1;
 		__this->___y_1 = ((float)L_3);
-		// this.z = (float)v.z;
 		double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 L_4 = ___v0;
 		double L_5 = L_4.___z_2;
 		__this->___z_2 = ((float)L_5);
-		// this.w = (float)v.w;
 		double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 L_6 = ___v0;
 		double L_7 = L_6.___w_3;
 		__this->___w_3 = ((float)L_7);
-		// }
 		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void bool4__ctor_mF155096A6E6BF25B97648480B9A5224A22DFFF88_inline (bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619* __this, bool ___x0, bool ___y1, bool ___z2, bool ___w3, const RuntimeMethod* method) 
 {
 	{
-		// this.x = x;
 		bool L_0 = ___x0;
 		__this->___x_0 = L_0;
-		// this.y = y;
 		bool L_1 = ___y1;
 		__this->___y_1 = L_1;
-		// this.z = z;
 		bool L_2 = ___z2;
 		__this->___z_2 = L_2;
-		// this.w = w;
 		bool L_3 = ___w3;
 		__this->___w_3 = L_3;
-		// }
 		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xxxx_m8F40EC9430A1D59D2B31A60ACBC58C577CF983F1_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(x, x, x, x); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___x_0;
@@ -21592,7 +20279,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xxxy_mB60A06792D3B75CA8ED7494FD001D645C48B6A07_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(x, x, x, y); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___x_0;
@@ -21606,7 +20292,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xxxz_m7C7FAD54D570B90B587EC7D5A91394BFFA4B4AAC_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(x, x, x, z); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___x_0;
@@ -21620,7 +20305,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xxxw_m87505AE7A303B218AEB3FD569AB5F86177A46BFC_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(x, x, x, w); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___x_0;
@@ -21634,7 +20318,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xxyx_m4C69FB321F0350260A41BFC56D80E459B352C40E_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(x, x, y, x); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___y_1;
@@ -21648,7 +20331,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xxyy_m55E70D8F4F6D9D8A51815A47545A0E91F2560D48_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(x, x, y, y); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___y_1;
@@ -21662,7 +20344,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xxyz_mDDE8B44EAF0CD83D56B7BA56C60E0CB72C860DFC_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(x, x, y, z); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___y_1;
@@ -21676,7 +20357,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xxyw_mDE1A1CC0B75113EF8E0A936B7A25CD02E11841CD_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(x, x, y, w); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___y_1;
@@ -21690,7 +20370,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xxzx_m83AE5E29E5AFD8D8A46CBF37A10C3D653BDCB803_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(x, x, z, x); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___z_2;
@@ -21704,7 +20383,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xxzy_m124673EFE844B47C74767459A426BE130849B1F4_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(x, x, z, y); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___z_2;
@@ -21718,7 +20396,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xxzz_m830E476C93880BCE47EC0BB886FD7FF51E311B45_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(x, x, z, z); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___z_2;
@@ -21732,7 +20409,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xxzw_m857408B09FFBB19E3ECE7AF8986DBFE6A2B1B646_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(x, x, z, w); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___z_2;
@@ -21746,7 +20422,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xxwx_m55ED1CF16F3E7211C25A7A2E98F884C4F2F0C5A1_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(x, x, w, x); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___w_3;
@@ -21760,7 +20435,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xxwy_m3224D4A8D48AA6B9802A0B0EEEACD0223C540EED_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(x, x, w, y); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___w_3;
@@ -21774,7 +20448,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xxwz_m3A024CA815262DBAB4D00E58813E536B23DC20A7_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(x, x, w, z); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___w_3;
@@ -21788,7 +20461,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xxww_mDF61FDD70AE94BB58DC83B7EE6531693C1D58C56_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(x, x, w, w); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___w_3;
@@ -21802,7 +20474,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xyxx_mD131B09234088607C323D1704F2BBBE6A47031C7_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(x, y, x, x); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___x_0;
@@ -21816,7 +20487,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xyxy_m82B693104B67CCDBFACE9C458A8CA02AAE729E4C_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(x, y, x, y); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___x_0;
@@ -21830,7 +20500,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xyxz_m195E01E8C5B8C67D00251357EE777221A3A47F5C_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(x, y, x, z); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___x_0;
@@ -21844,7 +20513,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xyxw_mC3F0B7721711B84ACAA538916489DDB9E2FB70E8_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(x, y, x, w); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___x_0;
@@ -21858,7 +20526,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xyyx_m4499B417F971B3BACF245E47DA306D7A74069C0B_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(x, y, y, x); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___y_1;
@@ -21872,7 +20539,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xyyy_m0A996586AA18A44036289D74FB1AA5D0BD713B67_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(x, y, y, y); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___y_1;
@@ -21886,7 +20552,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xyyz_mD584376E45A2527A25DB7D11FCA21A1FA4F404A0_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(x, y, y, z); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___y_1;
@@ -21900,7 +20565,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xyyw_m9A5372E17FF0D36F4A5B56C5946F704ADA12916E_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(x, y, y, w); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___y_1;
@@ -21914,7 +20578,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xyzx_m5FFC709BBF25AC7B7755AE077E4288E47089C76C_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(x, y, z, x); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___z_2;
@@ -21928,7 +20591,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xyzy_m53051A22D8C89B560FB2E65D6D0707157978F6AE_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(x, y, z, y); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___z_2;
@@ -21942,7 +20604,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xyzz_mE43081C0A7DD7E7D91C0E8CA3FF8922D7590ADD1_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(x, y, z, z); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___z_2;
@@ -21956,7 +20617,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xyzw_m4C11FB08575F69AE6A1FF3A818ABE84B249700F5_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(x, y, z, w); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___z_2;
@@ -21970,30 +20630,24 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4_set_xyzw_m4160F7EEBE5151D1D68BBC7CA3F28E6529DF1074_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___value0, const RuntimeMethod* method) 
 {
 	{
-		// set { x = value.x; y = value.y; z = value.z; w = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = ___value0;
 		float L_1 = L_0.___x_0;
 		__this->___x_0 = L_1;
-		// set { x = value.x; y = value.y; z = value.z; w = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2 = ___value0;
 		float L_3 = L_2.___y_1;
 		__this->___y_1 = L_3;
-		// set { x = value.x; y = value.y; z = value.z; w = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_4 = ___value0;
 		float L_5 = L_4.___z_2;
 		__this->___z_2 = L_5;
-		// set { x = value.x; y = value.y; z = value.z; w = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_6 = ___value0;
 		float L_7 = L_6.___w_3;
 		__this->___w_3 = L_7;
-		// set { x = value.x; y = value.y; z = value.z; w = value.w; }
 		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xywx_mD7F489351DED2B57D8504612DE5241CBD623F461_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(x, y, w, x); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___w_3;
@@ -22007,7 +20661,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xywy_mC0DB39FF4599BF358B75B37E3CF845736B626A14_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(x, y, w, y); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___w_3;
@@ -22021,7 +20674,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xywz_mC8EA9B8618EAF8D0B0D239551877F01748D1D956_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(x, y, w, z); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___w_3;
@@ -22035,30 +20687,24 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4_set_xywz_m478C243C3192CE3283517030A761A39265D0F620_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___value0, const RuntimeMethod* method) 
 {
 	{
-		// set { x = value.x; y = value.y; w = value.z; z = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = ___value0;
 		float L_1 = L_0.___x_0;
 		__this->___x_0 = L_1;
-		// set { x = value.x; y = value.y; w = value.z; z = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2 = ___value0;
 		float L_3 = L_2.___y_1;
 		__this->___y_1 = L_3;
-		// set { x = value.x; y = value.y; w = value.z; z = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_4 = ___value0;
 		float L_5 = L_4.___z_2;
 		__this->___w_3 = L_5;
-		// set { x = value.x; y = value.y; w = value.z; z = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_6 = ___value0;
 		float L_7 = L_6.___w_3;
 		__this->___z_2 = L_7;
-		// set { x = value.x; y = value.y; w = value.z; z = value.w; }
 		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xyww_m3E3B689D7E772061F694D35CEAA0A26700458622_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(x, y, w, w); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___w_3;
@@ -22072,7 +20718,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xzxx_m3F050B17072B0886C93D43197E2018A204159DB2_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(x, z, x, x); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___x_0;
@@ -22086,7 +20731,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xzxy_mAD1E39B48DC81D5174810AE1706FBC870F35B2F6_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(x, z, x, y); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___x_0;
@@ -22100,7 +20744,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xzxz_mB4AB5ED96774A2670A4D54049ADA28DC3FE2EC3D_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(x, z, x, z); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___x_0;
@@ -22114,7 +20757,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xzxw_mE516CBF1C74647D2BCE0A243B23BFE0674B56EC5_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(x, z, x, w); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___x_0;
@@ -22128,7 +20770,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xzyx_mD73D5B20135DCCCFCDEB4284E63413A425909B64_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(x, z, y, x); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___y_1;
@@ -22142,7 +20783,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xzyy_mAE6087BFD2F09778038BDE80AADDBBD53C7F3368_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(x, z, y, y); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___y_1;
@@ -22156,7 +20796,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xzyz_mD2DCE3634D416574714D73BD16EFFBC0D8CCF0BB_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(x, z, y, z); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___y_1;
@@ -22170,7 +20809,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xzyw_m42B89FD2162D9149DEAB13081EFA51F6C6259B78_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(x, z, y, w); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___y_1;
@@ -22184,30 +20822,24 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4_set_xzyw_m6D455CF6D73CE902BD93695A2F12C056CD2B817E_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___value0, const RuntimeMethod* method) 
 {
 	{
-		// set { x = value.x; z = value.y; y = value.z; w = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = ___value0;
 		float L_1 = L_0.___x_0;
 		__this->___x_0 = L_1;
-		// set { x = value.x; z = value.y; y = value.z; w = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2 = ___value0;
 		float L_3 = L_2.___y_1;
 		__this->___z_2 = L_3;
-		// set { x = value.x; z = value.y; y = value.z; w = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_4 = ___value0;
 		float L_5 = L_4.___z_2;
 		__this->___y_1 = L_5;
-		// set { x = value.x; z = value.y; y = value.z; w = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_6 = ___value0;
 		float L_7 = L_6.___w_3;
 		__this->___w_3 = L_7;
-		// set { x = value.x; z = value.y; y = value.z; w = value.w; }
 		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xzzx_m7B9054BBAB84D51031DB67F60170BA0C0301010B_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(x, z, z, x); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___z_2;
@@ -22221,7 +20853,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xzzy_mCBA67AE28C7AB0DD7EE4FCE5133ABA8B8D8D09A9_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(x, z, z, y); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___z_2;
@@ -22235,7 +20866,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xzzz_m4789CE16B63FEE6D45A15C5435EE6E37114FA3D6_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(x, z, z, z); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___z_2;
@@ -22249,7 +20879,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xzzw_mD03D4FC26A957B51D9EE918E8D807BA53835D016_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(x, z, z, w); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___z_2;
@@ -22263,7 +20892,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xzwx_m714C214A3F188066563B149B10F1C22CF30E8527_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(x, z, w, x); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___w_3;
@@ -22277,7 +20905,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xzwy_m907593A4BABCC34B5DB8BACC2AB01ACD60358897_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(x, z, w, y); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___w_3;
@@ -22291,30 +20918,24 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4_set_xzwy_mA076F44E38C1FDAE6AEE06F26AEA261B1C8E0715_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___value0, const RuntimeMethod* method) 
 {
 	{
-		// set { x = value.x; z = value.y; w = value.z; y = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = ___value0;
 		float L_1 = L_0.___x_0;
 		__this->___x_0 = L_1;
-		// set { x = value.x; z = value.y; w = value.z; y = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2 = ___value0;
 		float L_3 = L_2.___y_1;
 		__this->___z_2 = L_3;
-		// set { x = value.x; z = value.y; w = value.z; y = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_4 = ___value0;
 		float L_5 = L_4.___z_2;
 		__this->___w_3 = L_5;
-		// set { x = value.x; z = value.y; w = value.z; y = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_6 = ___value0;
 		float L_7 = L_6.___w_3;
 		__this->___y_1 = L_7;
-		// set { x = value.x; z = value.y; w = value.z; y = value.w; }
 		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xzwz_mEC6139F8F6D8ACDE486DA80CA8E16972E2B94EEF_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(x, z, w, z); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___w_3;
@@ -22328,7 +20949,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xzww_m39D1F8DF7F0FA3B0691E7EB428DD18DD3A97DA13_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(x, z, w, w); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___w_3;
@@ -22342,7 +20962,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xwxx_m79BE58A4FC9E8D4EA911E7BC66DAB664C05E9CA9_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(x, w, x, x); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___x_0;
@@ -22356,7 +20975,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xwxy_m4568547930CFE1953B96737806D895E77F0AA0BB_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(x, w, x, y); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___x_0;
@@ -22370,7 +20988,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xwxz_mF57CF8A4E231AEB46BE20D9FC51D2D716E4127E8_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(x, w, x, z); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___x_0;
@@ -22384,7 +21001,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xwxw_m43C3341863787DC2C8AF0EFDA2CF916DD1AB267F_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(x, w, x, w); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___x_0;
@@ -22398,7 +21014,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xwyx_mC541EEB85D3D6CCDCC9B7715F0B8D4AC0F61CF21_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(x, w, y, x); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___y_1;
@@ -22412,7 +21027,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xwyy_m5AEB69D65350F56D01AC1C62CC81368AE40D696E_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(x, w, y, y); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___y_1;
@@ -22426,7 +21040,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xwyz_m3208DE71CEC9BBD07E121E18E91719560FA0F580_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(x, w, y, z); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___y_1;
@@ -22440,30 +21053,24 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4_set_xwyz_mC30F5E8A6968A44274EB7A4EF19575FB6B19C0A2_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___value0, const RuntimeMethod* method) 
 {
 	{
-		// set { x = value.x; w = value.y; y = value.z; z = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = ___value0;
 		float L_1 = L_0.___x_0;
 		__this->___x_0 = L_1;
-		// set { x = value.x; w = value.y; y = value.z; z = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2 = ___value0;
 		float L_3 = L_2.___y_1;
 		__this->___w_3 = L_3;
-		// set { x = value.x; w = value.y; y = value.z; z = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_4 = ___value0;
 		float L_5 = L_4.___z_2;
 		__this->___y_1 = L_5;
-		// set { x = value.x; w = value.y; y = value.z; z = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_6 = ___value0;
 		float L_7 = L_6.___w_3;
 		__this->___z_2 = L_7;
-		// set { x = value.x; w = value.y; y = value.z; z = value.w; }
 		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xwyw_mF14B69D71988C2A1F4A59FCC366132AE9205EC4C_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(x, w, y, w); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___y_1;
@@ -22477,7 +21084,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xwzx_m72E42BD38AE0EA992D6B09BD77E680F32F67189B_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(x, w, z, x); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___z_2;
@@ -22491,7 +21097,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xwzy_mC26819BCCDDCAFFBEFAC7D7B7F7790D913A0E40F_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(x, w, z, y); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___z_2;
@@ -22505,30 +21110,24 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4_set_xwzy_mA7F17751290C4A6D07DAB098DBA229238DB7D356_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___value0, const RuntimeMethod* method) 
 {
 	{
-		// set { x = value.x; w = value.y; z = value.z; y = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = ___value0;
 		float L_1 = L_0.___x_0;
 		__this->___x_0 = L_1;
-		// set { x = value.x; w = value.y; z = value.z; y = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2 = ___value0;
 		float L_3 = L_2.___y_1;
 		__this->___w_3 = L_3;
-		// set { x = value.x; w = value.y; z = value.z; y = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_4 = ___value0;
 		float L_5 = L_4.___z_2;
 		__this->___z_2 = L_5;
-		// set { x = value.x; w = value.y; z = value.z; y = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_6 = ___value0;
 		float L_7 = L_6.___w_3;
 		__this->___y_1 = L_7;
-		// set { x = value.x; w = value.y; z = value.z; y = value.w; }
 		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xwzz_mBB10AD5950DF7CABEC50ADF714D95187FFA5F237_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(x, w, z, z); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___z_2;
@@ -22542,7 +21141,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xwzw_m92ECCD9CA58CF273558A7CCA268507C319725B03_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(x, w, z, w); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___z_2;
@@ -22556,7 +21154,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xwwx_m395E9D1F778D65738411B887A5560902C4BF62BF_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(x, w, w, x); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___w_3;
@@ -22570,7 +21167,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xwwy_m57BD28F861AA4C4B51068BFDAB2AB248F72A8537_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(x, w, w, y); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___w_3;
@@ -22584,7 +21180,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xwwz_m334D1E4F857B5FE78B48314873A1722E1C760430_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(x, w, w, z); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___w_3;
@@ -22598,7 +21193,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_xwww_mC4936C0CBE0CD3CCDE453D13718807AFDBE39F19_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(x, w, w, w); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___w_3;
@@ -22612,7 +21206,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yxxx_mD1DA91560C448F059680B5C1D52629585B0D362E_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(y, x, x, x); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___x_0;
@@ -22626,7 +21219,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yxxy_mF847115FCC1161BD05190606D87D53075C91E80A_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(y, x, x, y); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___x_0;
@@ -22640,7 +21232,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yxxz_m8CF2508FDA1FF57F187C98B52661DEDCA57A68B2_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(y, x, x, z); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___x_0;
@@ -22654,7 +21245,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yxxw_m2376397B481912C9F1D803B9266ABDA4D9123D99_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(y, x, x, w); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___x_0;
@@ -22668,7 +21258,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yxyx_m99E51161A6A3C92496C9E97D80839C47CE7DEE0A_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(y, x, y, x); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___y_1;
@@ -22682,7 +21271,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yxyy_m5F6FAE60DA46C98DDE3226AB29A6067C9E41CA2C_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(y, x, y, y); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___y_1;
@@ -22696,7 +21284,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yxyz_m28404E28683869FDD70EAF09412F4EC54FEC104B_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(y, x, y, z); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___y_1;
@@ -22710,7 +21297,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yxyw_m84CAF63B2D0356485CF9BAB8487C0972F69AE701_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(y, x, y, w); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___y_1;
@@ -22724,7 +21310,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yxzx_m81D55AF08944224BC9EF3B9F51C1B2FFC755838B_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(y, x, z, x); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___z_2;
@@ -22738,7 +21323,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yxzy_m16E2A16D34B3D91D72AE39A915CF8F21B6F33846_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(y, x, z, y); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___z_2;
@@ -22752,7 +21336,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yxzz_mE114C7ADF54286DE85D98FBEB41C3CB1DF2AA6E3_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(y, x, z, z); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___z_2;
@@ -22766,7 +21349,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yxzw_mB1678C1C0D87193A581588937D4F357C5B6737F0_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(y, x, z, w); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___z_2;
@@ -22780,30 +21362,24 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4_set_yxzw_m0AB9B2D33097C07B90B841F9049F5A06EFAF9A76_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___value0, const RuntimeMethod* method) 
 {
 	{
-		// set { y = value.x; x = value.y; z = value.z; w = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = ___value0;
 		float L_1 = L_0.___x_0;
 		__this->___y_1 = L_1;
-		// set { y = value.x; x = value.y; z = value.z; w = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2 = ___value0;
 		float L_3 = L_2.___y_1;
 		__this->___x_0 = L_3;
-		// set { y = value.x; x = value.y; z = value.z; w = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_4 = ___value0;
 		float L_5 = L_4.___z_2;
 		__this->___z_2 = L_5;
-		// set { y = value.x; x = value.y; z = value.z; w = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_6 = ___value0;
 		float L_7 = L_6.___w_3;
 		__this->___w_3 = L_7;
-		// set { y = value.x; x = value.y; z = value.z; w = value.w; }
 		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yxwx_m9D317F57218E92749D708EA8E77E94229C652934_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(y, x, w, x); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___w_3;
@@ -22817,7 +21393,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yxwy_m2FFC155E0F37818F650CABED01409A713E011B12_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(y, x, w, y); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___w_3;
@@ -22831,7 +21406,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yxwz_m56B77B6F75B2E36100950DBEDE10E76EB36A44BD_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(y, x, w, z); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___w_3;
@@ -22845,30 +21419,24 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4_set_yxwz_m0B1E38C892B41419BDEE8C6247B36CD9594F61E1_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___value0, const RuntimeMethod* method) 
 {
 	{
-		// set { y = value.x; x = value.y; w = value.z; z = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = ___value0;
 		float L_1 = L_0.___x_0;
 		__this->___y_1 = L_1;
-		// set { y = value.x; x = value.y; w = value.z; z = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2 = ___value0;
 		float L_3 = L_2.___y_1;
 		__this->___x_0 = L_3;
-		// set { y = value.x; x = value.y; w = value.z; z = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_4 = ___value0;
 		float L_5 = L_4.___z_2;
 		__this->___w_3 = L_5;
-		// set { y = value.x; x = value.y; w = value.z; z = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_6 = ___value0;
 		float L_7 = L_6.___w_3;
 		__this->___z_2 = L_7;
-		// set { y = value.x; x = value.y; w = value.z; z = value.w; }
 		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yxww_mDCD9EF0EC33AA983193C2FEE3D01CA20C7F7BE14_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(y, x, w, w); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___w_3;
@@ -22882,7 +21450,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yyxx_mE9B0F0B89589B962DAC63FFE523D89F3309C36B3_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(y, y, x, x); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___x_0;
@@ -22896,7 +21463,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yyxy_m566D88BC46A73DBFD4D61B84E7BBDC6994F193B6_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(y, y, x, y); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___x_0;
@@ -22910,7 +21476,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yyxz_m9F9A4FEC87515800A5B70C90EF3CA47295F1DA67_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(y, y, x, z); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___x_0;
@@ -22924,7 +21489,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yyxw_mEB3F2C44FAB357ACCBB6542D31697D08C008A8DA_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(y, y, x, w); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___x_0;
@@ -22938,7 +21502,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yyyx_m31649B4987F7A1EC6EBFE13C18FF14EC45FF1384_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(y, y, y, x); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___y_1;
@@ -22952,7 +21515,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yyyy_m4E8CB6E8881B2242B409458B39F29AA184D8B89B_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(y, y, y, y); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___y_1;
@@ -22966,7 +21528,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yyyz_m906BC4D47E52A32E5EE5D12257EA72F8244EA345_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(y, y, y, z); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___y_1;
@@ -22980,7 +21541,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yyyw_m87838E307CAF75CE6B1630E083FC1B47F95073A4_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(y, y, y, w); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___y_1;
@@ -22994,7 +21554,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yyzx_m262A3AE8F8DF12FC116E92D3E327A053AABF2189_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(y, y, z, x); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___z_2;
@@ -23008,7 +21567,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yyzy_m2376255396A17E5DCFE19FAE13688D1626901E68_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(y, y, z, y); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___z_2;
@@ -23022,7 +21580,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yyzz_mCE81FA9314E2AE0B623DFC005958839E61AC102B_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(y, y, z, z); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___z_2;
@@ -23036,7 +21593,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yyzw_mF195C040003F07CFE9E8963CF082D84FFD7A9FC6_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(y, y, z, w); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___z_2;
@@ -23050,7 +21606,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yywx_m1C7BEE739F12E5EA36CF0AA30061E23A460C9581_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(y, y, w, x); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___w_3;
@@ -23064,7 +21619,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yywy_m5D2B1BC630DF66923051017C931D6827D909C463_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(y, y, w, y); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___w_3;
@@ -23078,7 +21632,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yywz_mE5F53E18DC3C169E50BA1A3976D8E451E38F8417_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(y, y, w, z); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___w_3;
@@ -23092,7 +21645,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yyww_mE5427433653949704E958B131B8F94B23D2C72B0_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(y, y, w, w); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___w_3;
@@ -23106,7 +21658,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yzxx_m5EAECB5141E5ECDE8D1CA49EEF9335FEC619F75D_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(y, z, x, x); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___x_0;
@@ -23120,7 +21671,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yzxy_m78C60157637373AC6CB36343778B04CAA046ADDD_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(y, z, x, y); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___x_0;
@@ -23134,7 +21684,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yzxz_mE81FC33B6A0D370B2C8DB339CC5501533BB31223_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(y, z, x, z); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___x_0;
@@ -23148,7 +21697,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yzxw_mFCEE6F5B880C4EA7AD20BFB8C70987219D0B4CF3_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(y, z, x, w); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___x_0;
@@ -23162,30 +21710,24 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4_set_yzxw_m276856A6CF759AEF45DCAE15D7BB72C1831BB774_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___value0, const RuntimeMethod* method) 
 {
 	{
-		// set { y = value.x; z = value.y; x = value.z; w = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = ___value0;
 		float L_1 = L_0.___x_0;
 		__this->___y_1 = L_1;
-		// set { y = value.x; z = value.y; x = value.z; w = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2 = ___value0;
 		float L_3 = L_2.___y_1;
 		__this->___z_2 = L_3;
-		// set { y = value.x; z = value.y; x = value.z; w = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_4 = ___value0;
 		float L_5 = L_4.___z_2;
 		__this->___x_0 = L_5;
-		// set { y = value.x; z = value.y; x = value.z; w = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_6 = ___value0;
 		float L_7 = L_6.___w_3;
 		__this->___w_3 = L_7;
-		// set { y = value.x; z = value.y; x = value.z; w = value.w; }
 		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yzyx_mD7952E1E0FECE47136A2AE69FAFD5D7B94641F9D_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(y, z, y, x); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___y_1;
@@ -23199,7 +21741,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yzyy_m8D3BE2116DB8737468D5921C6D8CCF5DC1078B0F_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(y, z, y, y); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___y_1;
@@ -23213,7 +21754,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yzyz_m5D5812005A81556A35721F3C2EA9EAABDF615B7B_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(y, z, y, z); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___y_1;
@@ -23227,7 +21767,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yzyw_m859A2DBC7A75E5AE2A5D2422A7E2866967964F19_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(y, z, y, w); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___y_1;
@@ -23241,7 +21780,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yzzx_m9647EF506B4CEFCA85B509496D5707D2DE773430_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(y, z, z, x); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___z_2;
@@ -23255,7 +21793,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yzzy_mD82CFB7783DD55F16072E893F57B7B3B376F84F4_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(y, z, z, y); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___z_2;
@@ -23269,7 +21806,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yzzz_mA72487B67357F6882D6EF8A45C42B045F916C7F8_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(y, z, z, z); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___z_2;
@@ -23283,7 +21819,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yzzw_m70733B3400199B70B32BBD9F1FE338DED349F5A2_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(y, z, z, w); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___z_2;
@@ -23297,7 +21832,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yzwx_m4A3FE22B5B0ECD034C12F96F4EEC64D64253ED50_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(y, z, w, x); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___w_3;
@@ -23311,30 +21845,24 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4_set_yzwx_m44C58F9A95DE9355D9AA442A90B84F89D461A5B1_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___value0, const RuntimeMethod* method) 
 {
 	{
-		// set { y = value.x; z = value.y; w = value.z; x = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = ___value0;
 		float L_1 = L_0.___x_0;
 		__this->___y_1 = L_1;
-		// set { y = value.x; z = value.y; w = value.z; x = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2 = ___value0;
 		float L_3 = L_2.___y_1;
 		__this->___z_2 = L_3;
-		// set { y = value.x; z = value.y; w = value.z; x = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_4 = ___value0;
 		float L_5 = L_4.___z_2;
 		__this->___w_3 = L_5;
-		// set { y = value.x; z = value.y; w = value.z; x = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_6 = ___value0;
 		float L_7 = L_6.___w_3;
 		__this->___x_0 = L_7;
-		// set { y = value.x; z = value.y; w = value.z; x = value.w; }
 		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yzwy_m9775BCBF12CC24DE97209F8BF76B6FE9EE91071C_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(y, z, w, y); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___w_3;
@@ -23348,7 +21876,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yzwz_m7BC412D31A396F93A3AC7AE11A168219D97BD5FC_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(y, z, w, z); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___w_3;
@@ -23362,7 +21889,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_yzww_mB946A74549C0E69CD08697AC40DF32DB4497E093_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(y, z, w, w); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___w_3;
@@ -23376,7 +21902,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_ywxx_mEEFE5E02F09C954DA068C8F00E5F212B4AA41EC4_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(y, w, x, x); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___x_0;
@@ -23390,7 +21915,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_ywxy_m152F97C86E3C35FB4A0E7FBB9365FCAD31768BF6_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(y, w, x, y); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___x_0;
@@ -23404,7 +21928,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_ywxz_mE6CBA29E92C26D6EA08770F0B272D41FD0B9236E_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(y, w, x, z); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___x_0;
@@ -23418,30 +21941,24 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4_set_ywxz_m8DE25D3C990904DA62BF269CD5102905F72591E9_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___value0, const RuntimeMethod* method) 
 {
 	{
-		// set { y = value.x; w = value.y; x = value.z; z = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = ___value0;
 		float L_1 = L_0.___x_0;
 		__this->___y_1 = L_1;
-		// set { y = value.x; w = value.y; x = value.z; z = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2 = ___value0;
 		float L_3 = L_2.___y_1;
 		__this->___w_3 = L_3;
-		// set { y = value.x; w = value.y; x = value.z; z = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_4 = ___value0;
 		float L_5 = L_4.___z_2;
 		__this->___x_0 = L_5;
-		// set { y = value.x; w = value.y; x = value.z; z = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_6 = ___value0;
 		float L_7 = L_6.___w_3;
 		__this->___z_2 = L_7;
-		// set { y = value.x; w = value.y; x = value.z; z = value.w; }
 		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_ywxw_m9452BA4D21A7CAA18A2248552A15AB504391E3A6_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(y, w, x, w); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___x_0;
@@ -23455,7 +21972,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_ywyx_mD05A329D0EBF05737859A30B6887427B9701A7B0_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(y, w, y, x); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___y_1;
@@ -23469,7 +21985,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_ywyy_m414CC0845575F6550B5CD213485213C715E87400_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(y, w, y, y); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___y_1;
@@ -23483,7 +21998,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_ywyz_m4F4220199EE70B02C15B3E9DC4BC9359B989AF43_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(y, w, y, z); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___y_1;
@@ -23497,7 +22011,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_ywyw_m919D82A39B5AE5F78BEDEE2F08D42DF93A564A3D_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(y, w, y, w); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___y_1;
@@ -23511,7 +22024,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_ywzx_m7A95AA3E8B053BFBF712EDBC0D70264ACB5D4C3C_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(y, w, z, x); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___z_2;
@@ -23525,30 +22037,24 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4_set_ywzx_m9D4CAF14D333A16BE182954652DEBC5B310CAF71_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___value0, const RuntimeMethod* method) 
 {
 	{
-		// set { y = value.x; w = value.y; z = value.z; x = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = ___value0;
 		float L_1 = L_0.___x_0;
 		__this->___y_1 = L_1;
-		// set { y = value.x; w = value.y; z = value.z; x = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2 = ___value0;
 		float L_3 = L_2.___y_1;
 		__this->___w_3 = L_3;
-		// set { y = value.x; w = value.y; z = value.z; x = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_4 = ___value0;
 		float L_5 = L_4.___z_2;
 		__this->___z_2 = L_5;
-		// set { y = value.x; w = value.y; z = value.z; x = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_6 = ___value0;
 		float L_7 = L_6.___w_3;
 		__this->___x_0 = L_7;
-		// set { y = value.x; w = value.y; z = value.z; x = value.w; }
 		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_ywzy_m5791D3E5F902DC90512A7C2141B5E3473831E1DD_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(y, w, z, y); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___z_2;
@@ -23562,7 +22068,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_ywzz_m8357F436DFC7C9361B0896A8F4978AB23A82D871_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(y, w, z, z); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___z_2;
@@ -23576,7 +22081,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_ywzw_mF0CB6FCC7E5C3A135C7DE945788C387E93BCB8DE_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(y, w, z, w); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___z_2;
@@ -23590,7 +22094,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_ywwx_mD564FCDCC8FCD9079609AEB53EA33DA1EEB20113_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(y, w, w, x); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___w_3;
@@ -23604,7 +22107,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_ywwy_mFD16F05D2D2EFB8FFF37E64C752365C18B811EC4_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(y, w, w, y); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___w_3;
@@ -23618,7 +22120,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_ywwz_m20865206CBADAD29BB1A6B6F879DB04B11CDB110_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(y, w, w, z); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___w_3;
@@ -23632,7 +22133,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_ywww_mB50B06CC416F05226E697A5D54987FE108B6E4DD_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(y, w, w, w); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___w_3;
@@ -23646,7 +22146,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zxxx_mAF1A2B558EC0A3FD25BAD6DF6BFFF63CFD8CEB45_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(z, x, x, x); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___x_0;
@@ -23660,7 +22159,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zxxy_mB3B6A83BD2107651D6E8A542BE38AF1ABED9BD0A_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(z, x, x, y); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___x_0;
@@ -23674,7 +22172,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zxxz_m8EC36A158A5DD29D86E7530AD72CD489851824CE_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(z, x, x, z); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___x_0;
@@ -23688,7 +22185,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zxxw_m6931F5DA9D07172C64B81408EDD4DB06AD0ED98E_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(z, x, x, w); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___x_0;
@@ -23702,7 +22198,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zxyx_mB2964421160CD219A90CB83015B2A3EE995012F8_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(z, x, y, x); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___y_1;
@@ -23716,7 +22211,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zxyy_m4B8D0449EEB8DD3CE5A79C96E911C70617339C4E_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(z, x, y, y); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___y_1;
@@ -23730,7 +22224,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zxyz_m91C90CDA336353253B33F0407198ACCC593EBB1B_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(z, x, y, z); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___y_1;
@@ -23744,7 +22237,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zxyw_m5503A7454C492BA259F158D0E7D48BA2AD17D938_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(z, x, y, w); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___y_1;
@@ -23758,30 +22250,24 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4_set_zxyw_mEE0D1905E04035E08CE494E0B178EC391BE8E246_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___value0, const RuntimeMethod* method) 
 {
 	{
-		// set { z = value.x; x = value.y; y = value.z; w = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = ___value0;
 		float L_1 = L_0.___x_0;
 		__this->___z_2 = L_1;
-		// set { z = value.x; x = value.y; y = value.z; w = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2 = ___value0;
 		float L_3 = L_2.___y_1;
 		__this->___x_0 = L_3;
-		// set { z = value.x; x = value.y; y = value.z; w = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_4 = ___value0;
 		float L_5 = L_4.___z_2;
 		__this->___y_1 = L_5;
-		// set { z = value.x; x = value.y; y = value.z; w = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_6 = ___value0;
 		float L_7 = L_6.___w_3;
 		__this->___w_3 = L_7;
-		// set { z = value.x; x = value.y; y = value.z; w = value.w; }
 		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zxzx_m33CDECA7815D5EEC710E7BCE7F7C8C4D54175EC5_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(z, x, z, x); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___z_2;
@@ -23795,7 +22281,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zxzy_mE08A967496AF61C5AA54FC3099CE57A6D89D23C7_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(z, x, z, y); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___z_2;
@@ -23809,7 +22294,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zxzz_m19C6AB09CF494D463946F3E1DD1DC23D3493C28B_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(z, x, z, z); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___z_2;
@@ -23823,7 +22307,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zxzw_mC96802F426E6799C943A056FBB9F17609DDF041C_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(z, x, z, w); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___z_2;
@@ -23837,7 +22320,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zxwx_m942B3E7343D6A7C28F1916B9CFF9A04C3EE9D6E8_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(z, x, w, x); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___w_3;
@@ -23851,7 +22333,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zxwy_m3EE74109AFDB9D414DB41CD9B724BA27234BA39C_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(z, x, w, y); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___w_3;
@@ -23865,30 +22346,24 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4_set_zxwy_m6A48DFF8F0D6FA30AC8551CB1DDDCD1CBB16C4D2_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___value0, const RuntimeMethod* method) 
 {
 	{
-		// set { z = value.x; x = value.y; w = value.z; y = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = ___value0;
 		float L_1 = L_0.___x_0;
 		__this->___z_2 = L_1;
-		// set { z = value.x; x = value.y; w = value.z; y = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2 = ___value0;
 		float L_3 = L_2.___y_1;
 		__this->___x_0 = L_3;
-		// set { z = value.x; x = value.y; w = value.z; y = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_4 = ___value0;
 		float L_5 = L_4.___z_2;
 		__this->___w_3 = L_5;
-		// set { z = value.x; x = value.y; w = value.z; y = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_6 = ___value0;
 		float L_7 = L_6.___w_3;
 		__this->___y_1 = L_7;
-		// set { z = value.x; x = value.y; w = value.z; y = value.w; }
 		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zxwz_m94E1D5491BA8680B3DFEB3CA56EB345D176A21A4_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(z, x, w, z); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___w_3;
@@ -23902,7 +22377,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zxww_m47A0DF76C41654CC8880E6654E6F9F923FA97F91_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(z, x, w, w); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___w_3;
@@ -23916,7 +22390,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zyxx_mB2FD68E60CCE644C6A5730F292121A1CDE43E20F_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(z, y, x, x); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___x_0;
@@ -23930,7 +22403,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zyxy_m22C0BCE3FCC4B52DF893D90B4DCDD116C98AD31D_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(z, y, x, y); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___x_0;
@@ -23944,7 +22416,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zyxz_mD360FD01B6138EAC95E006AD4417CF8D11F158D0_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(z, y, x, z); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___x_0;
@@ -23958,7 +22429,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zyxw_m85AD562F0038A7FAA101301B479E03A6BFECFC82_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(z, y, x, w); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___x_0;
@@ -23972,30 +22442,24 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4_set_zyxw_m3D6C803F58AD95B7D7A5F11907CD8AC774CF6123_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___value0, const RuntimeMethod* method) 
 {
 	{
-		// set { z = value.x; y = value.y; x = value.z; w = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = ___value0;
 		float L_1 = L_0.___x_0;
 		__this->___z_2 = L_1;
-		// set { z = value.x; y = value.y; x = value.z; w = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2 = ___value0;
 		float L_3 = L_2.___y_1;
 		__this->___y_1 = L_3;
-		// set { z = value.x; y = value.y; x = value.z; w = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_4 = ___value0;
 		float L_5 = L_4.___z_2;
 		__this->___x_0 = L_5;
-		// set { z = value.x; y = value.y; x = value.z; w = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_6 = ___value0;
 		float L_7 = L_6.___w_3;
 		__this->___w_3 = L_7;
-		// set { z = value.x; y = value.y; x = value.z; w = value.w; }
 		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zyyx_m746B4AF7B1B562CD5F54AF132ECA061B1C9AF89F_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(z, y, y, x); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___y_1;
@@ -24009,7 +22473,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zyyy_mF13FABED5B27E4B9D5826BC7AD303326D72F39FE_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(z, y, y, y); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___y_1;
@@ -24023,7 +22486,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zyyz_m0FD0E79FEB909CC3D7E09FD382CF8DD7A3276191_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(z, y, y, z); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___y_1;
@@ -24037,7 +22499,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zyyw_m5086101A6F96178CDF4D5BC7CB8D090A9A95D033_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(z, y, y, w); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___y_1;
@@ -24051,7 +22512,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zyzx_m6D843F414CF14837CB3D6583B4AE2351DF542603_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(z, y, z, x); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___z_2;
@@ -24065,7 +22525,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zyzy_mB341A9B151502610F5298DE265B675E86183D770_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(z, y, z, y); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___z_2;
@@ -24079,7 +22538,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zyzz_mDFDCF6ACFF7B395842ACC28769B73A0102E5F20D_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(z, y, z, z); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___z_2;
@@ -24093,7 +22551,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zyzw_m4D15DCDA593BCBD5380AB5051BD49A2A97D9F295_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(z, y, z, w); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___z_2;
@@ -24107,7 +22564,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zywx_m0A2F29E2C1296D110BBD8074DA7551F0AF8B654A_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(z, y, w, x); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___w_3;
@@ -24121,30 +22577,24 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4_set_zywx_m3C57B8B6D7E05C06CBF0C291AD6F8827A8A015E4_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___value0, const RuntimeMethod* method) 
 {
 	{
-		// set { z = value.x; y = value.y; w = value.z; x = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = ___value0;
 		float L_1 = L_0.___x_0;
 		__this->___z_2 = L_1;
-		// set { z = value.x; y = value.y; w = value.z; x = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2 = ___value0;
 		float L_3 = L_2.___y_1;
 		__this->___y_1 = L_3;
-		// set { z = value.x; y = value.y; w = value.z; x = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_4 = ___value0;
 		float L_5 = L_4.___z_2;
 		__this->___w_3 = L_5;
-		// set { z = value.x; y = value.y; w = value.z; x = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_6 = ___value0;
 		float L_7 = L_6.___w_3;
 		__this->___x_0 = L_7;
-		// set { z = value.x; y = value.y; w = value.z; x = value.w; }
 		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zywy_m4757B552D79DA45702E2FE97273FBB5F789A1731_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(z, y, w, y); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___w_3;
@@ -24158,7 +22608,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zywz_m616020B5005DD2F97DBE6C963AD8D470EAA51737_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(z, y, w, z); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___w_3;
@@ -24172,7 +22621,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zyww_mC7318837FF436E236413B2BE58CF9444ACC9E26A_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(z, y, w, w); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___w_3;
@@ -24186,7 +22634,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zzxx_m6EAF5AA4951B159658531A688AB360658CCC8CB9_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(z, z, x, x); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___x_0;
@@ -24200,7 +22647,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zzxy_mF0C165A95FF08C85556D4FB7B4AFF040F35E2DFB_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(z, z, x, y); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___x_0;
@@ -24214,7 +22660,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zzxz_mF878DA93E758AE964611F21A344DD0610A4244F6_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(z, z, x, z); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___x_0;
@@ -24228,7 +22673,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zzxw_m463EED02E649133E58E7625FC465464366DB126D_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(z, z, x, w); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___x_0;
@@ -24242,7 +22686,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zzyx_m682EF17DD76B44A1B4087DEEA78340BF97853C6C_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(z, z, y, x); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___y_1;
@@ -24256,7 +22699,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zzyy_mE0F2D85C3BA6E838846D6425634573F7D81E3890_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(z, z, y, y); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___y_1;
@@ -24270,7 +22712,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zzyz_m27D9B26CFF6439BBC51ECF16B86A7C090D46D603_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(z, z, y, z); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___y_1;
@@ -24284,7 +22725,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zzyw_mF66B8931BF161212793EC0861B38A0C3A8EBE21D_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(z, z, y, w); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___y_1;
@@ -24298,7 +22738,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zzzx_mBA844228EEDE1FD4872127D76C0DB82FC34039C2_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(z, z, z, x); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___z_2;
@@ -24312,7 +22751,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zzzy_mC05548907E218DFFAF5B980BB0063CCBBAACEA7E_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(z, z, z, y); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___z_2;
@@ -24326,7 +22764,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zzzz_m3356B383529B6B9D6DA45789BB87E5AD12313788_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(z, z, z, z); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___z_2;
@@ -24340,7 +22777,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zzzw_m5FE84DAFE4191267C033A893293B264A2175BC03_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(z, z, z, w); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___z_2;
@@ -24354,7 +22790,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zzwx_mE99B005BCF6BC85F592E557820A827139B5B862E_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(z, z, w, x); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___w_3;
@@ -24368,7 +22803,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zzwy_m9159BD76E95292428106894CEFEA5140246F373C_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(z, z, w, y); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___w_3;
@@ -24382,7 +22816,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zzwz_mABA5A42C29FE793B5CC28DC57A730F476725DC3F_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(z, z, w, z); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___w_3;
@@ -24396,7 +22829,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zzww_mC3ED41BFCF876CF2DC9C869091D0194812FF4029_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(z, z, w, w); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___w_3;
@@ -24410,7 +22842,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zwxx_m82C85C15DB155B85BACF51DE477934AFC44AB886_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(z, w, x, x); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___x_0;
@@ -24424,7 +22855,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zwxy_m8F8007FD25E49C0644615EABA414DA7672794563_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(z, w, x, y); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___x_0;
@@ -24438,30 +22868,24 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4_set_zwxy_mC732F86883B7F21BA8087DE8E510ED6AAF316CC2_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___value0, const RuntimeMethod* method) 
 {
 	{
-		// set { z = value.x; w = value.y; x = value.z; y = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = ___value0;
 		float L_1 = L_0.___x_0;
 		__this->___z_2 = L_1;
-		// set { z = value.x; w = value.y; x = value.z; y = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2 = ___value0;
 		float L_3 = L_2.___y_1;
 		__this->___w_3 = L_3;
-		// set { z = value.x; w = value.y; x = value.z; y = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_4 = ___value0;
 		float L_5 = L_4.___z_2;
 		__this->___x_0 = L_5;
-		// set { z = value.x; w = value.y; x = value.z; y = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_6 = ___value0;
 		float L_7 = L_6.___w_3;
 		__this->___y_1 = L_7;
-		// set { z = value.x; w = value.y; x = value.z; y = value.w; }
 		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zwxz_m98CA6B9DC0C6F0E170F974D29102126CBF5C3150_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(z, w, x, z); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___x_0;
@@ -24475,7 +22899,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zwxw_m533C6E8D2B27681EA05ECCF33450AA95005EAA6F_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(z, w, x, w); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___x_0;
@@ -24489,7 +22912,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zwyx_m6FD882ED92F80B88AE7E79AFEBD7B1F04062D567_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(z, w, y, x); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___y_1;
@@ -24503,30 +22925,24 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4_set_zwyx_mC6CA81DF0339943F939C507AC6F7D2B7EFC59270_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___value0, const RuntimeMethod* method) 
 {
 	{
-		// set { z = value.x; w = value.y; y = value.z; x = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = ___value0;
 		float L_1 = L_0.___x_0;
 		__this->___z_2 = L_1;
-		// set { z = value.x; w = value.y; y = value.z; x = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2 = ___value0;
 		float L_3 = L_2.___y_1;
 		__this->___w_3 = L_3;
-		// set { z = value.x; w = value.y; y = value.z; x = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_4 = ___value0;
 		float L_5 = L_4.___z_2;
 		__this->___y_1 = L_5;
-		// set { z = value.x; w = value.y; y = value.z; x = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_6 = ___value0;
 		float L_7 = L_6.___w_3;
 		__this->___x_0 = L_7;
-		// set { z = value.x; w = value.y; y = value.z; x = value.w; }
 		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zwyy_mD881536BAB41B7362386FA19CFBA9885DC0E4C11_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(z, w, y, y); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___y_1;
@@ -24540,7 +22956,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zwyz_m13B8FCA913154AB1FB133CC3587D7BE5900E6A18_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(z, w, y, z); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___y_1;
@@ -24554,7 +22969,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zwyw_m0476A37D8E216EB29C211CA55C59843EFCD75FEC_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(z, w, y, w); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___y_1;
@@ -24568,7 +22982,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zwzx_m07BAA74DA5ED2B03E9538CD57A0B819B01B466FC_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(z, w, z, x); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___z_2;
@@ -24582,7 +22995,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zwzy_mE87DA5270CC6332E78363CA7D4A9BC530F19A8FF_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(z, w, z, y); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___z_2;
@@ -24596,7 +23008,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zwzz_m42AB148FA21D9E1B1BEA5A5A4ECE9260E81F4E37_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(z, w, z, z); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___z_2;
@@ -24610,7 +23021,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zwzw_mE1670DA2AC789B2617A48E0AA146E58F7E86F08E_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(z, w, z, w); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___z_2;
@@ -24624,7 +23034,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zwwx_mEFAEC4CD92349661BD4A4E365143B71378461CBD_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(z, w, w, x); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___w_3;
@@ -24638,7 +23047,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zwwy_m7D3BC2DEAB920C71E2B5D0A5509A2527B649F20A_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(z, w, w, y); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___w_3;
@@ -24652,7 +23060,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zwwz_mD6E82D7D93EE6F2F9CD07234D8BFEC2F1102114B_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(z, w, w, z); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___w_3;
@@ -24666,7 +23073,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_zwww_m6D88F5FBBCE86DC1551C043132A442E4CB253C93_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(z, w, w, w); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___w_3;
@@ -24680,7 +23086,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wxxx_m63FA7EDEEDD655C66C2E7D5A35B75C2A1D4EC52E_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(w, x, x, x); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___x_0;
@@ -24694,7 +23099,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wxxy_m6A3D9AEFE6E5782C6FB69BA0D9ED8D2277B4295D_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(w, x, x, y); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___x_0;
@@ -24708,7 +23112,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wxxz_mD41867AE36207427AA8ED2549431FA20B5F222C0_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(w, x, x, z); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___x_0;
@@ -24722,7 +23125,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wxxw_m21C60B79D6AC6757226444FC3CA30EAAB8C66886_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(w, x, x, w); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___x_0;
@@ -24736,7 +23138,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wxyx_m6D2B31673FE66C495DE9B58AB1F6515A897E4B2A_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(w, x, y, x); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___y_1;
@@ -24750,7 +23151,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wxyy_mA716B4E4D612A0CEC3294AB21DDC571ABF3A2F79_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(w, x, y, y); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___y_1;
@@ -24764,7 +23164,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wxyz_m3BF903FC0A3AB1F9C797ABB3886F1D9D46AFE1EF_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(w, x, y, z); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___y_1;
@@ -24778,30 +23177,24 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4_set_wxyz_mE1D952874B36FE5ACF045BA41D7D7980EED80355_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___value0, const RuntimeMethod* method) 
 {
 	{
-		// set { w = value.x; x = value.y; y = value.z; z = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = ___value0;
 		float L_1 = L_0.___x_0;
 		__this->___w_3 = L_1;
-		// set { w = value.x; x = value.y; y = value.z; z = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2 = ___value0;
 		float L_3 = L_2.___y_1;
 		__this->___x_0 = L_3;
-		// set { w = value.x; x = value.y; y = value.z; z = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_4 = ___value0;
 		float L_5 = L_4.___z_2;
 		__this->___y_1 = L_5;
-		// set { w = value.x; x = value.y; y = value.z; z = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_6 = ___value0;
 		float L_7 = L_6.___w_3;
 		__this->___z_2 = L_7;
-		// set { w = value.x; x = value.y; y = value.z; z = value.w; }
 		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wxyw_mEAE54096AC5E034D4FC42007084CFC95927E5AED_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(w, x, y, w); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___y_1;
@@ -24815,7 +23208,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wxzx_m5ADAD7E04FEC46763C5A93C74A37ECF2F401954F_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(w, x, z, x); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___z_2;
@@ -24829,7 +23221,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wxzy_m81F2515DC91EC6471325C0927E51F6B1DE593AA5_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(w, x, z, y); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___z_2;
@@ -24843,30 +23234,24 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4_set_wxzy_mCA85394321E788161A69B0784BA2CE9FB3E8197F_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___value0, const RuntimeMethod* method) 
 {
 	{
-		// set { w = value.x; x = value.y; z = value.z; y = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = ___value0;
 		float L_1 = L_0.___x_0;
 		__this->___w_3 = L_1;
-		// set { w = value.x; x = value.y; z = value.z; y = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2 = ___value0;
 		float L_3 = L_2.___y_1;
 		__this->___x_0 = L_3;
-		// set { w = value.x; x = value.y; z = value.z; y = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_4 = ___value0;
 		float L_5 = L_4.___z_2;
 		__this->___z_2 = L_5;
-		// set { w = value.x; x = value.y; z = value.z; y = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_6 = ___value0;
 		float L_7 = L_6.___w_3;
 		__this->___y_1 = L_7;
-		// set { w = value.x; x = value.y; z = value.z; y = value.w; }
 		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wxzz_m86D59A1ACED4707B5C169885E2743BBB511BB2F4_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(w, x, z, z); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___z_2;
@@ -24880,7 +23265,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wxzw_m00B2516EB23CEFD569F77E66845EEAC5F7A2B4F7_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(w, x, z, w); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___z_2;
@@ -24894,7 +23278,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wxwx_m6A78A6844E503C951B17A4ED499DA02B91DEF33C_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(w, x, w, x); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___w_3;
@@ -24908,7 +23291,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wxwy_m0F6107483C02AFE72F71878A1EEDA37562BB2A00_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(w, x, w, y); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___w_3;
@@ -24922,7 +23304,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wxwz_m2B90ACD944B5571981C2219758625669776BDCAB_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(w, x, w, z); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___w_3;
@@ -24936,7 +23317,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wxww_m15B219604FCF96E56B8AC947FEBF57EF1349364D_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(w, x, w, w); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___w_3;
@@ -24950,7 +23330,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wyxx_m67991CAA41DA4F57E139C19050D3929852BB416E_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(w, y, x, x); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___x_0;
@@ -24964,7 +23343,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wyxy_mB5F4FB815F512810397FA946182383A7A66AD761_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(w, y, x, y); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___x_0;
@@ -24978,7 +23356,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wyxz_m3394985B92BB53EC5C6424CFCDCB6060477CAE8C_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(w, y, x, z); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___x_0;
@@ -24992,30 +23369,24 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4_set_wyxz_mF40C4BED44D36A28D4AAB71178C1B589CC16F1B1_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___value0, const RuntimeMethod* method) 
 {
 	{
-		// set { w = value.x; y = value.y; x = value.z; z = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = ___value0;
 		float L_1 = L_0.___x_0;
 		__this->___w_3 = L_1;
-		// set { w = value.x; y = value.y; x = value.z; z = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2 = ___value0;
 		float L_3 = L_2.___y_1;
 		__this->___y_1 = L_3;
-		// set { w = value.x; y = value.y; x = value.z; z = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_4 = ___value0;
 		float L_5 = L_4.___z_2;
 		__this->___x_0 = L_5;
-		// set { w = value.x; y = value.y; x = value.z; z = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_6 = ___value0;
 		float L_7 = L_6.___w_3;
 		__this->___z_2 = L_7;
-		// set { w = value.x; y = value.y; x = value.z; z = value.w; }
 		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wyxw_m8837A825EFFA7927121164848BBBBE83D12DF12A_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(w, y, x, w); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___x_0;
@@ -25029,7 +23400,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wyyx_m6FD88593062651D474F21FCA998D0FFC4C5AE322_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(w, y, y, x); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___y_1;
@@ -25043,7 +23413,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wyyy_mBED85DD76203E4011497A40EF5188EA252BBC906_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(w, y, y, y); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___y_1;
@@ -25057,7 +23426,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wyyz_m72CB1847FDF55726D923D7E77FEFA9BE213D38B1_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(w, y, y, z); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___y_1;
@@ -25071,7 +23439,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wyyw_mA10443D2E66AFC85932915094E6336751FAE2418_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(w, y, y, w); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___y_1;
@@ -25085,7 +23452,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wyzx_mA1CB36440FE772B258372D82335129665FF57230_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(w, y, z, x); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___z_2;
@@ -25099,30 +23465,24 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4_set_wyzx_mA7D9F9F4DC4BFC4B4217157B1F967597CBF6A050_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___value0, const RuntimeMethod* method) 
 {
 	{
-		// set { w = value.x; y = value.y; z = value.z; x = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = ___value0;
 		float L_1 = L_0.___x_0;
 		__this->___w_3 = L_1;
-		// set { w = value.x; y = value.y; z = value.z; x = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2 = ___value0;
 		float L_3 = L_2.___y_1;
 		__this->___y_1 = L_3;
-		// set { w = value.x; y = value.y; z = value.z; x = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_4 = ___value0;
 		float L_5 = L_4.___z_2;
 		__this->___z_2 = L_5;
-		// set { w = value.x; y = value.y; z = value.z; x = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_6 = ___value0;
 		float L_7 = L_6.___w_3;
 		__this->___x_0 = L_7;
-		// set { w = value.x; y = value.y; z = value.z; x = value.w; }
 		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wyzy_m29F0D3D40C053B9E1A08FA6F904B5C4598A8B405_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(w, y, z, y); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___z_2;
@@ -25136,7 +23496,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wyzz_mF1B23CDA51774704A25B0D2ECE336591766A78E5_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(w, y, z, z); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___z_2;
@@ -25150,7 +23509,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wyzw_mF13E5EE9EEFD442E385F6C172B10D6B9498DA137_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(w, y, z, w); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___z_2;
@@ -25164,7 +23522,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wywx_m00B1E2EB6D2317E4E5937B422626AF07F1C37E09_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(w, y, w, x); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___w_3;
@@ -25178,7 +23535,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wywy_mF443345FC06951A65C543D5DE1656E6954C2B3B4_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(w, y, w, y); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___w_3;
@@ -25192,7 +23548,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wywz_m36EFF70D936E9E5FA8B2294AEDDB50378DCC305D_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(w, y, w, z); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___w_3;
@@ -25206,7 +23561,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wyww_mCE50B73D04C7F90D8D37BCA52A6EB6491CB8E85D_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(w, y, w, w); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___w_3;
@@ -25220,7 +23574,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wzxx_m6F79786D640A4E7568D6FAF172AD1D76D5657A9B_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(w, z, x, x); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___x_0;
@@ -25234,7 +23587,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wzxy_m276D17196E18EEEFF9E033AB999FFC812238D93B_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(w, z, x, y); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___x_0;
@@ -25248,30 +23600,24 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4_set_wzxy_m41B1C77F84699FA8BFB772FABB73B3AB786AB9D2_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___value0, const RuntimeMethod* method) 
 {
 	{
-		// set { w = value.x; z = value.y; x = value.z; y = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = ___value0;
 		float L_1 = L_0.___x_0;
 		__this->___w_3 = L_1;
-		// set { w = value.x; z = value.y; x = value.z; y = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2 = ___value0;
 		float L_3 = L_2.___y_1;
 		__this->___z_2 = L_3;
-		// set { w = value.x; z = value.y; x = value.z; y = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_4 = ___value0;
 		float L_5 = L_4.___z_2;
 		__this->___x_0 = L_5;
-		// set { w = value.x; z = value.y; x = value.z; y = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_6 = ___value0;
 		float L_7 = L_6.___w_3;
 		__this->___y_1 = L_7;
-		// set { w = value.x; z = value.y; x = value.z; y = value.w; }
 		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wzxz_mE4FAE189EC20EA0875A3965AC251D95F00688877_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(w, z, x, z); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___x_0;
@@ -25285,7 +23631,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wzxw_m0633E6084BC0E6BA0BD7A5D874E64FDF5196A44F_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(w, z, x, w); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___x_0;
@@ -25299,7 +23644,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wzyx_mA9531BFB41E8CC9E8070F8C4A1C23BCAAD7648E8_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(w, z, y, x); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___y_1;
@@ -25313,30 +23657,24 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4_set_wzyx_mFF611A5ECC0DD93E7032D53097803C8134EB6F22_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___value0, const RuntimeMethod* method) 
 {
 	{
-		// set { w = value.x; z = value.y; y = value.z; x = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = ___value0;
 		float L_1 = L_0.___x_0;
 		__this->___w_3 = L_1;
-		// set { w = value.x; z = value.y; y = value.z; x = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2 = ___value0;
 		float L_3 = L_2.___y_1;
 		__this->___z_2 = L_3;
-		// set { w = value.x; z = value.y; y = value.z; x = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_4 = ___value0;
 		float L_5 = L_4.___z_2;
 		__this->___y_1 = L_5;
-		// set { w = value.x; z = value.y; y = value.z; x = value.w; }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_6 = ___value0;
 		float L_7 = L_6.___w_3;
 		__this->___x_0 = L_7;
-		// set { w = value.x; z = value.y; y = value.z; x = value.w; }
 		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wzyy_mEB945A64C52AE80F08978345269E573D67501609_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(w, z, y, y); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___y_1;
@@ -25350,7 +23688,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wzyz_m2E84120721ACAB3917E3A36AEA18592F87CECC4D_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(w, z, y, z); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___y_1;
@@ -25364,7 +23701,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wzyw_mBCEB4EB1D54BDD94885B2DB7925EAE45F81415AA_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(w, z, y, w); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___y_1;
@@ -25378,7 +23714,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wzzx_mC7E9D73B1AE8E10370CBAC22E611FBD274F595AE_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(w, z, z, x); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___z_2;
@@ -25392,7 +23727,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wzzy_m7CA1BA5759357632B464DC6DB92E93DDEA96B4C6_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(w, z, z, y); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___z_2;
@@ -25406,7 +23740,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wzzz_mFBB83F0D93A870DF915CCDAF2B989955DFA0E2F0_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(w, z, z, z); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___z_2;
@@ -25420,7 +23753,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wzzw_m7010914D2D3105ABF0FD0E08FE96BF9B77DB14F9_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(w, z, z, w); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___z_2;
@@ -25434,7 +23766,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wzwx_mA08B5B47E287C0960CE74802BE98DCB267AC4CCB_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(w, z, w, x); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___w_3;
@@ -25448,7 +23779,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wzwy_m6F76EFC24E006BD59287707C09A09CC8217D3192_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(w, z, w, y); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___w_3;
@@ -25462,7 +23792,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wzwz_m410E17FDC6F5686F0FF3A4761620C549B2838E45_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(w, z, w, z); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___w_3;
@@ -25476,7 +23805,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wzww_mA9F78660F36FCE7875354389549CF939E7E9F972_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(w, z, w, w); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___w_3;
@@ -25490,7 +23818,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wwxx_m765A794B77323239ABEB28AA65D80CFEFBB375D3_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(w, w, x, x); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___x_0;
@@ -25504,7 +23831,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wwxy_m2842748F704B91736EFB6F62B9F598886E46424E_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(w, w, x, y); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___x_0;
@@ -25518,7 +23844,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wwxz_m525D485E01088D366FC6846C5950E97913086523_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(w, w, x, z); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___x_0;
@@ -25532,7 +23857,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wwxw_m1E714496DD5BC30C1589CCF3F49C4A1BD5D6BAEC_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(w, w, x, w); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___x_0;
@@ -25546,7 +23870,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wwyx_mE89C2966DAFBDC7991A7DD98421B4E46E1106C13_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(w, w, y, x); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___y_1;
@@ -25560,7 +23883,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wwyy_mE54201D8D95BE0BEC375AE3240E7FF8818F72C5A_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(w, w, y, y); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___y_1;
@@ -25574,7 +23896,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wwyz_m9B424E38C6CFAAECDDA5E8503DA33FD5D8FA3FE6_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(w, w, y, z); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___y_1;
@@ -25588,7 +23909,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wwyw_m73A5C4851C27E2FA1FC6332E316BC8CE5919E796_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(w, w, y, w); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___y_1;
@@ -25602,7 +23922,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wwzx_m534EE89B94569328D041C14811B84E5237C9C2F1_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(w, w, z, x); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___z_2;
@@ -25616,7 +23935,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wwzy_mAAA82717E1F9D633D2A23BA8F82DF89F22E8C955_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(w, w, z, y); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___z_2;
@@ -25630,7 +23948,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wwzz_mF5324C9CAD776190F5E8E535F0B79B9CF3CE1B87_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(w, w, z, z); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___z_2;
@@ -25644,7 +23961,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wwzw_m8A9986CCA7DF83912D04F7FE10C78B4C50A37AB5_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(w, w, z, w); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___z_2;
@@ -25658,7 +23974,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wwwx_m698BBD6517D0DCF19C3529E0E686FF430642E480_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(w, w, w, x); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___w_3;
@@ -25672,7 +23987,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wwwy_mB4373E9E93F5A3AE18A1D3DB0C2D9EEFBEA0FD37_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(w, w, w, y); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___w_3;
@@ -25686,7 +24000,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wwwz_m5F811F61DBA641C951B779A1E7FB394E5872FC26_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(w, w, w, z); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___w_3;
@@ -25700,7 +24013,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_get_wwww_mF04E8B99431D2717DEE58BDAE207EF4C7E1A0009_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float4(w, w, w, w); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___w_3;
@@ -25714,23 +24026,18 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float3__ctor_mC61002CD0EC13D7C37D846D021A78C028FB80DB9_inline (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* __this, float ___x0, float ___y1, float ___z2, const RuntimeMethod* method) 
 {
 	{
-		// this.x = x;
 		float L_0 = ___x0;
 		__this->___x_0 = L_0;
-		// this.y = y;
 		float L_1 = ___y1;
 		__this->___y_1 = L_1;
-		// this.z = z;
 		float L_2 = ___z2;
 		__this->___z_2 = L_2;
-		// }
 		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_xxx_m2F2861606B5A6D534E7186D2590A60CFBF87B503_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float3(x, x, x); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___x_0;
@@ -25743,7 +24050,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_xxy_mB4AD1FA7C02D719FFB7B657FD576EEFA7A71152D_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float3(x, x, y); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___y_1;
@@ -25756,7 +24062,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_xxz_mDBB3F27B89EF7DC9795086DF4B70D80D104653B4_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float3(x, x, z); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___z_2;
@@ -25769,7 +24074,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_xxw_m2BBBA5600B80941829310BEA6A3107DD1135958B_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float3(x, x, w); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___w_3;
@@ -25782,7 +24086,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_xyx_m9EB39E239BEB1E434261B2374E4D11B106099CF0_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float3(x, y, x); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___x_0;
@@ -25795,7 +24098,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_xyy_mA8EF090026E8497DC6185CC8872B9470FA1CEC65_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float3(x, y, y); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___y_1;
@@ -25808,7 +24110,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_xyz_mE6EC829F35512C7BC159047FDC134E80F3B37A06_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float3(x, y, z); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___z_2;
@@ -25821,26 +24122,21 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4_set_xyz_m331D16059D51A5C6CA8AE8FD1E13A68C0570A9C7_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___value0, const RuntimeMethod* method) 
 {
 	{
-		// set { x = value.x; y = value.y; z = value.z; }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_0 = ___value0;
 		float L_1 = L_0.___x_0;
 		__this->___x_0 = L_1;
-		// set { x = value.x; y = value.y; z = value.z; }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_2 = ___value0;
 		float L_3 = L_2.___y_1;
 		__this->___y_1 = L_3;
-		// set { x = value.x; y = value.y; z = value.z; }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_4 = ___value0;
 		float L_5 = L_4.___z_2;
 		__this->___z_2 = L_5;
-		// set { x = value.x; y = value.y; z = value.z; }
 		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_xyw_m52F30A1865AE93386F1127E4D9B5F8B6911E655B_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float3(x, y, w); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___w_3;
@@ -25853,26 +24149,21 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4_set_xyw_m692EC14A8E6407B1C53E2A0AC181FA6EC93F6C66_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___value0, const RuntimeMethod* method) 
 {
 	{
-		// set { x = value.x; y = value.y; w = value.z; }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_0 = ___value0;
 		float L_1 = L_0.___x_0;
 		__this->___x_0 = L_1;
-		// set { x = value.x; y = value.y; w = value.z; }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_2 = ___value0;
 		float L_3 = L_2.___y_1;
 		__this->___y_1 = L_3;
-		// set { x = value.x; y = value.y; w = value.z; }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_4 = ___value0;
 		float L_5 = L_4.___z_2;
 		__this->___w_3 = L_5;
-		// set { x = value.x; y = value.y; w = value.z; }
 		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_xzx_m587B6CE9E198F668D727E18E5477509B7E946AA6_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float3(x, z, x); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___x_0;
@@ -25885,7 +24176,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_xzy_m73B21685449B6BF1EAE284E5A4614E92021E4E29_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float3(x, z, y); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___y_1;
@@ -25898,26 +24188,21 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4_set_xzy_mBD2D3E620D26141510F3A80970EC53FEFA097221_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___value0, const RuntimeMethod* method) 
 {
 	{
-		// set { x = value.x; z = value.y; y = value.z; }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_0 = ___value0;
 		float L_1 = L_0.___x_0;
 		__this->___x_0 = L_1;
-		// set { x = value.x; z = value.y; y = value.z; }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_2 = ___value0;
 		float L_3 = L_2.___y_1;
 		__this->___z_2 = L_3;
-		// set { x = value.x; z = value.y; y = value.z; }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_4 = ___value0;
 		float L_5 = L_4.___z_2;
 		__this->___y_1 = L_5;
-		// set { x = value.x; z = value.y; y = value.z; }
 		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_xzz_mCC98FFFEFBA01F24C4B8D1A68BBFA69326ABCFCE_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float3(x, z, z); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___z_2;
@@ -25930,7 +24215,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_xzw_m87531E24675C293E9F2DB522958360D33436439F_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float3(x, z, w); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___w_3;
@@ -25943,26 +24227,21 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4_set_xzw_m2E778A44120C8CA75EAB0832B2A4D2AFBFEAD89E_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___value0, const RuntimeMethod* method) 
 {
 	{
-		// set { x = value.x; z = value.y; w = value.z; }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_0 = ___value0;
 		float L_1 = L_0.___x_0;
 		__this->___x_0 = L_1;
-		// set { x = value.x; z = value.y; w = value.z; }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_2 = ___value0;
 		float L_3 = L_2.___y_1;
 		__this->___z_2 = L_3;
-		// set { x = value.x; z = value.y; w = value.z; }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_4 = ___value0;
 		float L_5 = L_4.___z_2;
 		__this->___w_3 = L_5;
-		// set { x = value.x; z = value.y; w = value.z; }
 		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_xwx_m361EFE08807B27027EF1EA47BD96A694BC376FD8_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float3(x, w, x); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___x_0;
@@ -25975,7 +24254,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_xwy_mF7D73506E320EC8708FB2A55A990C00619D91A55_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float3(x, w, y); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___y_1;
@@ -25988,26 +24266,21 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4_set_xwy_m9094E01D15A27FEDAC8C15B06A0BB63433B523E7_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___value0, const RuntimeMethod* method) 
 {
 	{
-		// set { x = value.x; w = value.y; y = value.z; }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_0 = ___value0;
 		float L_1 = L_0.___x_0;
 		__this->___x_0 = L_1;
-		// set { x = value.x; w = value.y; y = value.z; }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_2 = ___value0;
 		float L_3 = L_2.___y_1;
 		__this->___w_3 = L_3;
-		// set { x = value.x; w = value.y; y = value.z; }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_4 = ___value0;
 		float L_5 = L_4.___z_2;
 		__this->___y_1 = L_5;
-		// set { x = value.x; w = value.y; y = value.z; }
 		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_xwz_m0649D879354B08B37DA817055337DC193D146A7A_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float3(x, w, z); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___z_2;
@@ -26020,26 +24293,21 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4_set_xwz_m4D0E792D2B62D516326AAF66B7DAE59EA2FD14C3_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___value0, const RuntimeMethod* method) 
 {
 	{
-		// set { x = value.x; w = value.y; z = value.z; }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_0 = ___value0;
 		float L_1 = L_0.___x_0;
 		__this->___x_0 = L_1;
-		// set { x = value.x; w = value.y; z = value.z; }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_2 = ___value0;
 		float L_3 = L_2.___y_1;
 		__this->___w_3 = L_3;
-		// set { x = value.x; w = value.y; z = value.z; }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_4 = ___value0;
 		float L_5 = L_4.___z_2;
 		__this->___z_2 = L_5;
-		// set { x = value.x; w = value.y; z = value.z; }
 		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_xww_m7CFE89005AFC3F0A0D99C05ECEA6833F261AAC2C_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float3(x, w, w); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___w_3;
@@ -26052,7 +24320,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_yxx_m7E657866E2FDD9AD277DBA3305155148D8046D30_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float3(y, x, x); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___x_0;
@@ -26065,7 +24332,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_yxy_m1C9F44F616CDE25C7BA7DD5BAA8273A5A6D54894_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float3(y, x, y); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___y_1;
@@ -26078,7 +24344,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_yxz_m1E3CDB5CA47E89C611BA44DFFFB030EF5D2BEF55_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float3(y, x, z); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___z_2;
@@ -26091,26 +24356,21 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4_set_yxz_mD0D6372715BBA5CDF973DDB9D20138E64E692D9B_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___value0, const RuntimeMethod* method) 
 {
 	{
-		// set { y = value.x; x = value.y; z = value.z; }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_0 = ___value0;
 		float L_1 = L_0.___x_0;
 		__this->___y_1 = L_1;
-		// set { y = value.x; x = value.y; z = value.z; }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_2 = ___value0;
 		float L_3 = L_2.___y_1;
 		__this->___x_0 = L_3;
-		// set { y = value.x; x = value.y; z = value.z; }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_4 = ___value0;
 		float L_5 = L_4.___z_2;
 		__this->___z_2 = L_5;
-		// set { y = value.x; x = value.y; z = value.z; }
 		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_yxw_mBACC7261DBDD87BA51639CE46D9958D97B18DD05_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float3(y, x, w); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___w_3;
@@ -26123,26 +24383,21 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4_set_yxw_m7D4E534F79DECCBC4A85E26AB513B649E5B98360_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___value0, const RuntimeMethod* method) 
 {
 	{
-		// set { y = value.x; x = value.y; w = value.z; }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_0 = ___value0;
 		float L_1 = L_0.___x_0;
 		__this->___y_1 = L_1;
-		// set { y = value.x; x = value.y; w = value.z; }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_2 = ___value0;
 		float L_3 = L_2.___y_1;
 		__this->___x_0 = L_3;
-		// set { y = value.x; x = value.y; w = value.z; }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_4 = ___value0;
 		float L_5 = L_4.___z_2;
 		__this->___w_3 = L_5;
-		// set { y = value.x; x = value.y; w = value.z; }
 		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_yyx_mC0BB21417A099093100A1DF7F3ED341C913AED3E_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float3(y, y, x); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___x_0;
@@ -26155,7 +24410,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_yyy_mAEE8E6F6F3842A64D16B5EF26E96D36F0B01A978_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float3(y, y, y); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___y_1;
@@ -26168,7 +24422,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_yyz_m30A3550D7C98B7180DE55E14AFBC1CA481C03AEC_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float3(y, y, z); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___z_2;
@@ -26181,7 +24434,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_yyw_m26E083B334CE9B73D603320F535200705FD27062_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float3(y, y, w); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___w_3;
@@ -26194,7 +24446,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_yzx_mC778F30D636C17B9D21DE2F7BA3F0C43C7BBF470_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float3(y, z, x); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___x_0;
@@ -26207,26 +24458,21 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4_set_yzx_mC342B32FD9BA362F5CEF92C5E2AE7DAEFE819974_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___value0, const RuntimeMethod* method) 
 {
 	{
-		// set { y = value.x; z = value.y; x = value.z; }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_0 = ___value0;
 		float L_1 = L_0.___x_0;
 		__this->___y_1 = L_1;
-		// set { y = value.x; z = value.y; x = value.z; }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_2 = ___value0;
 		float L_3 = L_2.___y_1;
 		__this->___z_2 = L_3;
-		// set { y = value.x; z = value.y; x = value.z; }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_4 = ___value0;
 		float L_5 = L_4.___z_2;
 		__this->___x_0 = L_5;
-		// set { y = value.x; z = value.y; x = value.z; }
 		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_yzy_m621798D97F7C6CA18A4040F85C8345EFA987F9B3_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float3(y, z, y); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___y_1;
@@ -26239,7 +24485,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_yzz_mCF9172CE1DD63450216DD3095E4595A64E971A73_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float3(y, z, z); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___z_2;
@@ -26252,7 +24497,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_yzw_m7C4427E628E39E34646B53D646B1792636C07098_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float3(y, z, w); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___w_3;
@@ -26265,26 +24509,21 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4_set_yzw_mCBF4D708A6C58AB3BBD598061063019E696E6F10_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___value0, const RuntimeMethod* method) 
 {
 	{
-		// set { y = value.x; z = value.y; w = value.z; }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_0 = ___value0;
 		float L_1 = L_0.___x_0;
 		__this->___y_1 = L_1;
-		// set { y = value.x; z = value.y; w = value.z; }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_2 = ___value0;
 		float L_3 = L_2.___y_1;
 		__this->___z_2 = L_3;
-		// set { y = value.x; z = value.y; w = value.z; }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_4 = ___value0;
 		float L_5 = L_4.___z_2;
 		__this->___w_3 = L_5;
-		// set { y = value.x; z = value.y; w = value.z; }
 		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_ywx_m3005B7442A9C5CF58089D6C41B932D4EDEFBA285_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float3(y, w, x); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___x_0;
@@ -26297,26 +24536,21 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4_set_ywx_mCFF1098BB8FCE57B2FB007E541A006A4C16D6C15_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___value0, const RuntimeMethod* method) 
 {
 	{
-		// set { y = value.x; w = value.y; x = value.z; }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_0 = ___value0;
 		float L_1 = L_0.___x_0;
 		__this->___y_1 = L_1;
-		// set { y = value.x; w = value.y; x = value.z; }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_2 = ___value0;
 		float L_3 = L_2.___y_1;
 		__this->___w_3 = L_3;
-		// set { y = value.x; w = value.y; x = value.z; }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_4 = ___value0;
 		float L_5 = L_4.___z_2;
 		__this->___x_0 = L_5;
-		// set { y = value.x; w = value.y; x = value.z; }
 		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_ywy_m4CA93E6F794217B9FAEDDD49510853A58417DACA_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float3(y, w, y); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___y_1;
@@ -26329,7 +24563,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_ywz_mCDCC7707B8DB673B7380D4BCAAC1FA0CF42690FA_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float3(y, w, z); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___z_2;
@@ -26342,26 +24575,21 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4_set_ywz_mB70BE06BDF027533B7BC3C18ED4AB8AFFEF83B7D_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___value0, const RuntimeMethod* method) 
 {
 	{
-		// set { y = value.x; w = value.y; z = value.z; }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_0 = ___value0;
 		float L_1 = L_0.___x_0;
 		__this->___y_1 = L_1;
-		// set { y = value.x; w = value.y; z = value.z; }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_2 = ___value0;
 		float L_3 = L_2.___y_1;
 		__this->___w_3 = L_3;
-		// set { y = value.x; w = value.y; z = value.z; }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_4 = ___value0;
 		float L_5 = L_4.___z_2;
 		__this->___z_2 = L_5;
-		// set { y = value.x; w = value.y; z = value.z; }
 		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_yww_m79C72484B5456CECC5286578E0E14C86BB893029_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float3(y, w, w); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___w_3;
@@ -26374,7 +24602,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_zxx_mF981115AEC89A29E393C940EAEF50D2D153958ED_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float3(z, x, x); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___x_0;
@@ -26387,7 +24614,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_zxy_m770237ACE5D096EF4D6D9A3EE0591471D87EC18A_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float3(z, x, y); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___y_1;
@@ -26400,26 +24626,21 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4_set_zxy_mAC2072130C0CEBEC5A77E6538AB03AF7724A69E0_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___value0, const RuntimeMethod* method) 
 {
 	{
-		// set { z = value.x; x = value.y; y = value.z; }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_0 = ___value0;
 		float L_1 = L_0.___x_0;
 		__this->___z_2 = L_1;
-		// set { z = value.x; x = value.y; y = value.z; }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_2 = ___value0;
 		float L_3 = L_2.___y_1;
 		__this->___x_0 = L_3;
-		// set { z = value.x; x = value.y; y = value.z; }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_4 = ___value0;
 		float L_5 = L_4.___z_2;
 		__this->___y_1 = L_5;
-		// set { z = value.x; x = value.y; y = value.z; }
 		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_zxz_m60F0B80BEFAF6F7162822145D6A11E1CE7CCD2EC_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float3(z, x, z); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___z_2;
@@ -26432,7 +24653,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_zxw_mAEE6CA20A46AB3BDDB1015970AA8C1B2EB4E3029_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float3(z, x, w); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___w_3;
@@ -26445,26 +24665,21 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4_set_zxw_mCEE9851A41560D5D14E1C028A418B39CABB8729F_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___value0, const RuntimeMethod* method) 
 {
 	{
-		// set { z = value.x; x = value.y; w = value.z; }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_0 = ___value0;
 		float L_1 = L_0.___x_0;
 		__this->___z_2 = L_1;
-		// set { z = value.x; x = value.y; w = value.z; }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_2 = ___value0;
 		float L_3 = L_2.___y_1;
 		__this->___x_0 = L_3;
-		// set { z = value.x; x = value.y; w = value.z; }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_4 = ___value0;
 		float L_5 = L_4.___z_2;
 		__this->___w_3 = L_5;
-		// set { z = value.x; x = value.y; w = value.z; }
 		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_zyx_mC0162C08DB177CE9CE180C7C9B2B6117708E2E07_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float3(z, y, x); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___x_0;
@@ -26477,26 +24692,21 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4_set_zyx_mBAA365DAC3934BC53E140CD1DF93205E7778E5DF_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___value0, const RuntimeMethod* method) 
 {
 	{
-		// set { z = value.x; y = value.y; x = value.z; }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_0 = ___value0;
 		float L_1 = L_0.___x_0;
 		__this->___z_2 = L_1;
-		// set { z = value.x; y = value.y; x = value.z; }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_2 = ___value0;
 		float L_3 = L_2.___y_1;
 		__this->___y_1 = L_3;
-		// set { z = value.x; y = value.y; x = value.z; }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_4 = ___value0;
 		float L_5 = L_4.___z_2;
 		__this->___x_0 = L_5;
-		// set { z = value.x; y = value.y; x = value.z; }
 		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_zyy_m63C586FCBDF52741999D150ECF1C14F28A64F37A_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float3(z, y, y); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___y_1;
@@ -26509,7 +24719,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_zyz_mC06D24BF06B6A7F0011881548C8BBA0DB448889D_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float3(z, y, z); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___z_2;
@@ -26522,7 +24731,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_zyw_mEBFF19FA48AD629D3A78452CF53FB01C85231686_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float3(z, y, w); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___w_3;
@@ -26535,26 +24743,21 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4_set_zyw_m1F505ACDDE76D5189227AD77515EDEDC29108E80_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___value0, const RuntimeMethod* method) 
 {
 	{
-		// set { z = value.x; y = value.y; w = value.z; }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_0 = ___value0;
 		float L_1 = L_0.___x_0;
 		__this->___z_2 = L_1;
-		// set { z = value.x; y = value.y; w = value.z; }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_2 = ___value0;
 		float L_3 = L_2.___y_1;
 		__this->___y_1 = L_3;
-		// set { z = value.x; y = value.y; w = value.z; }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_4 = ___value0;
 		float L_5 = L_4.___z_2;
 		__this->___w_3 = L_5;
-		// set { z = value.x; y = value.y; w = value.z; }
 		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_zzx_m98A9CE84A09E76C270D84BBFD5E4C1E26D73FEB2_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float3(z, z, x); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___x_0;
@@ -26567,7 +24770,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_zzy_m65764D69FDC364098B6256152D421D71FAB8570B_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float3(z, z, y); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___y_1;
@@ -26580,7 +24782,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_zzz_m2E4DE79E025D8BA921DB40538A65FDE5F6B4C3F9_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float3(z, z, z); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___z_2;
@@ -26593,7 +24794,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_zzw_m67834EDE36F67B09C2450B09F10B721C6D205583_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float3(z, z, w); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___w_3;
@@ -26606,7 +24806,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_zwx_mF2EB9E380A5092E72833677BC468332F5493A4E6_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float3(z, w, x); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___x_0;
@@ -26619,26 +24818,21 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4_set_zwx_m000186A901E0638B6D5AA0839A5A6FF1E6CFF428_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___value0, const RuntimeMethod* method) 
 {
 	{
-		// set { z = value.x; w = value.y; x = value.z; }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_0 = ___value0;
 		float L_1 = L_0.___x_0;
 		__this->___z_2 = L_1;
-		// set { z = value.x; w = value.y; x = value.z; }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_2 = ___value0;
 		float L_3 = L_2.___y_1;
 		__this->___w_3 = L_3;
-		// set { z = value.x; w = value.y; x = value.z; }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_4 = ___value0;
 		float L_5 = L_4.___z_2;
 		__this->___x_0 = L_5;
-		// set { z = value.x; w = value.y; x = value.z; }
 		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_zwy_m5A765B57D21D47EB1E5F6A48FE203776F5948466_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float3(z, w, y); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___y_1;
@@ -26651,26 +24845,21 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4_set_zwy_m7F5F7374CBE312AB1B1B03A8BCB7F7D3FB985471_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___value0, const RuntimeMethod* method) 
 {
 	{
-		// set { z = value.x; w = value.y; y = value.z; }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_0 = ___value0;
 		float L_1 = L_0.___x_0;
 		__this->___z_2 = L_1;
-		// set { z = value.x; w = value.y; y = value.z; }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_2 = ___value0;
 		float L_3 = L_2.___y_1;
 		__this->___w_3 = L_3;
-		// set { z = value.x; w = value.y; y = value.z; }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_4 = ___value0;
 		float L_5 = L_4.___z_2;
 		__this->___y_1 = L_5;
-		// set { z = value.x; w = value.y; y = value.z; }
 		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_zwz_m9760BDA51BBF5AB6A7C68E756C3E83FD9A30BCB1_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float3(z, w, z); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___z_2;
@@ -26683,7 +24872,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_zww_mBDE2711461FE7F12AC6FE3B814C0BC88C8B36E5A_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float3(z, w, w); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___w_3;
@@ -26696,7 +24884,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_wxx_m77B7F1449061CD2F5236EA088559B66C33BCA702_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float3(w, x, x); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___x_0;
@@ -26709,7 +24896,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_wxy_m0225ACBC48FD08DC7A8CB9DD93EC3777C1BCE933_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float3(w, x, y); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___y_1;
@@ -26722,26 +24908,21 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4_set_wxy_m606A4C3B3AF7A97AEB4940F4F9B93143613888D6_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___value0, const RuntimeMethod* method) 
 {
 	{
-		// set { w = value.x; x = value.y; y = value.z; }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_0 = ___value0;
 		float L_1 = L_0.___x_0;
 		__this->___w_3 = L_1;
-		// set { w = value.x; x = value.y; y = value.z; }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_2 = ___value0;
 		float L_3 = L_2.___y_1;
 		__this->___x_0 = L_3;
-		// set { w = value.x; x = value.y; y = value.z; }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_4 = ___value0;
 		float L_5 = L_4.___z_2;
 		__this->___y_1 = L_5;
-		// set { w = value.x; x = value.y; y = value.z; }
 		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_wxz_mA9CDEF24BA0705766B65232E50C7883EDC224DB6_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float3(w, x, z); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___z_2;
@@ -26754,26 +24935,21 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4_set_wxz_m38029EAD798A283C3E2CF2FE9E6E367ACA4F1443_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___value0, const RuntimeMethod* method) 
 {
 	{
-		// set { w = value.x; x = value.y; z = value.z; }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_0 = ___value0;
 		float L_1 = L_0.___x_0;
 		__this->___w_3 = L_1;
-		// set { w = value.x; x = value.y; z = value.z; }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_2 = ___value0;
 		float L_3 = L_2.___y_1;
 		__this->___x_0 = L_3;
-		// set { w = value.x; x = value.y; z = value.z; }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_4 = ___value0;
 		float L_5 = L_4.___z_2;
 		__this->___z_2 = L_5;
-		// set { w = value.x; x = value.y; z = value.z; }
 		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_wxw_m109EC4BD39AE75FAD1A83DFC9E246572C56C2926_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float3(w, x, w); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___w_3;
@@ -26786,7 +24962,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_wyx_m9AED62E96CB42DFD3180BFC0DF692186AD8F7410_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float3(w, y, x); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___x_0;
@@ -26799,26 +24974,21 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4_set_wyx_m65701E568998CD3B97E99C98DBA74CE2AA4A7693_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___value0, const RuntimeMethod* method) 
 {
 	{
-		// set { w = value.x; y = value.y; x = value.z; }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_0 = ___value0;
 		float L_1 = L_0.___x_0;
 		__this->___w_3 = L_1;
-		// set { w = value.x; y = value.y; x = value.z; }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_2 = ___value0;
 		float L_3 = L_2.___y_1;
 		__this->___y_1 = L_3;
-		// set { w = value.x; y = value.y; x = value.z; }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_4 = ___value0;
 		float L_5 = L_4.___z_2;
 		__this->___x_0 = L_5;
-		// set { w = value.x; y = value.y; x = value.z; }
 		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_wyy_m51BC0DE17E6540A511674E33922DAD8B36AC6D36_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float3(w, y, y); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___y_1;
@@ -26831,7 +25001,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_wyz_mD0FA8B74AFF0C34FC0270FFFB3E2ECC2E16A0B8F_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float3(w, y, z); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___z_2;
@@ -26844,26 +25013,21 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4_set_wyz_mAC6BD7B3D3CF3411860BE60E096B6FD3E47398DC_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___value0, const RuntimeMethod* method) 
 {
 	{
-		// set { w = value.x; y = value.y; z = value.z; }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_0 = ___value0;
 		float L_1 = L_0.___x_0;
 		__this->___w_3 = L_1;
-		// set { w = value.x; y = value.y; z = value.z; }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_2 = ___value0;
 		float L_3 = L_2.___y_1;
 		__this->___y_1 = L_3;
-		// set { w = value.x; y = value.y; z = value.z; }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_4 = ___value0;
 		float L_5 = L_4.___z_2;
 		__this->___z_2 = L_5;
-		// set { w = value.x; y = value.y; z = value.z; }
 		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_wyw_m82D217F2B8B1FB0727E7D583661893773F76567C_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float3(w, y, w); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___y_1;
 		float L_2 = __this->___w_3;
@@ -26876,7 +25040,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_wzx_m1E73BBBED9216D6D2ABF73B0270D1A6ED935DF35_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float3(w, z, x); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___x_0;
@@ -26889,26 +25052,21 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4_set_wzx_m80DAD50FC5D0C7C1B7BC003BF758059D4C863ADD_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___value0, const RuntimeMethod* method) 
 {
 	{
-		// set { w = value.x; z = value.y; x = value.z; }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_0 = ___value0;
 		float L_1 = L_0.___x_0;
 		__this->___w_3 = L_1;
-		// set { w = value.x; z = value.y; x = value.z; }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_2 = ___value0;
 		float L_3 = L_2.___y_1;
 		__this->___z_2 = L_3;
-		// set { w = value.x; z = value.y; x = value.z; }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_4 = ___value0;
 		float L_5 = L_4.___z_2;
 		__this->___x_0 = L_5;
-		// set { w = value.x; z = value.y; x = value.z; }
 		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_wzy_m38FCFC0E1F5BB656A426E039349E69B8D5AA24EF_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float3(w, z, y); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___y_1;
@@ -26921,26 +25079,21 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4_set_wzy_m0724F05C3D07899AFF2CFA6A5A69910E46326C12_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___value0, const RuntimeMethod* method) 
 {
 	{
-		// set { w = value.x; z = value.y; y = value.z; }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_0 = ___value0;
 		float L_1 = L_0.___x_0;
 		__this->___w_3 = L_1;
-		// set { w = value.x; z = value.y; y = value.z; }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_2 = ___value0;
 		float L_3 = L_2.___y_1;
 		__this->___z_2 = L_3;
-		// set { w = value.x; z = value.y; y = value.z; }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_4 = ___value0;
 		float L_5 = L_4.___z_2;
 		__this->___y_1 = L_5;
-		// set { w = value.x; z = value.y; y = value.z; }
 		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_wzz_m6BD10241750ADA5605FE1195B58CEDDEDEB45709_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float3(w, z, z); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___z_2;
@@ -26953,7 +25106,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_wzw_m09316611243B48CACF9E6F2ACA516372C3CA4066_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float3(w, z, w); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___w_3;
@@ -26966,7 +25118,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_wwx_m2E84759822A52021AED9BD6FF245DDC973DC7005_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float3(w, w, x); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___x_0;
@@ -26979,7 +25130,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_wwy_mD739C475AF888D115CCBB168809B299CFC3FEFB4_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float3(w, w, y); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___y_1;
@@ -26992,7 +25142,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_wwz_mBE98345C232D48942FED5AFC9B12991552B13B2C_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float3(w, w, z); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___z_2;
@@ -27005,7 +25154,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_www_m0C02789209EE749EEEDBC90F293D284B269A1675_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float3(w, w, w); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___w_3;
 		float L_2 = __this->___w_3;
@@ -27018,20 +25166,16 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float2__ctor_m3D598E2C2D173DE852F3AB157502968261383C97_inline (float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA* __this, float ___x0, float ___y1, const RuntimeMethod* method) 
 {
 	{
-		// this.x = x;
 		float L_0 = ___x0;
 		__this->___x_0 = L_0;
-		// this.y = y;
 		float L_1 = ___y1;
 		__this->___y_1 = L_1;
-		// }
 		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA float4_get_xx_mE6500C8E7B1479193DBF52283B2141BE9128A56F_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float2(x, x); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___x_0;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_2;
@@ -27043,7 +25187,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float2_t24AA5C0F612B0672315EDAFEC
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA float4_get_xy_m26BE8952E15131592B83837998D1EDC33FA9E6DF_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float2(x, y); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___y_1;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_2;
@@ -27055,22 +25198,18 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float2_t24AA5C0F612B0672315EDAFEC
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4_set_xy_m64C1F6DADDF798DECD8F5881D39C3FBF87E2E140_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___value0, const RuntimeMethod* method) 
 {
 	{
-		// set { x = value.x; y = value.y; }
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_0 = ___value0;
 		float L_1 = L_0.___x_0;
 		__this->___x_0 = L_1;
-		// set { x = value.x; y = value.y; }
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_2 = ___value0;
 		float L_3 = L_2.___y_1;
 		__this->___y_1 = L_3;
-		// set { x = value.x; y = value.y; }
 		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA float4_get_xz_m8264CF56E949A2C898B0470FB146D7FEDBB848A4_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float2(x, z); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___z_2;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_2;
@@ -27082,22 +25221,18 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float2_t24AA5C0F612B0672315EDAFEC
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4_set_xz_mF4350144F62AE9A59E7577759547FB5DADF8B50D_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___value0, const RuntimeMethod* method) 
 {
 	{
-		// set { x = value.x; z = value.y; }
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_0 = ___value0;
 		float L_1 = L_0.___x_0;
 		__this->___x_0 = L_1;
-		// set { x = value.x; z = value.y; }
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_2 = ___value0;
 		float L_3 = L_2.___y_1;
 		__this->___z_2 = L_3;
-		// set { x = value.x; z = value.y; }
 		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA float4_get_xw_mEAA8F15FF5EF20B4D27589D4C4F9EDC187A715E6_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float2(x, w); }
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___w_3;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_2;
@@ -27109,22 +25244,18 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float2_t24AA5C0F612B0672315EDAFEC
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4_set_xw_mAAFB3F7A7682961027038A2996080D1B25E0D7CE_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___value0, const RuntimeMethod* method) 
 {
 	{
-		// set { x = value.x; w = value.y; }
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_0 = ___value0;
 		float L_1 = L_0.___x_0;
 		__this->___x_0 = L_1;
-		// set { x = value.x; w = value.y; }
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_2 = ___value0;
 		float L_3 = L_2.___y_1;
 		__this->___w_3 = L_3;
-		// set { x = value.x; w = value.y; }
 		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA float4_get_yx_m2ED1BBAE3B7D0DEA62DFBA53853BACC057971224_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float2(y, x); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___x_0;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_2;
@@ -27136,22 +25267,18 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float2_t24AA5C0F612B0672315EDAFEC
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4_set_yx_m6358DF4210921DF32CE069753E42F716C5C53810_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___value0, const RuntimeMethod* method) 
 {
 	{
-		// set { y = value.x; x = value.y; }
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_0 = ___value0;
 		float L_1 = L_0.___x_0;
 		__this->___y_1 = L_1;
-		// set { y = value.x; x = value.y; }
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_2 = ___value0;
 		float L_3 = L_2.___y_1;
 		__this->___x_0 = L_3;
-		// set { y = value.x; x = value.y; }
 		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA float4_get_yy_mD2ABF6E2E79C1787416A177F56CBE9DCC807DE90_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float2(y, y); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___y_1;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_2;
@@ -27163,7 +25290,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float2_t24AA5C0F612B0672315EDAFEC
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA float4_get_yz_mFD779C2EE7A9EFFE31780ADA057D64323F9A90C4_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float2(y, z); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___z_2;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_2;
@@ -27175,22 +25301,18 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float2_t24AA5C0F612B0672315EDAFEC
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4_set_yz_m7FE68F8395810B1B4BD95204EEEBD992E49AED3F_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___value0, const RuntimeMethod* method) 
 {
 	{
-		// set { y = value.x; z = value.y; }
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_0 = ___value0;
 		float L_1 = L_0.___x_0;
 		__this->___y_1 = L_1;
-		// set { y = value.x; z = value.y; }
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_2 = ___value0;
 		float L_3 = L_2.___y_1;
 		__this->___z_2 = L_3;
-		// set { y = value.x; z = value.y; }
 		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA float4_get_yw_mB432EDA9D7F7D34A617AF4CC5405D7CB0EA71EBE_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float2(y, w); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___w_3;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_2;
@@ -27202,22 +25324,18 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float2_t24AA5C0F612B0672315EDAFEC
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4_set_yw_m6F7B788A9A5C9EFEB4C71E13B3F70EA305C2186F_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___value0, const RuntimeMethod* method) 
 {
 	{
-		// set { y = value.x; w = value.y; }
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_0 = ___value0;
 		float L_1 = L_0.___x_0;
 		__this->___y_1 = L_1;
-		// set { y = value.x; w = value.y; }
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_2 = ___value0;
 		float L_3 = L_2.___y_1;
 		__this->___w_3 = L_3;
-		// set { y = value.x; w = value.y; }
 		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA float4_get_zx_m380531CD34DB08B574128D46D72060C50457C712_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float2(z, x); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___x_0;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_2;
@@ -27229,22 +25347,18 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float2_t24AA5C0F612B0672315EDAFEC
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4_set_zx_m3F6673682505621B3D0672485936391B0A10BB13_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___value0, const RuntimeMethod* method) 
 {
 	{
-		// set { z = value.x; x = value.y; }
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_0 = ___value0;
 		float L_1 = L_0.___x_0;
 		__this->___z_2 = L_1;
-		// set { z = value.x; x = value.y; }
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_2 = ___value0;
 		float L_3 = L_2.___y_1;
 		__this->___x_0 = L_3;
-		// set { z = value.x; x = value.y; }
 		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA float4_get_zy_m52EEE5DBA5F92F2AB54A53A8E4BBB258B639074B_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float2(z, y); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___y_1;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_2;
@@ -27256,22 +25370,18 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float2_t24AA5C0F612B0672315EDAFEC
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4_set_zy_m22F48B8B355D2F90EF598FE3609C0BAD14B01C8D_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___value0, const RuntimeMethod* method) 
 {
 	{
-		// set { z = value.x; y = value.y; }
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_0 = ___value0;
 		float L_1 = L_0.___x_0;
 		__this->___z_2 = L_1;
-		// set { z = value.x; y = value.y; }
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_2 = ___value0;
 		float L_3 = L_2.___y_1;
 		__this->___y_1 = L_3;
-		// set { z = value.x; y = value.y; }
 		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA float4_get_zz_mF62178DB810C0A678911C5CCACFA25B423B34CD7_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float2(z, z); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___z_2;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_2;
@@ -27283,7 +25393,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float2_t24AA5C0F612B0672315EDAFEC
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA float4_get_zw_mE9148903506B6AC51F8BA30DBDE2CD34C67107BB_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float2(z, w); }
 		float L_0 = __this->___z_2;
 		float L_1 = __this->___w_3;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_2;
@@ -27295,22 +25404,18 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float2_t24AA5C0F612B0672315EDAFEC
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4_set_zw_mAEE753D7E8AB833C1C49B5594EFBB60888CB3871_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___value0, const RuntimeMethod* method) 
 {
 	{
-		// set { z = value.x; w = value.y; }
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_0 = ___value0;
 		float L_1 = L_0.___x_0;
 		__this->___z_2 = L_1;
-		// set { z = value.x; w = value.y; }
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_2 = ___value0;
 		float L_3 = L_2.___y_1;
 		__this->___w_3 = L_3;
-		// set { z = value.x; w = value.y; }
 		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA float4_get_wx_m2EE2A81E23795F5792E42D63D5FB65626589799C_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float2(w, x); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___x_0;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_2;
@@ -27322,22 +25427,18 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float2_t24AA5C0F612B0672315EDAFEC
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4_set_wx_m402672A0333D4D6C35AC0D41BC0504ABE1F85DAC_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___value0, const RuntimeMethod* method) 
 {
 	{
-		// set { w = value.x; x = value.y; }
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_0 = ___value0;
 		float L_1 = L_0.___x_0;
 		__this->___w_3 = L_1;
-		// set { w = value.x; x = value.y; }
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_2 = ___value0;
 		float L_3 = L_2.___y_1;
 		__this->___x_0 = L_3;
-		// set { w = value.x; x = value.y; }
 		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA float4_get_wy_m2CB7136E6137E3E815E6F62C5A404187AE159755_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float2(w, y); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___y_1;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_2;
@@ -27349,22 +25450,18 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float2_t24AA5C0F612B0672315EDAFEC
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4_set_wy_m671FE62C6FF77C7F0A53C579105D069B2FCBEBB8_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___value0, const RuntimeMethod* method) 
 {
 	{
-		// set { w = value.x; y = value.y; }
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_0 = ___value0;
 		float L_1 = L_0.___x_0;
 		__this->___w_3 = L_1;
-		// set { w = value.x; y = value.y; }
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_2 = ___value0;
 		float L_3 = L_2.___y_1;
 		__this->___y_1 = L_3;
-		// set { w = value.x; y = value.y; }
 		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA float4_get_wz_mF62F748138B72747FB28A123301FC51BD54F79E0_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float2(w, z); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___z_2;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_2;
@@ -27376,22 +25473,18 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float2_t24AA5C0F612B0672315EDAFEC
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4_set_wz_m2C1E4F9CDA17F1052FD2C16C1D09B559B0DCD54E_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___value0, const RuntimeMethod* method) 
 {
 	{
-		// set { w = value.x; z = value.y; }
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_0 = ___value0;
 		float L_1 = L_0.___x_0;
 		__this->___w_3 = L_1;
-		// set { w = value.x; z = value.y; }
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_2 = ___value0;
 		float L_3 = L_2.___y_1;
 		__this->___z_2 = L_3;
-		// set { w = value.x; z = value.y; }
 		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA float4_get_ww_m009EC36BECA00F71841BFF18C3C9F5F5C53D6E5E_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float2(w, w); }
 		float L_0 = __this->___w_3;
 		float L_1 = __this->___w_3;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_2;
@@ -27403,7 +25496,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float2_t24AA5C0F612B0672315EDAFEC
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool float4_Equals_m5E14C29D104399C399A11F52E7C2D507504AC0D1_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___rhs0, const RuntimeMethod* method) 
 {
 	{
-		// public bool Equals(float4 rhs) { return x == rhs.x && y == rhs.y && z == rhs.z && w == rhs.w; }
 		float L_0 = __this->___x_0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1 = ___rhs0;
 		float L_2 = L_1.___x_0;
@@ -27445,7 +25537,6 @@ IL_0039:
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint32_t math_hash_m53E875B2DC4324BD20573419DBE27D0F651FA4D4_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___v0, const RuntimeMethod* method) 
 {
 	{
-		// return csum(asuint(v) * uint4(0xE69626FFu, 0xBD010EEBu, 0x9CEDE1D1u, 0x43BE0B51u)) + 0xAF836EE1u;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = ___v0;
 		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_1;
 		L_1 = math_asuint_mDF3C61EF6F9D9D10A1D3EB9D0075149707B461B9_inline(L_0, NULL);
@@ -27461,7 +25552,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint32_t math_hash_m53E875B2DC432
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t float4_GetHashCode_m73A9ACC41256A6E98F883A72ED1EB0047947DA48_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	{
-		// public override int GetHashCode() { return (int)math.hash(this); }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = (*(float4_t89D9A294E7A79BD81BFBDD18654508532958555E*)__this);
 		uint32_t L_1;
 		L_1 = math_hash_m53E875B2DC4324BD20573419DBE27D0F651FA4D4_inline(L_0, NULL);
@@ -27479,7 +25569,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* float4_ToString_m63852A
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		// return string.Format("float4({0}f, {1}f, {2}f, {3}f)", x, y, z, w);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_0 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)4);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_1 = L_0;
 		float L_2 = __this->___x_0;
@@ -27524,7 +25613,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* float4_ToString_mF0B787
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		// return string.Format("float4({0}f, {1}f, {2}f, {3}f)", x.ToString(format, formatProvider), y.ToString(format, formatProvider), z.ToString(format, formatProvider), w.ToString(format, formatProvider));
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_0 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)4);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_1 = L_0;
 		float* L_2 = (&__this->___x_0);
@@ -27584,20 +25672,16 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector4__ctor_m96B2CD8B862B2
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4x2__ctor_m2BF22D12793804DDB54ECAC6C6BA3DA927C7E728_inline (float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27* __this, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___c00, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___c11, const RuntimeMethod* method) 
 {
 	{
-		// this.c0 = c0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = ___c00;
 		__this->___c0_0 = L_0;
-		// this.c1 = c1;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1 = ___c11;
 		__this->___c1_1 = L_1;
-		// }
 		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4x2__ctor_mC4F21726DB1D61A5A040ADCC55566D0BDB488459_inline (float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27* __this, float ___m000, float ___m011, float ___m102, float ___m113, float ___m204, float ___m215, float ___m306, float ___m317, const RuntimeMethod* method) 
 {
 	{
-		// this.c0 = new float4(m00, m10, m20, m30);
 		float L_0 = ___m000;
 		float L_1 = ___m102;
 		float L_2 = ___m204;
@@ -27606,7 +25690,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4x2__ctor_mC4F21726DB1D
 		memset((&L_4), 0, sizeof(L_4));
 		float4__ctor_mB2F7F2D8BCE8159BEF5A0D6400499E211858ED2D_inline((&L_4), L_0, L_1, L_2, L_3, /*hidden argument*/NULL);
 		__this->___c0_0 = L_4;
-		// this.c1 = new float4(m01, m11, m21, m31);
 		float L_5 = ___m011;
 		float L_6 = ___m113;
 		float L_7 = ___m215;
@@ -27615,14 +25698,12 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4x2__ctor_mC4F21726DB1D
 		memset((&L_9), 0, sizeof(L_9));
 		float4__ctor_mB2F7F2D8BCE8159BEF5A0D6400499E211858ED2D_inline((&L_9), L_5, L_6, L_7, L_8, /*hidden argument*/NULL);
 		__this->___c1_1 = L_9;
-		// }
 		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_op_Implicit_m3DF77A1795E1232FCE3A62302FF23601F8C042DD_inline (float ___v0, const RuntimeMethod* method) 
 {
 	{
-		// public static implicit operator float4(float v) { return new float4(v); }
 		float L_0 = ___v0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1;
 		memset((&L_1), 0, sizeof(L_1));
@@ -27633,24 +25714,20 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4x2__ctor_mB2296A67C8202F77B9A012097CA1FD080605F57E_inline (float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27* __this, float ___v0, const RuntimeMethod* method) 
 {
 	{
-		// this.c0 = v;
 		float L_0 = ___v0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1;
 		L_1 = float4_op_Implicit_m3DF77A1795E1232FCE3A62302FF23601F8C042DD_inline(L_0, NULL);
 		__this->___c0_0 = L_1;
-		// this.c1 = v;
 		float L_2 = ___v0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_3;
 		L_3 = float4_op_Implicit_m3DF77A1795E1232FCE3A62302FF23601F8C042DD_inline(L_2, NULL);
 		__this->___c1_1 = L_3;
-		// }
 		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E math_select_m7B43FDAE30A8A4D7AD42684DF8C090FC697AF346_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___a0, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___b1, bool ___c2, const RuntimeMethod* method) 
 {
 	{
-		// public static float4 select(float4 a, float4 b, bool c) { return c ? b : a; }
 		bool L_0 = ___c2;
 		if (L_0)
 		{
@@ -27671,7 +25748,6 @@ IL_0005:
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4x2__ctor_mFF64836914EF6DF89C5BBF0D17329798580592FF_inline (float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27* __this, bool ___v0, const RuntimeMethod* method) 
 {
 	{
-		// this.c0 = math.select(new float4(0.0f), new float4(1.0f), v);
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0;
 		memset((&L_0), 0, sizeof(L_0));
 		float4__ctor_m103F8D391212FB2B0F01D09F7E9CCE4BDF0C7839_inline((&L_0), (0.0f), /*hidden argument*/NULL);
@@ -27682,7 +25758,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4x2__ctor_mFF64836914EF
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_3;
 		L_3 = math_select_m7B43FDAE30A8A4D7AD42684DF8C090FC697AF346_inline(L_0, L_1, L_2, NULL);
 		__this->___c0_0 = L_3;
-		// this.c1 = math.select(new float4(0.0f), new float4(1.0f), v);
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_4;
 		memset((&L_4), 0, sizeof(L_4));
 		float4__ctor_m103F8D391212FB2B0F01D09F7E9CCE4BDF0C7839_inline((&L_4), (0.0f), /*hidden argument*/NULL);
@@ -27693,7 +25768,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4x2__ctor_mFF64836914EF
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_7;
 		L_7 = math_select_m7B43FDAE30A8A4D7AD42684DF8C090FC697AF346_inline(L_4, L_5, L_6, NULL);
 		__this->___c1_1 = L_7;
-		// }
 		return;
 	}
 }
@@ -27722,7 +25796,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 	float G_B12_2 = 0.0f;
 	float G_B12_3 = 0.0f;
 	{
-		// public static float4 select(float4 a, float4 b, bool4 c) { return new float4(c.x ? b.x : a.x, c.y ? b.y : a.y, c.z ? b.z : a.z, c.w ? b.w : a.w); }
 		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_0 = ___c2;
 		bool L_1 = L_0.___x_0;
 		if (L_1)
@@ -27848,7 +25921,6 @@ IL_0058:
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4x2__ctor_m8CA7B69C3E72C8A310406A5C1DA78E611B60D1B1_inline (float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27* __this, bool4x2_t1DF140A16C98814548E15AA8F520119EC7C1AADE ___v0, const RuntimeMethod* method) 
 {
 	{
-		// this.c0 = math.select(new float4(0.0f), new float4(1.0f), v.c0);
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0;
 		memset((&L_0), 0, sizeof(L_0));
 		float4__ctor_m103F8D391212FB2B0F01D09F7E9CCE4BDF0C7839_inline((&L_0), (0.0f), /*hidden argument*/NULL);
@@ -27860,7 +25932,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4x2__ctor_m8CA7B69C3E72
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_4;
 		L_4 = math_select_m8A60689AC883C0130FC2F32E7D1096199D2AD31E_inline(L_0, L_1, L_3, NULL);
 		__this->___c0_0 = L_4;
-		// this.c1 = math.select(new float4(0.0f), new float4(1.0f), v.c1);
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_5;
 		memset((&L_5), 0, sizeof(L_5));
 		float4__ctor_m103F8D391212FB2B0F01D09F7E9CCE4BDF0C7839_inline((&L_5), (0.0f), /*hidden argument*/NULL);
@@ -27872,14 +25943,12 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4x2__ctor_m8CA7B69C3E72
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_9;
 		L_9 = math_select_m8A60689AC883C0130FC2F32E7D1096199D2AD31E_inline(L_5, L_6, L_8, NULL);
 		__this->___c1_1 = L_9;
-		// }
 		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_op_Implicit_mB41AE98F26EA1F866D8DFEB7FD76E2CA217D52B6_inline (int32_t ___v0, const RuntimeMethod* method) 
 {
 	{
-		// public static implicit operator float4(int v) { return new float4(v); }
 		int32_t L_0 = ___v0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1;
 		memset((&L_1), 0, sizeof(L_1));
@@ -27890,24 +25959,20 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4x2__ctor_m624D6DAF1ED5685AB5C4933B25445E7B72792B53_inline (float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27* __this, int32_t ___v0, const RuntimeMethod* method) 
 {
 	{
-		// this.c0 = v;
 		int32_t L_0 = ___v0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1;
 		L_1 = float4_op_Implicit_mB41AE98F26EA1F866D8DFEB7FD76E2CA217D52B6_inline(L_0, NULL);
 		__this->___c0_0 = L_1;
-		// this.c1 = v;
 		int32_t L_2 = ___v0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_3;
 		L_3 = float4_op_Implicit_mB41AE98F26EA1F866D8DFEB7FD76E2CA217D52B6_inline(L_2, NULL);
 		__this->___c1_1 = L_3;
-		// }
 		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_op_Implicit_mA889A779BA63B2654EEEF1F5CE2407DAA0E33142_inline (int4_tBA77D4945786DE82C3A487B33955EA1004996052 ___v0, const RuntimeMethod* method) 
 {
 	{
-		// public static implicit operator float4(int4 v) { return new float4(v); }
 		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_0 = ___v0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1;
 		memset((&L_1), 0, sizeof(L_1));
@@ -27918,26 +25983,22 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4x2__ctor_m8D6AE828F425899619AEC48D142812659BB5525A_inline (float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27* __this, int4x2_t4B98454F51F5E8A8F4201FA33A01D2692B692996 ___v0, const RuntimeMethod* method) 
 {
 	{
-		// this.c0 = v.c0;
 		int4x2_t4B98454F51F5E8A8F4201FA33A01D2692B692996 L_0 = ___v0;
 		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_1 = L_0.___c0_0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2;
 		L_2 = float4_op_Implicit_mA889A779BA63B2654EEEF1F5CE2407DAA0E33142_inline(L_1, NULL);
 		__this->___c0_0 = L_2;
-		// this.c1 = v.c1;
 		int4x2_t4B98454F51F5E8A8F4201FA33A01D2692B692996 L_3 = ___v0;
 		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_4 = L_3.___c1_1;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_5;
 		L_5 = float4_op_Implicit_mA889A779BA63B2654EEEF1F5CE2407DAA0E33142_inline(L_4, NULL);
 		__this->___c1_1 = L_5;
-		// }
 		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_op_Implicit_mED209EFA9280A609F964FE9EEB8B85C91505456D_inline (uint32_t ___v0, const RuntimeMethod* method) 
 {
 	{
-		// public static implicit operator float4(uint v) { return new float4(v); }
 		uint32_t L_0 = ___v0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1;
 		memset((&L_1), 0, sizeof(L_1));
@@ -27948,24 +26009,20 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4x2__ctor_mC0032295C0D3A1C0CD5A067E01BD5D02082610B9_inline (float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27* __this, uint32_t ___v0, const RuntimeMethod* method) 
 {
 	{
-		// this.c0 = v;
 		uint32_t L_0 = ___v0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1;
 		L_1 = float4_op_Implicit_mED209EFA9280A609F964FE9EEB8B85C91505456D_inline(L_0, NULL);
 		__this->___c0_0 = L_1;
-		// this.c1 = v;
 		uint32_t L_2 = ___v0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_3;
 		L_3 = float4_op_Implicit_mED209EFA9280A609F964FE9EEB8B85C91505456D_inline(L_2, NULL);
 		__this->___c1_1 = L_3;
-		// }
 		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_op_Implicit_m82EA1881742FD480C2CE2386DF3D25C34502100B_inline (uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 ___v0, const RuntimeMethod* method) 
 {
 	{
-		// public static implicit operator float4(uint4 v) { return new float4(v); }
 		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_0 = ___v0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1;
 		memset((&L_1), 0, sizeof(L_1));
@@ -27976,26 +26033,22 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4x2__ctor_m395E2446D3B709C29D8C157E0B28237B319C6B0A_inline (float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27* __this, uint4x2_t03005BA82F8429C71C2A4F30895BD93E04FB8FB6 ___v0, const RuntimeMethod* method) 
 {
 	{
-		// this.c0 = v.c0;
 		uint4x2_t03005BA82F8429C71C2A4F30895BD93E04FB8FB6 L_0 = ___v0;
 		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_1 = L_0.___c0_0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2;
 		L_2 = float4_op_Implicit_m82EA1881742FD480C2CE2386DF3D25C34502100B_inline(L_1, NULL);
 		__this->___c0_0 = L_2;
-		// this.c1 = v.c1;
 		uint4x2_t03005BA82F8429C71C2A4F30895BD93E04FB8FB6 L_3 = ___v0;
 		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_4 = L_3.___c1_1;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_5;
 		L_5 = float4_op_Implicit_m82EA1881742FD480C2CE2386DF3D25C34502100B_inline(L_4, NULL);
 		__this->___c1_1 = L_5;
-		// }
 		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_op_Explicit_mE1B66196EF40555EA57BAF264CEC0A4CE271DF7E_inline (double ___v0, const RuntimeMethod* method) 
 {
 	{
-		// public static explicit operator float4(double v) { return new float4(v); }
 		double L_0 = ___v0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1;
 		memset((&L_1), 0, sizeof(L_1));
@@ -28006,24 +26059,20 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4x2__ctor_m859B4CA6C00A6E9233BF1034175400F80EB0A541_inline (float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27* __this, double ___v0, const RuntimeMethod* method) 
 {
 	{
-		// this.c0 = (float4)v;
 		double L_0 = ___v0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1;
 		L_1 = float4_op_Explicit_mE1B66196EF40555EA57BAF264CEC0A4CE271DF7E_inline(L_0, NULL);
 		__this->___c0_0 = L_1;
-		// this.c1 = (float4)v;
 		double L_2 = ___v0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_3;
 		L_3 = float4_op_Explicit_mE1B66196EF40555EA57BAF264CEC0A4CE271DF7E_inline(L_2, NULL);
 		__this->___c1_1 = L_3;
-		// }
 		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_op_Explicit_mBD6BF71CF079224435AFBF2408554A53AD557950_inline (double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 ___v0, const RuntimeMethod* method) 
 {
 	{
-		// public static explicit operator float4(double4 v) { return new float4(v); }
 		double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 L_0 = ___v0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1;
 		memset((&L_1), 0, sizeof(L_1));
@@ -28034,26 +26083,22 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4x2__ctor_mBC9BD79A95A91EA58BA5455D0F2EA1CA4F1AA366_inline (float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27* __this, double4x2_t4C5322E8266A54928FDB298BD4D1BCC6F1E5DB16 ___v0, const RuntimeMethod* method) 
 {
 	{
-		// this.c0 = (float4)v.c0;
 		double4x2_t4C5322E8266A54928FDB298BD4D1BCC6F1E5DB16 L_0 = ___v0;
 		double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 L_1 = L_0.___c0_0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2;
 		L_2 = float4_op_Explicit_mBD6BF71CF079224435AFBF2408554A53AD557950_inline(L_1, NULL);
 		__this->___c0_0 = L_2;
-		// this.c1 = (float4)v.c1;
 		double4x2_t4C5322E8266A54928FDB298BD4D1BCC6F1E5DB16 L_3 = ___v0;
 		double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 L_4 = L_3.___c1_1;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_5;
 		L_5 = float4_op_Explicit_mBD6BF71CF079224435AFBF2408554A53AD557950_inline(L_4, NULL);
 		__this->___c1_1 = L_5;
-		// }
 		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_op_Multiply_m0E98338FB7DFF55B101EBCD78A8703ADB9C08667_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___lhs0, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static float4 operator * (float4 lhs, float4 rhs) { return new float4 (lhs.x * rhs.x, lhs.y * rhs.y, lhs.z * rhs.z, lhs.w * rhs.w); }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = ___lhs0;
 		float L_1 = L_0.___x_0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2 = ___rhs1;
@@ -28079,7 +26124,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_op_Multiply_m712573F441DA8AF0843DE2167927FB76E642B1EB_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___lhs0, float ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static float4 operator * (float4 lhs, float rhs) { return new float4 (lhs.x * rhs, lhs.y * rhs, lhs.z * rhs, lhs.w * rhs); }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = ___lhs0;
 		float L_1 = L_0.___x_0;
 		float L_2 = ___rhs1;
@@ -28101,7 +26145,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_op_Multiply_m94C65B5751B7969CD82F15DADB8A6F182BFBD581_inline (float ___lhs0, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static float4 operator * (float lhs, float4 rhs) { return new float4 (lhs * rhs.x, lhs * rhs.y, lhs * rhs.z, lhs * rhs.w); }
 		float L_0 = ___lhs0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1 = ___rhs1;
 		float L_2 = L_1.___x_0;
@@ -28123,7 +26166,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_op_Addition_m2CF2E1B2DAD4996DE3C5B6DFB90185E4CC8F0F44_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___lhs0, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static float4 operator + (float4 lhs, float4 rhs) { return new float4 (lhs.x + rhs.x, lhs.y + rhs.y, lhs.z + rhs.z, lhs.w + rhs.w); }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = ___lhs0;
 		float L_1 = L_0.___x_0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2 = ___rhs1;
@@ -28149,7 +26191,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_op_Addition_mF5FA17D905018429B3CC41959DD9F93E3276B6BC_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___lhs0, float ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static float4 operator + (float4 lhs, float rhs) { return new float4 (lhs.x + rhs, lhs.y + rhs, lhs.z + rhs, lhs.w + rhs); }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = ___lhs0;
 		float L_1 = L_0.___x_0;
 		float L_2 = ___rhs1;
@@ -28171,7 +26212,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_op_Addition_m1E24C4187C7B9161A9B1A07D10FD91A1C0EFB912_inline (float ___lhs0, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static float4 operator + (float lhs, float4 rhs) { return new float4 (lhs + rhs.x, lhs + rhs.y, lhs + rhs.z, lhs + rhs.w); }
 		float L_0 = ___lhs0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1 = ___rhs1;
 		float L_2 = L_1.___x_0;
@@ -28193,7 +26233,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_op_Subtraction_mBC40F52B8A8EF499A1AA3CC987E5935BD188B4E3_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___lhs0, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static float4 operator - (float4 lhs, float4 rhs) { return new float4 (lhs.x - rhs.x, lhs.y - rhs.y, lhs.z - rhs.z, lhs.w - rhs.w); }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = ___lhs0;
 		float L_1 = L_0.___x_0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2 = ___rhs1;
@@ -28219,7 +26258,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_op_Subtraction_m8139554182AD5D95062FA5F0EC405106355F7CA1_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___lhs0, float ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static float4 operator - (float4 lhs, float rhs) { return new float4 (lhs.x - rhs, lhs.y - rhs, lhs.z - rhs, lhs.w - rhs); }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = ___lhs0;
 		float L_1 = L_0.___x_0;
 		float L_2 = ___rhs1;
@@ -28241,7 +26279,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_op_Subtraction_m2CB0DDFA10FC0C1D39F9980E876A67E52F4938BE_inline (float ___lhs0, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static float4 operator - (float lhs, float4 rhs) { return new float4 (lhs - rhs.x, lhs - rhs.y, lhs - rhs.z, lhs - rhs.w); }
 		float L_0 = ___lhs0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1 = ___rhs1;
 		float L_2 = L_1.___x_0;
@@ -28263,7 +26300,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_op_Division_m0DEAEFE4E26659FBB9BB51D7F8B359590A6B338F_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___lhs0, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static float4 operator / (float4 lhs, float4 rhs) { return new float4 (lhs.x / rhs.x, lhs.y / rhs.y, lhs.z / rhs.z, lhs.w / rhs.w); }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = ___lhs0;
 		float L_1 = L_0.___x_0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2 = ___rhs1;
@@ -28289,7 +26325,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_op_Division_mA82993BB826C4799764D5B0E543D0D7776F4F8A2_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___lhs0, float ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static float4 operator / (float4 lhs, float rhs) { return new float4 (lhs.x / rhs, lhs.y / rhs, lhs.z / rhs, lhs.w / rhs); }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = ___lhs0;
 		float L_1 = L_0.___x_0;
 		float L_2 = ___rhs1;
@@ -28311,7 +26346,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_op_Division_m2B28F6D61B90A06440F0B69C31228A6D164DB396_inline (float ___lhs0, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static float4 operator / (float lhs, float4 rhs) { return new float4 (lhs / rhs.x, lhs / rhs.y, lhs / rhs.z, lhs / rhs.w); }
 		float L_0 = ___lhs0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1 = ___rhs1;
 		float L_2 = L_1.___x_0;
@@ -28333,7 +26367,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_op_Modulus_mDC84A2317FD57925ED24BBA344E6D0AE392120BE_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___lhs0, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static float4 operator % (float4 lhs, float4 rhs) { return new float4 (lhs.x % rhs.x, lhs.y % rhs.y, lhs.z % rhs.z, lhs.w % rhs.w); }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = ___lhs0;
 		float L_1 = L_0.___x_0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2 = ___rhs1;
@@ -28359,7 +26392,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_op_Modulus_m53BA278FB6F0AE62848064AAC1D1A606D415BF4F_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___lhs0, float ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static float4 operator % (float4 lhs, float rhs) { return new float4 (lhs.x % rhs, lhs.y % rhs, lhs.z % rhs, lhs.w % rhs); }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = ___lhs0;
 		float L_1 = L_0.___x_0;
 		float L_2 = ___rhs1;
@@ -28381,7 +26413,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_op_Modulus_mA0ED674183869A453E28CA3B30E1518739ADDAE2_inline (float ___lhs0, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static float4 operator % (float lhs, float4 rhs) { return new float4 (lhs % rhs.x, lhs % rhs.y, lhs % rhs.z, lhs % rhs.w); }
 		float L_0 = ___lhs0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1 = ___rhs1;
 		float L_2 = L_1.___x_0;
@@ -28404,7 +26435,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 {
 	float V_0 = 0.0f;
 	{
-		// public static float4 operator ++ (float4 val) { return new float4 (++val.x, ++val.y, ++val.z, ++val.w); }
 		float* L_0 = (&(&___val0)->___x_0);
 		float* L_1 = L_0;
 		float L_2 = *((float*)L_1);
@@ -28443,7 +26473,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 {
 	float V_0 = 0.0f;
 	{
-		// public static float4 operator -- (float4 val) { return new float4 (--val.x, --val.y, --val.z, --val.w); }
 		float* L_0 = (&(&___val0)->___x_0);
 		float* L_1 = L_0;
 		float L_2 = *((float*)L_1);
@@ -28481,7 +26510,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 float4_op_LessThan_mE58C0AE08E7145B15A2BE0280751B39BB4B9B4AF_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___lhs0, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static bool4 operator < (float4 lhs, float4 rhs) { return new bool4 (lhs.x < rhs.x, lhs.y < rhs.y, lhs.z < rhs.z, lhs.w < rhs.w); }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = ___lhs0;
 		float L_1 = L_0.___x_0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2 = ___rhs1;
@@ -28507,20 +26535,16 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool4_tCEC5DC2AFA83CFCFFFD8864343
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void bool4x2__ctor_mAADAE998CE29CA687864D7394B16CEFCA62B5EB7_inline (bool4x2_t1DF140A16C98814548E15AA8F520119EC7C1AADE* __this, bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 ___c00, bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 ___c11, const RuntimeMethod* method) 
 {
 	{
-		// this.c0 = c0;
 		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_0 = ___c00;
 		__this->___c0_0 = L_0;
-		// this.c1 = c1;
 		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_1 = ___c11;
 		__this->___c1_1 = L_1;
-		// }
 		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 float4_op_LessThan_m12710731DD61F05F0B98262FA8C42F2E3FFC7940_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___lhs0, float ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static bool4 operator < (float4 lhs, float rhs) { return new bool4 (lhs.x < rhs, lhs.y < rhs, lhs.z < rhs, lhs.w < rhs); }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = ___lhs0;
 		float L_1 = L_0.___x_0;
 		float L_2 = ___rhs1;
@@ -28542,7 +26566,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool4_tCEC5DC2AFA83CFCFFFD8864343
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 float4_op_LessThan_mA42CC2283C70A3D76FBAE5D751DFC90F53AEA02A_inline (float ___lhs0, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static bool4 operator < (float lhs, float4 rhs) { return new bool4 (lhs < rhs.x, lhs < rhs.y, lhs < rhs.z, lhs < rhs.w); }
 		float L_0 = ___lhs0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1 = ___rhs1;
 		float L_2 = L_1.___x_0;
@@ -28564,7 +26587,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool4_tCEC5DC2AFA83CFCFFFD8864343
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 float4_op_LessThanOrEqual_m165BF902A77B9807D42AAEA7219AB73403C799E1_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___lhs0, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static bool4 operator <= (float4 lhs, float4 rhs) { return new bool4 (lhs.x <= rhs.x, lhs.y <= rhs.y, lhs.z <= rhs.z, lhs.w <= rhs.w); }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = ___lhs0;
 		float L_1 = L_0.___x_0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2 = ___rhs1;
@@ -28590,7 +26612,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool4_tCEC5DC2AFA83CFCFFFD8864343
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 float4_op_LessThanOrEqual_mC2E36604EC9C97A5172F8574906BE7B08ACF846A_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___lhs0, float ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static bool4 operator <= (float4 lhs, float rhs) { return new bool4 (lhs.x <= rhs, lhs.y <= rhs, lhs.z <= rhs, lhs.w <= rhs); }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = ___lhs0;
 		float L_1 = L_0.___x_0;
 		float L_2 = ___rhs1;
@@ -28612,7 +26633,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool4_tCEC5DC2AFA83CFCFFFD8864343
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 float4_op_LessThanOrEqual_m4D22D653AA68A37B8A6D3BB105A2DB39B3FB2242_inline (float ___lhs0, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static bool4 operator <= (float lhs, float4 rhs) { return new bool4 (lhs <= rhs.x, lhs <= rhs.y, lhs <= rhs.z, lhs <= rhs.w); }
 		float L_0 = ___lhs0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1 = ___rhs1;
 		float L_2 = L_1.___x_0;
@@ -28634,7 +26654,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool4_tCEC5DC2AFA83CFCFFFD8864343
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 float4_op_GreaterThan_m48677C9BFCCA8B0238B1169E55C85B24A3FF9C1E_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___lhs0, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static bool4 operator > (float4 lhs, float4 rhs) { return new bool4 (lhs.x > rhs.x, lhs.y > rhs.y, lhs.z > rhs.z, lhs.w > rhs.w); }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = ___lhs0;
 		float L_1 = L_0.___x_0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2 = ___rhs1;
@@ -28660,7 +26679,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool4_tCEC5DC2AFA83CFCFFFD8864343
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 float4_op_GreaterThan_m5F2D7A993D9B28F0FC1A4505754179244F0DF353_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___lhs0, float ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static bool4 operator > (float4 lhs, float rhs) { return new bool4 (lhs.x > rhs, lhs.y > rhs, lhs.z > rhs, lhs.w > rhs); }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = ___lhs0;
 		float L_1 = L_0.___x_0;
 		float L_2 = ___rhs1;
@@ -28682,7 +26700,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool4_tCEC5DC2AFA83CFCFFFD8864343
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 float4_op_GreaterThan_mFE67FEC83DE3033B1BE754FD94C7C60EC837BE49_inline (float ___lhs0, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static bool4 operator > (float lhs, float4 rhs) { return new bool4 (lhs > rhs.x, lhs > rhs.y, lhs > rhs.z, lhs > rhs.w); }
 		float L_0 = ___lhs0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1 = ___rhs1;
 		float L_2 = L_1.___x_0;
@@ -28704,7 +26721,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool4_tCEC5DC2AFA83CFCFFFD8864343
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 float4_op_GreaterThanOrEqual_mFC98AE5166038C19186F68EBF925E22D0C198FDD_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___lhs0, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static bool4 operator >= (float4 lhs, float4 rhs) { return new bool4 (lhs.x >= rhs.x, lhs.y >= rhs.y, lhs.z >= rhs.z, lhs.w >= rhs.w); }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = ___lhs0;
 		float L_1 = L_0.___x_0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2 = ___rhs1;
@@ -28730,7 +26746,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool4_tCEC5DC2AFA83CFCFFFD8864343
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 float4_op_GreaterThanOrEqual_m52A3AE235E7DC79B06E438888F68CC049C51D8EE_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___lhs0, float ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static bool4 operator >= (float4 lhs, float rhs) { return new bool4 (lhs.x >= rhs, lhs.y >= rhs, lhs.z >= rhs, lhs.w >= rhs); }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = ___lhs0;
 		float L_1 = L_0.___x_0;
 		float L_2 = ___rhs1;
@@ -28752,7 +26767,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool4_tCEC5DC2AFA83CFCFFFD8864343
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 float4_op_GreaterThanOrEqual_m9A3DB4A702C3427D69293376080557EA2B7BDB04_inline (float ___lhs0, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static bool4 operator >= (float lhs, float4 rhs) { return new bool4 (lhs >= rhs.x, lhs >= rhs.y, lhs >= rhs.z, lhs >= rhs.w); }
 		float L_0 = ___lhs0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1 = ___rhs1;
 		float L_2 = L_1.___x_0;
@@ -28774,7 +26788,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool4_tCEC5DC2AFA83CFCFFFD8864343
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_op_UnaryNegation_m5A491FC1978650D62EBEDC51992CF4B2113C8C5B_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___val0, const RuntimeMethod* method) 
 {
 	{
-		// public static float4 operator - (float4 val) { return new float4 (-val.x, -val.y, -val.z, -val.w); }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = ___val0;
 		float L_1 = L_0.___x_0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2 = ___val0;
@@ -28792,7 +26805,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_op_UnaryPlus_m31D0004F25845E6476F309C4895646DB6C9EAA3A_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___val0, const RuntimeMethod* method) 
 {
 	{
-		// public static float4 operator + (float4 val) { return new float4 (+val.x, +val.y, +val.z, +val.w); }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = ___val0;
 		float L_1 = L_0.___x_0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2 = ___val0;
@@ -28810,7 +26822,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 float4_op_Equality_mDBB7FE23BF9C4CFC547DD8162F6677DBFFAFE1AF_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___lhs0, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static bool4 operator == (float4 lhs, float4 rhs) { return new bool4 (lhs.x == rhs.x, lhs.y == rhs.y, lhs.z == rhs.z, lhs.w == rhs.w); }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = ___lhs0;
 		float L_1 = L_0.___x_0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2 = ___rhs1;
@@ -28836,7 +26847,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool4_tCEC5DC2AFA83CFCFFFD8864343
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 float4_op_Equality_mCF3B13ACC40CA43354D18AFF775D209585438FC5_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___lhs0, float ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static bool4 operator == (float4 lhs, float rhs) { return new bool4 (lhs.x == rhs, lhs.y == rhs, lhs.z == rhs, lhs.w == rhs); }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = ___lhs0;
 		float L_1 = L_0.___x_0;
 		float L_2 = ___rhs1;
@@ -28858,7 +26868,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool4_tCEC5DC2AFA83CFCFFFD8864343
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 float4_op_Equality_m0FD47823684E8AAB360F381D488AF4294C789B83_inline (float ___lhs0, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static bool4 operator == (float lhs, float4 rhs) { return new bool4 (lhs == rhs.x, lhs == rhs.y, lhs == rhs.z, lhs == rhs.w); }
 		float L_0 = ___lhs0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1 = ___rhs1;
 		float L_2 = L_1.___x_0;
@@ -28880,7 +26889,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool4_tCEC5DC2AFA83CFCFFFD8864343
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 float4_op_Inequality_m3189CB04F9128BDC8296977693042108C75A03B7_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___lhs0, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static bool4 operator != (float4 lhs, float4 rhs) { return new bool4 (lhs.x != rhs.x, lhs.y != rhs.y, lhs.z != rhs.z, lhs.w != rhs.w); }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = ___lhs0;
 		float L_1 = L_0.___x_0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2 = ___rhs1;
@@ -28906,7 +26914,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool4_tCEC5DC2AFA83CFCFFFD8864343
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 float4_op_Inequality_m73E9642A4EE8C80BD4913031CFAB84D65E426697_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___lhs0, float ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static bool4 operator != (float4 lhs, float rhs) { return new bool4 (lhs.x != rhs, lhs.y != rhs, lhs.z != rhs, lhs.w != rhs); }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = ___lhs0;
 		float L_1 = L_0.___x_0;
 		float L_2 = ___rhs1;
@@ -28928,7 +26935,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool4_tCEC5DC2AFA83CFCFFFD8864343
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 float4_op_Inequality_m349375FEEF22CDEA56477067095592C3C3F948BF_inline (float ___lhs0, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static bool4 operator != (float lhs, float4 rhs) { return new bool4 (lhs != rhs.x, lhs != rhs.y, lhs != rhs.z, lhs != rhs.w); }
 		float L_0 = ___lhs0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1 = ___rhs1;
 		float L_2 = L_1.___x_0;
@@ -28950,7 +26956,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool4_tCEC5DC2AFA83CFCFFFD8864343
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool float4x2_Equals_m65157E71DEB3B161C5F2AA05945294537B923C0A_inline (float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27* __this, float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27 ___rhs0, const RuntimeMethod* method) 
 {
 	{
-		// public bool Equals(float4x2 rhs) { return c0.Equals(rhs.c0) && c1.Equals(rhs.c1); }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E* L_0 = (&__this->___c0_0);
 		float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27 L_1 = ___rhs0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2 = L_1.___c0_0;
@@ -28978,8 +26983,6 @@ IL_0025:
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint32_t math_hash_m65367DBA719177C4564C05436542A4C5C39A714F_inline (float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27 ___v0, const RuntimeMethod* method) 
 {
 	{
-		// return csum(asuint(v.c0) * uint4(0xAAC3C25Du, 0xD21D0945u, 0x88FCAB2Du, 0x614DA60Du) +
-		//             asuint(v.c1) * uint4(0x5BA2C50Bu, 0x8C455ACBu, 0xCD266C89u, 0xF1852A33u)) + 0x77E35E77u;
 		float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27 L_0 = ___v0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1 = L_0.___c0_0;
 		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_2;
@@ -29006,7 +27009,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint32_t math_hash_m65367DBA71917
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t float4x2_GetHashCode_m535819505C38AAC585C51A47BEB749D6A4BACA08_inline (float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27* __this, const RuntimeMethod* method) 
 {
 	{
-		// public override int GetHashCode() { return (int)math.hash(this); }
 		float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27 L_0 = (*(float4x2_tC4211FC542D48326AB01E7CEADEC950ADB301A27*)__this);
 		uint32_t L_1;
 		L_1 = math_hash_m65367DBA719177C4564C05436542A4C5C39A714F_inline(L_0, NULL);
@@ -29024,7 +27026,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* float4x2_ToString_m9259
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		// return string.Format("float4x2({0}f, {1}f,  {2}f, {3}f,  {4}f, {5}f,  {6}f, {7}f)", c0.x, c1.x, c0.y, c1.y, c0.z, c1.z, c0.w, c1.w);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_0 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)8);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_1 = L_0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E* L_2 = (&__this->___c0_0);
@@ -29105,7 +27106,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* float4x2_ToString_m017A
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		// return string.Format("float4x2({0}f, {1}f,  {2}f, {3}f,  {4}f, {5}f,  {6}f, {7}f)", c0.x.ToString(format, formatProvider), c1.x.ToString(format, formatProvider), c0.y.ToString(format, formatProvider), c1.y.ToString(format, formatProvider), c0.z.ToString(format, formatProvider), c1.z.ToString(format, formatProvider), c0.w.ToString(format, formatProvider), c1.w.ToString(format, formatProvider));
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_0 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)8);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_1 = L_0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E* L_2 = (&__this->___c0_0);
@@ -29195,23 +27195,18 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* float4x2_ToString_m017A
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4x3__ctor_mEA21BBD3BB218FBA75FE3934670C0A9C0E63FCF8_inline (float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC* __this, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___c00, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___c11, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___c22, const RuntimeMethod* method) 
 {
 	{
-		// this.c0 = c0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = ___c00;
 		__this->___c0_0 = L_0;
-		// this.c1 = c1;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1 = ___c11;
 		__this->___c1_1 = L_1;
-		// this.c2 = c2;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2 = ___c22;
 		__this->___c2_2 = L_2;
-		// }
 		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4x3__ctor_mE22B57702FAF990965B3CCF33B448B6BBDA935FF_inline (float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC* __this, float ___m000, float ___m011, float ___m022, float ___m103, float ___m114, float ___m125, float ___m206, float ___m217, float ___m228, float ___m309, float ___m3110, float ___m3211, const RuntimeMethod* method) 
 {
 	{
-		// this.c0 = new float4(m00, m10, m20, m30);
 		float L_0 = ___m000;
 		float L_1 = ___m103;
 		float L_2 = ___m206;
@@ -29220,7 +27215,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4x3__ctor_mE22B57702FAF
 		memset((&L_4), 0, sizeof(L_4));
 		float4__ctor_mB2F7F2D8BCE8159BEF5A0D6400499E211858ED2D_inline((&L_4), L_0, L_1, L_2, L_3, /*hidden argument*/NULL);
 		__this->___c0_0 = L_4;
-		// this.c1 = new float4(m01, m11, m21, m31);
 		float L_5 = ___m011;
 		float L_6 = ___m114;
 		float L_7 = ___m217;
@@ -29229,7 +27223,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4x3__ctor_mE22B57702FAF
 		memset((&L_9), 0, sizeof(L_9));
 		float4__ctor_mB2F7F2D8BCE8159BEF5A0D6400499E211858ED2D_inline((&L_9), L_5, L_6, L_7, L_8, /*hidden argument*/NULL);
 		__this->___c1_1 = L_9;
-		// this.c2 = new float4(m02, m12, m22, m32);
 		float L_10 = ___m022;
 		float L_11 = ___m125;
 		float L_12 = ___m228;
@@ -29238,36 +27231,30 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4x3__ctor_mE22B57702FAF
 		memset((&L_14), 0, sizeof(L_14));
 		float4__ctor_mB2F7F2D8BCE8159BEF5A0D6400499E211858ED2D_inline((&L_14), L_10, L_11, L_12, L_13, /*hidden argument*/NULL);
 		__this->___c2_2 = L_14;
-		// }
 		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4x3__ctor_m3C82811453B82DC569F571F3026DE19A8404D0CF_inline (float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC* __this, float ___v0, const RuntimeMethod* method) 
 {
 	{
-		// this.c0 = v;
 		float L_0 = ___v0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1;
 		L_1 = float4_op_Implicit_m3DF77A1795E1232FCE3A62302FF23601F8C042DD_inline(L_0, NULL);
 		__this->___c0_0 = L_1;
-		// this.c1 = v;
 		float L_2 = ___v0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_3;
 		L_3 = float4_op_Implicit_m3DF77A1795E1232FCE3A62302FF23601F8C042DD_inline(L_2, NULL);
 		__this->___c1_1 = L_3;
-		// this.c2 = v;
 		float L_4 = ___v0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_5;
 		L_5 = float4_op_Implicit_m3DF77A1795E1232FCE3A62302FF23601F8C042DD_inline(L_4, NULL);
 		__this->___c2_2 = L_5;
-		// }
 		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4x3__ctor_m5A7EFEDFE0BC80A95D1BF00F4BADE5E9F4B6784C_inline (float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC* __this, bool ___v0, const RuntimeMethod* method) 
 {
 	{
-		// this.c0 = math.select(new float4(0.0f), new float4(1.0f), v);
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0;
 		memset((&L_0), 0, sizeof(L_0));
 		float4__ctor_m103F8D391212FB2B0F01D09F7E9CCE4BDF0C7839_inline((&L_0), (0.0f), /*hidden argument*/NULL);
@@ -29278,7 +27265,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4x3__ctor_m5A7EFEDFE0BC
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_3;
 		L_3 = math_select_m7B43FDAE30A8A4D7AD42684DF8C090FC697AF346_inline(L_0, L_1, L_2, NULL);
 		__this->___c0_0 = L_3;
-		// this.c1 = math.select(new float4(0.0f), new float4(1.0f), v);
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_4;
 		memset((&L_4), 0, sizeof(L_4));
 		float4__ctor_m103F8D391212FB2B0F01D09F7E9CCE4BDF0C7839_inline((&L_4), (0.0f), /*hidden argument*/NULL);
@@ -29289,7 +27275,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4x3__ctor_m5A7EFEDFE0BC
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_7;
 		L_7 = math_select_m7B43FDAE30A8A4D7AD42684DF8C090FC697AF346_inline(L_4, L_5, L_6, NULL);
 		__this->___c1_1 = L_7;
-		// this.c2 = math.select(new float4(0.0f), new float4(1.0f), v);
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_8;
 		memset((&L_8), 0, sizeof(L_8));
 		float4__ctor_m103F8D391212FB2B0F01D09F7E9CCE4BDF0C7839_inline((&L_8), (0.0f), /*hidden argument*/NULL);
@@ -29300,14 +27285,12 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4x3__ctor_m5A7EFEDFE0BC
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_11;
 		L_11 = math_select_m7B43FDAE30A8A4D7AD42684DF8C090FC697AF346_inline(L_8, L_9, L_10, NULL);
 		__this->___c2_2 = L_11;
-		// }
 		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4x3__ctor_m4FACD57D10F52EEDE81F74EBFC06F84C49056307_inline (float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC* __this, bool4x3_t1373A1AFFA890B9F3DB734F9505B56E08D425D34 ___v0, const RuntimeMethod* method) 
 {
 	{
-		// this.c0 = math.select(new float4(0.0f), new float4(1.0f), v.c0);
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0;
 		memset((&L_0), 0, sizeof(L_0));
 		float4__ctor_m103F8D391212FB2B0F01D09F7E9CCE4BDF0C7839_inline((&L_0), (0.0f), /*hidden argument*/NULL);
@@ -29319,7 +27302,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4x3__ctor_m4FACD57D10F5
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_4;
 		L_4 = math_select_m8A60689AC883C0130FC2F32E7D1096199D2AD31E_inline(L_0, L_1, L_3, NULL);
 		__this->___c0_0 = L_4;
-		// this.c1 = math.select(new float4(0.0f), new float4(1.0f), v.c1);
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_5;
 		memset((&L_5), 0, sizeof(L_5));
 		float4__ctor_m103F8D391212FB2B0F01D09F7E9CCE4BDF0C7839_inline((&L_5), (0.0f), /*hidden argument*/NULL);
@@ -29331,7 +27313,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4x3__ctor_m4FACD57D10F5
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_9;
 		L_9 = math_select_m8A60689AC883C0130FC2F32E7D1096199D2AD31E_inline(L_5, L_6, L_8, NULL);
 		__this->___c1_1 = L_9;
-		// this.c2 = math.select(new float4(0.0f), new float4(1.0f), v.c2);
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_10;
 		memset((&L_10), 0, sizeof(L_10));
 		float4__ctor_m103F8D391212FB2B0F01D09F7E9CCE4BDF0C7839_inline((&L_10), (0.0f), /*hidden argument*/NULL);
@@ -29343,171 +27324,141 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4x3__ctor_m4FACD57D10F5
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_14;
 		L_14 = math_select_m8A60689AC883C0130FC2F32E7D1096199D2AD31E_inline(L_10, L_11, L_13, NULL);
 		__this->___c2_2 = L_14;
-		// }
 		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4x3__ctor_m835D595D94EF39A109EA44A4A4C0956029EEEBD3_inline (float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC* __this, int32_t ___v0, const RuntimeMethod* method) 
 {
 	{
-		// this.c0 = v;
 		int32_t L_0 = ___v0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1;
 		L_1 = float4_op_Implicit_mB41AE98F26EA1F866D8DFEB7FD76E2CA217D52B6_inline(L_0, NULL);
 		__this->___c0_0 = L_1;
-		// this.c1 = v;
 		int32_t L_2 = ___v0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_3;
 		L_3 = float4_op_Implicit_mB41AE98F26EA1F866D8DFEB7FD76E2CA217D52B6_inline(L_2, NULL);
 		__this->___c1_1 = L_3;
-		// this.c2 = v;
 		int32_t L_4 = ___v0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_5;
 		L_5 = float4_op_Implicit_mB41AE98F26EA1F866D8DFEB7FD76E2CA217D52B6_inline(L_4, NULL);
 		__this->___c2_2 = L_5;
-		// }
 		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4x3__ctor_m7F9B0FCFF00BEBCC7A892DE181182507D0A8DB08_inline (float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC* __this, int4x3_tC8B8554AAF213125795C70EC9760DE5831E4079A ___v0, const RuntimeMethod* method) 
 {
 	{
-		// this.c0 = v.c0;
 		int4x3_tC8B8554AAF213125795C70EC9760DE5831E4079A L_0 = ___v0;
 		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_1 = L_0.___c0_0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2;
 		L_2 = float4_op_Implicit_mA889A779BA63B2654EEEF1F5CE2407DAA0E33142_inline(L_1, NULL);
 		__this->___c0_0 = L_2;
-		// this.c1 = v.c1;
 		int4x3_tC8B8554AAF213125795C70EC9760DE5831E4079A L_3 = ___v0;
 		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_4 = L_3.___c1_1;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_5;
 		L_5 = float4_op_Implicit_mA889A779BA63B2654EEEF1F5CE2407DAA0E33142_inline(L_4, NULL);
 		__this->___c1_1 = L_5;
-		// this.c2 = v.c2;
 		int4x3_tC8B8554AAF213125795C70EC9760DE5831E4079A L_6 = ___v0;
 		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_7 = L_6.___c2_2;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_8;
 		L_8 = float4_op_Implicit_mA889A779BA63B2654EEEF1F5CE2407DAA0E33142_inline(L_7, NULL);
 		__this->___c2_2 = L_8;
-		// }
 		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4x3__ctor_mB7262D096073C6FEBC352B56A70D61831FFAAF4B_inline (float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC* __this, uint32_t ___v0, const RuntimeMethod* method) 
 {
 	{
-		// this.c0 = v;
 		uint32_t L_0 = ___v0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1;
 		L_1 = float4_op_Implicit_mED209EFA9280A609F964FE9EEB8B85C91505456D_inline(L_0, NULL);
 		__this->___c0_0 = L_1;
-		// this.c1 = v;
 		uint32_t L_2 = ___v0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_3;
 		L_3 = float4_op_Implicit_mED209EFA9280A609F964FE9EEB8B85C91505456D_inline(L_2, NULL);
 		__this->___c1_1 = L_3;
-		// this.c2 = v;
 		uint32_t L_4 = ___v0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_5;
 		L_5 = float4_op_Implicit_mED209EFA9280A609F964FE9EEB8B85C91505456D_inline(L_4, NULL);
 		__this->___c2_2 = L_5;
-		// }
 		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4x3__ctor_m92C19ADA105CC230A7332C9FF5866484E07CB565_inline (float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC* __this, uint4x3_t9BA1847AC3EE8447BC913F77C7CB0FDFCD0E8F3C ___v0, const RuntimeMethod* method) 
 {
 	{
-		// this.c0 = v.c0;
 		uint4x3_t9BA1847AC3EE8447BC913F77C7CB0FDFCD0E8F3C L_0 = ___v0;
 		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_1 = L_0.___c0_0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2;
 		L_2 = float4_op_Implicit_m82EA1881742FD480C2CE2386DF3D25C34502100B_inline(L_1, NULL);
 		__this->___c0_0 = L_2;
-		// this.c1 = v.c1;
 		uint4x3_t9BA1847AC3EE8447BC913F77C7CB0FDFCD0E8F3C L_3 = ___v0;
 		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_4 = L_3.___c1_1;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_5;
 		L_5 = float4_op_Implicit_m82EA1881742FD480C2CE2386DF3D25C34502100B_inline(L_4, NULL);
 		__this->___c1_1 = L_5;
-		// this.c2 = v.c2;
 		uint4x3_t9BA1847AC3EE8447BC913F77C7CB0FDFCD0E8F3C L_6 = ___v0;
 		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_7 = L_6.___c2_2;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_8;
 		L_8 = float4_op_Implicit_m82EA1881742FD480C2CE2386DF3D25C34502100B_inline(L_7, NULL);
 		__this->___c2_2 = L_8;
-		// }
 		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4x3__ctor_m0B1C94EC543E6F2EA5AC421F203752DF037CBCD8_inline (float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC* __this, double ___v0, const RuntimeMethod* method) 
 {
 	{
-		// this.c0 = (float4)v;
 		double L_0 = ___v0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1;
 		L_1 = float4_op_Explicit_mE1B66196EF40555EA57BAF264CEC0A4CE271DF7E_inline(L_0, NULL);
 		__this->___c0_0 = L_1;
-		// this.c1 = (float4)v;
 		double L_2 = ___v0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_3;
 		L_3 = float4_op_Explicit_mE1B66196EF40555EA57BAF264CEC0A4CE271DF7E_inline(L_2, NULL);
 		__this->___c1_1 = L_3;
-		// this.c2 = (float4)v;
 		double L_4 = ___v0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_5;
 		L_5 = float4_op_Explicit_mE1B66196EF40555EA57BAF264CEC0A4CE271DF7E_inline(L_4, NULL);
 		__this->___c2_2 = L_5;
-		// }
 		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4x3__ctor_m9486F88493BFF5FF95ED3FA5D16E2A22F2264C7A_inline (float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC* __this, double4x3_tFBD39CBC9F5188E71E889F604159BE18FEB8F18E ___v0, const RuntimeMethod* method) 
 {
 	{
-		// this.c0 = (float4)v.c0;
 		double4x3_tFBD39CBC9F5188E71E889F604159BE18FEB8F18E L_0 = ___v0;
 		double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 L_1 = L_0.___c0_0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2;
 		L_2 = float4_op_Explicit_mBD6BF71CF079224435AFBF2408554A53AD557950_inline(L_1, NULL);
 		__this->___c0_0 = L_2;
-		// this.c1 = (float4)v.c1;
 		double4x3_tFBD39CBC9F5188E71E889F604159BE18FEB8F18E L_3 = ___v0;
 		double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 L_4 = L_3.___c1_1;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_5;
 		L_5 = float4_op_Explicit_mBD6BF71CF079224435AFBF2408554A53AD557950_inline(L_4, NULL);
 		__this->___c1_1 = L_5;
-		// this.c2 = (float4)v.c2;
 		double4x3_tFBD39CBC9F5188E71E889F604159BE18FEB8F18E L_6 = ___v0;
 		double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 L_7 = L_6.___c2_2;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_8;
 		L_8 = float4_op_Explicit_mBD6BF71CF079224435AFBF2408554A53AD557950_inline(L_7, NULL);
 		__this->___c2_2 = L_8;
-		// }
 		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void bool4x3__ctor_mF4A64FE5448C6B39B6FEF1FA10F8AB887E7DDF67_inline (bool4x3_t1373A1AFFA890B9F3DB734F9505B56E08D425D34* __this, bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 ___c00, bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 ___c11, bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 ___c22, const RuntimeMethod* method) 
 {
 	{
-		// this.c0 = c0;
 		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_0 = ___c00;
 		__this->___c0_0 = L_0;
-		// this.c1 = c1;
 		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_1 = ___c11;
 		__this->___c1_1 = L_1;
-		// this.c2 = c2;
 		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_2 = ___c22;
 		__this->___c2_2 = L_2;
-		// }
 		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool float4x3_Equals_mF062B16FA233106637F345F6817A577921843783_inline (float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC* __this, float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC ___rhs0, const RuntimeMethod* method) 
 {
 	{
-		// public bool Equals(float4x3 rhs) { return c0.Equals(rhs.c0) && c1.Equals(rhs.c1) && c2.Equals(rhs.c2); }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E* L_0 = (&__this->___c0_0);
 		float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC L_1 = ___rhs0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2 = L_1.___c0_0;
@@ -29546,9 +27497,6 @@ IL_0038:
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint32_t math_hash_mB7C63570DA99303C0C8D392242E069B2C6FBEE99_inline (float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC ___v0, const RuntimeMethod* method) 
 {
 	{
-		// return csum(asuint(v.c0) * uint4(0xC53F4755u, 0x6985C229u, 0xE133B0B3u, 0xC3E0A3B9u) +
-		//             asuint(v.c1) * uint4(0xFE31134Fu, 0x712A34D7u, 0x9D77A59Bu, 0x4942CA39u) +
-		//             asuint(v.c2) * uint4(0xB40EC62Du, 0x565ED63Fu, 0x93C30C2Bu, 0xDCAF0351u)) + 0x6E050B01u;
 		float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC L_0 = ___v0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1 = L_0.___c0_0;
 		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_2;
@@ -29585,7 +27533,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint32_t math_hash_mB7C63570DA993
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t float4x3_GetHashCode_m3E80A5380BD9F88528FF4CB271015E4EF081B955_inline (float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC* __this, const RuntimeMethod* method) 
 {
 	{
-		// public override int GetHashCode() { return (int)math.hash(this); }
 		float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC L_0 = (*(float4x3_t06008E654CCB12CD786C3E335A1E4C89A8AA13EC*)__this);
 		uint32_t L_1;
 		L_1 = math_hash_mB7C63570DA99303C0C8D392242E069B2C6FBEE99_inline(L_0, NULL);
@@ -29603,7 +27550,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* float4x3_ToString_m84E4
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		// return string.Format("float4x3({0}f, {1}f, {2}f,  {3}f, {4}f, {5}f,  {6}f, {7}f, {8}f,  {9}f, {10}f, {11}f)", c0.x, c1.x, c2.x, c0.y, c1.y, c2.y, c0.z, c1.z, c2.z, c0.w, c1.w, c2.w);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_0 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)((int32_t)12));
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_1 = L_0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E* L_2 = (&__this->___c0_0);
@@ -29716,7 +27662,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* float4x3_ToString_m526D
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		// return string.Format("float4x3({0}f, {1}f, {2}f,  {3}f, {4}f, {5}f,  {6}f, {7}f, {8}f,  {9}f, {10}f, {11}f)", c0.x.ToString(format, formatProvider), c1.x.ToString(format, formatProvider), c2.x.ToString(format, formatProvider), c0.y.ToString(format, formatProvider), c1.y.ToString(format, formatProvider), c2.y.ToString(format, formatProvider), c0.z.ToString(format, formatProvider), c1.z.ToString(format, formatProvider), c2.z.ToString(format, formatProvider), c0.w.ToString(format, formatProvider), c1.w.ToString(format, formatProvider), c2.w.ToString(format, formatProvider));
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_0 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)((int32_t)12));
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_1 = L_0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E* L_2 = (&__this->___c0_0);
@@ -29846,26 +27791,20 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* float4x3_ToString_m526D
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4x4__ctor_mF0B7C823E36025A539E8024123057CAC380E97EF_inline (float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2* __this, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___c00, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___c11, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___c22, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___c33, const RuntimeMethod* method) 
 {
 	{
-		// this.c0 = c0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = ___c00;
 		__this->___c0_0 = L_0;
-		// this.c1 = c1;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1 = ___c11;
 		__this->___c1_1 = L_1;
-		// this.c2 = c2;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2 = ___c22;
 		__this->___c2_2 = L_2;
-		// this.c3 = c3;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_3 = ___c33;
 		__this->___c3_3 = L_3;
-		// }
 		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4x4__ctor_m89D3EDF09863C02553147CDA696E48B8D2622AC5_inline (float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2* __this, float ___m000, float ___m011, float ___m022, float ___m033, float ___m104, float ___m115, float ___m126, float ___m137, float ___m208, float ___m219, float ___m2210, float ___m2311, float ___m3012, float ___m3113, float ___m3214, float ___m3315, const RuntimeMethod* method) 
 {
 	{
-		// this.c0 = new float4(m00, m10, m20, m30);
 		float L_0 = ___m000;
 		float L_1 = ___m104;
 		float L_2 = ___m208;
@@ -29874,7 +27813,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4x4__ctor_m89D3EDF09863
 		memset((&L_4), 0, sizeof(L_4));
 		float4__ctor_mB2F7F2D8BCE8159BEF5A0D6400499E211858ED2D_inline((&L_4), L_0, L_1, L_2, L_3, /*hidden argument*/NULL);
 		__this->___c0_0 = L_4;
-		// this.c1 = new float4(m01, m11, m21, m31);
 		float L_5 = ___m011;
 		float L_6 = ___m115;
 		float L_7 = ___m219;
@@ -29883,7 +27821,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4x4__ctor_m89D3EDF09863
 		memset((&L_9), 0, sizeof(L_9));
 		float4__ctor_mB2F7F2D8BCE8159BEF5A0D6400499E211858ED2D_inline((&L_9), L_5, L_6, L_7, L_8, /*hidden argument*/NULL);
 		__this->___c1_1 = L_9;
-		// this.c2 = new float4(m02, m12, m22, m32);
 		float L_10 = ___m022;
 		float L_11 = ___m126;
 		float L_12 = ___m2210;
@@ -29892,7 +27829,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4x4__ctor_m89D3EDF09863
 		memset((&L_14), 0, sizeof(L_14));
 		float4__ctor_mB2F7F2D8BCE8159BEF5A0D6400499E211858ED2D_inline((&L_14), L_10, L_11, L_12, L_13, /*hidden argument*/NULL);
 		__this->___c2_2 = L_14;
-		// this.c3 = new float4(m03, m13, m23, m33);
 		float L_15 = ___m033;
 		float L_16 = ___m137;
 		float L_17 = ___m2311;
@@ -29901,41 +27837,34 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4x4__ctor_m89D3EDF09863
 		memset((&L_19), 0, sizeof(L_19));
 		float4__ctor_mB2F7F2D8BCE8159BEF5A0D6400499E211858ED2D_inline((&L_19), L_15, L_16, L_17, L_18, /*hidden argument*/NULL);
 		__this->___c3_3 = L_19;
-		// }
 		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4x4__ctor_mD500047CD55182AAD4AB2DF610272351C2901339_inline (float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2* __this, float ___v0, const RuntimeMethod* method) 
 {
 	{
-		// this.c0 = v;
 		float L_0 = ___v0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1;
 		L_1 = float4_op_Implicit_m3DF77A1795E1232FCE3A62302FF23601F8C042DD_inline(L_0, NULL);
 		__this->___c0_0 = L_1;
-		// this.c1 = v;
 		float L_2 = ___v0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_3;
 		L_3 = float4_op_Implicit_m3DF77A1795E1232FCE3A62302FF23601F8C042DD_inline(L_2, NULL);
 		__this->___c1_1 = L_3;
-		// this.c2 = v;
 		float L_4 = ___v0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_5;
 		L_5 = float4_op_Implicit_m3DF77A1795E1232FCE3A62302FF23601F8C042DD_inline(L_4, NULL);
 		__this->___c2_2 = L_5;
-		// this.c3 = v;
 		float L_6 = ___v0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_7;
 		L_7 = float4_op_Implicit_m3DF77A1795E1232FCE3A62302FF23601F8C042DD_inline(L_6, NULL);
 		__this->___c3_3 = L_7;
-		// }
 		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4x4__ctor_m9E9D2988F1ED946CA645C5E252B196F10E0796D4_inline (float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2* __this, bool ___v0, const RuntimeMethod* method) 
 {
 	{
-		// this.c0 = math.select(new float4(0.0f), new float4(1.0f), v);
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0;
 		memset((&L_0), 0, sizeof(L_0));
 		float4__ctor_m103F8D391212FB2B0F01D09F7E9CCE4BDF0C7839_inline((&L_0), (0.0f), /*hidden argument*/NULL);
@@ -29946,7 +27875,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4x4__ctor_m9E9D2988F1ED
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_3;
 		L_3 = math_select_m7B43FDAE30A8A4D7AD42684DF8C090FC697AF346_inline(L_0, L_1, L_2, NULL);
 		__this->___c0_0 = L_3;
-		// this.c1 = math.select(new float4(0.0f), new float4(1.0f), v);
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_4;
 		memset((&L_4), 0, sizeof(L_4));
 		float4__ctor_m103F8D391212FB2B0F01D09F7E9CCE4BDF0C7839_inline((&L_4), (0.0f), /*hidden argument*/NULL);
@@ -29957,7 +27885,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4x4__ctor_m9E9D2988F1ED
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_7;
 		L_7 = math_select_m7B43FDAE30A8A4D7AD42684DF8C090FC697AF346_inline(L_4, L_5, L_6, NULL);
 		__this->___c1_1 = L_7;
-		// this.c2 = math.select(new float4(0.0f), new float4(1.0f), v);
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_8;
 		memset((&L_8), 0, sizeof(L_8));
 		float4__ctor_m103F8D391212FB2B0F01D09F7E9CCE4BDF0C7839_inline((&L_8), (0.0f), /*hidden argument*/NULL);
@@ -29968,7 +27895,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4x4__ctor_m9E9D2988F1ED
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_11;
 		L_11 = math_select_m7B43FDAE30A8A4D7AD42684DF8C090FC697AF346_inline(L_8, L_9, L_10, NULL);
 		__this->___c2_2 = L_11;
-		// this.c3 = math.select(new float4(0.0f), new float4(1.0f), v);
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_12;
 		memset((&L_12), 0, sizeof(L_12));
 		float4__ctor_m103F8D391212FB2B0F01D09F7E9CCE4BDF0C7839_inline((&L_12), (0.0f), /*hidden argument*/NULL);
@@ -29979,14 +27905,12 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4x4__ctor_m9E9D2988F1ED
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_15;
 		L_15 = math_select_m7B43FDAE30A8A4D7AD42684DF8C090FC697AF346_inline(L_12, L_13, L_14, NULL);
 		__this->___c3_3 = L_15;
-		// }
 		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4x4__ctor_m3770F7D03675A49226CC603056842F8FB2BF453F_inline (float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2* __this, bool4x4_t4D8C1B679F35EA8DA2C8F8E4D536596582BAD936 ___v0, const RuntimeMethod* method) 
 {
 	{
-		// this.c0 = math.select(new float4(0.0f), new float4(1.0f), v.c0);
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0;
 		memset((&L_0), 0, sizeof(L_0));
 		float4__ctor_m103F8D391212FB2B0F01D09F7E9CCE4BDF0C7839_inline((&L_0), (0.0f), /*hidden argument*/NULL);
@@ -29998,7 +27922,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4x4__ctor_m3770F7D03675
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_4;
 		L_4 = math_select_m8A60689AC883C0130FC2F32E7D1096199D2AD31E_inline(L_0, L_1, L_3, NULL);
 		__this->___c0_0 = L_4;
-		// this.c1 = math.select(new float4(0.0f), new float4(1.0f), v.c1);
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_5;
 		memset((&L_5), 0, sizeof(L_5));
 		float4__ctor_m103F8D391212FB2B0F01D09F7E9CCE4BDF0C7839_inline((&L_5), (0.0f), /*hidden argument*/NULL);
@@ -30010,7 +27933,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4x4__ctor_m3770F7D03675
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_9;
 		L_9 = math_select_m8A60689AC883C0130FC2F32E7D1096199D2AD31E_inline(L_5, L_6, L_8, NULL);
 		__this->___c1_1 = L_9;
-		// this.c2 = math.select(new float4(0.0f), new float4(1.0f), v.c2);
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_10;
 		memset((&L_10), 0, sizeof(L_10));
 		float4__ctor_m103F8D391212FB2B0F01D09F7E9CCE4BDF0C7839_inline((&L_10), (0.0f), /*hidden argument*/NULL);
@@ -30022,7 +27944,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4x4__ctor_m3770F7D03675
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_14;
 		L_14 = math_select_m8A60689AC883C0130FC2F32E7D1096199D2AD31E_inline(L_10, L_11, L_13, NULL);
 		__this->___c2_2 = L_14;
-		// this.c3 = math.select(new float4(0.0f), new float4(1.0f), v.c3);
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_15;
 		memset((&L_15), 0, sizeof(L_15));
 		float4__ctor_m103F8D391212FB2B0F01D09F7E9CCE4BDF0C7839_inline((&L_15), (0.0f), /*hidden argument*/NULL);
@@ -30034,207 +27955,170 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4x4__ctor_m3770F7D03675
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_19;
 		L_19 = math_select_m8A60689AC883C0130FC2F32E7D1096199D2AD31E_inline(L_15, L_16, L_18, NULL);
 		__this->___c3_3 = L_19;
-		// }
 		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4x4__ctor_m92CCDB79FF73D09ECD9F609D321DF2F8C0A6CBC8_inline (float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2* __this, int32_t ___v0, const RuntimeMethod* method) 
 {
 	{
-		// this.c0 = v;
 		int32_t L_0 = ___v0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1;
 		L_1 = float4_op_Implicit_mB41AE98F26EA1F866D8DFEB7FD76E2CA217D52B6_inline(L_0, NULL);
 		__this->___c0_0 = L_1;
-		// this.c1 = v;
 		int32_t L_2 = ___v0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_3;
 		L_3 = float4_op_Implicit_mB41AE98F26EA1F866D8DFEB7FD76E2CA217D52B6_inline(L_2, NULL);
 		__this->___c1_1 = L_3;
-		// this.c2 = v;
 		int32_t L_4 = ___v0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_5;
 		L_5 = float4_op_Implicit_mB41AE98F26EA1F866D8DFEB7FD76E2CA217D52B6_inline(L_4, NULL);
 		__this->___c2_2 = L_5;
-		// this.c3 = v;
 		int32_t L_6 = ___v0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_7;
 		L_7 = float4_op_Implicit_mB41AE98F26EA1F866D8DFEB7FD76E2CA217D52B6_inline(L_6, NULL);
 		__this->___c3_3 = L_7;
-		// }
 		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4x4__ctor_mF9FA9C979256B2E53918BBAE3031832D2A19DC8D_inline (float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2* __this, int4x4_tEF359B46039347312A6AC932AD04CA9CE675AB30 ___v0, const RuntimeMethod* method) 
 {
 	{
-		// this.c0 = v.c0;
 		int4x4_tEF359B46039347312A6AC932AD04CA9CE675AB30 L_0 = ___v0;
 		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_1 = L_0.___c0_0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2;
 		L_2 = float4_op_Implicit_mA889A779BA63B2654EEEF1F5CE2407DAA0E33142_inline(L_1, NULL);
 		__this->___c0_0 = L_2;
-		// this.c1 = v.c1;
 		int4x4_tEF359B46039347312A6AC932AD04CA9CE675AB30 L_3 = ___v0;
 		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_4 = L_3.___c1_1;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_5;
 		L_5 = float4_op_Implicit_mA889A779BA63B2654EEEF1F5CE2407DAA0E33142_inline(L_4, NULL);
 		__this->___c1_1 = L_5;
-		// this.c2 = v.c2;
 		int4x4_tEF359B46039347312A6AC932AD04CA9CE675AB30 L_6 = ___v0;
 		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_7 = L_6.___c2_2;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_8;
 		L_8 = float4_op_Implicit_mA889A779BA63B2654EEEF1F5CE2407DAA0E33142_inline(L_7, NULL);
 		__this->___c2_2 = L_8;
-		// this.c3 = v.c3;
 		int4x4_tEF359B46039347312A6AC932AD04CA9CE675AB30 L_9 = ___v0;
 		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_10 = L_9.___c3_3;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_11;
 		L_11 = float4_op_Implicit_mA889A779BA63B2654EEEF1F5CE2407DAA0E33142_inline(L_10, NULL);
 		__this->___c3_3 = L_11;
-		// }
 		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4x4__ctor_mD15AC6ABC07B61D1CDE6D6AFB2363D45548C2938_inline (float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2* __this, uint32_t ___v0, const RuntimeMethod* method) 
 {
 	{
-		// this.c0 = v;
 		uint32_t L_0 = ___v0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1;
 		L_1 = float4_op_Implicit_mED209EFA9280A609F964FE9EEB8B85C91505456D_inline(L_0, NULL);
 		__this->___c0_0 = L_1;
-		// this.c1 = v;
 		uint32_t L_2 = ___v0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_3;
 		L_3 = float4_op_Implicit_mED209EFA9280A609F964FE9EEB8B85C91505456D_inline(L_2, NULL);
 		__this->___c1_1 = L_3;
-		// this.c2 = v;
 		uint32_t L_4 = ___v0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_5;
 		L_5 = float4_op_Implicit_mED209EFA9280A609F964FE9EEB8B85C91505456D_inline(L_4, NULL);
 		__this->___c2_2 = L_5;
-		// this.c3 = v;
 		uint32_t L_6 = ___v0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_7;
 		L_7 = float4_op_Implicit_mED209EFA9280A609F964FE9EEB8B85C91505456D_inline(L_6, NULL);
 		__this->___c3_3 = L_7;
-		// }
 		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4x4__ctor_mE96CAB2F1AFF3AE5A258F167A7EE9EE561E6900A_inline (float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2* __this, uint4x4_tB8C643F0E9FDEFEA2B05271B6917682F6BEE584A ___v0, const RuntimeMethod* method) 
 {
 	{
-		// this.c0 = v.c0;
 		uint4x4_tB8C643F0E9FDEFEA2B05271B6917682F6BEE584A L_0 = ___v0;
 		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_1 = L_0.___c0_0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2;
 		L_2 = float4_op_Implicit_m82EA1881742FD480C2CE2386DF3D25C34502100B_inline(L_1, NULL);
 		__this->___c0_0 = L_2;
-		// this.c1 = v.c1;
 		uint4x4_tB8C643F0E9FDEFEA2B05271B6917682F6BEE584A L_3 = ___v0;
 		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_4 = L_3.___c1_1;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_5;
 		L_5 = float4_op_Implicit_m82EA1881742FD480C2CE2386DF3D25C34502100B_inline(L_4, NULL);
 		__this->___c1_1 = L_5;
-		// this.c2 = v.c2;
 		uint4x4_tB8C643F0E9FDEFEA2B05271B6917682F6BEE584A L_6 = ___v0;
 		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_7 = L_6.___c2_2;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_8;
 		L_8 = float4_op_Implicit_m82EA1881742FD480C2CE2386DF3D25C34502100B_inline(L_7, NULL);
 		__this->___c2_2 = L_8;
-		// this.c3 = v.c3;
 		uint4x4_tB8C643F0E9FDEFEA2B05271B6917682F6BEE584A L_9 = ___v0;
 		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_10 = L_9.___c3_3;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_11;
 		L_11 = float4_op_Implicit_m82EA1881742FD480C2CE2386DF3D25C34502100B_inline(L_10, NULL);
 		__this->___c3_3 = L_11;
-		// }
 		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4x4__ctor_m9A58CFC3AF7C8553DE3552491221AE8B98FA49C8_inline (float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2* __this, double ___v0, const RuntimeMethod* method) 
 {
 	{
-		// this.c0 = (float4)v;
 		double L_0 = ___v0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1;
 		L_1 = float4_op_Explicit_mE1B66196EF40555EA57BAF264CEC0A4CE271DF7E_inline(L_0, NULL);
 		__this->___c0_0 = L_1;
-		// this.c1 = (float4)v;
 		double L_2 = ___v0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_3;
 		L_3 = float4_op_Explicit_mE1B66196EF40555EA57BAF264CEC0A4CE271DF7E_inline(L_2, NULL);
 		__this->___c1_1 = L_3;
-		// this.c2 = (float4)v;
 		double L_4 = ___v0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_5;
 		L_5 = float4_op_Explicit_mE1B66196EF40555EA57BAF264CEC0A4CE271DF7E_inline(L_4, NULL);
 		__this->___c2_2 = L_5;
-		// this.c3 = (float4)v;
 		double L_6 = ___v0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_7;
 		L_7 = float4_op_Explicit_mE1B66196EF40555EA57BAF264CEC0A4CE271DF7E_inline(L_6, NULL);
 		__this->___c3_3 = L_7;
-		// }
 		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4x4__ctor_mB3FF9132C04D88B528096F7DE118AD442ABA4BBB_inline (float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2* __this, double4x4_tB452F9489714C6B8D74D46CA2CF1F0CA8F185D3C ___v0, const RuntimeMethod* method) 
 {
 	{
-		// this.c0 = (float4)v.c0;
 		double4x4_tB452F9489714C6B8D74D46CA2CF1F0CA8F185D3C L_0 = ___v0;
 		double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 L_1 = L_0.___c0_0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2;
 		L_2 = float4_op_Explicit_mBD6BF71CF079224435AFBF2408554A53AD557950_inline(L_1, NULL);
 		__this->___c0_0 = L_2;
-		// this.c1 = (float4)v.c1;
 		double4x4_tB452F9489714C6B8D74D46CA2CF1F0CA8F185D3C L_3 = ___v0;
 		double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 L_4 = L_3.___c1_1;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_5;
 		L_5 = float4_op_Explicit_mBD6BF71CF079224435AFBF2408554A53AD557950_inline(L_4, NULL);
 		__this->___c1_1 = L_5;
-		// this.c2 = (float4)v.c2;
 		double4x4_tB452F9489714C6B8D74D46CA2CF1F0CA8F185D3C L_6 = ___v0;
 		double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 L_7 = L_6.___c2_2;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_8;
 		L_8 = float4_op_Explicit_mBD6BF71CF079224435AFBF2408554A53AD557950_inline(L_7, NULL);
 		__this->___c2_2 = L_8;
-		// this.c3 = (float4)v.c3;
 		double4x4_tB452F9489714C6B8D74D46CA2CF1F0CA8F185D3C L_9 = ___v0;
 		double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776FDC5 L_10 = L_9.___c3_3;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_11;
 		L_11 = float4_op_Explicit_mBD6BF71CF079224435AFBF2408554A53AD557950_inline(L_10, NULL);
 		__this->___c3_3 = L_11;
-		// }
 		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void bool4x4__ctor_m3A3AFC7B534067434119A70AEAECFAC98FF9AE26_inline (bool4x4_t4D8C1B679F35EA8DA2C8F8E4D536596582BAD936* __this, bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 ___c00, bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 ___c11, bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 ___c22, bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 ___c33, const RuntimeMethod* method) 
 {
 	{
-		// this.c0 = c0;
 		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_0 = ___c00;
 		__this->___c0_0 = L_0;
-		// this.c1 = c1;
 		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_1 = ___c11;
 		__this->___c1_1 = L_1;
-		// this.c2 = c2;
 		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_2 = ___c22;
 		__this->___c2_2 = L_2;
-		// this.c3 = c3;
 		bool4_tCEC5DC2AFA83CFCFFFD886434359A9A19056A619 L_3 = ___c33;
 		__this->___c3_3 = L_3;
-		// }
 		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool float4x4_Equals_mB22F89A6EC760BECED603A00205294B0C185CCBB_inline (float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2* __this, float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 ___rhs0, const RuntimeMethod* method) 
 {
 	{
-		// public bool Equals(float4x4 rhs) { return c0.Equals(rhs.c0) && c1.Equals(rhs.c1) && c2.Equals(rhs.c2) && c3.Equals(rhs.c3); }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E* L_0 = (&__this->___c0_0);
 		float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 L_1 = ___rhs0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2 = L_1.___c0_0;
@@ -30284,10 +28168,6 @@ IL_004b:
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint32_t math_hash_m20286BA0E4D2F6DC3C7013DA713AADCFFD87D444_inline (float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 ___v0, const RuntimeMethod* method) 
 {
 	{
-		// return csum(asuint(v.c0) * uint4(0xC4B1493Fu, 0xBA0966D3u, 0xAFBEE253u, 0x5B419C01u) +
-		//             asuint(v.c1) * uint4(0x515D90F5u, 0xEC9F68F3u, 0xF9EA92D5u, 0xC2FAFCB9u) +
-		//             asuint(v.c2) * uint4(0x616E9CA1u, 0xC5C5394Bu, 0xCAE78587u, 0x7A1541C9u) +
-		//             asuint(v.c3) * uint4(0xF83BD927u, 0x6A243BCBu, 0x509B84C9u, 0x91D13847u)) + 0x52F7230Fu;
 		float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 L_0 = ___v0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1 = L_0.___c0_0;
 		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_2;
@@ -30334,7 +28214,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint32_t math_hash_m20286BA0E4D2F
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t float4x4_GetHashCode_m260D00DFB6FDDAA4052A0893C7AEA6E5599DF9F7_inline (float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2* __this, const RuntimeMethod* method) 
 {
 	{
-		// public override int GetHashCode() { return (int)math.hash(this); }
 		float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 L_0 = (*(float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2*)__this);
 		uint32_t L_1;
 		L_1 = math_hash_m20286BA0E4D2F6DC3C7013DA713AADCFFD87D444_inline(L_0, NULL);
@@ -30352,7 +28231,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* float4x4_ToString_mB25D
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		// return string.Format("float4x4({0}f, {1}f, {2}f, {3}f,  {4}f, {5}f, {6}f, {7}f,  {8}f, {9}f, {10}f, {11}f,  {12}f, {13}f, {14}f, {15}f)", c0.x, c1.x, c2.x, c3.x, c0.y, c1.y, c2.y, c3.y, c0.z, c1.z, c2.z, c3.z, c0.w, c1.w, c2.w, c3.w);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_0 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)((int32_t)16));
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_1 = L_0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E* L_2 = (&__this->___c0_0);
@@ -30497,7 +28375,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* float4x4_ToString_mB338
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		// return string.Format("float4x4({0}f, {1}f, {2}f, {3}f,  {4}f, {5}f, {6}f, {7}f,  {8}f, {9}f, {10}f, {11}f,  {12}f, {13}f, {14}f, {15}f)", c0.x.ToString(format, formatProvider), c1.x.ToString(format, formatProvider), c2.x.ToString(format, formatProvider), c3.x.ToString(format, formatProvider), c0.y.ToString(format, formatProvider), c1.y.ToString(format, formatProvider), c2.y.ToString(format, formatProvider), c3.y.ToString(format, formatProvider), c0.z.ToString(format, formatProvider), c1.z.ToString(format, formatProvider), c2.z.ToString(format, formatProvider), c3.z.ToString(format, formatProvider), c0.w.ToString(format, formatProvider), c1.w.ToString(format, formatProvider), c2.w.ToString(format, formatProvider), c3.w.ToString(format, formatProvider));
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_0 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)((int32_t)16));
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_1 = L_0;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E* L_2 = (&__this->___c0_0);
@@ -30667,7 +28544,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* float4x4_ToString_mB338
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E math_float4_mE54104D60E6B9A358C75CB6F378118AB4914BFC4_inline (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___xyz0, float ___w1, const RuntimeMethod* method) 
 {
 	{
-		// public static float4 float4(float3 xyz, float w) { return new float4(xyz, w); }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_0 = ___xyz0;
 		float L_1 = ___w1;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2;
@@ -30679,7 +28555,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3x3_tB318DB8C7E54B6CA9E14EB9AC7F5964C1189FC79 math_float3x3_m850F2B065688B7C95009136DAA44853A04069298_inline (quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 ___rotation0, const RuntimeMethod* method) 
 {
 	{
-		// return new float3x3(rotation);
 		quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 L_0 = ___rotation0;
 		float3x3_tB318DB8C7E54B6CA9E14EB9AC7F5964C1189FC79 L_1;
 		memset((&L_1), 0, sizeof(L_1));
@@ -30690,26 +28565,22 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3x3_tB318DB8C7E54B6CA9E14EB9
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void math_sincos_mCA97E81FBD3BEEE76CD632E8407D21DBED186F18_inline (float ___x0, float* ___s1, float* ___c2, const RuntimeMethod* method) 
 {
 	{
-		// public static void sincos(float x, out float s, out float c) { s = sin(x); c = cos(x); }
 		float* L_0 = ___s1;
 		float L_1 = ___x0;
 		float L_2;
 		L_2 = math_sin_m231F847C28B88B17BDAD7F49A7A38E46DF12D3FF_inline(L_1, NULL);
 		*((float*)L_0) = (float)L_2;
-		// public static void sincos(float x, out float s, out float c) { s = sin(x); c = cos(x); }
 		float* L_3 = ___c2;
 		float L_4 = ___x0;
 		float L_5;
 		L_5 = math_cos_m28B6228E047D552B1312CCFADB8AE95DDD94A6AF_inline(L_4, NULL);
 		*((float*)L_3) = (float)L_5;
-		// public static void sincos(float x, out float s, out float c) { s = sin(x); c = cos(x); }
 		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float3_op_Multiply_m6E5DC552C8B0F9A180298BD9197FF47B14E0EA81_inline (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___lhs0, float ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static float3 operator * (float3 lhs, float rhs) { return new float3 (lhs.x * rhs, lhs.y * rhs, lhs.z * rhs); }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_0 = ___lhs0;
 		float L_1 = L_0.___x_0;
 		float L_2 = ___rhs1;
@@ -30728,7 +28599,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 math_uint4_m7F6A5341327B9EF6B80C82FD1B93E4F32287A336_inline (uint32_t ___x0, uint32_t ___y1, uint32_t ___z2, uint32_t ___w3, const RuntimeMethod* method) 
 {
 	{
-		// public static uint4 uint4(uint x, uint y, uint z, uint w) { return new uint4(x, y, z, w); }
 		uint32_t L_0 = ___x0;
 		uint32_t L_1 = ___y1;
 		uint32_t L_2 = ___z2;
@@ -30742,7 +28612,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint4_t6C69CBFAE9BF0F727D52B68779
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 math_asuint_mDF3C61EF6F9D9D10A1D3EB9D0075149707B461B9_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___x0, const RuntimeMethod* method) 
 {
 	{
-		// public static uint4 asuint(float4 x) { return uint4(asuint(x.x), asuint(x.y), asuint(x.z), asuint(x.w)); }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = ___x0;
 		float L_1 = L_0.___x_0;
 		uint32_t L_2;
@@ -30767,7 +28636,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint4_t6C69CBFAE9BF0F727D52B68779
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 uint4_op_ExclusiveOr_m5B57FB4F864B88CB06B4949AA275A70D02BF7889_inline (uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 ___lhs0, uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static uint4 operator ^ (uint4 lhs, uint4 rhs) { return new uint4 (lhs.x ^ rhs.x, lhs.y ^ rhs.y, lhs.z ^ rhs.z, lhs.w ^ rhs.w); }
 		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_0 = ___lhs0;
 		uint32_t L_1 = L_0.___x_0;
 		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_2 = ___rhs1;
@@ -30793,7 +28661,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint4_t6C69CBFAE9BF0F727D52B68779
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 uint4_op_BitwiseAnd_m1A9CB1A2976212FE13C84F970D4C59C30A54D875_inline (uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 ___lhs0, uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static uint4 operator & (uint4 lhs, uint4 rhs) { return new uint4 (lhs.x & rhs.x, lhs.y & rhs.y, lhs.z & rhs.z, lhs.w & rhs.w); }
 		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_0 = ___lhs0;
 		uint32_t L_1 = L_0.___x_0;
 		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_2 = ___rhs1;
@@ -30819,7 +28686,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint4_t6C69CBFAE9BF0F727D52B68779
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E math_asfloat_m12607D976A0CF76E07E41340262CAEC45A9CB537_inline (uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 ___x0, const RuntimeMethod* method) 
 {
 	{
-		// public static float4 asfloat(uint4 x) { return float4(asfloat(x.x), asfloat(x.y), asfloat(x.z), asfloat(x.w)); }
 		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_0 = ___x0;
 		uint32_t L_1 = L_0.___x_0;
 		float L_2;
@@ -30844,7 +28710,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E math_float4_m16697C284FA0C25A84F3DC3E99F3D4C306B6BFBF_inline (float ___x0, float ___y1, float ___z2, float ___w3, const RuntimeMethod* method) 
 {
 	{
-		// public static float4 float4(float x, float y, float z, float w) { return new float4(x, y, z, w); }
 		float L_0 = ___x0;
 		float L_1 = ___y1;
 		float L_2 = ___z2;
@@ -30858,7 +28723,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 math_float4x4_m7C95B2B93CDEE0AF483EB84446F9F06F7B1AD261_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___c00, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___c11, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___c22, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___c33, const RuntimeMethod* method) 
 {
 	{
-		// public static float4x4 float4x4(float4 c0, float4 c1, float4 c2, float4 c3) { return new float4x4(c0, c1, c2, c3); }
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = ___c00;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1 = ___c11;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2 = ___c22;
@@ -30872,29 +28736,22 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4x4_t7EDD16F7F57DC7F61A63025
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void math_sincos_m28D7C74E99CF12DE35172DC6F26C77FD4D46D1B7_inline (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___x0, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* ___s1, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* ___c2, const RuntimeMethod* method) 
 {
 	{
-		// public static void sincos(float3 x, out float3 s, out float3 c) { s = sin(x); c = cos(x); }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_0 = ___s1;
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_1 = ___x0;
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_2;
 		L_2 = math_sin_m43618973AB0574A29896B4479E1F72A829644A33_inline(L_1, NULL);
 		*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)L_0 = L_2;
-		// public static void sincos(float3 x, out float3 s, out float3 c) { s = sin(x); c = cos(x); }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_3 = ___c2;
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_4 = ___x0;
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_5;
 		L_5 = math_cos_m42275E85C55A660ABC711D07B4349A82F4BBCBC4_inline(L_4, NULL);
 		*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)L_3 = L_5;
-		// public static void sincos(float3 x, out float3 s, out float3 c) { s = sin(x); c = cos(x); }
 		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 math_float4x4_m2D4DFE9A2E00F7E9D0725D6D96AF74C7BB086D7E_inline (float ___m000, float ___m011, float ___m022, float ___m033, float ___m104, float ___m115, float ___m126, float ___m137, float ___m208, float ___m219, float ___m2210, float ___m2311, float ___m3012, float ___m3113, float ___m3214, float ___m3315, const RuntimeMethod* method) 
 {
 	{
-		// return new float4x4(m00, m01, m02, m03,
-		//                     m10, m11, m12, m13,
-		//                     m20, m21, m22, m23,
-		//                     m30, m31, m32, m33);
 		float L_0 = ___m000;
 		float L_1 = ___m011;
 		float L_2 = ___m022;
@@ -30920,7 +28777,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4x4_t7EDD16F7F57DC7F61A63025
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E math_float3_m4F96A74FEE1D6C85241B8E62386C5DE1C439837F_inline (float ___x0, float ___y1, float ___z2, const RuntimeMethod* method) 
 {
 	{
-		// public static float3 float3(float x, float y, float z) { return new float3(x, y, z); }
 		float L_0 = ___x0;
 		float L_1 = ___y1;
 		float L_2 = ___z2;
@@ -30937,15 +28793,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4x4_t7EDD16F7F57DC7F61A63025
 	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// sincos(xyz, out s, out c);
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_0 = ___xyz0;
 		math_sincos_m28D7C74E99CF12DE35172DC6F26C77FD4D46D1B7_inline(L_0, (&V_0), (&V_1), NULL);
-		// return float4x4(
-		//     c.y * c.z,  c.z * s.x * s.y - c.x * s.z,    c.x * c.z * s.y + s.x * s.z,    0.0f,
-		//     c.y * s.z,  c.x * c.z + s.x * s.y * s.z,    c.x * s.y * s.z - c.z * s.x,    0.0f,
-		//     -s.y,       c.y * s.x,                      c.x * c.y,                      0.0f,
-		//     0.0f,       0.0f,                           0.0f,                           1.0f
-		//     );
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_1 = V_1;
 		float L_2 = L_1.___y_1;
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_3 = V_1;
@@ -31016,15 +28865,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4x4_t7EDD16F7F57DC7F61A63025
 	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// sincos(xyz, out s, out c);
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_0 = ___xyz0;
 		math_sincos_m28D7C74E99CF12DE35172DC6F26C77FD4D46D1B7_inline(L_0, (&V_0), (&V_1), NULL);
-		// return float4x4(
-		//     c.y * c.z,  s.x * s.y - c.x * c.y * s.z,    c.x * s.y + c.y * s.x * s.z,    0.0f,
-		//     s.z,        c.x * c.z,                      -c.z * s.x,                     0.0f,
-		//     -c.z * s.y, c.y * s.x + c.x * s.y * s.z,    c.x * c.y - s.x * s.y * s.z,    0.0f,
-		//     0.0f,       0.0f,                           0.0f,                           1.0f
-		//     );
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_1 = V_1;
 		float L_2 = L_1.___y_1;
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_3 = V_1;
@@ -31095,15 +28937,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4x4_t7EDD16F7F57DC7F61A63025
 	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// sincos(xyz, out s, out c);
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_0 = ___xyz0;
 		math_sincos_m28D7C74E99CF12DE35172DC6F26C77FD4D46D1B7_inline(L_0, (&V_0), (&V_1), NULL);
-		// return float4x4(
-		//     c.y * c.z - s.x * s.y * s.z,    -c.x * s.z, c.z * s.y + c.y * s.x * s.z,    0.0f,
-		//     c.z * s.x * s.y + c.y * s.z,    c.x * c.z,  s.y * s.z - c.y * c.z * s.x,    0.0f,
-		//     -c.x * s.y,                     s.x,        c.x * c.y,                      0.0f,
-		//     0.0f,                           0.0f,       0.0f,                           1.0f
-		//     );
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_1 = V_1;
 		float L_2 = L_1.___y_1;
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_3 = V_1;
@@ -31174,15 +29009,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4x4_t7EDD16F7F57DC7F61A63025
 	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// sincos(xyz, out s, out c);
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_0 = ___xyz0;
 		math_sincos_m28D7C74E99CF12DE35172DC6F26C77FD4D46D1B7_inline(L_0, (&V_0), (&V_1), NULL);
-		// return float4x4(
-		//     c.y * c.z,                      -s.z,       c.z * s.y,                      0.0f,
-		//     s.x * s.y + c.x * c.y * s.z,    c.x * c.z,  c.x * s.y * s.z - c.y * s.x,    0.0f,
-		//     c.y * s.x * s.z - c.x * s.y,    c.z * s.x,  c.x * c.y + s.x * s.y * s.z,    0.0f,
-		//     0.0f,                           0.0f,       0.0f,                           1.0f
-		//     );
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_1 = V_1;
 		float L_2 = L_1.___y_1;
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_3 = V_1;
@@ -31253,15 +29081,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4x4_t7EDD16F7F57DC7F61A63025
 	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// sincos(xyz, out s, out c);
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_0 = ___xyz0;
 		math_sincos_m28D7C74E99CF12DE35172DC6F26C77FD4D46D1B7_inline(L_0, (&V_0), (&V_1), NULL);
-		// return float4x4(
-		//     c.y * c.z + s.x * s.y * s.z,    c.z * s.x * s.y - c.y * s.z,    c.x * s.y,  0.0f,
-		//     c.x * s.z,                      c.x * c.z,                      -s.x,       0.0f,
-		//     c.y * s.x * s.z - c.z * s.y,    c.y * c.z * s.x + s.y * s.z,    c.x * c.y,  0.0f,
-		//     0.0f,                           0.0f,                           0.0f,       1.0f
-		//     );
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_1 = V_1;
 		float L_2 = L_1.___y_1;
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_3 = V_1;
@@ -31332,15 +29153,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4x4_t7EDD16F7F57DC7F61A63025
 	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// sincos(xyz, out s, out c);
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_0 = ___xyz0;
 		math_sincos_m28D7C74E99CF12DE35172DC6F26C77FD4D46D1B7_inline(L_0, (&V_0), (&V_1), NULL);
-		// return float4x4(
-		//     c.y * c.z,                      -c.y * s.z,                     s.y,        0.0f,
-		//     c.z * s.x * s.y + c.x * s.z,    c.x * c.z - s.x * s.y * s.z,    -c.y * s.x, 0.0f,
-		//     s.x * s.z - c.x * c.z * s.y,    c.z * s.x + c.x * s.y * s.z,    c.x * c.y,  0.0f,
-		//     0.0f,                           0.0f,                           0.0f,       1.0f
-		//     );
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_1 = V_1;
 		float L_2 = L_1.___y_1;
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_3 = V_1;
@@ -31448,7 +29262,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4x4_t7EDD16F7F57DC7F61A63025
 
 IL_0020:
 	{
-		// return EulerXYZ(xyz);
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_1 = ___xyz0;
 		float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 L_2;
 		L_2 = float4x4_EulerXYZ_mF8B1988F45BCDF500880C4142FA9E74F2D62E15D_inline(L_1, NULL);
@@ -31457,7 +29270,6 @@ IL_0020:
 
 IL_0027:
 	{
-		// return EulerXZY(xyz);
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_3 = ___xyz0;
 		float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 L_4;
 		L_4 = float4x4_EulerXZY_m94185260C5C20E0E6F56BF71BD283F20D730B156_inline(L_3, NULL);
@@ -31466,7 +29278,6 @@ IL_0027:
 
 IL_002e:
 	{
-		// return EulerYXZ(xyz);
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_5 = ___xyz0;
 		float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 L_6;
 		L_6 = float4x4_EulerYXZ_m391410E19C7BF15D10420E8FC49591D8A3DCE474_inline(L_5, NULL);
@@ -31475,7 +29286,6 @@ IL_002e:
 
 IL_0035:
 	{
-		// return EulerYZX(xyz);
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_7 = ___xyz0;
 		float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 L_8;
 		L_8 = float4x4_EulerYZX_mC696E8B3A0CCB06E807EC16D6C9E71CFEB0A37DE_inline(L_7, NULL);
@@ -31484,7 +29294,6 @@ IL_0035:
 
 IL_003c:
 	{
-		// return EulerZXY(xyz);
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_9 = ___xyz0;
 		float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 L_10;
 		L_10 = float4x4_EulerZXY_m9E256F3896CA110444A2A6D4F5A26A7D380F7514_inline(L_9, NULL);
@@ -31493,7 +29302,6 @@ IL_003c:
 
 IL_0043:
 	{
-		// return EulerZYX(xyz);
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_11 = ___xyz0;
 		float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 L_12;
 		L_12 = float4x4_EulerZYX_mAE4DDCD8712F5666F0939D0260FC5BFA7ABD67F3_inline(L_11, NULL);
@@ -31502,7 +29310,6 @@ IL_0043:
 
 IL_004a:
 	{
-		// return float4x4.identity;
 		float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 L_13 = ((float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2_StaticFields*)il2cpp_codegen_static_fields_for(float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2_il2cpp_TypeInfo_var))->___identity_4;
 		return L_13;
 	}
@@ -31510,10 +29317,6 @@ IL_004a:
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 float4x4_Scale_m60F4005809D2CCEF16DB5213CF424743FAFEFB43_inline (float ___x0, float ___y1, float ___z2, const RuntimeMethod* method) 
 {
 	{
-		// return float4x4(x,    0.0f, 0.0f, 0.0f,
-		//                 0.0f, y,    0.0f, 0.0f,
-		//                 0.0f, 0.0f, z,    0.0f,
-		//                 0.0f, 0.0f, 0.0f, 1.0f);
 		float L_0 = ___x0;
 		float L_1 = ___y1;
 		float L_2 = ___z2;
@@ -31525,7 +29328,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4x4_t7EDD16F7F57DC7F61A63025
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float3_op_Subtraction_mB6036E9849D95650D6E73DA0D179CD7B61E696F2_inline (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___lhs0, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static float3 operator - (float3 lhs, float3 rhs) { return new float3 (lhs.x - rhs.x, lhs.y - rhs.y, lhs.z - rhs.z); }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_0 = ___lhs0;
 		float L_1 = L_0.___x_0;
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_2 = ___rhs1;
@@ -31547,7 +29349,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E math_normalize_mF02431EFC9E3212E0245EFF5C13BC9DC34512399_inline (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___x0, const RuntimeMethod* method) 
 {
 	{
-		// public static float3 normalize(float3 x) { return rsqrt(dot(x, x)) * x; }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_0 = ___x0;
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_1 = ___x0;
 		float L_2;
@@ -31565,7 +29366,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3x3_tB318DB8C7E54B6CA9E14EB9
 	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		// float3 t = normalize(cross(up, forward));
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_0 = ___up1;
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_1 = ___forward0;
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_2;
@@ -31573,7 +29373,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3x3_tB318DB8C7E54B6CA9E14EB9
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_3;
 		L_3 = math_normalize_mF02431EFC9E3212E0245EFF5C13BC9DC34512399_inline(L_2, NULL);
 		V_0 = L_3;
-		// return float3x3(t, cross(forward, t), forward);
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_4 = V_0;
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_5 = ___forward0;
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_6 = V_0;
@@ -31594,7 +29393,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float math_tan_mA71C2BACBC4B74573
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		// public static float tan(float x) { return (float)System.Math.Tan(x); }
 		float L_0 = ___x0;
 		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
 		double L_1;
@@ -31606,17 +29404,12 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float math_f16tof32_m558AB5CFC4B9
 {
 	uint32_t V_0 = 0;
 	{
-		// uint uf = (x & 0x7fff) << 13;
 		uint32_t L_0 = ___x0;
-		// uint e = uf & shifted_exp;
 		int32_t L_1 = ((int32_t)(((int32_t)((int32_t)L_0&((int32_t)32767)))<<((int32_t)13)));
 		V_0 = ((int32_t)(L_1&((int32_t)260046848)));
-		// uf += (127 - 15) << 23;
-		// uf += select(0, (128u - 16u) << 23, e == shifted_exp);
 		uint32_t L_2 = V_0;
 		uint32_t L_3;
 		L_3 = math_select_m8BBDC6133225059EE5F0FCA74BA9497AD5496024_inline(0, ((int32_t)939524096), (bool)((((int32_t)L_2) == ((int32_t)((int32_t)260046848)))? 1 : 0), NULL);
-		// uf = select(uf, asuint(asfloat(uf + (1 << 23)) - 6.10351563e-05f), e == 0);
 		int32_t L_4 = ((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_add(L_1, ((int32_t)939524096))), (int32_t)L_3));
 		float L_5;
 		L_5 = math_asfloat_m20D259DAAB46464B59BD8BF5678F9D59800F70A9_inline(((int32_t)il2cpp_codegen_add(L_4, ((int32_t)8388608))), NULL);
@@ -31625,9 +29418,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float math_f16tof32_m558AB5CFC4B9
 		uint32_t L_7 = V_0;
 		uint32_t L_8;
 		L_8 = math_select_m8BBDC6133225059EE5F0FCA74BA9497AD5496024_inline(L_4, L_6, (bool)((((int32_t)L_7) == ((int32_t)0))? 1 : 0), NULL);
-		// uf |= (x & 0x8000) << 16;
 		uint32_t L_9 = ___x0;
-		// return asfloat(uf);
 		float L_10;
 		L_10 = math_asfloat_m20D259DAAB46464B59BD8BF5678F9D59800F70A9_inline(((int32_t)((int32_t)L_8|((int32_t)(((int32_t)((int32_t)L_9&((int32_t)32768)))<<((int32_t)16))))), NULL);
 		return L_10;
@@ -31636,7 +29427,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float math_f16tof32_m558AB5CFC4B9
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 uint4_op_Multiply_mDD93D0730642A1089848321B9B0E5E923EE575ED_inline (uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 ___lhs0, uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static uint4 operator * (uint4 lhs, uint4 rhs) { return new uint4 (lhs.x * rhs.x, lhs.y * rhs.y, lhs.z * rhs.z, lhs.w * rhs.w); }
 		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_0 = ___lhs0;
 		uint32_t L_1 = L_0.___x_0;
 		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_2 = ___rhs1;
@@ -31662,7 +29452,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint4_t6C69CBFAE9BF0F727D52B68779
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint32_t math_csum_m6A99E69A84442A729781A97F78B260223DD01D8F_inline (uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 ___x0, const RuntimeMethod* method) 
 {
 	{
-		// public static uint csum(uint4 x) { return x.x + x.y + x.z + x.w; }
 		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_0 = ___x0;
 		uint32_t L_1 = L_0.___x_0;
 		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_2 = ___x0;
@@ -31677,7 +29466,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint32_t math_csum_m6A99E69A84442
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 uint4_op_Addition_m391200EB43B6C4CDD219079A0D3CDFFA35B0B652_inline (uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 ___lhs0, uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static uint4 operator + (uint4 lhs, uint4 rhs) { return new uint4 (lhs.x + rhs.x, lhs.y + rhs.y, lhs.z + rhs.z, lhs.w + rhs.w); }
 		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_0 = ___lhs0;
 		uint32_t L_1 = L_0.___x_0;
 		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_2 = ___rhs1;
@@ -31709,7 +29497,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float math_sin_m231F847C28B88B17B
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		// public static float sin(float x) { return (float)System.Math.Sin((float)x); }
 		float L_0 = ___x0;
 		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
 		double L_1;
@@ -31726,7 +29513,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float math_cos_m28B6228E047D552B1
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		// public static float cos(float x) { return (float)System.Math.Cos(x); }
 		float L_0 = ___x0;
 		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
 		double L_1;
@@ -31737,26 +29523,20 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float math_cos_m28B6228E047D552B1
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void uint4__ctor_m59B6A219A0285C60FCF2977679BF89C72B502008_inline (uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9* __this, uint32_t ___x0, uint32_t ___y1, uint32_t ___z2, uint32_t ___w3, const RuntimeMethod* method) 
 {
 	{
-		// this.x = x;
 		uint32_t L_0 = ___x0;
 		__this->___x_0 = L_0;
-		// this.y = y;
 		uint32_t L_1 = ___y1;
 		__this->___y_1 = L_1;
-		// this.z = z;
 		uint32_t L_2 = ___z2;
 		__this->___z_2 = L_2;
-		// this.w = w;
 		uint32_t L_3 = ___w3;
 		__this->___w_3 = L_3;
-		// }
 		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint32_t math_asuint_m503D1ABF19E4BA615FD8AE1BF1A2E103BBED6139_inline (float ___x0, const RuntimeMethod* method) 
 {
 	{
-		// public static uint asuint(float x) { return (uint)asint(x); }
 		float L_0 = ___x0;
 		int32_t L_1;
 		L_1 = math_asint_mBDED7FE966CA65F6A8ACEAEF8FD779B1B8998288_inline(L_0, NULL);
@@ -31766,7 +29546,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint32_t math_asuint_m503D1ABF19E
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float math_asfloat_m20D259DAAB46464B59BD8BF5678F9D59800F70A9_inline (uint32_t ___x0, const RuntimeMethod* method) 
 {
 	{
-		// public static float  asfloat(uint x) { return asfloat((int)x); }
 		uint32_t L_0 = ___x0;
 		float L_1;
 		L_1 = math_asfloat_m9FA56DE5C61FCEF3DCD0675252D40DFD9C9B712F_inline(L_0, NULL);
@@ -31776,7 +29555,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float math_asfloat_m20D259DAAB464
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E math_sin_m43618973AB0574A29896B4479E1F72A829644A33_inline (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___x0, const RuntimeMethod* method) 
 {
 	{
-		// public static float3 sin(float3 x) { return new float3(sin(x.x), sin(x.y), sin(x.z)); }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_0 = ___x0;
 		float L_1 = L_0.___x_0;
 		float L_2;
@@ -31798,7 +29576,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E math_cos_m42275E85C55A660ABC711D07B4349A82F4BBCBC4_inline (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___x0, const RuntimeMethod* method) 
 {
 	{
-		// public static float3 cos(float3 x) { return new float3(cos(x.x), cos(x.y), cos(x.z)); }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_0 = ___x0;
 		float L_1 = L_0.___x_0;
 		float L_2;
@@ -31820,7 +29597,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float math_dot_mE193D8880350D74CC8D63A0D53CDC5902F844AAD_inline (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___x0, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___y1, const RuntimeMethod* method) 
 {
 	{
-		// public static float dot(float3 x, float3 y) { return x.x * y.x + x.y * y.y + x.z * y.z; }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_0 = ___x0;
 		float L_1 = L_0.___x_0;
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_2 = ___y1;
@@ -31839,7 +29615,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float math_dot_mE193D8880350D74CC
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float math_rsqrt_mC67B3430EAADA7C5347E87B23859C569BC010E72_inline (float ___x0, const RuntimeMethod* method) 
 {
 	{
-		// public static float rsqrt(float x) { return 1.0f / sqrt(x); }
 		float L_0 = ___x0;
 		float L_1;
 		L_1 = math_sqrt_mEF31DE7BD0179009683C5D7B0C58E6571B30CF4A_inline(L_0, NULL);
@@ -31849,7 +29624,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float math_rsqrt_mC67B3430EAADA7C
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float3_op_Multiply_m38F52B61F8E5636955A1A6DF3A75BD0724148350_inline (float ___lhs0, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static float3 operator * (float lhs, float3 rhs) { return new float3 (lhs * rhs.x, lhs * rhs.y, lhs * rhs.z); }
 		float L_0 = ___lhs0;
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_1 = ___rhs1;
 		float L_2 = L_1.___x_0;
@@ -31870,7 +29644,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793
 	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		// public static float3 cross(float3 x, float3 y) { return (x * y.yzx - x.yzx * y).yzx; }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_0 = ___x0;
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_1;
 		L_1 = float3_get_yzx_mDF6DE39B69C5DE384F74C0D1EC91AA0388E23535_inline((&___y1), NULL);
@@ -31892,7 +29665,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3x3_tB318DB8C7E54B6CA9E14EB9AC7F5964C1189FC79 math_float3x3_m9EFCC44816C0612E9EE86D0ADD54D38C0B2BDAFF_inline (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___c00, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___c11, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___c22, const RuntimeMethod* method) 
 {
 	{
-		// public static float3x3 float3x3(float3 c0, float3 c1, float3 c2) { return new float3x3(c0, c1, c2); }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_0 = ___c00;
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_1 = ___c11;
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_2 = ___c22;
@@ -31905,7 +29677,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3x3_tB318DB8C7E54B6CA9E14EB9
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint32_t math_select_m8BBDC6133225059EE5F0FCA74BA9497AD5496024_inline (uint32_t ___a0, uint32_t ___b1, bool ___c2, const RuntimeMethod* method) 
 {
 	{
-		// public static uint select(uint a, uint b, bool c) { return c ? b : a; }
 		bool L_0 = ___c2;
 		if (L_0)
 		{
@@ -31928,12 +29699,9 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t math_asint_mBDED7FE966CA6
 	IntFloatUnion_t549256A9DD754252DD18383D9CE7EA55EBBD6D96 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		// u.intValue = 0;
 		(&V_0)->___intValue_0 = 0;
-		// u.floatValue = x;
 		float L_0 = ___x0;
 		(&V_0)->___floatValue_1 = L_0;
-		// return u.intValue;
 		IntFloatUnion_t549256A9DD754252DD18383D9CE7EA55EBBD6D96 L_1 = V_0;
 		int32_t L_2 = L_1.___intValue_0;
 		return L_2;
@@ -31944,12 +29712,9 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float math_asfloat_m9FA56DE5C61FC
 	IntFloatUnion_t549256A9DD754252DD18383D9CE7EA55EBBD6D96 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		// u.floatValue = 0;
 		(&V_0)->___floatValue_1 = (0.0f);
-		// u.intValue = x;
 		int32_t L_0 = ___x0;
 		(&V_0)->___intValue_0 = L_0;
-		// return u.floatValue;
 		IntFloatUnion_t549256A9DD754252DD18383D9CE7EA55EBBD6D96 L_1 = V_0;
 		float L_2 = L_1.___floatValue_1;
 		return L_2;
@@ -31964,7 +29729,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float math_sqrt_mEF31DE7BD0179009
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		// public static float sqrt(float x) { return (float)System.Math.Sqrt((float)x); }
 		float L_0 = ___x0;
 		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
 		double L_1;
@@ -31975,7 +29739,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float math_sqrt_mEF31DE7BD0179009
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float3_get_yzx_mDF6DE39B69C5DE384F74C0D1EC91AA0388E23535_inline (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* __this, const RuntimeMethod* method) 
 {
 	{
-		// get { return new float3(y, z, x); }
 		float L_0 = __this->___y_1;
 		float L_1 = __this->___z_2;
 		float L_2 = __this->___x_0;
@@ -31988,7 +29751,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float3_op_Multiply_m05E57074FBD5FAB0E72940C9CC019C41915280D7_inline (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___lhs0, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___rhs1, const RuntimeMethod* method) 
 {
 	{
-		// public static float3 operator * (float3 lhs, float3 rhs) { return new float3 (lhs.x * rhs.x, lhs.y * rhs.y, lhs.z * rhs.z); }
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_0 = ___lhs0;
 		float L_1 = L_0.___x_0;
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_2 = ___rhs1;
@@ -32010,16 +29772,12 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float3x3__ctor_mA652DC011B892B36A8216646B51B2014F89CE93E_inline (float3x3_tB318DB8C7E54B6CA9E14EB9AC7F5964C1189FC79* __this, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___c00, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___c11, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___c22, const RuntimeMethod* method) 
 {
 	{
-		// this.c0 = c0;
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_0 = ___c00;
 		__this->___c0_0 = L_0;
-		// this.c1 = c1;
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_1 = ___c11;
 		__this->___c1_1 = L_1;
-		// this.c2 = c2;
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_2 = ___c22;
 		__this->___c2_2 = L_2;
-		// }
 		return;
 	}
 }

@@ -2551,14 +2551,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FastTouchscreen__ctor_m855BB5ECB5E319A49
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_302;
 	memset((&V_302), 0, sizeof(V_302));
 	{
-		// public FastTouchscreen()
 		Touchscreen__ctor_mC927D439C841E2B64A29C0413D79A44261BD5EC4(__this, NULL);
-		// var builder = this.Setup(290, 5, 0)
-		//     .WithName("Touchscreen")
-		//     .WithDisplayName("Touchscreen")
-		//     .WithChildren(0, 16)
-		//     .WithLayout(new InternedString("Touchscreen"))
-		//     .WithStateBlock(new InputStateBlock { format = new FourCC(1414742866), sizeInBits = 4928 });
 		DeviceBuilder_t3D3A66799A2B6B6282AC2FB71B1DE5034E668CC4 L_0;
 		L_0 = InputControlExtensions_Setup_m4760089D238ED18D5A857C38E992A0E9E9633822(__this, ((int32_t)290), 5, 0, NULL);
 		V_301 = L_0;
@@ -2587,3282 +2580,2657 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FastTouchscreen__ctor_m855BB5ECB5E319A49
 		DeviceBuilder_t3D3A66799A2B6B6282AC2FB71B1DE5034E668CC4 L_8;
 		L_8 = DeviceBuilder_WithStateBlock_mB1B5E1A98A0E205BD74AB0513E86A380A0FE731D_inline((&V_301), L_7, NULL);
 		V_0 = L_8;
-		// var kTouchLayout = new InternedString("Touch");
 		InternedString__ctor_m2E9672D46D84C82F705DE799CE8B6123EB95E935((&V_1), _stringLiteral45EDE4DB19150515241E2FE6610B1490B1DED5C7, NULL);
-		// var kVector2Layout = new InternedString("Vector2");
 		InternedString__ctor_m2E9672D46D84C82F705DE799CE8B6123EB95E935((&V_2), _stringLiteralCFA73882EBCB16AE44454CACF911EC21EF0A579C, NULL);
-		// var kDeltaLayout = new InternedString("Delta");
 		InternedString__ctor_m2E9672D46D84C82F705DE799CE8B6123EB95E935((&V_3), _stringLiteralBB3F223896EC30F7292484479FB732D822BBDFBE, NULL);
-		// var kAnalogLayout = new InternedString("Analog");
 		InternedString__ctor_m2E9672D46D84C82F705DE799CE8B6123EB95E935((&V_4), _stringLiteral0C81413ADA26B9D9FB5559F6B8F00B6E297D84E1, NULL);
-		// var kTouchPressLayout = new InternedString("TouchPress");
 		InternedString__ctor_m2E9672D46D84C82F705DE799CE8B6123EB95E935((&V_5), _stringLiteral497D04A9F12484A2B579045305317D824B392B5E, NULL);
-		// var kIntegerLayout = new InternedString("Integer");
 		InternedString__ctor_m2E9672D46D84C82F705DE799CE8B6123EB95E935((&V_6), _stringLiteralE566E6091771397A8847DE9F0E5AF31E5E383CA7, NULL);
-		// var kAxisLayout = new InternedString("Axis");
 		InternedString__ctor_m2E9672D46D84C82F705DE799CE8B6123EB95E935((&V_7), _stringLiteralEE71910C7E19B0D89B96AF6011CDFDAF6EA1CF1C, NULL);
-		// var kTouchPhaseLayout = new InternedString("TouchPhase");
 		InternedString__ctor_m2E9672D46D84C82F705DE799CE8B6123EB95E935((&V_8), _stringLiteral841967C9F7417326D9B6354E4FE3FC45CE3634EA, NULL);
-		// var kButtonLayout = new InternedString("Button");
 		InternedString__ctor_m2E9672D46D84C82F705DE799CE8B6123EB95E935((&V_9), _stringLiteral7DE03E5EBA0308517D1762F2C0DF3B9E2A2F1870, NULL);
-		// var kDoubleLayout = new InternedString("Double");
 		InternedString__ctor_m2E9672D46D84C82F705DE799CE8B6123EB95E935((&V_10), _stringLiteralF13E4BFF086D4E511E68B0617B76ACC5BD5AFFE7, NULL);
-		// var ctrlTouchscreenprimaryTouch = Initialize_ctrlTouchscreenprimaryTouch(kTouchLayout, this);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_9 = V_1;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_10;
 		L_10 = FastTouchscreen_Initialize_ctrlTouchscreenprimaryTouch_mAFA66979773CFC2C362F81179AF5861FDF13015F(__this, L_9, __this, NULL);
 		V_11 = L_10;
-		// var ctrlTouchscreenposition = Initialize_ctrlTouchscreenposition(kVector2Layout, this);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_11 = V_2;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_12;
 		L_12 = FastTouchscreen_Initialize_ctrlTouchscreenposition_m567E0C2837EA91DF5F22B87F527476D548B996A7(__this, L_11, __this, NULL);
 		V_12 = L_12;
-		// var ctrlTouchscreendelta = Initialize_ctrlTouchscreendelta(kDeltaLayout, this);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_13 = V_3;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_14;
 		L_14 = FastTouchscreen_Initialize_ctrlTouchscreendelta_m1E7BC16DF8CFB35855DB8D4772F72542E572E6F9(__this, L_13, __this, NULL);
 		V_13 = L_14;
-		// var ctrlTouchscreenpressure = Initialize_ctrlTouchscreenpressure(kAnalogLayout, this);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_15 = V_4;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_16;
 		L_16 = FastTouchscreen_Initialize_ctrlTouchscreenpressure_m84FFA6D0ADC75D997CAC87A14F1065242597988F(__this, L_15, __this, NULL);
 		V_14 = L_16;
-		// var ctrlTouchscreenradius = Initialize_ctrlTouchscreenradius(kVector2Layout, this);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_17 = V_2;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_18;
 		L_18 = FastTouchscreen_Initialize_ctrlTouchscreenradius_m0139638240DCEEBA5F40FDA350A57782AD552D6F(__this, L_17, __this, NULL);
 		V_15 = L_18;
-		// var ctrlTouchscreenpress = Initialize_ctrlTouchscreenpress(kTouchPressLayout, this);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_19 = V_5;
 		TouchPressControl_tD5BD68D9FDEAC889591DD7A499864893A43C7CEB* L_20;
 		L_20 = FastTouchscreen_Initialize_ctrlTouchscreenpress_m4066164BCDFED8991D18AA1B8D996DA95FB8A8E4(__this, L_19, __this, NULL);
 		V_16 = L_20;
-		// var ctrlTouchscreentouch0 = Initialize_ctrlTouchscreentouch0(kTouchLayout, this);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_21 = V_1;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_22;
 		L_22 = FastTouchscreen_Initialize_ctrlTouchscreentouch0_m5D3047FB5EBD17D2BECBA7E7BD766FB3429538C6(__this, L_21, __this, NULL);
 		V_17 = L_22;
-		// var ctrlTouchscreentouch1 = Initialize_ctrlTouchscreentouch1(kTouchLayout, this);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_23 = V_1;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_24;
 		L_24 = FastTouchscreen_Initialize_ctrlTouchscreentouch1_mB0852AEAD806AB89731BB5B16E15B5A01F70794B(__this, L_23, __this, NULL);
 		V_18 = L_24;
-		// var ctrlTouchscreentouch2 = Initialize_ctrlTouchscreentouch2(kTouchLayout, this);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_25 = V_1;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_26;
 		L_26 = FastTouchscreen_Initialize_ctrlTouchscreentouch2_mAAECA0A4DFA4FD661823DF1FACFD963D489FBB29(__this, L_25, __this, NULL);
 		V_19 = L_26;
-		// var ctrlTouchscreentouch3 = Initialize_ctrlTouchscreentouch3(kTouchLayout, this);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_27 = V_1;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_28;
 		L_28 = FastTouchscreen_Initialize_ctrlTouchscreentouch3_m5AE13795BEB9167404F5300515B3EE14A52599E0(__this, L_27, __this, NULL);
 		V_20 = L_28;
-		// var ctrlTouchscreentouch4 = Initialize_ctrlTouchscreentouch4(kTouchLayout, this);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_29 = V_1;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_30;
 		L_30 = FastTouchscreen_Initialize_ctrlTouchscreentouch4_mCD4353FC949DA298D61A039C27839C64491C3C49(__this, L_29, __this, NULL);
 		V_21 = L_30;
-		// var ctrlTouchscreentouch5 = Initialize_ctrlTouchscreentouch5(kTouchLayout, this);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_31 = V_1;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_32;
 		L_32 = FastTouchscreen_Initialize_ctrlTouchscreentouch5_m2DEB26D3ADB59537061B665D2C482605EB7BC494(__this, L_31, __this, NULL);
 		V_22 = L_32;
-		// var ctrlTouchscreentouch6 = Initialize_ctrlTouchscreentouch6(kTouchLayout, this);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_33 = V_1;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_34;
 		L_34 = FastTouchscreen_Initialize_ctrlTouchscreentouch6_mFBC30B608AF8953F0078BA2A63A3802ADA4F5DC0(__this, L_33, __this, NULL);
 		V_23 = L_34;
-		// var ctrlTouchscreentouch7 = Initialize_ctrlTouchscreentouch7(kTouchLayout, this);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_35 = V_1;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_36;
 		L_36 = FastTouchscreen_Initialize_ctrlTouchscreentouch7_m39EB9C17C428BC3D53BDE5443A7ED529F19AA5F1(__this, L_35, __this, NULL);
 		V_24 = L_36;
-		// var ctrlTouchscreentouch8 = Initialize_ctrlTouchscreentouch8(kTouchLayout, this);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_37 = V_1;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_38;
 		L_38 = FastTouchscreen_Initialize_ctrlTouchscreentouch8_m79A0D6F0E2A1920E646230F3DEC98312550E0805(__this, L_37, __this, NULL);
 		V_25 = L_38;
-		// var ctrlTouchscreentouch9 = Initialize_ctrlTouchscreentouch9(kTouchLayout, this);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_39 = V_1;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_40;
 		L_40 = FastTouchscreen_Initialize_ctrlTouchscreentouch9_mA4FD717116CABA31E976390CA65354D9A007B764(__this, L_39, __this, NULL);
 		V_26 = L_40;
-		// var ctrlTouchscreenprimaryTouchtouchId = Initialize_ctrlTouchscreenprimaryTouchtouchId(kIntegerLayout, ctrlTouchscreenprimaryTouch);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_41 = V_6;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_42 = V_11;
 		IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB* L_43;
 		L_43 = FastTouchscreen_Initialize_ctrlTouchscreenprimaryTouchtouchId_m0EA54BB3F3A429E3FDC5DE5437C2749E89D11ABE(__this, L_41, L_42, NULL);
 		V_27 = L_43;
-		// var ctrlTouchscreenprimaryTouchposition = Initialize_ctrlTouchscreenprimaryTouchposition(kVector2Layout, ctrlTouchscreenprimaryTouch);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_44 = V_2;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_45 = V_11;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_46;
 		L_46 = FastTouchscreen_Initialize_ctrlTouchscreenprimaryTouchposition_m0CCA5983BA52BE0938AE0BF0CDAFC42C6F87ED99(__this, L_44, L_45, NULL);
 		V_28 = L_46;
-		// var ctrlTouchscreenprimaryTouchdelta = Initialize_ctrlTouchscreenprimaryTouchdelta(kDeltaLayout, ctrlTouchscreenprimaryTouch);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_47 = V_3;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_48 = V_11;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_49;
 		L_49 = FastTouchscreen_Initialize_ctrlTouchscreenprimaryTouchdelta_m256F1ED15938A725C477E40493F8FA4BC3B59D4D(__this, L_47, L_48, NULL);
 		V_29 = L_49;
-		// var ctrlTouchscreenprimaryTouchpressure = Initialize_ctrlTouchscreenprimaryTouchpressure(kAxisLayout, ctrlTouchscreenprimaryTouch);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_50 = V_7;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_51 = V_11;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_52;
 		L_52 = FastTouchscreen_Initialize_ctrlTouchscreenprimaryTouchpressure_m29D81A5F733089FF9AC19BA937DC826EE1C13AD2(__this, L_50, L_51, NULL);
 		V_30 = L_52;
-		// var ctrlTouchscreenprimaryTouchradius = Initialize_ctrlTouchscreenprimaryTouchradius(kVector2Layout, ctrlTouchscreenprimaryTouch);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_53 = V_2;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_54 = V_11;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_55;
 		L_55 = FastTouchscreen_Initialize_ctrlTouchscreenprimaryTouchradius_m24DD10ADD444791147889F5B2111BB7F361C1900(__this, L_53, L_54, NULL);
 		V_31 = L_55;
-		// var ctrlTouchscreenprimaryTouchphase = Initialize_ctrlTouchscreenprimaryTouchphase(kTouchPhaseLayout, ctrlTouchscreenprimaryTouch);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_56 = V_8;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_57 = V_11;
 		TouchPhaseControl_t4652C6E0EBFAFA85A31607769876B02C1C9FCAEC* L_58;
 		L_58 = FastTouchscreen_Initialize_ctrlTouchscreenprimaryTouchphase_m31EA2E0CEA1D9ABA4676FF0314191698578CDE9E(__this, L_56, L_57, NULL);
 		V_32 = L_58;
-		// var ctrlTouchscreenprimaryTouchpress = Initialize_ctrlTouchscreenprimaryTouchpress(kTouchPressLayout, ctrlTouchscreenprimaryTouch);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_59 = V_5;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_60 = V_11;
 		TouchPressControl_tD5BD68D9FDEAC889591DD7A499864893A43C7CEB* L_61;
 		L_61 = FastTouchscreen_Initialize_ctrlTouchscreenprimaryTouchpress_m92BD5A2C54A057B519793FC99C65CD2F97AB45C4(__this, L_59, L_60, NULL);
 		V_33 = L_61;
-		// var ctrlTouchscreenprimaryTouchtapCount = Initialize_ctrlTouchscreenprimaryTouchtapCount(kIntegerLayout, ctrlTouchscreenprimaryTouch);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_62 = V_6;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_63 = V_11;
 		IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB* L_64;
 		L_64 = FastTouchscreen_Initialize_ctrlTouchscreenprimaryTouchtapCount_m99CAC868824C99F73B27696992E80A2100D36470(__this, L_62, L_63, NULL);
 		V_34 = L_64;
-		// var ctrlTouchscreenprimaryTouchindirectTouch = Initialize_ctrlTouchscreenprimaryTouchindirectTouch(kButtonLayout, ctrlTouchscreenprimaryTouch);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_65 = V_9;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_66 = V_11;
 		ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* L_67;
 		L_67 = FastTouchscreen_Initialize_ctrlTouchscreenprimaryTouchindirectTouch_m74F43737323FA46CD5A8FA0C19C7A68092E117B4(__this, L_65, L_66, NULL);
 		V_35 = L_67;
-		// var ctrlTouchscreenprimaryTouchtap = Initialize_ctrlTouchscreenprimaryTouchtap(kButtonLayout, ctrlTouchscreenprimaryTouch);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_68 = V_9;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_69 = V_11;
 		ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* L_70;
 		L_70 = FastTouchscreen_Initialize_ctrlTouchscreenprimaryTouchtap_mA2CBA41D1E93F88AC4675C45F9272A56260F5725(__this, L_68, L_69, NULL);
 		V_36 = L_70;
-		// var ctrlTouchscreenprimaryTouchstartTime = Initialize_ctrlTouchscreenprimaryTouchstartTime(kDoubleLayout, ctrlTouchscreenprimaryTouch);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_71 = V_10;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_72 = V_11;
 		DoubleControl_t3707A6260424A2F3636669A2BAFF5CB5E91D2486* L_73;
 		L_73 = FastTouchscreen_Initialize_ctrlTouchscreenprimaryTouchstartTime_mE62641FF91B1E08C96D26F6081FB434A91695D18(__this, L_71, L_72, NULL);
 		V_37 = L_73;
-		// var ctrlTouchscreenprimaryTouchstartPosition = Initialize_ctrlTouchscreenprimaryTouchstartPosition(kVector2Layout, ctrlTouchscreenprimaryTouch);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_74 = V_2;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_75 = V_11;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_76;
 		L_76 = FastTouchscreen_Initialize_ctrlTouchscreenprimaryTouchstartPosition_m2EDE1FA26B1C347CCAF358F02349242153C57C8F(__this, L_74, L_75, NULL);
 		V_38 = L_76;
-		// var ctrlTouchscreenprimaryTouchpositionx = Initialize_ctrlTouchscreenprimaryTouchpositionx(kAxisLayout, ctrlTouchscreenprimaryTouchposition);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_77 = V_7;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_78 = V_28;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_79;
 		L_79 = FastTouchscreen_Initialize_ctrlTouchscreenprimaryTouchpositionx_m10F0B99C2417900516F2BA141FCDD7F41BA877BA(__this, L_77, L_78, NULL);
 		V_39 = L_79;
-		// var ctrlTouchscreenprimaryTouchpositiony = Initialize_ctrlTouchscreenprimaryTouchpositiony(kAxisLayout, ctrlTouchscreenprimaryTouchposition);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_80 = V_7;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_81 = V_28;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_82;
 		L_82 = FastTouchscreen_Initialize_ctrlTouchscreenprimaryTouchpositiony_m14501C5A9339F16A6D1629C1C2C4A15C7F4D92FE(__this, L_80, L_81, NULL);
 		V_40 = L_82;
-		// var ctrlTouchscreenprimaryTouchdeltaup = Initialize_ctrlTouchscreenprimaryTouchdeltaup(kAxisLayout, ctrlTouchscreenprimaryTouchdelta);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_83 = V_7;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_84 = V_29;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_85;
 		L_85 = FastTouchscreen_Initialize_ctrlTouchscreenprimaryTouchdeltaup_m039AB0EC3B6085EAA8F9D146EEACE5095EC6F182(__this, L_83, L_84, NULL);
 		V_41 = L_85;
-		// var ctrlTouchscreenprimaryTouchdeltadown = Initialize_ctrlTouchscreenprimaryTouchdeltadown(kAxisLayout, ctrlTouchscreenprimaryTouchdelta);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_86 = V_7;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_87 = V_29;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_88;
 		L_88 = FastTouchscreen_Initialize_ctrlTouchscreenprimaryTouchdeltadown_m478B14C4E253646B7A1D11B7246CBF8CA01D436C(__this, L_86, L_87, NULL);
 		V_42 = L_88;
-		// var ctrlTouchscreenprimaryTouchdeltaleft = Initialize_ctrlTouchscreenprimaryTouchdeltaleft(kAxisLayout, ctrlTouchscreenprimaryTouchdelta);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_89 = V_7;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_90 = V_29;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_91;
 		L_91 = FastTouchscreen_Initialize_ctrlTouchscreenprimaryTouchdeltaleft_mFD4767C2B1F8B64DA83543B1F9290A824BAB84BF(__this, L_89, L_90, NULL);
 		V_43 = L_91;
-		// var ctrlTouchscreenprimaryTouchdeltaright = Initialize_ctrlTouchscreenprimaryTouchdeltaright(kAxisLayout, ctrlTouchscreenprimaryTouchdelta);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_92 = V_7;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_93 = V_29;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_94;
 		L_94 = FastTouchscreen_Initialize_ctrlTouchscreenprimaryTouchdeltaright_mC2DEBFF44B89E68FD43095AB539C58D63DE9566C(__this, L_92, L_93, NULL);
 		V_44 = L_94;
-		// var ctrlTouchscreenprimaryTouchdeltax = Initialize_ctrlTouchscreenprimaryTouchdeltax(kAxisLayout, ctrlTouchscreenprimaryTouchdelta);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_95 = V_7;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_96 = V_29;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_97;
 		L_97 = FastTouchscreen_Initialize_ctrlTouchscreenprimaryTouchdeltax_m60586EE67BF0C358AA0490544219CEDCFFC47175(__this, L_95, L_96, NULL);
 		V_45 = L_97;
-		// var ctrlTouchscreenprimaryTouchdeltay = Initialize_ctrlTouchscreenprimaryTouchdeltay(kAxisLayout, ctrlTouchscreenprimaryTouchdelta);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_98 = V_7;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_99 = V_29;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_100;
 		L_100 = FastTouchscreen_Initialize_ctrlTouchscreenprimaryTouchdeltay_m6454CAD580266CB7434DFA0B1F887CE2C99CC130(__this, L_98, L_99, NULL);
 		V_46 = L_100;
-		// var ctrlTouchscreenprimaryTouchradiusx = Initialize_ctrlTouchscreenprimaryTouchradiusx(kAxisLayout, ctrlTouchscreenprimaryTouchradius);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_101 = V_7;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_102 = V_31;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_103;
 		L_103 = FastTouchscreen_Initialize_ctrlTouchscreenprimaryTouchradiusx_m4B47BAFFF825EE1C3F1EC5B6E765F9A7E2E04E2C(__this, L_101, L_102, NULL);
 		V_47 = L_103;
-		// var ctrlTouchscreenprimaryTouchradiusy = Initialize_ctrlTouchscreenprimaryTouchradiusy(kAxisLayout, ctrlTouchscreenprimaryTouchradius);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_104 = V_7;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_105 = V_31;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_106;
 		L_106 = FastTouchscreen_Initialize_ctrlTouchscreenprimaryTouchradiusy_m8E7712A2A0C8413C2306DCFF1B6C0CDF8584386D(__this, L_104, L_105, NULL);
 		V_48 = L_106;
-		// var ctrlTouchscreenprimaryTouchstartPositionx = Initialize_ctrlTouchscreenprimaryTouchstartPositionx(kAxisLayout, ctrlTouchscreenprimaryTouchstartPosition);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_107 = V_7;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_108 = V_38;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_109;
 		L_109 = FastTouchscreen_Initialize_ctrlTouchscreenprimaryTouchstartPositionx_mF3CC175738ED9DCE8C317830FAB22414FBA9A6C1(__this, L_107, L_108, NULL);
 		V_49 = L_109;
-		// var ctrlTouchscreenprimaryTouchstartPositiony = Initialize_ctrlTouchscreenprimaryTouchstartPositiony(kAxisLayout, ctrlTouchscreenprimaryTouchstartPosition);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_110 = V_7;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_111 = V_38;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_112;
 		L_112 = FastTouchscreen_Initialize_ctrlTouchscreenprimaryTouchstartPositiony_m9557483EF3EB2E8DF9029E784A0A132DA20594AB(__this, L_110, L_111, NULL);
 		V_50 = L_112;
-		// var ctrlTouchscreenpositionx = Initialize_ctrlTouchscreenpositionx(kAxisLayout, ctrlTouchscreenposition);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_113 = V_7;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_114 = V_12;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_115;
 		L_115 = FastTouchscreen_Initialize_ctrlTouchscreenpositionx_m254320EFEF390B8DCC1F3400271C4B59EB450EE1(__this, L_113, L_114, NULL);
 		V_51 = L_115;
-		// var ctrlTouchscreenpositiony = Initialize_ctrlTouchscreenpositiony(kAxisLayout, ctrlTouchscreenposition);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_116 = V_7;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_117 = V_12;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_118;
 		L_118 = FastTouchscreen_Initialize_ctrlTouchscreenpositiony_mD419A01D911CC7AEF238F918B2854FF53DDD8707(__this, L_116, L_117, NULL);
 		V_52 = L_118;
-		// var ctrlTouchscreendeltaup = Initialize_ctrlTouchscreendeltaup(kAxisLayout, ctrlTouchscreendelta);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_119 = V_7;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_120 = V_13;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_121;
 		L_121 = FastTouchscreen_Initialize_ctrlTouchscreendeltaup_m16C460CA81DAA2B8B29E466C9F8F450171F5E838(__this, L_119, L_120, NULL);
 		V_53 = L_121;
-		// var ctrlTouchscreendeltadown = Initialize_ctrlTouchscreendeltadown(kAxisLayout, ctrlTouchscreendelta);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_122 = V_7;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_123 = V_13;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_124;
 		L_124 = FastTouchscreen_Initialize_ctrlTouchscreendeltadown_mC76E5F914A54CE8E01C0FD78EB2B8E950D21BCC3(__this, L_122, L_123, NULL);
 		V_54 = L_124;
-		// var ctrlTouchscreendeltaleft = Initialize_ctrlTouchscreendeltaleft(kAxisLayout, ctrlTouchscreendelta);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_125 = V_7;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_126 = V_13;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_127;
 		L_127 = FastTouchscreen_Initialize_ctrlTouchscreendeltaleft_m25D8AE65ABEA5912F5E8D23F66D2A4F7D653BBDC(__this, L_125, L_126, NULL);
 		V_55 = L_127;
-		// var ctrlTouchscreendeltaright = Initialize_ctrlTouchscreendeltaright(kAxisLayout, ctrlTouchscreendelta);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_128 = V_7;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_129 = V_13;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_130;
 		L_130 = FastTouchscreen_Initialize_ctrlTouchscreendeltaright_mB34D0ADABCD9DB08CE7292CF8AA90C3048C5E0C6(__this, L_128, L_129, NULL);
 		V_56 = L_130;
-		// var ctrlTouchscreendeltax = Initialize_ctrlTouchscreendeltax(kAxisLayout, ctrlTouchscreendelta);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_131 = V_7;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_132 = V_13;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_133;
 		L_133 = FastTouchscreen_Initialize_ctrlTouchscreendeltax_m13AA9836D12AAA5B141C4EBD28C3F352B557E56B(__this, L_131, L_132, NULL);
 		V_57 = L_133;
-		// var ctrlTouchscreendeltay = Initialize_ctrlTouchscreendeltay(kAxisLayout, ctrlTouchscreendelta);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_134 = V_7;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_135 = V_13;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_136;
 		L_136 = FastTouchscreen_Initialize_ctrlTouchscreendeltay_mAB4D4F8359970FCED55957231F82EF50390BAAC9(__this, L_134, L_135, NULL);
 		V_58 = L_136;
-		// var ctrlTouchscreenradiusx = Initialize_ctrlTouchscreenradiusx(kAxisLayout, ctrlTouchscreenradius);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_137 = V_7;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_138 = V_15;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_139;
 		L_139 = FastTouchscreen_Initialize_ctrlTouchscreenradiusx_m7E183DBE164864737F0999F05443E2E5E2451201(__this, L_137, L_138, NULL);
 		V_59 = L_139;
-		// var ctrlTouchscreenradiusy = Initialize_ctrlTouchscreenradiusy(kAxisLayout, ctrlTouchscreenradius);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_140 = V_7;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_141 = V_15;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_142;
 		L_142 = FastTouchscreen_Initialize_ctrlTouchscreenradiusy_mC867360B72A70F835F543F7D4EFF0F606F8AD0EB(__this, L_140, L_141, NULL);
 		V_60 = L_142;
-		// var ctrlTouchscreentouch0touchId = Initialize_ctrlTouchscreentouch0touchId(kIntegerLayout, ctrlTouchscreentouch0);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_143 = V_6;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_144 = V_17;
 		IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB* L_145;
 		L_145 = FastTouchscreen_Initialize_ctrlTouchscreentouch0touchId_mC320286E0E2C233D9672E3F9D0C6B4D8B0AD2810(__this, L_143, L_144, NULL);
 		V_61 = L_145;
-		// var ctrlTouchscreentouch0position = Initialize_ctrlTouchscreentouch0position(kVector2Layout, ctrlTouchscreentouch0);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_146 = V_2;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_147 = V_17;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_148;
 		L_148 = FastTouchscreen_Initialize_ctrlTouchscreentouch0position_m79C39C8E3011AED5E4E203E1BC698B3FB1F1C55D(__this, L_146, L_147, NULL);
 		V_62 = L_148;
-		// var ctrlTouchscreentouch0delta = Initialize_ctrlTouchscreentouch0delta(kDeltaLayout, ctrlTouchscreentouch0);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_149 = V_3;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_150 = V_17;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_151;
 		L_151 = FastTouchscreen_Initialize_ctrlTouchscreentouch0delta_mF87A508C87B7D67DB05EC929D97C476094DB1A15(__this, L_149, L_150, NULL);
 		V_63 = L_151;
-		// var ctrlTouchscreentouch0pressure = Initialize_ctrlTouchscreentouch0pressure(kAxisLayout, ctrlTouchscreentouch0);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_152 = V_7;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_153 = V_17;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_154;
 		L_154 = FastTouchscreen_Initialize_ctrlTouchscreentouch0pressure_mD5B92273E56782F8EA71B449B563F6EDC9F6DBE6(__this, L_152, L_153, NULL);
 		V_64 = L_154;
-		// var ctrlTouchscreentouch0radius = Initialize_ctrlTouchscreentouch0radius(kVector2Layout, ctrlTouchscreentouch0);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_155 = V_2;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_156 = V_17;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_157;
 		L_157 = FastTouchscreen_Initialize_ctrlTouchscreentouch0radius_mD5837975930231F471AD2798C3C1AB486FF95EC6(__this, L_155, L_156, NULL);
 		V_65 = L_157;
-		// var ctrlTouchscreentouch0phase = Initialize_ctrlTouchscreentouch0phase(kTouchPhaseLayout, ctrlTouchscreentouch0);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_158 = V_8;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_159 = V_17;
 		TouchPhaseControl_t4652C6E0EBFAFA85A31607769876B02C1C9FCAEC* L_160;
 		L_160 = FastTouchscreen_Initialize_ctrlTouchscreentouch0phase_m97B34A8C887100859643CE2F584B96AB17BB086B(__this, L_158, L_159, NULL);
 		V_66 = L_160;
-		// var ctrlTouchscreentouch0press = Initialize_ctrlTouchscreentouch0press(kTouchPressLayout, ctrlTouchscreentouch0);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_161 = V_5;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_162 = V_17;
 		TouchPressControl_tD5BD68D9FDEAC889591DD7A499864893A43C7CEB* L_163;
 		L_163 = FastTouchscreen_Initialize_ctrlTouchscreentouch0press_m7B6C93AAE4F4EFF9DCA55B454C4E147FEC2DBBCF(__this, L_161, L_162, NULL);
 		V_67 = L_163;
-		// var ctrlTouchscreentouch0tapCount = Initialize_ctrlTouchscreentouch0tapCount(kIntegerLayout, ctrlTouchscreentouch0);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_164 = V_6;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_165 = V_17;
 		IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB* L_166;
 		L_166 = FastTouchscreen_Initialize_ctrlTouchscreentouch0tapCount_m7829F3CC90ABB57FA5A04E4811B945C2A64625F3(__this, L_164, L_165, NULL);
 		V_68 = L_166;
-		// var ctrlTouchscreentouch0indirectTouch = Initialize_ctrlTouchscreentouch0indirectTouch(kButtonLayout, ctrlTouchscreentouch0);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_167 = V_9;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_168 = V_17;
 		ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* L_169;
 		L_169 = FastTouchscreen_Initialize_ctrlTouchscreentouch0indirectTouch_m2C6B9BD449C63F55EB8FA23DBA56680D751926F2(__this, L_167, L_168, NULL);
 		V_69 = L_169;
-		// var ctrlTouchscreentouch0tap = Initialize_ctrlTouchscreentouch0tap(kButtonLayout, ctrlTouchscreentouch0);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_170 = V_9;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_171 = V_17;
 		ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* L_172;
 		L_172 = FastTouchscreen_Initialize_ctrlTouchscreentouch0tap_m0C395F7BF1C3E2E593B574DC8746781B7E0E4895(__this, L_170, L_171, NULL);
 		V_70 = L_172;
-		// var ctrlTouchscreentouch0startTime = Initialize_ctrlTouchscreentouch0startTime(kDoubleLayout, ctrlTouchscreentouch0);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_173 = V_10;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_174 = V_17;
 		DoubleControl_t3707A6260424A2F3636669A2BAFF5CB5E91D2486* L_175;
 		L_175 = FastTouchscreen_Initialize_ctrlTouchscreentouch0startTime_m8ECDBC62861430AE9C737F99E7F14961065F97DB(__this, L_173, L_174, NULL);
 		V_71 = L_175;
-		// var ctrlTouchscreentouch0startPosition = Initialize_ctrlTouchscreentouch0startPosition(kVector2Layout, ctrlTouchscreentouch0);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_176 = V_2;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_177 = V_17;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_178;
 		L_178 = FastTouchscreen_Initialize_ctrlTouchscreentouch0startPosition_mFD41C937F4DC55183E3DE0F09612C6D2DCD269C9(__this, L_176, L_177, NULL);
 		V_72 = L_178;
-		// var ctrlTouchscreentouch0positionx = Initialize_ctrlTouchscreentouch0positionx(kAxisLayout, ctrlTouchscreentouch0position);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_179 = V_7;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_180 = V_62;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_181;
 		L_181 = FastTouchscreen_Initialize_ctrlTouchscreentouch0positionx_mD77738DA29D65248F2BB2289F756D510B7A2A588(__this, L_179, L_180, NULL);
 		V_73 = L_181;
-		// var ctrlTouchscreentouch0positiony = Initialize_ctrlTouchscreentouch0positiony(kAxisLayout, ctrlTouchscreentouch0position);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_182 = V_7;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_183 = V_62;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_184;
 		L_184 = FastTouchscreen_Initialize_ctrlTouchscreentouch0positiony_m4D6DA464CE1436F293829FAA3D3D450CC77BBD5D(__this, L_182, L_183, NULL);
 		V_74 = L_184;
-		// var ctrlTouchscreentouch0deltaup = Initialize_ctrlTouchscreentouch0deltaup(kAxisLayout, ctrlTouchscreentouch0delta);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_185 = V_7;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_186 = V_63;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_187;
 		L_187 = FastTouchscreen_Initialize_ctrlTouchscreentouch0deltaup_mB26CE2FB9D0FE6834099494C04A922CA4B86D254(__this, L_185, L_186, NULL);
 		V_75 = L_187;
-		// var ctrlTouchscreentouch0deltadown = Initialize_ctrlTouchscreentouch0deltadown(kAxisLayout, ctrlTouchscreentouch0delta);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_188 = V_7;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_189 = V_63;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_190;
 		L_190 = FastTouchscreen_Initialize_ctrlTouchscreentouch0deltadown_m9F3661607F7F1AF6FB7BB7E36299C1B47012B5D8(__this, L_188, L_189, NULL);
 		V_76 = L_190;
-		// var ctrlTouchscreentouch0deltaleft = Initialize_ctrlTouchscreentouch0deltaleft(kAxisLayout, ctrlTouchscreentouch0delta);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_191 = V_7;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_192 = V_63;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_193;
 		L_193 = FastTouchscreen_Initialize_ctrlTouchscreentouch0deltaleft_mB92C723B6C9376C877CD0FF97BCC25D6134E7A04(__this, L_191, L_192, NULL);
 		V_77 = L_193;
-		// var ctrlTouchscreentouch0deltaright = Initialize_ctrlTouchscreentouch0deltaright(kAxisLayout, ctrlTouchscreentouch0delta);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_194 = V_7;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_195 = V_63;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_196;
 		L_196 = FastTouchscreen_Initialize_ctrlTouchscreentouch0deltaright_m321B1740A8F25F181115ED1282074E74ADE13BA6(__this, L_194, L_195, NULL);
 		V_78 = L_196;
-		// var ctrlTouchscreentouch0deltax = Initialize_ctrlTouchscreentouch0deltax(kAxisLayout, ctrlTouchscreentouch0delta);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_197 = V_7;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_198 = V_63;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_199;
 		L_199 = FastTouchscreen_Initialize_ctrlTouchscreentouch0deltax_m03CC1AD3D106A1AC66D408FD3A974130FCDA99F4(__this, L_197, L_198, NULL);
 		V_79 = L_199;
-		// var ctrlTouchscreentouch0deltay = Initialize_ctrlTouchscreentouch0deltay(kAxisLayout, ctrlTouchscreentouch0delta);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_200 = V_7;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_201 = V_63;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_202;
 		L_202 = FastTouchscreen_Initialize_ctrlTouchscreentouch0deltay_m48659C19EB0C099A992A741DF0287320B65C582E(__this, L_200, L_201, NULL);
 		V_80 = L_202;
-		// var ctrlTouchscreentouch0radiusx = Initialize_ctrlTouchscreentouch0radiusx(kAxisLayout, ctrlTouchscreentouch0radius);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_203 = V_7;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_204 = V_65;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_205;
 		L_205 = FastTouchscreen_Initialize_ctrlTouchscreentouch0radiusx_m0AE91C767E451FC506751A97959CA7A6C34CE33B(__this, L_203, L_204, NULL);
 		V_81 = L_205;
-		// var ctrlTouchscreentouch0radiusy = Initialize_ctrlTouchscreentouch0radiusy(kAxisLayout, ctrlTouchscreentouch0radius);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_206 = V_7;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_207 = V_65;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_208;
 		L_208 = FastTouchscreen_Initialize_ctrlTouchscreentouch0radiusy_mB81C976E1EB5CD352D65B32A9857A4C518C18454(__this, L_206, L_207, NULL);
 		V_82 = L_208;
-		// var ctrlTouchscreentouch0startPositionx = Initialize_ctrlTouchscreentouch0startPositionx(kAxisLayout, ctrlTouchscreentouch0startPosition);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_209 = V_7;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_210 = V_72;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_211;
 		L_211 = FastTouchscreen_Initialize_ctrlTouchscreentouch0startPositionx_m9E825FEEAB3B82D56DB46E0EB354B6484B7D9EF6(__this, L_209, L_210, NULL);
 		V_83 = L_211;
-		// var ctrlTouchscreentouch0startPositiony = Initialize_ctrlTouchscreentouch0startPositiony(kAxisLayout, ctrlTouchscreentouch0startPosition);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_212 = V_7;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_213 = V_72;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_214;
 		L_214 = FastTouchscreen_Initialize_ctrlTouchscreentouch0startPositiony_mBBA0FFA5448A248A387A7579831FDFEC03ACA51B(__this, L_212, L_213, NULL);
 		V_84 = L_214;
-		// var ctrlTouchscreentouch1touchId = Initialize_ctrlTouchscreentouch1touchId(kIntegerLayout, ctrlTouchscreentouch1);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_215 = V_6;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_216 = V_18;
 		IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB* L_217;
 		L_217 = FastTouchscreen_Initialize_ctrlTouchscreentouch1touchId_m51EB17E9907B6CB8C4AC4662D592B87B800A3D0D(__this, L_215, L_216, NULL);
 		V_85 = L_217;
-		// var ctrlTouchscreentouch1position = Initialize_ctrlTouchscreentouch1position(kVector2Layout, ctrlTouchscreentouch1);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_218 = V_2;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_219 = V_18;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_220;
 		L_220 = FastTouchscreen_Initialize_ctrlTouchscreentouch1position_mEE7AA93CD8729614446948997F774864CB7F1758(__this, L_218, L_219, NULL);
 		V_86 = L_220;
-		// var ctrlTouchscreentouch1delta = Initialize_ctrlTouchscreentouch1delta(kDeltaLayout, ctrlTouchscreentouch1);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_221 = V_3;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_222 = V_18;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_223;
 		L_223 = FastTouchscreen_Initialize_ctrlTouchscreentouch1delta_m80AA0DFEC62B0426781622D5A0E581471A9FCA72(__this, L_221, L_222, NULL);
 		V_87 = L_223;
-		// var ctrlTouchscreentouch1pressure = Initialize_ctrlTouchscreentouch1pressure(kAxisLayout, ctrlTouchscreentouch1);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_224 = V_7;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_225 = V_18;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_226;
 		L_226 = FastTouchscreen_Initialize_ctrlTouchscreentouch1pressure_m630304F7412591BBA1D8B8CE7813CF13AF729AF3(__this, L_224, L_225, NULL);
 		V_88 = L_226;
-		// var ctrlTouchscreentouch1radius = Initialize_ctrlTouchscreentouch1radius(kVector2Layout, ctrlTouchscreentouch1);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_227 = V_2;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_228 = V_18;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_229;
 		L_229 = FastTouchscreen_Initialize_ctrlTouchscreentouch1radius_m0D2D2BD8201E9CF2E38DCED95C0B92A333B4A810(__this, L_227, L_228, NULL);
 		V_89 = L_229;
-		// var ctrlTouchscreentouch1phase = Initialize_ctrlTouchscreentouch1phase(kTouchPhaseLayout, ctrlTouchscreentouch1);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_230 = V_8;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_231 = V_18;
 		TouchPhaseControl_t4652C6E0EBFAFA85A31607769876B02C1C9FCAEC* L_232;
 		L_232 = FastTouchscreen_Initialize_ctrlTouchscreentouch1phase_mF780D13FC9A53193E0A8CE29A217AB97EA59B5C4(__this, L_230, L_231, NULL);
 		V_90 = L_232;
-		// var ctrlTouchscreentouch1press = Initialize_ctrlTouchscreentouch1press(kTouchPressLayout, ctrlTouchscreentouch1);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_233 = V_5;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_234 = V_18;
 		TouchPressControl_tD5BD68D9FDEAC889591DD7A499864893A43C7CEB* L_235;
 		L_235 = FastTouchscreen_Initialize_ctrlTouchscreentouch1press_m59B55523F38E7EA21047AFDCA67A9E262CB9A04E(__this, L_233, L_234, NULL);
 		V_91 = L_235;
-		// var ctrlTouchscreentouch1tapCount = Initialize_ctrlTouchscreentouch1tapCount(kIntegerLayout, ctrlTouchscreentouch1);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_236 = V_6;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_237 = V_18;
 		IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB* L_238;
 		L_238 = FastTouchscreen_Initialize_ctrlTouchscreentouch1tapCount_mC9895523690CCDC2D6C790A77B07148D994294DE(__this, L_236, L_237, NULL);
 		V_92 = L_238;
-		// var ctrlTouchscreentouch1indirectTouch = Initialize_ctrlTouchscreentouch1indirectTouch(kButtonLayout, ctrlTouchscreentouch1);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_239 = V_9;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_240 = V_18;
 		ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* L_241;
 		L_241 = FastTouchscreen_Initialize_ctrlTouchscreentouch1indirectTouch_m83DDFAA43604D1200375DAEB96C24A17D24DFAAB(__this, L_239, L_240, NULL);
 		V_93 = L_241;
-		// var ctrlTouchscreentouch1tap = Initialize_ctrlTouchscreentouch1tap(kButtonLayout, ctrlTouchscreentouch1);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_242 = V_9;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_243 = V_18;
 		ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* L_244;
 		L_244 = FastTouchscreen_Initialize_ctrlTouchscreentouch1tap_m9DD48F603FBC29E15F1E10DDF54CF3C2DB0F213A(__this, L_242, L_243, NULL);
 		V_94 = L_244;
-		// var ctrlTouchscreentouch1startTime = Initialize_ctrlTouchscreentouch1startTime(kDoubleLayout, ctrlTouchscreentouch1);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_245 = V_10;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_246 = V_18;
 		DoubleControl_t3707A6260424A2F3636669A2BAFF5CB5E91D2486* L_247;
 		L_247 = FastTouchscreen_Initialize_ctrlTouchscreentouch1startTime_mFFBBC48DC8B7DB925E021FD6DE4F9BDF8C82D488(__this, L_245, L_246, NULL);
 		V_95 = L_247;
-		// var ctrlTouchscreentouch1startPosition = Initialize_ctrlTouchscreentouch1startPosition(kVector2Layout, ctrlTouchscreentouch1);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_248 = V_2;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_249 = V_18;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_250;
 		L_250 = FastTouchscreen_Initialize_ctrlTouchscreentouch1startPosition_mFF76AD2F9916761DF5BCD2E876CFE76806897627(__this, L_248, L_249, NULL);
 		V_96 = L_250;
-		// var ctrlTouchscreentouch1positionx = Initialize_ctrlTouchscreentouch1positionx(kAxisLayout, ctrlTouchscreentouch1position);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_251 = V_7;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_252 = V_86;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_253;
 		L_253 = FastTouchscreen_Initialize_ctrlTouchscreentouch1positionx_m7E145F98C519AF2582522A4168EE09296B545358(__this, L_251, L_252, NULL);
 		V_97 = L_253;
-		// var ctrlTouchscreentouch1positiony = Initialize_ctrlTouchscreentouch1positiony(kAxisLayout, ctrlTouchscreentouch1position);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_254 = V_7;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_255 = V_86;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_256;
 		L_256 = FastTouchscreen_Initialize_ctrlTouchscreentouch1positiony_mD3499CEC2F25A217E7740A64EBA28527A3870EF6(__this, L_254, L_255, NULL);
 		V_98 = L_256;
-		// var ctrlTouchscreentouch1deltaup = Initialize_ctrlTouchscreentouch1deltaup(kAxisLayout, ctrlTouchscreentouch1delta);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_257 = V_7;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_258 = V_87;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_259;
 		L_259 = FastTouchscreen_Initialize_ctrlTouchscreentouch1deltaup_mC77AC9B9382E8928095C2C94789A6708641234DA(__this, L_257, L_258, NULL);
 		V_99 = L_259;
-		// var ctrlTouchscreentouch1deltadown = Initialize_ctrlTouchscreentouch1deltadown(kAxisLayout, ctrlTouchscreentouch1delta);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_260 = V_7;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_261 = V_87;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_262;
 		L_262 = FastTouchscreen_Initialize_ctrlTouchscreentouch1deltadown_m09AD942EAF3774CE5BF1EAE8135BA3A29133C374(__this, L_260, L_261, NULL);
 		V_100 = L_262;
-		// var ctrlTouchscreentouch1deltaleft = Initialize_ctrlTouchscreentouch1deltaleft(kAxisLayout, ctrlTouchscreentouch1delta);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_263 = V_7;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_264 = V_87;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_265;
 		L_265 = FastTouchscreen_Initialize_ctrlTouchscreentouch1deltaleft_mE462312647AFDA55DB69A3E76B5840BF195A2FE0(__this, L_263, L_264, NULL);
 		V_101 = L_265;
-		// var ctrlTouchscreentouch1deltaright = Initialize_ctrlTouchscreentouch1deltaright(kAxisLayout, ctrlTouchscreentouch1delta);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_266 = V_7;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_267 = V_87;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_268;
 		L_268 = FastTouchscreen_Initialize_ctrlTouchscreentouch1deltaright_m419A0AE1C83D671C93F0CF0DC541D630E8CB8D0A(__this, L_266, L_267, NULL);
 		V_102 = L_268;
-		// var ctrlTouchscreentouch1deltax = Initialize_ctrlTouchscreentouch1deltax(kAxisLayout, ctrlTouchscreentouch1delta);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_269 = V_7;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_270 = V_87;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_271;
 		L_271 = FastTouchscreen_Initialize_ctrlTouchscreentouch1deltax_mC2DE650AC1988A9BB8277BC73CFED5D1116E6F79(__this, L_269, L_270, NULL);
 		V_103 = L_271;
-		// var ctrlTouchscreentouch1deltay = Initialize_ctrlTouchscreentouch1deltay(kAxisLayout, ctrlTouchscreentouch1delta);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_272 = V_7;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_273 = V_87;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_274;
 		L_274 = FastTouchscreen_Initialize_ctrlTouchscreentouch1deltay_m5AB2D9A1A9D918565599C606B40ED2338ACC56EA(__this, L_272, L_273, NULL);
 		V_104 = L_274;
-		// var ctrlTouchscreentouch1radiusx = Initialize_ctrlTouchscreentouch1radiusx(kAxisLayout, ctrlTouchscreentouch1radius);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_275 = V_7;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_276 = V_89;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_277;
 		L_277 = FastTouchscreen_Initialize_ctrlTouchscreentouch1radiusx_m7C11E2271FEE13F3E566D0C38F8503EB7408630B(__this, L_275, L_276, NULL);
 		V_105 = L_277;
-		// var ctrlTouchscreentouch1radiusy = Initialize_ctrlTouchscreentouch1radiusy(kAxisLayout, ctrlTouchscreentouch1radius);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_278 = V_7;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_279 = V_89;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_280;
 		L_280 = FastTouchscreen_Initialize_ctrlTouchscreentouch1radiusy_mA5720F6E2E0886D4237F209221F7CC7C7C7CC55F(__this, L_278, L_279, NULL);
 		V_106 = L_280;
-		// var ctrlTouchscreentouch1startPositionx = Initialize_ctrlTouchscreentouch1startPositionx(kAxisLayout, ctrlTouchscreentouch1startPosition);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_281 = V_7;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_282 = V_96;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_283;
 		L_283 = FastTouchscreen_Initialize_ctrlTouchscreentouch1startPositionx_m45D6DCA5BF02F814410FCA2109AAA09EBD916A5B(__this, L_281, L_282, NULL);
 		V_107 = L_283;
-		// var ctrlTouchscreentouch1startPositiony = Initialize_ctrlTouchscreentouch1startPositiony(kAxisLayout, ctrlTouchscreentouch1startPosition);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_284 = V_7;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_285 = V_96;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_286;
 		L_286 = FastTouchscreen_Initialize_ctrlTouchscreentouch1startPositiony_mF9CB07160B8114087E208BAEAC03E4C0F84D3EAD(__this, L_284, L_285, NULL);
 		V_108 = L_286;
-		// var ctrlTouchscreentouch2touchId = Initialize_ctrlTouchscreentouch2touchId(kIntegerLayout, ctrlTouchscreentouch2);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_287 = V_6;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_288 = V_19;
 		IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB* L_289;
 		L_289 = FastTouchscreen_Initialize_ctrlTouchscreentouch2touchId_m2733420F12AE1EC9109E8546591E0E71A9A110BB(__this, L_287, L_288, NULL);
 		V_109 = L_289;
-		// var ctrlTouchscreentouch2position = Initialize_ctrlTouchscreentouch2position(kVector2Layout, ctrlTouchscreentouch2);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_290 = V_2;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_291 = V_19;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_292;
 		L_292 = FastTouchscreen_Initialize_ctrlTouchscreentouch2position_mA801BDD683EFCD0B3CC36E57B4FE36C8F2403275(__this, L_290, L_291, NULL);
 		V_110 = L_292;
-		// var ctrlTouchscreentouch2delta = Initialize_ctrlTouchscreentouch2delta(kDeltaLayout, ctrlTouchscreentouch2);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_293 = V_3;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_294 = V_19;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_295;
 		L_295 = FastTouchscreen_Initialize_ctrlTouchscreentouch2delta_m3491220A3FFFF41D22ED4576FD1B3C37FE8DC2FF(__this, L_293, L_294, NULL);
 		V_111 = L_295;
-		// var ctrlTouchscreentouch2pressure = Initialize_ctrlTouchscreentouch2pressure(kAxisLayout, ctrlTouchscreentouch2);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_296 = V_7;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_297 = V_19;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_298;
 		L_298 = FastTouchscreen_Initialize_ctrlTouchscreentouch2pressure_m0DE8F9F5DB29352ED90DF296FF9D3047D158FBBD(__this, L_296, L_297, NULL);
 		V_112 = L_298;
-		// var ctrlTouchscreentouch2radius = Initialize_ctrlTouchscreentouch2radius(kVector2Layout, ctrlTouchscreentouch2);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_299 = V_2;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_300 = V_19;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_301;
 		L_301 = FastTouchscreen_Initialize_ctrlTouchscreentouch2radius_mA00B4048CF479B9A8E5C69DC5D497B19218FE303(__this, L_299, L_300, NULL);
 		V_113 = L_301;
-		// var ctrlTouchscreentouch2phase = Initialize_ctrlTouchscreentouch2phase(kTouchPhaseLayout, ctrlTouchscreentouch2);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_302 = V_8;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_303 = V_19;
 		TouchPhaseControl_t4652C6E0EBFAFA85A31607769876B02C1C9FCAEC* L_304;
 		L_304 = FastTouchscreen_Initialize_ctrlTouchscreentouch2phase_m7B7C75B621EADA70CA54398EFF5F168C5BB248A2(__this, L_302, L_303, NULL);
 		V_114 = L_304;
-		// var ctrlTouchscreentouch2press = Initialize_ctrlTouchscreentouch2press(kTouchPressLayout, ctrlTouchscreentouch2);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_305 = V_5;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_306 = V_19;
 		TouchPressControl_tD5BD68D9FDEAC889591DD7A499864893A43C7CEB* L_307;
 		L_307 = FastTouchscreen_Initialize_ctrlTouchscreentouch2press_m36C09ABB422255E2A741F8E6E9B5F3EC65FCB995(__this, L_305, L_306, NULL);
 		V_115 = L_307;
-		// var ctrlTouchscreentouch2tapCount = Initialize_ctrlTouchscreentouch2tapCount(kIntegerLayout, ctrlTouchscreentouch2);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_308 = V_6;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_309 = V_19;
 		IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB* L_310;
 		L_310 = FastTouchscreen_Initialize_ctrlTouchscreentouch2tapCount_mC6734F4069E24A5EC9D3ABEB072C2F14A9AC8025(__this, L_308, L_309, NULL);
 		V_116 = L_310;
-		// var ctrlTouchscreentouch2indirectTouch = Initialize_ctrlTouchscreentouch2indirectTouch(kButtonLayout, ctrlTouchscreentouch2);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_311 = V_9;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_312 = V_19;
 		ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* L_313;
 		L_313 = FastTouchscreen_Initialize_ctrlTouchscreentouch2indirectTouch_m4085D83D96316D543A5414CB2B6D6E143EF255FA(__this, L_311, L_312, NULL);
 		V_117 = L_313;
-		// var ctrlTouchscreentouch2tap = Initialize_ctrlTouchscreentouch2tap(kButtonLayout, ctrlTouchscreentouch2);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_314 = V_9;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_315 = V_19;
 		ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* L_316;
 		L_316 = FastTouchscreen_Initialize_ctrlTouchscreentouch2tap_m0D533AD0259F74AB0EEB4A1D4964B9DF737E3826(__this, L_314, L_315, NULL);
 		V_118 = L_316;
-		// var ctrlTouchscreentouch2startTime = Initialize_ctrlTouchscreentouch2startTime(kDoubleLayout, ctrlTouchscreentouch2);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_317 = V_10;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_318 = V_19;
 		DoubleControl_t3707A6260424A2F3636669A2BAFF5CB5E91D2486* L_319;
 		L_319 = FastTouchscreen_Initialize_ctrlTouchscreentouch2startTime_m924812946E7892FC5DC0AA37D65EC8AB3E42C6A4(__this, L_317, L_318, NULL);
 		V_119 = L_319;
-		// var ctrlTouchscreentouch2startPosition = Initialize_ctrlTouchscreentouch2startPosition(kVector2Layout, ctrlTouchscreentouch2);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_320 = V_2;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_321 = V_19;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_322;
 		L_322 = FastTouchscreen_Initialize_ctrlTouchscreentouch2startPosition_m98C1D72F273D5147B38695A72FD29192F525FA76(__this, L_320, L_321, NULL);
 		V_120 = L_322;
-		// var ctrlTouchscreentouch2positionx = Initialize_ctrlTouchscreentouch2positionx(kAxisLayout, ctrlTouchscreentouch2position);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_323 = V_7;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_324 = V_110;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_325;
 		L_325 = FastTouchscreen_Initialize_ctrlTouchscreentouch2positionx_m90397D6FF19E71D48CB97D8638661030C2B765D1(__this, L_323, L_324, NULL);
 		V_121 = L_325;
-		// var ctrlTouchscreentouch2positiony = Initialize_ctrlTouchscreentouch2positiony(kAxisLayout, ctrlTouchscreentouch2position);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_326 = V_7;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_327 = V_110;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_328;
 		L_328 = FastTouchscreen_Initialize_ctrlTouchscreentouch2positiony_mE912208F60A4CA90B8A46483C279F067663B67D0(__this, L_326, L_327, NULL);
 		V_122 = L_328;
-		// var ctrlTouchscreentouch2deltaup = Initialize_ctrlTouchscreentouch2deltaup(kAxisLayout, ctrlTouchscreentouch2delta);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_329 = V_7;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_330 = V_111;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_331;
 		L_331 = FastTouchscreen_Initialize_ctrlTouchscreentouch2deltaup_m9F1B02911C29BAFB84C201CE29DF240595284506(__this, L_329, L_330, NULL);
 		V_123 = L_331;
-		// var ctrlTouchscreentouch2deltadown = Initialize_ctrlTouchscreentouch2deltadown(kAxisLayout, ctrlTouchscreentouch2delta);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_332 = V_7;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_333 = V_111;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_334;
 		L_334 = FastTouchscreen_Initialize_ctrlTouchscreentouch2deltadown_mD2E1104F99694420C1D869C7F33A02E68D370055(__this, L_332, L_333, NULL);
 		V_124 = L_334;
-		// var ctrlTouchscreentouch2deltaleft = Initialize_ctrlTouchscreentouch2deltaleft(kAxisLayout, ctrlTouchscreentouch2delta);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_335 = V_7;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_336 = V_111;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_337;
 		L_337 = FastTouchscreen_Initialize_ctrlTouchscreentouch2deltaleft_m2C565396CF17077206AAD29D77270179EFAA950E(__this, L_335, L_336, NULL);
 		V_125 = L_337;
-		// var ctrlTouchscreentouch2deltaright = Initialize_ctrlTouchscreentouch2deltaright(kAxisLayout, ctrlTouchscreentouch2delta);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_338 = V_7;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_339 = V_111;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_340;
 		L_340 = FastTouchscreen_Initialize_ctrlTouchscreentouch2deltaright_m41BF07FF5552D28B90B9241BD75DAC08516CCC29(__this, L_338, L_339, NULL);
 		V_126 = L_340;
-		// var ctrlTouchscreentouch2deltax = Initialize_ctrlTouchscreentouch2deltax(kAxisLayout, ctrlTouchscreentouch2delta);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_341 = V_7;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_342 = V_111;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_343;
 		L_343 = FastTouchscreen_Initialize_ctrlTouchscreentouch2deltax_m636F9FD0C3537CB804675515F134E1CF9952C734(__this, L_341, L_342, NULL);
 		V_127 = L_343;
-		// var ctrlTouchscreentouch2deltay = Initialize_ctrlTouchscreentouch2deltay(kAxisLayout, ctrlTouchscreentouch2delta);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_344 = V_7;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_345 = V_111;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_346;
 		L_346 = FastTouchscreen_Initialize_ctrlTouchscreentouch2deltay_m99D6B244B630F962F46989F8643844C794F0503B(__this, L_344, L_345, NULL);
 		V_128 = L_346;
-		// var ctrlTouchscreentouch2radiusx = Initialize_ctrlTouchscreentouch2radiusx(kAxisLayout, ctrlTouchscreentouch2radius);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_347 = V_7;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_348 = V_113;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_349;
 		L_349 = FastTouchscreen_Initialize_ctrlTouchscreentouch2radiusx_mA163041B357CD77D5837184F1A7408AAB1FFDC2A(__this, L_347, L_348, NULL);
 		V_129 = L_349;
-		// var ctrlTouchscreentouch2radiusy = Initialize_ctrlTouchscreentouch2radiusy(kAxisLayout, ctrlTouchscreentouch2radius);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_350 = V_7;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_351 = V_113;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_352;
 		L_352 = FastTouchscreen_Initialize_ctrlTouchscreentouch2radiusy_m00ABF085C1310EA93FC74CACB609FF6535253298(__this, L_350, L_351, NULL);
 		V_130 = L_352;
-		// var ctrlTouchscreentouch2startPositionx = Initialize_ctrlTouchscreentouch2startPositionx(kAxisLayout, ctrlTouchscreentouch2startPosition);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_353 = V_7;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_354 = V_120;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_355;
 		L_355 = FastTouchscreen_Initialize_ctrlTouchscreentouch2startPositionx_m2F2A8489DD979AB94B2236F670B7F1FC60287D36(__this, L_353, L_354, NULL);
 		V_131 = L_355;
-		// var ctrlTouchscreentouch2startPositiony = Initialize_ctrlTouchscreentouch2startPositiony(kAxisLayout, ctrlTouchscreentouch2startPosition);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_356 = V_7;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_357 = V_120;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_358;
 		L_358 = FastTouchscreen_Initialize_ctrlTouchscreentouch2startPositiony_mF398AFCEE42DB143D73BF84B9FD745EA7032C68A(__this, L_356, L_357, NULL);
 		V_132 = L_358;
-		// var ctrlTouchscreentouch3touchId = Initialize_ctrlTouchscreentouch3touchId(kIntegerLayout, ctrlTouchscreentouch3);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_359 = V_6;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_360 = V_20;
 		IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB* L_361;
 		L_361 = FastTouchscreen_Initialize_ctrlTouchscreentouch3touchId_m7134D71ABCF9720CEFBF8C1995D5B5605413C1FD(__this, L_359, L_360, NULL);
 		V_133 = L_361;
-		// var ctrlTouchscreentouch3position = Initialize_ctrlTouchscreentouch3position(kVector2Layout, ctrlTouchscreentouch3);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_362 = V_2;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_363 = V_20;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_364;
 		L_364 = FastTouchscreen_Initialize_ctrlTouchscreentouch3position_mA4C81BAFA0F40130E196095DD3F10C4CB9C12D72(__this, L_362, L_363, NULL);
 		V_134 = L_364;
-		// var ctrlTouchscreentouch3delta = Initialize_ctrlTouchscreentouch3delta(kDeltaLayout, ctrlTouchscreentouch3);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_365 = V_3;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_366 = V_20;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_367;
 		L_367 = FastTouchscreen_Initialize_ctrlTouchscreentouch3delta_mA460DE8E6226D8213498C38E0378209DFF03C9CD(__this, L_365, L_366, NULL);
 		V_135 = L_367;
-		// var ctrlTouchscreentouch3pressure = Initialize_ctrlTouchscreentouch3pressure(kAxisLayout, ctrlTouchscreentouch3);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_368 = V_7;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_369 = V_20;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_370;
 		L_370 = FastTouchscreen_Initialize_ctrlTouchscreentouch3pressure_mBF3E5BD7E09CBAE622BCAD269C692737D6F2EDB7(__this, L_368, L_369, NULL);
 		V_136 = L_370;
-		// var ctrlTouchscreentouch3radius = Initialize_ctrlTouchscreentouch3radius(kVector2Layout, ctrlTouchscreentouch3);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_371 = V_2;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_372 = V_20;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_373;
 		L_373 = FastTouchscreen_Initialize_ctrlTouchscreentouch3radius_mC725320935C75F197E1F95DC3C7AD987233DFCEE(__this, L_371, L_372, NULL);
 		V_137 = L_373;
-		// var ctrlTouchscreentouch3phase = Initialize_ctrlTouchscreentouch3phase(kTouchPhaseLayout, ctrlTouchscreentouch3);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_374 = V_8;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_375 = V_20;
 		TouchPhaseControl_t4652C6E0EBFAFA85A31607769876B02C1C9FCAEC* L_376;
 		L_376 = FastTouchscreen_Initialize_ctrlTouchscreentouch3phase_mB78E0B0D5377FD03B9A474640F0514FD55FF98EA(__this, L_374, L_375, NULL);
 		V_138 = L_376;
-		// var ctrlTouchscreentouch3press = Initialize_ctrlTouchscreentouch3press(kTouchPressLayout, ctrlTouchscreentouch3);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_377 = V_5;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_378 = V_20;
 		TouchPressControl_tD5BD68D9FDEAC889591DD7A499864893A43C7CEB* L_379;
 		L_379 = FastTouchscreen_Initialize_ctrlTouchscreentouch3press_m6DE07FE81BB13CF35EBB61E3A600293E5275A5AE(__this, L_377, L_378, NULL);
 		V_139 = L_379;
-		// var ctrlTouchscreentouch3tapCount = Initialize_ctrlTouchscreentouch3tapCount(kIntegerLayout, ctrlTouchscreentouch3);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_380 = V_6;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_381 = V_20;
 		IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB* L_382;
 		L_382 = FastTouchscreen_Initialize_ctrlTouchscreentouch3tapCount_m3270A4138E28E54C345E7D9A458FCFA720CEB5DC(__this, L_380, L_381, NULL);
 		V_140 = L_382;
-		// var ctrlTouchscreentouch3indirectTouch = Initialize_ctrlTouchscreentouch3indirectTouch(kButtonLayout, ctrlTouchscreentouch3);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_383 = V_9;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_384 = V_20;
 		ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* L_385;
 		L_385 = FastTouchscreen_Initialize_ctrlTouchscreentouch3indirectTouch_m836B7562C03B3CDD77B7729BA501B87F2070227A(__this, L_383, L_384, NULL);
 		V_141 = L_385;
-		// var ctrlTouchscreentouch3tap = Initialize_ctrlTouchscreentouch3tap(kButtonLayout, ctrlTouchscreentouch3);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_386 = V_9;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_387 = V_20;
 		ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* L_388;
 		L_388 = FastTouchscreen_Initialize_ctrlTouchscreentouch3tap_m766B427F3C48E93F929EDC1E8A041C1A8EBB1408(__this, L_386, L_387, NULL);
 		V_142 = L_388;
-		// var ctrlTouchscreentouch3startTime = Initialize_ctrlTouchscreentouch3startTime(kDoubleLayout, ctrlTouchscreentouch3);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_389 = V_10;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_390 = V_20;
 		DoubleControl_t3707A6260424A2F3636669A2BAFF5CB5E91D2486* L_391;
 		L_391 = FastTouchscreen_Initialize_ctrlTouchscreentouch3startTime_m7465B24D5C4E71BA55BF076BB4CCE107DEBCC67E(__this, L_389, L_390, NULL);
 		V_143 = L_391;
-		// var ctrlTouchscreentouch3startPosition = Initialize_ctrlTouchscreentouch3startPosition(kVector2Layout, ctrlTouchscreentouch3);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_392 = V_2;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_393 = V_20;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_394;
 		L_394 = FastTouchscreen_Initialize_ctrlTouchscreentouch3startPosition_mFD1E5371158AE4BDD6DAA8E3A35214C1BB7D9718(__this, L_392, L_393, NULL);
 		V_144 = L_394;
-		// var ctrlTouchscreentouch3positionx = Initialize_ctrlTouchscreentouch3positionx(kAxisLayout, ctrlTouchscreentouch3position);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_395 = V_7;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_396 = V_134;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_397;
 		L_397 = FastTouchscreen_Initialize_ctrlTouchscreentouch3positionx_m01B910FD17C4B31B6AC5FFC3A0F877BFA392C1C3(__this, L_395, L_396, NULL);
 		V_145 = L_397;
-		// var ctrlTouchscreentouch3positiony = Initialize_ctrlTouchscreentouch3positiony(kAxisLayout, ctrlTouchscreentouch3position);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_398 = V_7;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_399 = V_134;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_400;
 		L_400 = FastTouchscreen_Initialize_ctrlTouchscreentouch3positiony_m4EB1463AEDE1685D8E48D96A551EC01150478280(__this, L_398, L_399, NULL);
 		V_146 = L_400;
-		// var ctrlTouchscreentouch3deltaup = Initialize_ctrlTouchscreentouch3deltaup(kAxisLayout, ctrlTouchscreentouch3delta);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_401 = V_7;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_402 = V_135;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_403;
 		L_403 = FastTouchscreen_Initialize_ctrlTouchscreentouch3deltaup_m7B7E6B254FE9993FFCDC05F9DE07090CDB0F50A0(__this, L_401, L_402, NULL);
 		V_147 = L_403;
-		// var ctrlTouchscreentouch3deltadown = Initialize_ctrlTouchscreentouch3deltadown(kAxisLayout, ctrlTouchscreentouch3delta);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_404 = V_7;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_405 = V_135;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_406;
 		L_406 = FastTouchscreen_Initialize_ctrlTouchscreentouch3deltadown_m7B9DDE4CB078B120BA82899C209DA2A0B5636147(__this, L_404, L_405, NULL);
 		V_148 = L_406;
-		// var ctrlTouchscreentouch3deltaleft = Initialize_ctrlTouchscreentouch3deltaleft(kAxisLayout, ctrlTouchscreentouch3delta);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_407 = V_7;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_408 = V_135;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_409;
 		L_409 = FastTouchscreen_Initialize_ctrlTouchscreentouch3deltaleft_m78EC248B9CEC856C741587E57B890EE51FC61ED4(__this, L_407, L_408, NULL);
 		V_149 = L_409;
-		// var ctrlTouchscreentouch3deltaright = Initialize_ctrlTouchscreentouch3deltaright(kAxisLayout, ctrlTouchscreentouch3delta);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_410 = V_7;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_411 = V_135;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_412;
 		L_412 = FastTouchscreen_Initialize_ctrlTouchscreentouch3deltaright_m298FC3BE6FEEECB6F8879E3D70A5FF56397F826A(__this, L_410, L_411, NULL);
 		V_150 = L_412;
-		// var ctrlTouchscreentouch3deltax = Initialize_ctrlTouchscreentouch3deltax(kAxisLayout, ctrlTouchscreentouch3delta);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_413 = V_7;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_414 = V_135;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_415;
 		L_415 = FastTouchscreen_Initialize_ctrlTouchscreentouch3deltax_m4DA3349CF7223ED7FDA1B480836249A7B33FD7B3(__this, L_413, L_414, NULL);
 		V_151 = L_415;
-		// var ctrlTouchscreentouch3deltay = Initialize_ctrlTouchscreentouch3deltay(kAxisLayout, ctrlTouchscreentouch3delta);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_416 = V_7;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_417 = V_135;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_418;
 		L_418 = FastTouchscreen_Initialize_ctrlTouchscreentouch3deltay_m67B37AD9FA7A2138B1071900F199773602890209(__this, L_416, L_417, NULL);
 		V_152 = L_418;
-		// var ctrlTouchscreentouch3radiusx = Initialize_ctrlTouchscreentouch3radiusx(kAxisLayout, ctrlTouchscreentouch3radius);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_419 = V_7;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_420 = V_137;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_421;
 		L_421 = FastTouchscreen_Initialize_ctrlTouchscreentouch3radiusx_mA60E47060ED3F77C27123571166BF75D10B47BCB(__this, L_419, L_420, NULL);
 		V_153 = L_421;
-		// var ctrlTouchscreentouch3radiusy = Initialize_ctrlTouchscreentouch3radiusy(kAxisLayout, ctrlTouchscreentouch3radius);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_422 = V_7;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_423 = V_137;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_424;
 		L_424 = FastTouchscreen_Initialize_ctrlTouchscreentouch3radiusy_m506B054D9FE78A4A1BA5E74B559AE7C7EEBDADC1(__this, L_422, L_423, NULL);
 		V_154 = L_424;
-		// var ctrlTouchscreentouch3startPositionx = Initialize_ctrlTouchscreentouch3startPositionx(kAxisLayout, ctrlTouchscreentouch3startPosition);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_425 = V_7;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_426 = V_144;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_427;
 		L_427 = FastTouchscreen_Initialize_ctrlTouchscreentouch3startPositionx_mA504E0350CDFFC2449604C95BF43BC2D5ACB9C83(__this, L_425, L_426, NULL);
 		V_155 = L_427;
-		// var ctrlTouchscreentouch3startPositiony = Initialize_ctrlTouchscreentouch3startPositiony(kAxisLayout, ctrlTouchscreentouch3startPosition);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_428 = V_7;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_429 = V_144;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_430;
 		L_430 = FastTouchscreen_Initialize_ctrlTouchscreentouch3startPositiony_mBBC3D8C06188233D5D80A15ECA68CF56C17B9668(__this, L_428, L_429, NULL);
 		V_156 = L_430;
-		// var ctrlTouchscreentouch4touchId = Initialize_ctrlTouchscreentouch4touchId(kIntegerLayout, ctrlTouchscreentouch4);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_431 = V_6;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_432 = V_21;
 		IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB* L_433;
 		L_433 = FastTouchscreen_Initialize_ctrlTouchscreentouch4touchId_mF5FC363C45A7511AC5D428CD40831FFBF552A25B(__this, L_431, L_432, NULL);
 		V_157 = L_433;
-		// var ctrlTouchscreentouch4position = Initialize_ctrlTouchscreentouch4position(kVector2Layout, ctrlTouchscreentouch4);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_434 = V_2;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_435 = V_21;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_436;
 		L_436 = FastTouchscreen_Initialize_ctrlTouchscreentouch4position_m677803443909AAAC47470086CCDB45F740309260(__this, L_434, L_435, NULL);
 		V_158 = L_436;
-		// var ctrlTouchscreentouch4delta = Initialize_ctrlTouchscreentouch4delta(kDeltaLayout, ctrlTouchscreentouch4);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_437 = V_3;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_438 = V_21;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_439;
 		L_439 = FastTouchscreen_Initialize_ctrlTouchscreentouch4delta_mC9694263D21C55E8785F7AB19CE1B3C00715A9DD(__this, L_437, L_438, NULL);
 		V_159 = L_439;
-		// var ctrlTouchscreentouch4pressure = Initialize_ctrlTouchscreentouch4pressure(kAxisLayout, ctrlTouchscreentouch4);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_440 = V_7;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_441 = V_21;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_442;
 		L_442 = FastTouchscreen_Initialize_ctrlTouchscreentouch4pressure_m192D91FA04856D1123B30FBEA3A141E152E3E73A(__this, L_440, L_441, NULL);
 		V_160 = L_442;
-		// var ctrlTouchscreentouch4radius = Initialize_ctrlTouchscreentouch4radius(kVector2Layout, ctrlTouchscreentouch4);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_443 = V_2;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_444 = V_21;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_445;
 		L_445 = FastTouchscreen_Initialize_ctrlTouchscreentouch4radius_m25B00C5FC34177CB004231C9A584ADAB669F9C4B(__this, L_443, L_444, NULL);
 		V_161 = L_445;
-		// var ctrlTouchscreentouch4phase = Initialize_ctrlTouchscreentouch4phase(kTouchPhaseLayout, ctrlTouchscreentouch4);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_446 = V_8;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_447 = V_21;
 		TouchPhaseControl_t4652C6E0EBFAFA85A31607769876B02C1C9FCAEC* L_448;
 		L_448 = FastTouchscreen_Initialize_ctrlTouchscreentouch4phase_m4D2219CA4F63636528A5FBE54901DD064418CAF7(__this, L_446, L_447, NULL);
 		V_162 = L_448;
-		// var ctrlTouchscreentouch4press = Initialize_ctrlTouchscreentouch4press(kTouchPressLayout, ctrlTouchscreentouch4);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_449 = V_5;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_450 = V_21;
 		TouchPressControl_tD5BD68D9FDEAC889591DD7A499864893A43C7CEB* L_451;
 		L_451 = FastTouchscreen_Initialize_ctrlTouchscreentouch4press_m43E99857FE602F3E8807D96AA2FFC832D378AFD4(__this, L_449, L_450, NULL);
 		V_163 = L_451;
-		// var ctrlTouchscreentouch4tapCount = Initialize_ctrlTouchscreentouch4tapCount(kIntegerLayout, ctrlTouchscreentouch4);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_452 = V_6;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_453 = V_21;
 		IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB* L_454;
 		L_454 = FastTouchscreen_Initialize_ctrlTouchscreentouch4tapCount_m9D3372E57CC8E94D9249F9F47A73EC850E50EA69(__this, L_452, L_453, NULL);
 		V_164 = L_454;
-		// var ctrlTouchscreentouch4indirectTouch = Initialize_ctrlTouchscreentouch4indirectTouch(kButtonLayout, ctrlTouchscreentouch4);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_455 = V_9;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_456 = V_21;
 		ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* L_457;
 		L_457 = FastTouchscreen_Initialize_ctrlTouchscreentouch4indirectTouch_m075EA18FC48533DC79217AB9C129AD59285D9E7A(__this, L_455, L_456, NULL);
 		V_165 = L_457;
-		// var ctrlTouchscreentouch4tap = Initialize_ctrlTouchscreentouch4tap(kButtonLayout, ctrlTouchscreentouch4);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_458 = V_9;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_459 = V_21;
 		ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* L_460;
 		L_460 = FastTouchscreen_Initialize_ctrlTouchscreentouch4tap_m95D3829507B7823B72032923790EF6661E85D612(__this, L_458, L_459, NULL);
 		V_166 = L_460;
-		// var ctrlTouchscreentouch4startTime = Initialize_ctrlTouchscreentouch4startTime(kDoubleLayout, ctrlTouchscreentouch4);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_461 = V_10;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_462 = V_21;
 		DoubleControl_t3707A6260424A2F3636669A2BAFF5CB5E91D2486* L_463;
 		L_463 = FastTouchscreen_Initialize_ctrlTouchscreentouch4startTime_mAE0FA99223617BCE78F7ABB7FEFDE508643419FD(__this, L_461, L_462, NULL);
 		V_167 = L_463;
-		// var ctrlTouchscreentouch4startPosition = Initialize_ctrlTouchscreentouch4startPosition(kVector2Layout, ctrlTouchscreentouch4);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_464 = V_2;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_465 = V_21;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_466;
 		L_466 = FastTouchscreen_Initialize_ctrlTouchscreentouch4startPosition_mB7401DE48CBD6C7965386AD83D541F9518228FF1(__this, L_464, L_465, NULL);
 		V_168 = L_466;
-		// var ctrlTouchscreentouch4positionx = Initialize_ctrlTouchscreentouch4positionx(kAxisLayout, ctrlTouchscreentouch4position);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_467 = V_7;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_468 = V_158;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_469;
 		L_469 = FastTouchscreen_Initialize_ctrlTouchscreentouch4positionx_m46CFBAB31D4485133DFB0E7F619ABDAD06D7C813(__this, L_467, L_468, NULL);
 		V_169 = L_469;
-		// var ctrlTouchscreentouch4positiony = Initialize_ctrlTouchscreentouch4positiony(kAxisLayout, ctrlTouchscreentouch4position);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_470 = V_7;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_471 = V_158;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_472;
 		L_472 = FastTouchscreen_Initialize_ctrlTouchscreentouch4positiony_m4E975D477EC0C03B8E764FE9919BD3796C87CF2A(__this, L_470, L_471, NULL);
 		V_170 = L_472;
-		// var ctrlTouchscreentouch4deltaup = Initialize_ctrlTouchscreentouch4deltaup(kAxisLayout, ctrlTouchscreentouch4delta);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_473 = V_7;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_474 = V_159;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_475;
 		L_475 = FastTouchscreen_Initialize_ctrlTouchscreentouch4deltaup_m1F4D66F6C2C152784FC66C2818578959BD25CA0A(__this, L_473, L_474, NULL);
 		V_171 = L_475;
-		// var ctrlTouchscreentouch4deltadown = Initialize_ctrlTouchscreentouch4deltadown(kAxisLayout, ctrlTouchscreentouch4delta);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_476 = V_7;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_477 = V_159;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_478;
 		L_478 = FastTouchscreen_Initialize_ctrlTouchscreentouch4deltadown_mAFEF8390F52BF2331F3B098FCFC261AF2221E9B9(__this, L_476, L_477, NULL);
 		V_172 = L_478;
-		// var ctrlTouchscreentouch4deltaleft = Initialize_ctrlTouchscreentouch4deltaleft(kAxisLayout, ctrlTouchscreentouch4delta);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_479 = V_7;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_480 = V_159;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_481;
 		L_481 = FastTouchscreen_Initialize_ctrlTouchscreentouch4deltaleft_mF873A1E2D881489ECF1C4383D684611E2D9B218A(__this, L_479, L_480, NULL);
 		V_173 = L_481;
-		// var ctrlTouchscreentouch4deltaright = Initialize_ctrlTouchscreentouch4deltaright(kAxisLayout, ctrlTouchscreentouch4delta);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_482 = V_7;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_483 = V_159;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_484;
 		L_484 = FastTouchscreen_Initialize_ctrlTouchscreentouch4deltaright_m171B683193D607C7B0D6D0C6DE768DB6D223F1D5(__this, L_482, L_483, NULL);
 		V_174 = L_484;
-		// var ctrlTouchscreentouch4deltax = Initialize_ctrlTouchscreentouch4deltax(kAxisLayout, ctrlTouchscreentouch4delta);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_485 = V_7;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_486 = V_159;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_487;
 		L_487 = FastTouchscreen_Initialize_ctrlTouchscreentouch4deltax_m56DCF154044720F9C9D6C346AFB67B99D6DAD62D(__this, L_485, L_486, NULL);
 		V_175 = L_487;
-		// var ctrlTouchscreentouch4deltay = Initialize_ctrlTouchscreentouch4deltay(kAxisLayout, ctrlTouchscreentouch4delta);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_488 = V_7;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_489 = V_159;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_490;
 		L_490 = FastTouchscreen_Initialize_ctrlTouchscreentouch4deltay_mD277E25E46142053427079EF141136C05A7F430C(__this, L_488, L_489, NULL);
 		V_176 = L_490;
-		// var ctrlTouchscreentouch4radiusx = Initialize_ctrlTouchscreentouch4radiusx(kAxisLayout, ctrlTouchscreentouch4radius);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_491 = V_7;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_492 = V_161;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_493;
 		L_493 = FastTouchscreen_Initialize_ctrlTouchscreentouch4radiusx_mE2FBB00BE3725B2FE5F1B1E066F799F98EFC7B30(__this, L_491, L_492, NULL);
 		V_177 = L_493;
-		// var ctrlTouchscreentouch4radiusy = Initialize_ctrlTouchscreentouch4radiusy(kAxisLayout, ctrlTouchscreentouch4radius);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_494 = V_7;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_495 = V_161;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_496;
 		L_496 = FastTouchscreen_Initialize_ctrlTouchscreentouch4radiusy_mA8E27B1AC4BE463E8B8155F867C6CA8EA98A2597(__this, L_494, L_495, NULL);
 		V_178 = L_496;
-		// var ctrlTouchscreentouch4startPositionx = Initialize_ctrlTouchscreentouch4startPositionx(kAxisLayout, ctrlTouchscreentouch4startPosition);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_497 = V_7;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_498 = V_168;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_499;
 		L_499 = FastTouchscreen_Initialize_ctrlTouchscreentouch4startPositionx_m88C1205F7C6A30A0698095EACC7E18FB1EF2A3A8(__this, L_497, L_498, NULL);
 		V_179 = L_499;
-		// var ctrlTouchscreentouch4startPositiony = Initialize_ctrlTouchscreentouch4startPositiony(kAxisLayout, ctrlTouchscreentouch4startPosition);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_500 = V_7;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_501 = V_168;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_502;
 		L_502 = FastTouchscreen_Initialize_ctrlTouchscreentouch4startPositiony_mD5C339D55F92C028F71AB965D5DB2B3BE4D1AA15(__this, L_500, L_501, NULL);
 		V_180 = L_502;
-		// var ctrlTouchscreentouch5touchId = Initialize_ctrlTouchscreentouch5touchId(kIntegerLayout, ctrlTouchscreentouch5);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_503 = V_6;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_504 = V_22;
 		IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB* L_505;
 		L_505 = FastTouchscreen_Initialize_ctrlTouchscreentouch5touchId_mB510834666C998EBC26B034D44F1046F75E8215D(__this, L_503, L_504, NULL);
 		V_181 = L_505;
-		// var ctrlTouchscreentouch5position = Initialize_ctrlTouchscreentouch5position(kVector2Layout, ctrlTouchscreentouch5);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_506 = V_2;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_507 = V_22;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_508;
 		L_508 = FastTouchscreen_Initialize_ctrlTouchscreentouch5position_mD009435312D20CCC8762358BB57573BF80C5C1F0(__this, L_506, L_507, NULL);
 		V_182 = L_508;
-		// var ctrlTouchscreentouch5delta = Initialize_ctrlTouchscreentouch5delta(kDeltaLayout, ctrlTouchscreentouch5);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_509 = V_3;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_510 = V_22;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_511;
 		L_511 = FastTouchscreen_Initialize_ctrlTouchscreentouch5delta_m6735B698583222D3C6E0E24A40F446442C323475(__this, L_509, L_510, NULL);
 		V_183 = L_511;
-		// var ctrlTouchscreentouch5pressure = Initialize_ctrlTouchscreentouch5pressure(kAxisLayout, ctrlTouchscreentouch5);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_512 = V_7;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_513 = V_22;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_514;
 		L_514 = FastTouchscreen_Initialize_ctrlTouchscreentouch5pressure_m8790F9476C483E27C887E4B291232223F7DA54D5(__this, L_512, L_513, NULL);
 		V_184 = L_514;
-		// var ctrlTouchscreentouch5radius = Initialize_ctrlTouchscreentouch5radius(kVector2Layout, ctrlTouchscreentouch5);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_515 = V_2;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_516 = V_22;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_517;
 		L_517 = FastTouchscreen_Initialize_ctrlTouchscreentouch5radius_m9C27DF7D6FFA4C360E8660DEC1D40B5BEF6ADBD9(__this, L_515, L_516, NULL);
 		V_185 = L_517;
-		// var ctrlTouchscreentouch5phase = Initialize_ctrlTouchscreentouch5phase(kTouchPhaseLayout, ctrlTouchscreentouch5);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_518 = V_8;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_519 = V_22;
 		TouchPhaseControl_t4652C6E0EBFAFA85A31607769876B02C1C9FCAEC* L_520;
 		L_520 = FastTouchscreen_Initialize_ctrlTouchscreentouch5phase_m1A120B21A3813F37BB99F34EA1F75F02EB1EBDF6(__this, L_518, L_519, NULL);
 		V_186 = L_520;
-		// var ctrlTouchscreentouch5press = Initialize_ctrlTouchscreentouch5press(kTouchPressLayout, ctrlTouchscreentouch5);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_521 = V_5;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_522 = V_22;
 		TouchPressControl_tD5BD68D9FDEAC889591DD7A499864893A43C7CEB* L_523;
 		L_523 = FastTouchscreen_Initialize_ctrlTouchscreentouch5press_mB09EEA41ED163F760682CF752918D24EA6E24C89(__this, L_521, L_522, NULL);
 		V_187 = L_523;
-		// var ctrlTouchscreentouch5tapCount = Initialize_ctrlTouchscreentouch5tapCount(kIntegerLayout, ctrlTouchscreentouch5);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_524 = V_6;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_525 = V_22;
 		IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB* L_526;
 		L_526 = FastTouchscreen_Initialize_ctrlTouchscreentouch5tapCount_mE27D95147A42D6C167B7D4BB7D2B6C3395EF566C(__this, L_524, L_525, NULL);
 		V_188 = L_526;
-		// var ctrlTouchscreentouch5indirectTouch = Initialize_ctrlTouchscreentouch5indirectTouch(kButtonLayout, ctrlTouchscreentouch5);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_527 = V_9;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_528 = V_22;
 		ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* L_529;
 		L_529 = FastTouchscreen_Initialize_ctrlTouchscreentouch5indirectTouch_mCAD19218F57A42A04C011ABA6CFE6EE3DEEE9F93(__this, L_527, L_528, NULL);
 		V_189 = L_529;
-		// var ctrlTouchscreentouch5tap = Initialize_ctrlTouchscreentouch5tap(kButtonLayout, ctrlTouchscreentouch5);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_530 = V_9;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_531 = V_22;
 		ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* L_532;
 		L_532 = FastTouchscreen_Initialize_ctrlTouchscreentouch5tap_m7C878361577933023B61CABA9D44B97A2A463F56(__this, L_530, L_531, NULL);
 		V_190 = L_532;
-		// var ctrlTouchscreentouch5startTime = Initialize_ctrlTouchscreentouch5startTime(kDoubleLayout, ctrlTouchscreentouch5);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_533 = V_10;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_534 = V_22;
 		DoubleControl_t3707A6260424A2F3636669A2BAFF5CB5E91D2486* L_535;
 		L_535 = FastTouchscreen_Initialize_ctrlTouchscreentouch5startTime_m0A26DAC8529C6C061E010D712AC66560DB5951A7(__this, L_533, L_534, NULL);
 		V_191 = L_535;
-		// var ctrlTouchscreentouch5startPosition = Initialize_ctrlTouchscreentouch5startPosition(kVector2Layout, ctrlTouchscreentouch5);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_536 = V_2;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_537 = V_22;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_538;
 		L_538 = FastTouchscreen_Initialize_ctrlTouchscreentouch5startPosition_mBC7C61B11EDA1EA1939FC99E875E2D96271980E8(__this, L_536, L_537, NULL);
 		V_192 = L_538;
-		// var ctrlTouchscreentouch5positionx = Initialize_ctrlTouchscreentouch5positionx(kAxisLayout, ctrlTouchscreentouch5position);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_539 = V_7;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_540 = V_182;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_541;
 		L_541 = FastTouchscreen_Initialize_ctrlTouchscreentouch5positionx_m0BDCADBFE3673C1FDF051B8D35B0F6ED61E1C80D(__this, L_539, L_540, NULL);
 		V_193 = L_541;
-		// var ctrlTouchscreentouch5positiony = Initialize_ctrlTouchscreentouch5positiony(kAxisLayout, ctrlTouchscreentouch5position);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_542 = V_7;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_543 = V_182;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_544;
 		L_544 = FastTouchscreen_Initialize_ctrlTouchscreentouch5positiony_mE5A0B07CBEF6831E8D5EFD1A745B3B4F382ADA66(__this, L_542, L_543, NULL);
 		V_194 = L_544;
-		// var ctrlTouchscreentouch5deltaup = Initialize_ctrlTouchscreentouch5deltaup(kAxisLayout, ctrlTouchscreentouch5delta);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_545 = V_7;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_546 = V_183;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_547;
 		L_547 = FastTouchscreen_Initialize_ctrlTouchscreentouch5deltaup_m7F8FEBD052589481037C24450A6F8C69EFE488D3(__this, L_545, L_546, NULL);
 		V_195 = L_547;
-		// var ctrlTouchscreentouch5deltadown = Initialize_ctrlTouchscreentouch5deltadown(kAxisLayout, ctrlTouchscreentouch5delta);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_548 = V_7;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_549 = V_183;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_550;
 		L_550 = FastTouchscreen_Initialize_ctrlTouchscreentouch5deltadown_mFEA0FD9D24B55DB3671BFFE32D3B303296D9FBB2(__this, L_548, L_549, NULL);
 		V_196 = L_550;
-		// var ctrlTouchscreentouch5deltaleft = Initialize_ctrlTouchscreentouch5deltaleft(kAxisLayout, ctrlTouchscreentouch5delta);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_551 = V_7;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_552 = V_183;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_553;
 		L_553 = FastTouchscreen_Initialize_ctrlTouchscreentouch5deltaleft_m8B465F99991FCCF3B60B54E7465BDC38D4CD29FC(__this, L_551, L_552, NULL);
 		V_197 = L_553;
-		// var ctrlTouchscreentouch5deltaright = Initialize_ctrlTouchscreentouch5deltaright(kAxisLayout, ctrlTouchscreentouch5delta);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_554 = V_7;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_555 = V_183;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_556;
 		L_556 = FastTouchscreen_Initialize_ctrlTouchscreentouch5deltaright_mAA2A3A860F5ABB33C9E75042D0349159B648CCB9(__this, L_554, L_555, NULL);
 		V_198 = L_556;
-		// var ctrlTouchscreentouch5deltax = Initialize_ctrlTouchscreentouch5deltax(kAxisLayout, ctrlTouchscreentouch5delta);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_557 = V_7;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_558 = V_183;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_559;
 		L_559 = FastTouchscreen_Initialize_ctrlTouchscreentouch5deltax_m76E0C629BBBAD178087BF5B1BF9276C93EC715EC(__this, L_557, L_558, NULL);
 		V_199 = L_559;
-		// var ctrlTouchscreentouch5deltay = Initialize_ctrlTouchscreentouch5deltay(kAxisLayout, ctrlTouchscreentouch5delta);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_560 = V_7;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_561 = V_183;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_562;
 		L_562 = FastTouchscreen_Initialize_ctrlTouchscreentouch5deltay_mE05617149EA6469A4E8F6C1D72D4E5497B2AC760(__this, L_560, L_561, NULL);
 		V_200 = L_562;
-		// var ctrlTouchscreentouch5radiusx = Initialize_ctrlTouchscreentouch5radiusx(kAxisLayout, ctrlTouchscreentouch5radius);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_563 = V_7;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_564 = V_185;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_565;
 		L_565 = FastTouchscreen_Initialize_ctrlTouchscreentouch5radiusx_m2EE1F3AB39EF489804F12E3D2D5C65E1E8F31943(__this, L_563, L_564, NULL);
 		V_201 = L_565;
-		// var ctrlTouchscreentouch5radiusy = Initialize_ctrlTouchscreentouch5radiusy(kAxisLayout, ctrlTouchscreentouch5radius);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_566 = V_7;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_567 = V_185;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_568;
 		L_568 = FastTouchscreen_Initialize_ctrlTouchscreentouch5radiusy_m9AD3DAD917637F9F28F2F4EB02BCFF56790FF225(__this, L_566, L_567, NULL);
 		V_202 = L_568;
-		// var ctrlTouchscreentouch5startPositionx = Initialize_ctrlTouchscreentouch5startPositionx(kAxisLayout, ctrlTouchscreentouch5startPosition);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_569 = V_7;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_570 = V_192;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_571;
 		L_571 = FastTouchscreen_Initialize_ctrlTouchscreentouch5startPositionx_mE38E6D46783FD67A7FC58CF987B957FD06C7DE7C(__this, L_569, L_570, NULL);
 		V_203 = L_571;
-		// var ctrlTouchscreentouch5startPositiony = Initialize_ctrlTouchscreentouch5startPositiony(kAxisLayout, ctrlTouchscreentouch5startPosition);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_572 = V_7;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_573 = V_192;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_574;
 		L_574 = FastTouchscreen_Initialize_ctrlTouchscreentouch5startPositiony_mBC3A9D36A3DAAB0FDDB8DEC5CAB53DB2E4FD72AE(__this, L_572, L_573, NULL);
 		V_204 = L_574;
-		// var ctrlTouchscreentouch6touchId = Initialize_ctrlTouchscreentouch6touchId(kIntegerLayout, ctrlTouchscreentouch6);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_575 = V_6;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_576 = V_23;
 		IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB* L_577;
 		L_577 = FastTouchscreen_Initialize_ctrlTouchscreentouch6touchId_m9EBF8E7A0BE18880C52BB86F289639D53F9CC31B(__this, L_575, L_576, NULL);
 		V_205 = L_577;
-		// var ctrlTouchscreentouch6position = Initialize_ctrlTouchscreentouch6position(kVector2Layout, ctrlTouchscreentouch6);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_578 = V_2;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_579 = V_23;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_580;
 		L_580 = FastTouchscreen_Initialize_ctrlTouchscreentouch6position_m0133A75BFD1F29326D02345BD623B7316B4319B0(__this, L_578, L_579, NULL);
 		V_206 = L_580;
-		// var ctrlTouchscreentouch6delta = Initialize_ctrlTouchscreentouch6delta(kDeltaLayout, ctrlTouchscreentouch6);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_581 = V_3;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_582 = V_23;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_583;
 		L_583 = FastTouchscreen_Initialize_ctrlTouchscreentouch6delta_m2E83A27108852F8DD2151A6B9F4028655B504CF3(__this, L_581, L_582, NULL);
 		V_207 = L_583;
-		// var ctrlTouchscreentouch6pressure = Initialize_ctrlTouchscreentouch6pressure(kAxisLayout, ctrlTouchscreentouch6);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_584 = V_7;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_585 = V_23;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_586;
 		L_586 = FastTouchscreen_Initialize_ctrlTouchscreentouch6pressure_m59A71A533C89BC14119FD399E00CF1837D35B81B(__this, L_584, L_585, NULL);
 		V_208 = L_586;
-		// var ctrlTouchscreentouch6radius = Initialize_ctrlTouchscreentouch6radius(kVector2Layout, ctrlTouchscreentouch6);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_587 = V_2;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_588 = V_23;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_589;
 		L_589 = FastTouchscreen_Initialize_ctrlTouchscreentouch6radius_m9CC1656EF253111D33EA76A952A9526C1E358DF3(__this, L_587, L_588, NULL);
 		V_209 = L_589;
-		// var ctrlTouchscreentouch6phase = Initialize_ctrlTouchscreentouch6phase(kTouchPhaseLayout, ctrlTouchscreentouch6);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_590 = V_8;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_591 = V_23;
 		TouchPhaseControl_t4652C6E0EBFAFA85A31607769876B02C1C9FCAEC* L_592;
 		L_592 = FastTouchscreen_Initialize_ctrlTouchscreentouch6phase_m1C4203C47AA855DC51129EFE1CF85DDC41D67A1C(__this, L_590, L_591, NULL);
 		V_210 = L_592;
-		// var ctrlTouchscreentouch6press = Initialize_ctrlTouchscreentouch6press(kTouchPressLayout, ctrlTouchscreentouch6);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_593 = V_5;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_594 = V_23;
 		TouchPressControl_tD5BD68D9FDEAC889591DD7A499864893A43C7CEB* L_595;
 		L_595 = FastTouchscreen_Initialize_ctrlTouchscreentouch6press_mC368145030BB8E8EEBFB2A1EDC1D19A96F54E207(__this, L_593, L_594, NULL);
 		V_211 = L_595;
-		// var ctrlTouchscreentouch6tapCount = Initialize_ctrlTouchscreentouch6tapCount(kIntegerLayout, ctrlTouchscreentouch6);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_596 = V_6;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_597 = V_23;
 		IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB* L_598;
 		L_598 = FastTouchscreen_Initialize_ctrlTouchscreentouch6tapCount_m89900E30CE01319AEE1AD7154FDA8F353995EC70(__this, L_596, L_597, NULL);
 		V_212 = L_598;
-		// var ctrlTouchscreentouch6indirectTouch = Initialize_ctrlTouchscreentouch6indirectTouch(kButtonLayout, ctrlTouchscreentouch6);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_599 = V_9;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_600 = V_23;
 		ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* L_601;
 		L_601 = FastTouchscreen_Initialize_ctrlTouchscreentouch6indirectTouch_m356CB83126FC1DCB3135E16D39890D53B485491F(__this, L_599, L_600, NULL);
 		V_213 = L_601;
-		// var ctrlTouchscreentouch6tap = Initialize_ctrlTouchscreentouch6tap(kButtonLayout, ctrlTouchscreentouch6);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_602 = V_9;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_603 = V_23;
 		ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* L_604;
 		L_604 = FastTouchscreen_Initialize_ctrlTouchscreentouch6tap_m6808E413F1F8154F140B59A45F4994D2F2C2BFF5(__this, L_602, L_603, NULL);
 		V_214 = L_604;
-		// var ctrlTouchscreentouch6startTime = Initialize_ctrlTouchscreentouch6startTime(kDoubleLayout, ctrlTouchscreentouch6);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_605 = V_10;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_606 = V_23;
 		DoubleControl_t3707A6260424A2F3636669A2BAFF5CB5E91D2486* L_607;
 		L_607 = FastTouchscreen_Initialize_ctrlTouchscreentouch6startTime_m5E54E8484B0F13A4B8E1EC8D33CD1711F93DBF54(__this, L_605, L_606, NULL);
 		V_215 = L_607;
-		// var ctrlTouchscreentouch6startPosition = Initialize_ctrlTouchscreentouch6startPosition(kVector2Layout, ctrlTouchscreentouch6);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_608 = V_2;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_609 = V_23;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_610;
 		L_610 = FastTouchscreen_Initialize_ctrlTouchscreentouch6startPosition_m58062861C46B4E850C2AC89037E7815488A9EC34(__this, L_608, L_609, NULL);
 		V_216 = L_610;
-		// var ctrlTouchscreentouch6positionx = Initialize_ctrlTouchscreentouch6positionx(kAxisLayout, ctrlTouchscreentouch6position);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_611 = V_7;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_612 = V_206;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_613;
 		L_613 = FastTouchscreen_Initialize_ctrlTouchscreentouch6positionx_mC5F4FE96E3CB297BBBD57CD0EED620510FDD1A71(__this, L_611, L_612, NULL);
 		V_217 = L_613;
-		// var ctrlTouchscreentouch6positiony = Initialize_ctrlTouchscreentouch6positiony(kAxisLayout, ctrlTouchscreentouch6position);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_614 = V_7;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_615 = V_206;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_616;
 		L_616 = FastTouchscreen_Initialize_ctrlTouchscreentouch6positiony_m8B05BC270CBC7F77CE950CB385183D588B2C09A9(__this, L_614, L_615, NULL);
 		V_218 = L_616;
-		// var ctrlTouchscreentouch6deltaup = Initialize_ctrlTouchscreentouch6deltaup(kAxisLayout, ctrlTouchscreentouch6delta);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_617 = V_7;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_618 = V_207;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_619;
 		L_619 = FastTouchscreen_Initialize_ctrlTouchscreentouch6deltaup_mE821EF32A3362B1F130256463BB07EC3C0CC3A88(__this, L_617, L_618, NULL);
 		V_219 = L_619;
-		// var ctrlTouchscreentouch6deltadown = Initialize_ctrlTouchscreentouch6deltadown(kAxisLayout, ctrlTouchscreentouch6delta);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_620 = V_7;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_621 = V_207;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_622;
 		L_622 = FastTouchscreen_Initialize_ctrlTouchscreentouch6deltadown_m849A47ABCB42A812D529B18D4178B18584725356(__this, L_620, L_621, NULL);
 		V_220 = L_622;
-		// var ctrlTouchscreentouch6deltaleft = Initialize_ctrlTouchscreentouch6deltaleft(kAxisLayout, ctrlTouchscreentouch6delta);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_623 = V_7;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_624 = V_207;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_625;
 		L_625 = FastTouchscreen_Initialize_ctrlTouchscreentouch6deltaleft_m7DFBBEA7559FCBD684D787CD7001DB144D6F58BB(__this, L_623, L_624, NULL);
 		V_221 = L_625;
-		// var ctrlTouchscreentouch6deltaright = Initialize_ctrlTouchscreentouch6deltaright(kAxisLayout, ctrlTouchscreentouch6delta);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_626 = V_7;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_627 = V_207;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_628;
 		L_628 = FastTouchscreen_Initialize_ctrlTouchscreentouch6deltaright_m444BC7F7090B0FAFB84009DF5A37DA70DB5A9BF1(__this, L_626, L_627, NULL);
 		V_222 = L_628;
-		// var ctrlTouchscreentouch6deltax = Initialize_ctrlTouchscreentouch6deltax(kAxisLayout, ctrlTouchscreentouch6delta);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_629 = V_7;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_630 = V_207;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_631;
 		L_631 = FastTouchscreen_Initialize_ctrlTouchscreentouch6deltax_m4AD51BDB67E2F0E7B529F8749DD2F6DCC1E34671(__this, L_629, L_630, NULL);
 		V_223 = L_631;
-		// var ctrlTouchscreentouch6deltay = Initialize_ctrlTouchscreentouch6deltay(kAxisLayout, ctrlTouchscreentouch6delta);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_632 = V_7;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_633 = V_207;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_634;
 		L_634 = FastTouchscreen_Initialize_ctrlTouchscreentouch6deltay_m5028688CDD049F844D37E7B94618BE5DBC13BC6E(__this, L_632, L_633, NULL);
 		V_224 = L_634;
-		// var ctrlTouchscreentouch6radiusx = Initialize_ctrlTouchscreentouch6radiusx(kAxisLayout, ctrlTouchscreentouch6radius);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_635 = V_7;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_636 = V_209;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_637;
 		L_637 = FastTouchscreen_Initialize_ctrlTouchscreentouch6radiusx_mCFF04FB7354E19AA0D0426F0583B3CEC9E617682(__this, L_635, L_636, NULL);
 		V_225 = L_637;
-		// var ctrlTouchscreentouch6radiusy = Initialize_ctrlTouchscreentouch6radiusy(kAxisLayout, ctrlTouchscreentouch6radius);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_638 = V_7;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_639 = V_209;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_640;
 		L_640 = FastTouchscreen_Initialize_ctrlTouchscreentouch6radiusy_mB8AA849B8CE23DC80CA3F70CAE2BFE81F0D60BF2(__this, L_638, L_639, NULL);
 		V_226 = L_640;
-		// var ctrlTouchscreentouch6startPositionx = Initialize_ctrlTouchscreentouch6startPositionx(kAxisLayout, ctrlTouchscreentouch6startPosition);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_641 = V_7;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_642 = V_216;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_643;
 		L_643 = FastTouchscreen_Initialize_ctrlTouchscreentouch6startPositionx_m1B2585D080FA261FD8586628BB6E37274BD3D8ED(__this, L_641, L_642, NULL);
 		V_227 = L_643;
-		// var ctrlTouchscreentouch6startPositiony = Initialize_ctrlTouchscreentouch6startPositiony(kAxisLayout, ctrlTouchscreentouch6startPosition);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_644 = V_7;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_645 = V_216;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_646;
 		L_646 = FastTouchscreen_Initialize_ctrlTouchscreentouch6startPositiony_mA30DC0B0106F02A70EF5154EE306DF113E3613AB(__this, L_644, L_645, NULL);
 		V_228 = L_646;
-		// var ctrlTouchscreentouch7touchId = Initialize_ctrlTouchscreentouch7touchId(kIntegerLayout, ctrlTouchscreentouch7);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_647 = V_6;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_648 = V_24;
 		IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB* L_649;
 		L_649 = FastTouchscreen_Initialize_ctrlTouchscreentouch7touchId_m41CF5E0C7E4D399B189B578950C36094719274F2(__this, L_647, L_648, NULL);
 		V_229 = L_649;
-		// var ctrlTouchscreentouch7position = Initialize_ctrlTouchscreentouch7position(kVector2Layout, ctrlTouchscreentouch7);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_650 = V_2;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_651 = V_24;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_652;
 		L_652 = FastTouchscreen_Initialize_ctrlTouchscreentouch7position_mB1E0990AF105705A6E8439BF27024BADE0A863EB(__this, L_650, L_651, NULL);
 		V_230 = L_652;
-		// var ctrlTouchscreentouch7delta = Initialize_ctrlTouchscreentouch7delta(kDeltaLayout, ctrlTouchscreentouch7);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_653 = V_3;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_654 = V_24;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_655;
 		L_655 = FastTouchscreen_Initialize_ctrlTouchscreentouch7delta_m3D36798B6DC947F697FFA520D23461AF5F58C7DB(__this, L_653, L_654, NULL);
 		V_231 = L_655;
-		// var ctrlTouchscreentouch7pressure = Initialize_ctrlTouchscreentouch7pressure(kAxisLayout, ctrlTouchscreentouch7);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_656 = V_7;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_657 = V_24;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_658;
 		L_658 = FastTouchscreen_Initialize_ctrlTouchscreentouch7pressure_m448E73AC1BC4047868ED682B4172FA03974B8624(__this, L_656, L_657, NULL);
 		V_232 = L_658;
-		// var ctrlTouchscreentouch7radius = Initialize_ctrlTouchscreentouch7radius(kVector2Layout, ctrlTouchscreentouch7);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_659 = V_2;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_660 = V_24;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_661;
 		L_661 = FastTouchscreen_Initialize_ctrlTouchscreentouch7radius_m97BAC9279C0E7048CD907B06B14F55CFE186C8A2(__this, L_659, L_660, NULL);
 		V_233 = L_661;
-		// var ctrlTouchscreentouch7phase = Initialize_ctrlTouchscreentouch7phase(kTouchPhaseLayout, ctrlTouchscreentouch7);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_662 = V_8;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_663 = V_24;
 		TouchPhaseControl_t4652C6E0EBFAFA85A31607769876B02C1C9FCAEC* L_664;
 		L_664 = FastTouchscreen_Initialize_ctrlTouchscreentouch7phase_m28856366F0ACC27293EB837F866B705D91CAF983(__this, L_662, L_663, NULL);
 		V_234 = L_664;
-		// var ctrlTouchscreentouch7press = Initialize_ctrlTouchscreentouch7press(kTouchPressLayout, ctrlTouchscreentouch7);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_665 = V_5;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_666 = V_24;
 		TouchPressControl_tD5BD68D9FDEAC889591DD7A499864893A43C7CEB* L_667;
 		L_667 = FastTouchscreen_Initialize_ctrlTouchscreentouch7press_m7BD38362EA7633D01DFD665D2A02DC5D298144CC(__this, L_665, L_666, NULL);
 		V_235 = L_667;
-		// var ctrlTouchscreentouch7tapCount = Initialize_ctrlTouchscreentouch7tapCount(kIntegerLayout, ctrlTouchscreentouch7);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_668 = V_6;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_669 = V_24;
 		IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB* L_670;
 		L_670 = FastTouchscreen_Initialize_ctrlTouchscreentouch7tapCount_mE78BAA817DC8544850BE1CF46FAB7DAF0B661FEA(__this, L_668, L_669, NULL);
 		V_236 = L_670;
-		// var ctrlTouchscreentouch7indirectTouch = Initialize_ctrlTouchscreentouch7indirectTouch(kButtonLayout, ctrlTouchscreentouch7);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_671 = V_9;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_672 = V_24;
 		ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* L_673;
 		L_673 = FastTouchscreen_Initialize_ctrlTouchscreentouch7indirectTouch_m4774393036C2790598E645D9050E8C0B246BBA7A(__this, L_671, L_672, NULL);
 		V_237 = L_673;
-		// var ctrlTouchscreentouch7tap = Initialize_ctrlTouchscreentouch7tap(kButtonLayout, ctrlTouchscreentouch7);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_674 = V_9;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_675 = V_24;
 		ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* L_676;
 		L_676 = FastTouchscreen_Initialize_ctrlTouchscreentouch7tap_mC1562E90F769503553F2FD631C4412BACF2740E0(__this, L_674, L_675, NULL);
 		V_238 = L_676;
-		// var ctrlTouchscreentouch7startTime = Initialize_ctrlTouchscreentouch7startTime(kDoubleLayout, ctrlTouchscreentouch7);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_677 = V_10;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_678 = V_24;
 		DoubleControl_t3707A6260424A2F3636669A2BAFF5CB5E91D2486* L_679;
 		L_679 = FastTouchscreen_Initialize_ctrlTouchscreentouch7startTime_m5F8AE504B2E847E4DF2FEE9BA48AD2027A2F4563(__this, L_677, L_678, NULL);
 		V_239 = L_679;
-		// var ctrlTouchscreentouch7startPosition = Initialize_ctrlTouchscreentouch7startPosition(kVector2Layout, ctrlTouchscreentouch7);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_680 = V_2;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_681 = V_24;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_682;
 		L_682 = FastTouchscreen_Initialize_ctrlTouchscreentouch7startPosition_m38D924E26CC5B4D579120F10FA1D22FE379EFE42(__this, L_680, L_681, NULL);
 		V_240 = L_682;
-		// var ctrlTouchscreentouch7positionx = Initialize_ctrlTouchscreentouch7positionx(kAxisLayout, ctrlTouchscreentouch7position);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_683 = V_7;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_684 = V_230;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_685;
 		L_685 = FastTouchscreen_Initialize_ctrlTouchscreentouch7positionx_mF1F9B14D6685FA7114F644D9211F19C28381AA3B(__this, L_683, L_684, NULL);
 		V_241 = L_685;
-		// var ctrlTouchscreentouch7positiony = Initialize_ctrlTouchscreentouch7positiony(kAxisLayout, ctrlTouchscreentouch7position);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_686 = V_7;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_687 = V_230;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_688;
 		L_688 = FastTouchscreen_Initialize_ctrlTouchscreentouch7positiony_m5147CD6547E12E9946AD89CEADDDD2EAC7FC29B2(__this, L_686, L_687, NULL);
 		V_242 = L_688;
-		// var ctrlTouchscreentouch7deltaup = Initialize_ctrlTouchscreentouch7deltaup(kAxisLayout, ctrlTouchscreentouch7delta);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_689 = V_7;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_690 = V_231;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_691;
 		L_691 = FastTouchscreen_Initialize_ctrlTouchscreentouch7deltaup_mE88E05DB6ADF65A955F667EC67E5804A85DAB170(__this, L_689, L_690, NULL);
 		V_243 = L_691;
-		// var ctrlTouchscreentouch7deltadown = Initialize_ctrlTouchscreentouch7deltadown(kAxisLayout, ctrlTouchscreentouch7delta);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_692 = V_7;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_693 = V_231;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_694;
 		L_694 = FastTouchscreen_Initialize_ctrlTouchscreentouch7deltadown_m9BF0367C2320323975A5BB99C46803E2F02A66DB(__this, L_692, L_693, NULL);
 		V_244 = L_694;
-		// var ctrlTouchscreentouch7deltaleft = Initialize_ctrlTouchscreentouch7deltaleft(kAxisLayout, ctrlTouchscreentouch7delta);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_695 = V_7;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_696 = V_231;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_697;
 		L_697 = FastTouchscreen_Initialize_ctrlTouchscreentouch7deltaleft_m41568AA15DE63E4BCCDB6748A49688D63F9E0FD6(__this, L_695, L_696, NULL);
 		V_245 = L_697;
-		// var ctrlTouchscreentouch7deltaright = Initialize_ctrlTouchscreentouch7deltaright(kAxisLayout, ctrlTouchscreentouch7delta);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_698 = V_7;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_699 = V_231;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_700;
 		L_700 = FastTouchscreen_Initialize_ctrlTouchscreentouch7deltaright_m2805C8750D448F50F9653D67C721903F417A5161(__this, L_698, L_699, NULL);
 		V_246 = L_700;
-		// var ctrlTouchscreentouch7deltax = Initialize_ctrlTouchscreentouch7deltax(kAxisLayout, ctrlTouchscreentouch7delta);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_701 = V_7;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_702 = V_231;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_703;
 		L_703 = FastTouchscreen_Initialize_ctrlTouchscreentouch7deltax_mA8A323FC2FE2951364C29F82FE8B42C9B3D8CB3D(__this, L_701, L_702, NULL);
 		V_247 = L_703;
-		// var ctrlTouchscreentouch7deltay = Initialize_ctrlTouchscreentouch7deltay(kAxisLayout, ctrlTouchscreentouch7delta);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_704 = V_7;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_705 = V_231;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_706;
 		L_706 = FastTouchscreen_Initialize_ctrlTouchscreentouch7deltay_m58CFA659D9DFB23519279C243C4220B71CEF57B5(__this, L_704, L_705, NULL);
 		V_248 = L_706;
-		// var ctrlTouchscreentouch7radiusx = Initialize_ctrlTouchscreentouch7radiusx(kAxisLayout, ctrlTouchscreentouch7radius);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_707 = V_7;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_708 = V_233;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_709;
 		L_709 = FastTouchscreen_Initialize_ctrlTouchscreentouch7radiusx_m6F0685D27736A8170415BC4B908DDDFDFF21880A(__this, L_707, L_708, NULL);
 		V_249 = L_709;
-		// var ctrlTouchscreentouch7radiusy = Initialize_ctrlTouchscreentouch7radiusy(kAxisLayout, ctrlTouchscreentouch7radius);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_710 = V_7;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_711 = V_233;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_712;
 		L_712 = FastTouchscreen_Initialize_ctrlTouchscreentouch7radiusy_m4FE3B55D83EBAABAD918F4CEFA50C170242810CE(__this, L_710, L_711, NULL);
 		V_250 = L_712;
-		// var ctrlTouchscreentouch7startPositionx = Initialize_ctrlTouchscreentouch7startPositionx(kAxisLayout, ctrlTouchscreentouch7startPosition);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_713 = V_7;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_714 = V_240;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_715;
 		L_715 = FastTouchscreen_Initialize_ctrlTouchscreentouch7startPositionx_m9E7CFB32AB1CD130A01E9A80DA824BA44E322EE8(__this, L_713, L_714, NULL);
 		V_251 = L_715;
-		// var ctrlTouchscreentouch7startPositiony = Initialize_ctrlTouchscreentouch7startPositiony(kAxisLayout, ctrlTouchscreentouch7startPosition);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_716 = V_7;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_717 = V_240;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_718;
 		L_718 = FastTouchscreen_Initialize_ctrlTouchscreentouch7startPositiony_m719E21797178E3DA649D3DFBC150407506F2643C(__this, L_716, L_717, NULL);
 		V_252 = L_718;
-		// var ctrlTouchscreentouch8touchId = Initialize_ctrlTouchscreentouch8touchId(kIntegerLayout, ctrlTouchscreentouch8);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_719 = V_6;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_720 = V_25;
 		IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB* L_721;
 		L_721 = FastTouchscreen_Initialize_ctrlTouchscreentouch8touchId_mAA9E0E7EE25FB1F7B4B9AC52D9CF0A590E3604EA(__this, L_719, L_720, NULL);
 		V_253 = L_721;
-		// var ctrlTouchscreentouch8position = Initialize_ctrlTouchscreentouch8position(kVector2Layout, ctrlTouchscreentouch8);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_722 = V_2;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_723 = V_25;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_724;
 		L_724 = FastTouchscreen_Initialize_ctrlTouchscreentouch8position_mB9E4932BD9692EC7D6E358ACC72D468A13F66B8E(__this, L_722, L_723, NULL);
 		V_254 = L_724;
-		// var ctrlTouchscreentouch8delta = Initialize_ctrlTouchscreentouch8delta(kDeltaLayout, ctrlTouchscreentouch8);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_725 = V_3;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_726 = V_25;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_727;
 		L_727 = FastTouchscreen_Initialize_ctrlTouchscreentouch8delta_mE288E6B47EC5C170BCFABB1C065EE02CAE94E5C5(__this, L_725, L_726, NULL);
 		V_255 = L_727;
-		// var ctrlTouchscreentouch8pressure = Initialize_ctrlTouchscreentouch8pressure(kAxisLayout, ctrlTouchscreentouch8);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_728 = V_7;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_729 = V_25;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_730;
 		L_730 = FastTouchscreen_Initialize_ctrlTouchscreentouch8pressure_m0ACA06810BB9B699AADE1560E0589A1BEBC5EA6F(__this, L_728, L_729, NULL);
 		V_256 = L_730;
-		// var ctrlTouchscreentouch8radius = Initialize_ctrlTouchscreentouch8radius(kVector2Layout, ctrlTouchscreentouch8);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_731 = V_2;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_732 = V_25;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_733;
 		L_733 = FastTouchscreen_Initialize_ctrlTouchscreentouch8radius_m1574780B5CE967E5DDE2B65B6477CF5A00521689(__this, L_731, L_732, NULL);
 		V_257 = L_733;
-		// var ctrlTouchscreentouch8phase = Initialize_ctrlTouchscreentouch8phase(kTouchPhaseLayout, ctrlTouchscreentouch8);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_734 = V_8;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_735 = V_25;
 		TouchPhaseControl_t4652C6E0EBFAFA85A31607769876B02C1C9FCAEC* L_736;
 		L_736 = FastTouchscreen_Initialize_ctrlTouchscreentouch8phase_m2825B8A91835529BF4095E009BE3B21663123C65(__this, L_734, L_735, NULL);
 		V_258 = L_736;
-		// var ctrlTouchscreentouch8press = Initialize_ctrlTouchscreentouch8press(kTouchPressLayout, ctrlTouchscreentouch8);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_737 = V_5;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_738 = V_25;
 		TouchPressControl_tD5BD68D9FDEAC889591DD7A499864893A43C7CEB* L_739;
 		L_739 = FastTouchscreen_Initialize_ctrlTouchscreentouch8press_mAC7190F2E7E1CBC9E67ED1E8F9E003AB6020A48E(__this, L_737, L_738, NULL);
 		V_259 = L_739;
-		// var ctrlTouchscreentouch8tapCount = Initialize_ctrlTouchscreentouch8tapCount(kIntegerLayout, ctrlTouchscreentouch8);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_740 = V_6;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_741 = V_25;
 		IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB* L_742;
 		L_742 = FastTouchscreen_Initialize_ctrlTouchscreentouch8tapCount_mD3F6FCEAFE1D05752686C41EF1419D95B8BDA4EB(__this, L_740, L_741, NULL);
 		V_260 = L_742;
-		// var ctrlTouchscreentouch8indirectTouch = Initialize_ctrlTouchscreentouch8indirectTouch(kButtonLayout, ctrlTouchscreentouch8);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_743 = V_9;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_744 = V_25;
 		ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* L_745;
 		L_745 = FastTouchscreen_Initialize_ctrlTouchscreentouch8indirectTouch_mCAB4ED30CA3204F2880E18B776A8832B0CEB03C2(__this, L_743, L_744, NULL);
 		V_261 = L_745;
-		// var ctrlTouchscreentouch8tap = Initialize_ctrlTouchscreentouch8tap(kButtonLayout, ctrlTouchscreentouch8);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_746 = V_9;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_747 = V_25;
 		ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* L_748;
 		L_748 = FastTouchscreen_Initialize_ctrlTouchscreentouch8tap_mE5BD4EFF2E035F8A9B0CA29D058FF999D01C4A86(__this, L_746, L_747, NULL);
 		V_262 = L_748;
-		// var ctrlTouchscreentouch8startTime = Initialize_ctrlTouchscreentouch8startTime(kDoubleLayout, ctrlTouchscreentouch8);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_749 = V_10;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_750 = V_25;
 		DoubleControl_t3707A6260424A2F3636669A2BAFF5CB5E91D2486* L_751;
 		L_751 = FastTouchscreen_Initialize_ctrlTouchscreentouch8startTime_mA9522C24FF0215F6CF989AB2E57847BDA46D027F(__this, L_749, L_750, NULL);
 		V_263 = L_751;
-		// var ctrlTouchscreentouch8startPosition = Initialize_ctrlTouchscreentouch8startPosition(kVector2Layout, ctrlTouchscreentouch8);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_752 = V_2;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_753 = V_25;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_754;
 		L_754 = FastTouchscreen_Initialize_ctrlTouchscreentouch8startPosition_mE77D46BC5150D7B7A01CE83940437950C3155486(__this, L_752, L_753, NULL);
 		V_264 = L_754;
-		// var ctrlTouchscreentouch8positionx = Initialize_ctrlTouchscreentouch8positionx(kAxisLayout, ctrlTouchscreentouch8position);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_755 = V_7;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_756 = V_254;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_757;
 		L_757 = FastTouchscreen_Initialize_ctrlTouchscreentouch8positionx_m8CAF28386BE878009B7B29FE3120F10C5879B9F1(__this, L_755, L_756, NULL);
 		V_265 = L_757;
-		// var ctrlTouchscreentouch8positiony = Initialize_ctrlTouchscreentouch8positiony(kAxisLayout, ctrlTouchscreentouch8position);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_758 = V_7;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_759 = V_254;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_760;
 		L_760 = FastTouchscreen_Initialize_ctrlTouchscreentouch8positiony_m9A7B0084A3D547AFA3B8DD2E82D3F27007CD4D1E(__this, L_758, L_759, NULL);
 		V_266 = L_760;
-		// var ctrlTouchscreentouch8deltaup = Initialize_ctrlTouchscreentouch8deltaup(kAxisLayout, ctrlTouchscreentouch8delta);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_761 = V_7;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_762 = V_255;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_763;
 		L_763 = FastTouchscreen_Initialize_ctrlTouchscreentouch8deltaup_m27892FAA3B12E053F26EF9FD9B47ACF453D50CD3(__this, L_761, L_762, NULL);
 		V_267 = L_763;
-		// var ctrlTouchscreentouch8deltadown = Initialize_ctrlTouchscreentouch8deltadown(kAxisLayout, ctrlTouchscreentouch8delta);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_764 = V_7;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_765 = V_255;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_766;
 		L_766 = FastTouchscreen_Initialize_ctrlTouchscreentouch8deltadown_m9BF561942ECEDE6F40156CC4EAB3EB72CDEFA9A5(__this, L_764, L_765, NULL);
 		V_268 = L_766;
-		// var ctrlTouchscreentouch8deltaleft = Initialize_ctrlTouchscreentouch8deltaleft(kAxisLayout, ctrlTouchscreentouch8delta);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_767 = V_7;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_768 = V_255;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_769;
 		L_769 = FastTouchscreen_Initialize_ctrlTouchscreentouch8deltaleft_m2D496F495A46EE6F3E543D278CA1C91530083582(__this, L_767, L_768, NULL);
 		V_269 = L_769;
-		// var ctrlTouchscreentouch8deltaright = Initialize_ctrlTouchscreentouch8deltaright(kAxisLayout, ctrlTouchscreentouch8delta);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_770 = V_7;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_771 = V_255;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_772;
 		L_772 = FastTouchscreen_Initialize_ctrlTouchscreentouch8deltaright_m17E5DDE701C0A3C6CBE8799A5E36DCC575E2F0DC(__this, L_770, L_771, NULL);
 		V_270 = L_772;
-		// var ctrlTouchscreentouch8deltax = Initialize_ctrlTouchscreentouch8deltax(kAxisLayout, ctrlTouchscreentouch8delta);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_773 = V_7;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_774 = V_255;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_775;
 		L_775 = FastTouchscreen_Initialize_ctrlTouchscreentouch8deltax_m63AF7D5991296D364197E84911BD7C284114121F(__this, L_773, L_774, NULL);
 		V_271 = L_775;
-		// var ctrlTouchscreentouch8deltay = Initialize_ctrlTouchscreentouch8deltay(kAxisLayout, ctrlTouchscreentouch8delta);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_776 = V_7;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_777 = V_255;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_778;
 		L_778 = FastTouchscreen_Initialize_ctrlTouchscreentouch8deltay_mDE41411720D08E42AFE3D74AF16C65FA8AF13B30(__this, L_776, L_777, NULL);
 		V_272 = L_778;
-		// var ctrlTouchscreentouch8radiusx = Initialize_ctrlTouchscreentouch8radiusx(kAxisLayout, ctrlTouchscreentouch8radius);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_779 = V_7;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_780 = V_257;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_781;
 		L_781 = FastTouchscreen_Initialize_ctrlTouchscreentouch8radiusx_m3EAB286E8ACA5A9A7C9C54E64B38D479F3DEC594(__this, L_779, L_780, NULL);
 		V_273 = L_781;
-		// var ctrlTouchscreentouch8radiusy = Initialize_ctrlTouchscreentouch8radiusy(kAxisLayout, ctrlTouchscreentouch8radius);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_782 = V_7;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_783 = V_257;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_784;
 		L_784 = FastTouchscreen_Initialize_ctrlTouchscreentouch8radiusy_mB215E6F03A8D9ECC19310D87ECF862656A353304(__this, L_782, L_783, NULL);
 		V_274 = L_784;
-		// var ctrlTouchscreentouch8startPositionx = Initialize_ctrlTouchscreentouch8startPositionx(kAxisLayout, ctrlTouchscreentouch8startPosition);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_785 = V_7;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_786 = V_264;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_787;
 		L_787 = FastTouchscreen_Initialize_ctrlTouchscreentouch8startPositionx_m32D7716BEC885FA3AFBFC853CD523D3363FD01D9(__this, L_785, L_786, NULL);
 		V_275 = L_787;
-		// var ctrlTouchscreentouch8startPositiony = Initialize_ctrlTouchscreentouch8startPositiony(kAxisLayout, ctrlTouchscreentouch8startPosition);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_788 = V_7;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_789 = V_264;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_790;
 		L_790 = FastTouchscreen_Initialize_ctrlTouchscreentouch8startPositiony_mC956A8ED49C3535B52BE489C3E62CB09BCD143F3(__this, L_788, L_789, NULL);
 		V_276 = L_790;
-		// var ctrlTouchscreentouch9touchId = Initialize_ctrlTouchscreentouch9touchId(kIntegerLayout, ctrlTouchscreentouch9);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_791 = V_6;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_792 = V_26;
 		IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB* L_793;
 		L_793 = FastTouchscreen_Initialize_ctrlTouchscreentouch9touchId_mE3E22A52A4F3D00EEDBEF633A25986B963037D47(__this, L_791, L_792, NULL);
 		V_277 = L_793;
-		// var ctrlTouchscreentouch9position = Initialize_ctrlTouchscreentouch9position(kVector2Layout, ctrlTouchscreentouch9);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_794 = V_2;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_795 = V_26;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_796;
 		L_796 = FastTouchscreen_Initialize_ctrlTouchscreentouch9position_m0C0961D49B9F81AA178A3615B8BA1660F7CC6476(__this, L_794, L_795, NULL);
 		V_278 = L_796;
-		// var ctrlTouchscreentouch9delta = Initialize_ctrlTouchscreentouch9delta(kDeltaLayout, ctrlTouchscreentouch9);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_797 = V_3;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_798 = V_26;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_799;
 		L_799 = FastTouchscreen_Initialize_ctrlTouchscreentouch9delta_m27E63D8A4F2C09C4EDDFFCCA3D3216DE88E4C2D1(__this, L_797, L_798, NULL);
 		V_279 = L_799;
-		// var ctrlTouchscreentouch9pressure = Initialize_ctrlTouchscreentouch9pressure(kAxisLayout, ctrlTouchscreentouch9);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_800 = V_7;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_801 = V_26;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_802;
 		L_802 = FastTouchscreen_Initialize_ctrlTouchscreentouch9pressure_m7821451F03D886425A62ACB96FB891FBE7B685F7(__this, L_800, L_801, NULL);
 		V_280 = L_802;
-		// var ctrlTouchscreentouch9radius = Initialize_ctrlTouchscreentouch9radius(kVector2Layout, ctrlTouchscreentouch9);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_803 = V_2;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_804 = V_26;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_805;
 		L_805 = FastTouchscreen_Initialize_ctrlTouchscreentouch9radius_m3B347E75E3D6DDFAFBBBB24E15446A290C8AF751(__this, L_803, L_804, NULL);
 		V_281 = L_805;
-		// var ctrlTouchscreentouch9phase = Initialize_ctrlTouchscreentouch9phase(kTouchPhaseLayout, ctrlTouchscreentouch9);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_806 = V_8;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_807 = V_26;
 		TouchPhaseControl_t4652C6E0EBFAFA85A31607769876B02C1C9FCAEC* L_808;
 		L_808 = FastTouchscreen_Initialize_ctrlTouchscreentouch9phase_m323F61558BEB228DD4D784F09D8B528437764977(__this, L_806, L_807, NULL);
 		V_282 = L_808;
-		// var ctrlTouchscreentouch9press = Initialize_ctrlTouchscreentouch9press(kTouchPressLayout, ctrlTouchscreentouch9);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_809 = V_5;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_810 = V_26;
 		TouchPressControl_tD5BD68D9FDEAC889591DD7A499864893A43C7CEB* L_811;
 		L_811 = FastTouchscreen_Initialize_ctrlTouchscreentouch9press_mEE43934CB6A1C688A4F15D35D3F646866B5C39EF(__this, L_809, L_810, NULL);
 		V_283 = L_811;
-		// var ctrlTouchscreentouch9tapCount = Initialize_ctrlTouchscreentouch9tapCount(kIntegerLayout, ctrlTouchscreentouch9);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_812 = V_6;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_813 = V_26;
 		IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB* L_814;
 		L_814 = FastTouchscreen_Initialize_ctrlTouchscreentouch9tapCount_mB8D6C45F601294C5F9A13CD1A07F0E39EC17F3A4(__this, L_812, L_813, NULL);
 		V_284 = L_814;
-		// var ctrlTouchscreentouch9indirectTouch = Initialize_ctrlTouchscreentouch9indirectTouch(kButtonLayout, ctrlTouchscreentouch9);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_815 = V_9;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_816 = V_26;
 		ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* L_817;
 		L_817 = FastTouchscreen_Initialize_ctrlTouchscreentouch9indirectTouch_m04A30547029EA5706F62DB3B2706E925600B84BF(__this, L_815, L_816, NULL);
 		V_285 = L_817;
-		// var ctrlTouchscreentouch9tap = Initialize_ctrlTouchscreentouch9tap(kButtonLayout, ctrlTouchscreentouch9);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_818 = V_9;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_819 = V_26;
 		ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* L_820;
 		L_820 = FastTouchscreen_Initialize_ctrlTouchscreentouch9tap_mE7F6D4B54BBA40428AB6DA27BCE369890BBB905F(__this, L_818, L_819, NULL);
 		V_286 = L_820;
-		// var ctrlTouchscreentouch9startTime = Initialize_ctrlTouchscreentouch9startTime(kDoubleLayout, ctrlTouchscreentouch9);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_821 = V_10;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_822 = V_26;
 		DoubleControl_t3707A6260424A2F3636669A2BAFF5CB5E91D2486* L_823;
 		L_823 = FastTouchscreen_Initialize_ctrlTouchscreentouch9startTime_mDA9500F02F38FCC104E1F98B3FFCE69A96DE327D(__this, L_821, L_822, NULL);
 		V_287 = L_823;
-		// var ctrlTouchscreentouch9startPosition = Initialize_ctrlTouchscreentouch9startPosition(kVector2Layout, ctrlTouchscreentouch9);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_824 = V_2;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_825 = V_26;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_826;
 		L_826 = FastTouchscreen_Initialize_ctrlTouchscreentouch9startPosition_mB8D5A5941111F4A22E2E8681F64893A2FCD2A6C1(__this, L_824, L_825, NULL);
 		V_288 = L_826;
-		// var ctrlTouchscreentouch9positionx = Initialize_ctrlTouchscreentouch9positionx(kAxisLayout, ctrlTouchscreentouch9position);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_827 = V_7;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_828 = V_278;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_829;
 		L_829 = FastTouchscreen_Initialize_ctrlTouchscreentouch9positionx_m59CF1A6CE3AB4FFA1F6AE034F0A7DA0C9163768E(__this, L_827, L_828, NULL);
 		V_289 = L_829;
-		// var ctrlTouchscreentouch9positiony = Initialize_ctrlTouchscreentouch9positiony(kAxisLayout, ctrlTouchscreentouch9position);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_830 = V_7;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_831 = V_278;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_832;
 		L_832 = FastTouchscreen_Initialize_ctrlTouchscreentouch9positiony_m329A5D6706B0B0754464507215E33883C1CC4648(__this, L_830, L_831, NULL);
 		V_290 = L_832;
-		// var ctrlTouchscreentouch9deltaup = Initialize_ctrlTouchscreentouch9deltaup(kAxisLayout, ctrlTouchscreentouch9delta);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_833 = V_7;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_834 = V_279;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_835;
 		L_835 = FastTouchscreen_Initialize_ctrlTouchscreentouch9deltaup_m4E9B3B8756118FFB600CFF9DC1583D660D5B6915(__this, L_833, L_834, NULL);
 		V_291 = L_835;
-		// var ctrlTouchscreentouch9deltadown = Initialize_ctrlTouchscreentouch9deltadown(kAxisLayout, ctrlTouchscreentouch9delta);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_836 = V_7;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_837 = V_279;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_838;
 		L_838 = FastTouchscreen_Initialize_ctrlTouchscreentouch9deltadown_m1DC2920D5DE9D2EC804983F1ECFDE5239D8C3ACB(__this, L_836, L_837, NULL);
 		V_292 = L_838;
-		// var ctrlTouchscreentouch9deltaleft = Initialize_ctrlTouchscreentouch9deltaleft(kAxisLayout, ctrlTouchscreentouch9delta);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_839 = V_7;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_840 = V_279;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_841;
 		L_841 = FastTouchscreen_Initialize_ctrlTouchscreentouch9deltaleft_m4E6E5DCFF85F4AFE2BA9AB2AD9677764F0C41B1C(__this, L_839, L_840, NULL);
 		V_293 = L_841;
-		// var ctrlTouchscreentouch9deltaright = Initialize_ctrlTouchscreentouch9deltaright(kAxisLayout, ctrlTouchscreentouch9delta);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_842 = V_7;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_843 = V_279;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_844;
 		L_844 = FastTouchscreen_Initialize_ctrlTouchscreentouch9deltaright_m285B2EEE62638608F693D95B32F8250517FB4B9C(__this, L_842, L_843, NULL);
 		V_294 = L_844;
-		// var ctrlTouchscreentouch9deltax = Initialize_ctrlTouchscreentouch9deltax(kAxisLayout, ctrlTouchscreentouch9delta);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_845 = V_7;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_846 = V_279;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_847;
 		L_847 = FastTouchscreen_Initialize_ctrlTouchscreentouch9deltax_mF5391290D6CBC7EA6D56E1F2D99559B67D0B3C28(__this, L_845, L_846, NULL);
 		V_295 = L_847;
-		// var ctrlTouchscreentouch9deltay = Initialize_ctrlTouchscreentouch9deltay(kAxisLayout, ctrlTouchscreentouch9delta);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_848 = V_7;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_849 = V_279;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_850;
 		L_850 = FastTouchscreen_Initialize_ctrlTouchscreentouch9deltay_m6B6E16FC84DF9DE19811CAFFF286A9C132AFED63(__this, L_848, L_849, NULL);
 		V_296 = L_850;
-		// var ctrlTouchscreentouch9radiusx = Initialize_ctrlTouchscreentouch9radiusx(kAxisLayout, ctrlTouchscreentouch9radius);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_851 = V_7;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_852 = V_281;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_853;
 		L_853 = FastTouchscreen_Initialize_ctrlTouchscreentouch9radiusx_m2447F765268ED30F63428E17A7A2E7021B845BA8(__this, L_851, L_852, NULL);
 		V_297 = L_853;
-		// var ctrlTouchscreentouch9radiusy = Initialize_ctrlTouchscreentouch9radiusy(kAxisLayout, ctrlTouchscreentouch9radius);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_854 = V_7;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_855 = V_281;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_856;
 		L_856 = FastTouchscreen_Initialize_ctrlTouchscreentouch9radiusy_m64680D1C5E57B588418038D3113E702E2D2602C3(__this, L_854, L_855, NULL);
 		V_298 = L_856;
-		// var ctrlTouchscreentouch9startPositionx = Initialize_ctrlTouchscreentouch9startPositionx(kAxisLayout, ctrlTouchscreentouch9startPosition);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_857 = V_7;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_858 = V_288;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_859;
 		L_859 = FastTouchscreen_Initialize_ctrlTouchscreentouch9startPositionx_m970C4D47FC6A8D35BDC575747247C91FF7E8600B(__this, L_857, L_858, NULL);
 		V_299 = L_859;
-		// var ctrlTouchscreentouch9startPositiony = Initialize_ctrlTouchscreentouch9startPositiony(kAxisLayout, ctrlTouchscreentouch9startPosition);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_860 = V_7;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_861 = V_288;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_862;
 		L_862 = FastTouchscreen_Initialize_ctrlTouchscreentouch9startPositiony_m7EB80C1CD2F565CF26C03D1354A15C9BE75BF439(__this, L_860, L_861, NULL);
 		V_300 = L_862;
-		// builder.WithControlUsage(0, new InternedString("PrimaryAction"), ctrlTouchscreenprimaryTouchtap);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_863;
 		memset((&L_863), 0, sizeof(L_863));
 		InternedString__ctor_m2E9672D46D84C82F705DE799CE8B6123EB95E935((&L_863), _stringLiteral7050E794F9BC7E6FB04B0854BF6DAD408C0FC164, /*hidden argument*/NULL);
 		ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* L_864 = V_36;
 		DeviceBuilder_t3D3A66799A2B6B6282AC2FB71B1DE5034E668CC4 L_865;
 		L_865 = DeviceBuilder_WithControlUsage_m6BC2EC2CA804EDC65D1165C63E403F3E93944714_inline((&V_0), 0, L_863, L_864, NULL);
-		// builder.WithControlUsage(1, new InternedString("Point"), ctrlTouchscreenposition);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_866;
 		memset((&L_866), 0, sizeof(L_866));
 		InternedString__ctor_m2E9672D46D84C82F705DE799CE8B6123EB95E935((&L_866), _stringLiteralAF76631C9924DA21CC9961B508E27EB5D8012412, /*hidden argument*/NULL);
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_867 = V_12;
 		DeviceBuilder_t3D3A66799A2B6B6282AC2FB71B1DE5034E668CC4 L_868;
 		L_868 = DeviceBuilder_WithControlUsage_m6BC2EC2CA804EDC65D1165C63E403F3E93944714_inline((&V_0), 1, L_866, L_867, NULL);
-		// builder.WithControlUsage(2, new InternedString("Secondary2DMotion"), ctrlTouchscreendelta);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_869;
 		memset((&L_869), 0, sizeof(L_869));
 		InternedString__ctor_m2E9672D46D84C82F705DE799CE8B6123EB95E935((&L_869), _stringLiteral7672B1CB98F2EFAF3B642E0727371BD99BCD8A28, /*hidden argument*/NULL);
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_870 = V_13;
 		DeviceBuilder_t3D3A66799A2B6B6282AC2FB71B1DE5034E668CC4 L_871;
 		L_871 = DeviceBuilder_WithControlUsage_m6BC2EC2CA804EDC65D1165C63E403F3E93944714_inline((&V_0), 2, L_869, L_870, NULL);
-		// builder.WithControlUsage(3, new InternedString("Pressure"), ctrlTouchscreenpressure);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_872;
 		memset((&L_872), 0, sizeof(L_872));
 		InternedString__ctor_m2E9672D46D84C82F705DE799CE8B6123EB95E935((&L_872), _stringLiteral7CFABA7C6462657D1BE1B82BCB25DB5422A67CE8, /*hidden argument*/NULL);
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_873 = V_14;
 		DeviceBuilder_t3D3A66799A2B6B6282AC2FB71B1DE5034E668CC4 L_874;
 		L_874 = DeviceBuilder_WithControlUsage_m6BC2EC2CA804EDC65D1165C63E403F3E93944714_inline((&V_0), 3, L_872, L_873, NULL);
-		// builder.WithControlUsage(4, new InternedString("Radius"), ctrlTouchscreenradius);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_875;
 		memset((&L_875), 0, sizeof(L_875));
 		InternedString__ctor_m2E9672D46D84C82F705DE799CE8B6123EB95E935((&L_875), _stringLiteral4242348F79D89713783C664DBCE2420B6B2900DE, /*hidden argument*/NULL);
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_876 = V_15;
 		DeviceBuilder_t3D3A66799A2B6B6282AC2FB71B1DE5034E668CC4 L_877;
 		L_877 = DeviceBuilder_WithControlUsage_m6BC2EC2CA804EDC65D1165C63E403F3E93944714_inline((&V_0), 4, L_875, L_876, NULL);
-		// this.touchControlArray = new UnityEngine.InputSystem.Controls.TouchControl[10];
 		TouchControlU5BU5D_t339733075857CFF82B4E43BFB310F2350225836D* L_878 = (TouchControlU5BU5D_t339733075857CFF82B4E43BFB310F2350225836D*)(TouchControlU5BU5D_t339733075857CFF82B4E43BFB310F2350225836D*)SZArrayNew(TouchControlU5BU5D_t339733075857CFF82B4E43BFB310F2350225836D_il2cpp_TypeInfo_var, (uint32_t)((int32_t)10));
 		Touchscreen_set_touchControlArray_m634368F48260D080E7D890EE93DCB3908DBC56EE(__this, L_878, NULL);
-		// this.touchControlArray[0] = ctrlTouchscreentouch0;
 		TouchControlU5BU5D_t339733075857CFF82B4E43BFB310F2350225836D* L_879;
 		L_879 = Touchscreen_get_touchControlArray_m07505E4C75139C056B8135195F01AC405954C66E(__this, NULL);
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_880 = V_17;
 		NullCheck(L_879);
 		ArrayElementTypeCheck (L_879, L_880);
 		(L_879)->SetAt(static_cast<il2cpp_array_size_t>(0), (TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079*)L_880);
-		// this.touchControlArray[1] = ctrlTouchscreentouch1;
 		TouchControlU5BU5D_t339733075857CFF82B4E43BFB310F2350225836D* L_881;
 		L_881 = Touchscreen_get_touchControlArray_m07505E4C75139C056B8135195F01AC405954C66E(__this, NULL);
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_882 = V_18;
 		NullCheck(L_881);
 		ArrayElementTypeCheck (L_881, L_882);
 		(L_881)->SetAt(static_cast<il2cpp_array_size_t>(1), (TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079*)L_882);
-		// this.touchControlArray[2] = ctrlTouchscreentouch2;
 		TouchControlU5BU5D_t339733075857CFF82B4E43BFB310F2350225836D* L_883;
 		L_883 = Touchscreen_get_touchControlArray_m07505E4C75139C056B8135195F01AC405954C66E(__this, NULL);
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_884 = V_19;
 		NullCheck(L_883);
 		ArrayElementTypeCheck (L_883, L_884);
 		(L_883)->SetAt(static_cast<il2cpp_array_size_t>(2), (TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079*)L_884);
-		// this.touchControlArray[3] = ctrlTouchscreentouch3;
 		TouchControlU5BU5D_t339733075857CFF82B4E43BFB310F2350225836D* L_885;
 		L_885 = Touchscreen_get_touchControlArray_m07505E4C75139C056B8135195F01AC405954C66E(__this, NULL);
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_886 = V_20;
 		NullCheck(L_885);
 		ArrayElementTypeCheck (L_885, L_886);
 		(L_885)->SetAt(static_cast<il2cpp_array_size_t>(3), (TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079*)L_886);
-		// this.touchControlArray[4] = ctrlTouchscreentouch4;
 		TouchControlU5BU5D_t339733075857CFF82B4E43BFB310F2350225836D* L_887;
 		L_887 = Touchscreen_get_touchControlArray_m07505E4C75139C056B8135195F01AC405954C66E(__this, NULL);
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_888 = V_21;
 		NullCheck(L_887);
 		ArrayElementTypeCheck (L_887, L_888);
 		(L_887)->SetAt(static_cast<il2cpp_array_size_t>(4), (TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079*)L_888);
-		// this.touchControlArray[5] = ctrlTouchscreentouch5;
 		TouchControlU5BU5D_t339733075857CFF82B4E43BFB310F2350225836D* L_889;
 		L_889 = Touchscreen_get_touchControlArray_m07505E4C75139C056B8135195F01AC405954C66E(__this, NULL);
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_890 = V_22;
 		NullCheck(L_889);
 		ArrayElementTypeCheck (L_889, L_890);
 		(L_889)->SetAt(static_cast<il2cpp_array_size_t>(5), (TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079*)L_890);
-		// this.touchControlArray[6] = ctrlTouchscreentouch6;
 		TouchControlU5BU5D_t339733075857CFF82B4E43BFB310F2350225836D* L_891;
 		L_891 = Touchscreen_get_touchControlArray_m07505E4C75139C056B8135195F01AC405954C66E(__this, NULL);
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_892 = V_23;
 		NullCheck(L_891);
 		ArrayElementTypeCheck (L_891, L_892);
 		(L_891)->SetAt(static_cast<il2cpp_array_size_t>(6), (TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079*)L_892);
-		// this.touchControlArray[7] = ctrlTouchscreentouch7;
 		TouchControlU5BU5D_t339733075857CFF82B4E43BFB310F2350225836D* L_893;
 		L_893 = Touchscreen_get_touchControlArray_m07505E4C75139C056B8135195F01AC405954C66E(__this, NULL);
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_894 = V_24;
 		NullCheck(L_893);
 		ArrayElementTypeCheck (L_893, L_894);
 		(L_893)->SetAt(static_cast<il2cpp_array_size_t>(7), (TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079*)L_894);
-		// this.touchControlArray[8] = ctrlTouchscreentouch8;
 		TouchControlU5BU5D_t339733075857CFF82B4E43BFB310F2350225836D* L_895;
 		L_895 = Touchscreen_get_touchControlArray_m07505E4C75139C056B8135195F01AC405954C66E(__this, NULL);
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_896 = V_25;
 		NullCheck(L_895);
 		ArrayElementTypeCheck (L_895, L_896);
 		(L_895)->SetAt(static_cast<il2cpp_array_size_t>(8), (TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079*)L_896);
-		// this.touchControlArray[9] = ctrlTouchscreentouch9;
 		TouchControlU5BU5D_t339733075857CFF82B4E43BFB310F2350225836D* L_897;
 		L_897 = Touchscreen_get_touchControlArray_m07505E4C75139C056B8135195F01AC405954C66E(__this, NULL);
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_898 = V_26;
 		NullCheck(L_897);
 		ArrayElementTypeCheck (L_897, L_898);
 		(L_897)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)9)), (TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079*)L_898);
-		// this.primaryTouch = ctrlTouchscreenprimaryTouch;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_899 = V_11;
 		Touchscreen_set_primaryTouch_m91DBE5AD811347EAF9ADC9B77A6A78360662E1C4_inline(__this, L_899, NULL);
-		// this.position = ctrlTouchscreenposition;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_900 = V_12;
 		Pointer_set_position_m2D924A583D251F04C6868D10969E1ED6EC4EB7D3_inline(__this, L_900, NULL);
-		// this.delta = ctrlTouchscreendelta;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_901 = V_13;
 		Pointer_set_delta_mEB61C0A0FDD20CF0DF6792ACF1BE796C8E007570_inline(__this, L_901, NULL);
-		// this.radius = ctrlTouchscreenradius;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_902 = V_15;
 		Pointer_set_radius_m09D5572AFA099FCAA41926908D7A6439749BD2DE_inline(__this, L_902, NULL);
-		// this.pressure = ctrlTouchscreenpressure;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_903 = V_14;
 		Pointer_set_pressure_m2593E7CCA07D8C8F71A7B76425C67982AEF632E8_inline(__this, L_903, NULL);
-		// this.press = ctrlTouchscreenpress;
 		TouchPressControl_tD5BD68D9FDEAC889591DD7A499864893A43C7CEB* L_904 = V_16;
 		Pointer_set_press_mC489CD308019C8ED1CC9C75F2772C6DCD550F4E0_inline(__this, L_904, NULL);
-		// ctrlTouchscreenprimaryTouch.press = ctrlTouchscreenprimaryTouchpress;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_905 = V_11;
 		TouchPressControl_tD5BD68D9FDEAC889591DD7A499864893A43C7CEB* L_906 = V_33;
 		NullCheck(L_905);
 		TouchControl_set_press_m267FA7B0E99DE1F598EEA07E8938C99A40BD9855_inline(L_905, L_906, NULL);
-		// ctrlTouchscreenprimaryTouch.touchId = ctrlTouchscreenprimaryTouchtouchId;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_907 = V_11;
 		IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB* L_908 = V_27;
 		NullCheck(L_907);
 		TouchControl_set_touchId_mAE9A8C4419AB2EEFD856E21445536E92BC71E8C7_inline(L_907, L_908, NULL);
-		// ctrlTouchscreenprimaryTouch.position = ctrlTouchscreenprimaryTouchposition;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_909 = V_11;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_910 = V_28;
 		NullCheck(L_909);
 		TouchControl_set_position_m05BC61FE6B7B6676B4CA766BEEA59C5AC1E6F32E_inline(L_909, L_910, NULL);
-		// ctrlTouchscreenprimaryTouch.delta = ctrlTouchscreenprimaryTouchdelta;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_911 = V_11;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_912 = V_29;
 		NullCheck(L_911);
 		TouchControl_set_delta_mB7F970B93CC0BE555C0A4629489DFAB57D534541_inline(L_911, L_912, NULL);
-		// ctrlTouchscreenprimaryTouch.pressure = ctrlTouchscreenprimaryTouchpressure;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_913 = V_11;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_914 = V_30;
 		NullCheck(L_913);
 		TouchControl_set_pressure_mCE69ACE59C4C4DA91CAF53D4D15AF18635995B35_inline(L_913, L_914, NULL);
-		// ctrlTouchscreenprimaryTouch.radius = ctrlTouchscreenprimaryTouchradius;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_915 = V_11;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_916 = V_31;
 		NullCheck(L_915);
 		TouchControl_set_radius_mEBCE66C95D761D48705D49DB0AD1FF2B84E953A1_inline(L_915, L_916, NULL);
-		// ctrlTouchscreenprimaryTouch.phase = ctrlTouchscreenprimaryTouchphase;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_917 = V_11;
 		TouchPhaseControl_t4652C6E0EBFAFA85A31607769876B02C1C9FCAEC* L_918 = V_32;
 		NullCheck(L_917);
 		TouchControl_set_phase_m2C1DF80E1D3F08A1669AB392CFA8767C58704B15_inline(L_917, L_918, NULL);
-		// ctrlTouchscreenprimaryTouch.indirectTouch = ctrlTouchscreenprimaryTouchindirectTouch;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_919 = V_11;
 		ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* L_920 = V_35;
 		NullCheck(L_919);
 		TouchControl_set_indirectTouch_m31B4FC1CAC95B83361F16A1618EFAD7626E03603_inline(L_919, L_920, NULL);
-		// ctrlTouchscreenprimaryTouch.tap = ctrlTouchscreenprimaryTouchtap;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_921 = V_11;
 		ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* L_922 = V_36;
 		NullCheck(L_921);
 		TouchControl_set_tap_mA78E4789E418A40C5B0F5A6B5A296382506DCA9C_inline(L_921, L_922, NULL);
-		// ctrlTouchscreenprimaryTouch.tapCount = ctrlTouchscreenprimaryTouchtapCount;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_923 = V_11;
 		IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB* L_924 = V_34;
 		NullCheck(L_923);
 		TouchControl_set_tapCount_mF2D0B14A18FA26370F834796164678077A4D0357_inline(L_923, L_924, NULL);
-		// ctrlTouchscreenprimaryTouch.startTime = ctrlTouchscreenprimaryTouchstartTime;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_925 = V_11;
 		DoubleControl_t3707A6260424A2F3636669A2BAFF5CB5E91D2486* L_926 = V_37;
 		NullCheck(L_925);
 		TouchControl_set_startTime_m3AFEFF9640DFA22A85C4D4C75FAAD462733271E1_inline(L_925, L_926, NULL);
-		// ctrlTouchscreenprimaryTouch.startPosition = ctrlTouchscreenprimaryTouchstartPosition;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_927 = V_11;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_928 = V_38;
 		NullCheck(L_927);
 		TouchControl_set_startPosition_m3C4F834E13C3D551917A89725BDE8801F37707F0_inline(L_927, L_928, NULL);
-		// ctrlTouchscreenposition.x = ctrlTouchscreenpositionx;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_929 = V_12;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_930 = V_51;
 		NullCheck(L_929);
 		Vector2Control_set_x_m99BE9EF688C3B153DA726627B3CBD724F8D20BE1_inline(L_929, L_930, NULL);
-		// ctrlTouchscreenposition.y = ctrlTouchscreenpositiony;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_931 = V_12;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_932 = V_52;
 		NullCheck(L_931);
 		Vector2Control_set_y_m9023BACC80F2CF0AE28E2F5D0E9BBA54104E89F8_inline(L_931, L_932, NULL);
-		// ctrlTouchscreendelta.up = ctrlTouchscreendeltaup;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_933 = V_13;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_934 = V_53;
 		NullCheck(L_933);
 		DeltaControl_set_up_m738DF0E92B973E4E6AF5BE9A115458717B745174_inline(L_933, L_934, NULL);
-		// ctrlTouchscreendelta.down = ctrlTouchscreendeltadown;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_935 = V_13;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_936 = V_54;
 		NullCheck(L_935);
 		DeltaControl_set_down_mD809599F9F67F402EEFC805F315C0D72F35FFCF0_inline(L_935, L_936, NULL);
-		// ctrlTouchscreendelta.left = ctrlTouchscreendeltaleft;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_937 = V_13;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_938 = V_55;
 		NullCheck(L_937);
 		DeltaControl_set_left_m1C0E45C2868801280CC30474B9368F23B7400697_inline(L_937, L_938, NULL);
-		// ctrlTouchscreendelta.right = ctrlTouchscreendeltaright;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_939 = V_13;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_940 = V_56;
 		NullCheck(L_939);
 		DeltaControl_set_right_m60FBA0555C4E7CA40954DA7EE6BBC0E0032B0905_inline(L_939, L_940, NULL);
-		// ctrlTouchscreendelta.x = ctrlTouchscreendeltax;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_941 = V_13;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_942 = V_57;
 		NullCheck(L_941);
 		Vector2Control_set_x_m99BE9EF688C3B153DA726627B3CBD724F8D20BE1_inline(L_941, L_942, NULL);
-		// ctrlTouchscreendelta.y = ctrlTouchscreendeltay;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_943 = V_13;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_944 = V_58;
 		NullCheck(L_943);
 		Vector2Control_set_y_m9023BACC80F2CF0AE28E2F5D0E9BBA54104E89F8_inline(L_943, L_944, NULL);
-		// ctrlTouchscreenradius.x = ctrlTouchscreenradiusx;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_945 = V_15;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_946 = V_59;
 		NullCheck(L_945);
 		Vector2Control_set_x_m99BE9EF688C3B153DA726627B3CBD724F8D20BE1_inline(L_945, L_946, NULL);
-		// ctrlTouchscreenradius.y = ctrlTouchscreenradiusy;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_947 = V_15;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_948 = V_60;
 		NullCheck(L_947);
 		Vector2Control_set_y_m9023BACC80F2CF0AE28E2F5D0E9BBA54104E89F8_inline(L_947, L_948, NULL);
-		// ctrlTouchscreentouch0.press = ctrlTouchscreentouch0press;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_949 = V_17;
 		TouchPressControl_tD5BD68D9FDEAC889591DD7A499864893A43C7CEB* L_950 = V_67;
 		NullCheck(L_949);
 		TouchControl_set_press_m267FA7B0E99DE1F598EEA07E8938C99A40BD9855_inline(L_949, L_950, NULL);
-		// ctrlTouchscreentouch0.touchId = ctrlTouchscreentouch0touchId;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_951 = V_17;
 		IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB* L_952 = V_61;
 		NullCheck(L_951);
 		TouchControl_set_touchId_mAE9A8C4419AB2EEFD856E21445536E92BC71E8C7_inline(L_951, L_952, NULL);
-		// ctrlTouchscreentouch0.position = ctrlTouchscreentouch0position;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_953 = V_17;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_954 = V_62;
 		NullCheck(L_953);
 		TouchControl_set_position_m05BC61FE6B7B6676B4CA766BEEA59C5AC1E6F32E_inline(L_953, L_954, NULL);
-		// ctrlTouchscreentouch0.delta = ctrlTouchscreentouch0delta;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_955 = V_17;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_956 = V_63;
 		NullCheck(L_955);
 		TouchControl_set_delta_mB7F970B93CC0BE555C0A4629489DFAB57D534541_inline(L_955, L_956, NULL);
-		// ctrlTouchscreentouch0.pressure = ctrlTouchscreentouch0pressure;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_957 = V_17;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_958 = V_64;
 		NullCheck(L_957);
 		TouchControl_set_pressure_mCE69ACE59C4C4DA91CAF53D4D15AF18635995B35_inline(L_957, L_958, NULL);
-		// ctrlTouchscreentouch0.radius = ctrlTouchscreentouch0radius;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_959 = V_17;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_960 = V_65;
 		NullCheck(L_959);
 		TouchControl_set_radius_mEBCE66C95D761D48705D49DB0AD1FF2B84E953A1_inline(L_959, L_960, NULL);
-		// ctrlTouchscreentouch0.phase = ctrlTouchscreentouch0phase;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_961 = V_17;
 		TouchPhaseControl_t4652C6E0EBFAFA85A31607769876B02C1C9FCAEC* L_962 = V_66;
 		NullCheck(L_961);
 		TouchControl_set_phase_m2C1DF80E1D3F08A1669AB392CFA8767C58704B15_inline(L_961, L_962, NULL);
-		// ctrlTouchscreentouch0.indirectTouch = ctrlTouchscreentouch0indirectTouch;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_963 = V_17;
 		ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* L_964 = V_69;
 		NullCheck(L_963);
 		TouchControl_set_indirectTouch_m31B4FC1CAC95B83361F16A1618EFAD7626E03603_inline(L_963, L_964, NULL);
-		// ctrlTouchscreentouch0.tap = ctrlTouchscreentouch0tap;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_965 = V_17;
 		ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* L_966 = V_70;
 		NullCheck(L_965);
 		TouchControl_set_tap_mA78E4789E418A40C5B0F5A6B5A296382506DCA9C_inline(L_965, L_966, NULL);
-		// ctrlTouchscreentouch0.tapCount = ctrlTouchscreentouch0tapCount;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_967 = V_17;
 		IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB* L_968 = V_68;
 		NullCheck(L_967);
 		TouchControl_set_tapCount_mF2D0B14A18FA26370F834796164678077A4D0357_inline(L_967, L_968, NULL);
-		// ctrlTouchscreentouch0.startTime = ctrlTouchscreentouch0startTime;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_969 = V_17;
 		DoubleControl_t3707A6260424A2F3636669A2BAFF5CB5E91D2486* L_970 = V_71;
 		NullCheck(L_969);
 		TouchControl_set_startTime_m3AFEFF9640DFA22A85C4D4C75FAAD462733271E1_inline(L_969, L_970, NULL);
-		// ctrlTouchscreentouch0.startPosition = ctrlTouchscreentouch0startPosition;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_971 = V_17;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_972 = V_72;
 		NullCheck(L_971);
 		TouchControl_set_startPosition_m3C4F834E13C3D551917A89725BDE8801F37707F0_inline(L_971, L_972, NULL);
-		// ctrlTouchscreentouch1.press = ctrlTouchscreentouch1press;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_973 = V_18;
 		TouchPressControl_tD5BD68D9FDEAC889591DD7A499864893A43C7CEB* L_974 = V_91;
 		NullCheck(L_973);
 		TouchControl_set_press_m267FA7B0E99DE1F598EEA07E8938C99A40BD9855_inline(L_973, L_974, NULL);
-		// ctrlTouchscreentouch1.touchId = ctrlTouchscreentouch1touchId;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_975 = V_18;
 		IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB* L_976 = V_85;
 		NullCheck(L_975);
 		TouchControl_set_touchId_mAE9A8C4419AB2EEFD856E21445536E92BC71E8C7_inline(L_975, L_976, NULL);
-		// ctrlTouchscreentouch1.position = ctrlTouchscreentouch1position;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_977 = V_18;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_978 = V_86;
 		NullCheck(L_977);
 		TouchControl_set_position_m05BC61FE6B7B6676B4CA766BEEA59C5AC1E6F32E_inline(L_977, L_978, NULL);
-		// ctrlTouchscreentouch1.delta = ctrlTouchscreentouch1delta;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_979 = V_18;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_980 = V_87;
 		NullCheck(L_979);
 		TouchControl_set_delta_mB7F970B93CC0BE555C0A4629489DFAB57D534541_inline(L_979, L_980, NULL);
-		// ctrlTouchscreentouch1.pressure = ctrlTouchscreentouch1pressure;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_981 = V_18;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_982 = V_88;
 		NullCheck(L_981);
 		TouchControl_set_pressure_mCE69ACE59C4C4DA91CAF53D4D15AF18635995B35_inline(L_981, L_982, NULL);
-		// ctrlTouchscreentouch1.radius = ctrlTouchscreentouch1radius;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_983 = V_18;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_984 = V_89;
 		NullCheck(L_983);
 		TouchControl_set_radius_mEBCE66C95D761D48705D49DB0AD1FF2B84E953A1_inline(L_983, L_984, NULL);
-		// ctrlTouchscreentouch1.phase = ctrlTouchscreentouch1phase;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_985 = V_18;
 		TouchPhaseControl_t4652C6E0EBFAFA85A31607769876B02C1C9FCAEC* L_986 = V_90;
 		NullCheck(L_985);
 		TouchControl_set_phase_m2C1DF80E1D3F08A1669AB392CFA8767C58704B15_inline(L_985, L_986, NULL);
-		// ctrlTouchscreentouch1.indirectTouch = ctrlTouchscreentouch1indirectTouch;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_987 = V_18;
 		ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* L_988 = V_93;
 		NullCheck(L_987);
 		TouchControl_set_indirectTouch_m31B4FC1CAC95B83361F16A1618EFAD7626E03603_inline(L_987, L_988, NULL);
-		// ctrlTouchscreentouch1.tap = ctrlTouchscreentouch1tap;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_989 = V_18;
 		ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* L_990 = V_94;
 		NullCheck(L_989);
 		TouchControl_set_tap_mA78E4789E418A40C5B0F5A6B5A296382506DCA9C_inline(L_989, L_990, NULL);
-		// ctrlTouchscreentouch1.tapCount = ctrlTouchscreentouch1tapCount;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_991 = V_18;
 		IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB* L_992 = V_92;
 		NullCheck(L_991);
 		TouchControl_set_tapCount_mF2D0B14A18FA26370F834796164678077A4D0357_inline(L_991, L_992, NULL);
-		// ctrlTouchscreentouch1.startTime = ctrlTouchscreentouch1startTime;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_993 = V_18;
 		DoubleControl_t3707A6260424A2F3636669A2BAFF5CB5E91D2486* L_994 = V_95;
 		NullCheck(L_993);
 		TouchControl_set_startTime_m3AFEFF9640DFA22A85C4D4C75FAAD462733271E1_inline(L_993, L_994, NULL);
-		// ctrlTouchscreentouch1.startPosition = ctrlTouchscreentouch1startPosition;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_995 = V_18;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_996 = V_96;
 		NullCheck(L_995);
 		TouchControl_set_startPosition_m3C4F834E13C3D551917A89725BDE8801F37707F0_inline(L_995, L_996, NULL);
-		// ctrlTouchscreentouch2.press = ctrlTouchscreentouch2press;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_997 = V_19;
 		TouchPressControl_tD5BD68D9FDEAC889591DD7A499864893A43C7CEB* L_998 = V_115;
 		NullCheck(L_997);
 		TouchControl_set_press_m267FA7B0E99DE1F598EEA07E8938C99A40BD9855_inline(L_997, L_998, NULL);
-		// ctrlTouchscreentouch2.touchId = ctrlTouchscreentouch2touchId;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_999 = V_19;
 		IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB* L_1000 = V_109;
 		NullCheck(L_999);
 		TouchControl_set_touchId_mAE9A8C4419AB2EEFD856E21445536E92BC71E8C7_inline(L_999, L_1000, NULL);
-		// ctrlTouchscreentouch2.position = ctrlTouchscreentouch2position;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_1001 = V_19;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_1002 = V_110;
 		NullCheck(L_1001);
 		TouchControl_set_position_m05BC61FE6B7B6676B4CA766BEEA59C5AC1E6F32E_inline(L_1001, L_1002, NULL);
-		// ctrlTouchscreentouch2.delta = ctrlTouchscreentouch2delta;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_1003 = V_19;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_1004 = V_111;
 		NullCheck(L_1003);
 		TouchControl_set_delta_mB7F970B93CC0BE555C0A4629489DFAB57D534541_inline(L_1003, L_1004, NULL);
-		// ctrlTouchscreentouch2.pressure = ctrlTouchscreentouch2pressure;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_1005 = V_19;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1006 = V_112;
 		NullCheck(L_1005);
 		TouchControl_set_pressure_mCE69ACE59C4C4DA91CAF53D4D15AF18635995B35_inline(L_1005, L_1006, NULL);
-		// ctrlTouchscreentouch2.radius = ctrlTouchscreentouch2radius;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_1007 = V_19;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_1008 = V_113;
 		NullCheck(L_1007);
 		TouchControl_set_radius_mEBCE66C95D761D48705D49DB0AD1FF2B84E953A1_inline(L_1007, L_1008, NULL);
-		// ctrlTouchscreentouch2.phase = ctrlTouchscreentouch2phase;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_1009 = V_19;
 		TouchPhaseControl_t4652C6E0EBFAFA85A31607769876B02C1C9FCAEC* L_1010 = V_114;
 		NullCheck(L_1009);
 		TouchControl_set_phase_m2C1DF80E1D3F08A1669AB392CFA8767C58704B15_inline(L_1009, L_1010, NULL);
-		// ctrlTouchscreentouch2.indirectTouch = ctrlTouchscreentouch2indirectTouch;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_1011 = V_19;
 		ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* L_1012 = V_117;
 		NullCheck(L_1011);
 		TouchControl_set_indirectTouch_m31B4FC1CAC95B83361F16A1618EFAD7626E03603_inline(L_1011, L_1012, NULL);
-		// ctrlTouchscreentouch2.tap = ctrlTouchscreentouch2tap;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_1013 = V_19;
 		ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* L_1014 = V_118;
 		NullCheck(L_1013);
 		TouchControl_set_tap_mA78E4789E418A40C5B0F5A6B5A296382506DCA9C_inline(L_1013, L_1014, NULL);
-		// ctrlTouchscreentouch2.tapCount = ctrlTouchscreentouch2tapCount;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_1015 = V_19;
 		IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB* L_1016 = V_116;
 		NullCheck(L_1015);
 		TouchControl_set_tapCount_mF2D0B14A18FA26370F834796164678077A4D0357_inline(L_1015, L_1016, NULL);
-		// ctrlTouchscreentouch2.startTime = ctrlTouchscreentouch2startTime;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_1017 = V_19;
 		DoubleControl_t3707A6260424A2F3636669A2BAFF5CB5E91D2486* L_1018 = V_119;
 		NullCheck(L_1017);
 		TouchControl_set_startTime_m3AFEFF9640DFA22A85C4D4C75FAAD462733271E1_inline(L_1017, L_1018, NULL);
-		// ctrlTouchscreentouch2.startPosition = ctrlTouchscreentouch2startPosition;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_1019 = V_19;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_1020 = V_120;
 		NullCheck(L_1019);
 		TouchControl_set_startPosition_m3C4F834E13C3D551917A89725BDE8801F37707F0_inline(L_1019, L_1020, NULL);
-		// ctrlTouchscreentouch3.press = ctrlTouchscreentouch3press;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_1021 = V_20;
 		TouchPressControl_tD5BD68D9FDEAC889591DD7A499864893A43C7CEB* L_1022 = V_139;
 		NullCheck(L_1021);
 		TouchControl_set_press_m267FA7B0E99DE1F598EEA07E8938C99A40BD9855_inline(L_1021, L_1022, NULL);
-		// ctrlTouchscreentouch3.touchId = ctrlTouchscreentouch3touchId;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_1023 = V_20;
 		IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB* L_1024 = V_133;
 		NullCheck(L_1023);
 		TouchControl_set_touchId_mAE9A8C4419AB2EEFD856E21445536E92BC71E8C7_inline(L_1023, L_1024, NULL);
-		// ctrlTouchscreentouch3.position = ctrlTouchscreentouch3position;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_1025 = V_20;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_1026 = V_134;
 		NullCheck(L_1025);
 		TouchControl_set_position_m05BC61FE6B7B6676B4CA766BEEA59C5AC1E6F32E_inline(L_1025, L_1026, NULL);
-		// ctrlTouchscreentouch3.delta = ctrlTouchscreentouch3delta;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_1027 = V_20;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_1028 = V_135;
 		NullCheck(L_1027);
 		TouchControl_set_delta_mB7F970B93CC0BE555C0A4629489DFAB57D534541_inline(L_1027, L_1028, NULL);
-		// ctrlTouchscreentouch3.pressure = ctrlTouchscreentouch3pressure;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_1029 = V_20;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1030 = V_136;
 		NullCheck(L_1029);
 		TouchControl_set_pressure_mCE69ACE59C4C4DA91CAF53D4D15AF18635995B35_inline(L_1029, L_1030, NULL);
-		// ctrlTouchscreentouch3.radius = ctrlTouchscreentouch3radius;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_1031 = V_20;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_1032 = V_137;
 		NullCheck(L_1031);
 		TouchControl_set_radius_mEBCE66C95D761D48705D49DB0AD1FF2B84E953A1_inline(L_1031, L_1032, NULL);
-		// ctrlTouchscreentouch3.phase = ctrlTouchscreentouch3phase;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_1033 = V_20;
 		TouchPhaseControl_t4652C6E0EBFAFA85A31607769876B02C1C9FCAEC* L_1034 = V_138;
 		NullCheck(L_1033);
 		TouchControl_set_phase_m2C1DF80E1D3F08A1669AB392CFA8767C58704B15_inline(L_1033, L_1034, NULL);
-		// ctrlTouchscreentouch3.indirectTouch = ctrlTouchscreentouch3indirectTouch;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_1035 = V_20;
 		ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* L_1036 = V_141;
 		NullCheck(L_1035);
 		TouchControl_set_indirectTouch_m31B4FC1CAC95B83361F16A1618EFAD7626E03603_inline(L_1035, L_1036, NULL);
-		// ctrlTouchscreentouch3.tap = ctrlTouchscreentouch3tap;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_1037 = V_20;
 		ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* L_1038 = V_142;
 		NullCheck(L_1037);
 		TouchControl_set_tap_mA78E4789E418A40C5B0F5A6B5A296382506DCA9C_inline(L_1037, L_1038, NULL);
-		// ctrlTouchscreentouch3.tapCount = ctrlTouchscreentouch3tapCount;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_1039 = V_20;
 		IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB* L_1040 = V_140;
 		NullCheck(L_1039);
 		TouchControl_set_tapCount_mF2D0B14A18FA26370F834796164678077A4D0357_inline(L_1039, L_1040, NULL);
-		// ctrlTouchscreentouch3.startTime = ctrlTouchscreentouch3startTime;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_1041 = V_20;
 		DoubleControl_t3707A6260424A2F3636669A2BAFF5CB5E91D2486* L_1042 = V_143;
 		NullCheck(L_1041);
 		TouchControl_set_startTime_m3AFEFF9640DFA22A85C4D4C75FAAD462733271E1_inline(L_1041, L_1042, NULL);
-		// ctrlTouchscreentouch3.startPosition = ctrlTouchscreentouch3startPosition;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_1043 = V_20;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_1044 = V_144;
 		NullCheck(L_1043);
 		TouchControl_set_startPosition_m3C4F834E13C3D551917A89725BDE8801F37707F0_inline(L_1043, L_1044, NULL);
-		// ctrlTouchscreentouch4.press = ctrlTouchscreentouch4press;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_1045 = V_21;
 		TouchPressControl_tD5BD68D9FDEAC889591DD7A499864893A43C7CEB* L_1046 = V_163;
 		NullCheck(L_1045);
 		TouchControl_set_press_m267FA7B0E99DE1F598EEA07E8938C99A40BD9855_inline(L_1045, L_1046, NULL);
-		// ctrlTouchscreentouch4.touchId = ctrlTouchscreentouch4touchId;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_1047 = V_21;
 		IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB* L_1048 = V_157;
 		NullCheck(L_1047);
 		TouchControl_set_touchId_mAE9A8C4419AB2EEFD856E21445536E92BC71E8C7_inline(L_1047, L_1048, NULL);
-		// ctrlTouchscreentouch4.position = ctrlTouchscreentouch4position;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_1049 = V_21;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_1050 = V_158;
 		NullCheck(L_1049);
 		TouchControl_set_position_m05BC61FE6B7B6676B4CA766BEEA59C5AC1E6F32E_inline(L_1049, L_1050, NULL);
-		// ctrlTouchscreentouch4.delta = ctrlTouchscreentouch4delta;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_1051 = V_21;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_1052 = V_159;
 		NullCheck(L_1051);
 		TouchControl_set_delta_mB7F970B93CC0BE555C0A4629489DFAB57D534541_inline(L_1051, L_1052, NULL);
-		// ctrlTouchscreentouch4.pressure = ctrlTouchscreentouch4pressure;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_1053 = V_21;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1054 = V_160;
 		NullCheck(L_1053);
 		TouchControl_set_pressure_mCE69ACE59C4C4DA91CAF53D4D15AF18635995B35_inline(L_1053, L_1054, NULL);
-		// ctrlTouchscreentouch4.radius = ctrlTouchscreentouch4radius;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_1055 = V_21;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_1056 = V_161;
 		NullCheck(L_1055);
 		TouchControl_set_radius_mEBCE66C95D761D48705D49DB0AD1FF2B84E953A1_inline(L_1055, L_1056, NULL);
-		// ctrlTouchscreentouch4.phase = ctrlTouchscreentouch4phase;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_1057 = V_21;
 		TouchPhaseControl_t4652C6E0EBFAFA85A31607769876B02C1C9FCAEC* L_1058 = V_162;
 		NullCheck(L_1057);
 		TouchControl_set_phase_m2C1DF80E1D3F08A1669AB392CFA8767C58704B15_inline(L_1057, L_1058, NULL);
-		// ctrlTouchscreentouch4.indirectTouch = ctrlTouchscreentouch4indirectTouch;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_1059 = V_21;
 		ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* L_1060 = V_165;
 		NullCheck(L_1059);
 		TouchControl_set_indirectTouch_m31B4FC1CAC95B83361F16A1618EFAD7626E03603_inline(L_1059, L_1060, NULL);
-		// ctrlTouchscreentouch4.tap = ctrlTouchscreentouch4tap;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_1061 = V_21;
 		ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* L_1062 = V_166;
 		NullCheck(L_1061);
 		TouchControl_set_tap_mA78E4789E418A40C5B0F5A6B5A296382506DCA9C_inline(L_1061, L_1062, NULL);
-		// ctrlTouchscreentouch4.tapCount = ctrlTouchscreentouch4tapCount;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_1063 = V_21;
 		IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB* L_1064 = V_164;
 		NullCheck(L_1063);
 		TouchControl_set_tapCount_mF2D0B14A18FA26370F834796164678077A4D0357_inline(L_1063, L_1064, NULL);
-		// ctrlTouchscreentouch4.startTime = ctrlTouchscreentouch4startTime;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_1065 = V_21;
 		DoubleControl_t3707A6260424A2F3636669A2BAFF5CB5E91D2486* L_1066 = V_167;
 		NullCheck(L_1065);
 		TouchControl_set_startTime_m3AFEFF9640DFA22A85C4D4C75FAAD462733271E1_inline(L_1065, L_1066, NULL);
-		// ctrlTouchscreentouch4.startPosition = ctrlTouchscreentouch4startPosition;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_1067 = V_21;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_1068 = V_168;
 		NullCheck(L_1067);
 		TouchControl_set_startPosition_m3C4F834E13C3D551917A89725BDE8801F37707F0_inline(L_1067, L_1068, NULL);
-		// ctrlTouchscreentouch5.press = ctrlTouchscreentouch5press;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_1069 = V_22;
 		TouchPressControl_tD5BD68D9FDEAC889591DD7A499864893A43C7CEB* L_1070 = V_187;
 		NullCheck(L_1069);
 		TouchControl_set_press_m267FA7B0E99DE1F598EEA07E8938C99A40BD9855_inline(L_1069, L_1070, NULL);
-		// ctrlTouchscreentouch5.touchId = ctrlTouchscreentouch5touchId;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_1071 = V_22;
 		IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB* L_1072 = V_181;
 		NullCheck(L_1071);
 		TouchControl_set_touchId_mAE9A8C4419AB2EEFD856E21445536E92BC71E8C7_inline(L_1071, L_1072, NULL);
-		// ctrlTouchscreentouch5.position = ctrlTouchscreentouch5position;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_1073 = V_22;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_1074 = V_182;
 		NullCheck(L_1073);
 		TouchControl_set_position_m05BC61FE6B7B6676B4CA766BEEA59C5AC1E6F32E_inline(L_1073, L_1074, NULL);
-		// ctrlTouchscreentouch5.delta = ctrlTouchscreentouch5delta;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_1075 = V_22;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_1076 = V_183;
 		NullCheck(L_1075);
 		TouchControl_set_delta_mB7F970B93CC0BE555C0A4629489DFAB57D534541_inline(L_1075, L_1076, NULL);
-		// ctrlTouchscreentouch5.pressure = ctrlTouchscreentouch5pressure;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_1077 = V_22;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1078 = V_184;
 		NullCheck(L_1077);
 		TouchControl_set_pressure_mCE69ACE59C4C4DA91CAF53D4D15AF18635995B35_inline(L_1077, L_1078, NULL);
-		// ctrlTouchscreentouch5.radius = ctrlTouchscreentouch5radius;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_1079 = V_22;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_1080 = V_185;
 		NullCheck(L_1079);
 		TouchControl_set_radius_mEBCE66C95D761D48705D49DB0AD1FF2B84E953A1_inline(L_1079, L_1080, NULL);
-		// ctrlTouchscreentouch5.phase = ctrlTouchscreentouch5phase;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_1081 = V_22;
 		TouchPhaseControl_t4652C6E0EBFAFA85A31607769876B02C1C9FCAEC* L_1082 = V_186;
 		NullCheck(L_1081);
 		TouchControl_set_phase_m2C1DF80E1D3F08A1669AB392CFA8767C58704B15_inline(L_1081, L_1082, NULL);
-		// ctrlTouchscreentouch5.indirectTouch = ctrlTouchscreentouch5indirectTouch;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_1083 = V_22;
 		ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* L_1084 = V_189;
 		NullCheck(L_1083);
 		TouchControl_set_indirectTouch_m31B4FC1CAC95B83361F16A1618EFAD7626E03603_inline(L_1083, L_1084, NULL);
-		// ctrlTouchscreentouch5.tap = ctrlTouchscreentouch5tap;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_1085 = V_22;
 		ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* L_1086 = V_190;
 		NullCheck(L_1085);
 		TouchControl_set_tap_mA78E4789E418A40C5B0F5A6B5A296382506DCA9C_inline(L_1085, L_1086, NULL);
-		// ctrlTouchscreentouch5.tapCount = ctrlTouchscreentouch5tapCount;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_1087 = V_22;
 		IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB* L_1088 = V_188;
 		NullCheck(L_1087);
 		TouchControl_set_tapCount_mF2D0B14A18FA26370F834796164678077A4D0357_inline(L_1087, L_1088, NULL);
-		// ctrlTouchscreentouch5.startTime = ctrlTouchscreentouch5startTime;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_1089 = V_22;
 		DoubleControl_t3707A6260424A2F3636669A2BAFF5CB5E91D2486* L_1090 = V_191;
 		NullCheck(L_1089);
 		TouchControl_set_startTime_m3AFEFF9640DFA22A85C4D4C75FAAD462733271E1_inline(L_1089, L_1090, NULL);
-		// ctrlTouchscreentouch5.startPosition = ctrlTouchscreentouch5startPosition;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_1091 = V_22;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_1092 = V_192;
 		NullCheck(L_1091);
 		TouchControl_set_startPosition_m3C4F834E13C3D551917A89725BDE8801F37707F0_inline(L_1091, L_1092, NULL);
-		// ctrlTouchscreentouch6.press = ctrlTouchscreentouch6press;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_1093 = V_23;
 		TouchPressControl_tD5BD68D9FDEAC889591DD7A499864893A43C7CEB* L_1094 = V_211;
 		NullCheck(L_1093);
 		TouchControl_set_press_m267FA7B0E99DE1F598EEA07E8938C99A40BD9855_inline(L_1093, L_1094, NULL);
-		// ctrlTouchscreentouch6.touchId = ctrlTouchscreentouch6touchId;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_1095 = V_23;
 		IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB* L_1096 = V_205;
 		NullCheck(L_1095);
 		TouchControl_set_touchId_mAE9A8C4419AB2EEFD856E21445536E92BC71E8C7_inline(L_1095, L_1096, NULL);
-		// ctrlTouchscreentouch6.position = ctrlTouchscreentouch6position;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_1097 = V_23;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_1098 = V_206;
 		NullCheck(L_1097);
 		TouchControl_set_position_m05BC61FE6B7B6676B4CA766BEEA59C5AC1E6F32E_inline(L_1097, L_1098, NULL);
-		// ctrlTouchscreentouch6.delta = ctrlTouchscreentouch6delta;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_1099 = V_23;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_1100 = V_207;
 		NullCheck(L_1099);
 		TouchControl_set_delta_mB7F970B93CC0BE555C0A4629489DFAB57D534541_inline(L_1099, L_1100, NULL);
-		// ctrlTouchscreentouch6.pressure = ctrlTouchscreentouch6pressure;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_1101 = V_23;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1102 = V_208;
 		NullCheck(L_1101);
 		TouchControl_set_pressure_mCE69ACE59C4C4DA91CAF53D4D15AF18635995B35_inline(L_1101, L_1102, NULL);
-		// ctrlTouchscreentouch6.radius = ctrlTouchscreentouch6radius;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_1103 = V_23;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_1104 = V_209;
 		NullCheck(L_1103);
 		TouchControl_set_radius_mEBCE66C95D761D48705D49DB0AD1FF2B84E953A1_inline(L_1103, L_1104, NULL);
-		// ctrlTouchscreentouch6.phase = ctrlTouchscreentouch6phase;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_1105 = V_23;
 		TouchPhaseControl_t4652C6E0EBFAFA85A31607769876B02C1C9FCAEC* L_1106 = V_210;
 		NullCheck(L_1105);
 		TouchControl_set_phase_m2C1DF80E1D3F08A1669AB392CFA8767C58704B15_inline(L_1105, L_1106, NULL);
-		// ctrlTouchscreentouch6.indirectTouch = ctrlTouchscreentouch6indirectTouch;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_1107 = V_23;
 		ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* L_1108 = V_213;
 		NullCheck(L_1107);
 		TouchControl_set_indirectTouch_m31B4FC1CAC95B83361F16A1618EFAD7626E03603_inline(L_1107, L_1108, NULL);
-		// ctrlTouchscreentouch6.tap = ctrlTouchscreentouch6tap;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_1109 = V_23;
 		ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* L_1110 = V_214;
 		NullCheck(L_1109);
 		TouchControl_set_tap_mA78E4789E418A40C5B0F5A6B5A296382506DCA9C_inline(L_1109, L_1110, NULL);
-		// ctrlTouchscreentouch6.tapCount = ctrlTouchscreentouch6tapCount;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_1111 = V_23;
 		IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB* L_1112 = V_212;
 		NullCheck(L_1111);
 		TouchControl_set_tapCount_mF2D0B14A18FA26370F834796164678077A4D0357_inline(L_1111, L_1112, NULL);
-		// ctrlTouchscreentouch6.startTime = ctrlTouchscreentouch6startTime;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_1113 = V_23;
 		DoubleControl_t3707A6260424A2F3636669A2BAFF5CB5E91D2486* L_1114 = V_215;
 		NullCheck(L_1113);
 		TouchControl_set_startTime_m3AFEFF9640DFA22A85C4D4C75FAAD462733271E1_inline(L_1113, L_1114, NULL);
-		// ctrlTouchscreentouch6.startPosition = ctrlTouchscreentouch6startPosition;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_1115 = V_23;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_1116 = V_216;
 		NullCheck(L_1115);
 		TouchControl_set_startPosition_m3C4F834E13C3D551917A89725BDE8801F37707F0_inline(L_1115, L_1116, NULL);
-		// ctrlTouchscreentouch7.press = ctrlTouchscreentouch7press;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_1117 = V_24;
 		TouchPressControl_tD5BD68D9FDEAC889591DD7A499864893A43C7CEB* L_1118 = V_235;
 		NullCheck(L_1117);
 		TouchControl_set_press_m267FA7B0E99DE1F598EEA07E8938C99A40BD9855_inline(L_1117, L_1118, NULL);
-		// ctrlTouchscreentouch7.touchId = ctrlTouchscreentouch7touchId;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_1119 = V_24;
 		IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB* L_1120 = V_229;
 		NullCheck(L_1119);
 		TouchControl_set_touchId_mAE9A8C4419AB2EEFD856E21445536E92BC71E8C7_inline(L_1119, L_1120, NULL);
-		// ctrlTouchscreentouch7.position = ctrlTouchscreentouch7position;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_1121 = V_24;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_1122 = V_230;
 		NullCheck(L_1121);
 		TouchControl_set_position_m05BC61FE6B7B6676B4CA766BEEA59C5AC1E6F32E_inline(L_1121, L_1122, NULL);
-		// ctrlTouchscreentouch7.delta = ctrlTouchscreentouch7delta;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_1123 = V_24;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_1124 = V_231;
 		NullCheck(L_1123);
 		TouchControl_set_delta_mB7F970B93CC0BE555C0A4629489DFAB57D534541_inline(L_1123, L_1124, NULL);
-		// ctrlTouchscreentouch7.pressure = ctrlTouchscreentouch7pressure;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_1125 = V_24;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1126 = V_232;
 		NullCheck(L_1125);
 		TouchControl_set_pressure_mCE69ACE59C4C4DA91CAF53D4D15AF18635995B35_inline(L_1125, L_1126, NULL);
-		// ctrlTouchscreentouch7.radius = ctrlTouchscreentouch7radius;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_1127 = V_24;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_1128 = V_233;
 		NullCheck(L_1127);
 		TouchControl_set_radius_mEBCE66C95D761D48705D49DB0AD1FF2B84E953A1_inline(L_1127, L_1128, NULL);
-		// ctrlTouchscreentouch7.phase = ctrlTouchscreentouch7phase;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_1129 = V_24;
 		TouchPhaseControl_t4652C6E0EBFAFA85A31607769876B02C1C9FCAEC* L_1130 = V_234;
 		NullCheck(L_1129);
 		TouchControl_set_phase_m2C1DF80E1D3F08A1669AB392CFA8767C58704B15_inline(L_1129, L_1130, NULL);
-		// ctrlTouchscreentouch7.indirectTouch = ctrlTouchscreentouch7indirectTouch;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_1131 = V_24;
 		ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* L_1132 = V_237;
 		NullCheck(L_1131);
 		TouchControl_set_indirectTouch_m31B4FC1CAC95B83361F16A1618EFAD7626E03603_inline(L_1131, L_1132, NULL);
-		// ctrlTouchscreentouch7.tap = ctrlTouchscreentouch7tap;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_1133 = V_24;
 		ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* L_1134 = V_238;
 		NullCheck(L_1133);
 		TouchControl_set_tap_mA78E4789E418A40C5B0F5A6B5A296382506DCA9C_inline(L_1133, L_1134, NULL);
-		// ctrlTouchscreentouch7.tapCount = ctrlTouchscreentouch7tapCount;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_1135 = V_24;
 		IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB* L_1136 = V_236;
 		NullCheck(L_1135);
 		TouchControl_set_tapCount_mF2D0B14A18FA26370F834796164678077A4D0357_inline(L_1135, L_1136, NULL);
-		// ctrlTouchscreentouch7.startTime = ctrlTouchscreentouch7startTime;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_1137 = V_24;
 		DoubleControl_t3707A6260424A2F3636669A2BAFF5CB5E91D2486* L_1138 = V_239;
 		NullCheck(L_1137);
 		TouchControl_set_startTime_m3AFEFF9640DFA22A85C4D4C75FAAD462733271E1_inline(L_1137, L_1138, NULL);
-		// ctrlTouchscreentouch7.startPosition = ctrlTouchscreentouch7startPosition;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_1139 = V_24;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_1140 = V_240;
 		NullCheck(L_1139);
 		TouchControl_set_startPosition_m3C4F834E13C3D551917A89725BDE8801F37707F0_inline(L_1139, L_1140, NULL);
-		// ctrlTouchscreentouch8.press = ctrlTouchscreentouch8press;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_1141 = V_25;
 		TouchPressControl_tD5BD68D9FDEAC889591DD7A499864893A43C7CEB* L_1142 = V_259;
 		NullCheck(L_1141);
 		TouchControl_set_press_m267FA7B0E99DE1F598EEA07E8938C99A40BD9855_inline(L_1141, L_1142, NULL);
-		// ctrlTouchscreentouch8.touchId = ctrlTouchscreentouch8touchId;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_1143 = V_25;
 		IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB* L_1144 = V_253;
 		NullCheck(L_1143);
 		TouchControl_set_touchId_mAE9A8C4419AB2EEFD856E21445536E92BC71E8C7_inline(L_1143, L_1144, NULL);
-		// ctrlTouchscreentouch8.position = ctrlTouchscreentouch8position;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_1145 = V_25;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_1146 = V_254;
 		NullCheck(L_1145);
 		TouchControl_set_position_m05BC61FE6B7B6676B4CA766BEEA59C5AC1E6F32E_inline(L_1145, L_1146, NULL);
-		// ctrlTouchscreentouch8.delta = ctrlTouchscreentouch8delta;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_1147 = V_25;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_1148 = V_255;
 		NullCheck(L_1147);
 		TouchControl_set_delta_mB7F970B93CC0BE555C0A4629489DFAB57D534541_inline(L_1147, L_1148, NULL);
-		// ctrlTouchscreentouch8.pressure = ctrlTouchscreentouch8pressure;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_1149 = V_25;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1150 = V_256;
 		NullCheck(L_1149);
 		TouchControl_set_pressure_mCE69ACE59C4C4DA91CAF53D4D15AF18635995B35_inline(L_1149, L_1150, NULL);
-		// ctrlTouchscreentouch8.radius = ctrlTouchscreentouch8radius;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_1151 = V_25;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_1152 = V_257;
 		NullCheck(L_1151);
 		TouchControl_set_radius_mEBCE66C95D761D48705D49DB0AD1FF2B84E953A1_inline(L_1151, L_1152, NULL);
-		// ctrlTouchscreentouch8.phase = ctrlTouchscreentouch8phase;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_1153 = V_25;
 		TouchPhaseControl_t4652C6E0EBFAFA85A31607769876B02C1C9FCAEC* L_1154 = V_258;
 		NullCheck(L_1153);
 		TouchControl_set_phase_m2C1DF80E1D3F08A1669AB392CFA8767C58704B15_inline(L_1153, L_1154, NULL);
-		// ctrlTouchscreentouch8.indirectTouch = ctrlTouchscreentouch8indirectTouch;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_1155 = V_25;
 		ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* L_1156 = V_261;
 		NullCheck(L_1155);
 		TouchControl_set_indirectTouch_m31B4FC1CAC95B83361F16A1618EFAD7626E03603_inline(L_1155, L_1156, NULL);
-		// ctrlTouchscreentouch8.tap = ctrlTouchscreentouch8tap;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_1157 = V_25;
 		ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* L_1158 = V_262;
 		NullCheck(L_1157);
 		TouchControl_set_tap_mA78E4789E418A40C5B0F5A6B5A296382506DCA9C_inline(L_1157, L_1158, NULL);
-		// ctrlTouchscreentouch8.tapCount = ctrlTouchscreentouch8tapCount;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_1159 = V_25;
 		IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB* L_1160 = V_260;
 		NullCheck(L_1159);
 		TouchControl_set_tapCount_mF2D0B14A18FA26370F834796164678077A4D0357_inline(L_1159, L_1160, NULL);
-		// ctrlTouchscreentouch8.startTime = ctrlTouchscreentouch8startTime;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_1161 = V_25;
 		DoubleControl_t3707A6260424A2F3636669A2BAFF5CB5E91D2486* L_1162 = V_263;
 		NullCheck(L_1161);
 		TouchControl_set_startTime_m3AFEFF9640DFA22A85C4D4C75FAAD462733271E1_inline(L_1161, L_1162, NULL);
-		// ctrlTouchscreentouch8.startPosition = ctrlTouchscreentouch8startPosition;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_1163 = V_25;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_1164 = V_264;
 		NullCheck(L_1163);
 		TouchControl_set_startPosition_m3C4F834E13C3D551917A89725BDE8801F37707F0_inline(L_1163, L_1164, NULL);
-		// ctrlTouchscreentouch9.press = ctrlTouchscreentouch9press;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_1165 = V_26;
 		TouchPressControl_tD5BD68D9FDEAC889591DD7A499864893A43C7CEB* L_1166 = V_283;
 		NullCheck(L_1165);
 		TouchControl_set_press_m267FA7B0E99DE1F598EEA07E8938C99A40BD9855_inline(L_1165, L_1166, NULL);
-		// ctrlTouchscreentouch9.touchId = ctrlTouchscreentouch9touchId;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_1167 = V_26;
 		IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB* L_1168 = V_277;
 		NullCheck(L_1167);
 		TouchControl_set_touchId_mAE9A8C4419AB2EEFD856E21445536E92BC71E8C7_inline(L_1167, L_1168, NULL);
-		// ctrlTouchscreentouch9.position = ctrlTouchscreentouch9position;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_1169 = V_26;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_1170 = V_278;
 		NullCheck(L_1169);
 		TouchControl_set_position_m05BC61FE6B7B6676B4CA766BEEA59C5AC1E6F32E_inline(L_1169, L_1170, NULL);
-		// ctrlTouchscreentouch9.delta = ctrlTouchscreentouch9delta;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_1171 = V_26;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_1172 = V_279;
 		NullCheck(L_1171);
 		TouchControl_set_delta_mB7F970B93CC0BE555C0A4629489DFAB57D534541_inline(L_1171, L_1172, NULL);
-		// ctrlTouchscreentouch9.pressure = ctrlTouchscreentouch9pressure;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_1173 = V_26;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1174 = V_280;
 		NullCheck(L_1173);
 		TouchControl_set_pressure_mCE69ACE59C4C4DA91CAF53D4D15AF18635995B35_inline(L_1173, L_1174, NULL);
-		// ctrlTouchscreentouch9.radius = ctrlTouchscreentouch9radius;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_1175 = V_26;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_1176 = V_281;
 		NullCheck(L_1175);
 		TouchControl_set_radius_mEBCE66C95D761D48705D49DB0AD1FF2B84E953A1_inline(L_1175, L_1176, NULL);
-		// ctrlTouchscreentouch9.phase = ctrlTouchscreentouch9phase;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_1177 = V_26;
 		TouchPhaseControl_t4652C6E0EBFAFA85A31607769876B02C1C9FCAEC* L_1178 = V_282;
 		NullCheck(L_1177);
 		TouchControl_set_phase_m2C1DF80E1D3F08A1669AB392CFA8767C58704B15_inline(L_1177, L_1178, NULL);
-		// ctrlTouchscreentouch9.indirectTouch = ctrlTouchscreentouch9indirectTouch;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_1179 = V_26;
 		ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* L_1180 = V_285;
 		NullCheck(L_1179);
 		TouchControl_set_indirectTouch_m31B4FC1CAC95B83361F16A1618EFAD7626E03603_inline(L_1179, L_1180, NULL);
-		// ctrlTouchscreentouch9.tap = ctrlTouchscreentouch9tap;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_1181 = V_26;
 		ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* L_1182 = V_286;
 		NullCheck(L_1181);
 		TouchControl_set_tap_mA78E4789E418A40C5B0F5A6B5A296382506DCA9C_inline(L_1181, L_1182, NULL);
-		// ctrlTouchscreentouch9.tapCount = ctrlTouchscreentouch9tapCount;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_1183 = V_26;
 		IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB* L_1184 = V_284;
 		NullCheck(L_1183);
 		TouchControl_set_tapCount_mF2D0B14A18FA26370F834796164678077A4D0357_inline(L_1183, L_1184, NULL);
-		// ctrlTouchscreentouch9.startTime = ctrlTouchscreentouch9startTime;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_1185 = V_26;
 		DoubleControl_t3707A6260424A2F3636669A2BAFF5CB5E91D2486* L_1186 = V_287;
 		NullCheck(L_1185);
 		TouchControl_set_startTime_m3AFEFF9640DFA22A85C4D4C75FAAD462733271E1_inline(L_1185, L_1186, NULL);
-		// ctrlTouchscreentouch9.startPosition = ctrlTouchscreentouch9startPosition;
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_1187 = V_26;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_1188 = V_288;
 		NullCheck(L_1187);
 		TouchControl_set_startPosition_m3C4F834E13C3D551917A89725BDE8801F37707F0_inline(L_1187, L_1188, NULL);
-		// ctrlTouchscreenprimaryTouchposition.x = ctrlTouchscreenprimaryTouchpositionx;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_1189 = V_28;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1190 = V_39;
 		NullCheck(L_1189);
 		Vector2Control_set_x_m99BE9EF688C3B153DA726627B3CBD724F8D20BE1_inline(L_1189, L_1190, NULL);
-		// ctrlTouchscreenprimaryTouchposition.y = ctrlTouchscreenprimaryTouchpositiony;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_1191 = V_28;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1192 = V_40;
 		NullCheck(L_1191);
 		Vector2Control_set_y_m9023BACC80F2CF0AE28E2F5D0E9BBA54104E89F8_inline(L_1191, L_1192, NULL);
-		// ctrlTouchscreenprimaryTouchdelta.up = ctrlTouchscreenprimaryTouchdeltaup;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_1193 = V_29;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1194 = V_41;
 		NullCheck(L_1193);
 		DeltaControl_set_up_m738DF0E92B973E4E6AF5BE9A115458717B745174_inline(L_1193, L_1194, NULL);
-		// ctrlTouchscreenprimaryTouchdelta.down = ctrlTouchscreenprimaryTouchdeltadown;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_1195 = V_29;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1196 = V_42;
 		NullCheck(L_1195);
 		DeltaControl_set_down_mD809599F9F67F402EEFC805F315C0D72F35FFCF0_inline(L_1195, L_1196, NULL);
-		// ctrlTouchscreenprimaryTouchdelta.left = ctrlTouchscreenprimaryTouchdeltaleft;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_1197 = V_29;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1198 = V_43;
 		NullCheck(L_1197);
 		DeltaControl_set_left_m1C0E45C2868801280CC30474B9368F23B7400697_inline(L_1197, L_1198, NULL);
-		// ctrlTouchscreenprimaryTouchdelta.right = ctrlTouchscreenprimaryTouchdeltaright;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_1199 = V_29;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1200 = V_44;
 		NullCheck(L_1199);
 		DeltaControl_set_right_m60FBA0555C4E7CA40954DA7EE6BBC0E0032B0905_inline(L_1199, L_1200, NULL);
-		// ctrlTouchscreenprimaryTouchdelta.x = ctrlTouchscreenprimaryTouchdeltax;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_1201 = V_29;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1202 = V_45;
 		NullCheck(L_1201);
 		Vector2Control_set_x_m99BE9EF688C3B153DA726627B3CBD724F8D20BE1_inline(L_1201, L_1202, NULL);
-		// ctrlTouchscreenprimaryTouchdelta.y = ctrlTouchscreenprimaryTouchdeltay;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_1203 = V_29;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1204 = V_46;
 		NullCheck(L_1203);
 		Vector2Control_set_y_m9023BACC80F2CF0AE28E2F5D0E9BBA54104E89F8_inline(L_1203, L_1204, NULL);
-		// ctrlTouchscreenprimaryTouchradius.x = ctrlTouchscreenprimaryTouchradiusx;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_1205 = V_31;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1206 = V_47;
 		NullCheck(L_1205);
 		Vector2Control_set_x_m99BE9EF688C3B153DA726627B3CBD724F8D20BE1_inline(L_1205, L_1206, NULL);
-		// ctrlTouchscreenprimaryTouchradius.y = ctrlTouchscreenprimaryTouchradiusy;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_1207 = V_31;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1208 = V_48;
 		NullCheck(L_1207);
 		Vector2Control_set_y_m9023BACC80F2CF0AE28E2F5D0E9BBA54104E89F8_inline(L_1207, L_1208, NULL);
-		// ctrlTouchscreenprimaryTouchstartPosition.x = ctrlTouchscreenprimaryTouchstartPositionx;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_1209 = V_38;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1210 = V_49;
 		NullCheck(L_1209);
 		Vector2Control_set_x_m99BE9EF688C3B153DA726627B3CBD724F8D20BE1_inline(L_1209, L_1210, NULL);
-		// ctrlTouchscreenprimaryTouchstartPosition.y = ctrlTouchscreenprimaryTouchstartPositiony;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_1211 = V_38;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1212 = V_50;
 		NullCheck(L_1211);
 		Vector2Control_set_y_m9023BACC80F2CF0AE28E2F5D0E9BBA54104E89F8_inline(L_1211, L_1212, NULL);
-		// ctrlTouchscreentouch0position.x = ctrlTouchscreentouch0positionx;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_1213 = V_62;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1214 = V_73;
 		NullCheck(L_1213);
 		Vector2Control_set_x_m99BE9EF688C3B153DA726627B3CBD724F8D20BE1_inline(L_1213, L_1214, NULL);
-		// ctrlTouchscreentouch0position.y = ctrlTouchscreentouch0positiony;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_1215 = V_62;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1216 = V_74;
 		NullCheck(L_1215);
 		Vector2Control_set_y_m9023BACC80F2CF0AE28E2F5D0E9BBA54104E89F8_inline(L_1215, L_1216, NULL);
-		// ctrlTouchscreentouch0delta.up = ctrlTouchscreentouch0deltaup;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_1217 = V_63;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1218 = V_75;
 		NullCheck(L_1217);
 		DeltaControl_set_up_m738DF0E92B973E4E6AF5BE9A115458717B745174_inline(L_1217, L_1218, NULL);
-		// ctrlTouchscreentouch0delta.down = ctrlTouchscreentouch0deltadown;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_1219 = V_63;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1220 = V_76;
 		NullCheck(L_1219);
 		DeltaControl_set_down_mD809599F9F67F402EEFC805F315C0D72F35FFCF0_inline(L_1219, L_1220, NULL);
-		// ctrlTouchscreentouch0delta.left = ctrlTouchscreentouch0deltaleft;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_1221 = V_63;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1222 = V_77;
 		NullCheck(L_1221);
 		DeltaControl_set_left_m1C0E45C2868801280CC30474B9368F23B7400697_inline(L_1221, L_1222, NULL);
-		// ctrlTouchscreentouch0delta.right = ctrlTouchscreentouch0deltaright;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_1223 = V_63;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1224 = V_78;
 		NullCheck(L_1223);
 		DeltaControl_set_right_m60FBA0555C4E7CA40954DA7EE6BBC0E0032B0905_inline(L_1223, L_1224, NULL);
-		// ctrlTouchscreentouch0delta.x = ctrlTouchscreentouch0deltax;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_1225 = V_63;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1226 = V_79;
 		NullCheck(L_1225);
 		Vector2Control_set_x_m99BE9EF688C3B153DA726627B3CBD724F8D20BE1_inline(L_1225, L_1226, NULL);
-		// ctrlTouchscreentouch0delta.y = ctrlTouchscreentouch0deltay;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_1227 = V_63;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1228 = V_80;
 		NullCheck(L_1227);
 		Vector2Control_set_y_m9023BACC80F2CF0AE28E2F5D0E9BBA54104E89F8_inline(L_1227, L_1228, NULL);
-		// ctrlTouchscreentouch0radius.x = ctrlTouchscreentouch0radiusx;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_1229 = V_65;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1230 = V_81;
 		NullCheck(L_1229);
 		Vector2Control_set_x_m99BE9EF688C3B153DA726627B3CBD724F8D20BE1_inline(L_1229, L_1230, NULL);
-		// ctrlTouchscreentouch0radius.y = ctrlTouchscreentouch0radiusy;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_1231 = V_65;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1232 = V_82;
 		NullCheck(L_1231);
 		Vector2Control_set_y_m9023BACC80F2CF0AE28E2F5D0E9BBA54104E89F8_inline(L_1231, L_1232, NULL);
-		// ctrlTouchscreentouch0startPosition.x = ctrlTouchscreentouch0startPositionx;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_1233 = V_72;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1234 = V_83;
 		NullCheck(L_1233);
 		Vector2Control_set_x_m99BE9EF688C3B153DA726627B3CBD724F8D20BE1_inline(L_1233, L_1234, NULL);
-		// ctrlTouchscreentouch0startPosition.y = ctrlTouchscreentouch0startPositiony;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_1235 = V_72;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1236 = V_84;
 		NullCheck(L_1235);
 		Vector2Control_set_y_m9023BACC80F2CF0AE28E2F5D0E9BBA54104E89F8_inline(L_1235, L_1236, NULL);
-		// ctrlTouchscreentouch1position.x = ctrlTouchscreentouch1positionx;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_1237 = V_86;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1238 = V_97;
 		NullCheck(L_1237);
 		Vector2Control_set_x_m99BE9EF688C3B153DA726627B3CBD724F8D20BE1_inline(L_1237, L_1238, NULL);
-		// ctrlTouchscreentouch1position.y = ctrlTouchscreentouch1positiony;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_1239 = V_86;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1240 = V_98;
 		NullCheck(L_1239);
 		Vector2Control_set_y_m9023BACC80F2CF0AE28E2F5D0E9BBA54104E89F8_inline(L_1239, L_1240, NULL);
-		// ctrlTouchscreentouch1delta.up = ctrlTouchscreentouch1deltaup;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_1241 = V_87;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1242 = V_99;
 		NullCheck(L_1241);
 		DeltaControl_set_up_m738DF0E92B973E4E6AF5BE9A115458717B745174_inline(L_1241, L_1242, NULL);
-		// ctrlTouchscreentouch1delta.down = ctrlTouchscreentouch1deltadown;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_1243 = V_87;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1244 = V_100;
 		NullCheck(L_1243);
 		DeltaControl_set_down_mD809599F9F67F402EEFC805F315C0D72F35FFCF0_inline(L_1243, L_1244, NULL);
-		// ctrlTouchscreentouch1delta.left = ctrlTouchscreentouch1deltaleft;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_1245 = V_87;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1246 = V_101;
 		NullCheck(L_1245);
 		DeltaControl_set_left_m1C0E45C2868801280CC30474B9368F23B7400697_inline(L_1245, L_1246, NULL);
-		// ctrlTouchscreentouch1delta.right = ctrlTouchscreentouch1deltaright;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_1247 = V_87;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1248 = V_102;
 		NullCheck(L_1247);
 		DeltaControl_set_right_m60FBA0555C4E7CA40954DA7EE6BBC0E0032B0905_inline(L_1247, L_1248, NULL);
-		// ctrlTouchscreentouch1delta.x = ctrlTouchscreentouch1deltax;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_1249 = V_87;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1250 = V_103;
 		NullCheck(L_1249);
 		Vector2Control_set_x_m99BE9EF688C3B153DA726627B3CBD724F8D20BE1_inline(L_1249, L_1250, NULL);
-		// ctrlTouchscreentouch1delta.y = ctrlTouchscreentouch1deltay;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_1251 = V_87;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1252 = V_104;
 		NullCheck(L_1251);
 		Vector2Control_set_y_m9023BACC80F2CF0AE28E2F5D0E9BBA54104E89F8_inline(L_1251, L_1252, NULL);
-		// ctrlTouchscreentouch1radius.x = ctrlTouchscreentouch1radiusx;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_1253 = V_89;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1254 = V_105;
 		NullCheck(L_1253);
 		Vector2Control_set_x_m99BE9EF688C3B153DA726627B3CBD724F8D20BE1_inline(L_1253, L_1254, NULL);
-		// ctrlTouchscreentouch1radius.y = ctrlTouchscreentouch1radiusy;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_1255 = V_89;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1256 = V_106;
 		NullCheck(L_1255);
 		Vector2Control_set_y_m9023BACC80F2CF0AE28E2F5D0E9BBA54104E89F8_inline(L_1255, L_1256, NULL);
-		// ctrlTouchscreentouch1startPosition.x = ctrlTouchscreentouch1startPositionx;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_1257 = V_96;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1258 = V_107;
 		NullCheck(L_1257);
 		Vector2Control_set_x_m99BE9EF688C3B153DA726627B3CBD724F8D20BE1_inline(L_1257, L_1258, NULL);
-		// ctrlTouchscreentouch1startPosition.y = ctrlTouchscreentouch1startPositiony;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_1259 = V_96;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1260 = V_108;
 		NullCheck(L_1259);
 		Vector2Control_set_y_m9023BACC80F2CF0AE28E2F5D0E9BBA54104E89F8_inline(L_1259, L_1260, NULL);
-		// ctrlTouchscreentouch2position.x = ctrlTouchscreentouch2positionx;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_1261 = V_110;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1262 = V_121;
 		NullCheck(L_1261);
 		Vector2Control_set_x_m99BE9EF688C3B153DA726627B3CBD724F8D20BE1_inline(L_1261, L_1262, NULL);
-		// ctrlTouchscreentouch2position.y = ctrlTouchscreentouch2positiony;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_1263 = V_110;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1264 = V_122;
 		NullCheck(L_1263);
 		Vector2Control_set_y_m9023BACC80F2CF0AE28E2F5D0E9BBA54104E89F8_inline(L_1263, L_1264, NULL);
-		// ctrlTouchscreentouch2delta.up = ctrlTouchscreentouch2deltaup;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_1265 = V_111;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1266 = V_123;
 		NullCheck(L_1265);
 		DeltaControl_set_up_m738DF0E92B973E4E6AF5BE9A115458717B745174_inline(L_1265, L_1266, NULL);
-		// ctrlTouchscreentouch2delta.down = ctrlTouchscreentouch2deltadown;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_1267 = V_111;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1268 = V_124;
 		NullCheck(L_1267);
 		DeltaControl_set_down_mD809599F9F67F402EEFC805F315C0D72F35FFCF0_inline(L_1267, L_1268, NULL);
-		// ctrlTouchscreentouch2delta.left = ctrlTouchscreentouch2deltaleft;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_1269 = V_111;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1270 = V_125;
 		NullCheck(L_1269);
 		DeltaControl_set_left_m1C0E45C2868801280CC30474B9368F23B7400697_inline(L_1269, L_1270, NULL);
-		// ctrlTouchscreentouch2delta.right = ctrlTouchscreentouch2deltaright;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_1271 = V_111;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1272 = V_126;
 		NullCheck(L_1271);
 		DeltaControl_set_right_m60FBA0555C4E7CA40954DA7EE6BBC0E0032B0905_inline(L_1271, L_1272, NULL);
-		// ctrlTouchscreentouch2delta.x = ctrlTouchscreentouch2deltax;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_1273 = V_111;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1274 = V_127;
 		NullCheck(L_1273);
 		Vector2Control_set_x_m99BE9EF688C3B153DA726627B3CBD724F8D20BE1_inline(L_1273, L_1274, NULL);
-		// ctrlTouchscreentouch2delta.y = ctrlTouchscreentouch2deltay;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_1275 = V_111;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1276 = V_128;
 		NullCheck(L_1275);
 		Vector2Control_set_y_m9023BACC80F2CF0AE28E2F5D0E9BBA54104E89F8_inline(L_1275, L_1276, NULL);
-		// ctrlTouchscreentouch2radius.x = ctrlTouchscreentouch2radiusx;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_1277 = V_113;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1278 = V_129;
 		NullCheck(L_1277);
 		Vector2Control_set_x_m99BE9EF688C3B153DA726627B3CBD724F8D20BE1_inline(L_1277, L_1278, NULL);
-		// ctrlTouchscreentouch2radius.y = ctrlTouchscreentouch2radiusy;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_1279 = V_113;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1280 = V_130;
 		NullCheck(L_1279);
 		Vector2Control_set_y_m9023BACC80F2CF0AE28E2F5D0E9BBA54104E89F8_inline(L_1279, L_1280, NULL);
-		// ctrlTouchscreentouch2startPosition.x = ctrlTouchscreentouch2startPositionx;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_1281 = V_120;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1282 = V_131;
 		NullCheck(L_1281);
 		Vector2Control_set_x_m99BE9EF688C3B153DA726627B3CBD724F8D20BE1_inline(L_1281, L_1282, NULL);
-		// ctrlTouchscreentouch2startPosition.y = ctrlTouchscreentouch2startPositiony;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_1283 = V_120;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1284 = V_132;
 		NullCheck(L_1283);
 		Vector2Control_set_y_m9023BACC80F2CF0AE28E2F5D0E9BBA54104E89F8_inline(L_1283, L_1284, NULL);
-		// ctrlTouchscreentouch3position.x = ctrlTouchscreentouch3positionx;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_1285 = V_134;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1286 = V_145;
 		NullCheck(L_1285);
 		Vector2Control_set_x_m99BE9EF688C3B153DA726627B3CBD724F8D20BE1_inline(L_1285, L_1286, NULL);
-		// ctrlTouchscreentouch3position.y = ctrlTouchscreentouch3positiony;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_1287 = V_134;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1288 = V_146;
 		NullCheck(L_1287);
 		Vector2Control_set_y_m9023BACC80F2CF0AE28E2F5D0E9BBA54104E89F8_inline(L_1287, L_1288, NULL);
-		// ctrlTouchscreentouch3delta.up = ctrlTouchscreentouch3deltaup;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_1289 = V_135;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1290 = V_147;
 		NullCheck(L_1289);
 		DeltaControl_set_up_m738DF0E92B973E4E6AF5BE9A115458717B745174_inline(L_1289, L_1290, NULL);
-		// ctrlTouchscreentouch3delta.down = ctrlTouchscreentouch3deltadown;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_1291 = V_135;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1292 = V_148;
 		NullCheck(L_1291);
 		DeltaControl_set_down_mD809599F9F67F402EEFC805F315C0D72F35FFCF0_inline(L_1291, L_1292, NULL);
-		// ctrlTouchscreentouch3delta.left = ctrlTouchscreentouch3deltaleft;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_1293 = V_135;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1294 = V_149;
 		NullCheck(L_1293);
 		DeltaControl_set_left_m1C0E45C2868801280CC30474B9368F23B7400697_inline(L_1293, L_1294, NULL);
-		// ctrlTouchscreentouch3delta.right = ctrlTouchscreentouch3deltaright;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_1295 = V_135;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1296 = V_150;
 		NullCheck(L_1295);
 		DeltaControl_set_right_m60FBA0555C4E7CA40954DA7EE6BBC0E0032B0905_inline(L_1295, L_1296, NULL);
-		// ctrlTouchscreentouch3delta.x = ctrlTouchscreentouch3deltax;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_1297 = V_135;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1298 = V_151;
 		NullCheck(L_1297);
 		Vector2Control_set_x_m99BE9EF688C3B153DA726627B3CBD724F8D20BE1_inline(L_1297, L_1298, NULL);
-		// ctrlTouchscreentouch3delta.y = ctrlTouchscreentouch3deltay;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_1299 = V_135;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1300 = V_152;
 		NullCheck(L_1299);
 		Vector2Control_set_y_m9023BACC80F2CF0AE28E2F5D0E9BBA54104E89F8_inline(L_1299, L_1300, NULL);
-		// ctrlTouchscreentouch3radius.x = ctrlTouchscreentouch3radiusx;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_1301 = V_137;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1302 = V_153;
 		NullCheck(L_1301);
 		Vector2Control_set_x_m99BE9EF688C3B153DA726627B3CBD724F8D20BE1_inline(L_1301, L_1302, NULL);
-		// ctrlTouchscreentouch3radius.y = ctrlTouchscreentouch3radiusy;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_1303 = V_137;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1304 = V_154;
 		NullCheck(L_1303);
 		Vector2Control_set_y_m9023BACC80F2CF0AE28E2F5D0E9BBA54104E89F8_inline(L_1303, L_1304, NULL);
-		// ctrlTouchscreentouch3startPosition.x = ctrlTouchscreentouch3startPositionx;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_1305 = V_144;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1306 = V_155;
 		NullCheck(L_1305);
 		Vector2Control_set_x_m99BE9EF688C3B153DA726627B3CBD724F8D20BE1_inline(L_1305, L_1306, NULL);
-		// ctrlTouchscreentouch3startPosition.y = ctrlTouchscreentouch3startPositiony;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_1307 = V_144;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1308 = V_156;
 		NullCheck(L_1307);
 		Vector2Control_set_y_m9023BACC80F2CF0AE28E2F5D0E9BBA54104E89F8_inline(L_1307, L_1308, NULL);
-		// ctrlTouchscreentouch4position.x = ctrlTouchscreentouch4positionx;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_1309 = V_158;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1310 = V_169;
 		NullCheck(L_1309);
 		Vector2Control_set_x_m99BE9EF688C3B153DA726627B3CBD724F8D20BE1_inline(L_1309, L_1310, NULL);
-		// ctrlTouchscreentouch4position.y = ctrlTouchscreentouch4positiony;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_1311 = V_158;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1312 = V_170;
 		NullCheck(L_1311);
 		Vector2Control_set_y_m9023BACC80F2CF0AE28E2F5D0E9BBA54104E89F8_inline(L_1311, L_1312, NULL);
-		// ctrlTouchscreentouch4delta.up = ctrlTouchscreentouch4deltaup;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_1313 = V_159;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1314 = V_171;
 		NullCheck(L_1313);
 		DeltaControl_set_up_m738DF0E92B973E4E6AF5BE9A115458717B745174_inline(L_1313, L_1314, NULL);
-		// ctrlTouchscreentouch4delta.down = ctrlTouchscreentouch4deltadown;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_1315 = V_159;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1316 = V_172;
 		NullCheck(L_1315);
 		DeltaControl_set_down_mD809599F9F67F402EEFC805F315C0D72F35FFCF0_inline(L_1315, L_1316, NULL);
-		// ctrlTouchscreentouch4delta.left = ctrlTouchscreentouch4deltaleft;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_1317 = V_159;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1318 = V_173;
 		NullCheck(L_1317);
 		DeltaControl_set_left_m1C0E45C2868801280CC30474B9368F23B7400697_inline(L_1317, L_1318, NULL);
-		// ctrlTouchscreentouch4delta.right = ctrlTouchscreentouch4deltaright;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_1319 = V_159;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1320 = V_174;
 		NullCheck(L_1319);
 		DeltaControl_set_right_m60FBA0555C4E7CA40954DA7EE6BBC0E0032B0905_inline(L_1319, L_1320, NULL);
-		// ctrlTouchscreentouch4delta.x = ctrlTouchscreentouch4deltax;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_1321 = V_159;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1322 = V_175;
 		NullCheck(L_1321);
 		Vector2Control_set_x_m99BE9EF688C3B153DA726627B3CBD724F8D20BE1_inline(L_1321, L_1322, NULL);
-		// ctrlTouchscreentouch4delta.y = ctrlTouchscreentouch4deltay;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_1323 = V_159;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1324 = V_176;
 		NullCheck(L_1323);
 		Vector2Control_set_y_m9023BACC80F2CF0AE28E2F5D0E9BBA54104E89F8_inline(L_1323, L_1324, NULL);
-		// ctrlTouchscreentouch4radius.x = ctrlTouchscreentouch4radiusx;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_1325 = V_161;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1326 = V_177;
 		NullCheck(L_1325);
 		Vector2Control_set_x_m99BE9EF688C3B153DA726627B3CBD724F8D20BE1_inline(L_1325, L_1326, NULL);
-		// ctrlTouchscreentouch4radius.y = ctrlTouchscreentouch4radiusy;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_1327 = V_161;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1328 = V_178;
 		NullCheck(L_1327);
 		Vector2Control_set_y_m9023BACC80F2CF0AE28E2F5D0E9BBA54104E89F8_inline(L_1327, L_1328, NULL);
-		// ctrlTouchscreentouch4startPosition.x = ctrlTouchscreentouch4startPositionx;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_1329 = V_168;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1330 = V_179;
 		NullCheck(L_1329);
 		Vector2Control_set_x_m99BE9EF688C3B153DA726627B3CBD724F8D20BE1_inline(L_1329, L_1330, NULL);
-		// ctrlTouchscreentouch4startPosition.y = ctrlTouchscreentouch4startPositiony;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_1331 = V_168;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1332 = V_180;
 		NullCheck(L_1331);
 		Vector2Control_set_y_m9023BACC80F2CF0AE28E2F5D0E9BBA54104E89F8_inline(L_1331, L_1332, NULL);
-		// ctrlTouchscreentouch5position.x = ctrlTouchscreentouch5positionx;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_1333 = V_182;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1334 = V_193;
 		NullCheck(L_1333);
 		Vector2Control_set_x_m99BE9EF688C3B153DA726627B3CBD724F8D20BE1_inline(L_1333, L_1334, NULL);
-		// ctrlTouchscreentouch5position.y = ctrlTouchscreentouch5positiony;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_1335 = V_182;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1336 = V_194;
 		NullCheck(L_1335);
 		Vector2Control_set_y_m9023BACC80F2CF0AE28E2F5D0E9BBA54104E89F8_inline(L_1335, L_1336, NULL);
-		// ctrlTouchscreentouch5delta.up = ctrlTouchscreentouch5deltaup;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_1337 = V_183;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1338 = V_195;
 		NullCheck(L_1337);
 		DeltaControl_set_up_m738DF0E92B973E4E6AF5BE9A115458717B745174_inline(L_1337, L_1338, NULL);
-		// ctrlTouchscreentouch5delta.down = ctrlTouchscreentouch5deltadown;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_1339 = V_183;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1340 = V_196;
 		NullCheck(L_1339);
 		DeltaControl_set_down_mD809599F9F67F402EEFC805F315C0D72F35FFCF0_inline(L_1339, L_1340, NULL);
-		// ctrlTouchscreentouch5delta.left = ctrlTouchscreentouch5deltaleft;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_1341 = V_183;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1342 = V_197;
 		NullCheck(L_1341);
 		DeltaControl_set_left_m1C0E45C2868801280CC30474B9368F23B7400697_inline(L_1341, L_1342, NULL);
-		// ctrlTouchscreentouch5delta.right = ctrlTouchscreentouch5deltaright;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_1343 = V_183;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1344 = V_198;
 		NullCheck(L_1343);
 		DeltaControl_set_right_m60FBA0555C4E7CA40954DA7EE6BBC0E0032B0905_inline(L_1343, L_1344, NULL);
-		// ctrlTouchscreentouch5delta.x = ctrlTouchscreentouch5deltax;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_1345 = V_183;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1346 = V_199;
 		NullCheck(L_1345);
 		Vector2Control_set_x_m99BE9EF688C3B153DA726627B3CBD724F8D20BE1_inline(L_1345, L_1346, NULL);
-		// ctrlTouchscreentouch5delta.y = ctrlTouchscreentouch5deltay;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_1347 = V_183;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1348 = V_200;
 		NullCheck(L_1347);
 		Vector2Control_set_y_m9023BACC80F2CF0AE28E2F5D0E9BBA54104E89F8_inline(L_1347, L_1348, NULL);
-		// ctrlTouchscreentouch5radius.x = ctrlTouchscreentouch5radiusx;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_1349 = V_185;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1350 = V_201;
 		NullCheck(L_1349);
 		Vector2Control_set_x_m99BE9EF688C3B153DA726627B3CBD724F8D20BE1_inline(L_1349, L_1350, NULL);
-		// ctrlTouchscreentouch5radius.y = ctrlTouchscreentouch5radiusy;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_1351 = V_185;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1352 = V_202;
 		NullCheck(L_1351);
 		Vector2Control_set_y_m9023BACC80F2CF0AE28E2F5D0E9BBA54104E89F8_inline(L_1351, L_1352, NULL);
-		// ctrlTouchscreentouch5startPosition.x = ctrlTouchscreentouch5startPositionx;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_1353 = V_192;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1354 = V_203;
 		NullCheck(L_1353);
 		Vector2Control_set_x_m99BE9EF688C3B153DA726627B3CBD724F8D20BE1_inline(L_1353, L_1354, NULL);
-		// ctrlTouchscreentouch5startPosition.y = ctrlTouchscreentouch5startPositiony;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_1355 = V_192;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1356 = V_204;
 		NullCheck(L_1355);
 		Vector2Control_set_y_m9023BACC80F2CF0AE28E2F5D0E9BBA54104E89F8_inline(L_1355, L_1356, NULL);
-		// ctrlTouchscreentouch6position.x = ctrlTouchscreentouch6positionx;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_1357 = V_206;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1358 = V_217;
 		NullCheck(L_1357);
 		Vector2Control_set_x_m99BE9EF688C3B153DA726627B3CBD724F8D20BE1_inline(L_1357, L_1358, NULL);
-		// ctrlTouchscreentouch6position.y = ctrlTouchscreentouch6positiony;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_1359 = V_206;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1360 = V_218;
 		NullCheck(L_1359);
 		Vector2Control_set_y_m9023BACC80F2CF0AE28E2F5D0E9BBA54104E89F8_inline(L_1359, L_1360, NULL);
-		// ctrlTouchscreentouch6delta.up = ctrlTouchscreentouch6deltaup;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_1361 = V_207;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1362 = V_219;
 		NullCheck(L_1361);
 		DeltaControl_set_up_m738DF0E92B973E4E6AF5BE9A115458717B745174_inline(L_1361, L_1362, NULL);
-		// ctrlTouchscreentouch6delta.down = ctrlTouchscreentouch6deltadown;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_1363 = V_207;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1364 = V_220;
 		NullCheck(L_1363);
 		DeltaControl_set_down_mD809599F9F67F402EEFC805F315C0D72F35FFCF0_inline(L_1363, L_1364, NULL);
-		// ctrlTouchscreentouch6delta.left = ctrlTouchscreentouch6deltaleft;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_1365 = V_207;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1366 = V_221;
 		NullCheck(L_1365);
 		DeltaControl_set_left_m1C0E45C2868801280CC30474B9368F23B7400697_inline(L_1365, L_1366, NULL);
-		// ctrlTouchscreentouch6delta.right = ctrlTouchscreentouch6deltaright;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_1367 = V_207;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1368 = V_222;
 		NullCheck(L_1367);
 		DeltaControl_set_right_m60FBA0555C4E7CA40954DA7EE6BBC0E0032B0905_inline(L_1367, L_1368, NULL);
-		// ctrlTouchscreentouch6delta.x = ctrlTouchscreentouch6deltax;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_1369 = V_207;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1370 = V_223;
 		NullCheck(L_1369);
 		Vector2Control_set_x_m99BE9EF688C3B153DA726627B3CBD724F8D20BE1_inline(L_1369, L_1370, NULL);
-		// ctrlTouchscreentouch6delta.y = ctrlTouchscreentouch6deltay;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_1371 = V_207;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1372 = V_224;
 		NullCheck(L_1371);
 		Vector2Control_set_y_m9023BACC80F2CF0AE28E2F5D0E9BBA54104E89F8_inline(L_1371, L_1372, NULL);
-		// ctrlTouchscreentouch6radius.x = ctrlTouchscreentouch6radiusx;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_1373 = V_209;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1374 = V_225;
 		NullCheck(L_1373);
 		Vector2Control_set_x_m99BE9EF688C3B153DA726627B3CBD724F8D20BE1_inline(L_1373, L_1374, NULL);
-		// ctrlTouchscreentouch6radius.y = ctrlTouchscreentouch6radiusy;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_1375 = V_209;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1376 = V_226;
 		NullCheck(L_1375);
 		Vector2Control_set_y_m9023BACC80F2CF0AE28E2F5D0E9BBA54104E89F8_inline(L_1375, L_1376, NULL);
-		// ctrlTouchscreentouch6startPosition.x = ctrlTouchscreentouch6startPositionx;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_1377 = V_216;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1378 = V_227;
 		NullCheck(L_1377);
 		Vector2Control_set_x_m99BE9EF688C3B153DA726627B3CBD724F8D20BE1_inline(L_1377, L_1378, NULL);
-		// ctrlTouchscreentouch6startPosition.y = ctrlTouchscreentouch6startPositiony;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_1379 = V_216;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1380 = V_228;
 		NullCheck(L_1379);
 		Vector2Control_set_y_m9023BACC80F2CF0AE28E2F5D0E9BBA54104E89F8_inline(L_1379, L_1380, NULL);
-		// ctrlTouchscreentouch7position.x = ctrlTouchscreentouch7positionx;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_1381 = V_230;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1382 = V_241;
 		NullCheck(L_1381);
 		Vector2Control_set_x_m99BE9EF688C3B153DA726627B3CBD724F8D20BE1_inline(L_1381, L_1382, NULL);
-		// ctrlTouchscreentouch7position.y = ctrlTouchscreentouch7positiony;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_1383 = V_230;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1384 = V_242;
 		NullCheck(L_1383);
 		Vector2Control_set_y_m9023BACC80F2CF0AE28E2F5D0E9BBA54104E89F8_inline(L_1383, L_1384, NULL);
-		// ctrlTouchscreentouch7delta.up = ctrlTouchscreentouch7deltaup;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_1385 = V_231;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1386 = V_243;
 		NullCheck(L_1385);
 		DeltaControl_set_up_m738DF0E92B973E4E6AF5BE9A115458717B745174_inline(L_1385, L_1386, NULL);
-		// ctrlTouchscreentouch7delta.down = ctrlTouchscreentouch7deltadown;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_1387 = V_231;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1388 = V_244;
 		NullCheck(L_1387);
 		DeltaControl_set_down_mD809599F9F67F402EEFC805F315C0D72F35FFCF0_inline(L_1387, L_1388, NULL);
-		// ctrlTouchscreentouch7delta.left = ctrlTouchscreentouch7deltaleft;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_1389 = V_231;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1390 = V_245;
 		NullCheck(L_1389);
 		DeltaControl_set_left_m1C0E45C2868801280CC30474B9368F23B7400697_inline(L_1389, L_1390, NULL);
-		// ctrlTouchscreentouch7delta.right = ctrlTouchscreentouch7deltaright;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_1391 = V_231;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1392 = V_246;
 		NullCheck(L_1391);
 		DeltaControl_set_right_m60FBA0555C4E7CA40954DA7EE6BBC0E0032B0905_inline(L_1391, L_1392, NULL);
-		// ctrlTouchscreentouch7delta.x = ctrlTouchscreentouch7deltax;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_1393 = V_231;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1394 = V_247;
 		NullCheck(L_1393);
 		Vector2Control_set_x_m99BE9EF688C3B153DA726627B3CBD724F8D20BE1_inline(L_1393, L_1394, NULL);
-		// ctrlTouchscreentouch7delta.y = ctrlTouchscreentouch7deltay;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_1395 = V_231;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1396 = V_248;
 		NullCheck(L_1395);
 		Vector2Control_set_y_m9023BACC80F2CF0AE28E2F5D0E9BBA54104E89F8_inline(L_1395, L_1396, NULL);
-		// ctrlTouchscreentouch7radius.x = ctrlTouchscreentouch7radiusx;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_1397 = V_233;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1398 = V_249;
 		NullCheck(L_1397);
 		Vector2Control_set_x_m99BE9EF688C3B153DA726627B3CBD724F8D20BE1_inline(L_1397, L_1398, NULL);
-		// ctrlTouchscreentouch7radius.y = ctrlTouchscreentouch7radiusy;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_1399 = V_233;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1400 = V_250;
 		NullCheck(L_1399);
 		Vector2Control_set_y_m9023BACC80F2CF0AE28E2F5D0E9BBA54104E89F8_inline(L_1399, L_1400, NULL);
-		// ctrlTouchscreentouch7startPosition.x = ctrlTouchscreentouch7startPositionx;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_1401 = V_240;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1402 = V_251;
 		NullCheck(L_1401);
 		Vector2Control_set_x_m99BE9EF688C3B153DA726627B3CBD724F8D20BE1_inline(L_1401, L_1402, NULL);
-		// ctrlTouchscreentouch7startPosition.y = ctrlTouchscreentouch7startPositiony;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_1403 = V_240;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1404 = V_252;
 		NullCheck(L_1403);
 		Vector2Control_set_y_m9023BACC80F2CF0AE28E2F5D0E9BBA54104E89F8_inline(L_1403, L_1404, NULL);
-		// ctrlTouchscreentouch8position.x = ctrlTouchscreentouch8positionx;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_1405 = V_254;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1406 = V_265;
 		NullCheck(L_1405);
 		Vector2Control_set_x_m99BE9EF688C3B153DA726627B3CBD724F8D20BE1_inline(L_1405, L_1406, NULL);
-		// ctrlTouchscreentouch8position.y = ctrlTouchscreentouch8positiony;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_1407 = V_254;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1408 = V_266;
 		NullCheck(L_1407);
 		Vector2Control_set_y_m9023BACC80F2CF0AE28E2F5D0E9BBA54104E89F8_inline(L_1407, L_1408, NULL);
-		// ctrlTouchscreentouch8delta.up = ctrlTouchscreentouch8deltaup;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_1409 = V_255;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1410 = V_267;
 		NullCheck(L_1409);
 		DeltaControl_set_up_m738DF0E92B973E4E6AF5BE9A115458717B745174_inline(L_1409, L_1410, NULL);
-		// ctrlTouchscreentouch8delta.down = ctrlTouchscreentouch8deltadown;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_1411 = V_255;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1412 = V_268;
 		NullCheck(L_1411);
 		DeltaControl_set_down_mD809599F9F67F402EEFC805F315C0D72F35FFCF0_inline(L_1411, L_1412, NULL);
-		// ctrlTouchscreentouch8delta.left = ctrlTouchscreentouch8deltaleft;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_1413 = V_255;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1414 = V_269;
 		NullCheck(L_1413);
 		DeltaControl_set_left_m1C0E45C2868801280CC30474B9368F23B7400697_inline(L_1413, L_1414, NULL);
-		// ctrlTouchscreentouch8delta.right = ctrlTouchscreentouch8deltaright;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_1415 = V_255;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1416 = V_270;
 		NullCheck(L_1415);
 		DeltaControl_set_right_m60FBA0555C4E7CA40954DA7EE6BBC0E0032B0905_inline(L_1415, L_1416, NULL);
-		// ctrlTouchscreentouch8delta.x = ctrlTouchscreentouch8deltax;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_1417 = V_255;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1418 = V_271;
 		NullCheck(L_1417);
 		Vector2Control_set_x_m99BE9EF688C3B153DA726627B3CBD724F8D20BE1_inline(L_1417, L_1418, NULL);
-		// ctrlTouchscreentouch8delta.y = ctrlTouchscreentouch8deltay;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_1419 = V_255;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1420 = V_272;
 		NullCheck(L_1419);
 		Vector2Control_set_y_m9023BACC80F2CF0AE28E2F5D0E9BBA54104E89F8_inline(L_1419, L_1420, NULL);
-		// ctrlTouchscreentouch8radius.x = ctrlTouchscreentouch8radiusx;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_1421 = V_257;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1422 = V_273;
 		NullCheck(L_1421);
 		Vector2Control_set_x_m99BE9EF688C3B153DA726627B3CBD724F8D20BE1_inline(L_1421, L_1422, NULL);
-		// ctrlTouchscreentouch8radius.y = ctrlTouchscreentouch8radiusy;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_1423 = V_257;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1424 = V_274;
 		NullCheck(L_1423);
 		Vector2Control_set_y_m9023BACC80F2CF0AE28E2F5D0E9BBA54104E89F8_inline(L_1423, L_1424, NULL);
-		// ctrlTouchscreentouch8startPosition.x = ctrlTouchscreentouch8startPositionx;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_1425 = V_264;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1426 = V_275;
 		NullCheck(L_1425);
 		Vector2Control_set_x_m99BE9EF688C3B153DA726627B3CBD724F8D20BE1_inline(L_1425, L_1426, NULL);
-		// ctrlTouchscreentouch8startPosition.y = ctrlTouchscreentouch8startPositiony;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_1427 = V_264;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1428 = V_276;
 		NullCheck(L_1427);
 		Vector2Control_set_y_m9023BACC80F2CF0AE28E2F5D0E9BBA54104E89F8_inline(L_1427, L_1428, NULL);
-		// ctrlTouchscreentouch9position.x = ctrlTouchscreentouch9positionx;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_1429 = V_278;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1430 = V_289;
 		NullCheck(L_1429);
 		Vector2Control_set_x_m99BE9EF688C3B153DA726627B3CBD724F8D20BE1_inline(L_1429, L_1430, NULL);
-		// ctrlTouchscreentouch9position.y = ctrlTouchscreentouch9positiony;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_1431 = V_278;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1432 = V_290;
 		NullCheck(L_1431);
 		Vector2Control_set_y_m9023BACC80F2CF0AE28E2F5D0E9BBA54104E89F8_inline(L_1431, L_1432, NULL);
-		// ctrlTouchscreentouch9delta.up = ctrlTouchscreentouch9deltaup;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_1433 = V_279;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1434 = V_291;
 		NullCheck(L_1433);
 		DeltaControl_set_up_m738DF0E92B973E4E6AF5BE9A115458717B745174_inline(L_1433, L_1434, NULL);
-		// ctrlTouchscreentouch9delta.down = ctrlTouchscreentouch9deltadown;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_1435 = V_279;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1436 = V_292;
 		NullCheck(L_1435);
 		DeltaControl_set_down_mD809599F9F67F402EEFC805F315C0D72F35FFCF0_inline(L_1435, L_1436, NULL);
-		// ctrlTouchscreentouch9delta.left = ctrlTouchscreentouch9deltaleft;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_1437 = V_279;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1438 = V_293;
 		NullCheck(L_1437);
 		DeltaControl_set_left_m1C0E45C2868801280CC30474B9368F23B7400697_inline(L_1437, L_1438, NULL);
-		// ctrlTouchscreentouch9delta.right = ctrlTouchscreentouch9deltaright;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_1439 = V_279;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1440 = V_294;
 		NullCheck(L_1439);
 		DeltaControl_set_right_m60FBA0555C4E7CA40954DA7EE6BBC0E0032B0905_inline(L_1439, L_1440, NULL);
-		// ctrlTouchscreentouch9delta.x = ctrlTouchscreentouch9deltax;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_1441 = V_279;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1442 = V_295;
 		NullCheck(L_1441);
 		Vector2Control_set_x_m99BE9EF688C3B153DA726627B3CBD724F8D20BE1_inline(L_1441, L_1442, NULL);
-		// ctrlTouchscreentouch9delta.y = ctrlTouchscreentouch9deltay;
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_1443 = V_279;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1444 = V_296;
 		NullCheck(L_1443);
 		Vector2Control_set_y_m9023BACC80F2CF0AE28E2F5D0E9BBA54104E89F8_inline(L_1443, L_1444, NULL);
-		// ctrlTouchscreentouch9radius.x = ctrlTouchscreentouch9radiusx;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_1445 = V_281;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1446 = V_297;
 		NullCheck(L_1445);
 		Vector2Control_set_x_m99BE9EF688C3B153DA726627B3CBD724F8D20BE1_inline(L_1445, L_1446, NULL);
-		// ctrlTouchscreentouch9radius.y = ctrlTouchscreentouch9radiusy;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_1447 = V_281;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1448 = V_298;
 		NullCheck(L_1447);
 		Vector2Control_set_y_m9023BACC80F2CF0AE28E2F5D0E9BBA54104E89F8_inline(L_1447, L_1448, NULL);
-		// ctrlTouchscreentouch9startPosition.x = ctrlTouchscreentouch9startPositionx;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_1449 = V_288;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1450 = V_299;
 		NullCheck(L_1449);
 		Vector2Control_set_x_m99BE9EF688C3B153DA726627B3CBD724F8D20BE1_inline(L_1449, L_1450, NULL);
-		// ctrlTouchscreentouch9startPosition.y = ctrlTouchscreentouch9startPositiony;
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_1451 = V_288;
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1452 = V_300;
 		NullCheck(L_1451);
 		Vector2Control_set_y_m9023BACC80F2CF0AE28E2F5D0E9BBA54104E89F8_inline(L_1451, L_1452, NULL);
-		// builder.WithStateOffsetToControlIndexMap(new uint[]
-		// {
-		//     32784u, 16810012u, 16810024u, 33587229u, 33587241u, 50364448u, 50364449u, 50364450u, 50364460u, 50364461u
-		//     , 50364462u, 67141662u, 67141663u, 67141667u, 67141674u, 67141675u, 67141679u, 83918851u, 83918867u, 100696100u
-		//     , 100696112u, 117473317u, 117473329u, 134225925u, 134225941u, 134225942u, 138420247u, 146801688u, 148898841u, 167837722u
-		//     , 201359398u, 218136615u, 234913842u, 251691070u, 268468287u, 285245506u, 285245507u, 285245508u, 302022720u, 302022721u
-		//     , 302022725u, 318799925u, 335577158u, 352354375u, 369106999u, 369107000u, 373301305u, 381682746u, 383779899u, 402718780u
-		//     , 436240456u, 453017673u, 469794890u, 486572118u, 503349335u, 520126554u, 520126555u, 520126556u, 536903768u, 536903769u
-		//     , 536903773u, 553680973u, 570458206u, 587235423u, 603988047u, 603988048u, 608182353u, 616563794u, 618660947u, 637599828u
-		//     , 671121504u, 687898721u, 704675938u, 721453166u, 738230383u, 755007602u, 755007603u, 755007604u, 771784816u, 771784817u
-		//     , 771784821u, 788562021u, 805339254u, 822116471u, 838869095u, 838869096u, 843063401u, 851444842u, 853541995u, 872480876u
-		//     , 906002552u, 922779769u, 939556986u, 956334214u, 973111431u, 989888650u, 989888651u, 989888652u, 1006665864u, 1006665865u
-		//     , 1006665869u, 1023443069u, 1040220302u, 1056997519u, 1073750143u, 1073750144u, 1077944449u, 1086325890u, 1088423043u, 1107361924u
-		//     , 1140883600u, 1157660817u, 1174438034u, 1191215262u, 1207992479u, 1224769698u, 1224769699u, 1224769700u, 1241546912u, 1241546913u
-		//     , 1241546917u, 1258324117u, 1275101350u, 1291878567u, 1308631191u, 1308631192u, 1312825497u, 1321206938u, 1323304091u, 1342242972u
-		//     , 1375764648u, 1392541865u, 1409319082u, 1426096310u, 1442873527u, 1459650746u, 1459650747u, 1459650748u, 1476427960u, 1476427961u
-		//     , 1476427965u, 1493205165u, 1509982398u, 1526759615u, 1543512239u, 1543512240u, 1547706545u, 1556087986u, 1558185139u, 1577124020u
-		//     , 1610645696u, 1627422913u, 1644200130u, 1660977358u, 1677754575u, 1694531794u, 1694531795u, 1694531796u, 1711309008u, 1711309009u
-		//     , 1711309013u, 1728086213u, 1744863446u, 1761640663u, 1778393287u, 1778393288u, 1782587593u, 1790969034u, 1793066187u, 1812005068u
-		//     , 1845526744u, 1862303961u, 1879081178u, 1895858406u, 1912635623u, 1929412842u, 1929412843u, 1929412844u, 1946190056u, 1946190057u
-		//     , 1946190061u, 1962967261u, 1979744494u, 1996521711u, 2013274335u, 2013274336u, 2017468641u, 2025850082u, 2027947235u, 2046886116u
-		//     , 2080407792u, 2097185009u, 2113962226u, 2130739454u, 2147516671u, 2164293890u, 2164293891u, 2164293892u, 2181071104u, 2181071105u
-		//     , 2181071109u, 2197848309u, 2214625542u, 2231402759u, 2248155383u, 2248155384u, 2252349689u, 2260731130u, 2262828283u, 2281767164u
-		//     , 2315288840u, 2332066057u, 2348843274u, 2365620502u, 2382397719u, 2399174938u, 2399174939u, 2399174940u, 2415952152u, 2415952153u
-		//     , 2415952157u, 2432729357u, 2449506590u, 2466283807u, 2483036431u, 2483036432u, 2487230737u, 2495612178u, 2497709331u, 2516648212u
-		//     , 2550169888u, 2566947105u
-		// });
 		UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA* L_1453 = (UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA*)(UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA*)SZArrayNew(UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA_il2cpp_TypeInfo_var, (uint32_t)((int32_t)232));
 		UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA* L_1454 = L_1453;
 		RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 L_1455 = { reinterpret_cast<intptr_t> (U3CPrivateImplementationDetailsU3E_tF62B85DD2C59D87BA6C8DA02965E1F3203A64E53____92C7758EA63714F7EE2DC9CD144CCAC9C880D649B70EDD78F2B9C28FC6FBE67A_1_FieldInfo_var) };
 		RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B((RuntimeArray*)L_1454, L_1455, NULL);
 		DeviceBuilder_t3D3A66799A2B6B6282AC2FB71B1DE5034E668CC4 L_1456;
 		L_1456 = DeviceBuilder_WithStateOffsetToControlIndexMap_m5C180F0BE65CD62017E4662DC59DB56677B5F39A_inline((&V_0), L_1454, NULL);
-		// builder.Finish();
 		DeviceBuilder_Finish_mA2C52B2A38B0618CAA4737DB610C65F385957F65_inline((&V_0), NULL);
-		// }
 		return;
 	}
 }
@@ -5882,26 +5250,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchControl_t3A64A795FF61A8B27E5EBD61632F23A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreenprimaryTouch = new UnityEngine.InputSystem.Controls.TouchControl();
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_0 = (TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079*)il2cpp_codegen_object_new(TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		TouchControl__ctor_m7A05A3ABAE79DD084555969DF217C4871E1DF447(L_0, NULL);
-		// ctrlTouchscreenprimaryTouch.Setup()
-		//     .At(this, 0)
-		//     .WithParent(parent)
-		//     .WithChildren(16, 12)
-		//     .WithName("primaryTouch")
-		//     .WithDisplayName("Primary Touch")
-		//     .WithLayout(kTouchLayout)
-		//     .IsSynthetic(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1414485315),
-		//         byteOffset = 0,
-		//         bitOffset = 0,
-		//         sizeInBits = 448
-		//     })
-		//     .Finish();
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -5942,7 +5293,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchControl_t3A64A795FF61A8B27E5EBD61632F23A
 		L_14 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_13, NULL);
 		V_0 = L_14;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreenprimaryTouch;
 		return L_1;
 	}
 }
@@ -5962,30 +5312,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreenposition = new UnityEngine.InputSystem.Controls.Vector2Control();
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_0 = (Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432*)il2cpp_codegen_object_new(Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		Vector2Control__ctor_m9F2990DA999344F23AA90F6EE77884A75D4F29F8(L_0, NULL);
-		// ctrlTouchscreenposition.Setup()
-		//     .At(this, 1)
-		//     .WithParent(parent)
-		//     .WithChildren(40, 2)
-		//     .WithName("position")
-		//     .WithDisplayName("Position")
-		//     .WithLayout(kVector2Layout)
-		//     .WithUsages(1, 1)
-		//     .DontReset(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1447379762),
-		//         byteOffset = 4,
-		//         bitOffset = 0,
-		//         sizeInBits = 64
-		//     })
-		//     #if UNITY_EDITOR
-		//     .WithProcessor<InputProcessor<UnityEngine.Vector2>, UnityEngine.Vector2>(new UnityEngine.InputSystem.Processors.EditorWindowSpaceProcessor())
-		//     #endif
-		//     .Finish();
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -6029,7 +5358,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 		L_15 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_14, NULL);
 		V_0 = L_15;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreenposition;
 		return L_1;
 	}
 }
@@ -6049,26 +5377,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A1
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreendelta = new UnityEngine.InputSystem.Controls.DeltaControl();
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_0 = (DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B*)il2cpp_codegen_object_new(DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		DeltaControl__ctor_m221788585AD5E0B67F3CFE1199DC6C2B0C237CB4(L_0, NULL);
-		// ctrlTouchscreendelta.Setup()
-		//     .At(this, 2)
-		//     .WithParent(parent)
-		//     .WithChildren(42, 6)
-		//     .WithName("delta")
-		//     .WithDisplayName("Delta")
-		//     .WithLayout(kDeltaLayout)
-		//     .WithUsages(2, 1)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1447379762),
-		//         byteOffset = 12,
-		//         bitOffset = 0,
-		//         sizeInBits = 64
-		//     })
-		//     .Finish();
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -6109,7 +5420,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A1
 		L_14 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_13, NULL);
 		V_0 = L_14;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreendelta;
 		return L_1;
 	}
 }
@@ -6129,26 +5439,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreenpressure = new UnityEngine.InputSystem.Controls.AxisControl();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
-		// ctrlTouchscreenpressure.Setup()
-		//     .At(this, 3)
-		//     .WithParent(parent)
-		//     .WithName("pressure")
-		//     .WithDisplayName("Pressure")
-		//     .WithLayout(kAnalogLayout)
-		//     .WithUsages(3, 1)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 20,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .WithDefaultState(1)
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -6191,7 +5484,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_15 = ControlBuilder_WithDefaultState_mB348E8E6C5130A30CEE8A885C488065F496038F2_inline((&V_0), L_14, NULL);
 		V_0 = L_15;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreenpressure;
 		return L_1;
 	}
 }
@@ -6211,26 +5503,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreenradius = new UnityEngine.InputSystem.Controls.Vector2Control();
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_0 = (Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432*)il2cpp_codegen_object_new(Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		Vector2Control__ctor_m9F2990DA999344F23AA90F6EE77884A75D4F29F8(L_0, NULL);
-		// ctrlTouchscreenradius.Setup()
-		//     .At(this, 4)
-		//     .WithParent(parent)
-		//     .WithChildren(48, 2)
-		//     .WithName("radius")
-		//     .WithDisplayName("Radius")
-		//     .WithLayout(kVector2Layout)
-		//     .WithUsages(4, 1)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1447379762),
-		//         byteOffset = 24,
-		//         bitOffset = 0,
-		//         sizeInBits = 64
-		//     })
-		//     .Finish();
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -6271,7 +5546,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 		L_14 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_13, NULL);
 		V_0 = L_14;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreenradius;
 		return L_1;
 	}
 }
@@ -6291,27 +5565,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchPressControl_tD5BD68D9FDEAC889591DD7A499
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreenpress = new UnityEngine.InputSystem.Controls.TouchPressControl();
 		TouchPressControl_tD5BD68D9FDEAC889591DD7A499864893A43C7CEB* L_0 = (TouchPressControl_tD5BD68D9FDEAC889591DD7A499864893A43C7CEB*)il2cpp_codegen_object_new(TouchPressControl_tD5BD68D9FDEAC889591DD7A499864893A43C7CEB_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		TouchPressControl__ctor_m257FF1E4C03BD2CC927220808F404A23641027B2(L_0, NULL);
-		// ctrlTouchscreenpress.Setup()
-		//     .At(this, 5)
-		//     .WithParent(parent)
-		//     .WithName("press")
-		//     .WithDisplayName("Press")
-		//     .WithLayout(kTouchPressLayout)
-		//     .IsSynthetic(true)
-		//     .IsButton(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1113150533),
-		//         byteOffset = 32,
-		//         bitOffset = 0,
-		//         sizeInBits = 8
-		//     })
-		//     .WithMinAndMax(0, 1)
-		//     .Finish();
 		TouchPressControl_tD5BD68D9FDEAC889591DD7A499864893A43C7CEB* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -6359,7 +5615,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchPressControl_tD5BD68D9FDEAC889591DD7A499
 		L_17 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_15, L_16, NULL);
 		V_0 = L_17;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreenpress;
 		return L_1;
 	}
 }
@@ -6379,25 +5634,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchControl_t3A64A795FF61A8B27E5EBD61632F23A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch0 = new UnityEngine.InputSystem.Controls.TouchControl();
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_0 = (TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079*)il2cpp_codegen_object_new(TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		TouchControl__ctor_m7A05A3ABAE79DD084555969DF217C4871E1DF447(L_0, NULL);
-		// ctrlTouchscreentouch0.Setup()
-		//     .At(this, 6)
-		//     .WithParent(parent)
-		//     .WithChildren(50, 12)
-		//     .WithName("touch0")
-		//     .WithDisplayName("Touch")
-		//     .WithLayout(kTouchLayout)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1414485315),
-		//         byteOffset = 56,
-		//         bitOffset = 0,
-		//         sizeInBits = 448
-		//     })
-		//     .Finish();
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -6435,7 +5674,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchControl_t3A64A795FF61A8B27E5EBD61632F23A
 		L_13 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_12, NULL);
 		V_0 = L_13;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch0;
 		return L_1;
 	}
 }
@@ -6455,25 +5693,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchControl_t3A64A795FF61A8B27E5EBD61632F23A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch1 = new UnityEngine.InputSystem.Controls.TouchControl();
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_0 = (TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079*)il2cpp_codegen_object_new(TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		TouchControl__ctor_m7A05A3ABAE79DD084555969DF217C4871E1DF447(L_0, NULL);
-		// ctrlTouchscreentouch1.Setup()
-		//     .At(this, 7)
-		//     .WithParent(parent)
-		//     .WithChildren(74, 12)
-		//     .WithName("touch1")
-		//     .WithDisplayName("Touch")
-		//     .WithLayout(kTouchLayout)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1414485315),
-		//         byteOffset = 112,
-		//         bitOffset = 0,
-		//         sizeInBits = 448
-		//     })
-		//     .Finish();
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -6511,7 +5733,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchControl_t3A64A795FF61A8B27E5EBD61632F23A
 		L_13 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_12, NULL);
 		V_0 = L_13;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch1;
 		return L_1;
 	}
 }
@@ -6531,25 +5752,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchControl_t3A64A795FF61A8B27E5EBD61632F23A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch2 = new UnityEngine.InputSystem.Controls.TouchControl();
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_0 = (TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079*)il2cpp_codegen_object_new(TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		TouchControl__ctor_m7A05A3ABAE79DD084555969DF217C4871E1DF447(L_0, NULL);
-		// ctrlTouchscreentouch2.Setup()
-		//     .At(this, 8)
-		//     .WithParent(parent)
-		//     .WithChildren(98, 12)
-		//     .WithName("touch2")
-		//     .WithDisplayName("Touch")
-		//     .WithLayout(kTouchLayout)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1414485315),
-		//         byteOffset = 168,
-		//         bitOffset = 0,
-		//         sizeInBits = 448
-		//     })
-		//     .Finish();
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -6587,7 +5792,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchControl_t3A64A795FF61A8B27E5EBD61632F23A
 		L_13 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_12, NULL);
 		V_0 = L_13;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch2;
 		return L_1;
 	}
 }
@@ -6607,25 +5811,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchControl_t3A64A795FF61A8B27E5EBD61632F23A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch3 = new UnityEngine.InputSystem.Controls.TouchControl();
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_0 = (TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079*)il2cpp_codegen_object_new(TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		TouchControl__ctor_m7A05A3ABAE79DD084555969DF217C4871E1DF447(L_0, NULL);
-		// ctrlTouchscreentouch3.Setup()
-		//     .At(this, 9)
-		//     .WithParent(parent)
-		//     .WithChildren(122, 12)
-		//     .WithName("touch3")
-		//     .WithDisplayName("Touch")
-		//     .WithLayout(kTouchLayout)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1414485315),
-		//         byteOffset = 224,
-		//         bitOffset = 0,
-		//         sizeInBits = 448
-		//     })
-		//     .Finish();
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -6663,7 +5851,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchControl_t3A64A795FF61A8B27E5EBD61632F23A
 		L_13 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_12, NULL);
 		V_0 = L_13;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch3;
 		return L_1;
 	}
 }
@@ -6683,25 +5870,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchControl_t3A64A795FF61A8B27E5EBD61632F23A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch4 = new UnityEngine.InputSystem.Controls.TouchControl();
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_0 = (TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079*)il2cpp_codegen_object_new(TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		TouchControl__ctor_m7A05A3ABAE79DD084555969DF217C4871E1DF447(L_0, NULL);
-		// ctrlTouchscreentouch4.Setup()
-		//     .At(this, 10)
-		//     .WithParent(parent)
-		//     .WithChildren(146, 12)
-		//     .WithName("touch4")
-		//     .WithDisplayName("Touch")
-		//     .WithLayout(kTouchLayout)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1414485315),
-		//         byteOffset = 280,
-		//         bitOffset = 0,
-		//         sizeInBits = 448
-		//     })
-		//     .Finish();
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -6739,7 +5910,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchControl_t3A64A795FF61A8B27E5EBD61632F23A
 		L_13 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_12, NULL);
 		V_0 = L_13;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch4;
 		return L_1;
 	}
 }
@@ -6759,25 +5929,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchControl_t3A64A795FF61A8B27E5EBD61632F23A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch5 = new UnityEngine.InputSystem.Controls.TouchControl();
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_0 = (TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079*)il2cpp_codegen_object_new(TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		TouchControl__ctor_m7A05A3ABAE79DD084555969DF217C4871E1DF447(L_0, NULL);
-		// ctrlTouchscreentouch5.Setup()
-		//     .At(this, 11)
-		//     .WithParent(parent)
-		//     .WithChildren(170, 12)
-		//     .WithName("touch5")
-		//     .WithDisplayName("Touch")
-		//     .WithLayout(kTouchLayout)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1414485315),
-		//         byteOffset = 336,
-		//         bitOffset = 0,
-		//         sizeInBits = 448
-		//     })
-		//     .Finish();
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -6815,7 +5969,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchControl_t3A64A795FF61A8B27E5EBD61632F23A
 		L_13 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_12, NULL);
 		V_0 = L_13;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch5;
 		return L_1;
 	}
 }
@@ -6835,25 +5988,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchControl_t3A64A795FF61A8B27E5EBD61632F23A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch6 = new UnityEngine.InputSystem.Controls.TouchControl();
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_0 = (TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079*)il2cpp_codegen_object_new(TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		TouchControl__ctor_m7A05A3ABAE79DD084555969DF217C4871E1DF447(L_0, NULL);
-		// ctrlTouchscreentouch6.Setup()
-		//     .At(this, 12)
-		//     .WithParent(parent)
-		//     .WithChildren(194, 12)
-		//     .WithName("touch6")
-		//     .WithDisplayName("Touch")
-		//     .WithLayout(kTouchLayout)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1414485315),
-		//         byteOffset = 392,
-		//         bitOffset = 0,
-		//         sizeInBits = 448
-		//     })
-		//     .Finish();
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -6891,7 +6028,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchControl_t3A64A795FF61A8B27E5EBD61632F23A
 		L_13 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_12, NULL);
 		V_0 = L_13;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch6;
 		return L_1;
 	}
 }
@@ -6911,25 +6047,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchControl_t3A64A795FF61A8B27E5EBD61632F23A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch7 = new UnityEngine.InputSystem.Controls.TouchControl();
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_0 = (TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079*)il2cpp_codegen_object_new(TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		TouchControl__ctor_m7A05A3ABAE79DD084555969DF217C4871E1DF447(L_0, NULL);
-		// ctrlTouchscreentouch7.Setup()
-		//     .At(this, 13)
-		//     .WithParent(parent)
-		//     .WithChildren(218, 12)
-		//     .WithName("touch7")
-		//     .WithDisplayName("Touch")
-		//     .WithLayout(kTouchLayout)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1414485315),
-		//         byteOffset = 448,
-		//         bitOffset = 0,
-		//         sizeInBits = 448
-		//     })
-		//     .Finish();
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -6967,7 +6087,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchControl_t3A64A795FF61A8B27E5EBD61632F23A
 		L_13 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_12, NULL);
 		V_0 = L_13;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch7;
 		return L_1;
 	}
 }
@@ -6987,25 +6106,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchControl_t3A64A795FF61A8B27E5EBD61632F23A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch8 = new UnityEngine.InputSystem.Controls.TouchControl();
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_0 = (TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079*)il2cpp_codegen_object_new(TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		TouchControl__ctor_m7A05A3ABAE79DD084555969DF217C4871E1DF447(L_0, NULL);
-		// ctrlTouchscreentouch8.Setup()
-		//     .At(this, 14)
-		//     .WithParent(parent)
-		//     .WithChildren(242, 12)
-		//     .WithName("touch8")
-		//     .WithDisplayName("Touch")
-		//     .WithLayout(kTouchLayout)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1414485315),
-		//         byteOffset = 504,
-		//         bitOffset = 0,
-		//         sizeInBits = 448
-		//     })
-		//     .Finish();
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -7043,7 +6146,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchControl_t3A64A795FF61A8B27E5EBD61632F23A
 		L_13 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_12, NULL);
 		V_0 = L_13;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch8;
 		return L_1;
 	}
 }
@@ -7063,25 +6165,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchControl_t3A64A795FF61A8B27E5EBD61632F23A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch9 = new UnityEngine.InputSystem.Controls.TouchControl();
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_0 = (TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079*)il2cpp_codegen_object_new(TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		TouchControl__ctor_m7A05A3ABAE79DD084555969DF217C4871E1DF447(L_0, NULL);
-		// ctrlTouchscreentouch9.Setup()
-		//     .At(this, 15)
-		//     .WithParent(parent)
-		//     .WithChildren(266, 12)
-		//     .WithName("touch9")
-		//     .WithDisplayName("Touch")
-		//     .WithLayout(kTouchLayout)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1414485315),
-		//         byteOffset = 560,
-		//         bitOffset = 0,
-		//         sizeInBits = 448
-		//     })
-		//     .Finish();
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -7119,7 +6205,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchControl_t3A64A795FF61A8B27E5EBD61632F23A
 		L_13 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_12, NULL);
 		V_0 = L_13;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch9;
 		return L_1;
 	}
 }
@@ -7139,27 +6224,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntegerControl_tA24544EFF42204852F638FF5147F7
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreenprimaryTouchtouchId = new UnityEngine.InputSystem.Controls.IntegerControl();
 		IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB* L_0 = (IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB*)il2cpp_codegen_object_new(IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		IntegerControl__ctor_mC6E1C70B301EE12C2590B64C2DD53F02A577892D(L_0, NULL);
-		// ctrlTouchscreenprimaryTouchtouchId.Setup()
-		//     .At(this, 16)
-		//     .WithParent(parent)
-		//     .WithName("touchId")
-		//     .WithDisplayName("Primary Touch Touch ID")
-		//     .WithShortDisplayName("Primary Touch Touch ID")
-		//     .WithLayout(kIntegerLayout)
-		//     .IsSynthetic(true)
-		//     .DontReset(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1229870112),
-		//         byteOffset = 0,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -7203,7 +6270,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntegerControl_tA24544EFF42204852F638FF5147F7
 		L_15 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_14, NULL);
 		V_0 = L_15;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreenprimaryTouchtouchId;
 		return L_1;
 	}
 }
@@ -7223,27 +6289,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreenprimaryTouchposition = new UnityEngine.InputSystem.Controls.Vector2Control();
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_0 = (Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432*)il2cpp_codegen_object_new(Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		Vector2Control__ctor_m9F2990DA999344F23AA90F6EE77884A75D4F29F8(L_0, NULL);
-		// ctrlTouchscreenprimaryTouchposition.Setup()
-		//     .At(this, 17)
-		//     .WithParent(parent)
-		//     .WithChildren(28, 2)
-		//     .WithName("position")
-		//     .WithDisplayName("Primary Touch Position")
-		//     .WithShortDisplayName("Primary Touch Position")
-		//     .WithLayout(kVector2Layout)
-		//     .DontReset(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1447379762),
-		//         byteOffset = 4,
-		//         bitOffset = 0,
-		//         sizeInBits = 64
-		//     })
-		//     .Finish();
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -7287,7 +6335,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 		L_15 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_14, NULL);
 		V_0 = L_15;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreenprimaryTouchposition;
 		return L_1;
 	}
 }
@@ -7307,26 +6354,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A1
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreenprimaryTouchdelta = new UnityEngine.InputSystem.Controls.DeltaControl();
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_0 = (DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B*)il2cpp_codegen_object_new(DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		DeltaControl__ctor_m221788585AD5E0B67F3CFE1199DC6C2B0C237CB4(L_0, NULL);
-		// ctrlTouchscreenprimaryTouchdelta.Setup()
-		//     .At(this, 18)
-		//     .WithParent(parent)
-		//     .WithChildren(30, 6)
-		//     .WithName("delta")
-		//     .WithDisplayName("Primary Touch Delta")
-		//     .WithShortDisplayName("Primary Touch Delta")
-		//     .WithLayout(kDeltaLayout)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1447379762),
-		//         byteOffset = 12,
-		//         bitOffset = 0,
-		//         sizeInBits = 64
-		//     })
-		//     .Finish();
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -7367,7 +6397,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A1
 		L_14 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_13, NULL);
 		V_0 = L_14;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreenprimaryTouchdelta;
 		return L_1;
 	}
 }
@@ -7387,25 +6416,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreenprimaryTouchpressure = new UnityEngine.InputSystem.Controls.AxisControl();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
-		// ctrlTouchscreenprimaryTouchpressure.Setup()
-		//     .At(this, 19)
-		//     .WithParent(parent)
-		//     .WithName("pressure")
-		//     .WithDisplayName("Primary Touch Pressure")
-		//     .WithShortDisplayName("Primary Touch Pressure")
-		//     .WithLayout(kAxisLayout)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 20,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -7443,7 +6456,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_13 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_12, NULL);
 		V_0 = L_13;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreenprimaryTouchpressure;
 		return L_1;
 	}
 }
@@ -7463,26 +6475,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreenprimaryTouchradius = new UnityEngine.InputSystem.Controls.Vector2Control();
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_0 = (Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432*)il2cpp_codegen_object_new(Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		Vector2Control__ctor_m9F2990DA999344F23AA90F6EE77884A75D4F29F8(L_0, NULL);
-		// ctrlTouchscreenprimaryTouchradius.Setup()
-		//     .At(this, 20)
-		//     .WithParent(parent)
-		//     .WithChildren(36, 2)
-		//     .WithName("radius")
-		//     .WithDisplayName("Primary Touch Radius")
-		//     .WithShortDisplayName("Primary Touch Radius")
-		//     .WithLayout(kVector2Layout)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1447379762),
-		//         byteOffset = 24,
-		//         bitOffset = 0,
-		//         sizeInBits = 64
-		//     })
-		//     .Finish();
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -7523,7 +6518,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 		L_14 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_13, NULL);
 		V_0 = L_14;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreenprimaryTouchradius;
 		return L_1;
 	}
 }
@@ -7543,26 +6537,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchPhaseControl_t4652C6E0EBFAFA85A316077698
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreenprimaryTouchphase = new UnityEngine.InputSystem.Controls.TouchPhaseControl();
 		TouchPhaseControl_t4652C6E0EBFAFA85A31607769876B02C1C9FCAEC* L_0 = (TouchPhaseControl_t4652C6E0EBFAFA85A31607769876B02C1C9FCAEC*)il2cpp_codegen_object_new(TouchPhaseControl_t4652C6E0EBFAFA85A31607769876B02C1C9FCAEC_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		TouchPhaseControl__ctor_m76D52D2CDBC41512C35BC70649F0B91ADDAE4D59(L_0, NULL);
-		// ctrlTouchscreenprimaryTouchphase.Setup()
-		//     .At(this, 21)
-		//     .WithParent(parent)
-		//     .WithName("phase")
-		//     .WithDisplayName("Primary Touch Touch Phase")
-		//     .WithShortDisplayName("Primary Touch Touch Phase")
-		//     .WithLayout(kTouchPhaseLayout)
-		//     .IsSynthetic(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1113150533),
-		//         byteOffset = 32,
-		//         bitOffset = 0,
-		//         sizeInBits = 8
-		//     })
-		//     .Finish();
 		TouchPhaseControl_t4652C6E0EBFAFA85A31607769876B02C1C9FCAEC* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -7603,7 +6580,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchPhaseControl_t4652C6E0EBFAFA85A316077698
 		L_14 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_13, NULL);
 		V_0 = L_14;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreenprimaryTouchphase;
 		return L_1;
 	}
 }
@@ -7623,27 +6599,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchPressControl_tD5BD68D9FDEAC889591DD7A499
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreenprimaryTouchpress = new UnityEngine.InputSystem.Controls.TouchPressControl();
 		TouchPressControl_tD5BD68D9FDEAC889591DD7A499864893A43C7CEB* L_0 = (TouchPressControl_tD5BD68D9FDEAC889591DD7A499864893A43C7CEB*)il2cpp_codegen_object_new(TouchPressControl_tD5BD68D9FDEAC889591DD7A499864893A43C7CEB_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		TouchPressControl__ctor_m257FF1E4C03BD2CC927220808F404A23641027B2(L_0, NULL);
-		// ctrlTouchscreenprimaryTouchpress.Setup()
-		//     .At(this, 22)
-		//     .WithParent(parent)
-		//     .WithName("press")
-		//     .WithDisplayName("Primary Touch Touch Contact?")
-		//     .WithShortDisplayName("Primary Touch Touch Contact?")
-		//     .WithLayout(kTouchPressLayout)
-		//     .IsButton(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1113150533),
-		//         byteOffset = 32,
-		//         bitOffset = 0,
-		//         sizeInBits = 8
-		//     })
-		//     .WithMinAndMax(0, 1)
-		//     .Finish();
 		TouchPressControl_tD5BD68D9FDEAC889591DD7A499864893A43C7CEB* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -7691,7 +6649,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchPressControl_tD5BD68D9FDEAC889591DD7A499
 		L_17 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_15, L_16, NULL);
 		V_0 = L_17;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreenprimaryTouchpress;
 		return L_1;
 	}
 }
@@ -7711,25 +6668,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntegerControl_tA24544EFF42204852F638FF5147F7
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreenprimaryTouchtapCount = new UnityEngine.InputSystem.Controls.IntegerControl();
 		IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB* L_0 = (IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB*)il2cpp_codegen_object_new(IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		IntegerControl__ctor_mC6E1C70B301EE12C2590B64C2DD53F02A577892D(L_0, NULL);
-		// ctrlTouchscreenprimaryTouchtapCount.Setup()
-		//     .At(this, 23)
-		//     .WithParent(parent)
-		//     .WithName("tapCount")
-		//     .WithDisplayName("Primary Touch Tap Count")
-		//     .WithShortDisplayName("Primary Touch Tap Count")
-		//     .WithLayout(kIntegerLayout)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1113150533),
-		//         byteOffset = 33,
-		//         bitOffset = 0,
-		//         sizeInBits = 8
-		//     })
-		//     .Finish();
 		IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -7767,7 +6708,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntegerControl_tA24544EFF42204852F638FF5147F7
 		L_13 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_12, NULL);
 		V_0 = L_13;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreenprimaryTouchtapCount;
 		return L_1;
 	}
 }
@@ -7787,28 +6727,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ButtonControl_t85949109B98AAF5B7ADC0285F0EC98
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreenprimaryTouchindirectTouch = new UnityEngine.InputSystem.Controls.ButtonControl();
 		ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* L_0 = (ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF*)il2cpp_codegen_object_new(ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		ButtonControl__ctor_mF6F46704B8CC76DA22F543EFF8D136676893ACEB(L_0, NULL);
-		// ctrlTouchscreenprimaryTouchindirectTouch.Setup()
-		//     .At(this, 24)
-		//     .WithParent(parent)
-		//     .WithName("indirectTouch")
-		//     .WithDisplayName("Primary Touch Indirect Touch?")
-		//     .WithShortDisplayName("Primary Touch Indirect Touch?")
-		//     .WithLayout(kButtonLayout)
-		//     .IsSynthetic(true)
-		//     .IsButton(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1112101920),
-		//         byteOffset = 35,
-		//         bitOffset = 0,
-		//         sizeInBits = 1
-		//     })
-		//     .WithMinAndMax(0, 1)
-		//     .Finish();
 		ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -7859,7 +6780,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ButtonControl_t85949109B98AAF5B7ADC0285F0EC98
 		L_18 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_16, L_17, NULL);
 		V_0 = L_18;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreenprimaryTouchindirectTouch;
 		return L_1;
 	}
 }
@@ -7879,28 +6799,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ButtonControl_t85949109B98AAF5B7ADC0285F0EC98
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreenprimaryTouchtap = new UnityEngine.InputSystem.Controls.ButtonControl();
 		ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* L_0 = (ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF*)il2cpp_codegen_object_new(ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		ButtonControl__ctor_mF6F46704B8CC76DA22F543EFF8D136676893ACEB(L_0, NULL);
-		// ctrlTouchscreenprimaryTouchtap.Setup()
-		//     .At(this, 25)
-		//     .WithParent(parent)
-		//     .WithName("tap")
-		//     .WithDisplayName("Primary Touch Tap")
-		//     .WithShortDisplayName("Primary Touch Tap")
-		//     .WithLayout(kButtonLayout)
-		//     .WithUsages(0, 1)
-		//     .IsButton(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1112101920),
-		//         byteOffset = 35,
-		//         bitOffset = 4,
-		//         sizeInBits = 1
-		//     })
-		//     .WithMinAndMax(0, 1)
-		//     .Finish();
 		ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -7951,7 +6852,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ButtonControl_t85949109B98AAF5B7ADC0285F0EC98
 		L_18 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_16, L_17, NULL);
 		V_0 = L_18;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreenprimaryTouchtap;
 		return L_1;
 	}
 }
@@ -7971,26 +6871,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DoubleControl_t3707A6260424A2F3636669A2BAFF5C
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreenprimaryTouchstartTime = new UnityEngine.InputSystem.Controls.DoubleControl();
 		DoubleControl_t3707A6260424A2F3636669A2BAFF5CB5E91D2486* L_0 = (DoubleControl_t3707A6260424A2F3636669A2BAFF5CB5E91D2486*)il2cpp_codegen_object_new(DoubleControl_t3707A6260424A2F3636669A2BAFF5CB5E91D2486_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		DoubleControl__ctor_m83AB89DB3A9EC88845B31BFF812C36C99F327CDA(L_0, NULL);
-		// ctrlTouchscreenprimaryTouchstartTime.Setup()
-		//     .At(this, 26)
-		//     .WithParent(parent)
-		//     .WithName("startTime")
-		//     .WithDisplayName("Primary Touch Start Time")
-		//     .WithShortDisplayName("Primary Touch Start Time")
-		//     .WithLayout(kDoubleLayout)
-		//     .IsSynthetic(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1145195552),
-		//         byteOffset = 40,
-		//         bitOffset = 0,
-		//         sizeInBits = 64
-		//     })
-		//     .Finish();
 		DoubleControl_t3707A6260424A2F3636669A2BAFF5CB5E91D2486* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -8031,7 +6914,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DoubleControl_t3707A6260424A2F3636669A2BAFF5C
 		L_14 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_13, NULL);
 		V_0 = L_14;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreenprimaryTouchstartTime;
 		return L_1;
 	}
 }
@@ -8051,27 +6933,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreenprimaryTouchstartPosition = new UnityEngine.InputSystem.Controls.Vector2Control();
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_0 = (Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432*)il2cpp_codegen_object_new(Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		Vector2Control__ctor_m9F2990DA999344F23AA90F6EE77884A75D4F29F8(L_0, NULL);
-		// ctrlTouchscreenprimaryTouchstartPosition.Setup()
-		//     .At(this, 27)
-		//     .WithParent(parent)
-		//     .WithChildren(38, 2)
-		//     .WithName("startPosition")
-		//     .WithDisplayName("Primary Touch Start Position")
-		//     .WithShortDisplayName("Primary Touch Start Position")
-		//     .WithLayout(kVector2Layout)
-		//     .IsSynthetic(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1447379762),
-		//         byteOffset = 48,
-		//         bitOffset = 0,
-		//         sizeInBits = 64
-		//     })
-		//     .Finish();
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -8115,7 +6979,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 		L_15 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_14, NULL);
 		V_0 = L_15;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreenprimaryTouchstartPosition;
 		return L_1;
 	}
 }
@@ -8135,26 +6998,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreenprimaryTouchpositionx = new UnityEngine.InputSystem.Controls.AxisControl();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
-		// ctrlTouchscreenprimaryTouchpositionx.Setup()
-		//     .At(this, 28)
-		//     .WithParent(parent)
-		//     .WithName("x")
-		//     .WithDisplayName("Primary Touch Primary Touch Position X")
-		//     .WithShortDisplayName("Primary Touch Primary Touch Position X")
-		//     .WithLayout(kAxisLayout)
-		//     .DontReset(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 4,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -8195,7 +7041,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_14 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_13, NULL);
 		V_0 = L_14;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreenprimaryTouchpositionx;
 		return L_1;
 	}
 }
@@ -8215,26 +7060,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreenprimaryTouchpositiony = new UnityEngine.InputSystem.Controls.AxisControl();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
-		// ctrlTouchscreenprimaryTouchpositiony.Setup()
-		//     .At(this, 29)
-		//     .WithParent(parent)
-		//     .WithName("y")
-		//     .WithDisplayName("Primary Touch Primary Touch Position Y")
-		//     .WithShortDisplayName("Primary Touch Primary Touch Position Y")
-		//     .WithLayout(kAxisLayout)
-		//     .DontReset(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 8,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -8275,7 +7103,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_14 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_13, NULL);
 		V_0 = L_14;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreenprimaryTouchpositiony;
 		return L_1;
 	}
 }
@@ -8295,7 +7122,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreenprimaryTouchdeltaup = new UnityEngine.InputSystem.Controls.AxisControl { clamp = UnityEngine.InputSystem.Controls.AxisControl.Clamp.BeforeNormalize, clampMax = 3.402823E+38f };
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
@@ -8305,22 +7131,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_2 = L_1;
 		NullCheck(L_2);
 		L_2->___clampMax_24 = (3.40282306E+38f);
-		// ctrlTouchscreenprimaryTouchdeltaup.Setup()
-		//     .At(this, 30)
-		//     .WithParent(parent)
-		//     .WithName("up")
-		//     .WithDisplayName("Primary Touch Primary Touch Delta Up")
-		//     .WithShortDisplayName("Primary Touch Primary Touch Delta Up")
-		//     .WithLayout(kAxisLayout)
-		//     .IsSynthetic(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 16,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_3 = L_2;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_4;
 		L_4 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_3, NULL);
@@ -8361,7 +7171,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_16 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_15, NULL);
 		V_0 = L_16;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreenprimaryTouchdeltaup;
 		return L_3;
 	}
 }
@@ -8381,7 +7190,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreenprimaryTouchdeltadown = new UnityEngine.InputSystem.Controls.AxisControl { clamp = UnityEngine.InputSystem.Controls.AxisControl.Clamp.BeforeNormalize, clampMin = -3.402823E+38f, invert = true };
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
@@ -8394,22 +7202,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_3 = L_2;
 		NullCheck(L_3);
 		L_3->___invert_26 = (bool)1;
-		// ctrlTouchscreenprimaryTouchdeltadown.Setup()
-		//     .At(this, 31)
-		//     .WithParent(parent)
-		//     .WithName("down")
-		//     .WithDisplayName("Primary Touch Primary Touch Delta Down")
-		//     .WithShortDisplayName("Primary Touch Primary Touch Delta Down")
-		//     .WithLayout(kAxisLayout)
-		//     .IsSynthetic(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 16,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_4 = L_3;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_5;
 		L_5 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_4, NULL);
@@ -8450,7 +7242,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_17 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_16, NULL);
 		V_0 = L_17;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreenprimaryTouchdeltadown;
 		return L_4;
 	}
 }
@@ -8470,7 +7261,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreenprimaryTouchdeltaleft = new UnityEngine.InputSystem.Controls.AxisControl { clamp = UnityEngine.InputSystem.Controls.AxisControl.Clamp.BeforeNormalize, clampMin = -3.402823E+38f, invert = true };
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
@@ -8483,22 +7273,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_3 = L_2;
 		NullCheck(L_3);
 		L_3->___invert_26 = (bool)1;
-		// ctrlTouchscreenprimaryTouchdeltaleft.Setup()
-		//     .At(this, 32)
-		//     .WithParent(parent)
-		//     .WithName("left")
-		//     .WithDisplayName("Primary Touch Primary Touch Delta Left")
-		//     .WithShortDisplayName("Primary Touch Primary Touch Delta Left")
-		//     .WithLayout(kAxisLayout)
-		//     .IsSynthetic(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 12,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_4 = L_3;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_5;
 		L_5 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_4, NULL);
@@ -8539,7 +7313,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_17 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_16, NULL);
 		V_0 = L_17;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreenprimaryTouchdeltaleft;
 		return L_4;
 	}
 }
@@ -8559,7 +7332,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreenprimaryTouchdeltaright = new UnityEngine.InputSystem.Controls.AxisControl { clamp = UnityEngine.InputSystem.Controls.AxisControl.Clamp.BeforeNormalize, clampMax = 3.402823E+38f };
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
@@ -8569,22 +7341,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_2 = L_1;
 		NullCheck(L_2);
 		L_2->___clampMax_24 = (3.40282306E+38f);
-		// ctrlTouchscreenprimaryTouchdeltaright.Setup()
-		//     .At(this, 33)
-		//     .WithParent(parent)
-		//     .WithName("right")
-		//     .WithDisplayName("Primary Touch Primary Touch Delta Right")
-		//     .WithShortDisplayName("Primary Touch Primary Touch Delta Right")
-		//     .WithLayout(kAxisLayout)
-		//     .IsSynthetic(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 12,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_3 = L_2;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_4;
 		L_4 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_3, NULL);
@@ -8625,7 +7381,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_16 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_15, NULL);
 		V_0 = L_16;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreenprimaryTouchdeltaright;
 		return L_3;
 	}
 }
@@ -8645,25 +7400,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreenprimaryTouchdeltax = new UnityEngine.InputSystem.Controls.AxisControl();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
-		// ctrlTouchscreenprimaryTouchdeltax.Setup()
-		//     .At(this, 34)
-		//     .WithParent(parent)
-		//     .WithName("x")
-		//     .WithDisplayName("Primary Touch Primary Touch Delta X")
-		//     .WithShortDisplayName("Primary Touch Primary Touch Delta X")
-		//     .WithLayout(kAxisLayout)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 12,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -8701,7 +7440,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_13 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_12, NULL);
 		V_0 = L_13;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreenprimaryTouchdeltax;
 		return L_1;
 	}
 }
@@ -8721,25 +7459,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreenprimaryTouchdeltay = new UnityEngine.InputSystem.Controls.AxisControl();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
-		// ctrlTouchscreenprimaryTouchdeltay.Setup()
-		//     .At(this, 35)
-		//     .WithParent(parent)
-		//     .WithName("y")
-		//     .WithDisplayName("Primary Touch Primary Touch Delta Y")
-		//     .WithShortDisplayName("Primary Touch Primary Touch Delta Y")
-		//     .WithLayout(kAxisLayout)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 16,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -8777,7 +7499,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_13 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_12, NULL);
 		V_0 = L_13;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreenprimaryTouchdeltay;
 		return L_1;
 	}
 }
@@ -8797,25 +7518,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreenprimaryTouchradiusx = new UnityEngine.InputSystem.Controls.AxisControl();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
-		// ctrlTouchscreenprimaryTouchradiusx.Setup()
-		//     .At(this, 36)
-		//     .WithParent(parent)
-		//     .WithName("x")
-		//     .WithDisplayName("Primary Touch Primary Touch Radius X")
-		//     .WithShortDisplayName("Primary Touch Primary Touch Radius X")
-		//     .WithLayout(kAxisLayout)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 24,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -8853,7 +7558,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_13 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_12, NULL);
 		V_0 = L_13;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreenprimaryTouchradiusx;
 		return L_1;
 	}
 }
@@ -8873,25 +7577,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreenprimaryTouchradiusy = new UnityEngine.InputSystem.Controls.AxisControl();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
-		// ctrlTouchscreenprimaryTouchradiusy.Setup()
-		//     .At(this, 37)
-		//     .WithParent(parent)
-		//     .WithName("y")
-		//     .WithDisplayName("Primary Touch Primary Touch Radius Y")
-		//     .WithShortDisplayName("Primary Touch Primary Touch Radius Y")
-		//     .WithLayout(kAxisLayout)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 28,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -8929,7 +7617,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_13 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_12, NULL);
 		V_0 = L_13;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreenprimaryTouchradiusy;
 		return L_1;
 	}
 }
@@ -8949,25 +7636,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreenprimaryTouchstartPositionx = new UnityEngine.InputSystem.Controls.AxisControl();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
-		// ctrlTouchscreenprimaryTouchstartPositionx.Setup()
-		//     .At(this, 38)
-		//     .WithParent(parent)
-		//     .WithName("x")
-		//     .WithDisplayName("Primary Touch Primary Touch Start Position X")
-		//     .WithShortDisplayName("Primary Touch Primary Touch Start Position X")
-		//     .WithLayout(kAxisLayout)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 48,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -9005,7 +7676,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_13 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_12, NULL);
 		V_0 = L_13;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreenprimaryTouchstartPositionx;
 		return L_1;
 	}
 }
@@ -9025,25 +7695,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreenprimaryTouchstartPositiony = new UnityEngine.InputSystem.Controls.AxisControl();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
-		// ctrlTouchscreenprimaryTouchstartPositiony.Setup()
-		//     .At(this, 39)
-		//     .WithParent(parent)
-		//     .WithName("y")
-		//     .WithDisplayName("Primary Touch Primary Touch Start Position Y")
-		//     .WithShortDisplayName("Primary Touch Primary Touch Start Position Y")
-		//     .WithLayout(kAxisLayout)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 52,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -9081,7 +7735,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_13 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_12, NULL);
 		V_0 = L_13;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreenprimaryTouchstartPositiony;
 		return L_1;
 	}
 }
@@ -9101,26 +7754,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreenpositionx = new UnityEngine.InputSystem.Controls.AxisControl();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
-		// ctrlTouchscreenpositionx.Setup()
-		//     .At(this, 40)
-		//     .WithParent(parent)
-		//     .WithName("x")
-		//     .WithDisplayName("Position X")
-		//     .WithShortDisplayName("Position X")
-		//     .WithLayout(kAxisLayout)
-		//     .DontReset(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 4,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -9161,7 +7797,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_14 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_13, NULL);
 		V_0 = L_14;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreenpositionx;
 		return L_1;
 	}
 }
@@ -9181,26 +7816,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreenpositiony = new UnityEngine.InputSystem.Controls.AxisControl();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
-		// ctrlTouchscreenpositiony.Setup()
-		//     .At(this, 41)
-		//     .WithParent(parent)
-		//     .WithName("y")
-		//     .WithDisplayName("Position Y")
-		//     .WithShortDisplayName("Position Y")
-		//     .WithLayout(kAxisLayout)
-		//     .DontReset(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 8,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -9241,7 +7859,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_14 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_13, NULL);
 		V_0 = L_14;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreenpositiony;
 		return L_1;
 	}
 }
@@ -9261,7 +7878,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreendeltaup = new UnityEngine.InputSystem.Controls.AxisControl { clamp = UnityEngine.InputSystem.Controls.AxisControl.Clamp.BeforeNormalize, clampMax = 3.402823E+38f };
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
@@ -9271,22 +7887,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_2 = L_1;
 		NullCheck(L_2);
 		L_2->___clampMax_24 = (3.40282306E+38f);
-		// ctrlTouchscreendeltaup.Setup()
-		//     .At(this, 42)
-		//     .WithParent(parent)
-		//     .WithName("up")
-		//     .WithDisplayName("Delta Up")
-		//     .WithShortDisplayName("Delta Up")
-		//     .WithLayout(kAxisLayout)
-		//     .IsSynthetic(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 16,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_3 = L_2;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_4;
 		L_4 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_3, NULL);
@@ -9327,7 +7927,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_16 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_15, NULL);
 		V_0 = L_16;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreendeltaup;
 		return L_3;
 	}
 }
@@ -9347,7 +7946,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreendeltadown = new UnityEngine.InputSystem.Controls.AxisControl { clamp = UnityEngine.InputSystem.Controls.AxisControl.Clamp.BeforeNormalize, clampMin = -3.402823E+38f, invert = true };
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
@@ -9360,22 +7958,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_3 = L_2;
 		NullCheck(L_3);
 		L_3->___invert_26 = (bool)1;
-		// ctrlTouchscreendeltadown.Setup()
-		//     .At(this, 43)
-		//     .WithParent(parent)
-		//     .WithName("down")
-		//     .WithDisplayName("Delta Down")
-		//     .WithShortDisplayName("Delta Down")
-		//     .WithLayout(kAxisLayout)
-		//     .IsSynthetic(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 16,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_4 = L_3;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_5;
 		L_5 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_4, NULL);
@@ -9416,7 +7998,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_17 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_16, NULL);
 		V_0 = L_17;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreendeltadown;
 		return L_4;
 	}
 }
@@ -9436,7 +8017,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreendeltaleft = new UnityEngine.InputSystem.Controls.AxisControl { clamp = UnityEngine.InputSystem.Controls.AxisControl.Clamp.BeforeNormalize, clampMin = -3.402823E+38f, invert = true };
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
@@ -9449,22 +8029,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_3 = L_2;
 		NullCheck(L_3);
 		L_3->___invert_26 = (bool)1;
-		// ctrlTouchscreendeltaleft.Setup()
-		//     .At(this, 44)
-		//     .WithParent(parent)
-		//     .WithName("left")
-		//     .WithDisplayName("Delta Left")
-		//     .WithShortDisplayName("Delta Left")
-		//     .WithLayout(kAxisLayout)
-		//     .IsSynthetic(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 12,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_4 = L_3;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_5;
 		L_5 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_4, NULL);
@@ -9505,7 +8069,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_17 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_16, NULL);
 		V_0 = L_17;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreendeltaleft;
 		return L_4;
 	}
 }
@@ -9525,7 +8088,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreendeltaright = new UnityEngine.InputSystem.Controls.AxisControl { clamp = UnityEngine.InputSystem.Controls.AxisControl.Clamp.BeforeNormalize, clampMax = 3.402823E+38f };
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
@@ -9535,22 +8097,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_2 = L_1;
 		NullCheck(L_2);
 		L_2->___clampMax_24 = (3.40282306E+38f);
-		// ctrlTouchscreendeltaright.Setup()
-		//     .At(this, 45)
-		//     .WithParent(parent)
-		//     .WithName("right")
-		//     .WithDisplayName("Delta Right")
-		//     .WithShortDisplayName("Delta Right")
-		//     .WithLayout(kAxisLayout)
-		//     .IsSynthetic(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 12,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_3 = L_2;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_4;
 		L_4 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_3, NULL);
@@ -9591,7 +8137,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_16 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_15, NULL);
 		V_0 = L_16;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreendeltaright;
 		return L_3;
 	}
 }
@@ -9611,25 +8156,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreendeltax = new UnityEngine.InputSystem.Controls.AxisControl();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
-		// ctrlTouchscreendeltax.Setup()
-		//     .At(this, 46)
-		//     .WithParent(parent)
-		//     .WithName("x")
-		//     .WithDisplayName("Delta X")
-		//     .WithShortDisplayName("Delta X")
-		//     .WithLayout(kAxisLayout)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 12,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -9667,7 +8196,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_13 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_12, NULL);
 		V_0 = L_13;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreendeltax;
 		return L_1;
 	}
 }
@@ -9687,25 +8215,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreendeltay = new UnityEngine.InputSystem.Controls.AxisControl();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
-		// ctrlTouchscreendeltay.Setup()
-		//     .At(this, 47)
-		//     .WithParent(parent)
-		//     .WithName("y")
-		//     .WithDisplayName("Delta Y")
-		//     .WithShortDisplayName("Delta Y")
-		//     .WithLayout(kAxisLayout)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 16,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -9743,7 +8255,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_13 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_12, NULL);
 		V_0 = L_13;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreendeltay;
 		return L_1;
 	}
 }
@@ -9763,25 +8274,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreenradiusx = new UnityEngine.InputSystem.Controls.AxisControl();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
-		// ctrlTouchscreenradiusx.Setup()
-		//     .At(this, 48)
-		//     .WithParent(parent)
-		//     .WithName("x")
-		//     .WithDisplayName("Radius X")
-		//     .WithShortDisplayName("Radius X")
-		//     .WithLayout(kAxisLayout)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 24,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -9819,7 +8314,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_13 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_12, NULL);
 		V_0 = L_13;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreenradiusx;
 		return L_1;
 	}
 }
@@ -9839,25 +8333,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreenradiusy = new UnityEngine.InputSystem.Controls.AxisControl();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
-		// ctrlTouchscreenradiusy.Setup()
-		//     .At(this, 49)
-		//     .WithParent(parent)
-		//     .WithName("y")
-		//     .WithDisplayName("Radius Y")
-		//     .WithShortDisplayName("Radius Y")
-		//     .WithLayout(kAxisLayout)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 28,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -9895,7 +8373,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_13 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_12, NULL);
 		V_0 = L_13;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreenradiusy;
 		return L_1;
 	}
 }
@@ -9915,27 +8392,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntegerControl_tA24544EFF42204852F638FF5147F7
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch0touchId = new UnityEngine.InputSystem.Controls.IntegerControl();
 		IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB* L_0 = (IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB*)il2cpp_codegen_object_new(IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		IntegerControl__ctor_mC6E1C70B301EE12C2590B64C2DD53F02A577892D(L_0, NULL);
-		// ctrlTouchscreentouch0touchId.Setup()
-		//     .At(this, 50)
-		//     .WithParent(parent)
-		//     .WithName("touchId")
-		//     .WithDisplayName("Touch Touch ID")
-		//     .WithShortDisplayName("Touch Touch ID")
-		//     .WithLayout(kIntegerLayout)
-		//     .IsSynthetic(true)
-		//     .DontReset(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1229870112),
-		//         byteOffset = 56,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -9979,7 +8438,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntegerControl_tA24544EFF42204852F638FF5147F7
 		L_15 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_14, NULL);
 		V_0 = L_15;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch0touchId;
 		return L_1;
 	}
 }
@@ -9999,27 +8457,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch0position = new UnityEngine.InputSystem.Controls.Vector2Control();
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_0 = (Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432*)il2cpp_codegen_object_new(Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		Vector2Control__ctor_m9F2990DA999344F23AA90F6EE77884A75D4F29F8(L_0, NULL);
-		// ctrlTouchscreentouch0position.Setup()
-		//     .At(this, 51)
-		//     .WithParent(parent)
-		//     .WithChildren(62, 2)
-		//     .WithName("position")
-		//     .WithDisplayName("Touch Position")
-		//     .WithShortDisplayName("Touch Position")
-		//     .WithLayout(kVector2Layout)
-		//     .DontReset(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1447379762),
-		//         byteOffset = 60,
-		//         bitOffset = 0,
-		//         sizeInBits = 64
-		//     })
-		//     .Finish();
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -10063,7 +8503,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 		L_15 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_14, NULL);
 		V_0 = L_15;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch0position;
 		return L_1;
 	}
 }
@@ -10083,26 +8522,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A1
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch0delta = new UnityEngine.InputSystem.Controls.DeltaControl();
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_0 = (DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B*)il2cpp_codegen_object_new(DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		DeltaControl__ctor_m221788585AD5E0B67F3CFE1199DC6C2B0C237CB4(L_0, NULL);
-		// ctrlTouchscreentouch0delta.Setup()
-		//     .At(this, 52)
-		//     .WithParent(parent)
-		//     .WithChildren(64, 6)
-		//     .WithName("delta")
-		//     .WithDisplayName("Touch Delta")
-		//     .WithShortDisplayName("Touch Delta")
-		//     .WithLayout(kDeltaLayout)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1447379762),
-		//         byteOffset = 68,
-		//         bitOffset = 0,
-		//         sizeInBits = 64
-		//     })
-		//     .Finish();
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -10143,7 +8565,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A1
 		L_14 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_13, NULL);
 		V_0 = L_14;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch0delta;
 		return L_1;
 	}
 }
@@ -10163,25 +8584,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch0pressure = new UnityEngine.InputSystem.Controls.AxisControl();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
-		// ctrlTouchscreentouch0pressure.Setup()
-		//     .At(this, 53)
-		//     .WithParent(parent)
-		//     .WithName("pressure")
-		//     .WithDisplayName("Touch Pressure")
-		//     .WithShortDisplayName("Touch Pressure")
-		//     .WithLayout(kAxisLayout)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 76,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -10219,7 +8624,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_13 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_12, NULL);
 		V_0 = L_13;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch0pressure;
 		return L_1;
 	}
 }
@@ -10239,26 +8643,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch0radius = new UnityEngine.InputSystem.Controls.Vector2Control();
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_0 = (Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432*)il2cpp_codegen_object_new(Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		Vector2Control__ctor_m9F2990DA999344F23AA90F6EE77884A75D4F29F8(L_0, NULL);
-		// ctrlTouchscreentouch0radius.Setup()
-		//     .At(this, 54)
-		//     .WithParent(parent)
-		//     .WithChildren(70, 2)
-		//     .WithName("radius")
-		//     .WithDisplayName("Touch Radius")
-		//     .WithShortDisplayName("Touch Radius")
-		//     .WithLayout(kVector2Layout)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1447379762),
-		//         byteOffset = 80,
-		//         bitOffset = 0,
-		//         sizeInBits = 64
-		//     })
-		//     .Finish();
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -10299,7 +8686,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 		L_14 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_13, NULL);
 		V_0 = L_14;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch0radius;
 		return L_1;
 	}
 }
@@ -10319,26 +8705,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchPhaseControl_t4652C6E0EBFAFA85A316077698
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch0phase = new UnityEngine.InputSystem.Controls.TouchPhaseControl();
 		TouchPhaseControl_t4652C6E0EBFAFA85A31607769876B02C1C9FCAEC* L_0 = (TouchPhaseControl_t4652C6E0EBFAFA85A31607769876B02C1C9FCAEC*)il2cpp_codegen_object_new(TouchPhaseControl_t4652C6E0EBFAFA85A31607769876B02C1C9FCAEC_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		TouchPhaseControl__ctor_m76D52D2CDBC41512C35BC70649F0B91ADDAE4D59(L_0, NULL);
-		// ctrlTouchscreentouch0phase.Setup()
-		//     .At(this, 55)
-		//     .WithParent(parent)
-		//     .WithName("phase")
-		//     .WithDisplayName("Touch Touch Phase")
-		//     .WithShortDisplayName("Touch Touch Phase")
-		//     .WithLayout(kTouchPhaseLayout)
-		//     .IsSynthetic(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1113150533),
-		//         byteOffset = 88,
-		//         bitOffset = 0,
-		//         sizeInBits = 8
-		//     })
-		//     .Finish();
 		TouchPhaseControl_t4652C6E0EBFAFA85A31607769876B02C1C9FCAEC* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -10379,7 +8748,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchPhaseControl_t4652C6E0EBFAFA85A316077698
 		L_14 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_13, NULL);
 		V_0 = L_14;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch0phase;
 		return L_1;
 	}
 }
@@ -10399,27 +8767,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchPressControl_tD5BD68D9FDEAC889591DD7A499
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch0press = new UnityEngine.InputSystem.Controls.TouchPressControl();
 		TouchPressControl_tD5BD68D9FDEAC889591DD7A499864893A43C7CEB* L_0 = (TouchPressControl_tD5BD68D9FDEAC889591DD7A499864893A43C7CEB*)il2cpp_codegen_object_new(TouchPressControl_tD5BD68D9FDEAC889591DD7A499864893A43C7CEB_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		TouchPressControl__ctor_m257FF1E4C03BD2CC927220808F404A23641027B2(L_0, NULL);
-		// ctrlTouchscreentouch0press.Setup()
-		//     .At(this, 56)
-		//     .WithParent(parent)
-		//     .WithName("press")
-		//     .WithDisplayName("Touch Touch Contact?")
-		//     .WithShortDisplayName("Touch Touch Contact?")
-		//     .WithLayout(kTouchPressLayout)
-		//     .IsButton(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1113150533),
-		//         byteOffset = 88,
-		//         bitOffset = 0,
-		//         sizeInBits = 8
-		//     })
-		//     .WithMinAndMax(0, 1)
-		//     .Finish();
 		TouchPressControl_tD5BD68D9FDEAC889591DD7A499864893A43C7CEB* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -10467,7 +8817,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchPressControl_tD5BD68D9FDEAC889591DD7A499
 		L_17 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_15, L_16, NULL);
 		V_0 = L_17;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch0press;
 		return L_1;
 	}
 }
@@ -10487,25 +8836,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntegerControl_tA24544EFF42204852F638FF5147F7
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch0tapCount = new UnityEngine.InputSystem.Controls.IntegerControl();
 		IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB* L_0 = (IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB*)il2cpp_codegen_object_new(IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		IntegerControl__ctor_mC6E1C70B301EE12C2590B64C2DD53F02A577892D(L_0, NULL);
-		// ctrlTouchscreentouch0tapCount.Setup()
-		//     .At(this, 57)
-		//     .WithParent(parent)
-		//     .WithName("tapCount")
-		//     .WithDisplayName("Touch Tap Count")
-		//     .WithShortDisplayName("Touch Tap Count")
-		//     .WithLayout(kIntegerLayout)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1113150533),
-		//         byteOffset = 89,
-		//         bitOffset = 0,
-		//         sizeInBits = 8
-		//     })
-		//     .Finish();
 		IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -10543,7 +8876,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntegerControl_tA24544EFF42204852F638FF5147F7
 		L_13 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_12, NULL);
 		V_0 = L_13;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch0tapCount;
 		return L_1;
 	}
 }
@@ -10563,28 +8895,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ButtonControl_t85949109B98AAF5B7ADC0285F0EC98
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch0indirectTouch = new UnityEngine.InputSystem.Controls.ButtonControl();
 		ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* L_0 = (ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF*)il2cpp_codegen_object_new(ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		ButtonControl__ctor_mF6F46704B8CC76DA22F543EFF8D136676893ACEB(L_0, NULL);
-		// ctrlTouchscreentouch0indirectTouch.Setup()
-		//     .At(this, 58)
-		//     .WithParent(parent)
-		//     .WithName("indirectTouch")
-		//     .WithDisplayName("Touch Indirect Touch?")
-		//     .WithShortDisplayName("Touch Indirect Touch?")
-		//     .WithLayout(kButtonLayout)
-		//     .IsSynthetic(true)
-		//     .IsButton(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1112101920),
-		//         byteOffset = 91,
-		//         bitOffset = 0,
-		//         sizeInBits = 1
-		//     })
-		//     .WithMinAndMax(0, 1)
-		//     .Finish();
 		ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -10635,7 +8948,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ButtonControl_t85949109B98AAF5B7ADC0285F0EC98
 		L_18 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_16, L_17, NULL);
 		V_0 = L_18;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch0indirectTouch;
 		return L_1;
 	}
 }
@@ -10655,27 +8967,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ButtonControl_t85949109B98AAF5B7ADC0285F0EC98
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch0tap = new UnityEngine.InputSystem.Controls.ButtonControl();
 		ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* L_0 = (ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF*)il2cpp_codegen_object_new(ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		ButtonControl__ctor_mF6F46704B8CC76DA22F543EFF8D136676893ACEB(L_0, NULL);
-		// ctrlTouchscreentouch0tap.Setup()
-		//     .At(this, 59)
-		//     .WithParent(parent)
-		//     .WithName("tap")
-		//     .WithDisplayName("Touch Tap")
-		//     .WithShortDisplayName("Touch Tap")
-		//     .WithLayout(kButtonLayout)
-		//     .IsButton(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1112101920),
-		//         byteOffset = 91,
-		//         bitOffset = 4,
-		//         sizeInBits = 1
-		//     })
-		//     .WithMinAndMax(0, 1)
-		//     .Finish();
 		ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -10723,7 +9017,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ButtonControl_t85949109B98AAF5B7ADC0285F0EC98
 		L_17 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_15, L_16, NULL);
 		V_0 = L_17;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch0tap;
 		return L_1;
 	}
 }
@@ -10743,26 +9036,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DoubleControl_t3707A6260424A2F3636669A2BAFF5C
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch0startTime = new UnityEngine.InputSystem.Controls.DoubleControl();
 		DoubleControl_t3707A6260424A2F3636669A2BAFF5CB5E91D2486* L_0 = (DoubleControl_t3707A6260424A2F3636669A2BAFF5CB5E91D2486*)il2cpp_codegen_object_new(DoubleControl_t3707A6260424A2F3636669A2BAFF5CB5E91D2486_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		DoubleControl__ctor_m83AB89DB3A9EC88845B31BFF812C36C99F327CDA(L_0, NULL);
-		// ctrlTouchscreentouch0startTime.Setup()
-		//     .At(this, 60)
-		//     .WithParent(parent)
-		//     .WithName("startTime")
-		//     .WithDisplayName("Touch Start Time")
-		//     .WithShortDisplayName("Touch Start Time")
-		//     .WithLayout(kDoubleLayout)
-		//     .IsSynthetic(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1145195552),
-		//         byteOffset = 96,
-		//         bitOffset = 0,
-		//         sizeInBits = 64
-		//     })
-		//     .Finish();
 		DoubleControl_t3707A6260424A2F3636669A2BAFF5CB5E91D2486* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -10803,7 +9079,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DoubleControl_t3707A6260424A2F3636669A2BAFF5C
 		L_14 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_13, NULL);
 		V_0 = L_14;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch0startTime;
 		return L_1;
 	}
 }
@@ -10823,27 +9098,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch0startPosition = new UnityEngine.InputSystem.Controls.Vector2Control();
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_0 = (Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432*)il2cpp_codegen_object_new(Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		Vector2Control__ctor_m9F2990DA999344F23AA90F6EE77884A75D4F29F8(L_0, NULL);
-		// ctrlTouchscreentouch0startPosition.Setup()
-		//     .At(this, 61)
-		//     .WithParent(parent)
-		//     .WithChildren(72, 2)
-		//     .WithName("startPosition")
-		//     .WithDisplayName("Touch Start Position")
-		//     .WithShortDisplayName("Touch Start Position")
-		//     .WithLayout(kVector2Layout)
-		//     .IsSynthetic(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1447379762),
-		//         byteOffset = 104,
-		//         bitOffset = 0,
-		//         sizeInBits = 64
-		//     })
-		//     .Finish();
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -10887,7 +9144,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 		L_15 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_14, NULL);
 		V_0 = L_15;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch0startPosition;
 		return L_1;
 	}
 }
@@ -10907,26 +9163,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch0positionx = new UnityEngine.InputSystem.Controls.AxisControl();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
-		// ctrlTouchscreentouch0positionx.Setup()
-		//     .At(this, 62)
-		//     .WithParent(parent)
-		//     .WithName("x")
-		//     .WithDisplayName("Touch Touch Position X")
-		//     .WithShortDisplayName("Touch Touch Position X")
-		//     .WithLayout(kAxisLayout)
-		//     .DontReset(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 60,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -10967,7 +9206,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_14 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_13, NULL);
 		V_0 = L_14;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch0positionx;
 		return L_1;
 	}
 }
@@ -10987,26 +9225,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch0positiony = new UnityEngine.InputSystem.Controls.AxisControl();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
-		// ctrlTouchscreentouch0positiony.Setup()
-		//     .At(this, 63)
-		//     .WithParent(parent)
-		//     .WithName("y")
-		//     .WithDisplayName("Touch Touch Position Y")
-		//     .WithShortDisplayName("Touch Touch Position Y")
-		//     .WithLayout(kAxisLayout)
-		//     .DontReset(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 64,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -11047,7 +9268,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_14 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_13, NULL);
 		V_0 = L_14;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch0positiony;
 		return L_1;
 	}
 }
@@ -11067,7 +9287,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch0deltaup = new UnityEngine.InputSystem.Controls.AxisControl { clamp = UnityEngine.InputSystem.Controls.AxisControl.Clamp.BeforeNormalize, clampMax = 3.402823E+38f };
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
@@ -11077,22 +9296,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_2 = L_1;
 		NullCheck(L_2);
 		L_2->___clampMax_24 = (3.40282306E+38f);
-		// ctrlTouchscreentouch0deltaup.Setup()
-		//     .At(this, 64)
-		//     .WithParent(parent)
-		//     .WithName("up")
-		//     .WithDisplayName("Touch Touch Delta Up")
-		//     .WithShortDisplayName("Touch Touch Delta Up")
-		//     .WithLayout(kAxisLayout)
-		//     .IsSynthetic(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 72,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_3 = L_2;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_4;
 		L_4 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_3, NULL);
@@ -11133,7 +9336,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_16 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_15, NULL);
 		V_0 = L_16;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch0deltaup;
 		return L_3;
 	}
 }
@@ -11153,7 +9355,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch0deltadown = new UnityEngine.InputSystem.Controls.AxisControl { clamp = UnityEngine.InputSystem.Controls.AxisControl.Clamp.BeforeNormalize, clampMin = -3.402823E+38f, invert = true };
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
@@ -11166,22 +9367,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_3 = L_2;
 		NullCheck(L_3);
 		L_3->___invert_26 = (bool)1;
-		// ctrlTouchscreentouch0deltadown.Setup()
-		//     .At(this, 65)
-		//     .WithParent(parent)
-		//     .WithName("down")
-		//     .WithDisplayName("Touch Touch Delta Down")
-		//     .WithShortDisplayName("Touch Touch Delta Down")
-		//     .WithLayout(kAxisLayout)
-		//     .IsSynthetic(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 72,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_4 = L_3;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_5;
 		L_5 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_4, NULL);
@@ -11222,7 +9407,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_17 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_16, NULL);
 		V_0 = L_17;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch0deltadown;
 		return L_4;
 	}
 }
@@ -11242,7 +9426,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch0deltaleft = new UnityEngine.InputSystem.Controls.AxisControl { clamp = UnityEngine.InputSystem.Controls.AxisControl.Clamp.BeforeNormalize, clampMin = -3.402823E+38f, invert = true };
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
@@ -11255,22 +9438,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_3 = L_2;
 		NullCheck(L_3);
 		L_3->___invert_26 = (bool)1;
-		// ctrlTouchscreentouch0deltaleft.Setup()
-		//     .At(this, 66)
-		//     .WithParent(parent)
-		//     .WithName("left")
-		//     .WithDisplayName("Touch Touch Delta Left")
-		//     .WithShortDisplayName("Touch Touch Delta Left")
-		//     .WithLayout(kAxisLayout)
-		//     .IsSynthetic(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 68,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_4 = L_3;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_5;
 		L_5 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_4, NULL);
@@ -11311,7 +9478,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_17 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_16, NULL);
 		V_0 = L_17;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch0deltaleft;
 		return L_4;
 	}
 }
@@ -11331,7 +9497,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch0deltaright = new UnityEngine.InputSystem.Controls.AxisControl { clamp = UnityEngine.InputSystem.Controls.AxisControl.Clamp.BeforeNormalize, clampMax = 3.402823E+38f };
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
@@ -11341,22 +9506,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_2 = L_1;
 		NullCheck(L_2);
 		L_2->___clampMax_24 = (3.40282306E+38f);
-		// ctrlTouchscreentouch0deltaright.Setup()
-		//     .At(this, 67)
-		//     .WithParent(parent)
-		//     .WithName("right")
-		//     .WithDisplayName("Touch Touch Delta Right")
-		//     .WithShortDisplayName("Touch Touch Delta Right")
-		//     .WithLayout(kAxisLayout)
-		//     .IsSynthetic(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 68,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_3 = L_2;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_4;
 		L_4 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_3, NULL);
@@ -11397,7 +9546,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_16 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_15, NULL);
 		V_0 = L_16;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch0deltaright;
 		return L_3;
 	}
 }
@@ -11417,25 +9565,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch0deltax = new UnityEngine.InputSystem.Controls.AxisControl();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
-		// ctrlTouchscreentouch0deltax.Setup()
-		//     .At(this, 68)
-		//     .WithParent(parent)
-		//     .WithName("x")
-		//     .WithDisplayName("Touch Touch Delta X")
-		//     .WithShortDisplayName("Touch Touch Delta X")
-		//     .WithLayout(kAxisLayout)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 68,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -11473,7 +9605,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_13 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_12, NULL);
 		V_0 = L_13;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch0deltax;
 		return L_1;
 	}
 }
@@ -11493,25 +9624,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch0deltay = new UnityEngine.InputSystem.Controls.AxisControl();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
-		// ctrlTouchscreentouch0deltay.Setup()
-		//     .At(this, 69)
-		//     .WithParent(parent)
-		//     .WithName("y")
-		//     .WithDisplayName("Touch Touch Delta Y")
-		//     .WithShortDisplayName("Touch Touch Delta Y")
-		//     .WithLayout(kAxisLayout)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 72,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -11549,7 +9664,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_13 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_12, NULL);
 		V_0 = L_13;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch0deltay;
 		return L_1;
 	}
 }
@@ -11569,25 +9683,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch0radiusx = new UnityEngine.InputSystem.Controls.AxisControl();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
-		// ctrlTouchscreentouch0radiusx.Setup()
-		//     .At(this, 70)
-		//     .WithParent(parent)
-		//     .WithName("x")
-		//     .WithDisplayName("Touch Touch Radius X")
-		//     .WithShortDisplayName("Touch Touch Radius X")
-		//     .WithLayout(kAxisLayout)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 80,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -11625,7 +9723,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_13 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_12, NULL);
 		V_0 = L_13;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch0radiusx;
 		return L_1;
 	}
 }
@@ -11645,25 +9742,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch0radiusy = new UnityEngine.InputSystem.Controls.AxisControl();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
-		// ctrlTouchscreentouch0radiusy.Setup()
-		//     .At(this, 71)
-		//     .WithParent(parent)
-		//     .WithName("y")
-		//     .WithDisplayName("Touch Touch Radius Y")
-		//     .WithShortDisplayName("Touch Touch Radius Y")
-		//     .WithLayout(kAxisLayout)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 84,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -11701,7 +9782,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_13 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_12, NULL);
 		V_0 = L_13;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch0radiusy;
 		return L_1;
 	}
 }
@@ -11721,25 +9801,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch0startPositionx = new UnityEngine.InputSystem.Controls.AxisControl();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
-		// ctrlTouchscreentouch0startPositionx.Setup()
-		//     .At(this, 72)
-		//     .WithParent(parent)
-		//     .WithName("x")
-		//     .WithDisplayName("Touch Touch Start Position X")
-		//     .WithShortDisplayName("Touch Touch Start Position X")
-		//     .WithLayout(kAxisLayout)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 104,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -11777,7 +9841,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_13 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_12, NULL);
 		V_0 = L_13;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch0startPositionx;
 		return L_1;
 	}
 }
@@ -11797,25 +9860,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch0startPositiony = new UnityEngine.InputSystem.Controls.AxisControl();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
-		// ctrlTouchscreentouch0startPositiony.Setup()
-		//     .At(this, 73)
-		//     .WithParent(parent)
-		//     .WithName("y")
-		//     .WithDisplayName("Touch Touch Start Position Y")
-		//     .WithShortDisplayName("Touch Touch Start Position Y")
-		//     .WithLayout(kAxisLayout)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 108,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -11853,7 +9900,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_13 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_12, NULL);
 		V_0 = L_13;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch0startPositiony;
 		return L_1;
 	}
 }
@@ -11873,27 +9919,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntegerControl_tA24544EFF42204852F638FF5147F7
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch1touchId = new UnityEngine.InputSystem.Controls.IntegerControl();
 		IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB* L_0 = (IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB*)il2cpp_codegen_object_new(IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		IntegerControl__ctor_mC6E1C70B301EE12C2590B64C2DD53F02A577892D(L_0, NULL);
-		// ctrlTouchscreentouch1touchId.Setup()
-		//     .At(this, 74)
-		//     .WithParent(parent)
-		//     .WithName("touchId")
-		//     .WithDisplayName("Touch Touch ID")
-		//     .WithShortDisplayName("Touch Touch ID")
-		//     .WithLayout(kIntegerLayout)
-		//     .IsSynthetic(true)
-		//     .DontReset(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1229870112),
-		//         byteOffset = 112,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -11937,7 +9965,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntegerControl_tA24544EFF42204852F638FF5147F7
 		L_15 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_14, NULL);
 		V_0 = L_15;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch1touchId;
 		return L_1;
 	}
 }
@@ -11957,27 +9984,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch1position = new UnityEngine.InputSystem.Controls.Vector2Control();
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_0 = (Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432*)il2cpp_codegen_object_new(Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		Vector2Control__ctor_m9F2990DA999344F23AA90F6EE77884A75D4F29F8(L_0, NULL);
-		// ctrlTouchscreentouch1position.Setup()
-		//     .At(this, 75)
-		//     .WithParent(parent)
-		//     .WithChildren(86, 2)
-		//     .WithName("position")
-		//     .WithDisplayName("Touch Position")
-		//     .WithShortDisplayName("Touch Position")
-		//     .WithLayout(kVector2Layout)
-		//     .DontReset(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1447379762),
-		//         byteOffset = 116,
-		//         bitOffset = 0,
-		//         sizeInBits = 64
-		//     })
-		//     .Finish();
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -12021,7 +10030,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 		L_15 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_14, NULL);
 		V_0 = L_15;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch1position;
 		return L_1;
 	}
 }
@@ -12041,26 +10049,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A1
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch1delta = new UnityEngine.InputSystem.Controls.DeltaControl();
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_0 = (DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B*)il2cpp_codegen_object_new(DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		DeltaControl__ctor_m221788585AD5E0B67F3CFE1199DC6C2B0C237CB4(L_0, NULL);
-		// ctrlTouchscreentouch1delta.Setup()
-		//     .At(this, 76)
-		//     .WithParent(parent)
-		//     .WithChildren(88, 6)
-		//     .WithName("delta")
-		//     .WithDisplayName("Touch Delta")
-		//     .WithShortDisplayName("Touch Delta")
-		//     .WithLayout(kDeltaLayout)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1447379762),
-		//         byteOffset = 124,
-		//         bitOffset = 0,
-		//         sizeInBits = 64
-		//     })
-		//     .Finish();
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -12101,7 +10092,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A1
 		L_14 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_13, NULL);
 		V_0 = L_14;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch1delta;
 		return L_1;
 	}
 }
@@ -12121,25 +10111,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch1pressure = new UnityEngine.InputSystem.Controls.AxisControl();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
-		// ctrlTouchscreentouch1pressure.Setup()
-		//     .At(this, 77)
-		//     .WithParent(parent)
-		//     .WithName("pressure")
-		//     .WithDisplayName("Touch Pressure")
-		//     .WithShortDisplayName("Touch Pressure")
-		//     .WithLayout(kAxisLayout)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 132,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -12177,7 +10151,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_13 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_12, NULL);
 		V_0 = L_13;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch1pressure;
 		return L_1;
 	}
 }
@@ -12197,26 +10170,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch1radius = new UnityEngine.InputSystem.Controls.Vector2Control();
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_0 = (Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432*)il2cpp_codegen_object_new(Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		Vector2Control__ctor_m9F2990DA999344F23AA90F6EE77884A75D4F29F8(L_0, NULL);
-		// ctrlTouchscreentouch1radius.Setup()
-		//     .At(this, 78)
-		//     .WithParent(parent)
-		//     .WithChildren(94, 2)
-		//     .WithName("radius")
-		//     .WithDisplayName("Touch Radius")
-		//     .WithShortDisplayName("Touch Radius")
-		//     .WithLayout(kVector2Layout)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1447379762),
-		//         byteOffset = 136,
-		//         bitOffset = 0,
-		//         sizeInBits = 64
-		//     })
-		//     .Finish();
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -12257,7 +10213,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 		L_14 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_13, NULL);
 		V_0 = L_14;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch1radius;
 		return L_1;
 	}
 }
@@ -12277,26 +10232,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchPhaseControl_t4652C6E0EBFAFA85A316077698
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch1phase = new UnityEngine.InputSystem.Controls.TouchPhaseControl();
 		TouchPhaseControl_t4652C6E0EBFAFA85A31607769876B02C1C9FCAEC* L_0 = (TouchPhaseControl_t4652C6E0EBFAFA85A31607769876B02C1C9FCAEC*)il2cpp_codegen_object_new(TouchPhaseControl_t4652C6E0EBFAFA85A31607769876B02C1C9FCAEC_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		TouchPhaseControl__ctor_m76D52D2CDBC41512C35BC70649F0B91ADDAE4D59(L_0, NULL);
-		// ctrlTouchscreentouch1phase.Setup()
-		//     .At(this, 79)
-		//     .WithParent(parent)
-		//     .WithName("phase")
-		//     .WithDisplayName("Touch Touch Phase")
-		//     .WithShortDisplayName("Touch Touch Phase")
-		//     .WithLayout(kTouchPhaseLayout)
-		//     .IsSynthetic(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1113150533),
-		//         byteOffset = 144,
-		//         bitOffset = 0,
-		//         sizeInBits = 8
-		//     })
-		//     .Finish();
 		TouchPhaseControl_t4652C6E0EBFAFA85A31607769876B02C1C9FCAEC* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -12337,7 +10275,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchPhaseControl_t4652C6E0EBFAFA85A316077698
 		L_14 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_13, NULL);
 		V_0 = L_14;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch1phase;
 		return L_1;
 	}
 }
@@ -12357,27 +10294,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchPressControl_tD5BD68D9FDEAC889591DD7A499
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch1press = new UnityEngine.InputSystem.Controls.TouchPressControl();
 		TouchPressControl_tD5BD68D9FDEAC889591DD7A499864893A43C7CEB* L_0 = (TouchPressControl_tD5BD68D9FDEAC889591DD7A499864893A43C7CEB*)il2cpp_codegen_object_new(TouchPressControl_tD5BD68D9FDEAC889591DD7A499864893A43C7CEB_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		TouchPressControl__ctor_m257FF1E4C03BD2CC927220808F404A23641027B2(L_0, NULL);
-		// ctrlTouchscreentouch1press.Setup()
-		//     .At(this, 80)
-		//     .WithParent(parent)
-		//     .WithName("press")
-		//     .WithDisplayName("Touch Touch Contact?")
-		//     .WithShortDisplayName("Touch Touch Contact?")
-		//     .WithLayout(kTouchPressLayout)
-		//     .IsButton(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1113150533),
-		//         byteOffset = 144,
-		//         bitOffset = 0,
-		//         sizeInBits = 8
-		//     })
-		//     .WithMinAndMax(0, 1)
-		//     .Finish();
 		TouchPressControl_tD5BD68D9FDEAC889591DD7A499864893A43C7CEB* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -12425,7 +10344,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchPressControl_tD5BD68D9FDEAC889591DD7A499
 		L_17 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_15, L_16, NULL);
 		V_0 = L_17;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch1press;
 		return L_1;
 	}
 }
@@ -12445,25 +10363,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntegerControl_tA24544EFF42204852F638FF5147F7
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch1tapCount = new UnityEngine.InputSystem.Controls.IntegerControl();
 		IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB* L_0 = (IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB*)il2cpp_codegen_object_new(IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		IntegerControl__ctor_mC6E1C70B301EE12C2590B64C2DD53F02A577892D(L_0, NULL);
-		// ctrlTouchscreentouch1tapCount.Setup()
-		//     .At(this, 81)
-		//     .WithParent(parent)
-		//     .WithName("tapCount")
-		//     .WithDisplayName("Touch Tap Count")
-		//     .WithShortDisplayName("Touch Tap Count")
-		//     .WithLayout(kIntegerLayout)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1113150533),
-		//         byteOffset = 145,
-		//         bitOffset = 0,
-		//         sizeInBits = 8
-		//     })
-		//     .Finish();
 		IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -12501,7 +10403,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntegerControl_tA24544EFF42204852F638FF5147F7
 		L_13 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_12, NULL);
 		V_0 = L_13;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch1tapCount;
 		return L_1;
 	}
 }
@@ -12521,28 +10422,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ButtonControl_t85949109B98AAF5B7ADC0285F0EC98
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch1indirectTouch = new UnityEngine.InputSystem.Controls.ButtonControl();
 		ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* L_0 = (ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF*)il2cpp_codegen_object_new(ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		ButtonControl__ctor_mF6F46704B8CC76DA22F543EFF8D136676893ACEB(L_0, NULL);
-		// ctrlTouchscreentouch1indirectTouch.Setup()
-		//     .At(this, 82)
-		//     .WithParent(parent)
-		//     .WithName("indirectTouch")
-		//     .WithDisplayName("Touch Indirect Touch?")
-		//     .WithShortDisplayName("Touch Indirect Touch?")
-		//     .WithLayout(kButtonLayout)
-		//     .IsSynthetic(true)
-		//     .IsButton(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1112101920),
-		//         byteOffset = 147,
-		//         bitOffset = 0,
-		//         sizeInBits = 1
-		//     })
-		//     .WithMinAndMax(0, 1)
-		//     .Finish();
 		ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -12593,7 +10475,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ButtonControl_t85949109B98AAF5B7ADC0285F0EC98
 		L_18 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_16, L_17, NULL);
 		V_0 = L_18;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch1indirectTouch;
 		return L_1;
 	}
 }
@@ -12613,27 +10494,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ButtonControl_t85949109B98AAF5B7ADC0285F0EC98
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch1tap = new UnityEngine.InputSystem.Controls.ButtonControl();
 		ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* L_0 = (ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF*)il2cpp_codegen_object_new(ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		ButtonControl__ctor_mF6F46704B8CC76DA22F543EFF8D136676893ACEB(L_0, NULL);
-		// ctrlTouchscreentouch1tap.Setup()
-		//     .At(this, 83)
-		//     .WithParent(parent)
-		//     .WithName("tap")
-		//     .WithDisplayName("Touch Tap")
-		//     .WithShortDisplayName("Touch Tap")
-		//     .WithLayout(kButtonLayout)
-		//     .IsButton(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1112101920),
-		//         byteOffset = 147,
-		//         bitOffset = 4,
-		//         sizeInBits = 1
-		//     })
-		//     .WithMinAndMax(0, 1)
-		//     .Finish();
 		ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -12681,7 +10544,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ButtonControl_t85949109B98AAF5B7ADC0285F0EC98
 		L_17 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_15, L_16, NULL);
 		V_0 = L_17;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch1tap;
 		return L_1;
 	}
 }
@@ -12701,26 +10563,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DoubleControl_t3707A6260424A2F3636669A2BAFF5C
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch1startTime = new UnityEngine.InputSystem.Controls.DoubleControl();
 		DoubleControl_t3707A6260424A2F3636669A2BAFF5CB5E91D2486* L_0 = (DoubleControl_t3707A6260424A2F3636669A2BAFF5CB5E91D2486*)il2cpp_codegen_object_new(DoubleControl_t3707A6260424A2F3636669A2BAFF5CB5E91D2486_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		DoubleControl__ctor_m83AB89DB3A9EC88845B31BFF812C36C99F327CDA(L_0, NULL);
-		// ctrlTouchscreentouch1startTime.Setup()
-		//     .At(this, 84)
-		//     .WithParent(parent)
-		//     .WithName("startTime")
-		//     .WithDisplayName("Touch Start Time")
-		//     .WithShortDisplayName("Touch Start Time")
-		//     .WithLayout(kDoubleLayout)
-		//     .IsSynthetic(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1145195552),
-		//         byteOffset = 152,
-		//         bitOffset = 0,
-		//         sizeInBits = 64
-		//     })
-		//     .Finish();
 		DoubleControl_t3707A6260424A2F3636669A2BAFF5CB5E91D2486* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -12761,7 +10606,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DoubleControl_t3707A6260424A2F3636669A2BAFF5C
 		L_14 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_13, NULL);
 		V_0 = L_14;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch1startTime;
 		return L_1;
 	}
 }
@@ -12781,27 +10625,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch1startPosition = new UnityEngine.InputSystem.Controls.Vector2Control();
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_0 = (Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432*)il2cpp_codegen_object_new(Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		Vector2Control__ctor_m9F2990DA999344F23AA90F6EE77884A75D4F29F8(L_0, NULL);
-		// ctrlTouchscreentouch1startPosition.Setup()
-		//     .At(this, 85)
-		//     .WithParent(parent)
-		//     .WithChildren(96, 2)
-		//     .WithName("startPosition")
-		//     .WithDisplayName("Touch Start Position")
-		//     .WithShortDisplayName("Touch Start Position")
-		//     .WithLayout(kVector2Layout)
-		//     .IsSynthetic(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1447379762),
-		//         byteOffset = 160,
-		//         bitOffset = 0,
-		//         sizeInBits = 64
-		//     })
-		//     .Finish();
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -12845,7 +10671,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 		L_15 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_14, NULL);
 		V_0 = L_15;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch1startPosition;
 		return L_1;
 	}
 }
@@ -12865,26 +10690,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch1positionx = new UnityEngine.InputSystem.Controls.AxisControl();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
-		// ctrlTouchscreentouch1positionx.Setup()
-		//     .At(this, 86)
-		//     .WithParent(parent)
-		//     .WithName("x")
-		//     .WithDisplayName("Touch Touch Position X")
-		//     .WithShortDisplayName("Touch Touch Position X")
-		//     .WithLayout(kAxisLayout)
-		//     .DontReset(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 116,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -12925,7 +10733,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_14 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_13, NULL);
 		V_0 = L_14;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch1positionx;
 		return L_1;
 	}
 }
@@ -12945,26 +10752,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch1positiony = new UnityEngine.InputSystem.Controls.AxisControl();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
-		// ctrlTouchscreentouch1positiony.Setup()
-		//     .At(this, 87)
-		//     .WithParent(parent)
-		//     .WithName("y")
-		//     .WithDisplayName("Touch Touch Position Y")
-		//     .WithShortDisplayName("Touch Touch Position Y")
-		//     .WithLayout(kAxisLayout)
-		//     .DontReset(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 120,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -13005,7 +10795,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_14 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_13, NULL);
 		V_0 = L_14;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch1positiony;
 		return L_1;
 	}
 }
@@ -13025,7 +10814,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch1deltaup = new UnityEngine.InputSystem.Controls.AxisControl { clamp = UnityEngine.InputSystem.Controls.AxisControl.Clamp.BeforeNormalize, clampMax = 3.402823E+38f };
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
@@ -13035,22 +10823,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_2 = L_1;
 		NullCheck(L_2);
 		L_2->___clampMax_24 = (3.40282306E+38f);
-		// ctrlTouchscreentouch1deltaup.Setup()
-		//     .At(this, 88)
-		//     .WithParent(parent)
-		//     .WithName("up")
-		//     .WithDisplayName("Touch Touch Delta Up")
-		//     .WithShortDisplayName("Touch Touch Delta Up")
-		//     .WithLayout(kAxisLayout)
-		//     .IsSynthetic(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 128,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_3 = L_2;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_4;
 		L_4 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_3, NULL);
@@ -13091,7 +10863,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_16 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_15, NULL);
 		V_0 = L_16;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch1deltaup;
 		return L_3;
 	}
 }
@@ -13111,7 +10882,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch1deltadown = new UnityEngine.InputSystem.Controls.AxisControl { clamp = UnityEngine.InputSystem.Controls.AxisControl.Clamp.BeforeNormalize, clampMin = -3.402823E+38f, invert = true };
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
@@ -13124,22 +10894,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_3 = L_2;
 		NullCheck(L_3);
 		L_3->___invert_26 = (bool)1;
-		// ctrlTouchscreentouch1deltadown.Setup()
-		//     .At(this, 89)
-		//     .WithParent(parent)
-		//     .WithName("down")
-		//     .WithDisplayName("Touch Touch Delta Down")
-		//     .WithShortDisplayName("Touch Touch Delta Down")
-		//     .WithLayout(kAxisLayout)
-		//     .IsSynthetic(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 128,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_4 = L_3;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_5;
 		L_5 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_4, NULL);
@@ -13180,7 +10934,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_17 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_16, NULL);
 		V_0 = L_17;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch1deltadown;
 		return L_4;
 	}
 }
@@ -13200,7 +10953,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch1deltaleft = new UnityEngine.InputSystem.Controls.AxisControl { clamp = UnityEngine.InputSystem.Controls.AxisControl.Clamp.BeforeNormalize, clampMin = -3.402823E+38f, invert = true };
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
@@ -13213,22 +10965,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_3 = L_2;
 		NullCheck(L_3);
 		L_3->___invert_26 = (bool)1;
-		// ctrlTouchscreentouch1deltaleft.Setup()
-		//     .At(this, 90)
-		//     .WithParent(parent)
-		//     .WithName("left")
-		//     .WithDisplayName("Touch Touch Delta Left")
-		//     .WithShortDisplayName("Touch Touch Delta Left")
-		//     .WithLayout(kAxisLayout)
-		//     .IsSynthetic(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 124,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_4 = L_3;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_5;
 		L_5 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_4, NULL);
@@ -13269,7 +11005,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_17 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_16, NULL);
 		V_0 = L_17;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch1deltaleft;
 		return L_4;
 	}
 }
@@ -13289,7 +11024,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch1deltaright = new UnityEngine.InputSystem.Controls.AxisControl { clamp = UnityEngine.InputSystem.Controls.AxisControl.Clamp.BeforeNormalize, clampMax = 3.402823E+38f };
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
@@ -13299,22 +11033,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_2 = L_1;
 		NullCheck(L_2);
 		L_2->___clampMax_24 = (3.40282306E+38f);
-		// ctrlTouchscreentouch1deltaright.Setup()
-		//     .At(this, 91)
-		//     .WithParent(parent)
-		//     .WithName("right")
-		//     .WithDisplayName("Touch Touch Delta Right")
-		//     .WithShortDisplayName("Touch Touch Delta Right")
-		//     .WithLayout(kAxisLayout)
-		//     .IsSynthetic(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 124,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_3 = L_2;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_4;
 		L_4 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_3, NULL);
@@ -13355,7 +11073,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_16 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_15, NULL);
 		V_0 = L_16;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch1deltaright;
 		return L_3;
 	}
 }
@@ -13375,25 +11092,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch1deltax = new UnityEngine.InputSystem.Controls.AxisControl();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
-		// ctrlTouchscreentouch1deltax.Setup()
-		//     .At(this, 92)
-		//     .WithParent(parent)
-		//     .WithName("x")
-		//     .WithDisplayName("Touch Touch Delta X")
-		//     .WithShortDisplayName("Touch Touch Delta X")
-		//     .WithLayout(kAxisLayout)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 124,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -13431,7 +11132,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_13 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_12, NULL);
 		V_0 = L_13;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch1deltax;
 		return L_1;
 	}
 }
@@ -13451,25 +11151,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch1deltay = new UnityEngine.InputSystem.Controls.AxisControl();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
-		// ctrlTouchscreentouch1deltay.Setup()
-		//     .At(this, 93)
-		//     .WithParent(parent)
-		//     .WithName("y")
-		//     .WithDisplayName("Touch Touch Delta Y")
-		//     .WithShortDisplayName("Touch Touch Delta Y")
-		//     .WithLayout(kAxisLayout)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 128,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -13507,7 +11191,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_13 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_12, NULL);
 		V_0 = L_13;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch1deltay;
 		return L_1;
 	}
 }
@@ -13527,25 +11210,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch1radiusx = new UnityEngine.InputSystem.Controls.AxisControl();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
-		// ctrlTouchscreentouch1radiusx.Setup()
-		//     .At(this, 94)
-		//     .WithParent(parent)
-		//     .WithName("x")
-		//     .WithDisplayName("Touch Touch Radius X")
-		//     .WithShortDisplayName("Touch Touch Radius X")
-		//     .WithLayout(kAxisLayout)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 136,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -13583,7 +11250,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_13 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_12, NULL);
 		V_0 = L_13;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch1radiusx;
 		return L_1;
 	}
 }
@@ -13603,25 +11269,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch1radiusy = new UnityEngine.InputSystem.Controls.AxisControl();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
-		// ctrlTouchscreentouch1radiusy.Setup()
-		//     .At(this, 95)
-		//     .WithParent(parent)
-		//     .WithName("y")
-		//     .WithDisplayName("Touch Touch Radius Y")
-		//     .WithShortDisplayName("Touch Touch Radius Y")
-		//     .WithLayout(kAxisLayout)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 140,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -13659,7 +11309,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_13 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_12, NULL);
 		V_0 = L_13;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch1radiusy;
 		return L_1;
 	}
 }
@@ -13679,25 +11328,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch1startPositionx = new UnityEngine.InputSystem.Controls.AxisControl();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
-		// ctrlTouchscreentouch1startPositionx.Setup()
-		//     .At(this, 96)
-		//     .WithParent(parent)
-		//     .WithName("x")
-		//     .WithDisplayName("Touch Touch Start Position X")
-		//     .WithShortDisplayName("Touch Touch Start Position X")
-		//     .WithLayout(kAxisLayout)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 160,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -13735,7 +11368,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_13 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_12, NULL);
 		V_0 = L_13;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch1startPositionx;
 		return L_1;
 	}
 }
@@ -13755,25 +11387,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch1startPositiony = new UnityEngine.InputSystem.Controls.AxisControl();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
-		// ctrlTouchscreentouch1startPositiony.Setup()
-		//     .At(this, 97)
-		//     .WithParent(parent)
-		//     .WithName("y")
-		//     .WithDisplayName("Touch Touch Start Position Y")
-		//     .WithShortDisplayName("Touch Touch Start Position Y")
-		//     .WithLayout(kAxisLayout)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 164,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -13811,7 +11427,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_13 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_12, NULL);
 		V_0 = L_13;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch1startPositiony;
 		return L_1;
 	}
 }
@@ -13831,27 +11446,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntegerControl_tA24544EFF42204852F638FF5147F7
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch2touchId = new UnityEngine.InputSystem.Controls.IntegerControl();
 		IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB* L_0 = (IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB*)il2cpp_codegen_object_new(IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		IntegerControl__ctor_mC6E1C70B301EE12C2590B64C2DD53F02A577892D(L_0, NULL);
-		// ctrlTouchscreentouch2touchId.Setup()
-		//     .At(this, 98)
-		//     .WithParent(parent)
-		//     .WithName("touchId")
-		//     .WithDisplayName("Touch Touch ID")
-		//     .WithShortDisplayName("Touch Touch ID")
-		//     .WithLayout(kIntegerLayout)
-		//     .IsSynthetic(true)
-		//     .DontReset(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1229870112),
-		//         byteOffset = 168,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -13895,7 +11492,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntegerControl_tA24544EFF42204852F638FF5147F7
 		L_15 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_14, NULL);
 		V_0 = L_15;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch2touchId;
 		return L_1;
 	}
 }
@@ -13915,27 +11511,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch2position = new UnityEngine.InputSystem.Controls.Vector2Control();
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_0 = (Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432*)il2cpp_codegen_object_new(Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		Vector2Control__ctor_m9F2990DA999344F23AA90F6EE77884A75D4F29F8(L_0, NULL);
-		// ctrlTouchscreentouch2position.Setup()
-		//     .At(this, 99)
-		//     .WithParent(parent)
-		//     .WithChildren(110, 2)
-		//     .WithName("position")
-		//     .WithDisplayName("Touch Position")
-		//     .WithShortDisplayName("Touch Position")
-		//     .WithLayout(kVector2Layout)
-		//     .DontReset(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1447379762),
-		//         byteOffset = 172,
-		//         bitOffset = 0,
-		//         sizeInBits = 64
-		//     })
-		//     .Finish();
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -13979,7 +11557,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 		L_15 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_14, NULL);
 		V_0 = L_15;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch2position;
 		return L_1;
 	}
 }
@@ -13999,26 +11576,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A1
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch2delta = new UnityEngine.InputSystem.Controls.DeltaControl();
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_0 = (DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B*)il2cpp_codegen_object_new(DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		DeltaControl__ctor_m221788585AD5E0B67F3CFE1199DC6C2B0C237CB4(L_0, NULL);
-		// ctrlTouchscreentouch2delta.Setup()
-		//     .At(this, 100)
-		//     .WithParent(parent)
-		//     .WithChildren(112, 6)
-		//     .WithName("delta")
-		//     .WithDisplayName("Touch Delta")
-		//     .WithShortDisplayName("Touch Delta")
-		//     .WithLayout(kDeltaLayout)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1447379762),
-		//         byteOffset = 180,
-		//         bitOffset = 0,
-		//         sizeInBits = 64
-		//     })
-		//     .Finish();
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -14059,7 +11619,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A1
 		L_14 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_13, NULL);
 		V_0 = L_14;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch2delta;
 		return L_1;
 	}
 }
@@ -14079,25 +11638,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch2pressure = new UnityEngine.InputSystem.Controls.AxisControl();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
-		// ctrlTouchscreentouch2pressure.Setup()
-		//     .At(this, 101)
-		//     .WithParent(parent)
-		//     .WithName("pressure")
-		//     .WithDisplayName("Touch Pressure")
-		//     .WithShortDisplayName("Touch Pressure")
-		//     .WithLayout(kAxisLayout)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 188,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -14135,7 +11678,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_13 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_12, NULL);
 		V_0 = L_13;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch2pressure;
 		return L_1;
 	}
 }
@@ -14155,26 +11697,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch2radius = new UnityEngine.InputSystem.Controls.Vector2Control();
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_0 = (Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432*)il2cpp_codegen_object_new(Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		Vector2Control__ctor_m9F2990DA999344F23AA90F6EE77884A75D4F29F8(L_0, NULL);
-		// ctrlTouchscreentouch2radius.Setup()
-		//     .At(this, 102)
-		//     .WithParent(parent)
-		//     .WithChildren(118, 2)
-		//     .WithName("radius")
-		//     .WithDisplayName("Touch Radius")
-		//     .WithShortDisplayName("Touch Radius")
-		//     .WithLayout(kVector2Layout)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1447379762),
-		//         byteOffset = 192,
-		//         bitOffset = 0,
-		//         sizeInBits = 64
-		//     })
-		//     .Finish();
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -14215,7 +11740,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 		L_14 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_13, NULL);
 		V_0 = L_14;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch2radius;
 		return L_1;
 	}
 }
@@ -14235,26 +11759,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchPhaseControl_t4652C6E0EBFAFA85A316077698
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch2phase = new UnityEngine.InputSystem.Controls.TouchPhaseControl();
 		TouchPhaseControl_t4652C6E0EBFAFA85A31607769876B02C1C9FCAEC* L_0 = (TouchPhaseControl_t4652C6E0EBFAFA85A31607769876B02C1C9FCAEC*)il2cpp_codegen_object_new(TouchPhaseControl_t4652C6E0EBFAFA85A31607769876B02C1C9FCAEC_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		TouchPhaseControl__ctor_m76D52D2CDBC41512C35BC70649F0B91ADDAE4D59(L_0, NULL);
-		// ctrlTouchscreentouch2phase.Setup()
-		//     .At(this, 103)
-		//     .WithParent(parent)
-		//     .WithName("phase")
-		//     .WithDisplayName("Touch Touch Phase")
-		//     .WithShortDisplayName("Touch Touch Phase")
-		//     .WithLayout(kTouchPhaseLayout)
-		//     .IsSynthetic(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1113150533),
-		//         byteOffset = 200,
-		//         bitOffset = 0,
-		//         sizeInBits = 8
-		//     })
-		//     .Finish();
 		TouchPhaseControl_t4652C6E0EBFAFA85A31607769876B02C1C9FCAEC* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -14295,7 +11802,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchPhaseControl_t4652C6E0EBFAFA85A316077698
 		L_14 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_13, NULL);
 		V_0 = L_14;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch2phase;
 		return L_1;
 	}
 }
@@ -14315,27 +11821,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchPressControl_tD5BD68D9FDEAC889591DD7A499
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch2press = new UnityEngine.InputSystem.Controls.TouchPressControl();
 		TouchPressControl_tD5BD68D9FDEAC889591DD7A499864893A43C7CEB* L_0 = (TouchPressControl_tD5BD68D9FDEAC889591DD7A499864893A43C7CEB*)il2cpp_codegen_object_new(TouchPressControl_tD5BD68D9FDEAC889591DD7A499864893A43C7CEB_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		TouchPressControl__ctor_m257FF1E4C03BD2CC927220808F404A23641027B2(L_0, NULL);
-		// ctrlTouchscreentouch2press.Setup()
-		//     .At(this, 104)
-		//     .WithParent(parent)
-		//     .WithName("press")
-		//     .WithDisplayName("Touch Touch Contact?")
-		//     .WithShortDisplayName("Touch Touch Contact?")
-		//     .WithLayout(kTouchPressLayout)
-		//     .IsButton(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1113150533),
-		//         byteOffset = 200,
-		//         bitOffset = 0,
-		//         sizeInBits = 8
-		//     })
-		//     .WithMinAndMax(0, 1)
-		//     .Finish();
 		TouchPressControl_tD5BD68D9FDEAC889591DD7A499864893A43C7CEB* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -14383,7 +11871,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchPressControl_tD5BD68D9FDEAC889591DD7A499
 		L_17 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_15, L_16, NULL);
 		V_0 = L_17;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch2press;
 		return L_1;
 	}
 }
@@ -14403,25 +11890,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntegerControl_tA24544EFF42204852F638FF5147F7
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch2tapCount = new UnityEngine.InputSystem.Controls.IntegerControl();
 		IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB* L_0 = (IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB*)il2cpp_codegen_object_new(IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		IntegerControl__ctor_mC6E1C70B301EE12C2590B64C2DD53F02A577892D(L_0, NULL);
-		// ctrlTouchscreentouch2tapCount.Setup()
-		//     .At(this, 105)
-		//     .WithParent(parent)
-		//     .WithName("tapCount")
-		//     .WithDisplayName("Touch Tap Count")
-		//     .WithShortDisplayName("Touch Tap Count")
-		//     .WithLayout(kIntegerLayout)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1113150533),
-		//         byteOffset = 201,
-		//         bitOffset = 0,
-		//         sizeInBits = 8
-		//     })
-		//     .Finish();
 		IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -14459,7 +11930,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntegerControl_tA24544EFF42204852F638FF5147F7
 		L_13 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_12, NULL);
 		V_0 = L_13;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch2tapCount;
 		return L_1;
 	}
 }
@@ -14479,28 +11949,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ButtonControl_t85949109B98AAF5B7ADC0285F0EC98
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch2indirectTouch = new UnityEngine.InputSystem.Controls.ButtonControl();
 		ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* L_0 = (ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF*)il2cpp_codegen_object_new(ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		ButtonControl__ctor_mF6F46704B8CC76DA22F543EFF8D136676893ACEB(L_0, NULL);
-		// ctrlTouchscreentouch2indirectTouch.Setup()
-		//     .At(this, 106)
-		//     .WithParent(parent)
-		//     .WithName("indirectTouch")
-		//     .WithDisplayName("Touch Indirect Touch?")
-		//     .WithShortDisplayName("Touch Indirect Touch?")
-		//     .WithLayout(kButtonLayout)
-		//     .IsSynthetic(true)
-		//     .IsButton(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1112101920),
-		//         byteOffset = 203,
-		//         bitOffset = 0,
-		//         sizeInBits = 1
-		//     })
-		//     .WithMinAndMax(0, 1)
-		//     .Finish();
 		ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -14551,7 +12002,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ButtonControl_t85949109B98AAF5B7ADC0285F0EC98
 		L_18 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_16, L_17, NULL);
 		V_0 = L_18;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch2indirectTouch;
 		return L_1;
 	}
 }
@@ -14571,27 +12021,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ButtonControl_t85949109B98AAF5B7ADC0285F0EC98
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch2tap = new UnityEngine.InputSystem.Controls.ButtonControl();
 		ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* L_0 = (ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF*)il2cpp_codegen_object_new(ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		ButtonControl__ctor_mF6F46704B8CC76DA22F543EFF8D136676893ACEB(L_0, NULL);
-		// ctrlTouchscreentouch2tap.Setup()
-		//     .At(this, 107)
-		//     .WithParent(parent)
-		//     .WithName("tap")
-		//     .WithDisplayName("Touch Tap")
-		//     .WithShortDisplayName("Touch Tap")
-		//     .WithLayout(kButtonLayout)
-		//     .IsButton(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1112101920),
-		//         byteOffset = 203,
-		//         bitOffset = 4,
-		//         sizeInBits = 1
-		//     })
-		//     .WithMinAndMax(0, 1)
-		//     .Finish();
 		ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -14639,7 +12071,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ButtonControl_t85949109B98AAF5B7ADC0285F0EC98
 		L_17 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_15, L_16, NULL);
 		V_0 = L_17;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch2tap;
 		return L_1;
 	}
 }
@@ -14659,26 +12090,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DoubleControl_t3707A6260424A2F3636669A2BAFF5C
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch2startTime = new UnityEngine.InputSystem.Controls.DoubleControl();
 		DoubleControl_t3707A6260424A2F3636669A2BAFF5CB5E91D2486* L_0 = (DoubleControl_t3707A6260424A2F3636669A2BAFF5CB5E91D2486*)il2cpp_codegen_object_new(DoubleControl_t3707A6260424A2F3636669A2BAFF5CB5E91D2486_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		DoubleControl__ctor_m83AB89DB3A9EC88845B31BFF812C36C99F327CDA(L_0, NULL);
-		// ctrlTouchscreentouch2startTime.Setup()
-		//     .At(this, 108)
-		//     .WithParent(parent)
-		//     .WithName("startTime")
-		//     .WithDisplayName("Touch Start Time")
-		//     .WithShortDisplayName("Touch Start Time")
-		//     .WithLayout(kDoubleLayout)
-		//     .IsSynthetic(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1145195552),
-		//         byteOffset = 208,
-		//         bitOffset = 0,
-		//         sizeInBits = 64
-		//     })
-		//     .Finish();
 		DoubleControl_t3707A6260424A2F3636669A2BAFF5CB5E91D2486* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -14719,7 +12133,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DoubleControl_t3707A6260424A2F3636669A2BAFF5C
 		L_14 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_13, NULL);
 		V_0 = L_14;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch2startTime;
 		return L_1;
 	}
 }
@@ -14739,27 +12152,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch2startPosition = new UnityEngine.InputSystem.Controls.Vector2Control();
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_0 = (Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432*)il2cpp_codegen_object_new(Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		Vector2Control__ctor_m9F2990DA999344F23AA90F6EE77884A75D4F29F8(L_0, NULL);
-		// ctrlTouchscreentouch2startPosition.Setup()
-		//     .At(this, 109)
-		//     .WithParent(parent)
-		//     .WithChildren(120, 2)
-		//     .WithName("startPosition")
-		//     .WithDisplayName("Touch Start Position")
-		//     .WithShortDisplayName("Touch Start Position")
-		//     .WithLayout(kVector2Layout)
-		//     .IsSynthetic(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1447379762),
-		//         byteOffset = 216,
-		//         bitOffset = 0,
-		//         sizeInBits = 64
-		//     })
-		//     .Finish();
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -14803,7 +12198,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 		L_15 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_14, NULL);
 		V_0 = L_15;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch2startPosition;
 		return L_1;
 	}
 }
@@ -14823,26 +12217,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch2positionx = new UnityEngine.InputSystem.Controls.AxisControl();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
-		// ctrlTouchscreentouch2positionx.Setup()
-		//     .At(this, 110)
-		//     .WithParent(parent)
-		//     .WithName("x")
-		//     .WithDisplayName("Touch Touch Position X")
-		//     .WithShortDisplayName("Touch Touch Position X")
-		//     .WithLayout(kAxisLayout)
-		//     .DontReset(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 172,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -14883,7 +12260,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_14 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_13, NULL);
 		V_0 = L_14;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch2positionx;
 		return L_1;
 	}
 }
@@ -14903,26 +12279,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch2positiony = new UnityEngine.InputSystem.Controls.AxisControl();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
-		// ctrlTouchscreentouch2positiony.Setup()
-		//     .At(this, 111)
-		//     .WithParent(parent)
-		//     .WithName("y")
-		//     .WithDisplayName("Touch Touch Position Y")
-		//     .WithShortDisplayName("Touch Touch Position Y")
-		//     .WithLayout(kAxisLayout)
-		//     .DontReset(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 176,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -14963,7 +12322,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_14 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_13, NULL);
 		V_0 = L_14;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch2positiony;
 		return L_1;
 	}
 }
@@ -14983,7 +12341,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch2deltaup = new UnityEngine.InputSystem.Controls.AxisControl { clamp = UnityEngine.InputSystem.Controls.AxisControl.Clamp.BeforeNormalize, clampMax = 3.402823E+38f };
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
@@ -14993,22 +12350,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_2 = L_1;
 		NullCheck(L_2);
 		L_2->___clampMax_24 = (3.40282306E+38f);
-		// ctrlTouchscreentouch2deltaup.Setup()
-		//     .At(this, 112)
-		//     .WithParent(parent)
-		//     .WithName("up")
-		//     .WithDisplayName("Touch Touch Delta Up")
-		//     .WithShortDisplayName("Touch Touch Delta Up")
-		//     .WithLayout(kAxisLayout)
-		//     .IsSynthetic(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 184,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_3 = L_2;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_4;
 		L_4 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_3, NULL);
@@ -15049,7 +12390,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_16 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_15, NULL);
 		V_0 = L_16;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch2deltaup;
 		return L_3;
 	}
 }
@@ -15069,7 +12409,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch2deltadown = new UnityEngine.InputSystem.Controls.AxisControl { clamp = UnityEngine.InputSystem.Controls.AxisControl.Clamp.BeforeNormalize, clampMin = -3.402823E+38f, invert = true };
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
@@ -15082,22 +12421,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_3 = L_2;
 		NullCheck(L_3);
 		L_3->___invert_26 = (bool)1;
-		// ctrlTouchscreentouch2deltadown.Setup()
-		//     .At(this, 113)
-		//     .WithParent(parent)
-		//     .WithName("down")
-		//     .WithDisplayName("Touch Touch Delta Down")
-		//     .WithShortDisplayName("Touch Touch Delta Down")
-		//     .WithLayout(kAxisLayout)
-		//     .IsSynthetic(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 184,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_4 = L_3;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_5;
 		L_5 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_4, NULL);
@@ -15138,7 +12461,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_17 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_16, NULL);
 		V_0 = L_17;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch2deltadown;
 		return L_4;
 	}
 }
@@ -15158,7 +12480,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch2deltaleft = new UnityEngine.InputSystem.Controls.AxisControl { clamp = UnityEngine.InputSystem.Controls.AxisControl.Clamp.BeforeNormalize, clampMin = -3.402823E+38f, invert = true };
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
@@ -15171,22 +12492,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_3 = L_2;
 		NullCheck(L_3);
 		L_3->___invert_26 = (bool)1;
-		// ctrlTouchscreentouch2deltaleft.Setup()
-		//     .At(this, 114)
-		//     .WithParent(parent)
-		//     .WithName("left")
-		//     .WithDisplayName("Touch Touch Delta Left")
-		//     .WithShortDisplayName("Touch Touch Delta Left")
-		//     .WithLayout(kAxisLayout)
-		//     .IsSynthetic(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 180,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_4 = L_3;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_5;
 		L_5 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_4, NULL);
@@ -15227,7 +12532,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_17 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_16, NULL);
 		V_0 = L_17;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch2deltaleft;
 		return L_4;
 	}
 }
@@ -15247,7 +12551,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch2deltaright = new UnityEngine.InputSystem.Controls.AxisControl { clamp = UnityEngine.InputSystem.Controls.AxisControl.Clamp.BeforeNormalize, clampMax = 3.402823E+38f };
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
@@ -15257,22 +12560,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_2 = L_1;
 		NullCheck(L_2);
 		L_2->___clampMax_24 = (3.40282306E+38f);
-		// ctrlTouchscreentouch2deltaright.Setup()
-		//     .At(this, 115)
-		//     .WithParent(parent)
-		//     .WithName("right")
-		//     .WithDisplayName("Touch Touch Delta Right")
-		//     .WithShortDisplayName("Touch Touch Delta Right")
-		//     .WithLayout(kAxisLayout)
-		//     .IsSynthetic(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 180,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_3 = L_2;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_4;
 		L_4 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_3, NULL);
@@ -15313,7 +12600,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_16 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_15, NULL);
 		V_0 = L_16;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch2deltaright;
 		return L_3;
 	}
 }
@@ -15333,25 +12619,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch2deltax = new UnityEngine.InputSystem.Controls.AxisControl();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
-		// ctrlTouchscreentouch2deltax.Setup()
-		//     .At(this, 116)
-		//     .WithParent(parent)
-		//     .WithName("x")
-		//     .WithDisplayName("Touch Touch Delta X")
-		//     .WithShortDisplayName("Touch Touch Delta X")
-		//     .WithLayout(kAxisLayout)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 180,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -15389,7 +12659,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_13 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_12, NULL);
 		V_0 = L_13;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch2deltax;
 		return L_1;
 	}
 }
@@ -15409,25 +12678,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch2deltay = new UnityEngine.InputSystem.Controls.AxisControl();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
-		// ctrlTouchscreentouch2deltay.Setup()
-		//     .At(this, 117)
-		//     .WithParent(parent)
-		//     .WithName("y")
-		//     .WithDisplayName("Touch Touch Delta Y")
-		//     .WithShortDisplayName("Touch Touch Delta Y")
-		//     .WithLayout(kAxisLayout)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 184,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -15465,7 +12718,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_13 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_12, NULL);
 		V_0 = L_13;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch2deltay;
 		return L_1;
 	}
 }
@@ -15485,25 +12737,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch2radiusx = new UnityEngine.InputSystem.Controls.AxisControl();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
-		// ctrlTouchscreentouch2radiusx.Setup()
-		//     .At(this, 118)
-		//     .WithParent(parent)
-		//     .WithName("x")
-		//     .WithDisplayName("Touch Touch Radius X")
-		//     .WithShortDisplayName("Touch Touch Radius X")
-		//     .WithLayout(kAxisLayout)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 192,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -15541,7 +12777,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_13 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_12, NULL);
 		V_0 = L_13;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch2radiusx;
 		return L_1;
 	}
 }
@@ -15561,25 +12796,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch2radiusy = new UnityEngine.InputSystem.Controls.AxisControl();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
-		// ctrlTouchscreentouch2radiusy.Setup()
-		//     .At(this, 119)
-		//     .WithParent(parent)
-		//     .WithName("y")
-		//     .WithDisplayName("Touch Touch Radius Y")
-		//     .WithShortDisplayName("Touch Touch Radius Y")
-		//     .WithLayout(kAxisLayout)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 196,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -15617,7 +12836,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_13 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_12, NULL);
 		V_0 = L_13;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch2radiusy;
 		return L_1;
 	}
 }
@@ -15637,25 +12855,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch2startPositionx = new UnityEngine.InputSystem.Controls.AxisControl();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
-		// ctrlTouchscreentouch2startPositionx.Setup()
-		//     .At(this, 120)
-		//     .WithParent(parent)
-		//     .WithName("x")
-		//     .WithDisplayName("Touch Touch Start Position X")
-		//     .WithShortDisplayName("Touch Touch Start Position X")
-		//     .WithLayout(kAxisLayout)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 216,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -15693,7 +12895,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_13 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_12, NULL);
 		V_0 = L_13;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch2startPositionx;
 		return L_1;
 	}
 }
@@ -15713,25 +12914,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch2startPositiony = new UnityEngine.InputSystem.Controls.AxisControl();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
-		// ctrlTouchscreentouch2startPositiony.Setup()
-		//     .At(this, 121)
-		//     .WithParent(parent)
-		//     .WithName("y")
-		//     .WithDisplayName("Touch Touch Start Position Y")
-		//     .WithShortDisplayName("Touch Touch Start Position Y")
-		//     .WithLayout(kAxisLayout)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 220,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -15769,7 +12954,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_13 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_12, NULL);
 		V_0 = L_13;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch2startPositiony;
 		return L_1;
 	}
 }
@@ -15789,27 +12973,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntegerControl_tA24544EFF42204852F638FF5147F7
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch3touchId = new UnityEngine.InputSystem.Controls.IntegerControl();
 		IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB* L_0 = (IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB*)il2cpp_codegen_object_new(IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		IntegerControl__ctor_mC6E1C70B301EE12C2590B64C2DD53F02A577892D(L_0, NULL);
-		// ctrlTouchscreentouch3touchId.Setup()
-		//     .At(this, 122)
-		//     .WithParent(parent)
-		//     .WithName("touchId")
-		//     .WithDisplayName("Touch Touch ID")
-		//     .WithShortDisplayName("Touch Touch ID")
-		//     .WithLayout(kIntegerLayout)
-		//     .IsSynthetic(true)
-		//     .DontReset(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1229870112),
-		//         byteOffset = 224,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -15853,7 +13019,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntegerControl_tA24544EFF42204852F638FF5147F7
 		L_15 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_14, NULL);
 		V_0 = L_15;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch3touchId;
 		return L_1;
 	}
 }
@@ -15873,27 +13038,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch3position = new UnityEngine.InputSystem.Controls.Vector2Control();
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_0 = (Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432*)il2cpp_codegen_object_new(Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		Vector2Control__ctor_m9F2990DA999344F23AA90F6EE77884A75D4F29F8(L_0, NULL);
-		// ctrlTouchscreentouch3position.Setup()
-		//     .At(this, 123)
-		//     .WithParent(parent)
-		//     .WithChildren(134, 2)
-		//     .WithName("position")
-		//     .WithDisplayName("Touch Position")
-		//     .WithShortDisplayName("Touch Position")
-		//     .WithLayout(kVector2Layout)
-		//     .DontReset(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1447379762),
-		//         byteOffset = 228,
-		//         bitOffset = 0,
-		//         sizeInBits = 64
-		//     })
-		//     .Finish();
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -15937,7 +13084,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 		L_15 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_14, NULL);
 		V_0 = L_15;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch3position;
 		return L_1;
 	}
 }
@@ -15957,26 +13103,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A1
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch3delta = new UnityEngine.InputSystem.Controls.DeltaControl();
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_0 = (DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B*)il2cpp_codegen_object_new(DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		DeltaControl__ctor_m221788585AD5E0B67F3CFE1199DC6C2B0C237CB4(L_0, NULL);
-		// ctrlTouchscreentouch3delta.Setup()
-		//     .At(this, 124)
-		//     .WithParent(parent)
-		//     .WithChildren(136, 6)
-		//     .WithName("delta")
-		//     .WithDisplayName("Touch Delta")
-		//     .WithShortDisplayName("Touch Delta")
-		//     .WithLayout(kDeltaLayout)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1447379762),
-		//         byteOffset = 236,
-		//         bitOffset = 0,
-		//         sizeInBits = 64
-		//     })
-		//     .Finish();
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -16017,7 +13146,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A1
 		L_14 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_13, NULL);
 		V_0 = L_14;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch3delta;
 		return L_1;
 	}
 }
@@ -16037,25 +13165,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch3pressure = new UnityEngine.InputSystem.Controls.AxisControl();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
-		// ctrlTouchscreentouch3pressure.Setup()
-		//     .At(this, 125)
-		//     .WithParent(parent)
-		//     .WithName("pressure")
-		//     .WithDisplayName("Touch Pressure")
-		//     .WithShortDisplayName("Touch Pressure")
-		//     .WithLayout(kAxisLayout)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 244,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -16093,7 +13205,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_13 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_12, NULL);
 		V_0 = L_13;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch3pressure;
 		return L_1;
 	}
 }
@@ -16113,26 +13224,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch3radius = new UnityEngine.InputSystem.Controls.Vector2Control();
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_0 = (Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432*)il2cpp_codegen_object_new(Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		Vector2Control__ctor_m9F2990DA999344F23AA90F6EE77884A75D4F29F8(L_0, NULL);
-		// ctrlTouchscreentouch3radius.Setup()
-		//     .At(this, 126)
-		//     .WithParent(parent)
-		//     .WithChildren(142, 2)
-		//     .WithName("radius")
-		//     .WithDisplayName("Touch Radius")
-		//     .WithShortDisplayName("Touch Radius")
-		//     .WithLayout(kVector2Layout)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1447379762),
-		//         byteOffset = 248,
-		//         bitOffset = 0,
-		//         sizeInBits = 64
-		//     })
-		//     .Finish();
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -16173,7 +13267,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 		L_14 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_13, NULL);
 		V_0 = L_14;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch3radius;
 		return L_1;
 	}
 }
@@ -16193,26 +13286,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchPhaseControl_t4652C6E0EBFAFA85A316077698
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch3phase = new UnityEngine.InputSystem.Controls.TouchPhaseControl();
 		TouchPhaseControl_t4652C6E0EBFAFA85A31607769876B02C1C9FCAEC* L_0 = (TouchPhaseControl_t4652C6E0EBFAFA85A31607769876B02C1C9FCAEC*)il2cpp_codegen_object_new(TouchPhaseControl_t4652C6E0EBFAFA85A31607769876B02C1C9FCAEC_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		TouchPhaseControl__ctor_m76D52D2CDBC41512C35BC70649F0B91ADDAE4D59(L_0, NULL);
-		// ctrlTouchscreentouch3phase.Setup()
-		//     .At(this, 127)
-		//     .WithParent(parent)
-		//     .WithName("phase")
-		//     .WithDisplayName("Touch Touch Phase")
-		//     .WithShortDisplayName("Touch Touch Phase")
-		//     .WithLayout(kTouchPhaseLayout)
-		//     .IsSynthetic(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1113150533),
-		//         byteOffset = 256,
-		//         bitOffset = 0,
-		//         sizeInBits = 8
-		//     })
-		//     .Finish();
 		TouchPhaseControl_t4652C6E0EBFAFA85A31607769876B02C1C9FCAEC* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -16253,7 +13329,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchPhaseControl_t4652C6E0EBFAFA85A316077698
 		L_14 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_13, NULL);
 		V_0 = L_14;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch3phase;
 		return L_1;
 	}
 }
@@ -16273,27 +13348,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchPressControl_tD5BD68D9FDEAC889591DD7A499
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch3press = new UnityEngine.InputSystem.Controls.TouchPressControl();
 		TouchPressControl_tD5BD68D9FDEAC889591DD7A499864893A43C7CEB* L_0 = (TouchPressControl_tD5BD68D9FDEAC889591DD7A499864893A43C7CEB*)il2cpp_codegen_object_new(TouchPressControl_tD5BD68D9FDEAC889591DD7A499864893A43C7CEB_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		TouchPressControl__ctor_m257FF1E4C03BD2CC927220808F404A23641027B2(L_0, NULL);
-		// ctrlTouchscreentouch3press.Setup()
-		//     .At(this, 128)
-		//     .WithParent(parent)
-		//     .WithName("press")
-		//     .WithDisplayName("Touch Touch Contact?")
-		//     .WithShortDisplayName("Touch Touch Contact?")
-		//     .WithLayout(kTouchPressLayout)
-		//     .IsButton(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1113150533),
-		//         byteOffset = 256,
-		//         bitOffset = 0,
-		//         sizeInBits = 8
-		//     })
-		//     .WithMinAndMax(0, 1)
-		//     .Finish();
 		TouchPressControl_tD5BD68D9FDEAC889591DD7A499864893A43C7CEB* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -16341,7 +13398,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchPressControl_tD5BD68D9FDEAC889591DD7A499
 		L_17 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_15, L_16, NULL);
 		V_0 = L_17;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch3press;
 		return L_1;
 	}
 }
@@ -16361,25 +13417,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntegerControl_tA24544EFF42204852F638FF5147F7
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch3tapCount = new UnityEngine.InputSystem.Controls.IntegerControl();
 		IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB* L_0 = (IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB*)il2cpp_codegen_object_new(IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		IntegerControl__ctor_mC6E1C70B301EE12C2590B64C2DD53F02A577892D(L_0, NULL);
-		// ctrlTouchscreentouch3tapCount.Setup()
-		//     .At(this, 129)
-		//     .WithParent(parent)
-		//     .WithName("tapCount")
-		//     .WithDisplayName("Touch Tap Count")
-		//     .WithShortDisplayName("Touch Tap Count")
-		//     .WithLayout(kIntegerLayout)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1113150533),
-		//         byteOffset = 257,
-		//         bitOffset = 0,
-		//         sizeInBits = 8
-		//     })
-		//     .Finish();
 		IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -16417,7 +13457,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntegerControl_tA24544EFF42204852F638FF5147F7
 		L_13 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_12, NULL);
 		V_0 = L_13;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch3tapCount;
 		return L_1;
 	}
 }
@@ -16437,28 +13476,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ButtonControl_t85949109B98AAF5B7ADC0285F0EC98
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch3indirectTouch = new UnityEngine.InputSystem.Controls.ButtonControl();
 		ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* L_0 = (ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF*)il2cpp_codegen_object_new(ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		ButtonControl__ctor_mF6F46704B8CC76DA22F543EFF8D136676893ACEB(L_0, NULL);
-		// ctrlTouchscreentouch3indirectTouch.Setup()
-		//     .At(this, 130)
-		//     .WithParent(parent)
-		//     .WithName("indirectTouch")
-		//     .WithDisplayName("Touch Indirect Touch?")
-		//     .WithShortDisplayName("Touch Indirect Touch?")
-		//     .WithLayout(kButtonLayout)
-		//     .IsSynthetic(true)
-		//     .IsButton(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1112101920),
-		//         byteOffset = 259,
-		//         bitOffset = 0,
-		//         sizeInBits = 1
-		//     })
-		//     .WithMinAndMax(0, 1)
-		//     .Finish();
 		ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -16509,7 +13529,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ButtonControl_t85949109B98AAF5B7ADC0285F0EC98
 		L_18 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_16, L_17, NULL);
 		V_0 = L_18;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch3indirectTouch;
 		return L_1;
 	}
 }
@@ -16529,27 +13548,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ButtonControl_t85949109B98AAF5B7ADC0285F0EC98
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch3tap = new UnityEngine.InputSystem.Controls.ButtonControl();
 		ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* L_0 = (ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF*)il2cpp_codegen_object_new(ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		ButtonControl__ctor_mF6F46704B8CC76DA22F543EFF8D136676893ACEB(L_0, NULL);
-		// ctrlTouchscreentouch3tap.Setup()
-		//     .At(this, 131)
-		//     .WithParent(parent)
-		//     .WithName("tap")
-		//     .WithDisplayName("Touch Tap")
-		//     .WithShortDisplayName("Touch Tap")
-		//     .WithLayout(kButtonLayout)
-		//     .IsButton(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1112101920),
-		//         byteOffset = 259,
-		//         bitOffset = 4,
-		//         sizeInBits = 1
-		//     })
-		//     .WithMinAndMax(0, 1)
-		//     .Finish();
 		ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -16597,7 +13598,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ButtonControl_t85949109B98AAF5B7ADC0285F0EC98
 		L_17 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_15, L_16, NULL);
 		V_0 = L_17;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch3tap;
 		return L_1;
 	}
 }
@@ -16617,26 +13617,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DoubleControl_t3707A6260424A2F3636669A2BAFF5C
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch3startTime = new UnityEngine.InputSystem.Controls.DoubleControl();
 		DoubleControl_t3707A6260424A2F3636669A2BAFF5CB5E91D2486* L_0 = (DoubleControl_t3707A6260424A2F3636669A2BAFF5CB5E91D2486*)il2cpp_codegen_object_new(DoubleControl_t3707A6260424A2F3636669A2BAFF5CB5E91D2486_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		DoubleControl__ctor_m83AB89DB3A9EC88845B31BFF812C36C99F327CDA(L_0, NULL);
-		// ctrlTouchscreentouch3startTime.Setup()
-		//     .At(this, 132)
-		//     .WithParent(parent)
-		//     .WithName("startTime")
-		//     .WithDisplayName("Touch Start Time")
-		//     .WithShortDisplayName("Touch Start Time")
-		//     .WithLayout(kDoubleLayout)
-		//     .IsSynthetic(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1145195552),
-		//         byteOffset = 264,
-		//         bitOffset = 0,
-		//         sizeInBits = 64
-		//     })
-		//     .Finish();
 		DoubleControl_t3707A6260424A2F3636669A2BAFF5CB5E91D2486* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -16677,7 +13660,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DoubleControl_t3707A6260424A2F3636669A2BAFF5C
 		L_14 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_13, NULL);
 		V_0 = L_14;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch3startTime;
 		return L_1;
 	}
 }
@@ -16697,27 +13679,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch3startPosition = new UnityEngine.InputSystem.Controls.Vector2Control();
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_0 = (Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432*)il2cpp_codegen_object_new(Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		Vector2Control__ctor_m9F2990DA999344F23AA90F6EE77884A75D4F29F8(L_0, NULL);
-		// ctrlTouchscreentouch3startPosition.Setup()
-		//     .At(this, 133)
-		//     .WithParent(parent)
-		//     .WithChildren(144, 2)
-		//     .WithName("startPosition")
-		//     .WithDisplayName("Touch Start Position")
-		//     .WithShortDisplayName("Touch Start Position")
-		//     .WithLayout(kVector2Layout)
-		//     .IsSynthetic(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1447379762),
-		//         byteOffset = 272,
-		//         bitOffset = 0,
-		//         sizeInBits = 64
-		//     })
-		//     .Finish();
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -16761,7 +13725,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 		L_15 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_14, NULL);
 		V_0 = L_15;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch3startPosition;
 		return L_1;
 	}
 }
@@ -16781,26 +13744,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch3positionx = new UnityEngine.InputSystem.Controls.AxisControl();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
-		// ctrlTouchscreentouch3positionx.Setup()
-		//     .At(this, 134)
-		//     .WithParent(parent)
-		//     .WithName("x")
-		//     .WithDisplayName("Touch Touch Position X")
-		//     .WithShortDisplayName("Touch Touch Position X")
-		//     .WithLayout(kAxisLayout)
-		//     .DontReset(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 228,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -16841,7 +13787,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_14 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_13, NULL);
 		V_0 = L_14;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch3positionx;
 		return L_1;
 	}
 }
@@ -16861,26 +13806,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch3positiony = new UnityEngine.InputSystem.Controls.AxisControl();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
-		// ctrlTouchscreentouch3positiony.Setup()
-		//     .At(this, 135)
-		//     .WithParent(parent)
-		//     .WithName("y")
-		//     .WithDisplayName("Touch Touch Position Y")
-		//     .WithShortDisplayName("Touch Touch Position Y")
-		//     .WithLayout(kAxisLayout)
-		//     .DontReset(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 232,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -16921,7 +13849,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_14 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_13, NULL);
 		V_0 = L_14;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch3positiony;
 		return L_1;
 	}
 }
@@ -16941,7 +13868,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch3deltaup = new UnityEngine.InputSystem.Controls.AxisControl { clamp = UnityEngine.InputSystem.Controls.AxisControl.Clamp.BeforeNormalize, clampMax = 3.402823E+38f };
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
@@ -16951,22 +13877,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_2 = L_1;
 		NullCheck(L_2);
 		L_2->___clampMax_24 = (3.40282306E+38f);
-		// ctrlTouchscreentouch3deltaup.Setup()
-		//     .At(this, 136)
-		//     .WithParent(parent)
-		//     .WithName("up")
-		//     .WithDisplayName("Touch Touch Delta Up")
-		//     .WithShortDisplayName("Touch Touch Delta Up")
-		//     .WithLayout(kAxisLayout)
-		//     .IsSynthetic(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 240,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_3 = L_2;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_4;
 		L_4 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_3, NULL);
@@ -17007,7 +13917,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_16 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_15, NULL);
 		V_0 = L_16;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch3deltaup;
 		return L_3;
 	}
 }
@@ -17027,7 +13936,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch3deltadown = new UnityEngine.InputSystem.Controls.AxisControl { clamp = UnityEngine.InputSystem.Controls.AxisControl.Clamp.BeforeNormalize, clampMin = -3.402823E+38f, invert = true };
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
@@ -17040,22 +13948,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_3 = L_2;
 		NullCheck(L_3);
 		L_3->___invert_26 = (bool)1;
-		// ctrlTouchscreentouch3deltadown.Setup()
-		//     .At(this, 137)
-		//     .WithParent(parent)
-		//     .WithName("down")
-		//     .WithDisplayName("Touch Touch Delta Down")
-		//     .WithShortDisplayName("Touch Touch Delta Down")
-		//     .WithLayout(kAxisLayout)
-		//     .IsSynthetic(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 240,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_4 = L_3;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_5;
 		L_5 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_4, NULL);
@@ -17096,7 +13988,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_17 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_16, NULL);
 		V_0 = L_17;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch3deltadown;
 		return L_4;
 	}
 }
@@ -17116,7 +14007,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch3deltaleft = new UnityEngine.InputSystem.Controls.AxisControl { clamp = UnityEngine.InputSystem.Controls.AxisControl.Clamp.BeforeNormalize, clampMin = -3.402823E+38f, invert = true };
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
@@ -17129,22 +14019,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_3 = L_2;
 		NullCheck(L_3);
 		L_3->___invert_26 = (bool)1;
-		// ctrlTouchscreentouch3deltaleft.Setup()
-		//     .At(this, 138)
-		//     .WithParent(parent)
-		//     .WithName("left")
-		//     .WithDisplayName("Touch Touch Delta Left")
-		//     .WithShortDisplayName("Touch Touch Delta Left")
-		//     .WithLayout(kAxisLayout)
-		//     .IsSynthetic(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 236,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_4 = L_3;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_5;
 		L_5 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_4, NULL);
@@ -17185,7 +14059,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_17 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_16, NULL);
 		V_0 = L_17;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch3deltaleft;
 		return L_4;
 	}
 }
@@ -17205,7 +14078,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch3deltaright = new UnityEngine.InputSystem.Controls.AxisControl { clamp = UnityEngine.InputSystem.Controls.AxisControl.Clamp.BeforeNormalize, clampMax = 3.402823E+38f };
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
@@ -17215,22 +14087,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_2 = L_1;
 		NullCheck(L_2);
 		L_2->___clampMax_24 = (3.40282306E+38f);
-		// ctrlTouchscreentouch3deltaright.Setup()
-		//     .At(this, 139)
-		//     .WithParent(parent)
-		//     .WithName("right")
-		//     .WithDisplayName("Touch Touch Delta Right")
-		//     .WithShortDisplayName("Touch Touch Delta Right")
-		//     .WithLayout(kAxisLayout)
-		//     .IsSynthetic(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 236,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_3 = L_2;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_4;
 		L_4 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_3, NULL);
@@ -17271,7 +14127,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_16 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_15, NULL);
 		V_0 = L_16;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch3deltaright;
 		return L_3;
 	}
 }
@@ -17291,25 +14146,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch3deltax = new UnityEngine.InputSystem.Controls.AxisControl();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
-		// ctrlTouchscreentouch3deltax.Setup()
-		//     .At(this, 140)
-		//     .WithParent(parent)
-		//     .WithName("x")
-		//     .WithDisplayName("Touch Touch Delta X")
-		//     .WithShortDisplayName("Touch Touch Delta X")
-		//     .WithLayout(kAxisLayout)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 236,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -17347,7 +14186,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_13 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_12, NULL);
 		V_0 = L_13;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch3deltax;
 		return L_1;
 	}
 }
@@ -17367,25 +14205,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch3deltay = new UnityEngine.InputSystem.Controls.AxisControl();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
-		// ctrlTouchscreentouch3deltay.Setup()
-		//     .At(this, 141)
-		//     .WithParent(parent)
-		//     .WithName("y")
-		//     .WithDisplayName("Touch Touch Delta Y")
-		//     .WithShortDisplayName("Touch Touch Delta Y")
-		//     .WithLayout(kAxisLayout)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 240,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -17423,7 +14245,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_13 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_12, NULL);
 		V_0 = L_13;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch3deltay;
 		return L_1;
 	}
 }
@@ -17443,25 +14264,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch3radiusx = new UnityEngine.InputSystem.Controls.AxisControl();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
-		// ctrlTouchscreentouch3radiusx.Setup()
-		//     .At(this, 142)
-		//     .WithParent(parent)
-		//     .WithName("x")
-		//     .WithDisplayName("Touch Touch Radius X")
-		//     .WithShortDisplayName("Touch Touch Radius X")
-		//     .WithLayout(kAxisLayout)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 248,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -17499,7 +14304,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_13 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_12, NULL);
 		V_0 = L_13;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch3radiusx;
 		return L_1;
 	}
 }
@@ -17519,25 +14323,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch3radiusy = new UnityEngine.InputSystem.Controls.AxisControl();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
-		// ctrlTouchscreentouch3radiusy.Setup()
-		//     .At(this, 143)
-		//     .WithParent(parent)
-		//     .WithName("y")
-		//     .WithDisplayName("Touch Touch Radius Y")
-		//     .WithShortDisplayName("Touch Touch Radius Y")
-		//     .WithLayout(kAxisLayout)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 252,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -17575,7 +14363,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_13 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_12, NULL);
 		V_0 = L_13;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch3radiusy;
 		return L_1;
 	}
 }
@@ -17595,25 +14382,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch3startPositionx = new UnityEngine.InputSystem.Controls.AxisControl();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
-		// ctrlTouchscreentouch3startPositionx.Setup()
-		//     .At(this, 144)
-		//     .WithParent(parent)
-		//     .WithName("x")
-		//     .WithDisplayName("Touch Touch Start Position X")
-		//     .WithShortDisplayName("Touch Touch Start Position X")
-		//     .WithLayout(kAxisLayout)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 272,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -17651,7 +14422,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_13 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_12, NULL);
 		V_0 = L_13;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch3startPositionx;
 		return L_1;
 	}
 }
@@ -17671,25 +14441,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch3startPositiony = new UnityEngine.InputSystem.Controls.AxisControl();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
-		// ctrlTouchscreentouch3startPositiony.Setup()
-		//     .At(this, 145)
-		//     .WithParent(parent)
-		//     .WithName("y")
-		//     .WithDisplayName("Touch Touch Start Position Y")
-		//     .WithShortDisplayName("Touch Touch Start Position Y")
-		//     .WithLayout(kAxisLayout)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 276,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -17727,7 +14481,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_13 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_12, NULL);
 		V_0 = L_13;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch3startPositiony;
 		return L_1;
 	}
 }
@@ -17747,27 +14500,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntegerControl_tA24544EFF42204852F638FF5147F7
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch4touchId = new UnityEngine.InputSystem.Controls.IntegerControl();
 		IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB* L_0 = (IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB*)il2cpp_codegen_object_new(IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		IntegerControl__ctor_mC6E1C70B301EE12C2590B64C2DD53F02A577892D(L_0, NULL);
-		// ctrlTouchscreentouch4touchId.Setup()
-		//     .At(this, 146)
-		//     .WithParent(parent)
-		//     .WithName("touchId")
-		//     .WithDisplayName("Touch Touch ID")
-		//     .WithShortDisplayName("Touch Touch ID")
-		//     .WithLayout(kIntegerLayout)
-		//     .IsSynthetic(true)
-		//     .DontReset(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1229870112),
-		//         byteOffset = 280,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -17811,7 +14546,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntegerControl_tA24544EFF42204852F638FF5147F7
 		L_15 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_14, NULL);
 		V_0 = L_15;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch4touchId;
 		return L_1;
 	}
 }
@@ -17831,27 +14565,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch4position = new UnityEngine.InputSystem.Controls.Vector2Control();
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_0 = (Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432*)il2cpp_codegen_object_new(Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		Vector2Control__ctor_m9F2990DA999344F23AA90F6EE77884A75D4F29F8(L_0, NULL);
-		// ctrlTouchscreentouch4position.Setup()
-		//     .At(this, 147)
-		//     .WithParent(parent)
-		//     .WithChildren(158, 2)
-		//     .WithName("position")
-		//     .WithDisplayName("Touch Position")
-		//     .WithShortDisplayName("Touch Position")
-		//     .WithLayout(kVector2Layout)
-		//     .DontReset(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1447379762),
-		//         byteOffset = 284,
-		//         bitOffset = 0,
-		//         sizeInBits = 64
-		//     })
-		//     .Finish();
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -17895,7 +14611,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 		L_15 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_14, NULL);
 		V_0 = L_15;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch4position;
 		return L_1;
 	}
 }
@@ -17915,26 +14630,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A1
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch4delta = new UnityEngine.InputSystem.Controls.DeltaControl();
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_0 = (DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B*)il2cpp_codegen_object_new(DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		DeltaControl__ctor_m221788585AD5E0B67F3CFE1199DC6C2B0C237CB4(L_0, NULL);
-		// ctrlTouchscreentouch4delta.Setup()
-		//     .At(this, 148)
-		//     .WithParent(parent)
-		//     .WithChildren(160, 6)
-		//     .WithName("delta")
-		//     .WithDisplayName("Touch Delta")
-		//     .WithShortDisplayName("Touch Delta")
-		//     .WithLayout(kDeltaLayout)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1447379762),
-		//         byteOffset = 292,
-		//         bitOffset = 0,
-		//         sizeInBits = 64
-		//     })
-		//     .Finish();
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -17975,7 +14673,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A1
 		L_14 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_13, NULL);
 		V_0 = L_14;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch4delta;
 		return L_1;
 	}
 }
@@ -17995,25 +14692,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch4pressure = new UnityEngine.InputSystem.Controls.AxisControl();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
-		// ctrlTouchscreentouch4pressure.Setup()
-		//     .At(this, 149)
-		//     .WithParent(parent)
-		//     .WithName("pressure")
-		//     .WithDisplayName("Touch Pressure")
-		//     .WithShortDisplayName("Touch Pressure")
-		//     .WithLayout(kAxisLayout)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 300,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -18051,7 +14732,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_13 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_12, NULL);
 		V_0 = L_13;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch4pressure;
 		return L_1;
 	}
 }
@@ -18071,26 +14751,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch4radius = new UnityEngine.InputSystem.Controls.Vector2Control();
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_0 = (Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432*)il2cpp_codegen_object_new(Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		Vector2Control__ctor_m9F2990DA999344F23AA90F6EE77884A75D4F29F8(L_0, NULL);
-		// ctrlTouchscreentouch4radius.Setup()
-		//     .At(this, 150)
-		//     .WithParent(parent)
-		//     .WithChildren(166, 2)
-		//     .WithName("radius")
-		//     .WithDisplayName("Touch Radius")
-		//     .WithShortDisplayName("Touch Radius")
-		//     .WithLayout(kVector2Layout)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1447379762),
-		//         byteOffset = 304,
-		//         bitOffset = 0,
-		//         sizeInBits = 64
-		//     })
-		//     .Finish();
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -18131,7 +14794,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 		L_14 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_13, NULL);
 		V_0 = L_14;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch4radius;
 		return L_1;
 	}
 }
@@ -18151,26 +14813,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchPhaseControl_t4652C6E0EBFAFA85A316077698
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch4phase = new UnityEngine.InputSystem.Controls.TouchPhaseControl();
 		TouchPhaseControl_t4652C6E0EBFAFA85A31607769876B02C1C9FCAEC* L_0 = (TouchPhaseControl_t4652C6E0EBFAFA85A31607769876B02C1C9FCAEC*)il2cpp_codegen_object_new(TouchPhaseControl_t4652C6E0EBFAFA85A31607769876B02C1C9FCAEC_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		TouchPhaseControl__ctor_m76D52D2CDBC41512C35BC70649F0B91ADDAE4D59(L_0, NULL);
-		// ctrlTouchscreentouch4phase.Setup()
-		//     .At(this, 151)
-		//     .WithParent(parent)
-		//     .WithName("phase")
-		//     .WithDisplayName("Touch Touch Phase")
-		//     .WithShortDisplayName("Touch Touch Phase")
-		//     .WithLayout(kTouchPhaseLayout)
-		//     .IsSynthetic(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1113150533),
-		//         byteOffset = 312,
-		//         bitOffset = 0,
-		//         sizeInBits = 8
-		//     })
-		//     .Finish();
 		TouchPhaseControl_t4652C6E0EBFAFA85A31607769876B02C1C9FCAEC* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -18211,7 +14856,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchPhaseControl_t4652C6E0EBFAFA85A316077698
 		L_14 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_13, NULL);
 		V_0 = L_14;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch4phase;
 		return L_1;
 	}
 }
@@ -18231,27 +14875,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchPressControl_tD5BD68D9FDEAC889591DD7A499
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch4press = new UnityEngine.InputSystem.Controls.TouchPressControl();
 		TouchPressControl_tD5BD68D9FDEAC889591DD7A499864893A43C7CEB* L_0 = (TouchPressControl_tD5BD68D9FDEAC889591DD7A499864893A43C7CEB*)il2cpp_codegen_object_new(TouchPressControl_tD5BD68D9FDEAC889591DD7A499864893A43C7CEB_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		TouchPressControl__ctor_m257FF1E4C03BD2CC927220808F404A23641027B2(L_0, NULL);
-		// ctrlTouchscreentouch4press.Setup()
-		//     .At(this, 152)
-		//     .WithParent(parent)
-		//     .WithName("press")
-		//     .WithDisplayName("Touch Touch Contact?")
-		//     .WithShortDisplayName("Touch Touch Contact?")
-		//     .WithLayout(kTouchPressLayout)
-		//     .IsButton(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1113150533),
-		//         byteOffset = 312,
-		//         bitOffset = 0,
-		//         sizeInBits = 8
-		//     })
-		//     .WithMinAndMax(0, 1)
-		//     .Finish();
 		TouchPressControl_tD5BD68D9FDEAC889591DD7A499864893A43C7CEB* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -18299,7 +14925,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchPressControl_tD5BD68D9FDEAC889591DD7A499
 		L_17 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_15, L_16, NULL);
 		V_0 = L_17;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch4press;
 		return L_1;
 	}
 }
@@ -18319,25 +14944,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntegerControl_tA24544EFF42204852F638FF5147F7
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch4tapCount = new UnityEngine.InputSystem.Controls.IntegerControl();
 		IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB* L_0 = (IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB*)il2cpp_codegen_object_new(IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		IntegerControl__ctor_mC6E1C70B301EE12C2590B64C2DD53F02A577892D(L_0, NULL);
-		// ctrlTouchscreentouch4tapCount.Setup()
-		//     .At(this, 153)
-		//     .WithParent(parent)
-		//     .WithName("tapCount")
-		//     .WithDisplayName("Touch Tap Count")
-		//     .WithShortDisplayName("Touch Tap Count")
-		//     .WithLayout(kIntegerLayout)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1113150533),
-		//         byteOffset = 313,
-		//         bitOffset = 0,
-		//         sizeInBits = 8
-		//     })
-		//     .Finish();
 		IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -18375,7 +14984,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntegerControl_tA24544EFF42204852F638FF5147F7
 		L_13 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_12, NULL);
 		V_0 = L_13;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch4tapCount;
 		return L_1;
 	}
 }
@@ -18395,28 +15003,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ButtonControl_t85949109B98AAF5B7ADC0285F0EC98
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch4indirectTouch = new UnityEngine.InputSystem.Controls.ButtonControl();
 		ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* L_0 = (ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF*)il2cpp_codegen_object_new(ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		ButtonControl__ctor_mF6F46704B8CC76DA22F543EFF8D136676893ACEB(L_0, NULL);
-		// ctrlTouchscreentouch4indirectTouch.Setup()
-		//     .At(this, 154)
-		//     .WithParent(parent)
-		//     .WithName("indirectTouch")
-		//     .WithDisplayName("Touch Indirect Touch?")
-		//     .WithShortDisplayName("Touch Indirect Touch?")
-		//     .WithLayout(kButtonLayout)
-		//     .IsSynthetic(true)
-		//     .IsButton(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1112101920),
-		//         byteOffset = 315,
-		//         bitOffset = 0,
-		//         sizeInBits = 1
-		//     })
-		//     .WithMinAndMax(0, 1)
-		//     .Finish();
 		ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -18467,7 +15056,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ButtonControl_t85949109B98AAF5B7ADC0285F0EC98
 		L_18 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_16, L_17, NULL);
 		V_0 = L_18;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch4indirectTouch;
 		return L_1;
 	}
 }
@@ -18487,27 +15075,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ButtonControl_t85949109B98AAF5B7ADC0285F0EC98
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch4tap = new UnityEngine.InputSystem.Controls.ButtonControl();
 		ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* L_0 = (ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF*)il2cpp_codegen_object_new(ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		ButtonControl__ctor_mF6F46704B8CC76DA22F543EFF8D136676893ACEB(L_0, NULL);
-		// ctrlTouchscreentouch4tap.Setup()
-		//     .At(this, 155)
-		//     .WithParent(parent)
-		//     .WithName("tap")
-		//     .WithDisplayName("Touch Tap")
-		//     .WithShortDisplayName("Touch Tap")
-		//     .WithLayout(kButtonLayout)
-		//     .IsButton(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1112101920),
-		//         byteOffset = 315,
-		//         bitOffset = 4,
-		//         sizeInBits = 1
-		//     })
-		//     .WithMinAndMax(0, 1)
-		//     .Finish();
 		ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -18555,7 +15125,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ButtonControl_t85949109B98AAF5B7ADC0285F0EC98
 		L_17 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_15, L_16, NULL);
 		V_0 = L_17;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch4tap;
 		return L_1;
 	}
 }
@@ -18575,26 +15144,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DoubleControl_t3707A6260424A2F3636669A2BAFF5C
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch4startTime = new UnityEngine.InputSystem.Controls.DoubleControl();
 		DoubleControl_t3707A6260424A2F3636669A2BAFF5CB5E91D2486* L_0 = (DoubleControl_t3707A6260424A2F3636669A2BAFF5CB5E91D2486*)il2cpp_codegen_object_new(DoubleControl_t3707A6260424A2F3636669A2BAFF5CB5E91D2486_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		DoubleControl__ctor_m83AB89DB3A9EC88845B31BFF812C36C99F327CDA(L_0, NULL);
-		// ctrlTouchscreentouch4startTime.Setup()
-		//     .At(this, 156)
-		//     .WithParent(parent)
-		//     .WithName("startTime")
-		//     .WithDisplayName("Touch Start Time")
-		//     .WithShortDisplayName("Touch Start Time")
-		//     .WithLayout(kDoubleLayout)
-		//     .IsSynthetic(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1145195552),
-		//         byteOffset = 320,
-		//         bitOffset = 0,
-		//         sizeInBits = 64
-		//     })
-		//     .Finish();
 		DoubleControl_t3707A6260424A2F3636669A2BAFF5CB5E91D2486* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -18635,7 +15187,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DoubleControl_t3707A6260424A2F3636669A2BAFF5C
 		L_14 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_13, NULL);
 		V_0 = L_14;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch4startTime;
 		return L_1;
 	}
 }
@@ -18655,27 +15206,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch4startPosition = new UnityEngine.InputSystem.Controls.Vector2Control();
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_0 = (Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432*)il2cpp_codegen_object_new(Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		Vector2Control__ctor_m9F2990DA999344F23AA90F6EE77884A75D4F29F8(L_0, NULL);
-		// ctrlTouchscreentouch4startPosition.Setup()
-		//     .At(this, 157)
-		//     .WithParent(parent)
-		//     .WithChildren(168, 2)
-		//     .WithName("startPosition")
-		//     .WithDisplayName("Touch Start Position")
-		//     .WithShortDisplayName("Touch Start Position")
-		//     .WithLayout(kVector2Layout)
-		//     .IsSynthetic(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1447379762),
-		//         byteOffset = 328,
-		//         bitOffset = 0,
-		//         sizeInBits = 64
-		//     })
-		//     .Finish();
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -18719,7 +15252,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 		L_15 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_14, NULL);
 		V_0 = L_15;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch4startPosition;
 		return L_1;
 	}
 }
@@ -18739,26 +15271,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch4positionx = new UnityEngine.InputSystem.Controls.AxisControl();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
-		// ctrlTouchscreentouch4positionx.Setup()
-		//     .At(this, 158)
-		//     .WithParent(parent)
-		//     .WithName("x")
-		//     .WithDisplayName("Touch Touch Position X")
-		//     .WithShortDisplayName("Touch Touch Position X")
-		//     .WithLayout(kAxisLayout)
-		//     .DontReset(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 284,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -18799,7 +15314,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_14 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_13, NULL);
 		V_0 = L_14;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch4positionx;
 		return L_1;
 	}
 }
@@ -18819,26 +15333,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch4positiony = new UnityEngine.InputSystem.Controls.AxisControl();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
-		// ctrlTouchscreentouch4positiony.Setup()
-		//     .At(this, 159)
-		//     .WithParent(parent)
-		//     .WithName("y")
-		//     .WithDisplayName("Touch Touch Position Y")
-		//     .WithShortDisplayName("Touch Touch Position Y")
-		//     .WithLayout(kAxisLayout)
-		//     .DontReset(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 288,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -18879,7 +15376,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_14 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_13, NULL);
 		V_0 = L_14;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch4positiony;
 		return L_1;
 	}
 }
@@ -18899,7 +15395,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch4deltaup = new UnityEngine.InputSystem.Controls.AxisControl { clamp = UnityEngine.InputSystem.Controls.AxisControl.Clamp.BeforeNormalize, clampMax = 3.402823E+38f };
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
@@ -18909,22 +15404,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_2 = L_1;
 		NullCheck(L_2);
 		L_2->___clampMax_24 = (3.40282306E+38f);
-		// ctrlTouchscreentouch4deltaup.Setup()
-		//     .At(this, 160)
-		//     .WithParent(parent)
-		//     .WithName("up")
-		//     .WithDisplayName("Touch Touch Delta Up")
-		//     .WithShortDisplayName("Touch Touch Delta Up")
-		//     .WithLayout(kAxisLayout)
-		//     .IsSynthetic(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 296,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_3 = L_2;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_4;
 		L_4 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_3, NULL);
@@ -18965,7 +15444,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_16 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_15, NULL);
 		V_0 = L_16;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch4deltaup;
 		return L_3;
 	}
 }
@@ -18985,7 +15463,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch4deltadown = new UnityEngine.InputSystem.Controls.AxisControl { clamp = UnityEngine.InputSystem.Controls.AxisControl.Clamp.BeforeNormalize, clampMin = -3.402823E+38f, invert = true };
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
@@ -18998,22 +15475,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_3 = L_2;
 		NullCheck(L_3);
 		L_3->___invert_26 = (bool)1;
-		// ctrlTouchscreentouch4deltadown.Setup()
-		//     .At(this, 161)
-		//     .WithParent(parent)
-		//     .WithName("down")
-		//     .WithDisplayName("Touch Touch Delta Down")
-		//     .WithShortDisplayName("Touch Touch Delta Down")
-		//     .WithLayout(kAxisLayout)
-		//     .IsSynthetic(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 296,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_4 = L_3;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_5;
 		L_5 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_4, NULL);
@@ -19054,7 +15515,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_17 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_16, NULL);
 		V_0 = L_17;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch4deltadown;
 		return L_4;
 	}
 }
@@ -19074,7 +15534,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch4deltaleft = new UnityEngine.InputSystem.Controls.AxisControl { clamp = UnityEngine.InputSystem.Controls.AxisControl.Clamp.BeforeNormalize, clampMin = -3.402823E+38f, invert = true };
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
@@ -19087,22 +15546,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_3 = L_2;
 		NullCheck(L_3);
 		L_3->___invert_26 = (bool)1;
-		// ctrlTouchscreentouch4deltaleft.Setup()
-		//     .At(this, 162)
-		//     .WithParent(parent)
-		//     .WithName("left")
-		//     .WithDisplayName("Touch Touch Delta Left")
-		//     .WithShortDisplayName("Touch Touch Delta Left")
-		//     .WithLayout(kAxisLayout)
-		//     .IsSynthetic(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 292,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_4 = L_3;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_5;
 		L_5 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_4, NULL);
@@ -19143,7 +15586,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_17 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_16, NULL);
 		V_0 = L_17;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch4deltaleft;
 		return L_4;
 	}
 }
@@ -19163,7 +15605,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch4deltaright = new UnityEngine.InputSystem.Controls.AxisControl { clamp = UnityEngine.InputSystem.Controls.AxisControl.Clamp.BeforeNormalize, clampMax = 3.402823E+38f };
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
@@ -19173,22 +15614,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_2 = L_1;
 		NullCheck(L_2);
 		L_2->___clampMax_24 = (3.40282306E+38f);
-		// ctrlTouchscreentouch4deltaright.Setup()
-		//     .At(this, 163)
-		//     .WithParent(parent)
-		//     .WithName("right")
-		//     .WithDisplayName("Touch Touch Delta Right")
-		//     .WithShortDisplayName("Touch Touch Delta Right")
-		//     .WithLayout(kAxisLayout)
-		//     .IsSynthetic(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 292,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_3 = L_2;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_4;
 		L_4 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_3, NULL);
@@ -19229,7 +15654,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_16 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_15, NULL);
 		V_0 = L_16;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch4deltaright;
 		return L_3;
 	}
 }
@@ -19249,25 +15673,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch4deltax = new UnityEngine.InputSystem.Controls.AxisControl();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
-		// ctrlTouchscreentouch4deltax.Setup()
-		//     .At(this, 164)
-		//     .WithParent(parent)
-		//     .WithName("x")
-		//     .WithDisplayName("Touch Touch Delta X")
-		//     .WithShortDisplayName("Touch Touch Delta X")
-		//     .WithLayout(kAxisLayout)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 292,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -19305,7 +15713,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_13 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_12, NULL);
 		V_0 = L_13;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch4deltax;
 		return L_1;
 	}
 }
@@ -19325,25 +15732,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch4deltay = new UnityEngine.InputSystem.Controls.AxisControl();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
-		// ctrlTouchscreentouch4deltay.Setup()
-		//     .At(this, 165)
-		//     .WithParent(parent)
-		//     .WithName("y")
-		//     .WithDisplayName("Touch Touch Delta Y")
-		//     .WithShortDisplayName("Touch Touch Delta Y")
-		//     .WithLayout(kAxisLayout)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 296,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -19381,7 +15772,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_13 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_12, NULL);
 		V_0 = L_13;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch4deltay;
 		return L_1;
 	}
 }
@@ -19401,25 +15791,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch4radiusx = new UnityEngine.InputSystem.Controls.AxisControl();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
-		// ctrlTouchscreentouch4radiusx.Setup()
-		//     .At(this, 166)
-		//     .WithParent(parent)
-		//     .WithName("x")
-		//     .WithDisplayName("Touch Touch Radius X")
-		//     .WithShortDisplayName("Touch Touch Radius X")
-		//     .WithLayout(kAxisLayout)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 304,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -19457,7 +15831,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_13 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_12, NULL);
 		V_0 = L_13;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch4radiusx;
 		return L_1;
 	}
 }
@@ -19477,25 +15850,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch4radiusy = new UnityEngine.InputSystem.Controls.AxisControl();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
-		// ctrlTouchscreentouch4radiusy.Setup()
-		//     .At(this, 167)
-		//     .WithParent(parent)
-		//     .WithName("y")
-		//     .WithDisplayName("Touch Touch Radius Y")
-		//     .WithShortDisplayName("Touch Touch Radius Y")
-		//     .WithLayout(kAxisLayout)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 308,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -19533,7 +15890,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_13 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_12, NULL);
 		V_0 = L_13;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch4radiusy;
 		return L_1;
 	}
 }
@@ -19553,25 +15909,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch4startPositionx = new UnityEngine.InputSystem.Controls.AxisControl();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
-		// ctrlTouchscreentouch4startPositionx.Setup()
-		//     .At(this, 168)
-		//     .WithParent(parent)
-		//     .WithName("x")
-		//     .WithDisplayName("Touch Touch Start Position X")
-		//     .WithShortDisplayName("Touch Touch Start Position X")
-		//     .WithLayout(kAxisLayout)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 328,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -19609,7 +15949,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_13 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_12, NULL);
 		V_0 = L_13;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch4startPositionx;
 		return L_1;
 	}
 }
@@ -19629,25 +15968,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch4startPositiony = new UnityEngine.InputSystem.Controls.AxisControl();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
-		// ctrlTouchscreentouch4startPositiony.Setup()
-		//     .At(this, 169)
-		//     .WithParent(parent)
-		//     .WithName("y")
-		//     .WithDisplayName("Touch Touch Start Position Y")
-		//     .WithShortDisplayName("Touch Touch Start Position Y")
-		//     .WithLayout(kAxisLayout)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 332,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -19685,7 +16008,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_13 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_12, NULL);
 		V_0 = L_13;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch4startPositiony;
 		return L_1;
 	}
 }
@@ -19705,27 +16027,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntegerControl_tA24544EFF42204852F638FF5147F7
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch5touchId = new UnityEngine.InputSystem.Controls.IntegerControl();
 		IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB* L_0 = (IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB*)il2cpp_codegen_object_new(IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		IntegerControl__ctor_mC6E1C70B301EE12C2590B64C2DD53F02A577892D(L_0, NULL);
-		// ctrlTouchscreentouch5touchId.Setup()
-		//     .At(this, 170)
-		//     .WithParent(parent)
-		//     .WithName("touchId")
-		//     .WithDisplayName("Touch Touch ID")
-		//     .WithShortDisplayName("Touch Touch ID")
-		//     .WithLayout(kIntegerLayout)
-		//     .IsSynthetic(true)
-		//     .DontReset(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1229870112),
-		//         byteOffset = 336,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -19769,7 +16073,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntegerControl_tA24544EFF42204852F638FF5147F7
 		L_15 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_14, NULL);
 		V_0 = L_15;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch5touchId;
 		return L_1;
 	}
 }
@@ -19789,27 +16092,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch5position = new UnityEngine.InputSystem.Controls.Vector2Control();
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_0 = (Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432*)il2cpp_codegen_object_new(Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		Vector2Control__ctor_m9F2990DA999344F23AA90F6EE77884A75D4F29F8(L_0, NULL);
-		// ctrlTouchscreentouch5position.Setup()
-		//     .At(this, 171)
-		//     .WithParent(parent)
-		//     .WithChildren(182, 2)
-		//     .WithName("position")
-		//     .WithDisplayName("Touch Position")
-		//     .WithShortDisplayName("Touch Position")
-		//     .WithLayout(kVector2Layout)
-		//     .DontReset(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1447379762),
-		//         byteOffset = 340,
-		//         bitOffset = 0,
-		//         sizeInBits = 64
-		//     })
-		//     .Finish();
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -19853,7 +16138,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 		L_15 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_14, NULL);
 		V_0 = L_15;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch5position;
 		return L_1;
 	}
 }
@@ -19873,26 +16157,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A1
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch5delta = new UnityEngine.InputSystem.Controls.DeltaControl();
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_0 = (DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B*)il2cpp_codegen_object_new(DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		DeltaControl__ctor_m221788585AD5E0B67F3CFE1199DC6C2B0C237CB4(L_0, NULL);
-		// ctrlTouchscreentouch5delta.Setup()
-		//     .At(this, 172)
-		//     .WithParent(parent)
-		//     .WithChildren(184, 6)
-		//     .WithName("delta")
-		//     .WithDisplayName("Touch Delta")
-		//     .WithShortDisplayName("Touch Delta")
-		//     .WithLayout(kDeltaLayout)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1447379762),
-		//         byteOffset = 348,
-		//         bitOffset = 0,
-		//         sizeInBits = 64
-		//     })
-		//     .Finish();
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -19933,7 +16200,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A1
 		L_14 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_13, NULL);
 		V_0 = L_14;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch5delta;
 		return L_1;
 	}
 }
@@ -19953,25 +16219,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch5pressure = new UnityEngine.InputSystem.Controls.AxisControl();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
-		// ctrlTouchscreentouch5pressure.Setup()
-		//     .At(this, 173)
-		//     .WithParent(parent)
-		//     .WithName("pressure")
-		//     .WithDisplayName("Touch Pressure")
-		//     .WithShortDisplayName("Touch Pressure")
-		//     .WithLayout(kAxisLayout)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 356,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -20009,7 +16259,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_13 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_12, NULL);
 		V_0 = L_13;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch5pressure;
 		return L_1;
 	}
 }
@@ -20029,26 +16278,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch5radius = new UnityEngine.InputSystem.Controls.Vector2Control();
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_0 = (Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432*)il2cpp_codegen_object_new(Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		Vector2Control__ctor_m9F2990DA999344F23AA90F6EE77884A75D4F29F8(L_0, NULL);
-		// ctrlTouchscreentouch5radius.Setup()
-		//     .At(this, 174)
-		//     .WithParent(parent)
-		//     .WithChildren(190, 2)
-		//     .WithName("radius")
-		//     .WithDisplayName("Touch Radius")
-		//     .WithShortDisplayName("Touch Radius")
-		//     .WithLayout(kVector2Layout)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1447379762),
-		//         byteOffset = 360,
-		//         bitOffset = 0,
-		//         sizeInBits = 64
-		//     })
-		//     .Finish();
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -20089,7 +16321,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 		L_14 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_13, NULL);
 		V_0 = L_14;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch5radius;
 		return L_1;
 	}
 }
@@ -20109,26 +16340,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchPhaseControl_t4652C6E0EBFAFA85A316077698
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch5phase = new UnityEngine.InputSystem.Controls.TouchPhaseControl();
 		TouchPhaseControl_t4652C6E0EBFAFA85A31607769876B02C1C9FCAEC* L_0 = (TouchPhaseControl_t4652C6E0EBFAFA85A31607769876B02C1C9FCAEC*)il2cpp_codegen_object_new(TouchPhaseControl_t4652C6E0EBFAFA85A31607769876B02C1C9FCAEC_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		TouchPhaseControl__ctor_m76D52D2CDBC41512C35BC70649F0B91ADDAE4D59(L_0, NULL);
-		// ctrlTouchscreentouch5phase.Setup()
-		//     .At(this, 175)
-		//     .WithParent(parent)
-		//     .WithName("phase")
-		//     .WithDisplayName("Touch Touch Phase")
-		//     .WithShortDisplayName("Touch Touch Phase")
-		//     .WithLayout(kTouchPhaseLayout)
-		//     .IsSynthetic(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1113150533),
-		//         byteOffset = 368,
-		//         bitOffset = 0,
-		//         sizeInBits = 8
-		//     })
-		//     .Finish();
 		TouchPhaseControl_t4652C6E0EBFAFA85A31607769876B02C1C9FCAEC* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -20169,7 +16383,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchPhaseControl_t4652C6E0EBFAFA85A316077698
 		L_14 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_13, NULL);
 		V_0 = L_14;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch5phase;
 		return L_1;
 	}
 }
@@ -20189,27 +16402,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchPressControl_tD5BD68D9FDEAC889591DD7A499
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch5press = new UnityEngine.InputSystem.Controls.TouchPressControl();
 		TouchPressControl_tD5BD68D9FDEAC889591DD7A499864893A43C7CEB* L_0 = (TouchPressControl_tD5BD68D9FDEAC889591DD7A499864893A43C7CEB*)il2cpp_codegen_object_new(TouchPressControl_tD5BD68D9FDEAC889591DD7A499864893A43C7CEB_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		TouchPressControl__ctor_m257FF1E4C03BD2CC927220808F404A23641027B2(L_0, NULL);
-		// ctrlTouchscreentouch5press.Setup()
-		//     .At(this, 176)
-		//     .WithParent(parent)
-		//     .WithName("press")
-		//     .WithDisplayName("Touch Touch Contact?")
-		//     .WithShortDisplayName("Touch Touch Contact?")
-		//     .WithLayout(kTouchPressLayout)
-		//     .IsButton(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1113150533),
-		//         byteOffset = 368,
-		//         bitOffset = 0,
-		//         sizeInBits = 8
-		//     })
-		//     .WithMinAndMax(0, 1)
-		//     .Finish();
 		TouchPressControl_tD5BD68D9FDEAC889591DD7A499864893A43C7CEB* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -20257,7 +16452,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchPressControl_tD5BD68D9FDEAC889591DD7A499
 		L_17 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_15, L_16, NULL);
 		V_0 = L_17;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch5press;
 		return L_1;
 	}
 }
@@ -20277,25 +16471,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntegerControl_tA24544EFF42204852F638FF5147F7
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch5tapCount = new UnityEngine.InputSystem.Controls.IntegerControl();
 		IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB* L_0 = (IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB*)il2cpp_codegen_object_new(IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		IntegerControl__ctor_mC6E1C70B301EE12C2590B64C2DD53F02A577892D(L_0, NULL);
-		// ctrlTouchscreentouch5tapCount.Setup()
-		//     .At(this, 177)
-		//     .WithParent(parent)
-		//     .WithName("tapCount")
-		//     .WithDisplayName("Touch Tap Count")
-		//     .WithShortDisplayName("Touch Tap Count")
-		//     .WithLayout(kIntegerLayout)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1113150533),
-		//         byteOffset = 369,
-		//         bitOffset = 0,
-		//         sizeInBits = 8
-		//     })
-		//     .Finish();
 		IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -20333,7 +16511,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntegerControl_tA24544EFF42204852F638FF5147F7
 		L_13 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_12, NULL);
 		V_0 = L_13;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch5tapCount;
 		return L_1;
 	}
 }
@@ -20353,28 +16530,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ButtonControl_t85949109B98AAF5B7ADC0285F0EC98
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch5indirectTouch = new UnityEngine.InputSystem.Controls.ButtonControl();
 		ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* L_0 = (ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF*)il2cpp_codegen_object_new(ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		ButtonControl__ctor_mF6F46704B8CC76DA22F543EFF8D136676893ACEB(L_0, NULL);
-		// ctrlTouchscreentouch5indirectTouch.Setup()
-		//     .At(this, 178)
-		//     .WithParent(parent)
-		//     .WithName("indirectTouch")
-		//     .WithDisplayName("Touch Indirect Touch?")
-		//     .WithShortDisplayName("Touch Indirect Touch?")
-		//     .WithLayout(kButtonLayout)
-		//     .IsSynthetic(true)
-		//     .IsButton(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1112101920),
-		//         byteOffset = 371,
-		//         bitOffset = 0,
-		//         sizeInBits = 1
-		//     })
-		//     .WithMinAndMax(0, 1)
-		//     .Finish();
 		ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -20425,7 +16583,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ButtonControl_t85949109B98AAF5B7ADC0285F0EC98
 		L_18 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_16, L_17, NULL);
 		V_0 = L_18;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch5indirectTouch;
 		return L_1;
 	}
 }
@@ -20445,27 +16602,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ButtonControl_t85949109B98AAF5B7ADC0285F0EC98
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch5tap = new UnityEngine.InputSystem.Controls.ButtonControl();
 		ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* L_0 = (ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF*)il2cpp_codegen_object_new(ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		ButtonControl__ctor_mF6F46704B8CC76DA22F543EFF8D136676893ACEB(L_0, NULL);
-		// ctrlTouchscreentouch5tap.Setup()
-		//     .At(this, 179)
-		//     .WithParent(parent)
-		//     .WithName("tap")
-		//     .WithDisplayName("Touch Tap")
-		//     .WithShortDisplayName("Touch Tap")
-		//     .WithLayout(kButtonLayout)
-		//     .IsButton(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1112101920),
-		//         byteOffset = 371,
-		//         bitOffset = 4,
-		//         sizeInBits = 1
-		//     })
-		//     .WithMinAndMax(0, 1)
-		//     .Finish();
 		ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -20513,7 +16652,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ButtonControl_t85949109B98AAF5B7ADC0285F0EC98
 		L_17 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_15, L_16, NULL);
 		V_0 = L_17;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch5tap;
 		return L_1;
 	}
 }
@@ -20533,26 +16671,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DoubleControl_t3707A6260424A2F3636669A2BAFF5C
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch5startTime = new UnityEngine.InputSystem.Controls.DoubleControl();
 		DoubleControl_t3707A6260424A2F3636669A2BAFF5CB5E91D2486* L_0 = (DoubleControl_t3707A6260424A2F3636669A2BAFF5CB5E91D2486*)il2cpp_codegen_object_new(DoubleControl_t3707A6260424A2F3636669A2BAFF5CB5E91D2486_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		DoubleControl__ctor_m83AB89DB3A9EC88845B31BFF812C36C99F327CDA(L_0, NULL);
-		// ctrlTouchscreentouch5startTime.Setup()
-		//     .At(this, 180)
-		//     .WithParent(parent)
-		//     .WithName("startTime")
-		//     .WithDisplayName("Touch Start Time")
-		//     .WithShortDisplayName("Touch Start Time")
-		//     .WithLayout(kDoubleLayout)
-		//     .IsSynthetic(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1145195552),
-		//         byteOffset = 376,
-		//         bitOffset = 0,
-		//         sizeInBits = 64
-		//     })
-		//     .Finish();
 		DoubleControl_t3707A6260424A2F3636669A2BAFF5CB5E91D2486* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -20593,7 +16714,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DoubleControl_t3707A6260424A2F3636669A2BAFF5C
 		L_14 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_13, NULL);
 		V_0 = L_14;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch5startTime;
 		return L_1;
 	}
 }
@@ -20613,27 +16733,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch5startPosition = new UnityEngine.InputSystem.Controls.Vector2Control();
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_0 = (Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432*)il2cpp_codegen_object_new(Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		Vector2Control__ctor_m9F2990DA999344F23AA90F6EE77884A75D4F29F8(L_0, NULL);
-		// ctrlTouchscreentouch5startPosition.Setup()
-		//     .At(this, 181)
-		//     .WithParent(parent)
-		//     .WithChildren(192, 2)
-		//     .WithName("startPosition")
-		//     .WithDisplayName("Touch Start Position")
-		//     .WithShortDisplayName("Touch Start Position")
-		//     .WithLayout(kVector2Layout)
-		//     .IsSynthetic(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1447379762),
-		//         byteOffset = 384,
-		//         bitOffset = 0,
-		//         sizeInBits = 64
-		//     })
-		//     .Finish();
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -20677,7 +16779,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 		L_15 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_14, NULL);
 		V_0 = L_15;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch5startPosition;
 		return L_1;
 	}
 }
@@ -20697,26 +16798,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch5positionx = new UnityEngine.InputSystem.Controls.AxisControl();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
-		// ctrlTouchscreentouch5positionx.Setup()
-		//     .At(this, 182)
-		//     .WithParent(parent)
-		//     .WithName("x")
-		//     .WithDisplayName("Touch Touch Position X")
-		//     .WithShortDisplayName("Touch Touch Position X")
-		//     .WithLayout(kAxisLayout)
-		//     .DontReset(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 340,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -20757,7 +16841,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_14 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_13, NULL);
 		V_0 = L_14;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch5positionx;
 		return L_1;
 	}
 }
@@ -20777,26 +16860,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch5positiony = new UnityEngine.InputSystem.Controls.AxisControl();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
-		// ctrlTouchscreentouch5positiony.Setup()
-		//     .At(this, 183)
-		//     .WithParent(parent)
-		//     .WithName("y")
-		//     .WithDisplayName("Touch Touch Position Y")
-		//     .WithShortDisplayName("Touch Touch Position Y")
-		//     .WithLayout(kAxisLayout)
-		//     .DontReset(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 344,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -20837,7 +16903,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_14 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_13, NULL);
 		V_0 = L_14;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch5positiony;
 		return L_1;
 	}
 }
@@ -20857,7 +16922,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch5deltaup = new UnityEngine.InputSystem.Controls.AxisControl { clamp = UnityEngine.InputSystem.Controls.AxisControl.Clamp.BeforeNormalize, clampMax = 3.402823E+38f };
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
@@ -20867,22 +16931,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_2 = L_1;
 		NullCheck(L_2);
 		L_2->___clampMax_24 = (3.40282306E+38f);
-		// ctrlTouchscreentouch5deltaup.Setup()
-		//     .At(this, 184)
-		//     .WithParent(parent)
-		//     .WithName("up")
-		//     .WithDisplayName("Touch Touch Delta Up")
-		//     .WithShortDisplayName("Touch Touch Delta Up")
-		//     .WithLayout(kAxisLayout)
-		//     .IsSynthetic(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 352,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_3 = L_2;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_4;
 		L_4 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_3, NULL);
@@ -20923,7 +16971,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_16 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_15, NULL);
 		V_0 = L_16;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch5deltaup;
 		return L_3;
 	}
 }
@@ -20943,7 +16990,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch5deltadown = new UnityEngine.InputSystem.Controls.AxisControl { clamp = UnityEngine.InputSystem.Controls.AxisControl.Clamp.BeforeNormalize, clampMin = -3.402823E+38f, invert = true };
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
@@ -20956,22 +17002,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_3 = L_2;
 		NullCheck(L_3);
 		L_3->___invert_26 = (bool)1;
-		// ctrlTouchscreentouch5deltadown.Setup()
-		//     .At(this, 185)
-		//     .WithParent(parent)
-		//     .WithName("down")
-		//     .WithDisplayName("Touch Touch Delta Down")
-		//     .WithShortDisplayName("Touch Touch Delta Down")
-		//     .WithLayout(kAxisLayout)
-		//     .IsSynthetic(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 352,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_4 = L_3;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_5;
 		L_5 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_4, NULL);
@@ -21012,7 +17042,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_17 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_16, NULL);
 		V_0 = L_17;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch5deltadown;
 		return L_4;
 	}
 }
@@ -21032,7 +17061,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch5deltaleft = new UnityEngine.InputSystem.Controls.AxisControl { clamp = UnityEngine.InputSystem.Controls.AxisControl.Clamp.BeforeNormalize, clampMin = -3.402823E+38f, invert = true };
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
@@ -21045,22 +17073,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_3 = L_2;
 		NullCheck(L_3);
 		L_3->___invert_26 = (bool)1;
-		// ctrlTouchscreentouch5deltaleft.Setup()
-		//     .At(this, 186)
-		//     .WithParent(parent)
-		//     .WithName("left")
-		//     .WithDisplayName("Touch Touch Delta Left")
-		//     .WithShortDisplayName("Touch Touch Delta Left")
-		//     .WithLayout(kAxisLayout)
-		//     .IsSynthetic(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 348,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_4 = L_3;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_5;
 		L_5 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_4, NULL);
@@ -21101,7 +17113,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_17 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_16, NULL);
 		V_0 = L_17;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch5deltaleft;
 		return L_4;
 	}
 }
@@ -21121,7 +17132,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch5deltaright = new UnityEngine.InputSystem.Controls.AxisControl { clamp = UnityEngine.InputSystem.Controls.AxisControl.Clamp.BeforeNormalize, clampMax = 3.402823E+38f };
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
@@ -21131,22 +17141,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_2 = L_1;
 		NullCheck(L_2);
 		L_2->___clampMax_24 = (3.40282306E+38f);
-		// ctrlTouchscreentouch5deltaright.Setup()
-		//     .At(this, 187)
-		//     .WithParent(parent)
-		//     .WithName("right")
-		//     .WithDisplayName("Touch Touch Delta Right")
-		//     .WithShortDisplayName("Touch Touch Delta Right")
-		//     .WithLayout(kAxisLayout)
-		//     .IsSynthetic(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 348,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_3 = L_2;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_4;
 		L_4 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_3, NULL);
@@ -21187,7 +17181,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_16 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_15, NULL);
 		V_0 = L_16;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch5deltaright;
 		return L_3;
 	}
 }
@@ -21207,25 +17200,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch5deltax = new UnityEngine.InputSystem.Controls.AxisControl();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
-		// ctrlTouchscreentouch5deltax.Setup()
-		//     .At(this, 188)
-		//     .WithParent(parent)
-		//     .WithName("x")
-		//     .WithDisplayName("Touch Touch Delta X")
-		//     .WithShortDisplayName("Touch Touch Delta X")
-		//     .WithLayout(kAxisLayout)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 348,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -21263,7 +17240,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_13 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_12, NULL);
 		V_0 = L_13;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch5deltax;
 		return L_1;
 	}
 }
@@ -21283,25 +17259,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch5deltay = new UnityEngine.InputSystem.Controls.AxisControl();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
-		// ctrlTouchscreentouch5deltay.Setup()
-		//     .At(this, 189)
-		//     .WithParent(parent)
-		//     .WithName("y")
-		//     .WithDisplayName("Touch Touch Delta Y")
-		//     .WithShortDisplayName("Touch Touch Delta Y")
-		//     .WithLayout(kAxisLayout)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 352,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -21339,7 +17299,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_13 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_12, NULL);
 		V_0 = L_13;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch5deltay;
 		return L_1;
 	}
 }
@@ -21359,25 +17318,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch5radiusx = new UnityEngine.InputSystem.Controls.AxisControl();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
-		// ctrlTouchscreentouch5radiusx.Setup()
-		//     .At(this, 190)
-		//     .WithParent(parent)
-		//     .WithName("x")
-		//     .WithDisplayName("Touch Touch Radius X")
-		//     .WithShortDisplayName("Touch Touch Radius X")
-		//     .WithLayout(kAxisLayout)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 360,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -21415,7 +17358,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_13 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_12, NULL);
 		V_0 = L_13;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch5radiusx;
 		return L_1;
 	}
 }
@@ -21435,25 +17377,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch5radiusy = new UnityEngine.InputSystem.Controls.AxisControl();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
-		// ctrlTouchscreentouch5radiusy.Setup()
-		//     .At(this, 191)
-		//     .WithParent(parent)
-		//     .WithName("y")
-		//     .WithDisplayName("Touch Touch Radius Y")
-		//     .WithShortDisplayName("Touch Touch Radius Y")
-		//     .WithLayout(kAxisLayout)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 364,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -21491,7 +17417,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_13 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_12, NULL);
 		V_0 = L_13;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch5radiusy;
 		return L_1;
 	}
 }
@@ -21511,25 +17436,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch5startPositionx = new UnityEngine.InputSystem.Controls.AxisControl();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
-		// ctrlTouchscreentouch5startPositionx.Setup()
-		//     .At(this, 192)
-		//     .WithParent(parent)
-		//     .WithName("x")
-		//     .WithDisplayName("Touch Touch Start Position X")
-		//     .WithShortDisplayName("Touch Touch Start Position X")
-		//     .WithLayout(kAxisLayout)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 384,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -21567,7 +17476,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_13 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_12, NULL);
 		V_0 = L_13;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch5startPositionx;
 		return L_1;
 	}
 }
@@ -21587,25 +17495,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch5startPositiony = new UnityEngine.InputSystem.Controls.AxisControl();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
-		// ctrlTouchscreentouch5startPositiony.Setup()
-		//     .At(this, 193)
-		//     .WithParent(parent)
-		//     .WithName("y")
-		//     .WithDisplayName("Touch Touch Start Position Y")
-		//     .WithShortDisplayName("Touch Touch Start Position Y")
-		//     .WithLayout(kAxisLayout)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 388,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -21643,7 +17535,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_13 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_12, NULL);
 		V_0 = L_13;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch5startPositiony;
 		return L_1;
 	}
 }
@@ -21663,27 +17554,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntegerControl_tA24544EFF42204852F638FF5147F7
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch6touchId = new UnityEngine.InputSystem.Controls.IntegerControl();
 		IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB* L_0 = (IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB*)il2cpp_codegen_object_new(IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		IntegerControl__ctor_mC6E1C70B301EE12C2590B64C2DD53F02A577892D(L_0, NULL);
-		// ctrlTouchscreentouch6touchId.Setup()
-		//     .At(this, 194)
-		//     .WithParent(parent)
-		//     .WithName("touchId")
-		//     .WithDisplayName("Touch Touch ID")
-		//     .WithShortDisplayName("Touch Touch ID")
-		//     .WithLayout(kIntegerLayout)
-		//     .IsSynthetic(true)
-		//     .DontReset(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1229870112),
-		//         byteOffset = 392,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -21727,7 +17600,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntegerControl_tA24544EFF42204852F638FF5147F7
 		L_15 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_14, NULL);
 		V_0 = L_15;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch6touchId;
 		return L_1;
 	}
 }
@@ -21747,27 +17619,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch6position = new UnityEngine.InputSystem.Controls.Vector2Control();
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_0 = (Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432*)il2cpp_codegen_object_new(Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		Vector2Control__ctor_m9F2990DA999344F23AA90F6EE77884A75D4F29F8(L_0, NULL);
-		// ctrlTouchscreentouch6position.Setup()
-		//     .At(this, 195)
-		//     .WithParent(parent)
-		//     .WithChildren(206, 2)
-		//     .WithName("position")
-		//     .WithDisplayName("Touch Position")
-		//     .WithShortDisplayName("Touch Position")
-		//     .WithLayout(kVector2Layout)
-		//     .DontReset(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1447379762),
-		//         byteOffset = 396,
-		//         bitOffset = 0,
-		//         sizeInBits = 64
-		//     })
-		//     .Finish();
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -21811,7 +17665,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 		L_15 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_14, NULL);
 		V_0 = L_15;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch6position;
 		return L_1;
 	}
 }
@@ -21831,26 +17684,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A1
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch6delta = new UnityEngine.InputSystem.Controls.DeltaControl();
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_0 = (DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B*)il2cpp_codegen_object_new(DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		DeltaControl__ctor_m221788585AD5E0B67F3CFE1199DC6C2B0C237CB4(L_0, NULL);
-		// ctrlTouchscreentouch6delta.Setup()
-		//     .At(this, 196)
-		//     .WithParent(parent)
-		//     .WithChildren(208, 6)
-		//     .WithName("delta")
-		//     .WithDisplayName("Touch Delta")
-		//     .WithShortDisplayName("Touch Delta")
-		//     .WithLayout(kDeltaLayout)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1447379762),
-		//         byteOffset = 404,
-		//         bitOffset = 0,
-		//         sizeInBits = 64
-		//     })
-		//     .Finish();
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -21891,7 +17727,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A1
 		L_14 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_13, NULL);
 		V_0 = L_14;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch6delta;
 		return L_1;
 	}
 }
@@ -21911,25 +17746,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch6pressure = new UnityEngine.InputSystem.Controls.AxisControl();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
-		// ctrlTouchscreentouch6pressure.Setup()
-		//     .At(this, 197)
-		//     .WithParent(parent)
-		//     .WithName("pressure")
-		//     .WithDisplayName("Touch Pressure")
-		//     .WithShortDisplayName("Touch Pressure")
-		//     .WithLayout(kAxisLayout)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 412,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -21967,7 +17786,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_13 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_12, NULL);
 		V_0 = L_13;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch6pressure;
 		return L_1;
 	}
 }
@@ -21987,26 +17805,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch6radius = new UnityEngine.InputSystem.Controls.Vector2Control();
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_0 = (Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432*)il2cpp_codegen_object_new(Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		Vector2Control__ctor_m9F2990DA999344F23AA90F6EE77884A75D4F29F8(L_0, NULL);
-		// ctrlTouchscreentouch6radius.Setup()
-		//     .At(this, 198)
-		//     .WithParent(parent)
-		//     .WithChildren(214, 2)
-		//     .WithName("radius")
-		//     .WithDisplayName("Touch Radius")
-		//     .WithShortDisplayName("Touch Radius")
-		//     .WithLayout(kVector2Layout)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1447379762),
-		//         byteOffset = 416,
-		//         bitOffset = 0,
-		//         sizeInBits = 64
-		//     })
-		//     .Finish();
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -22047,7 +17848,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 		L_14 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_13, NULL);
 		V_0 = L_14;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch6radius;
 		return L_1;
 	}
 }
@@ -22067,26 +17867,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchPhaseControl_t4652C6E0EBFAFA85A316077698
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch6phase = new UnityEngine.InputSystem.Controls.TouchPhaseControl();
 		TouchPhaseControl_t4652C6E0EBFAFA85A31607769876B02C1C9FCAEC* L_0 = (TouchPhaseControl_t4652C6E0EBFAFA85A31607769876B02C1C9FCAEC*)il2cpp_codegen_object_new(TouchPhaseControl_t4652C6E0EBFAFA85A31607769876B02C1C9FCAEC_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		TouchPhaseControl__ctor_m76D52D2CDBC41512C35BC70649F0B91ADDAE4D59(L_0, NULL);
-		// ctrlTouchscreentouch6phase.Setup()
-		//     .At(this, 199)
-		//     .WithParent(parent)
-		//     .WithName("phase")
-		//     .WithDisplayName("Touch Touch Phase")
-		//     .WithShortDisplayName("Touch Touch Phase")
-		//     .WithLayout(kTouchPhaseLayout)
-		//     .IsSynthetic(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1113150533),
-		//         byteOffset = 424,
-		//         bitOffset = 0,
-		//         sizeInBits = 8
-		//     })
-		//     .Finish();
 		TouchPhaseControl_t4652C6E0EBFAFA85A31607769876B02C1C9FCAEC* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -22127,7 +17910,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchPhaseControl_t4652C6E0EBFAFA85A316077698
 		L_14 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_13, NULL);
 		V_0 = L_14;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch6phase;
 		return L_1;
 	}
 }
@@ -22147,27 +17929,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchPressControl_tD5BD68D9FDEAC889591DD7A499
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch6press = new UnityEngine.InputSystem.Controls.TouchPressControl();
 		TouchPressControl_tD5BD68D9FDEAC889591DD7A499864893A43C7CEB* L_0 = (TouchPressControl_tD5BD68D9FDEAC889591DD7A499864893A43C7CEB*)il2cpp_codegen_object_new(TouchPressControl_tD5BD68D9FDEAC889591DD7A499864893A43C7CEB_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		TouchPressControl__ctor_m257FF1E4C03BD2CC927220808F404A23641027B2(L_0, NULL);
-		// ctrlTouchscreentouch6press.Setup()
-		//     .At(this, 200)
-		//     .WithParent(parent)
-		//     .WithName("press")
-		//     .WithDisplayName("Touch Touch Contact?")
-		//     .WithShortDisplayName("Touch Touch Contact?")
-		//     .WithLayout(kTouchPressLayout)
-		//     .IsButton(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1113150533),
-		//         byteOffset = 424,
-		//         bitOffset = 0,
-		//         sizeInBits = 8
-		//     })
-		//     .WithMinAndMax(0, 1)
-		//     .Finish();
 		TouchPressControl_tD5BD68D9FDEAC889591DD7A499864893A43C7CEB* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -22215,7 +17979,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchPressControl_tD5BD68D9FDEAC889591DD7A499
 		L_17 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_15, L_16, NULL);
 		V_0 = L_17;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch6press;
 		return L_1;
 	}
 }
@@ -22235,25 +17998,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntegerControl_tA24544EFF42204852F638FF5147F7
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch6tapCount = new UnityEngine.InputSystem.Controls.IntegerControl();
 		IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB* L_0 = (IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB*)il2cpp_codegen_object_new(IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		IntegerControl__ctor_mC6E1C70B301EE12C2590B64C2DD53F02A577892D(L_0, NULL);
-		// ctrlTouchscreentouch6tapCount.Setup()
-		//     .At(this, 201)
-		//     .WithParent(parent)
-		//     .WithName("tapCount")
-		//     .WithDisplayName("Touch Tap Count")
-		//     .WithShortDisplayName("Touch Tap Count")
-		//     .WithLayout(kIntegerLayout)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1113150533),
-		//         byteOffset = 425,
-		//         bitOffset = 0,
-		//         sizeInBits = 8
-		//     })
-		//     .Finish();
 		IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -22291,7 +18038,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntegerControl_tA24544EFF42204852F638FF5147F7
 		L_13 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_12, NULL);
 		V_0 = L_13;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch6tapCount;
 		return L_1;
 	}
 }
@@ -22311,28 +18057,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ButtonControl_t85949109B98AAF5B7ADC0285F0EC98
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch6indirectTouch = new UnityEngine.InputSystem.Controls.ButtonControl();
 		ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* L_0 = (ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF*)il2cpp_codegen_object_new(ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		ButtonControl__ctor_mF6F46704B8CC76DA22F543EFF8D136676893ACEB(L_0, NULL);
-		// ctrlTouchscreentouch6indirectTouch.Setup()
-		//     .At(this, 202)
-		//     .WithParent(parent)
-		//     .WithName("indirectTouch")
-		//     .WithDisplayName("Touch Indirect Touch?")
-		//     .WithShortDisplayName("Touch Indirect Touch?")
-		//     .WithLayout(kButtonLayout)
-		//     .IsSynthetic(true)
-		//     .IsButton(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1112101920),
-		//         byteOffset = 427,
-		//         bitOffset = 0,
-		//         sizeInBits = 1
-		//     })
-		//     .WithMinAndMax(0, 1)
-		//     .Finish();
 		ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -22383,7 +18110,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ButtonControl_t85949109B98AAF5B7ADC0285F0EC98
 		L_18 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_16, L_17, NULL);
 		V_0 = L_18;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch6indirectTouch;
 		return L_1;
 	}
 }
@@ -22403,27 +18129,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ButtonControl_t85949109B98AAF5B7ADC0285F0EC98
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch6tap = new UnityEngine.InputSystem.Controls.ButtonControl();
 		ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* L_0 = (ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF*)il2cpp_codegen_object_new(ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		ButtonControl__ctor_mF6F46704B8CC76DA22F543EFF8D136676893ACEB(L_0, NULL);
-		// ctrlTouchscreentouch6tap.Setup()
-		//     .At(this, 203)
-		//     .WithParent(parent)
-		//     .WithName("tap")
-		//     .WithDisplayName("Touch Tap")
-		//     .WithShortDisplayName("Touch Tap")
-		//     .WithLayout(kButtonLayout)
-		//     .IsButton(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1112101920),
-		//         byteOffset = 427,
-		//         bitOffset = 4,
-		//         sizeInBits = 1
-		//     })
-		//     .WithMinAndMax(0, 1)
-		//     .Finish();
 		ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -22471,7 +18179,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ButtonControl_t85949109B98AAF5B7ADC0285F0EC98
 		L_17 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_15, L_16, NULL);
 		V_0 = L_17;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch6tap;
 		return L_1;
 	}
 }
@@ -22491,26 +18198,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DoubleControl_t3707A6260424A2F3636669A2BAFF5C
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch6startTime = new UnityEngine.InputSystem.Controls.DoubleControl();
 		DoubleControl_t3707A6260424A2F3636669A2BAFF5CB5E91D2486* L_0 = (DoubleControl_t3707A6260424A2F3636669A2BAFF5CB5E91D2486*)il2cpp_codegen_object_new(DoubleControl_t3707A6260424A2F3636669A2BAFF5CB5E91D2486_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		DoubleControl__ctor_m83AB89DB3A9EC88845B31BFF812C36C99F327CDA(L_0, NULL);
-		// ctrlTouchscreentouch6startTime.Setup()
-		//     .At(this, 204)
-		//     .WithParent(parent)
-		//     .WithName("startTime")
-		//     .WithDisplayName("Touch Start Time")
-		//     .WithShortDisplayName("Touch Start Time")
-		//     .WithLayout(kDoubleLayout)
-		//     .IsSynthetic(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1145195552),
-		//         byteOffset = 432,
-		//         bitOffset = 0,
-		//         sizeInBits = 64
-		//     })
-		//     .Finish();
 		DoubleControl_t3707A6260424A2F3636669A2BAFF5CB5E91D2486* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -22551,7 +18241,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DoubleControl_t3707A6260424A2F3636669A2BAFF5C
 		L_14 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_13, NULL);
 		V_0 = L_14;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch6startTime;
 		return L_1;
 	}
 }
@@ -22571,27 +18260,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch6startPosition = new UnityEngine.InputSystem.Controls.Vector2Control();
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_0 = (Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432*)il2cpp_codegen_object_new(Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		Vector2Control__ctor_m9F2990DA999344F23AA90F6EE77884A75D4F29F8(L_0, NULL);
-		// ctrlTouchscreentouch6startPosition.Setup()
-		//     .At(this, 205)
-		//     .WithParent(parent)
-		//     .WithChildren(216, 2)
-		//     .WithName("startPosition")
-		//     .WithDisplayName("Touch Start Position")
-		//     .WithShortDisplayName("Touch Start Position")
-		//     .WithLayout(kVector2Layout)
-		//     .IsSynthetic(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1447379762),
-		//         byteOffset = 440,
-		//         bitOffset = 0,
-		//         sizeInBits = 64
-		//     })
-		//     .Finish();
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -22635,7 +18306,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 		L_15 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_14, NULL);
 		V_0 = L_15;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch6startPosition;
 		return L_1;
 	}
 }
@@ -22655,26 +18325,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch6positionx = new UnityEngine.InputSystem.Controls.AxisControl();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
-		// ctrlTouchscreentouch6positionx.Setup()
-		//     .At(this, 206)
-		//     .WithParent(parent)
-		//     .WithName("x")
-		//     .WithDisplayName("Touch Touch Position X")
-		//     .WithShortDisplayName("Touch Touch Position X")
-		//     .WithLayout(kAxisLayout)
-		//     .DontReset(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 396,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -22715,7 +18368,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_14 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_13, NULL);
 		V_0 = L_14;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch6positionx;
 		return L_1;
 	}
 }
@@ -22735,26 +18387,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch6positiony = new UnityEngine.InputSystem.Controls.AxisControl();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
-		// ctrlTouchscreentouch6positiony.Setup()
-		//     .At(this, 207)
-		//     .WithParent(parent)
-		//     .WithName("y")
-		//     .WithDisplayName("Touch Touch Position Y")
-		//     .WithShortDisplayName("Touch Touch Position Y")
-		//     .WithLayout(kAxisLayout)
-		//     .DontReset(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 400,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -22795,7 +18430,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_14 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_13, NULL);
 		V_0 = L_14;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch6positiony;
 		return L_1;
 	}
 }
@@ -22815,7 +18449,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch6deltaup = new UnityEngine.InputSystem.Controls.AxisControl { clamp = UnityEngine.InputSystem.Controls.AxisControl.Clamp.BeforeNormalize, clampMax = 3.402823E+38f };
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
@@ -22825,22 +18458,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_2 = L_1;
 		NullCheck(L_2);
 		L_2->___clampMax_24 = (3.40282306E+38f);
-		// ctrlTouchscreentouch6deltaup.Setup()
-		//     .At(this, 208)
-		//     .WithParent(parent)
-		//     .WithName("up")
-		//     .WithDisplayName("Touch Touch Delta Up")
-		//     .WithShortDisplayName("Touch Touch Delta Up")
-		//     .WithLayout(kAxisLayout)
-		//     .IsSynthetic(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 408,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_3 = L_2;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_4;
 		L_4 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_3, NULL);
@@ -22881,7 +18498,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_16 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_15, NULL);
 		V_0 = L_16;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch6deltaup;
 		return L_3;
 	}
 }
@@ -22901,7 +18517,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch6deltadown = new UnityEngine.InputSystem.Controls.AxisControl { clamp = UnityEngine.InputSystem.Controls.AxisControl.Clamp.BeforeNormalize, clampMin = -3.402823E+38f, invert = true };
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
@@ -22914,22 +18529,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_3 = L_2;
 		NullCheck(L_3);
 		L_3->___invert_26 = (bool)1;
-		// ctrlTouchscreentouch6deltadown.Setup()
-		//     .At(this, 209)
-		//     .WithParent(parent)
-		//     .WithName("down")
-		//     .WithDisplayName("Touch Touch Delta Down")
-		//     .WithShortDisplayName("Touch Touch Delta Down")
-		//     .WithLayout(kAxisLayout)
-		//     .IsSynthetic(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 408,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_4 = L_3;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_5;
 		L_5 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_4, NULL);
@@ -22970,7 +18569,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_17 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_16, NULL);
 		V_0 = L_17;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch6deltadown;
 		return L_4;
 	}
 }
@@ -22990,7 +18588,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch6deltaleft = new UnityEngine.InputSystem.Controls.AxisControl { clamp = UnityEngine.InputSystem.Controls.AxisControl.Clamp.BeforeNormalize, clampMin = -3.402823E+38f, invert = true };
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
@@ -23003,22 +18600,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_3 = L_2;
 		NullCheck(L_3);
 		L_3->___invert_26 = (bool)1;
-		// ctrlTouchscreentouch6deltaleft.Setup()
-		//     .At(this, 210)
-		//     .WithParent(parent)
-		//     .WithName("left")
-		//     .WithDisplayName("Touch Touch Delta Left")
-		//     .WithShortDisplayName("Touch Touch Delta Left")
-		//     .WithLayout(kAxisLayout)
-		//     .IsSynthetic(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 404,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_4 = L_3;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_5;
 		L_5 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_4, NULL);
@@ -23059,7 +18640,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_17 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_16, NULL);
 		V_0 = L_17;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch6deltaleft;
 		return L_4;
 	}
 }
@@ -23079,7 +18659,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch6deltaright = new UnityEngine.InputSystem.Controls.AxisControl { clamp = UnityEngine.InputSystem.Controls.AxisControl.Clamp.BeforeNormalize, clampMax = 3.402823E+38f };
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
@@ -23089,22 +18668,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_2 = L_1;
 		NullCheck(L_2);
 		L_2->___clampMax_24 = (3.40282306E+38f);
-		// ctrlTouchscreentouch6deltaright.Setup()
-		//     .At(this, 211)
-		//     .WithParent(parent)
-		//     .WithName("right")
-		//     .WithDisplayName("Touch Touch Delta Right")
-		//     .WithShortDisplayName("Touch Touch Delta Right")
-		//     .WithLayout(kAxisLayout)
-		//     .IsSynthetic(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 404,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_3 = L_2;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_4;
 		L_4 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_3, NULL);
@@ -23145,7 +18708,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_16 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_15, NULL);
 		V_0 = L_16;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch6deltaright;
 		return L_3;
 	}
 }
@@ -23165,25 +18727,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch6deltax = new UnityEngine.InputSystem.Controls.AxisControl();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
-		// ctrlTouchscreentouch6deltax.Setup()
-		//     .At(this, 212)
-		//     .WithParent(parent)
-		//     .WithName("x")
-		//     .WithDisplayName("Touch Touch Delta X")
-		//     .WithShortDisplayName("Touch Touch Delta X")
-		//     .WithLayout(kAxisLayout)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 404,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -23221,7 +18767,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_13 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_12, NULL);
 		V_0 = L_13;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch6deltax;
 		return L_1;
 	}
 }
@@ -23241,25 +18786,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch6deltay = new UnityEngine.InputSystem.Controls.AxisControl();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
-		// ctrlTouchscreentouch6deltay.Setup()
-		//     .At(this, 213)
-		//     .WithParent(parent)
-		//     .WithName("y")
-		//     .WithDisplayName("Touch Touch Delta Y")
-		//     .WithShortDisplayName("Touch Touch Delta Y")
-		//     .WithLayout(kAxisLayout)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 408,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -23297,7 +18826,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_13 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_12, NULL);
 		V_0 = L_13;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch6deltay;
 		return L_1;
 	}
 }
@@ -23317,25 +18845,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch6radiusx = new UnityEngine.InputSystem.Controls.AxisControl();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
-		// ctrlTouchscreentouch6radiusx.Setup()
-		//     .At(this, 214)
-		//     .WithParent(parent)
-		//     .WithName("x")
-		//     .WithDisplayName("Touch Touch Radius X")
-		//     .WithShortDisplayName("Touch Touch Radius X")
-		//     .WithLayout(kAxisLayout)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 416,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -23373,7 +18885,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_13 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_12, NULL);
 		V_0 = L_13;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch6radiusx;
 		return L_1;
 	}
 }
@@ -23393,25 +18904,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch6radiusy = new UnityEngine.InputSystem.Controls.AxisControl();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
-		// ctrlTouchscreentouch6radiusy.Setup()
-		//     .At(this, 215)
-		//     .WithParent(parent)
-		//     .WithName("y")
-		//     .WithDisplayName("Touch Touch Radius Y")
-		//     .WithShortDisplayName("Touch Touch Radius Y")
-		//     .WithLayout(kAxisLayout)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 420,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -23449,7 +18944,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_13 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_12, NULL);
 		V_0 = L_13;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch6radiusy;
 		return L_1;
 	}
 }
@@ -23469,25 +18963,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch6startPositionx = new UnityEngine.InputSystem.Controls.AxisControl();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
-		// ctrlTouchscreentouch6startPositionx.Setup()
-		//     .At(this, 216)
-		//     .WithParent(parent)
-		//     .WithName("x")
-		//     .WithDisplayName("Touch Touch Start Position X")
-		//     .WithShortDisplayName("Touch Touch Start Position X")
-		//     .WithLayout(kAxisLayout)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 440,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -23525,7 +19003,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_13 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_12, NULL);
 		V_0 = L_13;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch6startPositionx;
 		return L_1;
 	}
 }
@@ -23545,25 +19022,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch6startPositiony = new UnityEngine.InputSystem.Controls.AxisControl();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
-		// ctrlTouchscreentouch6startPositiony.Setup()
-		//     .At(this, 217)
-		//     .WithParent(parent)
-		//     .WithName("y")
-		//     .WithDisplayName("Touch Touch Start Position Y")
-		//     .WithShortDisplayName("Touch Touch Start Position Y")
-		//     .WithLayout(kAxisLayout)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 444,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -23601,7 +19062,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_13 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_12, NULL);
 		V_0 = L_13;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch6startPositiony;
 		return L_1;
 	}
 }
@@ -23621,27 +19081,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntegerControl_tA24544EFF42204852F638FF5147F7
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch7touchId = new UnityEngine.InputSystem.Controls.IntegerControl();
 		IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB* L_0 = (IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB*)il2cpp_codegen_object_new(IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		IntegerControl__ctor_mC6E1C70B301EE12C2590B64C2DD53F02A577892D(L_0, NULL);
-		// ctrlTouchscreentouch7touchId.Setup()
-		//     .At(this, 218)
-		//     .WithParent(parent)
-		//     .WithName("touchId")
-		//     .WithDisplayName("Touch Touch ID")
-		//     .WithShortDisplayName("Touch Touch ID")
-		//     .WithLayout(kIntegerLayout)
-		//     .IsSynthetic(true)
-		//     .DontReset(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1229870112),
-		//         byteOffset = 448,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -23685,7 +19127,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntegerControl_tA24544EFF42204852F638FF5147F7
 		L_15 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_14, NULL);
 		V_0 = L_15;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch7touchId;
 		return L_1;
 	}
 }
@@ -23705,27 +19146,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch7position = new UnityEngine.InputSystem.Controls.Vector2Control();
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_0 = (Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432*)il2cpp_codegen_object_new(Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		Vector2Control__ctor_m9F2990DA999344F23AA90F6EE77884A75D4F29F8(L_0, NULL);
-		// ctrlTouchscreentouch7position.Setup()
-		//     .At(this, 219)
-		//     .WithParent(parent)
-		//     .WithChildren(230, 2)
-		//     .WithName("position")
-		//     .WithDisplayName("Touch Position")
-		//     .WithShortDisplayName("Touch Position")
-		//     .WithLayout(kVector2Layout)
-		//     .DontReset(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1447379762),
-		//         byteOffset = 452,
-		//         bitOffset = 0,
-		//         sizeInBits = 64
-		//     })
-		//     .Finish();
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -23769,7 +19192,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 		L_15 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_14, NULL);
 		V_0 = L_15;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch7position;
 		return L_1;
 	}
 }
@@ -23789,26 +19211,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A1
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch7delta = new UnityEngine.InputSystem.Controls.DeltaControl();
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_0 = (DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B*)il2cpp_codegen_object_new(DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		DeltaControl__ctor_m221788585AD5E0B67F3CFE1199DC6C2B0C237CB4(L_0, NULL);
-		// ctrlTouchscreentouch7delta.Setup()
-		//     .At(this, 220)
-		//     .WithParent(parent)
-		//     .WithChildren(232, 6)
-		//     .WithName("delta")
-		//     .WithDisplayName("Touch Delta")
-		//     .WithShortDisplayName("Touch Delta")
-		//     .WithLayout(kDeltaLayout)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1447379762),
-		//         byteOffset = 460,
-		//         bitOffset = 0,
-		//         sizeInBits = 64
-		//     })
-		//     .Finish();
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -23849,7 +19254,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A1
 		L_14 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_13, NULL);
 		V_0 = L_14;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch7delta;
 		return L_1;
 	}
 }
@@ -23869,25 +19273,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch7pressure = new UnityEngine.InputSystem.Controls.AxisControl();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
-		// ctrlTouchscreentouch7pressure.Setup()
-		//     .At(this, 221)
-		//     .WithParent(parent)
-		//     .WithName("pressure")
-		//     .WithDisplayName("Touch Pressure")
-		//     .WithShortDisplayName("Touch Pressure")
-		//     .WithLayout(kAxisLayout)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 468,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -23925,7 +19313,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_13 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_12, NULL);
 		V_0 = L_13;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch7pressure;
 		return L_1;
 	}
 }
@@ -23945,26 +19332,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch7radius = new UnityEngine.InputSystem.Controls.Vector2Control();
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_0 = (Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432*)il2cpp_codegen_object_new(Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		Vector2Control__ctor_m9F2990DA999344F23AA90F6EE77884A75D4F29F8(L_0, NULL);
-		// ctrlTouchscreentouch7radius.Setup()
-		//     .At(this, 222)
-		//     .WithParent(parent)
-		//     .WithChildren(238, 2)
-		//     .WithName("radius")
-		//     .WithDisplayName("Touch Radius")
-		//     .WithShortDisplayName("Touch Radius")
-		//     .WithLayout(kVector2Layout)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1447379762),
-		//         byteOffset = 472,
-		//         bitOffset = 0,
-		//         sizeInBits = 64
-		//     })
-		//     .Finish();
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -24005,7 +19375,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 		L_14 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_13, NULL);
 		V_0 = L_14;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch7radius;
 		return L_1;
 	}
 }
@@ -24025,26 +19394,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchPhaseControl_t4652C6E0EBFAFA85A316077698
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch7phase = new UnityEngine.InputSystem.Controls.TouchPhaseControl();
 		TouchPhaseControl_t4652C6E0EBFAFA85A31607769876B02C1C9FCAEC* L_0 = (TouchPhaseControl_t4652C6E0EBFAFA85A31607769876B02C1C9FCAEC*)il2cpp_codegen_object_new(TouchPhaseControl_t4652C6E0EBFAFA85A31607769876B02C1C9FCAEC_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		TouchPhaseControl__ctor_m76D52D2CDBC41512C35BC70649F0B91ADDAE4D59(L_0, NULL);
-		// ctrlTouchscreentouch7phase.Setup()
-		//     .At(this, 223)
-		//     .WithParent(parent)
-		//     .WithName("phase")
-		//     .WithDisplayName("Touch Touch Phase")
-		//     .WithShortDisplayName("Touch Touch Phase")
-		//     .WithLayout(kTouchPhaseLayout)
-		//     .IsSynthetic(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1113150533),
-		//         byteOffset = 480,
-		//         bitOffset = 0,
-		//         sizeInBits = 8
-		//     })
-		//     .Finish();
 		TouchPhaseControl_t4652C6E0EBFAFA85A31607769876B02C1C9FCAEC* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -24085,7 +19437,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchPhaseControl_t4652C6E0EBFAFA85A316077698
 		L_14 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_13, NULL);
 		V_0 = L_14;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch7phase;
 		return L_1;
 	}
 }
@@ -24105,27 +19456,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchPressControl_tD5BD68D9FDEAC889591DD7A499
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch7press = new UnityEngine.InputSystem.Controls.TouchPressControl();
 		TouchPressControl_tD5BD68D9FDEAC889591DD7A499864893A43C7CEB* L_0 = (TouchPressControl_tD5BD68D9FDEAC889591DD7A499864893A43C7CEB*)il2cpp_codegen_object_new(TouchPressControl_tD5BD68D9FDEAC889591DD7A499864893A43C7CEB_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		TouchPressControl__ctor_m257FF1E4C03BD2CC927220808F404A23641027B2(L_0, NULL);
-		// ctrlTouchscreentouch7press.Setup()
-		//     .At(this, 224)
-		//     .WithParent(parent)
-		//     .WithName("press")
-		//     .WithDisplayName("Touch Touch Contact?")
-		//     .WithShortDisplayName("Touch Touch Contact?")
-		//     .WithLayout(kTouchPressLayout)
-		//     .IsButton(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1113150533),
-		//         byteOffset = 480,
-		//         bitOffset = 0,
-		//         sizeInBits = 8
-		//     })
-		//     .WithMinAndMax(0, 1)
-		//     .Finish();
 		TouchPressControl_tD5BD68D9FDEAC889591DD7A499864893A43C7CEB* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -24173,7 +19506,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchPressControl_tD5BD68D9FDEAC889591DD7A499
 		L_17 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_15, L_16, NULL);
 		V_0 = L_17;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch7press;
 		return L_1;
 	}
 }
@@ -24193,25 +19525,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntegerControl_tA24544EFF42204852F638FF5147F7
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch7tapCount = new UnityEngine.InputSystem.Controls.IntegerControl();
 		IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB* L_0 = (IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB*)il2cpp_codegen_object_new(IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		IntegerControl__ctor_mC6E1C70B301EE12C2590B64C2DD53F02A577892D(L_0, NULL);
-		// ctrlTouchscreentouch7tapCount.Setup()
-		//     .At(this, 225)
-		//     .WithParent(parent)
-		//     .WithName("tapCount")
-		//     .WithDisplayName("Touch Tap Count")
-		//     .WithShortDisplayName("Touch Tap Count")
-		//     .WithLayout(kIntegerLayout)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1113150533),
-		//         byteOffset = 481,
-		//         bitOffset = 0,
-		//         sizeInBits = 8
-		//     })
-		//     .Finish();
 		IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -24249,7 +19565,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntegerControl_tA24544EFF42204852F638FF5147F7
 		L_13 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_12, NULL);
 		V_0 = L_13;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch7tapCount;
 		return L_1;
 	}
 }
@@ -24269,28 +19584,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ButtonControl_t85949109B98AAF5B7ADC0285F0EC98
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch7indirectTouch = new UnityEngine.InputSystem.Controls.ButtonControl();
 		ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* L_0 = (ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF*)il2cpp_codegen_object_new(ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		ButtonControl__ctor_mF6F46704B8CC76DA22F543EFF8D136676893ACEB(L_0, NULL);
-		// ctrlTouchscreentouch7indirectTouch.Setup()
-		//     .At(this, 226)
-		//     .WithParent(parent)
-		//     .WithName("indirectTouch")
-		//     .WithDisplayName("Touch Indirect Touch?")
-		//     .WithShortDisplayName("Touch Indirect Touch?")
-		//     .WithLayout(kButtonLayout)
-		//     .IsSynthetic(true)
-		//     .IsButton(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1112101920),
-		//         byteOffset = 483,
-		//         bitOffset = 0,
-		//         sizeInBits = 1
-		//     })
-		//     .WithMinAndMax(0, 1)
-		//     .Finish();
 		ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -24341,7 +19637,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ButtonControl_t85949109B98AAF5B7ADC0285F0EC98
 		L_18 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_16, L_17, NULL);
 		V_0 = L_18;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch7indirectTouch;
 		return L_1;
 	}
 }
@@ -24361,27 +19656,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ButtonControl_t85949109B98AAF5B7ADC0285F0EC98
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch7tap = new UnityEngine.InputSystem.Controls.ButtonControl();
 		ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* L_0 = (ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF*)il2cpp_codegen_object_new(ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		ButtonControl__ctor_mF6F46704B8CC76DA22F543EFF8D136676893ACEB(L_0, NULL);
-		// ctrlTouchscreentouch7tap.Setup()
-		//     .At(this, 227)
-		//     .WithParent(parent)
-		//     .WithName("tap")
-		//     .WithDisplayName("Touch Tap")
-		//     .WithShortDisplayName("Touch Tap")
-		//     .WithLayout(kButtonLayout)
-		//     .IsButton(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1112101920),
-		//         byteOffset = 483,
-		//         bitOffset = 4,
-		//         sizeInBits = 1
-		//     })
-		//     .WithMinAndMax(0, 1)
-		//     .Finish();
 		ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -24429,7 +19706,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ButtonControl_t85949109B98AAF5B7ADC0285F0EC98
 		L_17 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_15, L_16, NULL);
 		V_0 = L_17;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch7tap;
 		return L_1;
 	}
 }
@@ -24449,26 +19725,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DoubleControl_t3707A6260424A2F3636669A2BAFF5C
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch7startTime = new UnityEngine.InputSystem.Controls.DoubleControl();
 		DoubleControl_t3707A6260424A2F3636669A2BAFF5CB5E91D2486* L_0 = (DoubleControl_t3707A6260424A2F3636669A2BAFF5CB5E91D2486*)il2cpp_codegen_object_new(DoubleControl_t3707A6260424A2F3636669A2BAFF5CB5E91D2486_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		DoubleControl__ctor_m83AB89DB3A9EC88845B31BFF812C36C99F327CDA(L_0, NULL);
-		// ctrlTouchscreentouch7startTime.Setup()
-		//     .At(this, 228)
-		//     .WithParent(parent)
-		//     .WithName("startTime")
-		//     .WithDisplayName("Touch Start Time")
-		//     .WithShortDisplayName("Touch Start Time")
-		//     .WithLayout(kDoubleLayout)
-		//     .IsSynthetic(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1145195552),
-		//         byteOffset = 488,
-		//         bitOffset = 0,
-		//         sizeInBits = 64
-		//     })
-		//     .Finish();
 		DoubleControl_t3707A6260424A2F3636669A2BAFF5CB5E91D2486* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -24509,7 +19768,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DoubleControl_t3707A6260424A2F3636669A2BAFF5C
 		L_14 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_13, NULL);
 		V_0 = L_14;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch7startTime;
 		return L_1;
 	}
 }
@@ -24529,27 +19787,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch7startPosition = new UnityEngine.InputSystem.Controls.Vector2Control();
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_0 = (Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432*)il2cpp_codegen_object_new(Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		Vector2Control__ctor_m9F2990DA999344F23AA90F6EE77884A75D4F29F8(L_0, NULL);
-		// ctrlTouchscreentouch7startPosition.Setup()
-		//     .At(this, 229)
-		//     .WithParent(parent)
-		//     .WithChildren(240, 2)
-		//     .WithName("startPosition")
-		//     .WithDisplayName("Touch Start Position")
-		//     .WithShortDisplayName("Touch Start Position")
-		//     .WithLayout(kVector2Layout)
-		//     .IsSynthetic(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1447379762),
-		//         byteOffset = 496,
-		//         bitOffset = 0,
-		//         sizeInBits = 64
-		//     })
-		//     .Finish();
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -24593,7 +19833,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 		L_15 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_14, NULL);
 		V_0 = L_15;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch7startPosition;
 		return L_1;
 	}
 }
@@ -24613,26 +19852,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch7positionx = new UnityEngine.InputSystem.Controls.AxisControl();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
-		// ctrlTouchscreentouch7positionx.Setup()
-		//     .At(this, 230)
-		//     .WithParent(parent)
-		//     .WithName("x")
-		//     .WithDisplayName("Touch Touch Position X")
-		//     .WithShortDisplayName("Touch Touch Position X")
-		//     .WithLayout(kAxisLayout)
-		//     .DontReset(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 452,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -24673,7 +19895,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_14 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_13, NULL);
 		V_0 = L_14;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch7positionx;
 		return L_1;
 	}
 }
@@ -24693,26 +19914,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch7positiony = new UnityEngine.InputSystem.Controls.AxisControl();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
-		// ctrlTouchscreentouch7positiony.Setup()
-		//     .At(this, 231)
-		//     .WithParent(parent)
-		//     .WithName("y")
-		//     .WithDisplayName("Touch Touch Position Y")
-		//     .WithShortDisplayName("Touch Touch Position Y")
-		//     .WithLayout(kAxisLayout)
-		//     .DontReset(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 456,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -24753,7 +19957,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_14 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_13, NULL);
 		V_0 = L_14;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch7positiony;
 		return L_1;
 	}
 }
@@ -24773,7 +19976,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch7deltaup = new UnityEngine.InputSystem.Controls.AxisControl { clamp = UnityEngine.InputSystem.Controls.AxisControl.Clamp.BeforeNormalize, clampMax = 3.402823E+38f };
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
@@ -24783,22 +19985,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_2 = L_1;
 		NullCheck(L_2);
 		L_2->___clampMax_24 = (3.40282306E+38f);
-		// ctrlTouchscreentouch7deltaup.Setup()
-		//     .At(this, 232)
-		//     .WithParent(parent)
-		//     .WithName("up")
-		//     .WithDisplayName("Touch Touch Delta Up")
-		//     .WithShortDisplayName("Touch Touch Delta Up")
-		//     .WithLayout(kAxisLayout)
-		//     .IsSynthetic(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 464,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_3 = L_2;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_4;
 		L_4 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_3, NULL);
@@ -24839,7 +20025,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_16 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_15, NULL);
 		V_0 = L_16;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch7deltaup;
 		return L_3;
 	}
 }
@@ -24859,7 +20044,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch7deltadown = new UnityEngine.InputSystem.Controls.AxisControl { clamp = UnityEngine.InputSystem.Controls.AxisControl.Clamp.BeforeNormalize, clampMin = -3.402823E+38f, invert = true };
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
@@ -24872,22 +20056,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_3 = L_2;
 		NullCheck(L_3);
 		L_3->___invert_26 = (bool)1;
-		// ctrlTouchscreentouch7deltadown.Setup()
-		//     .At(this, 233)
-		//     .WithParent(parent)
-		//     .WithName("down")
-		//     .WithDisplayName("Touch Touch Delta Down")
-		//     .WithShortDisplayName("Touch Touch Delta Down")
-		//     .WithLayout(kAxisLayout)
-		//     .IsSynthetic(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 464,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_4 = L_3;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_5;
 		L_5 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_4, NULL);
@@ -24928,7 +20096,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_17 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_16, NULL);
 		V_0 = L_17;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch7deltadown;
 		return L_4;
 	}
 }
@@ -24948,7 +20115,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch7deltaleft = new UnityEngine.InputSystem.Controls.AxisControl { clamp = UnityEngine.InputSystem.Controls.AxisControl.Clamp.BeforeNormalize, clampMin = -3.402823E+38f, invert = true };
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
@@ -24961,22 +20127,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_3 = L_2;
 		NullCheck(L_3);
 		L_3->___invert_26 = (bool)1;
-		// ctrlTouchscreentouch7deltaleft.Setup()
-		//     .At(this, 234)
-		//     .WithParent(parent)
-		//     .WithName("left")
-		//     .WithDisplayName("Touch Touch Delta Left")
-		//     .WithShortDisplayName("Touch Touch Delta Left")
-		//     .WithLayout(kAxisLayout)
-		//     .IsSynthetic(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 460,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_4 = L_3;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_5;
 		L_5 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_4, NULL);
@@ -25017,7 +20167,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_17 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_16, NULL);
 		V_0 = L_17;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch7deltaleft;
 		return L_4;
 	}
 }
@@ -25037,7 +20186,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch7deltaright = new UnityEngine.InputSystem.Controls.AxisControl { clamp = UnityEngine.InputSystem.Controls.AxisControl.Clamp.BeforeNormalize, clampMax = 3.402823E+38f };
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
@@ -25047,22 +20195,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_2 = L_1;
 		NullCheck(L_2);
 		L_2->___clampMax_24 = (3.40282306E+38f);
-		// ctrlTouchscreentouch7deltaright.Setup()
-		//     .At(this, 235)
-		//     .WithParent(parent)
-		//     .WithName("right")
-		//     .WithDisplayName("Touch Touch Delta Right")
-		//     .WithShortDisplayName("Touch Touch Delta Right")
-		//     .WithLayout(kAxisLayout)
-		//     .IsSynthetic(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 460,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_3 = L_2;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_4;
 		L_4 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_3, NULL);
@@ -25103,7 +20235,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_16 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_15, NULL);
 		V_0 = L_16;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch7deltaright;
 		return L_3;
 	}
 }
@@ -25123,25 +20254,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch7deltax = new UnityEngine.InputSystem.Controls.AxisControl();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
-		// ctrlTouchscreentouch7deltax.Setup()
-		//     .At(this, 236)
-		//     .WithParent(parent)
-		//     .WithName("x")
-		//     .WithDisplayName("Touch Touch Delta X")
-		//     .WithShortDisplayName("Touch Touch Delta X")
-		//     .WithLayout(kAxisLayout)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 460,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -25179,7 +20294,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_13 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_12, NULL);
 		V_0 = L_13;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch7deltax;
 		return L_1;
 	}
 }
@@ -25199,25 +20313,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch7deltay = new UnityEngine.InputSystem.Controls.AxisControl();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
-		// ctrlTouchscreentouch7deltay.Setup()
-		//     .At(this, 237)
-		//     .WithParent(parent)
-		//     .WithName("y")
-		//     .WithDisplayName("Touch Touch Delta Y")
-		//     .WithShortDisplayName("Touch Touch Delta Y")
-		//     .WithLayout(kAxisLayout)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 464,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -25255,7 +20353,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_13 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_12, NULL);
 		V_0 = L_13;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch7deltay;
 		return L_1;
 	}
 }
@@ -25275,25 +20372,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch7radiusx = new UnityEngine.InputSystem.Controls.AxisControl();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
-		// ctrlTouchscreentouch7radiusx.Setup()
-		//     .At(this, 238)
-		//     .WithParent(parent)
-		//     .WithName("x")
-		//     .WithDisplayName("Touch Touch Radius X")
-		//     .WithShortDisplayName("Touch Touch Radius X")
-		//     .WithLayout(kAxisLayout)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 472,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -25331,7 +20412,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_13 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_12, NULL);
 		V_0 = L_13;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch7radiusx;
 		return L_1;
 	}
 }
@@ -25351,25 +20431,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch7radiusy = new UnityEngine.InputSystem.Controls.AxisControl();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
-		// ctrlTouchscreentouch7radiusy.Setup()
-		//     .At(this, 239)
-		//     .WithParent(parent)
-		//     .WithName("y")
-		//     .WithDisplayName("Touch Touch Radius Y")
-		//     .WithShortDisplayName("Touch Touch Radius Y")
-		//     .WithLayout(kAxisLayout)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 476,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -25407,7 +20471,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_13 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_12, NULL);
 		V_0 = L_13;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch7radiusy;
 		return L_1;
 	}
 }
@@ -25427,25 +20490,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch7startPositionx = new UnityEngine.InputSystem.Controls.AxisControl();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
-		// ctrlTouchscreentouch7startPositionx.Setup()
-		//     .At(this, 240)
-		//     .WithParent(parent)
-		//     .WithName("x")
-		//     .WithDisplayName("Touch Touch Start Position X")
-		//     .WithShortDisplayName("Touch Touch Start Position X")
-		//     .WithLayout(kAxisLayout)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 496,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -25483,7 +20530,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_13 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_12, NULL);
 		V_0 = L_13;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch7startPositionx;
 		return L_1;
 	}
 }
@@ -25503,25 +20549,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch7startPositiony = new UnityEngine.InputSystem.Controls.AxisControl();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
-		// ctrlTouchscreentouch7startPositiony.Setup()
-		//     .At(this, 241)
-		//     .WithParent(parent)
-		//     .WithName("y")
-		//     .WithDisplayName("Touch Touch Start Position Y")
-		//     .WithShortDisplayName("Touch Touch Start Position Y")
-		//     .WithLayout(kAxisLayout)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 500,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -25559,7 +20589,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_13 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_12, NULL);
 		V_0 = L_13;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch7startPositiony;
 		return L_1;
 	}
 }
@@ -25579,27 +20608,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntegerControl_tA24544EFF42204852F638FF5147F7
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch8touchId = new UnityEngine.InputSystem.Controls.IntegerControl();
 		IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB* L_0 = (IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB*)il2cpp_codegen_object_new(IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		IntegerControl__ctor_mC6E1C70B301EE12C2590B64C2DD53F02A577892D(L_0, NULL);
-		// ctrlTouchscreentouch8touchId.Setup()
-		//     .At(this, 242)
-		//     .WithParent(parent)
-		//     .WithName("touchId")
-		//     .WithDisplayName("Touch Touch ID")
-		//     .WithShortDisplayName("Touch Touch ID")
-		//     .WithLayout(kIntegerLayout)
-		//     .IsSynthetic(true)
-		//     .DontReset(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1229870112),
-		//         byteOffset = 504,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -25643,7 +20654,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntegerControl_tA24544EFF42204852F638FF5147F7
 		L_15 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_14, NULL);
 		V_0 = L_15;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch8touchId;
 		return L_1;
 	}
 }
@@ -25663,27 +20673,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch8position = new UnityEngine.InputSystem.Controls.Vector2Control();
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_0 = (Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432*)il2cpp_codegen_object_new(Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		Vector2Control__ctor_m9F2990DA999344F23AA90F6EE77884A75D4F29F8(L_0, NULL);
-		// ctrlTouchscreentouch8position.Setup()
-		//     .At(this, 243)
-		//     .WithParent(parent)
-		//     .WithChildren(254, 2)
-		//     .WithName("position")
-		//     .WithDisplayName("Touch Position")
-		//     .WithShortDisplayName("Touch Position")
-		//     .WithLayout(kVector2Layout)
-		//     .DontReset(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1447379762),
-		//         byteOffset = 508,
-		//         bitOffset = 0,
-		//         sizeInBits = 64
-		//     })
-		//     .Finish();
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -25727,7 +20719,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 		L_15 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_14, NULL);
 		V_0 = L_15;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch8position;
 		return L_1;
 	}
 }
@@ -25747,26 +20738,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A1
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch8delta = new UnityEngine.InputSystem.Controls.DeltaControl();
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_0 = (DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B*)il2cpp_codegen_object_new(DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		DeltaControl__ctor_m221788585AD5E0B67F3CFE1199DC6C2B0C237CB4(L_0, NULL);
-		// ctrlTouchscreentouch8delta.Setup()
-		//     .At(this, 244)
-		//     .WithParent(parent)
-		//     .WithChildren(256, 6)
-		//     .WithName("delta")
-		//     .WithDisplayName("Touch Delta")
-		//     .WithShortDisplayName("Touch Delta")
-		//     .WithLayout(kDeltaLayout)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1447379762),
-		//         byteOffset = 516,
-		//         bitOffset = 0,
-		//         sizeInBits = 64
-		//     })
-		//     .Finish();
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -25807,7 +20781,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A1
 		L_14 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_13, NULL);
 		V_0 = L_14;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch8delta;
 		return L_1;
 	}
 }
@@ -25827,25 +20800,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch8pressure = new UnityEngine.InputSystem.Controls.AxisControl();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
-		// ctrlTouchscreentouch8pressure.Setup()
-		//     .At(this, 245)
-		//     .WithParent(parent)
-		//     .WithName("pressure")
-		//     .WithDisplayName("Touch Pressure")
-		//     .WithShortDisplayName("Touch Pressure")
-		//     .WithLayout(kAxisLayout)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 524,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -25883,7 +20840,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_13 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_12, NULL);
 		V_0 = L_13;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch8pressure;
 		return L_1;
 	}
 }
@@ -25903,26 +20859,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch8radius = new UnityEngine.InputSystem.Controls.Vector2Control();
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_0 = (Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432*)il2cpp_codegen_object_new(Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		Vector2Control__ctor_m9F2990DA999344F23AA90F6EE77884A75D4F29F8(L_0, NULL);
-		// ctrlTouchscreentouch8radius.Setup()
-		//     .At(this, 246)
-		//     .WithParent(parent)
-		//     .WithChildren(262, 2)
-		//     .WithName("radius")
-		//     .WithDisplayName("Touch Radius")
-		//     .WithShortDisplayName("Touch Radius")
-		//     .WithLayout(kVector2Layout)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1447379762),
-		//         byteOffset = 528,
-		//         bitOffset = 0,
-		//         sizeInBits = 64
-		//     })
-		//     .Finish();
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -25963,7 +20902,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 		L_14 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_13, NULL);
 		V_0 = L_14;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch8radius;
 		return L_1;
 	}
 }
@@ -25983,26 +20921,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchPhaseControl_t4652C6E0EBFAFA85A316077698
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch8phase = new UnityEngine.InputSystem.Controls.TouchPhaseControl();
 		TouchPhaseControl_t4652C6E0EBFAFA85A31607769876B02C1C9FCAEC* L_0 = (TouchPhaseControl_t4652C6E0EBFAFA85A31607769876B02C1C9FCAEC*)il2cpp_codegen_object_new(TouchPhaseControl_t4652C6E0EBFAFA85A31607769876B02C1C9FCAEC_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		TouchPhaseControl__ctor_m76D52D2CDBC41512C35BC70649F0B91ADDAE4D59(L_0, NULL);
-		// ctrlTouchscreentouch8phase.Setup()
-		//     .At(this, 247)
-		//     .WithParent(parent)
-		//     .WithName("phase")
-		//     .WithDisplayName("Touch Touch Phase")
-		//     .WithShortDisplayName("Touch Touch Phase")
-		//     .WithLayout(kTouchPhaseLayout)
-		//     .IsSynthetic(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1113150533),
-		//         byteOffset = 536,
-		//         bitOffset = 0,
-		//         sizeInBits = 8
-		//     })
-		//     .Finish();
 		TouchPhaseControl_t4652C6E0EBFAFA85A31607769876B02C1C9FCAEC* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -26043,7 +20964,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchPhaseControl_t4652C6E0EBFAFA85A316077698
 		L_14 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_13, NULL);
 		V_0 = L_14;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch8phase;
 		return L_1;
 	}
 }
@@ -26063,27 +20983,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchPressControl_tD5BD68D9FDEAC889591DD7A499
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch8press = new UnityEngine.InputSystem.Controls.TouchPressControl();
 		TouchPressControl_tD5BD68D9FDEAC889591DD7A499864893A43C7CEB* L_0 = (TouchPressControl_tD5BD68D9FDEAC889591DD7A499864893A43C7CEB*)il2cpp_codegen_object_new(TouchPressControl_tD5BD68D9FDEAC889591DD7A499864893A43C7CEB_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		TouchPressControl__ctor_m257FF1E4C03BD2CC927220808F404A23641027B2(L_0, NULL);
-		// ctrlTouchscreentouch8press.Setup()
-		//     .At(this, 248)
-		//     .WithParent(parent)
-		//     .WithName("press")
-		//     .WithDisplayName("Touch Touch Contact?")
-		//     .WithShortDisplayName("Touch Touch Contact?")
-		//     .WithLayout(kTouchPressLayout)
-		//     .IsButton(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1113150533),
-		//         byteOffset = 536,
-		//         bitOffset = 0,
-		//         sizeInBits = 8
-		//     })
-		//     .WithMinAndMax(0, 1)
-		//     .Finish();
 		TouchPressControl_tD5BD68D9FDEAC889591DD7A499864893A43C7CEB* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -26131,7 +21033,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchPressControl_tD5BD68D9FDEAC889591DD7A499
 		L_17 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_15, L_16, NULL);
 		V_0 = L_17;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch8press;
 		return L_1;
 	}
 }
@@ -26151,25 +21052,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntegerControl_tA24544EFF42204852F638FF5147F7
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch8tapCount = new UnityEngine.InputSystem.Controls.IntegerControl();
 		IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB* L_0 = (IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB*)il2cpp_codegen_object_new(IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		IntegerControl__ctor_mC6E1C70B301EE12C2590B64C2DD53F02A577892D(L_0, NULL);
-		// ctrlTouchscreentouch8tapCount.Setup()
-		//     .At(this, 249)
-		//     .WithParent(parent)
-		//     .WithName("tapCount")
-		//     .WithDisplayName("Touch Tap Count")
-		//     .WithShortDisplayName("Touch Tap Count")
-		//     .WithLayout(kIntegerLayout)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1113150533),
-		//         byteOffset = 537,
-		//         bitOffset = 0,
-		//         sizeInBits = 8
-		//     })
-		//     .Finish();
 		IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -26207,7 +21092,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntegerControl_tA24544EFF42204852F638FF5147F7
 		L_13 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_12, NULL);
 		V_0 = L_13;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch8tapCount;
 		return L_1;
 	}
 }
@@ -26227,28 +21111,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ButtonControl_t85949109B98AAF5B7ADC0285F0EC98
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch8indirectTouch = new UnityEngine.InputSystem.Controls.ButtonControl();
 		ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* L_0 = (ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF*)il2cpp_codegen_object_new(ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		ButtonControl__ctor_mF6F46704B8CC76DA22F543EFF8D136676893ACEB(L_0, NULL);
-		// ctrlTouchscreentouch8indirectTouch.Setup()
-		//     .At(this, 250)
-		//     .WithParent(parent)
-		//     .WithName("indirectTouch")
-		//     .WithDisplayName("Touch Indirect Touch?")
-		//     .WithShortDisplayName("Touch Indirect Touch?")
-		//     .WithLayout(kButtonLayout)
-		//     .IsSynthetic(true)
-		//     .IsButton(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1112101920),
-		//         byteOffset = 539,
-		//         bitOffset = 0,
-		//         sizeInBits = 1
-		//     })
-		//     .WithMinAndMax(0, 1)
-		//     .Finish();
 		ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -26299,7 +21164,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ButtonControl_t85949109B98AAF5B7ADC0285F0EC98
 		L_18 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_16, L_17, NULL);
 		V_0 = L_18;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch8indirectTouch;
 		return L_1;
 	}
 }
@@ -26319,27 +21183,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ButtonControl_t85949109B98AAF5B7ADC0285F0EC98
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch8tap = new UnityEngine.InputSystem.Controls.ButtonControl();
 		ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* L_0 = (ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF*)il2cpp_codegen_object_new(ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		ButtonControl__ctor_mF6F46704B8CC76DA22F543EFF8D136676893ACEB(L_0, NULL);
-		// ctrlTouchscreentouch8tap.Setup()
-		//     .At(this, 251)
-		//     .WithParent(parent)
-		//     .WithName("tap")
-		//     .WithDisplayName("Touch Tap")
-		//     .WithShortDisplayName("Touch Tap")
-		//     .WithLayout(kButtonLayout)
-		//     .IsButton(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1112101920),
-		//         byteOffset = 539,
-		//         bitOffset = 4,
-		//         sizeInBits = 1
-		//     })
-		//     .WithMinAndMax(0, 1)
-		//     .Finish();
 		ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -26387,7 +21233,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ButtonControl_t85949109B98AAF5B7ADC0285F0EC98
 		L_17 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_15, L_16, NULL);
 		V_0 = L_17;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch8tap;
 		return L_1;
 	}
 }
@@ -26407,26 +21252,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DoubleControl_t3707A6260424A2F3636669A2BAFF5C
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch8startTime = new UnityEngine.InputSystem.Controls.DoubleControl();
 		DoubleControl_t3707A6260424A2F3636669A2BAFF5CB5E91D2486* L_0 = (DoubleControl_t3707A6260424A2F3636669A2BAFF5CB5E91D2486*)il2cpp_codegen_object_new(DoubleControl_t3707A6260424A2F3636669A2BAFF5CB5E91D2486_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		DoubleControl__ctor_m83AB89DB3A9EC88845B31BFF812C36C99F327CDA(L_0, NULL);
-		// ctrlTouchscreentouch8startTime.Setup()
-		//     .At(this, 252)
-		//     .WithParent(parent)
-		//     .WithName("startTime")
-		//     .WithDisplayName("Touch Start Time")
-		//     .WithShortDisplayName("Touch Start Time")
-		//     .WithLayout(kDoubleLayout)
-		//     .IsSynthetic(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1145195552),
-		//         byteOffset = 544,
-		//         bitOffset = 0,
-		//         sizeInBits = 64
-		//     })
-		//     .Finish();
 		DoubleControl_t3707A6260424A2F3636669A2BAFF5CB5E91D2486* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -26467,7 +21295,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DoubleControl_t3707A6260424A2F3636669A2BAFF5C
 		L_14 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_13, NULL);
 		V_0 = L_14;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch8startTime;
 		return L_1;
 	}
 }
@@ -26487,27 +21314,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch8startPosition = new UnityEngine.InputSystem.Controls.Vector2Control();
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_0 = (Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432*)il2cpp_codegen_object_new(Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		Vector2Control__ctor_m9F2990DA999344F23AA90F6EE77884A75D4F29F8(L_0, NULL);
-		// ctrlTouchscreentouch8startPosition.Setup()
-		//     .At(this, 253)
-		//     .WithParent(parent)
-		//     .WithChildren(264, 2)
-		//     .WithName("startPosition")
-		//     .WithDisplayName("Touch Start Position")
-		//     .WithShortDisplayName("Touch Start Position")
-		//     .WithLayout(kVector2Layout)
-		//     .IsSynthetic(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1447379762),
-		//         byteOffset = 552,
-		//         bitOffset = 0,
-		//         sizeInBits = 64
-		//     })
-		//     .Finish();
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -26551,7 +21360,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 		L_15 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_14, NULL);
 		V_0 = L_15;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch8startPosition;
 		return L_1;
 	}
 }
@@ -26571,26 +21379,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch8positionx = new UnityEngine.InputSystem.Controls.AxisControl();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
-		// ctrlTouchscreentouch8positionx.Setup()
-		//     .At(this, 254)
-		//     .WithParent(parent)
-		//     .WithName("x")
-		//     .WithDisplayName("Touch Touch Position X")
-		//     .WithShortDisplayName("Touch Touch Position X")
-		//     .WithLayout(kAxisLayout)
-		//     .DontReset(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 508,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -26631,7 +21422,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_14 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_13, NULL);
 		V_0 = L_14;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch8positionx;
 		return L_1;
 	}
 }
@@ -26651,26 +21441,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch8positiony = new UnityEngine.InputSystem.Controls.AxisControl();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
-		// ctrlTouchscreentouch8positiony.Setup()
-		//     .At(this, 255)
-		//     .WithParent(parent)
-		//     .WithName("y")
-		//     .WithDisplayName("Touch Touch Position Y")
-		//     .WithShortDisplayName("Touch Touch Position Y")
-		//     .WithLayout(kAxisLayout)
-		//     .DontReset(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 512,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -26711,7 +21484,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_14 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_13, NULL);
 		V_0 = L_14;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch8positiony;
 		return L_1;
 	}
 }
@@ -26731,7 +21503,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch8deltaup = new UnityEngine.InputSystem.Controls.AxisControl { clamp = UnityEngine.InputSystem.Controls.AxisControl.Clamp.BeforeNormalize, clampMax = 3.402823E+38f };
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
@@ -26741,22 +21512,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_2 = L_1;
 		NullCheck(L_2);
 		L_2->___clampMax_24 = (3.40282306E+38f);
-		// ctrlTouchscreentouch8deltaup.Setup()
-		//     .At(this, 256)
-		//     .WithParent(parent)
-		//     .WithName("up")
-		//     .WithDisplayName("Touch Touch Delta Up")
-		//     .WithShortDisplayName("Touch Touch Delta Up")
-		//     .WithLayout(kAxisLayout)
-		//     .IsSynthetic(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 520,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_3 = L_2;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_4;
 		L_4 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_3, NULL);
@@ -26797,7 +21552,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_16 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_15, NULL);
 		V_0 = L_16;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch8deltaup;
 		return L_3;
 	}
 }
@@ -26817,7 +21571,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch8deltadown = new UnityEngine.InputSystem.Controls.AxisControl { clamp = UnityEngine.InputSystem.Controls.AxisControl.Clamp.BeforeNormalize, clampMin = -3.402823E+38f, invert = true };
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
@@ -26830,22 +21583,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_3 = L_2;
 		NullCheck(L_3);
 		L_3->___invert_26 = (bool)1;
-		// ctrlTouchscreentouch8deltadown.Setup()
-		//     .At(this, 257)
-		//     .WithParent(parent)
-		//     .WithName("down")
-		//     .WithDisplayName("Touch Touch Delta Down")
-		//     .WithShortDisplayName("Touch Touch Delta Down")
-		//     .WithLayout(kAxisLayout)
-		//     .IsSynthetic(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 520,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_4 = L_3;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_5;
 		L_5 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_4, NULL);
@@ -26886,7 +21623,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_17 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_16, NULL);
 		V_0 = L_17;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch8deltadown;
 		return L_4;
 	}
 }
@@ -26906,7 +21642,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch8deltaleft = new UnityEngine.InputSystem.Controls.AxisControl { clamp = UnityEngine.InputSystem.Controls.AxisControl.Clamp.BeforeNormalize, clampMin = -3.402823E+38f, invert = true };
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
@@ -26919,22 +21654,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_3 = L_2;
 		NullCheck(L_3);
 		L_3->___invert_26 = (bool)1;
-		// ctrlTouchscreentouch8deltaleft.Setup()
-		//     .At(this, 258)
-		//     .WithParent(parent)
-		//     .WithName("left")
-		//     .WithDisplayName("Touch Touch Delta Left")
-		//     .WithShortDisplayName("Touch Touch Delta Left")
-		//     .WithLayout(kAxisLayout)
-		//     .IsSynthetic(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 516,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_4 = L_3;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_5;
 		L_5 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_4, NULL);
@@ -26975,7 +21694,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_17 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_16, NULL);
 		V_0 = L_17;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch8deltaleft;
 		return L_4;
 	}
 }
@@ -26995,7 +21713,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch8deltaright = new UnityEngine.InputSystem.Controls.AxisControl { clamp = UnityEngine.InputSystem.Controls.AxisControl.Clamp.BeforeNormalize, clampMax = 3.402823E+38f };
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
@@ -27005,22 +21722,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_2 = L_1;
 		NullCheck(L_2);
 		L_2->___clampMax_24 = (3.40282306E+38f);
-		// ctrlTouchscreentouch8deltaright.Setup()
-		//     .At(this, 259)
-		//     .WithParent(parent)
-		//     .WithName("right")
-		//     .WithDisplayName("Touch Touch Delta Right")
-		//     .WithShortDisplayName("Touch Touch Delta Right")
-		//     .WithLayout(kAxisLayout)
-		//     .IsSynthetic(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 516,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_3 = L_2;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_4;
 		L_4 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_3, NULL);
@@ -27061,7 +21762,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_16 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_15, NULL);
 		V_0 = L_16;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch8deltaright;
 		return L_3;
 	}
 }
@@ -27081,25 +21781,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch8deltax = new UnityEngine.InputSystem.Controls.AxisControl();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
-		// ctrlTouchscreentouch8deltax.Setup()
-		//     .At(this, 260)
-		//     .WithParent(parent)
-		//     .WithName("x")
-		//     .WithDisplayName("Touch Touch Delta X")
-		//     .WithShortDisplayName("Touch Touch Delta X")
-		//     .WithLayout(kAxisLayout)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 516,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -27137,7 +21821,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_13 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_12, NULL);
 		V_0 = L_13;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch8deltax;
 		return L_1;
 	}
 }
@@ -27157,25 +21840,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch8deltay = new UnityEngine.InputSystem.Controls.AxisControl();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
-		// ctrlTouchscreentouch8deltay.Setup()
-		//     .At(this, 261)
-		//     .WithParent(parent)
-		//     .WithName("y")
-		//     .WithDisplayName("Touch Touch Delta Y")
-		//     .WithShortDisplayName("Touch Touch Delta Y")
-		//     .WithLayout(kAxisLayout)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 520,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -27213,7 +21880,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_13 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_12, NULL);
 		V_0 = L_13;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch8deltay;
 		return L_1;
 	}
 }
@@ -27233,25 +21899,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch8radiusx = new UnityEngine.InputSystem.Controls.AxisControl();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
-		// ctrlTouchscreentouch8radiusx.Setup()
-		//     .At(this, 262)
-		//     .WithParent(parent)
-		//     .WithName("x")
-		//     .WithDisplayName("Touch Touch Radius X")
-		//     .WithShortDisplayName("Touch Touch Radius X")
-		//     .WithLayout(kAxisLayout)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 528,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -27289,7 +21939,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_13 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_12, NULL);
 		V_0 = L_13;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch8radiusx;
 		return L_1;
 	}
 }
@@ -27309,25 +21958,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch8radiusy = new UnityEngine.InputSystem.Controls.AxisControl();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
-		// ctrlTouchscreentouch8radiusy.Setup()
-		//     .At(this, 263)
-		//     .WithParent(parent)
-		//     .WithName("y")
-		//     .WithDisplayName("Touch Touch Radius Y")
-		//     .WithShortDisplayName("Touch Touch Radius Y")
-		//     .WithLayout(kAxisLayout)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 532,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -27365,7 +21998,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_13 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_12, NULL);
 		V_0 = L_13;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch8radiusy;
 		return L_1;
 	}
 }
@@ -27385,25 +22017,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch8startPositionx = new UnityEngine.InputSystem.Controls.AxisControl();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
-		// ctrlTouchscreentouch8startPositionx.Setup()
-		//     .At(this, 264)
-		//     .WithParent(parent)
-		//     .WithName("x")
-		//     .WithDisplayName("Touch Touch Start Position X")
-		//     .WithShortDisplayName("Touch Touch Start Position X")
-		//     .WithLayout(kAxisLayout)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 552,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -27441,7 +22057,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_13 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_12, NULL);
 		V_0 = L_13;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch8startPositionx;
 		return L_1;
 	}
 }
@@ -27461,25 +22076,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch8startPositiony = new UnityEngine.InputSystem.Controls.AxisControl();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
-		// ctrlTouchscreentouch8startPositiony.Setup()
-		//     .At(this, 265)
-		//     .WithParent(parent)
-		//     .WithName("y")
-		//     .WithDisplayName("Touch Touch Start Position Y")
-		//     .WithShortDisplayName("Touch Touch Start Position Y")
-		//     .WithLayout(kAxisLayout)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 556,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -27517,7 +22116,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_13 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_12, NULL);
 		V_0 = L_13;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch8startPositiony;
 		return L_1;
 	}
 }
@@ -27537,27 +22135,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntegerControl_tA24544EFF42204852F638FF5147F7
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch9touchId = new UnityEngine.InputSystem.Controls.IntegerControl();
 		IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB* L_0 = (IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB*)il2cpp_codegen_object_new(IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		IntegerControl__ctor_mC6E1C70B301EE12C2590B64C2DD53F02A577892D(L_0, NULL);
-		// ctrlTouchscreentouch9touchId.Setup()
-		//     .At(this, 266)
-		//     .WithParent(parent)
-		//     .WithName("touchId")
-		//     .WithDisplayName("Touch Touch ID")
-		//     .WithShortDisplayName("Touch Touch ID")
-		//     .WithLayout(kIntegerLayout)
-		//     .IsSynthetic(true)
-		//     .DontReset(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1229870112),
-		//         byteOffset = 560,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -27601,7 +22181,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntegerControl_tA24544EFF42204852F638FF5147F7
 		L_15 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_14, NULL);
 		V_0 = L_15;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch9touchId;
 		return L_1;
 	}
 }
@@ -27621,27 +22200,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch9position = new UnityEngine.InputSystem.Controls.Vector2Control();
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_0 = (Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432*)il2cpp_codegen_object_new(Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		Vector2Control__ctor_m9F2990DA999344F23AA90F6EE77884A75D4F29F8(L_0, NULL);
-		// ctrlTouchscreentouch9position.Setup()
-		//     .At(this, 267)
-		//     .WithParent(parent)
-		//     .WithChildren(278, 2)
-		//     .WithName("position")
-		//     .WithDisplayName("Touch Position")
-		//     .WithShortDisplayName("Touch Position")
-		//     .WithLayout(kVector2Layout)
-		//     .DontReset(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1447379762),
-		//         byteOffset = 564,
-		//         bitOffset = 0,
-		//         sizeInBits = 64
-		//     })
-		//     .Finish();
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -27685,7 +22246,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 		L_15 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_14, NULL);
 		V_0 = L_15;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch9position;
 		return L_1;
 	}
 }
@@ -27705,26 +22265,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A1
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch9delta = new UnityEngine.InputSystem.Controls.DeltaControl();
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_0 = (DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B*)il2cpp_codegen_object_new(DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		DeltaControl__ctor_m221788585AD5E0B67F3CFE1199DC6C2B0C237CB4(L_0, NULL);
-		// ctrlTouchscreentouch9delta.Setup()
-		//     .At(this, 268)
-		//     .WithParent(parent)
-		//     .WithChildren(280, 6)
-		//     .WithName("delta")
-		//     .WithDisplayName("Touch Delta")
-		//     .WithShortDisplayName("Touch Delta")
-		//     .WithLayout(kDeltaLayout)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1447379762),
-		//         byteOffset = 572,
-		//         bitOffset = 0,
-		//         sizeInBits = 64
-		//     })
-		//     .Finish();
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -27765,7 +22308,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A1
 		L_14 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_13, NULL);
 		V_0 = L_14;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch9delta;
 		return L_1;
 	}
 }
@@ -27785,25 +22327,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch9pressure = new UnityEngine.InputSystem.Controls.AxisControl();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
-		// ctrlTouchscreentouch9pressure.Setup()
-		//     .At(this, 269)
-		//     .WithParent(parent)
-		//     .WithName("pressure")
-		//     .WithDisplayName("Touch Pressure")
-		//     .WithShortDisplayName("Touch Pressure")
-		//     .WithLayout(kAxisLayout)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 580,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -27841,7 +22367,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_13 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_12, NULL);
 		V_0 = L_13;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch9pressure;
 		return L_1;
 	}
 }
@@ -27861,26 +22386,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch9radius = new UnityEngine.InputSystem.Controls.Vector2Control();
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_0 = (Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432*)il2cpp_codegen_object_new(Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		Vector2Control__ctor_m9F2990DA999344F23AA90F6EE77884A75D4F29F8(L_0, NULL);
-		// ctrlTouchscreentouch9radius.Setup()
-		//     .At(this, 270)
-		//     .WithParent(parent)
-		//     .WithChildren(286, 2)
-		//     .WithName("radius")
-		//     .WithDisplayName("Touch Radius")
-		//     .WithShortDisplayName("Touch Radius")
-		//     .WithLayout(kVector2Layout)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1447379762),
-		//         byteOffset = 584,
-		//         bitOffset = 0,
-		//         sizeInBits = 64
-		//     })
-		//     .Finish();
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -27921,7 +22429,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 		L_14 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_13, NULL);
 		V_0 = L_14;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch9radius;
 		return L_1;
 	}
 }
@@ -27941,26 +22448,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchPhaseControl_t4652C6E0EBFAFA85A316077698
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch9phase = new UnityEngine.InputSystem.Controls.TouchPhaseControl();
 		TouchPhaseControl_t4652C6E0EBFAFA85A31607769876B02C1C9FCAEC* L_0 = (TouchPhaseControl_t4652C6E0EBFAFA85A31607769876B02C1C9FCAEC*)il2cpp_codegen_object_new(TouchPhaseControl_t4652C6E0EBFAFA85A31607769876B02C1C9FCAEC_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		TouchPhaseControl__ctor_m76D52D2CDBC41512C35BC70649F0B91ADDAE4D59(L_0, NULL);
-		// ctrlTouchscreentouch9phase.Setup()
-		//     .At(this, 271)
-		//     .WithParent(parent)
-		//     .WithName("phase")
-		//     .WithDisplayName("Touch Touch Phase")
-		//     .WithShortDisplayName("Touch Touch Phase")
-		//     .WithLayout(kTouchPhaseLayout)
-		//     .IsSynthetic(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1113150533),
-		//         byteOffset = 592,
-		//         bitOffset = 0,
-		//         sizeInBits = 8
-		//     })
-		//     .Finish();
 		TouchPhaseControl_t4652C6E0EBFAFA85A31607769876B02C1C9FCAEC* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -28001,7 +22491,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchPhaseControl_t4652C6E0EBFAFA85A316077698
 		L_14 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_13, NULL);
 		V_0 = L_14;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch9phase;
 		return L_1;
 	}
 }
@@ -28021,27 +22510,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchPressControl_tD5BD68D9FDEAC889591DD7A499
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch9press = new UnityEngine.InputSystem.Controls.TouchPressControl();
 		TouchPressControl_tD5BD68D9FDEAC889591DD7A499864893A43C7CEB* L_0 = (TouchPressControl_tD5BD68D9FDEAC889591DD7A499864893A43C7CEB*)il2cpp_codegen_object_new(TouchPressControl_tD5BD68D9FDEAC889591DD7A499864893A43C7CEB_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		TouchPressControl__ctor_m257FF1E4C03BD2CC927220808F404A23641027B2(L_0, NULL);
-		// ctrlTouchscreentouch9press.Setup()
-		//     .At(this, 272)
-		//     .WithParent(parent)
-		//     .WithName("press")
-		//     .WithDisplayName("Touch Touch Contact?")
-		//     .WithShortDisplayName("Touch Touch Contact?")
-		//     .WithLayout(kTouchPressLayout)
-		//     .IsButton(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1113150533),
-		//         byteOffset = 592,
-		//         bitOffset = 0,
-		//         sizeInBits = 8
-		//     })
-		//     .WithMinAndMax(0, 1)
-		//     .Finish();
 		TouchPressControl_tD5BD68D9FDEAC889591DD7A499864893A43C7CEB* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -28089,7 +22560,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchPressControl_tD5BD68D9FDEAC889591DD7A499
 		L_17 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_15, L_16, NULL);
 		V_0 = L_17;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch9press;
 		return L_1;
 	}
 }
@@ -28109,25 +22579,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntegerControl_tA24544EFF42204852F638FF5147F7
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch9tapCount = new UnityEngine.InputSystem.Controls.IntegerControl();
 		IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB* L_0 = (IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB*)il2cpp_codegen_object_new(IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		IntegerControl__ctor_mC6E1C70B301EE12C2590B64C2DD53F02A577892D(L_0, NULL);
-		// ctrlTouchscreentouch9tapCount.Setup()
-		//     .At(this, 273)
-		//     .WithParent(parent)
-		//     .WithName("tapCount")
-		//     .WithDisplayName("Touch Tap Count")
-		//     .WithShortDisplayName("Touch Tap Count")
-		//     .WithLayout(kIntegerLayout)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1113150533),
-		//         byteOffset = 593,
-		//         bitOffset = 0,
-		//         sizeInBits = 8
-		//     })
-		//     .Finish();
 		IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -28165,7 +22619,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntegerControl_tA24544EFF42204852F638FF5147F7
 		L_13 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_12, NULL);
 		V_0 = L_13;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch9tapCount;
 		return L_1;
 	}
 }
@@ -28185,28 +22638,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ButtonControl_t85949109B98AAF5B7ADC0285F0EC98
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch9indirectTouch = new UnityEngine.InputSystem.Controls.ButtonControl();
 		ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* L_0 = (ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF*)il2cpp_codegen_object_new(ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		ButtonControl__ctor_mF6F46704B8CC76DA22F543EFF8D136676893ACEB(L_0, NULL);
-		// ctrlTouchscreentouch9indirectTouch.Setup()
-		//     .At(this, 274)
-		//     .WithParent(parent)
-		//     .WithName("indirectTouch")
-		//     .WithDisplayName("Touch Indirect Touch?")
-		//     .WithShortDisplayName("Touch Indirect Touch?")
-		//     .WithLayout(kButtonLayout)
-		//     .IsSynthetic(true)
-		//     .IsButton(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1112101920),
-		//         byteOffset = 595,
-		//         bitOffset = 0,
-		//         sizeInBits = 1
-		//     })
-		//     .WithMinAndMax(0, 1)
-		//     .Finish();
 		ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -28257,7 +22691,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ButtonControl_t85949109B98AAF5B7ADC0285F0EC98
 		L_18 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_16, L_17, NULL);
 		V_0 = L_18;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch9indirectTouch;
 		return L_1;
 	}
 }
@@ -28277,27 +22710,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ButtonControl_t85949109B98AAF5B7ADC0285F0EC98
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch9tap = new UnityEngine.InputSystem.Controls.ButtonControl();
 		ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* L_0 = (ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF*)il2cpp_codegen_object_new(ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		ButtonControl__ctor_mF6F46704B8CC76DA22F543EFF8D136676893ACEB(L_0, NULL);
-		// ctrlTouchscreentouch9tap.Setup()
-		//     .At(this, 275)
-		//     .WithParent(parent)
-		//     .WithName("tap")
-		//     .WithDisplayName("Touch Tap")
-		//     .WithShortDisplayName("Touch Tap")
-		//     .WithLayout(kButtonLayout)
-		//     .IsButton(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1112101920),
-		//         byteOffset = 595,
-		//         bitOffset = 4,
-		//         sizeInBits = 1
-		//     })
-		//     .WithMinAndMax(0, 1)
-		//     .Finish();
 		ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -28345,7 +22760,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ButtonControl_t85949109B98AAF5B7ADC0285F0EC98
 		L_17 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_15, L_16, NULL);
 		V_0 = L_17;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch9tap;
 		return L_1;
 	}
 }
@@ -28365,26 +22779,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DoubleControl_t3707A6260424A2F3636669A2BAFF5C
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch9startTime = new UnityEngine.InputSystem.Controls.DoubleControl();
 		DoubleControl_t3707A6260424A2F3636669A2BAFF5CB5E91D2486* L_0 = (DoubleControl_t3707A6260424A2F3636669A2BAFF5CB5E91D2486*)il2cpp_codegen_object_new(DoubleControl_t3707A6260424A2F3636669A2BAFF5CB5E91D2486_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		DoubleControl__ctor_m83AB89DB3A9EC88845B31BFF812C36C99F327CDA(L_0, NULL);
-		// ctrlTouchscreentouch9startTime.Setup()
-		//     .At(this, 276)
-		//     .WithParent(parent)
-		//     .WithName("startTime")
-		//     .WithDisplayName("Touch Start Time")
-		//     .WithShortDisplayName("Touch Start Time")
-		//     .WithLayout(kDoubleLayout)
-		//     .IsSynthetic(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1145195552),
-		//         byteOffset = 600,
-		//         bitOffset = 0,
-		//         sizeInBits = 64
-		//     })
-		//     .Finish();
 		DoubleControl_t3707A6260424A2F3636669A2BAFF5CB5E91D2486* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -28425,7 +22822,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DoubleControl_t3707A6260424A2F3636669A2BAFF5C
 		L_14 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_13, NULL);
 		V_0 = L_14;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch9startTime;
 		return L_1;
 	}
 }
@@ -28445,27 +22841,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch9startPosition = new UnityEngine.InputSystem.Controls.Vector2Control();
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_0 = (Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432*)il2cpp_codegen_object_new(Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		Vector2Control__ctor_m9F2990DA999344F23AA90F6EE77884A75D4F29F8(L_0, NULL);
-		// ctrlTouchscreentouch9startPosition.Setup()
-		//     .At(this, 277)
-		//     .WithParent(parent)
-		//     .WithChildren(288, 2)
-		//     .WithName("startPosition")
-		//     .WithDisplayName("Touch Start Position")
-		//     .WithShortDisplayName("Touch Start Position")
-		//     .WithLayout(kVector2Layout)
-		//     .IsSynthetic(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1447379762),
-		//         byteOffset = 608,
-		//         bitOffset = 0,
-		//         sizeInBits = 64
-		//     })
-		//     .Finish();
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -28509,7 +22887,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Control_t8D1B4021A1D82671AF916D3C0A476
 		L_15 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_14, NULL);
 		V_0 = L_15;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch9startPosition;
 		return L_1;
 	}
 }
@@ -28529,26 +22906,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch9positionx = new UnityEngine.InputSystem.Controls.AxisControl();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
-		// ctrlTouchscreentouch9positionx.Setup()
-		//     .At(this, 278)
-		//     .WithParent(parent)
-		//     .WithName("x")
-		//     .WithDisplayName("Touch Touch Position X")
-		//     .WithShortDisplayName("Touch Touch Position X")
-		//     .WithLayout(kAxisLayout)
-		//     .DontReset(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 564,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -28589,7 +22949,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_14 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_13, NULL);
 		V_0 = L_14;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch9positionx;
 		return L_1;
 	}
 }
@@ -28609,26 +22968,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch9positiony = new UnityEngine.InputSystem.Controls.AxisControl();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
-		// ctrlTouchscreentouch9positiony.Setup()
-		//     .At(this, 279)
-		//     .WithParent(parent)
-		//     .WithName("y")
-		//     .WithDisplayName("Touch Touch Position Y")
-		//     .WithShortDisplayName("Touch Touch Position Y")
-		//     .WithLayout(kAxisLayout)
-		//     .DontReset(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 568,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -28669,7 +23011,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_14 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_13, NULL);
 		V_0 = L_14;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch9positiony;
 		return L_1;
 	}
 }
@@ -28689,7 +23030,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch9deltaup = new UnityEngine.InputSystem.Controls.AxisControl { clamp = UnityEngine.InputSystem.Controls.AxisControl.Clamp.BeforeNormalize, clampMax = 3.402823E+38f };
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
@@ -28699,22 +23039,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_2 = L_1;
 		NullCheck(L_2);
 		L_2->___clampMax_24 = (3.40282306E+38f);
-		// ctrlTouchscreentouch9deltaup.Setup()
-		//     .At(this, 280)
-		//     .WithParent(parent)
-		//     .WithName("up")
-		//     .WithDisplayName("Touch Touch Delta Up")
-		//     .WithShortDisplayName("Touch Touch Delta Up")
-		//     .WithLayout(kAxisLayout)
-		//     .IsSynthetic(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 576,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_3 = L_2;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_4;
 		L_4 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_3, NULL);
@@ -28755,7 +23079,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_16 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_15, NULL);
 		V_0 = L_16;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch9deltaup;
 		return L_3;
 	}
 }
@@ -28775,7 +23098,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch9deltadown = new UnityEngine.InputSystem.Controls.AxisControl { clamp = UnityEngine.InputSystem.Controls.AxisControl.Clamp.BeforeNormalize, clampMin = -3.402823E+38f, invert = true };
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
@@ -28788,22 +23110,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_3 = L_2;
 		NullCheck(L_3);
 		L_3->___invert_26 = (bool)1;
-		// ctrlTouchscreentouch9deltadown.Setup()
-		//     .At(this, 281)
-		//     .WithParent(parent)
-		//     .WithName("down")
-		//     .WithDisplayName("Touch Touch Delta Down")
-		//     .WithShortDisplayName("Touch Touch Delta Down")
-		//     .WithLayout(kAxisLayout)
-		//     .IsSynthetic(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 576,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_4 = L_3;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_5;
 		L_5 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_4, NULL);
@@ -28844,7 +23150,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_17 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_16, NULL);
 		V_0 = L_17;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch9deltadown;
 		return L_4;
 	}
 }
@@ -28864,7 +23169,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch9deltaleft = new UnityEngine.InputSystem.Controls.AxisControl { clamp = UnityEngine.InputSystem.Controls.AxisControl.Clamp.BeforeNormalize, clampMin = -3.402823E+38f, invert = true };
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
@@ -28877,22 +23181,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_3 = L_2;
 		NullCheck(L_3);
 		L_3->___invert_26 = (bool)1;
-		// ctrlTouchscreentouch9deltaleft.Setup()
-		//     .At(this, 282)
-		//     .WithParent(parent)
-		//     .WithName("left")
-		//     .WithDisplayName("Touch Touch Delta Left")
-		//     .WithShortDisplayName("Touch Touch Delta Left")
-		//     .WithLayout(kAxisLayout)
-		//     .IsSynthetic(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 572,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_4 = L_3;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_5;
 		L_5 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_4, NULL);
@@ -28933,7 +23221,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_17 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_16, NULL);
 		V_0 = L_17;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch9deltaleft;
 		return L_4;
 	}
 }
@@ -28953,7 +23240,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch9deltaright = new UnityEngine.InputSystem.Controls.AxisControl { clamp = UnityEngine.InputSystem.Controls.AxisControl.Clamp.BeforeNormalize, clampMax = 3.402823E+38f };
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
@@ -28963,22 +23249,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_2 = L_1;
 		NullCheck(L_2);
 		L_2->___clampMax_24 = (3.40282306E+38f);
-		// ctrlTouchscreentouch9deltaright.Setup()
-		//     .At(this, 283)
-		//     .WithParent(parent)
-		//     .WithName("right")
-		//     .WithDisplayName("Touch Touch Delta Right")
-		//     .WithShortDisplayName("Touch Touch Delta Right")
-		//     .WithLayout(kAxisLayout)
-		//     .IsSynthetic(true)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 572,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_3 = L_2;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_4;
 		L_4 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_3, NULL);
@@ -29019,7 +23289,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_16 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_15, NULL);
 		V_0 = L_16;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch9deltaright;
 		return L_3;
 	}
 }
@@ -29039,25 +23308,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch9deltax = new UnityEngine.InputSystem.Controls.AxisControl();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
-		// ctrlTouchscreentouch9deltax.Setup()
-		//     .At(this, 284)
-		//     .WithParent(parent)
-		//     .WithName("x")
-		//     .WithDisplayName("Touch Touch Delta X")
-		//     .WithShortDisplayName("Touch Touch Delta X")
-		//     .WithLayout(kAxisLayout)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 572,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -29095,7 +23348,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_13 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_12, NULL);
 		V_0 = L_13;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch9deltax;
 		return L_1;
 	}
 }
@@ -29115,25 +23367,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch9deltay = new UnityEngine.InputSystem.Controls.AxisControl();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
-		// ctrlTouchscreentouch9deltay.Setup()
-		//     .At(this, 285)
-		//     .WithParent(parent)
-		//     .WithName("y")
-		//     .WithDisplayName("Touch Touch Delta Y")
-		//     .WithShortDisplayName("Touch Touch Delta Y")
-		//     .WithLayout(kAxisLayout)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 576,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -29171,7 +23407,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_13 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_12, NULL);
 		V_0 = L_13;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch9deltay;
 		return L_1;
 	}
 }
@@ -29191,25 +23426,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch9radiusx = new UnityEngine.InputSystem.Controls.AxisControl();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
-		// ctrlTouchscreentouch9radiusx.Setup()
-		//     .At(this, 286)
-		//     .WithParent(parent)
-		//     .WithName("x")
-		//     .WithDisplayName("Touch Touch Radius X")
-		//     .WithShortDisplayName("Touch Touch Radius X")
-		//     .WithLayout(kAxisLayout)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 584,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -29247,7 +23466,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_13 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_12, NULL);
 		V_0 = L_13;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch9radiusx;
 		return L_1;
 	}
 }
@@ -29267,25 +23485,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch9radiusy = new UnityEngine.InputSystem.Controls.AxisControl();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
-		// ctrlTouchscreentouch9radiusy.Setup()
-		//     .At(this, 287)
-		//     .WithParent(parent)
-		//     .WithName("y")
-		//     .WithDisplayName("Touch Touch Radius Y")
-		//     .WithShortDisplayName("Touch Touch Radius Y")
-		//     .WithLayout(kAxisLayout)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 588,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -29323,7 +23525,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_13 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_12, NULL);
 		V_0 = L_13;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch9radiusy;
 		return L_1;
 	}
 }
@@ -29343,25 +23544,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch9startPositionx = new UnityEngine.InputSystem.Controls.AxisControl();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
-		// ctrlTouchscreentouch9startPositionx.Setup()
-		//     .At(this, 288)
-		//     .WithParent(parent)
-		//     .WithName("x")
-		//     .WithDisplayName("Touch Touch Start Position X")
-		//     .WithShortDisplayName("Touch Touch Start Position X")
-		//     .WithLayout(kAxisLayout)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 608,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -29399,7 +23584,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_13 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_12, NULL);
 		V_0 = L_13;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch9startPositionx;
 		return L_1;
 	}
 }
@@ -29419,25 +23603,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// var ctrlTouchscreentouch9startPositiony = new UnityEngine.InputSystem.Controls.AxisControl();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = (AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7*)il2cpp_codegen_object_new(AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AxisControl__ctor_m9648C9B9777699B9028DF822BB5A3884F3865BEE(L_0, NULL);
-		// ctrlTouchscreentouch9startPositiony.Setup()
-		//     .At(this, 289)
-		//     .WithParent(parent)
-		//     .WithName("y")
-		//     .WithDisplayName("Touch Touch Start Position Y")
-		//     .WithShortDisplayName("Touch Touch Start Position Y")
-		//     .WithLayout(kAxisLayout)
-		//     .WithStateBlock(new InputStateBlock
-		//     {
-		//         format = new FourCC(1179407392),
-		//         byteOffset = 612,
-		//         bitOffset = 0,
-		//         sizeInBits = 32
-		//     })
-		//     .Finish();
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -29475,7 +23643,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 		L_13 = ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline((&V_0), L_12, NULL);
 		V_0 = L_13;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		// return ctrlTouchscreentouch9startPositiony;
 		return L_1;
 	}
 }
@@ -29485,7 +23652,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201A
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR DeviceBuilder_t3D3A66799A2B6B6282AC2FB71B1DE5034E668CC4 DeviceBuilder_WithName_m9CAF681E7BC82E50A1D8D4756736B62BE2E86888_inline (DeviceBuilder_t3D3A66799A2B6B6282AC2FB71B1DE5034E668CC4* __this, String_t* ___name0, const RuntimeMethod* method) 
 {
 	{
-		// device.m_Name = new InternedString(name);
 		InputDevice_t8BCF67533E872A75779C24C93D1D7085B72D364B* L_0;
 		L_0 = DeviceBuilder_get_device_m3D80AEE1900BA7EFE23D943080C3DA9A2D8268AB_inline(__this, NULL);
 		String_t* L_1 = ___name0;
@@ -29498,7 +23664,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR DeviceBuilder_t3D3A66799A2B6B6282
 		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
 		Il2CppCodeGenWriteBarrier((void**)&(((&((InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E*)L_0)->___m_Name_1))->___m_StringLowerCase_1), (void*)NULL);
 		#endif
-		// return this;
 		DeviceBuilder_t3D3A66799A2B6B6282AC2FB71B1DE5034E668CC4 L_3 = (*(DeviceBuilder_t3D3A66799A2B6B6282AC2FB71B1DE5034E668CC4*)__this);
 		return L_3;
 	}
@@ -29506,7 +23671,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR DeviceBuilder_t3D3A66799A2B6B6282
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR DeviceBuilder_t3D3A66799A2B6B6282AC2FB71B1DE5034E668CC4 DeviceBuilder_WithDisplayName_mEF9664AEE5D5410C6F5397CDB4A0DA7C16956F38_inline (DeviceBuilder_t3D3A66799A2B6B6282AC2FB71B1DE5034E668CC4* __this, String_t* ___displayName0, const RuntimeMethod* method) 
 {
 	{
-		// device.m_DisplayNameFromLayout = new InternedString(displayName);
 		InputDevice_t8BCF67533E872A75779C24C93D1D7085B72D364B* L_0;
 		L_0 = DeviceBuilder_get_device_m3D80AEE1900BA7EFE23D943080C3DA9A2D8268AB_inline(__this, NULL);
 		String_t* L_1 = ___displayName0;
@@ -29518,7 +23682,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR DeviceBuilder_t3D3A66799A2B6B6282
 		NullCheck(L_0);
 		((InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E*)L_0)->___m_DisplayNameFromLayout_4 = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&((InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E*)L_0)->___m_DisplayNameFromLayout_4), (void*)L_3);
-		// return this;
 		DeviceBuilder_t3D3A66799A2B6B6282AC2FB71B1DE5034E668CC4 L_4 = (*(DeviceBuilder_t3D3A66799A2B6B6282AC2FB71B1DE5034E668CC4*)__this);
 		return L_4;
 	}
@@ -29526,19 +23689,16 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR DeviceBuilder_t3D3A66799A2B6B6282
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR DeviceBuilder_t3D3A66799A2B6B6282AC2FB71B1DE5034E668CC4 DeviceBuilder_WithChildren_mB52CDAE18A90B4B198C055946B55C6FB2C0C6682_inline (DeviceBuilder_t3D3A66799A2B6B6282AC2FB71B1DE5034E668CC4* __this, int32_t ___startIndex0, int32_t ___count1, const RuntimeMethod* method) 
 {
 	{
-		// device.m_ChildStartIndex = startIndex;
 		InputDevice_t8BCF67533E872A75779C24C93D1D7085B72D364B* L_0;
 		L_0 = DeviceBuilder_get_device_m3D80AEE1900BA7EFE23D943080C3DA9A2D8268AB_inline(__this, NULL);
 		int32_t L_1 = ___startIndex0;
 		NullCheck(L_0);
 		((InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E*)L_0)->___m_ChildStartIndex_16 = L_1;
-		// device.m_ChildCount = count;
 		InputDevice_t8BCF67533E872A75779C24C93D1D7085B72D364B* L_2;
 		L_2 = DeviceBuilder_get_device_m3D80AEE1900BA7EFE23D943080C3DA9A2D8268AB_inline(__this, NULL);
 		int32_t L_3 = ___count1;
 		NullCheck(L_2);
 		((InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E*)L_2)->___m_ChildCount_15 = L_3;
-		// return this;
 		DeviceBuilder_t3D3A66799A2B6B6282AC2FB71B1DE5034E668CC4 L_4 = (*(DeviceBuilder_t3D3A66799A2B6B6282AC2FB71B1DE5034E668CC4*)__this);
 		return L_4;
 	}
@@ -29546,7 +23706,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR DeviceBuilder_t3D3A66799A2B6B6282
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR DeviceBuilder_t3D3A66799A2B6B6282AC2FB71B1DE5034E668CC4 DeviceBuilder_WithLayout_m14B43FBB39236278CC11452BBA6B95398362EF4F_inline (DeviceBuilder_t3D3A66799A2B6B6282AC2FB71B1DE5034E668CC4* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___layout0, const RuntimeMethod* method) 
 {
 	{
-		// device.m_Layout = layout;
 		InputDevice_t8BCF67533E872A75779C24C93D1D7085B72D364B* L_0;
 		L_0 = DeviceBuilder_get_device_m3D80AEE1900BA7EFE23D943080C3DA9A2D8268AB_inline(__this, NULL);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_1 = ___layout0;
@@ -29556,7 +23715,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR DeviceBuilder_t3D3A66799A2B6B6282
 		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
 		Il2CppCodeGenWriteBarrier((void**)&(((&((InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E*)L_0)->___m_Layout_7))->___m_StringLowerCase_1), (void*)NULL);
 		#endif
-		// return this;
 		DeviceBuilder_t3D3A66799A2B6B6282AC2FB71B1DE5034E668CC4 L_2 = (*(DeviceBuilder_t3D3A66799A2B6B6282AC2FB71B1DE5034E668CC4*)__this);
 		return L_2;
 	}
@@ -29564,17 +23722,14 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR DeviceBuilder_t3D3A66799A2B6B6282
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void FourCC__ctor_mE761C8779BB6DC85BA1662DC9ECEC39D62ED9A56_inline (FourCC_tA6CAA4015BC25A7F1053B6C512202D57A9C994ED* __this, int32_t ___code0, const RuntimeMethod* method) 
 {
 	{
-		// m_Code = code;
 		int32_t L_0 = ___code0;
 		__this->___m_Code_0 = L_0;
-		// }
 		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void InputStateBlock_set_format_mC6AA651913216B6B3CEF1031BC8778182009F73A_inline (InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5* __this, FourCC_tA6CAA4015BC25A7F1053B6C512202D57A9C994ED ___value0, const RuntimeMethod* method) 
 {
 	{
-		// public FourCC format { get; set; }
 		FourCC_tA6CAA4015BC25A7F1053B6C512202D57A9C994ED L_0 = ___value0;
 		__this->___U3CformatU3Ek__BackingField_33 = L_0;
 		return;
@@ -29583,7 +23738,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void InputStateBlock_set_format_m
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void InputStateBlock_set_sizeInBits_mE7B623711880E0A1C1E563AF809A24A9C63AE115_inline (InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5* __this, uint32_t ___value0, const RuntimeMethod* method) 
 {
 	{
-		// public uint sizeInBits { get; set; }
 		uint32_t L_0 = ___value0;
 		__this->___U3CsizeInBitsU3Ek__BackingField_36 = L_0;
 		return;
@@ -29592,13 +23746,11 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void InputStateBlock_set_sizeInBi
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR DeviceBuilder_t3D3A66799A2B6B6282AC2FB71B1DE5034E668CC4 DeviceBuilder_WithStateBlock_mB1B5E1A98A0E205BD74AB0513E86A380A0FE731D_inline (DeviceBuilder_t3D3A66799A2B6B6282AC2FB71B1DE5034E668CC4* __this, InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 ___stateBlock0, const RuntimeMethod* method) 
 {
 	{
-		// device.m_StateBlock = stateBlock;
 		InputDevice_t8BCF67533E872A75779C24C93D1D7085B72D364B* L_0;
 		L_0 = DeviceBuilder_get_device_m3D80AEE1900BA7EFE23D943080C3DA9A2D8268AB_inline(__this, NULL);
 		InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 L_1 = ___stateBlock0;
 		NullCheck(L_0);
 		((InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E*)L_0)->___m_StateBlock_0 = L_1;
-		// return this;
 		DeviceBuilder_t3D3A66799A2B6B6282AC2FB71B1DE5034E668CC4 L_2 = (*(DeviceBuilder_t3D3A66799A2B6B6282AC2FB71B1DE5034E668CC4*)__this);
 		return L_2;
 	}
@@ -29606,7 +23758,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR DeviceBuilder_t3D3A66799A2B6B6282
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR DeviceBuilder_t3D3A66799A2B6B6282AC2FB71B1DE5034E668CC4 DeviceBuilder_WithControlUsage_m6BC2EC2CA804EDC65D1165C63E403F3E93944714_inline (DeviceBuilder_t3D3A66799A2B6B6282AC2FB71B1DE5034E668CC4* __this, int32_t ___controlIndex0, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___usage1, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___control2, const RuntimeMethod* method) 
 {
 	{
-		// device.m_UsagesForEachControl[controlIndex] = usage;
 		InputDevice_t8BCF67533E872A75779C24C93D1D7085B72D364B* L_0;
 		L_0 = DeviceBuilder_get_device_m3D80AEE1900BA7EFE23D943080C3DA9A2D8268AB_inline(__this, NULL);
 		NullCheck(L_0);
@@ -29615,7 +23766,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR DeviceBuilder_t3D3A66799A2B6B6282
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_3 = ___usage1;
 		NullCheck(L_1);
 		(L_1)->SetAt(static_cast<il2cpp_array_size_t>(L_2), (InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735)L_3);
-		// device.m_UsageToControl[controlIndex] = control;
 		InputDevice_t8BCF67533E872A75779C24C93D1D7085B72D364B* L_4;
 		L_4 = DeviceBuilder_get_device_m3D80AEE1900BA7EFE23D943080C3DA9A2D8268AB_inline(__this, NULL);
 		NullCheck(L_4);
@@ -29625,7 +23775,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR DeviceBuilder_t3D3A66799A2B6B6282
 		NullCheck(L_5);
 		ArrayElementTypeCheck (L_5, L_7);
 		(L_5)->SetAt(static_cast<il2cpp_array_size_t>(L_6), (InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E*)L_7);
-		// return this;
 		DeviceBuilder_t3D3A66799A2B6B6282AC2FB71B1DE5034E668CC4 L_8 = (*(DeviceBuilder_t3D3A66799A2B6B6282AC2FB71B1DE5034E668CC4*)__this);
 		return L_8;
 	}
@@ -29633,7 +23782,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR DeviceBuilder_t3D3A66799A2B6B6282
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Touchscreen_set_primaryTouch_m91DBE5AD811347EAF9ADC9B77A6A78360662E1C4_inline (Touchscreen_t5A3B494C10A53A822AEDB3508093860D142D84CE* __this, TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* ___value0, const RuntimeMethod* method) 
 {
 	{
-		// public TouchControl primaryTouch { get; protected set; }
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_0 = ___value0;
 		__this->___U3CprimaryTouchU3Ek__BackingField_45 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CprimaryTouchU3Ek__BackingField_45), (void*)L_0);
@@ -29643,7 +23791,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Touchscreen_set_primaryTouch
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Pointer_set_position_m2D924A583D251F04C6868D10969E1ED6EC4EB7D3_inline (Pointer_t800EF2832B62E889AC9C182E3B18098AF220E32A* __this, Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* ___value0, const RuntimeMethod* method) 
 {
 	{
-		// public Vector2Control position { get; protected set; }
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_0 = ___value0;
 		__this->___U3CpositionU3Ek__BackingField_39 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CpositionU3Ek__BackingField_39), (void*)L_0);
@@ -29653,7 +23800,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Pointer_set_position_m2D924A
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Pointer_set_delta_mEB61C0A0FDD20CF0DF6792ACF1BE796C8E007570_inline (Pointer_t800EF2832B62E889AC9C182E3B18098AF220E32A* __this, DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* ___value0, const RuntimeMethod* method) 
 {
 	{
-		// public DeltaControl delta { get; protected set; }
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_0 = ___value0;
 		__this->___U3CdeltaU3Ek__BackingField_40 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CdeltaU3Ek__BackingField_40), (void*)L_0);
@@ -29663,7 +23809,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Pointer_set_delta_mEB61C0A0F
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Pointer_set_radius_m09D5572AFA099FCAA41926908D7A6439749BD2DE_inline (Pointer_t800EF2832B62E889AC9C182E3B18098AF220E32A* __this, Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* ___value0, const RuntimeMethod* method) 
 {
 	{
-		// public Vector2Control radius { get; protected set; }
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_0 = ___value0;
 		__this->___U3CradiusU3Ek__BackingField_41 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CradiusU3Ek__BackingField_41), (void*)L_0);
@@ -29673,7 +23818,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Pointer_set_radius_m09D5572A
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Pointer_set_pressure_m2593E7CCA07D8C8F71A7B76425C67982AEF632E8_inline (Pointer_t800EF2832B62E889AC9C182E3B18098AF220E32A* __this, AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* ___value0, const RuntimeMethod* method) 
 {
 	{
-		// public AxisControl pressure { get; protected set; }
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = ___value0;
 		__this->___U3CpressureU3Ek__BackingField_42 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CpressureU3Ek__BackingField_42), (void*)L_0);
@@ -29683,7 +23827,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Pointer_set_pressure_m2593E7
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Pointer_set_press_mC489CD308019C8ED1CC9C75F2772C6DCD550F4E0_inline (Pointer_t800EF2832B62E889AC9C182E3B18098AF220E32A* __this, ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* ___value0, const RuntimeMethod* method) 
 {
 	{
-		// public ButtonControl press { get; protected set; }
 		ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* L_0 = ___value0;
 		__this->___U3CpressU3Ek__BackingField_43 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CpressU3Ek__BackingField_43), (void*)L_0);
@@ -29693,7 +23836,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Pointer_set_press_mC489CD308
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TouchControl_set_press_m267FA7B0E99DE1F598EEA07E8938C99A40BD9855_inline (TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* __this, TouchPressControl_tD5BD68D9FDEAC889591DD7A499864893A43C7CEB* ___value0, const RuntimeMethod* method) 
 {
 	{
-		// public TouchPressControl press { get; set; }
 		TouchPressControl_tD5BD68D9FDEAC889591DD7A499864893A43C7CEB* L_0 = ___value0;
 		__this->___U3CpressU3Ek__BackingField_22 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CpressU3Ek__BackingField_22), (void*)L_0);
@@ -29703,7 +23845,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TouchControl_set_press_m267F
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TouchControl_set_touchId_mAE9A8C4419AB2EEFD856E21445536E92BC71E8C7_inline (TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* __this, IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB* ___value0, const RuntimeMethod* method) 
 {
 	{
-		// public IntegerControl touchId { get; set; }
 		IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB* L_0 = ___value0;
 		__this->___U3CtouchIdU3Ek__BackingField_23 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CtouchIdU3Ek__BackingField_23), (void*)L_0);
@@ -29713,7 +23854,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TouchControl_set_touchId_mAE
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TouchControl_set_position_m05BC61FE6B7B6676B4CA766BEEA59C5AC1E6F32E_inline (TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* __this, Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* ___value0, const RuntimeMethod* method) 
 {
 	{
-		// public Vector2Control position { get; set; }
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_0 = ___value0;
 		__this->___U3CpositionU3Ek__BackingField_24 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CpositionU3Ek__BackingField_24), (void*)L_0);
@@ -29723,7 +23863,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TouchControl_set_position_m0
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TouchControl_set_delta_mB7F970B93CC0BE555C0A4629489DFAB57D534541_inline (TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* __this, DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* ___value0, const RuntimeMethod* method) 
 {
 	{
-		// public DeltaControl delta { get; set; }
 		DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* L_0 = ___value0;
 		__this->___U3CdeltaU3Ek__BackingField_25 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CdeltaU3Ek__BackingField_25), (void*)L_0);
@@ -29733,7 +23872,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TouchControl_set_delta_mB7F9
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TouchControl_set_pressure_mCE69ACE59C4C4DA91CAF53D4D15AF18635995B35_inline (TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* __this, AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* ___value0, const RuntimeMethod* method) 
 {
 	{
-		// public AxisControl pressure { get; set; }
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = ___value0;
 		__this->___U3CpressureU3Ek__BackingField_26 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CpressureU3Ek__BackingField_26), (void*)L_0);
@@ -29743,7 +23881,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TouchControl_set_pressure_mC
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TouchControl_set_radius_mEBCE66C95D761D48705D49DB0AD1FF2B84E953A1_inline (TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* __this, Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* ___value0, const RuntimeMethod* method) 
 {
 	{
-		// public Vector2Control radius { get; set; }
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_0 = ___value0;
 		__this->___U3CradiusU3Ek__BackingField_27 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CradiusU3Ek__BackingField_27), (void*)L_0);
@@ -29753,7 +23890,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TouchControl_set_radius_mEBC
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TouchControl_set_phase_m2C1DF80E1D3F08A1669AB392CFA8767C58704B15_inline (TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* __this, TouchPhaseControl_t4652C6E0EBFAFA85A31607769876B02C1C9FCAEC* ___value0, const RuntimeMethod* method) 
 {
 	{
-		// public TouchPhaseControl phase { get; set; }
 		TouchPhaseControl_t4652C6E0EBFAFA85A31607769876B02C1C9FCAEC* L_0 = ___value0;
 		__this->___U3CphaseU3Ek__BackingField_28 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CphaseU3Ek__BackingField_28), (void*)L_0);
@@ -29763,7 +23899,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TouchControl_set_phase_m2C1D
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TouchControl_set_indirectTouch_m31B4FC1CAC95B83361F16A1618EFAD7626E03603_inline (TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* __this, ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* ___value0, const RuntimeMethod* method) 
 {
 	{
-		// public ButtonControl indirectTouch { get; set; }
 		ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* L_0 = ___value0;
 		__this->___U3CindirectTouchU3Ek__BackingField_29 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CindirectTouchU3Ek__BackingField_29), (void*)L_0);
@@ -29773,7 +23908,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TouchControl_set_indirectTou
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TouchControl_set_tap_mA78E4789E418A40C5B0F5A6B5A296382506DCA9C_inline (TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* __this, ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* ___value0, const RuntimeMethod* method) 
 {
 	{
-		// public ButtonControl tap { get; set; }
 		ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* L_0 = ___value0;
 		__this->___U3CtapU3Ek__BackingField_30 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CtapU3Ek__BackingField_30), (void*)L_0);
@@ -29783,7 +23917,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TouchControl_set_tap_mA78E47
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TouchControl_set_tapCount_mF2D0B14A18FA26370F834796164678077A4D0357_inline (TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* __this, IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB* ___value0, const RuntimeMethod* method) 
 {
 	{
-		// public IntegerControl tapCount { get; set; }
 		IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB* L_0 = ___value0;
 		__this->___U3CtapCountU3Ek__BackingField_31 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CtapCountU3Ek__BackingField_31), (void*)L_0);
@@ -29793,7 +23926,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TouchControl_set_tapCount_mF
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TouchControl_set_startTime_m3AFEFF9640DFA22A85C4D4C75FAAD462733271E1_inline (TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* __this, DoubleControl_t3707A6260424A2F3636669A2BAFF5CB5E91D2486* ___value0, const RuntimeMethod* method) 
 {
 	{
-		// public DoubleControl startTime { get; set; }
 		DoubleControl_t3707A6260424A2F3636669A2BAFF5CB5E91D2486* L_0 = ___value0;
 		__this->___U3CstartTimeU3Ek__BackingField_32 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CstartTimeU3Ek__BackingField_32), (void*)L_0);
@@ -29803,7 +23935,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TouchControl_set_startTime_m
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TouchControl_set_startPosition_m3C4F834E13C3D551917A89725BDE8801F37707F0_inline (TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* __this, Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* ___value0, const RuntimeMethod* method) 
 {
 	{
-		// public Vector2Control startPosition { get; set; }
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_0 = ___value0;
 		__this->___U3CstartPositionU3Ek__BackingField_33 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CstartPositionU3Ek__BackingField_33), (void*)L_0);
@@ -29813,7 +23944,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TouchControl_set_startPositi
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector2Control_set_x_m99BE9EF688C3B153DA726627B3CBD724F8D20BE1_inline (Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* __this, AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* ___value0, const RuntimeMethod* method) 
 {
 	{
-		// public AxisControl x { get; set; }
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = ___value0;
 		__this->___U3CxU3Ek__BackingField_22 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CxU3Ek__BackingField_22), (void*)L_0);
@@ -29823,7 +23953,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector2Control_set_x_m99BE9E
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector2Control_set_y_m9023BACC80F2CF0AE28E2F5D0E9BBA54104E89F8_inline (Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* __this, AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* ___value0, const RuntimeMethod* method) 
 {
 	{
-		// public AxisControl y { get; set; }
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = ___value0;
 		__this->___U3CyU3Ek__BackingField_23 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CyU3Ek__BackingField_23), (void*)L_0);
@@ -29833,7 +23962,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector2Control_set_y_m9023BA
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void DeltaControl_set_up_m738DF0E92B973E4E6AF5BE9A115458717B745174_inline (DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* __this, AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* ___value0, const RuntimeMethod* method) 
 {
 	{
-		// public AxisControl up { get; set; }
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = ___value0;
 		__this->___U3CupU3Ek__BackingField_24 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CupU3Ek__BackingField_24), (void*)L_0);
@@ -29843,7 +23971,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void DeltaControl_set_up_m738DF0E
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void DeltaControl_set_down_mD809599F9F67F402EEFC805F315C0D72F35FFCF0_inline (DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* __this, AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* ___value0, const RuntimeMethod* method) 
 {
 	{
-		// public AxisControl down { get; set; }
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = ___value0;
 		__this->___U3CdownU3Ek__BackingField_25 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CdownU3Ek__BackingField_25), (void*)L_0);
@@ -29853,7 +23980,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void DeltaControl_set_down_mD8095
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void DeltaControl_set_left_m1C0E45C2868801280CC30474B9368F23B7400697_inline (DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* __this, AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* ___value0, const RuntimeMethod* method) 
 {
 	{
-		// public AxisControl left { get; set; }
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = ___value0;
 		__this->___U3CleftU3Ek__BackingField_26 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CleftU3Ek__BackingField_26), (void*)L_0);
@@ -29863,7 +23989,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void DeltaControl_set_left_m1C0E4
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void DeltaControl_set_right_m60FBA0555C4E7CA40954DA7EE6BBC0E0032B0905_inline (DeltaControl_t63053AF5E0CD02B62F3CDE79821E4A12F72D573B* __this, AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* ___value0, const RuntimeMethod* method) 
 {
 	{
-		// public AxisControl right { get; set; }
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_0 = ___value0;
 		__this->___U3CrightU3Ek__BackingField_27 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CrightU3Ek__BackingField_27), (void*)L_0);
@@ -29873,14 +23998,12 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void DeltaControl_set_right_m60FB
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR DeviceBuilder_t3D3A66799A2B6B6282AC2FB71B1DE5034E668CC4 DeviceBuilder_WithStateOffsetToControlIndexMap_m5C180F0BE65CD62017E4662DC59DB56677B5F39A_inline (DeviceBuilder_t3D3A66799A2B6B6282AC2FB71B1DE5034E668CC4* __this, UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA* ___map0, const RuntimeMethod* method) 
 {
 	{
-		// device.m_StateOffsetToControlMap = map;
 		InputDevice_t8BCF67533E872A75779C24C93D1D7085B72D364B* L_0;
 		L_0 = DeviceBuilder_get_device_m3D80AEE1900BA7EFE23D943080C3DA9A2D8268AB_inline(__this, NULL);
 		UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA* L_1 = ___map0;
 		NullCheck(L_0);
 		L_0->___m_StateOffsetToControlMap_35 = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&L_0->___m_StateOffsetToControlMap_35), (void*)L_1);
-		// return this;
 		DeviceBuilder_t3D3A66799A2B6B6282AC2FB71B1DE5034E668CC4 L_2 = (*(DeviceBuilder_t3D3A66799A2B6B6282AC2FB71B1DE5034E668CC4*)__this);
 		return L_2;
 	}
@@ -29888,19 +24011,16 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR DeviceBuilder_t3D3A66799A2B6B6282
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void DeviceBuilder_Finish_mA2C52B2A38B0618CAA4737DB610C65F385957F65_inline (DeviceBuilder_t3D3A66799A2B6B6282AC2FB71B1DE5034E668CC4* __this, const RuntimeMethod* method) 
 {
 	{
-		// device.isSetupFinished = true;
 		InputDevice_t8BCF67533E872A75779C24C93D1D7085B72D364B* L_0;
 		L_0 = DeviceBuilder_get_device_m3D80AEE1900BA7EFE23D943080C3DA9A2D8268AB_inline(__this, NULL);
 		NullCheck(L_0);
 		InputControl_set_isSetupFinished_m261F46AF1FA214549675E23394E2820E6D09D7C9(L_0, (bool)1, NULL);
-		// }
 		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 ControlBuilder_At_mC5ADE238272B7B90A730AB2B6C54CEACD9A4B800_inline (ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15* __this, InputDevice_t8BCF67533E872A75779C24C93D1D7085B72D364B* ___device0, int32_t ___index1, const RuntimeMethod* method) 
 {
 	{
-		// device.m_ChildrenForEachControl[index] = control;
 		InputDevice_t8BCF67533E872A75779C24C93D1D7085B72D364B* L_0 = ___device0;
 		NullCheck(L_0);
 		InputControlU5BU5D_t0B951FEF1504D6340387C4735F5D6F426F40FE17* L_1 = L_0->___m_ChildrenForEachControl_34;
@@ -29910,14 +24030,12 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ControlBuilder_t9531519F44B76B04B
 		NullCheck(L_1);
 		ArrayElementTypeCheck (L_1, L_3);
 		(L_1)->SetAt(static_cast<il2cpp_array_size_t>(L_2), (InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E*)L_3);
-		// control.m_Device = device;
 		InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* L_4;
 		L_4 = ControlBuilder_get_control_m988C5EFC6631CDE6987FCC3C314FBDA9C37E0E30_inline(__this, NULL);
 		InputDevice_t8BCF67533E872A75779C24C93D1D7085B72D364B* L_5 = ___device0;
 		NullCheck(L_4);
 		L_4->___m_Device_9 = L_5;
 		Il2CppCodeGenWriteBarrier((void**)(&L_4->___m_Device_9), (void*)L_5);
-		// return this;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_6 = (*(ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15*)__this);
 		return L_6;
 	}
@@ -29925,14 +24043,12 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ControlBuilder_t9531519F44B76B04B
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 ControlBuilder_WithParent_m443238A4D9A120F991A0DD0D3CE792E2CA5D0C80_inline (ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15* __this, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___parent0, const RuntimeMethod* method) 
 {
 	{
-		// control.m_Parent = parent;
 		InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* L_0;
 		L_0 = ControlBuilder_get_control_m988C5EFC6631CDE6987FCC3C314FBDA9C37E0E30_inline(__this, NULL);
 		InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* L_1 = ___parent0;
 		NullCheck(L_0);
 		L_0->___m_Parent_10 = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&L_0->___m_Parent_10), (void*)L_1);
-		// return this;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2 = (*(ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15*)__this);
 		return L_2;
 	}
@@ -29940,19 +24056,16 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ControlBuilder_t9531519F44B76B04B
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 ControlBuilder_WithChildren_m926E7A1B156891F65B5A2856EE2D7BC497507CEC_inline (ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15* __this, int32_t ___startIndex0, int32_t ___count1, const RuntimeMethod* method) 
 {
 	{
-		// control.m_ChildStartIndex = startIndex;
 		InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* L_0;
 		L_0 = ControlBuilder_get_control_m988C5EFC6631CDE6987FCC3C314FBDA9C37E0E30_inline(__this, NULL);
 		int32_t L_1 = ___startIndex0;
 		NullCheck(L_0);
 		L_0->___m_ChildStartIndex_16 = L_1;
-		// control.m_ChildCount = count;
 		InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* L_2;
 		L_2 = ControlBuilder_get_control_m988C5EFC6631CDE6987FCC3C314FBDA9C37E0E30_inline(__this, NULL);
 		int32_t L_3 = ___count1;
 		NullCheck(L_2);
 		L_2->___m_ChildCount_15 = L_3;
-		// return this;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_4 = (*(ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15*)__this);
 		return L_4;
 	}
@@ -29960,7 +24073,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ControlBuilder_t9531519F44B76B04B
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 ControlBuilder_WithName_m7506A150252C16D8EA717AD106D03779395C5ADA_inline (ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15* __this, String_t* ___name0, const RuntimeMethod* method) 
 {
 	{
-		// control.m_Name = new InternedString(name);
 		InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* L_0;
 		L_0 = ControlBuilder_get_control_m988C5EFC6631CDE6987FCC3C314FBDA9C37E0E30_inline(__this, NULL);
 		String_t* L_1 = ___name0;
@@ -29973,7 +24085,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ControlBuilder_t9531519F44B76B04B
 		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
 		Il2CppCodeGenWriteBarrier((void**)&(((&L_0->___m_Name_1))->___m_StringLowerCase_1), (void*)NULL);
 		#endif
-		// return this;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_3 = (*(ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15*)__this);
 		return L_3;
 	}
@@ -29981,7 +24092,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ControlBuilder_t9531519F44B76B04B
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 ControlBuilder_WithDisplayName_m325CFB598477C68D7122784B4B93116E9701C290_inline (ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15* __this, String_t* ___displayName0, const RuntimeMethod* method) 
 {
 	{
-		// control.m_DisplayNameFromLayout = new InternedString(displayName);
 		InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* L_0;
 		L_0 = ControlBuilder_get_control_m988C5EFC6631CDE6987FCC3C314FBDA9C37E0E30_inline(__this, NULL);
 		String_t* L_1 = ___displayName0;
@@ -29993,7 +24103,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ControlBuilder_t9531519F44B76B04B
 		NullCheck(L_0);
 		L_0->___m_DisplayNameFromLayout_4 = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&L_0->___m_DisplayNameFromLayout_4), (void*)L_3);
-		// return this;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_4 = (*(ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15*)__this);
 		return L_4;
 	}
@@ -30001,7 +24110,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ControlBuilder_t9531519F44B76B04B
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 ControlBuilder_WithLayout_mE69F50DB223B391FD9CB7835460004D9A7AA80AA_inline (ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___layout0, const RuntimeMethod* method) 
 {
 	{
-		// control.m_Layout = layout;
 		InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* L_0;
 		L_0 = ControlBuilder_get_control_m988C5EFC6631CDE6987FCC3C314FBDA9C37E0E30_inline(__this, NULL);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_1 = ___layout0;
@@ -30011,7 +24119,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ControlBuilder_t9531519F44B76B04B
 		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
 		Il2CppCodeGenWriteBarrier((void**)&(((&L_0->___m_Layout_7))->___m_StringLowerCase_1), (void*)NULL);
 		#endif
-		// return this;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2 = (*(ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15*)__this);
 		return L_2;
 	}
@@ -30019,13 +24126,11 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ControlBuilder_t9531519F44B76B04B
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 ControlBuilder_IsSynthetic_m4555CF5C808F396EFC65892D90CC98911037C22F_inline (ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15* __this, bool ___value0, const RuntimeMethod* method) 
 {
 	{
-		// control.synthetic = value;
 		InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* L_0;
 		L_0 = ControlBuilder_get_control_m988C5EFC6631CDE6987FCC3C314FBDA9C37E0E30_inline(__this, NULL);
 		bool L_1 = ___value0;
 		NullCheck(L_0);
 		InputControl_set_synthetic_mC788F8B981CCA27755D02DFCD46C0FDC9FD77B5B(L_0, L_1, NULL);
-		// return this;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2 = (*(ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15*)__this);
 		return L_2;
 	}
@@ -30033,7 +24138,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ControlBuilder_t9531519F44B76B04B
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void InputStateBlock_set_byteOffset_mC5776F9F286F0658100E92A75A60EB25A1DDBD40_inline (InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5* __this, uint32_t ___value0, const RuntimeMethod* method) 
 {
 	{
-		// public uint byteOffset { get; set; }
 		uint32_t L_0 = ___value0;
 		__this->___U3CbyteOffsetU3Ek__BackingField_34 = L_0;
 		return;
@@ -30042,7 +24146,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void InputStateBlock_set_byteOffs
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void InputStateBlock_set_bitOffset_mB4F67CC1BF4EBB3152CEC64BECFF724C1416A163_inline (InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5* __this, uint32_t ___value0, const RuntimeMethod* method) 
 {
 	{
-		// public uint bitOffset { get; set; }
 		uint32_t L_0 = ___value0;
 		__this->___U3CbitOffsetU3Ek__BackingField_35 = L_0;
 		return;
@@ -30051,13 +24154,11 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void InputStateBlock_set_bitOffse
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline (ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15* __this, InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 ___stateBlock0, const RuntimeMethod* method) 
 {
 	{
-		// control.m_StateBlock = stateBlock;
 		InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* L_0;
 		L_0 = ControlBuilder_get_control_m988C5EFC6631CDE6987FCC3C314FBDA9C37E0E30_inline(__this, NULL);
 		InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 L_1 = ___stateBlock0;
 		NullCheck(L_0);
 		L_0->___m_StateBlock_0 = L_1;
-		// return this;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2 = (*(ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15*)__this);
 		return L_2;
 	}
@@ -30065,31 +24166,26 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ControlBuilder_t9531519F44B76B04B
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline (ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15* __this, const RuntimeMethod* method) 
 {
 	{
-		// control.isSetupFinished = true;
 		InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* L_0;
 		L_0 = ControlBuilder_get_control_m988C5EFC6631CDE6987FCC3C314FBDA9C37E0E30_inline(__this, NULL);
 		NullCheck(L_0);
 		InputControl_set_isSetupFinished_m261F46AF1FA214549675E23394E2820E6D09D7C9(L_0, (bool)1, NULL);
-		// }
 		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 ControlBuilder_WithUsages_mF3CB62381A394ACAB421BE7378E63A211787B9C1_inline (ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15* __this, int32_t ___startIndex0, int32_t ___count1, const RuntimeMethod* method) 
 {
 	{
-		// control.m_UsageStartIndex = startIndex;
 		InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* L_0;
 		L_0 = ControlBuilder_get_control_m988C5EFC6631CDE6987FCC3C314FBDA9C37E0E30_inline(__this, NULL);
 		int32_t L_1 = ___startIndex0;
 		NullCheck(L_0);
 		L_0->___m_UsageStartIndex_12 = L_1;
-		// control.m_UsageCount = count;
 		InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* L_2;
 		L_2 = ControlBuilder_get_control_m988C5EFC6631CDE6987FCC3C314FBDA9C37E0E30_inline(__this, NULL);
 		int32_t L_3 = ___count1;
 		NullCheck(L_2);
 		L_2->___m_UsageCount_11 = L_3;
-		// return this;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_4 = (*(ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15*)__this);
 		return L_4;
 	}
@@ -30097,13 +24193,11 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ControlBuilder_t9531519F44B76B04B
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 ControlBuilder_DontReset_mD81E0A7E983F4B91A863FEBE093F8191B9242144_inline (ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15* __this, bool ___value0, const RuntimeMethod* method) 
 {
 	{
-		// control.dontReset = value;
 		InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* L_0;
 		L_0 = ControlBuilder_get_control_m988C5EFC6631CDE6987FCC3C314FBDA9C37E0E30_inline(__this, NULL);
 		bool L_1 = ___value0;
 		NullCheck(L_0);
 		InputControl_set_dontReset_m56292E2D5FAB000EDD5821E99066CA94E392CA40(L_0, L_1, NULL);
-		// if (value)
 		bool L_2 = ___value0;
 		if (!L_2)
 		{
@@ -30111,7 +24205,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ControlBuilder_t9531519F44B76B04B
 		}
 	}
 	{
-		// control.m_Device.hasDontResetControls = true;
 		InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* L_3;
 		L_3 = ControlBuilder_get_control_m988C5EFC6631CDE6987FCC3C314FBDA9C37E0E30_inline(__this, NULL);
 		NullCheck(L_3);
@@ -30122,7 +24215,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ControlBuilder_t9531519F44B76B04B
 
 IL_0020:
 	{
-		// return this;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_5 = (*(ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15*)__this);
 		return L_5;
 	}
@@ -30130,20 +24222,17 @@ IL_0020:
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 ControlBuilder_WithDefaultState_mB348E8E6C5130A30CEE8A885C488065F496038F2_inline (ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15* __this, PrimitiveValue_t1CC37566F40746757D5E3F87474A05909D85C2D4 ___value0, const RuntimeMethod* method) 
 {
 	{
-		// control.m_DefaultState = value;
 		InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* L_0;
 		L_0 = ControlBuilder_get_control_m988C5EFC6631CDE6987FCC3C314FBDA9C37E0E30_inline(__this, NULL);
 		PrimitiveValue_t1CC37566F40746757D5E3F87474A05909D85C2D4 L_1 = ___value0;
 		NullCheck(L_0);
 		L_0->___m_DefaultState_18 = L_1;
-		// control.m_Device.hasControlsWithDefaultState = true;
 		InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* L_2;
 		L_2 = ControlBuilder_get_control_m988C5EFC6631CDE6987FCC3C314FBDA9C37E0E30_inline(__this, NULL);
 		NullCheck(L_2);
 		InputDevice_t8BCF67533E872A75779C24C93D1D7085B72D364B* L_3 = L_2->___m_Device_9;
 		NullCheck(L_3);
 		InputDevice_set_hasControlsWithDefaultState_mC8F5DCB4C54700278AE7F291D2C6052D5C528D07(L_3, (bool)1, NULL);
-		// return this;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_4 = (*(ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15*)__this);
 		return L_4;
 	}
@@ -30151,13 +24240,11 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ControlBuilder_t9531519F44B76B04B
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 ControlBuilder_IsButton_mCF3AD67106B0EC5A7FF0CB8CC0BD8F126D5205BF_inline (ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15* __this, bool ___value0, const RuntimeMethod* method) 
 {
 	{
-		// control.isButton = value;
 		InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* L_0;
 		L_0 = ControlBuilder_get_control_m988C5EFC6631CDE6987FCC3C314FBDA9C37E0E30_inline(__this, NULL);
 		bool L_1 = ___value0;
 		NullCheck(L_0);
 		InputControl_set_isButton_m862BB994D08F3488611839657F2381B12976C661(L_0, L_1, NULL);
-		// return this;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2 = (*(ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15*)__this);
 		return L_2;
 	}
@@ -30165,19 +24252,16 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ControlBuilder_t9531519F44B76B04B
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline (ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15* __this, PrimitiveValue_t1CC37566F40746757D5E3F87474A05909D85C2D4 ___min0, PrimitiveValue_t1CC37566F40746757D5E3F87474A05909D85C2D4 ___max1, const RuntimeMethod* method) 
 {
 	{
-		// control.m_MinValue = min;
 		InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* L_0;
 		L_0 = ControlBuilder_get_control_m988C5EFC6631CDE6987FCC3C314FBDA9C37E0E30_inline(__this, NULL);
 		PrimitiveValue_t1CC37566F40746757D5E3F87474A05909D85C2D4 L_1 = ___min0;
 		NullCheck(L_0);
 		L_0->___m_MinValue_19 = L_1;
-		// control.m_MaxValue = max;
 		InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* L_2;
 		L_2 = ControlBuilder_get_control_m988C5EFC6631CDE6987FCC3C314FBDA9C37E0E30_inline(__this, NULL);
 		PrimitiveValue_t1CC37566F40746757D5E3F87474A05909D85C2D4 L_3 = ___max1;
 		NullCheck(L_2);
 		L_2->___m_MaxValue_20 = L_3;
-		// return this;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_4 = (*(ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15*)__this);
 		return L_4;
 	}
@@ -30185,7 +24269,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ControlBuilder_t9531519F44B76B04B
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 ControlBuilder_WithShortDisplayName_m9813B2D8441E0A41980C3F203C3A75A0C1301A68_inline (ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15* __this, String_t* ___shortDisplayName0, const RuntimeMethod* method) 
 {
 	{
-		// control.m_ShortDisplayNameFromLayout = new InternedString(shortDisplayName);
 		InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* L_0;
 		L_0 = ControlBuilder_get_control_m988C5EFC6631CDE6987FCC3C314FBDA9C37E0E30_inline(__this, NULL);
 		String_t* L_1 = ___shortDisplayName0;
@@ -30197,7 +24280,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ControlBuilder_t9531519F44B76B04B
 		NullCheck(L_0);
 		L_0->___m_ShortDisplayNameFromLayout_6 = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&L_0->___m_ShortDisplayNameFromLayout_6), (void*)L_3);
-		// return this;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_4 = (*(ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15*)__this);
 		return L_4;
 	}
@@ -30205,7 +24287,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ControlBuilder_t9531519F44B76B04B
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR InputDevice_t8BCF67533E872A75779C24C93D1D7085B72D364B* DeviceBuilder_get_device_m3D80AEE1900BA7EFE23D943080C3DA9A2D8268AB_inline (DeviceBuilder_t3D3A66799A2B6B6282AC2FB71B1DE5034E668CC4* __this, const RuntimeMethod* method) 
 {
 	{
-		// public InputDevice device { get; internal set; }
 		InputDevice_t8BCF67533E872A75779C24C93D1D7085B72D364B* L_0 = __this->___U3CdeviceU3Ek__BackingField_0;
 		return L_0;
 	}
@@ -30213,7 +24294,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR InputDevice_t8BCF67533E872A75779C
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ControlBuilder_get_control_m988C5EFC6631CDE6987FCC3C314FBDA9C37E0E30_inline (ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15* __this, const RuntimeMethod* method) 
 {
 	{
-		// public InputControl control { get; internal set; }
 		InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* L_0 = __this->___U3CcontrolU3Ek__BackingField_0;
 		return L_0;
 	}
