@@ -1,11 +1,8 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.XR;
-using Unity.VisualScripting;
 using UnityEngine.SceneManagement;
-using UnityEditor.PackageManager;
 
 public class GameManager : MonoBehaviour
 {
@@ -20,7 +17,10 @@ public class GameManager : MonoBehaviour
     List<XRNodeState> nodes;
 
     private Vector3 Head_pos;
-    private Vector3 user_initial_pos;
+    private Vector3 prev_pos;
+    private bool paused = false;
+    private bool prev_state = false;
+    private float curv_gain;
 
     private void Start()
     {
@@ -33,7 +33,7 @@ public class GameManager : MonoBehaviour
             if (node.nodeType == XRNode.Head)
             {
                 node.TryGetPosition(out Head_pos);
-                user_initial_pos = Head_pos;
+                prev_pos = Head_pos;
             }
         }
 
@@ -45,24 +45,37 @@ public class GameManager : MonoBehaviour
         desk.transform.localScale = new Vector3(.5f, deskHeight, 1);
         desk.transform.position = new Vector3(desk.transform.position.x, deskHeight / 2.0f, desk.transform.position.z);
 
-        zigzag.transform.position=new Vector3(zigzag.transform.position.x, desk.transform.position.y+1f, zigzag.transform.position.z);
-
         //Place stick on top of the desk
         stick.transform.position = new Vector3(desk.transform.position.x, deskHeight + 0.025f, desk.transform.position.z);
 
-
+        curv_gain = (180 * (1 / radius)) / Mathf.PI;
+        curv_gain = Mathf.Round(curv_gain * 1000f) / 1000f;
     }
+
     private void Update()
     {
 
         InputDevice rightHand = InputDevices.GetDeviceAtXRNode(XRNode.RightHand);
         if (rightHand.isValid)
         {
+            
             bool buttonPressed;
             rightHand.TryGetFeatureValue(CommonUsages.primaryButton, out buttonPressed);
             if (buttonPressed)
             {
                 SceneManager.LoadScene(0);
+            }
+
+            bool pause_button;
+            bool button_pressed = rightHand.TryGetFeatureValue(CommonUsages.secondaryButton, out pause_button) && pause_button;
+            if (button_pressed != prev_state)
+            {
+                if (button_pressed)
+                {
+                    Time.timeScale = paused ? 1 : 0;
+                    paused = !paused;
+                }
+                prev_state = button_pressed;
             }
         }
 
@@ -72,25 +85,34 @@ public class GameManager : MonoBehaviour
             if (node.nodeType == XRNode.Head)
             {
                 node.TryGetPosition(out Head_pos);
-                debugText.SetText(Head_pos.ToString());
+                /*debugText.SetText(Head_pos.ToString());*/
                 /*node.TryGetRotation(out Head_rot);*/
             }
 
         }
 
-        float distance_travelled = Mathf.Abs(Head_pos.x - user_initial_pos.x);
-        float ratio = (180*(1/radius))/Mathf.PI;
+        float delta_d = Mathf.Abs(Head_pos.x - prev_pos.x);
+        delta_d = Mathf.Round(delta_d * 10f) / 10f;
 
-        Quaternion currentQ = Env.transform.localRotation;
-        Vector3 currentRot = Env.transform.localEulerAngles;
-        float deltaY = distance_travelled * ratio;
-        float newYrot = currentRot.y - deltaY;
+        //debugText.SetText(delta_d.ToString());
 
-        Vector3 newRot = new Vector3(currentQ.x, newYrot, currentQ.z);
-        currentQ.eulerAngles = newRot;
-        Env.transform.rotation = currentQ;
+        if(delta_d > 0)
+        {
+            Quaternion currentQ = Env.transform.localRotation;
+            Vector3 currentRot = Env.transform.localEulerAngles;
+            float deltaY = delta_d * curv_gain;
+            float newYrot = currentRot.y - deltaY;
 
-        debugText.text = debugText.text +"\n distance traveled: " + distance_travelled + "\n current rotation: "+ newRot.ToString();
+            Vector3 newRot = new Vector3(currentQ.x, newYrot, currentQ.z);
+            currentQ.eulerAngles = newRot;
+            Env.transform.rotation = currentQ;
+
+          /*  debugText.SetText("\n delta dist: " + delta_d +
+                "\n delta y: " + deltaY.ToString() + "\n current rotation: " + newRot.ToString());*/
+
+            prev_pos = Head_pos;
+        }
+       
 
     }
 }

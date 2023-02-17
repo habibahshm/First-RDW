@@ -18,15 +18,10 @@ public class Wall : MonoBehaviour
     {
       
         stickScript = GameObject.FindWithTag("Player").GetComponent<Stick>();
-        lineScript = GameObject.Find("--Static--/Vector_zigzag").GetComponent<Linw>();
+        lineScript = GameObject.Find("--Static--/zigzag").GetComponent<Linw>();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
+ 
     private void OnTriggerStay(Collider other)
     {
         if(stickScript != null && lineScript!=null && other.CompareTag("Player") && !lineScript.onLine)

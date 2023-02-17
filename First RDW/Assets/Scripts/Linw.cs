@@ -10,7 +10,6 @@ public class Linw : MonoBehaviour
     // Start is called before the first frame update
     [SerializeField] private TextMeshProUGUI debugText;
     private Stick stickScript;
-    private float z_tol = 0.05f;
     public bool onLine = false;
 
     void Start()
@@ -18,35 +17,36 @@ public class Linw : MonoBehaviour
         stickScript = GameObject.FindWithTag("Player").GetComponent<Stick>();
     }
 
-    // Update is called once per frame
-    void Update()
+    private void OnTriggerEnter(Collider other)
     {
-        
+        debugText.SetText("trigeeres - FUCK!!!");
     }
 
-    private void OnTriggerStay2D(Collider2D collision)
+    private void OnCollisionEnter(Collision collision)
     {
-        
+        debugText.SetText("entered");
+    }
+
+    private void OnCollisionStay(Collision collision)
+    {
         /*debugText.text = "line z: " + transform.position.z + "\n collision name: " + collision.gameObject.name
-                + "\n stick pos: " + collision.gameObject.transform.position.z;*/ 
-        if (collision.CompareTag("Player"))
+               + "\n stick pos: " + collision.gameObject.transform.position.z;*/
+        if (collision.gameObject.CompareTag("Player"))
         {
 
-            if (stickScript != null && Mathf.Abs(collision.gameObject.transform.position.z-transform.position.z)<=z_tol )
-            {
-
-                debugText.SetText("collided");
-                onLine = true;
-
-            }
+            debugText.SetText("collided");
+            onLine = true;
 
         }
     }
 
-    private void OnTriggerExit2D(Collider2D collision)
+    private void OnCollisionExit(Collision collision)
     {
-        debugText.SetText("exited");
-        onLine=false;
-    }
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            debugText.SetText("exited linw col");
+            onLine = false;
+        }
+     }
 
 }
