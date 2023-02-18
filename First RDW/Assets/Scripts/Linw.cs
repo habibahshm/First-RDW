@@ -19,19 +19,14 @@ public class Linw : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        debugText.SetText("trigeeres - FUCK!!!");
+        debugText.SetText("trigeeres");
     }
 
-    private void OnCollisionEnter(Collision collision)
-    {
-        debugText.SetText("entered");
-    }
-
-    private void OnCollisionStay(Collision collision)
+    private void OnTriggerStay(Collider other)
     {
         /*debugText.text = "line z: " + transform.position.z + "\n collision name: " + collision.gameObject.name
-               + "\n stick pos: " + collision.gameObject.transform.position.z;*/
-        if (collision.gameObject.CompareTag("Player"))
+              + "\n stick pos: " + collision.gameObject.transform.position.z;*/
+        if (other.gameObject.CompareTag("Player"))
         {
 
             debugText.SetText("collided");
@@ -40,13 +35,13 @@ public class Linw : MonoBehaviour
         }
     }
 
-    private void OnCollisionExit(Collision collision)
+    private void OnTriggerExit(Collider other)
     {
-        if (collision.gameObject.CompareTag("Player"))
+        if (other.gameObject.CompareTag("Player"))
         {
             debugText.SetText("exited linw col");
             onLine = false;
         }
-     }
-
+    }
+    
 }

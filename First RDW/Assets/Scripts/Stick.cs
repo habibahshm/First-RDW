@@ -21,9 +21,4 @@ public class Stick : XRGrabInteractable
         
     }
 
-
-    private void OnTriggerEnter(Collider other)
-    {
-    }
-
 }

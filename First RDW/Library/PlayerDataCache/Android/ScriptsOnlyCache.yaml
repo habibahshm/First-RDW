@@ -3,8 +3,6 @@ ScriptsOnlyBuild:
     Assembly-CSharp.dll:
     - GameManager
     - Linw
-    - SAMeshCollider
-    - SAMeshColliderBuilder
     - Stick
     - Wall
     Unity.InputSystem.dll:
@@ -87,8 +85,6 @@ ScriptsOnlyBuild:
     Unity.XR.Management.dll:
     - UnityEngine.XR.Management.XRGeneralSettings
     - UnityEngine.XR.Management.XRManagerSettings
-    Unity.XR.Oculus.dll:
-    - Unity.XR.Oculus.OculusSettings
     Unity.XR.OpenXR.Editor.dll:
     - UnityEditor.XR.OpenXR.OpenXRPackageSettings
     Unity.XR.OpenXR.Features.ConformanceAutomation.dll:
@@ -130,15 +126,6 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Toggle
     - UnityEngine.UI.VerticalLayoutGroup
   serializedClasses:
-    Assembly-CSharp:
-    - SAColliderBuilderCommon/Bool3
-    - SAColliderBuilderCommon/ColliderProperty
-    - SAColliderBuilderCommon/ReducerProperty
-    - SAColliderBuilderCommon/RigidbodyProperty
-    - SAMeshColliderCommon/SAMeshColliderBuilderProperty
-    - SAMeshColliderCommon/SAMeshColliderProperty
-    - SAMeshColliderCommon/SplitMesh
-    - SAMeshColliderCommon/SplitProperty
     Unity.InputSystem:
     - UnityEngine.InputSystem.InputAction
     - UnityEngine.InputSystem.InputActionMap
@@ -305,129 +292,125 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2776}
     - Class: 114
-      Script: {instanceID: 2856}
+      Script: {instanceID: 2960}
     - Class: 114
-      Script: {instanceID: 2962}
+      Script: {instanceID: 3300}
     - Class: 114
-      Script: {instanceID: 3302}
+      Script: {instanceID: 3420}
     - Class: 114
-      Script: {instanceID: 3422}
+      Script: {instanceID: 3488}
     - Class: 114
-      Script: {instanceID: 3490}
+      Script: {instanceID: 3630}
     - Class: 114
-      Script: {instanceID: 3632}
+      Script: {instanceID: 3884}
     - Class: 114
-      Script: {instanceID: 3888}
+      Script: {instanceID: 4184}
     - Class: 114
-      Script: {instanceID: 4190}
+      Script: {instanceID: 4642}
     - Class: 114
-      Script: {instanceID: 4650}
+      Script: {instanceID: 4944}
     - Class: 114
-      Script: {instanceID: 4954}
+      Script: {instanceID: 4946}
     - Class: 114
-      Script: {instanceID: 4956}
+      Script: {instanceID: 5052}
     - Class: 114
-      Script: {instanceID: 5062}
+      Script: {instanceID: 5120}
     - Class: 114
-      Script: {instanceID: 5130}
+      Script: {instanceID: 5286}
     - Class: 114
-      Script: {instanceID: 5298}
+      Script: {instanceID: 5308}
     - Class: 114
-      Script: {instanceID: 5320}
+      Script: {instanceID: 5768}
     - Class: 114
-      Script: {instanceID: 5782}
+      Script: {instanceID: 5774}
     - Class: 114
-      Script: {instanceID: 5788}
+      Script: {instanceID: 5840}
     - Class: 114
-      Script: {instanceID: 5854}
+      Script: {instanceID: 5936}
     - Class: 114
-      Script: {instanceID: 5950}
+      Script: {instanceID: 6012}
     - Class: 114
-      Script: {instanceID: 6026}
+      Script: {instanceID: 6388}
     - Class: 114
-      Script: {instanceID: 6408}
+      Script: {instanceID: 6400}
     - Class: 114
-      Script: {instanceID: 6420}
+      Script: {instanceID: 6594}
     - Class: 114
-      Script: {instanceID: 6614}
+      Script: {instanceID: 6952}
     - Class: 114
-      Script: {instanceID: 6972}
+      Script: {instanceID: 7228}
     - Class: 114
-      Script: {instanceID: 7066}
+      Script: {instanceID: 7264}
     - Class: 114
-      Script: {instanceID: 7250}
+      Script: {instanceID: 7398}
     - Class: 114
-      Script: {instanceID: 7286}
+      Script: {instanceID: 8214}
     - Class: 114
-      Script: {instanceID: 7420}
+      Script: {instanceID: 8284}
     - Class: 114
-      Script: {instanceID: 8238}
+      Script: {instanceID: 8426}
     - Class: 114
-      Script: {instanceID: 8308}
+      Script: {instanceID: 8618}
     - Class: 114
-      Script: {instanceID: 8450}
+      Script: {instanceID: 9148}
     - Class: 114
-      Script: {instanceID: 8644}
+      Script: {instanceID: 9240}
     - Class: 114
-      Script: {instanceID: 9174}
+      Script: {instanceID: 9464}
     - Class: 114
-      Script: {instanceID: 9266}
+      Script: {instanceID: 9542}
     - Class: 114
-      Script: {instanceID: 9490}
+      Script: {instanceID: 9658}
     - Class: 114
-      Script: {instanceID: 9568}
+      Script: {instanceID: 9672}
     - Class: 114
-      Script: {instanceID: 9684}
+      Script: {instanceID: 9796}
     - Class: 114
-      Script: {instanceID: 9698}
+      Script: {instanceID: 9804}
     - Class: 114
-      Script: {instanceID: 9822}
+      Script: {instanceID: 9908}
     - Class: 114
-      Script: {instanceID: 9830}
+      Script: {instanceID: 9930}
     - Class: 114
-      Script: {instanceID: 9934}
+      Script: {instanceID: 10158}
     - Class: 114
-      Script: {instanceID: 9956}
+      Script: {instanceID: 10230}
     - Class: 114
-      Script: {instanceID: 10184}
+      Script: {instanceID: 10594}
     - Class: 114
-      Script: {instanceID: 10256}
+      Script: {instanceID: 10866}
     - Class: 114
-      Script: {instanceID: 10620}
+      Script: {instanceID: 10926}
     - Class: 114
-      Script: {instanceID: 10892}
+      Script: {instanceID: 11122}
     - Class: 114
-      Script: {instanceID: 10952}
+      Script: {instanceID: 11372}
     - Class: 114
-      Script: {instanceID: 11148}
+      Script: {instanceID: 11374}
     - Class: 114
-      Script: {instanceID: 11400}
+      Script: {instanceID: 11460}
     - Class: 114
-      Script: {instanceID: 11402}
+      Script: {instanceID: 11690}
     - Class: 114
-      Script: {instanceID: 11488}
+      Script: {instanceID: 11830}
     - Class: 114
-      Script: {instanceID: 11718}
+      Script: {instanceID: 11930}
     - Class: 114
-      Script: {instanceID: 11858}
+      Script: {instanceID: 12016}
     - Class: 114
-      Script: {instanceID: 11958}
+      Script: {instanceID: 12146}
     - Class: 114
-      Script: {instanceID: 12044}
+      Script: {instanceID: 12252}
     - Class: 114
-      Script: {instanceID: 12174}
+      Script: {instanceID: 12308}
     - Class: 114
-      Script: {instanceID: 12280}
+      Script: {instanceID: 12600}
     - Class: 114
-      Script: {instanceID: 12338}
+      Script: {instanceID: 12928}
     - Class: 114
-      Script: {instanceID: 12630}
+      Script: {instanceID: 13340}
     - Class: 114
-      Script: {instanceID: 12960}
-    - Class: 114
-      Script: {instanceID: 13374}
-    - Class: 114
-      Script: {instanceID: 13422}
+      Script: {instanceID: 13388}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -633,12 +616,6 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Linw
-  - hash:
-      serializedVersion: 2
-      Hash: f0898cc1c28d55f552b7123edaf80d3a
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: SAMeshCollider
   - hash:
       serializedVersion: 2
       Hash: bf8e7513a6a15e836c34b697fcf2ccd7
@@ -1013,12 +990,6 @@ ScriptsOnlyBuild:
     className: RemoteInputPlayerConnection
   - hash:
       serializedVersion: 2
-      Hash: ecb3012fd8df1fae485053df31f08a2c
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: SABoneColliderBuilder
-  - hash:
-      serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
@@ -1217,12 +1188,6 @@ ScriptsOnlyBuild:
     className: TouchSimulation
   - hash:
       serializedVersion: 2
-      Hash: 9140c06985f685ef082e2223bc2919c1
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: SABoneCollider
-  - hash:
-      serializedVersion: 2
       Hash: 025bdbbac891319c37c06a246a2a62b8
     assemblyName: Unity.XR.Interaction.Toolkit.dll
     namespaceName: UnityEngine.XR.Interaction.Toolkit
@@ -1245,12 +1210,6 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Outline
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: SABoneColliderChild
   - hash:
       serializedVersion: 2
       Hash: 116a5d45ac93b8a51d0a895f4b9c4df2
@@ -1365,12 +1324,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
     namespaceName: UnityEngine.Rendering.Universal
     className: DecalProjector
-  - hash:
-      serializedVersion: 2
-      Hash: 40123b7dfef53b71eb0c395359c6e5b0
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: SAMeshColliderBuilder
   - hash:
       serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
