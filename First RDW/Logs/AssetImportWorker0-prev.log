@@ -15,7 +15,7 @@ C:/Users/habib/OneDrive/Desktop/First-RDW/First RDW
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49974
+50415
 Successfully changed project path to: C:/Users/habib/OneDrive/Desktop/First-RDW/First RDW
 C:/Users/habib/OneDrive/Desktop/First-RDW/First RDW
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,8 +47,8 @@ C:/Users/habib/OneDrive/Desktop/First-RDW/First RDW
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 96.77 ms, found 11 plugins.
-Preloading 1 native plugins for Editor in 0.39 ms.
+Refreshing native plugins compatible for Editor in 115.41 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.83 ms.
 Initialize engine version: 2022.1.23f1 (9636b062134a)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.1.23f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/habib/OneDrive/Desktop/First-RDW/First RDW/Assets
@@ -63,213 +63,214 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.1.23f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.1.23f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.1.23f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56840
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56768
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.23f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.23f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003828 seconds.
+Registered in 0.003551 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 101.23 ms, found 11 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
+Refreshing native plugins compatible for Editor in 115.17 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.571 seconds
+- Completed reload, in  0.694 seconds
 Domain Reload Profiling:
-	ReloadAssembly (572ms)
-		BeginReloadAssembly (51ms)
+	ReloadAssembly (694ms)
+		BeginReloadAssembly (73ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (436ms)
-			LoadAssemblies (49ms)
+		EndReloadAssembly (528ms)
+			LoadAssemblies (71ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (88ms)
-				TypeCache.Initialize (88ms)
-					TypeCache.ScanAssembly (87ms)
+			SetupTypeCache (119ms)
+				TypeCache.Initialize (118ms)
+					TypeCache.ScanAssembly (117ms)
 				ResolveRequiredComponents (0ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (22ms)
-			SetupLoadedEditorAssemblies (286ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (340ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (44ms)
-				SetLoadedEditorAssemblies (8ms)
-				RefreshPlugins (101ms)
-				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (89ms)
-				ProcessInitializeOnLoadMethodAttributes (41ms)
+				InitializePlatformSupportModulesInManaged (69ms)
+				SetLoadedEditorAssemblies (21ms)
+				RefreshPlugins (115ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (96ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.008223 seconds.
+Registered in 0.007535 seconds.
+Android Extension - Scanning For ADB Devices 4167 ms
 Begin MonoManager ReloadAssembly
-Symbol file data-000002DB3A51B8D0 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-000001C7B8C80830 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DB3B6F4190 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.003.dll
+Symbol file data-000001C7B98FC9B0 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.003.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DB3BA09080 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file data-000001C7B9BD6020 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DB3B8D9C20 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-000001C7B8D58C50 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DB3A522AE0 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Services.Core.Telemetry.dll
+Symbol file data-000001C7B8D5FE60 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Services.Core.Telemetry.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DB3B115A30 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.VectorGraphics.dll
+Symbol file data-000001C7B8C80830 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.VectorGraphics.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DB3B6F4190 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Services.Core.Networking.dll
+Symbol file data-000001C7B98FC9B0 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Services.Core.Networking.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DB3A522AE0 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file data-000001C7B8C80830 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DB397C3090 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-000001C7B8C80830 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DB3B12C240 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file data-000001C7B8C80830 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DB3B5C3E30 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file data-000001C7BAA8CE20 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DB3B8E1C30 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Burst.CodeGen.dll
+Symbol file data-000001C7B8C8C040 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Burst.CodeGen.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DB3B6F4190 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file data-000001C7B98FC9B0 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DB3B8E1C30 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-000001C7BA070240 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DB35CD2020 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.InputSystem.dll
+Symbol file data-000001C7B8942020 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.InputSystem.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DB3B8E1C30 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-000001C7BA070240 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DB3BA09080 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file data-000001C7B9BD6020 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DB3A45A020 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Services.Core.Internal.dll
+Symbol file data-000001C7B8C8C040 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Services.Core.Internal.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DB3B5C3E30 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
+Symbol file data-000001C7BAA8CE20 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DB39F4F050 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-000001C7BA9CC010 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DB3B5C3E30 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Services.Core.Configuration.dll
+Symbol file data-000001C7BAA8CE20 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Services.Core.Configuration.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DB3A4AF050 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.XR.CoreUtils.Editor.dll
+Symbol file data-000001C7BA9CC010 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.XR.CoreUtils.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DB35CD2020 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file data-000001C7B8942020 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DB3B5C3E30 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Services.Core.Configuration.Editor.dll
+Symbol file data-000001C7BAA8CE20 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Services.Core.Configuration.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DB397ECEB0 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Services.Core.Registration.dll
+Symbol file data-000001C7B832DB40 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Services.Core.Registration.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DB3B6F4190 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Services.Core.Environments.Internal.dll
+Symbol file data-000001C7B98FC9B0 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Services.Core.Environments.Internal.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DB3B6F4190 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file data-000001C7B98FC9B0 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DB3A4B7060 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.XR.Management.dll
+Symbol file data-000001C7BA9D4020 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.XR.Management.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DB39F79460 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-000001C7BAA0BB40 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DB39F79460 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file data-000001C7BA9D4020 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DB3B6F4190 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Services.Core.Threading.dll
+Symbol file data-000001C7B98FC9B0 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Services.Core.Threading.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DB39F81470 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.RuntimeDebugger.dll
+Symbol file data-000001C7BA9D4020 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.RuntimeDebugger.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DB39F88C80 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.XR.Oculus.Editor.dll
+Symbol file data-000001C7BAA18B60 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.XR.Oculus.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DB39F88C80 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file data-000001C7B7F00080 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DB3B034020 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file data-000001C7B89DE030 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DB3A4BC870 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\PPv2URPConverters.dll
+Symbol file data-000001C7B98FC9B0 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\PPv2URPConverters.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DB3B3B1C30 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-000001C7B8C3CC20 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DB3A4BC870 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.OculusQuestSupport.Editor.dll
+Symbol file data-000001C7BA9D4020 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.OculusQuestSupport.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DB3B3B9C40 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-000001C7B8C3CC20 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DB39FA6A90 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll
+Symbol file data-000001C7B8C3CC20 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DB3B06CE40 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-000001C7B8A12850 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DB39E2B610 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file data-000001C7B9F7B010 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DB3B06CE40 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-000001C7B7F24A90 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DB3B6F4190 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.003.dll
+Symbol file data-000001C7B98FC9B0 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.003.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DB39E97620 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Burst.Editor.dll
+Symbol file data-000001C7B7F4DAA0 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Burst.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DB39C91820 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.dll
+Symbol file data-000001C7B9D5A020 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DB3A4BC870 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.MockRuntime.dll
+Symbol file data-000001C7BA9D4020 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.MockRuntime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DB3B095E50 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file data-000001C7B8A12850 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DB3A2A6010 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file data-000001C7B9D88C30 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DB3A2FCE20 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file data-000001C7B99FCE30 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DB3A2FCE20 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file data-000001C7B99FCE30 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DB3B6F4190 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.OculusQuestSupport.dll
+Symbol file data-000001C7B7F5DAB0 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.OculusQuestSupport.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DB3B3C1C50 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Services.Core.dll
+Symbol file data-000001C7B7F5DAB0 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Services.Core.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DB3A2FCE20 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file data-000001C7B99FCE30 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DB39D5AF70 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file data-000001C7B99FCE30 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Mathematics.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DB3B3C1C50 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file data-000001C7B9DDFA40 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DB3B6F4190 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Services.Core.Analytics.dll
+Symbol file data-000001C7B7F5DAB0 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Services.Core.Analytics.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DB39D5AF70 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Burst.dll
+Symbol file data-000001C7B496CEE0 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Burst.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DB35F61EC0 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file data-000001C7B47AE090 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DB3B3C1C50 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
+Symbol file data-000001C7B9DDFA40 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DB3B3C1C50 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file data-000001C7B7F5DAB0 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DB3B3C1C50 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.XR.OpenXR.Editor.dll
+Symbol file data-000001C7B8A22860 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.XR.OpenXR.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DB3B6F4190 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Services.Core.Environments.dll
+Symbol file data-000001C7B7F5DAB0 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Services.Core.Environments.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DB3B3C1C50 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Services.Core.Scheduler.dll
+Symbol file data-000001C7B7F5DAB0 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Services.Core.Scheduler.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DB36018CD0 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-000001C7B840F010 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DB3A356430 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.XR.CoreUtils.dll
+Symbol file data-000001C7B9DDFA40 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.XR.CoreUtils.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DB3BA09080 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file data-000001C7BB0BDF60 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DB3B3C7E60 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
+Symbol file data-000001C7B7F5DAB0 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DB39CC0430 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.VectorGraphics.Editor.dll
+Symbol file data-000001C7B9EA9850 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.VectorGraphics.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DB39CC0430 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.XR.OpenXR.dll
+Symbol file data-000001C7B49892F0 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.XR.OpenXR.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DB3B2E8230 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.Editor.dll
+Symbol file data-000001C7B47D58A0 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DB39CC0430 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.XR.Oculus.dll
+Symbol file data-000001C7B9EA9850 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.XR.Oculus.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DB3A4BC870 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
+Symbol file data-000001C7B7F5DAB0 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DB3A4BC870 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.ConformanceAutomation.dll
+Symbol file data-000001C7B7F5DAB0 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.ConformanceAutomation.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DB360CCC20 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file data-000001C7B849A420 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DB3A4BC870 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.RuntimeDebugger.Editor.dll
+Symbol file data-000001C7B7F5DAB0 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.RuntimeDebugger.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DB3A356430 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file data-000001C7B47E0AB0 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DB3A4BC870 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Services.Core.Device.dll
+Symbol file data-000001C7B7F5DAB0 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Services.Core.Device.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Symbol file LoadedFromMemory doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 111.62 ms, found 11 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
+Refreshing native plugins compatible for Editor in 89.09 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
@@ -296,46 +297,46 @@ Mono: successfully reloaded assembly
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Completed reload, in  1.313 seconds
+- Completed reload, in  1.187 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1314ms)
-		BeginReloadAssembly (183ms)
+	ReloadAssembly (1188ms)
+		BeginReloadAssembly (82ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (113ms)
-		EndReloadAssembly (1038ms)
-			LoadAssemblies (71ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (1020ms)
+			LoadAssemblies (65ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (224ms)
-				TypeCache.Initialize (216ms)
-					TypeCache.ScanAssembly (213ms)
+			SetupTypeCache (243ms)
+				TypeCache.Initialize (235ms)
+					TypeCache.ScanAssembly (232ms)
 				ResolveRequiredComponents (8ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (64ms)
-			SetupLoadedEditorAssemblies (612ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (605ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (12ms)
-				SetLoadedEditorAssemblies (5ms)
-				RefreshPlugins (112ms)
-				BeforeProcessingInitializeOnLoad (113ms)
-				ProcessInitializeOnLoadAttributes (282ms)
-				ProcessInitializeOnLoadMethodAttributes (82ms)
-				AfterProcessingInitializeOnLoad (5ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (6ms)
+				RefreshPlugins (89ms)
+				BeforeProcessingInitializeOnLoad (96ms)
+				ProcessInitializeOnLoadAttributes (304ms)
+				ProcessInitializeOnLoadMethodAttributes (95ms)
+				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.95 ms, found 11 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
-Unloading 6043 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 53 unused Assets / (389.5 KB). Loaded Objects now: 6491.
+Refreshing native plugins compatible for Editor in 0.82 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Unloading 6026 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 53 unused Assets / (389.5 KB). Loaded Objects now: 6474.
 Memory consumption went from 0.94 GB to 0.94 GB.
-Total: 3.080000 ms (FindLiveObjects: 0.327900 ms CreateObjectMapping: 0.182700 ms MarkObjects: 2.379500 ms  DeleteObjects: 0.188800 ms)
+Total: 3.344400 ms (FindLiveObjects: 0.343400 ms CreateObjectMapping: 0.234700 ms MarkObjects: 2.605500 ms  DeleteObjects: 0.160000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -349,269 +350,177 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 296.012792 seconds.
-  path: Assets/zigzag.fbx
-  artifactKey: Guid(cf02d4c11d4c2d643802bf9be117673b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/zigzag.fbx using Guid(cf02d4c11d4c2d643802bf9be117673b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68211e78b05b510cf43f7e7264ee4bb5') in 0.239903 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.405418 seconds.
-  path: Assets/_XRITemplate/Environment/Materials/Light_White.mat
-  artifactKey: Guid(a15eb7313f6484343bbdbb958c0acf49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_XRITemplate/Environment/Materials/Light_White.mat using Guid(a15eb7313f6484343bbdbb958c0acf49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c9e552a9d6fb22109970bb7db2424b0') in 0.027674 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/_XRITemplate/Environment/Materials/Water_Plane.mat
-  artifactKey: Guid(6ba821b81fc6f184a845a22057db18e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_XRITemplate/Environment/Materials/Water_Plane.mat using Guid(6ba821b81fc6f184a845a22057db18e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bd6ec1746e14490fb3db16de269250f') in 0.031198 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/_XRITemplate/Environment/Materials/stucco5.mat
-  artifactKey: Guid(484cff06ebc737c4d91da37e869ede17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_XRITemplate/Environment/Materials/stucco5.mat using Guid(484cff06ebc737c4d91da37e869ede17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9802bf606ce69ea672bfbca61154a23') in 0.191688 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/_XRITemplate/Environment/Materials/Skybox.mat
-  artifactKey: Guid(1e8a716d9f6a33a4d8c6f7ce6b95219d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_XRITemplate/Environment/Materials/Skybox.mat using Guid(1e8a716d9f6a33a4d8c6f7ce6b95219d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2c86a7ede658ac694e2c76c46fe5e22') in 0.013509 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/_XRITemplate/Environment/Materials/Waterfall_Rings.mat
-  artifactKey: Guid(c8957b06587cb8a48b3992b74ef201b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_XRITemplate/Environment/Materials/Waterfall_Rings.mat using Guid(c8957b06587cb8a48b3992b74ef201b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f09f5f280dc277cc9338b2870fe09540') in 0.019921 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/_XRITemplate/Environment/Materials/Waterfall_Plane.mat
-  artifactKey: Guid(2c718abf6011f4b4d8538f3abe8f6f7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_XRITemplate/Environment/Materials/Waterfall_Plane.mat using Guid(2c718abf6011f4b4d8538f3abe8f6f7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2f5d689afcdd82181e76e5fa0a37bc7') in 0.019274 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/_XRITemplate/Environment/Materials/Wood.mat
-  artifactKey: Guid(027cb3d3d7dc79d41ad763e01759de07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_XRITemplate/Environment/Materials/Wood.mat using Guid(027cb3d3d7dc79d41ad763e01759de07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86ee12a5ca73a7e3919e65388d95fba8') in 0.124081 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/_XRITemplate/Environment/Materials/Waterfall_Flow.mat
-  artifactKey: Guid(59a37a0446eae52458a6c7ae5577ff56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_XRITemplate/Environment/Materials/Waterfall_Flow.mat using Guid(59a37a0446eae52458a6c7ae5577ff56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e16ed5822dc0355e50e4dc4b1cb45541') in 0.015777 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.176875 seconds.
-  path: Assets/_XRITemplate/Environment/Materials/DistantTerrain2.mat
-  artifactKey: Guid(9173cee226a106047bd92c8943277ee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_XRITemplate/Environment/Materials/DistantTerrain2.mat using Guid(9173cee226a106047bd92c8943277ee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7600602de1fbcdf76e4b203aeaf94d12') in 0.011226 seconds 
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 8.15 ms, found 11 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-Unloading 46 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 43 unused Assets / (347.2 KB). Loaded Objects now: 6618.
-Memory consumption went from 144.8 MB to 144.4 MB.
-Total: 4.312200 ms (FindLiveObjects: 0.346300 ms CreateObjectMapping: 0.194600 ms MarkObjects: 3.702200 ms  DeleteObjects: 0.067900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 8.31 ms, found 11 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
-Unloading 43 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 43 unused Assets / (346.7 KB). Loaded Objects now: 6618.
-Memory consumption went from 144.0 MB to 143.7 MB.
-Total: 4.309300 ms (FindLiveObjects: 0.323400 ms CreateObjectMapping: 0.190800 ms MarkObjects: 3.731100 ms  DeleteObjects: 0.062900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  Time since last request: 4921.086484 seconds.
+  path: Assets/Scripts/Linw.cs
+  artifactKey: Guid(7dfb0dbec0fc2fa458f1eba449744b7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Linw.cs using Guid(7dfb0dbec0fc2fa458f1eba449744b7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aad29e998ec82090d1f652e3f80cf2a6') in 0.020380 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.005809 seconds.
+Registered in 0.007893 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-000002DB3C8D0C30 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-000001C7B8687090 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DB3B6EFC90 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.003.dll
+Symbol file data-000001C7B98FA880 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.003.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DB9EA2F080 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file data-000001C7B98FA880 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DBA10CD010 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-000001C7BA565020 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DB3C2D8030 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Services.Core.Telemetry.dll
+Symbol file data-000001C7B8687090 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Services.Core.Telemetry.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DBC4A2C030 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.VectorGraphics.dll
+Symbol file data-000001C7BB26F010 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.VectorGraphics.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DB3B6EFC90 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Services.Core.Networking.dll
+Symbol file data-000001C7B98FA880 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Services.Core.Networking.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DB3C93E850 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file data-000001C7B8687090 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DBA0D70060 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-000001C81FFA3010 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DBA10E3820 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file data-000001C7BB0BDF60 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DB3BDB33E0 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file data-000001C7B98FA880 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DB3BFA6E70 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Burst.CodeGen.dll
+Symbol file data-000001C81EDB9040 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Burst.CodeGen.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DB3B6EFC90 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file data-000001C7B86914A0 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DB3622CD10 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-000001C7B8A40010 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DB9F674030 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.InputSystem.dll
+Symbol file data-000001C81F5DD010 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.InputSystem.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DB3B3C1C50 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-000001C81FD00C20 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DB9EA3B0B0 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file data-000001C7B86914A0 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DBA0D86270 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Services.Core.Internal.dll
+Symbol file data-000001C81FFB9220 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Services.Core.Internal.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DB3BDB33E0 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
+Symbol file data-000001C7B98FA880 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DB3C5B4010 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-000001C7BB0CD490 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DB3BA05070 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Services.Core.Configuration.dll
+Symbol file data-000001C7B98FA880 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Services.Core.Configuration.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DB3BFA6E70 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.XR.CoreUtils.Editor.dll
+Symbol file data-000001C81EDC1050 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.XR.CoreUtils.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DB9F674030 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file data-000001C81F5DD010 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DB3BDB33E0 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Services.Core.Configuration.Editor.dll
+Symbol file data-000001C7B98FA880 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Services.Core.Configuration.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DB3BA05070 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Services.Core.Registration.dll
+Symbol file data-000001C81D4DBA70 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Services.Core.Registration.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DB3C433E60 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Services.Core.Environments.Internal.dll
+Symbol file data-000001C7B86914A0 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Services.Core.Environments.Internal.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DB3C433E60 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file data-000001C7B86914A0 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DBC480DB80 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.XR.Management.dll
+Symbol file data-000001C81EDC1050 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.XR.Management.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DB9F131050 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-000001C7BA34F020 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DB35E86020 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file data-000001C81FD00C20 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DB3B6EFC90 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Services.Core.Threading.dll
+Symbol file data-000001C7B86914A0 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Services.Core.Threading.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DB39FB1E80 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.RuntimeDebugger.dll
+Symbol file data-000001C81FD00C20 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.RuntimeDebugger.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DB3B8F3490 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.XR.Oculus.Editor.dll
+Symbol file data-000001C7B3E7F4B0 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.XR.Oculus.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DBA0B7D6A0 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file data-000001C7BA698EC0 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DB3A6A4010 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file data-000001C7B47E0010 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DB39FB1E80 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\PPv2URPConverters.dll
+Symbol file data-000001C7B86914A0 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\PPv2URPConverters.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DB3D069010 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-000001C81E26C020 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DB39FB1E80 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.OculusQuestSupport.Editor.dll
+Symbol file data-000001C7B86914A0 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.OculusQuestSupport.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DB3BAA3050 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-000001C76F081850 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DBA0B91AB0 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll
+Symbol file data-000001C81E26C020 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DB9F600020 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-000001C7BB07DD70 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DB3CBFCCF0 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file data-000001C81F4E7020 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DBA06F5050 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-000001C81ED22030 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DB3B6EFC90 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.003.dll
+Symbol file data-000001C7B86914A0 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.003.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DB3BAA3050 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Burst.Editor.dll
+Symbol file data-000001C7B9A66450 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Burst.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DBA06F5050 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.dll
+Symbol file data-000001C81ED22030 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DB39FB1E80 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.MockRuntime.dll
+Symbol file data-000001C81FD08430 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.MockRuntime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DB9F600020 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file data-000001C7BB07DD70 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DB3CE40040 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file data-000001C81E134030 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DB3CE40040 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file data-000001C81E134030 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DB3A4E3020 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file data-000001C7BA9E1730 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DB3B6EFC90 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.OculusQuestSupport.dll
+Symbol file data-000001C7B86914A0 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.OculusQuestSupport.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DB39FB1E80 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Services.Core.dll
+Symbol file data-000001C7B3E7F4B0 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Services.Core.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DB3A6A4010 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file data-000001C81DF48020 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DB39E2B610 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file data-000001C81D600030 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Mathematics.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DB3B3C1C50 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file data-000001C7B9C3C460 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DB3C433E60 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Services.Core.Analytics.dll
+Symbol file data-000001C7B86914A0 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Services.Core.Analytics.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DB3CE40040 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Burst.dll
+Symbol file data-000001C81E134030 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Burst.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DB3CE40040 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file data-000001C81E134030 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DB3C5DD020 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
+Symbol file data-000001C7B49ADA20 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DB39FB1E80 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file data-000001C81D595830 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DB3B3C1C50 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.XR.OpenXR.Editor.dll
+Symbol file data-000001C7B9C3C460 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.XR.OpenXR.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DB3C433E60 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Services.Core.Environments.dll
+Symbol file data-000001C7B86914A0 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Services.Core.Environments.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DB39FB1E80 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Services.Core.Scheduler.dll
+Symbol file data-000001C81D595830 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Services.Core.Scheduler.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DB39790080 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-000001C81F1B2020 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DB3D017010 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.XR.CoreUtils.dll
+Symbol file data-000001C81D87F010 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.XR.CoreUtils.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DB9EA3B0B0 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file data-000001C7B86914A0 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DB39FB1E80 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
+Symbol file data-000001C81DF30E30 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DB3B8F3490 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.VectorGraphics.Editor.dll
+Symbol file data-000001C81FFEBA20 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.VectorGraphics.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DB3CC68D00 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.XR.OpenXR.dll
+Symbol file data-000001C81E375E50 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.XR.OpenXR.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DB3D017010 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.Editor.dll
+Symbol file data-000001C81D87F010 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DB3B8F3490 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.XR.Oculus.dll
+Symbol file data-000001C81FFEBA20 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.XR.Oculus.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DB3B6EFC90 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
+Symbol file data-000001C7B86914A0 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DB3B6EFC90 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.ConformanceAutomation.dll
+Symbol file data-000001C7B86914A0 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.ConformanceAutomation.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DBA07ED020 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file data-000001C7B9829020 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DB39FB1E80 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.RuntimeDebugger.Editor.dll
+Symbol file data-000001C81FD08430 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.RuntimeDebugger.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DB9E9E0DB0 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file data-000001C81F679020 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002DB39FB1E80 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Services.Core.Device.dll
+Symbol file data-000001C7BA07B830 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Services.Core.Device.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Symbol file LoadedFromMemory doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 0.86 ms, found 11 plugins.
-Preloading 1 native plugins for Editor in 0.11 ms.
+Refreshing native plugins compatible for Editor in 0.87 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
@@ -634,34 +543,1274 @@ Mono: successfully reloaded assembly
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Completed reload, in  1.125 seconds
+- Completed reload, in  0.987 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1126ms)
-		BeginReloadAssembly (207ms)
+	ReloadAssembly (987ms)
+		BeginReloadAssembly (110ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (17ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (96ms)
-		EndReloadAssembly (837ms)
-			LoadAssemblies (86ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (794ms)
+			LoadAssemblies (79ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (214ms)
-				TypeCache.Initialize (205ms)
-					TypeCache.ScanAssembly (198ms)
-				ResolveRequiredComponents (9ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (48ms)
-			SetupLoadedEditorAssemblies (421ms)
+			SetupTypeCache (216ms)
+				TypeCache.Initialize (207ms)
+					TypeCache.ScanAssembly (203ms)
+				ResolveRequiredComponents (8ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (404ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (15ms)
 				SetLoadedEditorAssemblies (6ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (64ms)
-				ProcessInitializeOnLoadAttributes (259ms)
-				ProcessInitializeOnLoadMethodAttributes (73ms)
+				BeforeProcessingInitializeOnLoad (65ms)
+				ProcessInitializeOnLoadAttributes (237ms)
+				ProcessInitializeOnLoadMethodAttributes (75ms)
 				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (20ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
 Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.97 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 5856 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (349.3 KB). Loaded Objects now: 6479.
+Memory consumption went from 0.92 GB to 0.92 GB.
+Total: 2.822400 ms (FindLiveObjects: 0.333200 ms CreateObjectMapping: 0.226400 ms MarkObjects: 2.199900 ms  DeleteObjects: 0.061500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006650 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001C81FFE9A20 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C8856F4080 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.003.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C81D9F9100 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C81DFBC020 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7BA34F020 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Services.Core.Telemetry.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7BB26F010 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.VectorGraphics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C885525780 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Services.Core.Networking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7BA34F020 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7B45B2020 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7B9CEE010 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C8856F4080 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7BB0BDF60 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Burst.CodeGen.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C885525780 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7BB0BDF60 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C81F5DD010 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7BB0BDF60 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C81D9F9100 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7B8A40010 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Services.Core.Internal.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C8856F4080 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7BB0CD490 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C8856F4080 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Services.Core.Configuration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C81DFD2830 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.XR.CoreUtils.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C81F5DD010 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C8856F4080 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Services.Core.Configuration.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C81D87F010 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Services.Core.Registration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C885525780 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Services.Core.Environments.Internal.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C885525780 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C81DFD2830 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.XR.Management.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C883F4C020 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7B8A40010 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C885525780 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Services.Core.Threading.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7B8A40010 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.RuntimeDebugger.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7B8A47820 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.XR.Oculus.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7B8632020 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C81DF48020 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C885525780 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\PPv2URPConverters.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7B451C010 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7B8A47820 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.OculusQuestSupport.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C76F081850 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7B451C010 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C81FFA3010 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C843254260 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7BB435020 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C885525780 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.003.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7B9A66450 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Burst.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7BB5F9010 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7B49ADA20 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.MockRuntime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C81FFA3010 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7BB435020 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7B45D1FA0 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C81DF48020 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C885525780 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.OculusQuestSupport.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7B49ADA20 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Services.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C81DF48020 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C81E599010 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7BA579430 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C885525780 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Services.Core.Analytics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7B45D1FA0 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Burst.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7BB435020 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7B8A47820 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7B8A47820 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7BA579430 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.XR.OpenXR.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C81F20B630 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Services.Core.Environments.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7B8A47820 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Services.Core.Scheduler.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7B9C70010 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7B482CF80 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.XR.CoreUtils.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C81D9E10A0 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C81FD03A20 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C81FD03A20 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.VectorGraphics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7B8344650 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.XR.OpenXR.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7B8344650 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C81FD03A20 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.XR.Oculus.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C885525780 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C885525780 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.ConformanceAutomation.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7BB435020 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7B834F860 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.RuntimeDebugger.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C81D590030 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7B4505820 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Services.Core.Device.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00047] in <53a72eedeaab4a66b5f0de8d500e29b5>:0 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000b0] in <53a72eedeaab4a66b5f0de8d500e29b5>:0 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <252f5a151e57406087568ebdeb88d5fe>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <252f5a151e57406087568ebdeb88d5fe>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <252f5a151e57406087568ebdeb88d5fe>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <4ce403b7cdf744109283ae55cdc24285>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Completed reload, in  0.906 seconds
+Domain Reload Profiling:
+	ReloadAssembly (906ms)
+		BeginReloadAssembly (104ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (737ms)
+			LoadAssemblies (62ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (211ms)
+				TypeCache.Initialize (202ms)
+					TypeCache.ScanAssembly (198ms)
+				ResolveRequiredComponents (8ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (369ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (6ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (65ms)
+				ProcessInitializeOnLoadAttributes (217ms)
+				ProcessInitializeOnLoadMethodAttributes (62ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.11 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 5856 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (349.3 KB). Loaded Objects now: 6484.
+Memory consumption went from 0.92 GB to 0.92 GB.
+Total: 2.650600 ms (FindLiveObjects: 0.284100 ms CreateObjectMapping: 0.159600 ms MarkObjects: 2.144300 ms  DeleteObjects: 0.061900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007964 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001C7B8E6D030 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7B8E6D030 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.003.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7B461B8C0 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7B8632020 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C81F7BFC60 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Services.Core.Telemetry.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7B9FBD020 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.VectorGraphics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C81F7BFC60 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Services.Core.Networking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7B9D3A020 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C81F180020 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7B3E799D0 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7B8648830 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C81D67B580 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Burst.CodeGen.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7B8648830 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C81F438020 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C81DDA1030 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C81F438020 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7B46238E0 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7B3E799D0 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Services.Core.Internal.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7B8648830 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7BB0CD490 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7B8648830 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Services.Core.Configuration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C81F196230 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.XR.CoreUtils.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C81D4F4020 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7B8648830 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Services.Core.Configuration.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C81F196230 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Services.Core.Registration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C81F196230 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Services.Core.Environments.Internal.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C81F196230 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7B3E853D0 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.XR.Management.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C885CA6010 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C81D67B580 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C81D67B580 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Services.Core.Threading.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C81D67B580 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.RuntimeDebugger.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7B3E799D0 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.XR.Oculus.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C81F404EA0 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C81DF48020 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7B3E799D0 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\PPv2URPConverters.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C81F438020 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7BA156A20 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.OculusQuestSupport.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C76F081850 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C81F438020 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7B45B2020 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C843254260 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C843484040 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7BA156A20 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.003.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7B9A66450 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Burst.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C81D470030 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7BA156A20 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.MockRuntime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7B45B2020 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C843484040 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7B45D1FA0 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C81DF48020 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7BA156A20 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.OculusQuestSupport.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7BA156A20 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Services.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C81DF48020 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7B46DB680 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7B3E799D0 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7BA156A20 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Services.Core.Analytics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7B98C7020 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Burst.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C843484040 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7B3E799D0 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7B3E7CBE0 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C81F438020 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.XR.OpenXR.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7B3E7CBE0 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Services.Core.Environments.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7B3E7CBE0 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Services.Core.Scheduler.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C88584E020 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7B8A40010 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.XR.CoreUtils.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7B46238E0 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C81F438020 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7BA34F020 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.VectorGraphics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7BA34F020 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.XR.OpenXR.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C81E2CE020 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7B8A40010 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.XR.Oculus.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7B8A40010 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7B8A40010 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.ConformanceAutomation.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C843484040 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7B8A40010 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.RuntimeDebugger.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C88737D030 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7B8A47020 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Services.Core.Device.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.11 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00047] in <53a72eedeaab4a66b5f0de8d500e29b5>:0 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000b0] in <53a72eedeaab4a66b5f0de8d500e29b5>:0 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <252f5a151e57406087568ebdeb88d5fe>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <252f5a151e57406087568ebdeb88d5fe>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <252f5a151e57406087568ebdeb88d5fe>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <4ce403b7cdf744109283ae55cdc24285>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Completed reload, in  0.983 seconds
+Domain Reload Profiling:
+	ReloadAssembly (983ms)
+		BeginReloadAssembly (110ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (38ms)
+		EndReloadAssembly (797ms)
+			LoadAssemblies (66ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (228ms)
+				TypeCache.Initialize (219ms)
+					TypeCache.ScanAssembly (215ms)
+				ResolveRequiredComponents (8ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (402ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (6ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (74ms)
+				ProcessInitializeOnLoadAttributes (227ms)
+				ProcessInitializeOnLoadMethodAttributes (72ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.47 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 5856 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (349.4 KB). Loaded Objects now: 6489.
+Memory consumption went from 0.92 GB to 0.92 GB.
+Total: 2.698100 ms (FindLiveObjects: 0.284900 ms CreateObjectMapping: 0.184400 ms MarkObjects: 2.163300 ms  DeleteObjects: 0.064600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006444 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001C7B8935820 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7B8935820 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.003.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7BB17C0F0 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C81F180020 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C81F438020 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Services.Core.Telemetry.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7B9FBD020 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.VectorGraphics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C81F438020 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Services.Core.Networking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7BAE0A060 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7B45B2020 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C81D9C1020 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C81D9C1020 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C81D9C1020 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Burst.CodeGen.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7B98FA030 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7BAE0A060 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7B4464010 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7BAE0A060 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7BB17C0F0 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7BA34F020 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Services.Core.Internal.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7B45C8230 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C81ED22030 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7B45C8230 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Services.Core.Configuration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7BAE0A060 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.XR.CoreUtils.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C81D4F4020 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7B45C8230 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Services.Core.Configuration.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7BAE0A060 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Services.Core.Registration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C81F196830 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Services.Core.Environments.Internal.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C81F196830 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7BAE0A060 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.XR.Management.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7BB1424C0 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7BAE0F870 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7BAE0F870 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Services.Core.Threading.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7BAE0F870 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.RuntimeDebugger.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7BAE0F870 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.XR.Oculus.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C888CBECA0 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C81DF48020 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7B8A47820 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\PPv2URPConverters.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C81D346010 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7B8A47820 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.OculusQuestSupport.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C76F081850 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C81D346010 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7BA140010 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C843254260 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C81ED86030 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7B8A47820 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.003.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7B9A66450 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Burst.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C81D470030 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7B8A47820 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.MockRuntime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7BA140010 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C81ED86030 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C81ED86030 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C81DF48020 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7B8A47820 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.OculusQuestSupport.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7B8A47820 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Services.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C81DF48020 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7B46DB680 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7B8372E20 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7B8A47820 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Services.Core.Analytics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C81ED86030 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Burst.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C81ED86030 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7BAE0F870 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7BB268F20 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7B8372E20 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.XR.OpenXR.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7B8A47820 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Services.Core.Environments.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7B8A47820 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Services.Core.Scheduler.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C885916020 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7B8372E20 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.XR.CoreUtils.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7BB1700C0 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7BB268F20 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C81DD33040 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.VectorGraphics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C81E850030 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.XR.OpenXR.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C81E850030 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C81DD33040 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.XR.Oculus.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C81E85B240 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C81E85B240 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.ConformanceAutomation.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C81ED86030 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C81E85B240 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.RuntimeDebugger.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C81D34E020 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C81E85B240 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Services.Core.Device.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00047] in <53a72eedeaab4a66b5f0de8d500e29b5>:0 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000b0] in <53a72eedeaab4a66b5f0de8d500e29b5>:0 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <252f5a151e57406087568ebdeb88d5fe>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <252f5a151e57406087568ebdeb88d5fe>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <252f5a151e57406087568ebdeb88d5fe>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <4ce403b7cdf744109283ae55cdc24285>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Completed reload, in  0.960 seconds
+Domain Reload Profiling:
+	ReloadAssembly (960ms)
+		BeginReloadAssembly (97ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (800ms)
+			LoadAssemblies (63ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (223ms)
+				TypeCache.Initialize (214ms)
+					TypeCache.ScanAssembly (208ms)
+				ResolveRequiredComponents (10ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (396ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (5ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (80ms)
+				ProcessInitializeOnLoadAttributes (222ms)
+				ProcessInitializeOnLoadMethodAttributes (63ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 5.30 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Unloading 5856 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (349.4 KB). Loaded Objects now: 6494.
+Memory consumption went from 0.92 GB to 0.92 GB.
+Total: 4.637600 ms (FindLiveObjects: 0.441300 ms CreateObjectMapping: 0.259600 ms MarkObjects: 3.815600 ms  DeleteObjects: 0.119100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 8.70 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 43 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (346.7 KB). Loaded Objects now: 6494.
+Memory consumption went from 135.1 MB to 134.8 MB.
+Total: 2.900300 ms (FindLiveObjects: 0.305100 ms CreateObjectMapping: 0.179300 ms MarkObjects: 2.348700 ms  DeleteObjects: 0.066200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006644 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001C7B8935820 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C88596FF80 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.003.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7B46A70C0 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C81F180020 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C888AA3BB0 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Services.Core.Telemetry.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7B9FBD020 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.VectorGraphics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C88596FF80 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Services.Core.Networking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C81F693030 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7B45B2020 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7B8C9BE60 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C88596FF80 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C81FFE9910 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Burst.CodeGen.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C88596FF80 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C81E332020 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C81D4F4020 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7BAE0A060 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7B46AF0E0 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C81D59A9E0 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Services.Core.Internal.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C88596FF80 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7BB5F9010 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C88596FF80 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Services.Core.Configuration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C888AA3BB0 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.XR.CoreUtils.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C81DDA1030 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C88596FF80 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Services.Core.Configuration.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7B45C8230 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Services.Core.Registration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C81F19D260 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Services.Core.Environments.Internal.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C81F19D260 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C888AA3BB0 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.XR.Management.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C843484040 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7BA34F020 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7BA34F020 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Services.Core.Threading.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7BA34F020 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.RuntimeDebugger.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7BA34F020 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.XR.Oculus.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7BB85F030 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C81DF48020 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C81DE3D040 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\PPv2URPConverters.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C81E332020 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7B9C3EA60 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.OculusQuestSupport.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7B869E720 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C81F693030 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C81F404EA0 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C843254260 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7B9829020 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7B9C3EA60 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.003.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7B9A66450 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Burst.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C81D470030 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7B9C3EA60 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.MockRuntime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C81F404EA0 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7B9829020 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7B98C7020 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C81DF48020 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7B9C3EA60 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.OculusQuestSupport.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7B9C3EA60 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Services.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C81DF48020 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7B46DB680 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C81D59A9E0 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C81F196830 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Services.Core.Analytics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7B8511FE0 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Burst.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7B9829020 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C81F4CB010 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7B9C3EA60 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C81D59A9E0 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.XR.OpenXR.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C81F196830 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Services.Core.Environments.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7B9C3EA60 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Services.Core.Scheduler.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C81E418010 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C88A886020 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.XR.CoreUtils.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7B46AF0E0 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7B9C3EA60 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7B8A18020 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.VectorGraphics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7BAE0A060 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.XR.OpenXR.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7B8372E20 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7B8A18020 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.XR.Oculus.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7B9C3EA60 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7B9C3EA60 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.ConformanceAutomation.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7B9829020 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7B9C3EA60 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.RuntimeDebugger.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7BA629020 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7B9C3EA60 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Services.Core.Device.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00047] in <53a72eedeaab4a66b5f0de8d500e29b5>:0 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000b0] in <53a72eedeaab4a66b5f0de8d500e29b5>:0 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <252f5a151e57406087568ebdeb88d5fe>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <252f5a151e57406087568ebdeb88d5fe>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <252f5a151e57406087568ebdeb88d5fe>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <4ce403b7cdf744109283ae55cdc24285>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Completed reload, in  0.943 seconds
+Domain Reload Profiling:
+	ReloadAssembly (944ms)
+		BeginReloadAssembly (113ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (37ms)
+		EndReloadAssembly (757ms)
+			LoadAssemblies (73ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (204ms)
+				TypeCache.Initialize (193ms)
+					TypeCache.ScanAssembly (188ms)
+				ResolveRequiredComponents (10ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (380ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (5ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (65ms)
+				ProcessInitializeOnLoadAttributes (223ms)
+				ProcessInitializeOnLoadMethodAttributes (63ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 5.05 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Unloading 5856 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (349.3 KB). Loaded Objects now: 6499.
+Memory consumption went from 0.92 GB to 0.92 GB.
+Total: 2.798300 ms (FindLiveObjects: 0.275500 ms CreateObjectMapping: 0.170500 ms MarkObjects: 2.285900 ms  DeleteObjects: 0.065400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 9.64 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 43 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (346.7 KB). Loaded Objects now: 6499.
+Memory consumption went from 135.1 MB to 134.8 MB.
+Total: 2.990700 ms (FindLiveObjects: 0.324900 ms CreateObjectMapping: 0.189800 ms MarkObjects: 2.402100 ms  DeleteObjects: 0.072800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006446 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001C81F7BFC60 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C81F7BFC60 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.003.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C81EAD1E70 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C81F180020 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C81D346010 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Services.Core.Telemetry.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7B824FE90 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.VectorGraphics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C81D346010 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Services.Core.Networking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C888C7C440 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C81F404EA0 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C81D59A9E0 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C81D346010 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C81FFE9910 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Burst.CodeGen.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C81D346010 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C888C7C440 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C81D4F4020 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C888C7C440 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C81EAD1E70 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C81D59A9E0 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Services.Core.Internal.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C81D346010 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7BB5F9010 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C81D346010 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Services.Core.Configuration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7B8C9BE60 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.XR.CoreUtils.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C81DDA1030 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7B8C9BE60 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Services.Core.Configuration.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7B8D07010 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Services.Core.Registration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7B45C8230 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Services.Core.Environments.Internal.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7B45C8230 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7B8D07010 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.XR.Management.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C81D95F020 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7B89FA020 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7B89FA020 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Services.Core.Threading.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7B89FA020 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.RuntimeDebugger.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C81FFE9910 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.XR.Oculus.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C88F204040 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C81DF48020 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C81DE3D040 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\PPv2URPConverters.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C888C7C440 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C81DE3D040 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.OculusQuestSupport.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7B869E720 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C888C7C440 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C81F404EA0 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C843254260 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C8856D0850 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7B9C3EA60 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.003.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7B9A66450 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Burst.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7B9FBD020 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C81DE3D040 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.MockRuntime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C81F404EA0 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C8856D0850 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7B98C7020 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C81DF48020 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7B9C3EA60 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.OculusQuestSupport.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C81DE3D040 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Services.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C81DF48020 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7B46DB680 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C81D59A9E0 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7B9C3EA60 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Services.Core.Analytics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C888FB8020 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Burst.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C8856D0850 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7BB072930 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C81DE3D040 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C81D59A9E0 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.XR.OpenXR.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7B9C3EA60 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Services.Core.Environments.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C81DE3D040 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Services.Core.Scheduler.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7B46DB680 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7B482CF80 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.XR.CoreUtils.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C81EAD1E70 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C81DE3D040 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7B9BCA030 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.VectorGraphics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C888C7C440 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.XR.OpenXR.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7B482CF80 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7B9BCA030 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.XR.Oculus.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C81DE3D040 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7B9C3EA60 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.ConformanceAutomation.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C8856D0850 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C7B9BCA030 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.RuntimeDebugger.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C888C7C440 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C888C7C440 doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\ScriptAssemblies\Unity.Services.Core.Device.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\habib\OneDrive\Desktop\First-RDW\First RDW\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.12 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00047] in <53a72eedeaab4a66b5f0de8d500e29b5>:0 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000b0] in <53a72eedeaab4a66b5f0de8d500e29b5>:0 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <252f5a151e57406087568ebdeb88d5fe>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <252f5a151e57406087568ebdeb88d5fe>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <252f5a151e57406087568ebdeb88d5fe>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <4ce403b7cdf744109283ae55cdc24285>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Completed reload, in  0.945 seconds
+Domain Reload Profiling:
+	ReloadAssembly (945ms)
+		BeginReloadAssembly (100ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (779ms)
+			LoadAssemblies (66ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (212ms)
+				TypeCache.Initialize (204ms)
+					TypeCache.ScanAssembly (199ms)
+				ResolveRequiredComponents (8ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (406ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (8ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (74ms)
+				ProcessInitializeOnLoadAttributes (234ms)
+				ProcessInitializeOnLoadMethodAttributes (68ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.34 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 5856 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (349.4 KB). Loaded Objects now: 6504.
+Memory consumption went from 0.92 GB to 0.92 GB.
+Total: 2.793300 ms (FindLiveObjects: 0.284500 ms CreateObjectMapping: 0.184300 ms MarkObjects: 2.257600 ms  DeleteObjects: 0.065900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

@@ -8,6 +8,7 @@ public class GameManager : MonoBehaviour
 {
 
     [SerializeField] private TextMeshProUGUI debugText;
+    [SerializeField] private GameObject UI;
     [SerializeField] private GameObject desk;
     [SerializeField] private GameObject stick;
     [SerializeField] private GameObject Env;
@@ -19,7 +20,9 @@ public class GameManager : MonoBehaviour
     private Vector3 Head_pos;
     private Vector3 prev_pos;
     private bool paused = false;
-    private bool prev_state = false;
+    private bool prev_state_pause = false;
+    private bool prev_state_touch = false;
+    private bool ui_active = false;
     private float curv_gain;
 
     private void Start()
@@ -68,15 +71,28 @@ public class GameManager : MonoBehaviour
 
             bool pause_button;
             bool button_pressed = rightHand.TryGetFeatureValue(CommonUsages.secondaryButton, out pause_button) && pause_button;
-            if (button_pressed != prev_state)
+            if (button_pressed != prev_state_pause)
             {
                 if (button_pressed)
                 {
                     Time.timeScale = paused ? 1 : 0;
                     paused = !paused;
                 }
-                prev_state = button_pressed;
+                prev_state_pause = button_pressed;
             }
+
+            bool secondry_touched;
+            bool secondary_t = rightHand.TryGetFeatureValue(CommonUsages.secondaryTouch, out secondry_touched) && secondry_touched;
+            if (secondary_t != prev_state_touch)
+            {
+                if (secondary_t)
+                {
+                    ui_active= !ui_active;
+                    UI.SetActive(ui_active);
+                }
+                prev_state_touch = secondary_t;
+            }
+
         }
 
         InputTracking.GetNodeStates(nodes);
@@ -98,17 +114,15 @@ public class GameManager : MonoBehaviour
 
         if(delta_d > 0)
         {
-            Quaternion currentQ = Env.transform.localRotation;
             Vector3 currentRot = Env.transform.localEulerAngles;
             float deltaY = delta_d * curv_gain;
             float newYrot = currentRot.y - deltaY;
 
-            Vector3 newRot = new Vector3(currentQ.x, newYrot, currentQ.z);
-            currentQ.eulerAngles = newRot;
-            Env.transform.rotation = currentQ;
-
-          /*  debugText.SetText("\n delta dist: " + delta_d +
-                "\n delta y: " + deltaY.ToString() + "\n current rotation: " + newRot.ToString());*/
+            var newRot = Quaternion.Euler(currentRot.x, newYrot, currentRot.z);
+            Env.transform.rotation = Quaternion.Lerp(Env.transform.rotation, newRot, Time.deltaTime);
+            
+            debugText.SetText("\n delta dist: " + delta_d +
+                "\n delta y: " + deltaY.ToString() + "\n current rotation: " + newRot.ToString());
 
             prev_pos = Head_pos;
         }

@@ -11616,28 +11616,34 @@ struct GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6  : public MonoBehav
 {
 	// TMPro.TextMeshProUGUI GameManager::debugText
 	TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* ___debugText_4;
+	// UnityEngine.GameObject GameManager::UI
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___UI_5;
 	// UnityEngine.GameObject GameManager::desk
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___desk_5;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___desk_6;
 	// UnityEngine.GameObject GameManager::stick
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___stick_6;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___stick_7;
 	// UnityEngine.GameObject GameManager::Env
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___Env_7;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___Env_8;
 	// UnityEngine.GameObject GameManager::zigzag
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___zigzag_8;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___zigzag_9;
 	// System.Single GameManager::radius
-	float ___radius_9;
+	float ___radius_10;
 	// System.Collections.Generic.List`1<UnityEngine.XR.XRNodeState> GameManager::nodes
-	List_1_t8AE5A65CCFBC753343962D38B82C801F7BDE3C87* ___nodes_10;
+	List_1_t8AE5A65CCFBC753343962D38B82C801F7BDE3C87* ___nodes_11;
 	// UnityEngine.Vector3 GameManager::Head_pos
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___Head_pos_11;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___Head_pos_12;
 	// UnityEngine.Vector3 GameManager::prev_pos
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___prev_pos_12;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___prev_pos_13;
 	// System.Boolean GameManager::paused
-	bool ___paused_13;
-	// System.Boolean GameManager::prev_state
-	bool ___prev_state_14;
+	bool ___paused_14;
+	// System.Boolean GameManager::prev_state_pause
+	bool ___prev_state_pause_15;
+	// System.Boolean GameManager::prev_state_touch
+	bool ___prev_state_touch_16;
+	// System.Boolean GameManager::ui_active
+	bool ___ui_active_17;
 	// System.Single GameManager::curv_gain
-	float ___curv_gain_15;
+	float ___curv_gain_18;
 };
 
 // UnityEngine.XR.OpenXR.Features.Interactions.HTCViveControllerProfile
