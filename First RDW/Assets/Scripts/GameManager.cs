@@ -3,6 +3,7 @@ using UnityEngine;
 using TMPro;
 using UnityEngine.XR;
 using UnityEngine.SceneManagement;
+using System.Collections;
 
 public class GameManager : MonoBehaviour
 {
@@ -25,8 +26,11 @@ public class GameManager : MonoBehaviour
     private bool ui_active = false;
     private float curv_gain;
 
+
     private void Start()
     {
+        Time.timeScale = 1;
+
         //Get the user's current position and rotation in world coordinates, XR origin transform must be reset to align with wirld coordinates
         nodes = new List<XRNodeState>();
         InputTracking.GetNodeStates(nodes);
@@ -99,34 +103,34 @@ public class GameManager : MonoBehaviour
         foreach (XRNodeState node in nodes)
         {
             if (node.nodeType == XRNode.Head)
-            {
                 node.TryGetPosition(out Head_pos);
-                /*debugText.SetText(Head_pos.ToString());*/
-                /*node.TryGetRotation(out Head_rot);*/
-            }
-
         }
 
         float delta_d = Mathf.Abs(Head_pos.x - prev_pos.x);
         delta_d = Mathf.Round(delta_d * 10f) / 10f;
 
-        //debugText.SetText(delta_d.ToString());
 
-        if(delta_d > 0)
+        if (delta_d > 0)
         {
             Vector3 currentRot = Env.transform.localEulerAngles;
             float deltaY = delta_d * curv_gain;
             float newYrot = currentRot.y - deltaY;
 
             var newRot = Quaternion.Euler(currentRot.x, newYrot, currentRot.z);
-            Env.transform.rotation = Quaternion.Lerp(Env.transform.rotation, newRot, Time.deltaTime);
-            
+            StartCoroutine(rotationCoroutine(newRot));
+
             debugText.SetText("\n delta dist: " + delta_d +
-                "\n delta y: " + deltaY.ToString() + "\n current rotation: " + newRot.ToString());
+                "\n delta y: " + deltaY.ToString()+ "\n current rotation: " + Env.transform.localEulerAngles.ToString());
 
             prev_pos = Head_pos;
         }
-       
 
+    }
+
+    IEnumerator rotationCoroutine(Quaternion newRot)
+    {
+        Env.transform.rotation = Quaternion.Slerp(Env.transform.rotation, newRot, Time.deltaTime*curv_gain);
+       // debugText.SetText("current rotation: " + Env.transform.localEulerAngles.ToString());
+        yield return null;
     }
 }
