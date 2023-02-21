@@ -25,6 +25,7 @@ public class GameManager : MonoBehaviour
     private bool prev_state_touch = false;
     private bool ui_active = false;
     private float curv_gain;
+  
 
 
     private void Start()
@@ -117,20 +118,27 @@ public class GameManager : MonoBehaviour
             float newYrot = currentRot.y - deltaY;
 
             var newRot = Quaternion.Euler(currentRot.x, newYrot, currentRot.z);
-            StartCoroutine(rotationCoroutine(newRot));
+            StartCoroutine(rotationCoroutine(newRot, 1f));
 
             debugText.SetText("\n delta dist: " + delta_d +
-                "\n delta y: " + deltaY.ToString()+ "\n current rotation: " + Env.transform.localEulerAngles.ToString());
+                "\n delta y: " + deltaY.ToString() + "\n current rotation: " + Env.transform.localEulerAngles.ToString());
 
             prev_pos = Head_pos;
         }
 
     }
 
-    IEnumerator rotationCoroutine(Quaternion newRot)
+    IEnumerator rotationCoroutine(Quaternion newRot, float time)
     {
-        Env.transform.rotation = Quaternion.Slerp(Env.transform.rotation, newRot, Time.deltaTime*curv_gain);
-       // debugText.SetText("current rotation: " + Env.transform.localEulerAngles.ToString());
-        yield return null;
+        float elapsed_time = 0.0f;
+        Quaternion starting_rot = Env.transform.rotation;
+
+        while (elapsed_time < time)
+        {
+            elapsed_time += Time.deltaTime;
+            Env.transform.rotation = Quaternion.Slerp(starting_rot, newRot, elapsed_time/time);
+        }
+        
+        yield return new WaitForEndOfFrame();
     }
 }

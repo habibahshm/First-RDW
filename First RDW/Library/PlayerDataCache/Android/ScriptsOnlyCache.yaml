@@ -1,6 +1,7 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - DisplayFPS
     - GameManager
     - Linw
     - Stick
@@ -85,8 +86,6 @@ ScriptsOnlyBuild:
     Unity.XR.Management.dll:
     - UnityEngine.XR.Management.XRGeneralSettings
     - UnityEngine.XR.Management.XRManagerSettings
-    Unity.XR.Oculus.dll:
-    - Unity.XR.Oculus.OculusSettings
     Unity.XR.OpenXR.Editor.dll:
     - UnityEditor.XR.OpenXR.OpenXRPackageSettings
     Unity.XR.OpenXR.Features.ConformanceAutomation.dll:
@@ -413,6 +412,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 13340}
     - Class: 114
       Script: {instanceID: 13388}
+    - Class: 114
+      Script: {instanceID: 29586}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -2466,6 +2467,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: b1780c63bb71940628506fed896c4f27
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: DisplayFPS
   platform: 13
   scenePathNames:
   - Assets/Scenes/Main.unity
