@@ -16,22 +16,22 @@
 extern void GameManager_Start_m87A71D65F3171A58DBDDBFB03832ADA65643D0E2 (void);
 // 0x00000002 System.Void GameManager::Update()
 extern void GameManager_Update_m7F29D8E933B8D21D2E67507979C0F12ACF87BB41 (void);
-// 0x00000003 System.Collections.IEnumerator GameManager::rotationCoroutine(UnityEngine.Quaternion,System.Single)
-extern void GameManager_rotationCoroutine_m995E2E280478A03D23F1FDCD5B076159C6BDD2C3 (void);
+// 0x00000003 System.Collections.IEnumerator GameManager::rotationCoroutine(UnityEngine.Quaternion)
+extern void GameManager_rotationCoroutine_m90EE43FF479780983DE4FD91AB449069DEDD4CA5 (void);
 // 0x00000004 System.Void GameManager::.ctor()
 extern void GameManager__ctor_mF453CED520617BFB65C52405A964E06CF17DB368 (void);
-// 0x00000005 System.Void GameManager/<rotationCoroutine>d__17::.ctor(System.Int32)
-extern void U3CrotationCoroutineU3Ed__17__ctor_m6602B500A0F8ADAEDF512089B6ED7DF226A941F8 (void);
-// 0x00000006 System.Void GameManager/<rotationCoroutine>d__17::System.IDisposable.Dispose()
-extern void U3CrotationCoroutineU3Ed__17_System_IDisposable_Dispose_m6145F7829269E613808F08FE87C42405CB7817A5 (void);
-// 0x00000007 System.Boolean GameManager/<rotationCoroutine>d__17::MoveNext()
-extern void U3CrotationCoroutineU3Ed__17_MoveNext_m0AE48A7D5B54886C957DDFC530C5E088F0DEE2CC (void);
-// 0x00000008 System.Object GameManager/<rotationCoroutine>d__17::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-extern void U3CrotationCoroutineU3Ed__17_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mAB1D573A4ECD9A27306DE4160F10ADBC42B2F1C3 (void);
-// 0x00000009 System.Void GameManager/<rotationCoroutine>d__17::System.Collections.IEnumerator.Reset()
-extern void U3CrotationCoroutineU3Ed__17_System_Collections_IEnumerator_Reset_m114D57B1E4DB96F693D3BF96800BA17ACD7E9929 (void);
-// 0x0000000A System.Object GameManager/<rotationCoroutine>d__17::System.Collections.IEnumerator.get_Current()
-extern void U3CrotationCoroutineU3Ed__17_System_Collections_IEnumerator_get_Current_m5D435BEDFB2718AFF014D4C294EE9098E08A8B61 (void);
+// 0x00000005 System.Void GameManager/<rotationCoroutine>d__18::.ctor(System.Int32)
+extern void U3CrotationCoroutineU3Ed__18__ctor_m333BFEF54625692D9462CBC447C94CDA9D4C03E2 (void);
+// 0x00000006 System.Void GameManager/<rotationCoroutine>d__18::System.IDisposable.Dispose()
+extern void U3CrotationCoroutineU3Ed__18_System_IDisposable_Dispose_mD0D5F573D1F270FFAC9A8F1972C5049AF41A35D6 (void);
+// 0x00000007 System.Boolean GameManager/<rotationCoroutine>d__18::MoveNext()
+extern void U3CrotationCoroutineU3Ed__18_MoveNext_m8BC25AB996916642E08F089C09EBD47806588B0E (void);
+// 0x00000008 System.Object GameManager/<rotationCoroutine>d__18::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CrotationCoroutineU3Ed__18_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m71DDA4D09B92DA2BE0BA2EAF19EC9FD009B95A26 (void);
+// 0x00000009 System.Void GameManager/<rotationCoroutine>d__18::System.Collections.IEnumerator.Reset()
+extern void U3CrotationCoroutineU3Ed__18_System_Collections_IEnumerator_Reset_mAA344E6763219555E0C5AD6BC2AE2B20195B5E1B (void);
+// 0x0000000A System.Object GameManager/<rotationCoroutine>d__18::System.Collections.IEnumerator.get_Current()
+extern void U3CrotationCoroutineU3Ed__18_System_Collections_IEnumerator_get_Current_m13503BFFE2B26A14C813E4E68730D538386505AC (void);
 // 0x0000000B System.Void Linw::Start()
 extern void Linw_Start_mD75EB7969C6629058E56F38B4B32956DA0E64BDD (void);
 // 0x0000000C System.Void Linw::OnTriggerEnter(UnityEngine.Collider)
@@ -616,14 +616,14 @@ static Il2CppMethodPointer s_methodPointers[300] =
 {
 	GameManager_Start_m87A71D65F3171A58DBDDBFB03832ADA65643D0E2,
 	GameManager_Update_m7F29D8E933B8D21D2E67507979C0F12ACF87BB41,
-	GameManager_rotationCoroutine_m995E2E280478A03D23F1FDCD5B076159C6BDD2C3,
+	GameManager_rotationCoroutine_m90EE43FF479780983DE4FD91AB449069DEDD4CA5,
 	GameManager__ctor_mF453CED520617BFB65C52405A964E06CF17DB368,
-	U3CrotationCoroutineU3Ed__17__ctor_m6602B500A0F8ADAEDF512089B6ED7DF226A941F8,
-	U3CrotationCoroutineU3Ed__17_System_IDisposable_Dispose_m6145F7829269E613808F08FE87C42405CB7817A5,
-	U3CrotationCoroutineU3Ed__17_MoveNext_m0AE48A7D5B54886C957DDFC530C5E088F0DEE2CC,
-	U3CrotationCoroutineU3Ed__17_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mAB1D573A4ECD9A27306DE4160F10ADBC42B2F1C3,
-	U3CrotationCoroutineU3Ed__17_System_Collections_IEnumerator_Reset_m114D57B1E4DB96F693D3BF96800BA17ACD7E9929,
-	U3CrotationCoroutineU3Ed__17_System_Collections_IEnumerator_get_Current_m5D435BEDFB2718AFF014D4C294EE9098E08A8B61,
+	U3CrotationCoroutineU3Ed__18__ctor_m333BFEF54625692D9462CBC447C94CDA9D4C03E2,
+	U3CrotationCoroutineU3Ed__18_System_IDisposable_Dispose_mD0D5F573D1F270FFAC9A8F1972C5049AF41A35D6,
+	U3CrotationCoroutineU3Ed__18_MoveNext_m8BC25AB996916642E08F089C09EBD47806588B0E,
+	U3CrotationCoroutineU3Ed__18_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m71DDA4D09B92DA2BE0BA2EAF19EC9FD009B95A26,
+	U3CrotationCoroutineU3Ed__18_System_Collections_IEnumerator_Reset_mAA344E6763219555E0C5AD6BC2AE2B20195B5E1B,
+	U3CrotationCoroutineU3Ed__18_System_Collections_IEnumerator_get_Current_m13503BFFE2B26A14C813E4E68730D538386505AC,
 	Linw_Start_mD75EB7969C6629058E56F38B4B32956DA0E64BDD,
 	Linw_OnTriggerEnter_mBB8A760057A0DC671ED20B89FA29C0BFE833460C,
 	Linw_OnTriggerStay_m4060A08ADA331F326BB95524E318A1012BA30752,
@@ -919,7 +919,7 @@ static const int32_t s_InvokerIndices[300] =
 {
 	7083,
 	7083,
-	2416,
+	4983,
 	7083,
 	5585,
 	7083,
@@ -985,8 +985,8 @@ static const int32_t s_InvokerIndices[300] =
 	7083,
 	5621,
 	5621,
-	3159,
-	3159,
+	3158,
+	3158,
 	1546,
 	1546,
 	1568,
@@ -1042,7 +1042,7 @@ static const int32_t s_InvokerIndices[300] =
 	7083,
 	7083,
 	7083,
-	4982,
+	4981,
 	6953,
 	7083,
 	5585,
@@ -1065,8 +1065,8 @@ static const int32_t s_InvokerIndices[300] =
 	7083,
 	7083,
 	5621,
-	4982,
-	4982,
+	4981,
+	4981,
 	7083,
 	5585,
 	7083,
@@ -1114,8 +1114,8 @@ static const int32_t s_InvokerIndices[300] =
 	7083,
 	7083,
 	7083,
-	3159,
-	3159,
+	3158,
+	3158,
 	1546,
 	1546,
 	1568,
@@ -1208,7 +1208,7 @@ static const int32_t s_InvokerIndices[300] =
 	6953,
 	7083,
 	7083,
-	4982,
+	4981,
 	6953,
 	7083,
 	5585,

@@ -196,7 +196,7 @@ static const int32_t s_InvokerIndices[56] =
 {
 	1802,
 	1963,
-	4064,
+	4063,
 	7083,
 	5585,
 	7083,
@@ -207,8 +207,8 @@ static const int32_t s_InvokerIndices[56] =
 	5621,
 	5621,
 	5621,
-	2445,
-	2445,
+	2444,
+	2444,
 	1251,
 	1891,
 	2190,
@@ -245,10 +245,10 @@ static const int32_t s_InvokerIndices[56] =
 	6916,
 	7083,
 	11813,
-	4083,
-	3937,
+	4082,
+	3936,
 	10411,
-	3081,
+	3080,
 	7083,
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_UnityEngine_TextRenderingModule_CodeGenModule;

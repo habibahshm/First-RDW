@@ -19,7 +19,9 @@ public class GameManager : MonoBehaviour
     List<XRNodeState> nodes;
 
     private Vector3 Head_pos;
-    private Vector3 prev_pos;
+    private Vector3 inital_pos;
+    private Vector3 inital_rot;
+
     private bool paused = false;
     private bool prev_state_pause = false;
     private bool prev_state_touch = false;
@@ -41,12 +43,13 @@ public class GameManager : MonoBehaviour
             if (node.nodeType == XRNode.Head)
             {
                 node.TryGetPosition(out Head_pos);
-                prev_pos = Head_pos;
+                inital_pos = Head_pos;
             }
         }
 
         //Place env position neasr the user
         Env.transform.position = new(Env.transform.position.x + Head_pos.x, Env.transform.position.y, Env.transform.position.z + Head_pos.z);
+        inital_rot = Env.transform.rotation.eulerAngles;
        
         //Adjust desk height according to the height of the user
         float deskHeight = (float)Head_pos.y - 0.5f;
@@ -107,38 +110,18 @@ public class GameManager : MonoBehaviour
                 node.TryGetPosition(out Head_pos);
         }
 
-        float delta_d = Mathf.Abs(Head_pos.x - prev_pos.x);
-        delta_d = Mathf.Round(delta_d * 10f) / 10f;
+        float dist_so_far = Mathf.Abs(Head_pos.x - inital_pos.x);
+        dist_so_far = Mathf.Round(dist_so_far * 10f) / 10f;
 
+        float deltaY_sofar = dist_so_far * curv_gain;
+        float newYrot = inital_rot.y - deltaY_sofar;
 
-        if (delta_d > 0)
-        {
-            Vector3 currentRot = Env.transform.localEulerAngles;
-            float deltaY = delta_d * curv_gain;
-            float newYrot = currentRot.y - deltaY;
+        var newRot = Quaternion.Euler(inital_rot.x, newYrot, inital_rot.z);
+        Env.transform.rotation = Quaternion.Slerp(Env.transform.rotation, newRot, Time.deltaTime);
 
-            var newRot = Quaternion.Euler(currentRot.x, newYrot, currentRot.z);
-            StartCoroutine(rotationCoroutine(newRot, 1f));
-
-            debugText.SetText("\n delta dist: " + delta_d +
-                "\n delta y: " + deltaY.ToString() + "\n current rotation: " + Env.transform.localEulerAngles.ToString());
-
-            prev_pos = Head_pos;
-        }
+        debugText.SetText("\n total dist: " + dist_so_far +
+            "\n delta y so far: " + deltaY_sofar.ToString() + "\n current rotation: " + Env.transform.localEulerAngles.ToString());
 
     }
 
-    IEnumerator rotationCoroutine(Quaternion newRot, float time)
-    {
-        float elapsed_time = 0.0f;
-        Quaternion starting_rot = Env.transform.rotation;
-
-        while (elapsed_time < time)
-        {
-            elapsed_time += Time.deltaTime;
-            Env.transform.rotation = Quaternion.Slerp(starting_rot, newRot, elapsed_time/time);
-        }
-        
-        yield return new WaitForEndOfFrame();
-    }
 }
