@@ -3,7 +3,6 @@ using UnityEngine;
 using TMPro;
 using UnityEngine.XR;
 using UnityEngine.SceneManagement;
-using System.Collections;
 
 public class GameManager : MonoBehaviour
 {
@@ -15,10 +14,13 @@ public class GameManager : MonoBehaviour
     [SerializeField] private GameObject Env;
     [SerializeField] private GameObject zigzag;
     [SerializeField] private float radius;
+    private enum Rotation_dir:int {  left = -1,  right = 1 }
+    [SerializeField] private Rotation_dir rotation_dir;
 
     List<XRNodeState> nodes;
 
     private Vector3 Head_pos;
+    private Quaternion Head_rot;
     private Vector3 inital_pos;
     private Vector3 inital_rot;
 
@@ -43,9 +45,16 @@ public class GameManager : MonoBehaviour
             if (node.nodeType == XRNode.Head)
             {
                 node.TryGetPosition(out Head_pos);
+                node.TryGetRotation(out Head_rot);
                 inital_pos = Head_pos;
             }
         }
+
+        //Adjust Env direction according to where the user is looking at the beginning (rotation around y axis)
+        Vector3 newRot = new Vector3(Env.transform.localRotation.x, Head_rot.eulerAngles.y, Env.transform.localRotation.z);
+        Quaternion currentQ = new Quaternion();
+        currentQ.eulerAngles = newRot;
+        Env.transform.rotation = currentQ;
 
         //Place env position neasr the user
         Env.transform.position = new(Env.transform.position.x + Head_pos.x, Env.transform.position.y, Env.transform.position.z + Head_pos.z);
@@ -113,15 +122,18 @@ public class GameManager : MonoBehaviour
         float dist_so_far = Mathf.Abs(Head_pos.x - inital_pos.x);
         dist_so_far = Mathf.Round(dist_so_far * 10f) / 10f;
 
-        float deltaY_sofar = dist_so_far * curv_gain;
-        float newYrot = inital_rot.y - deltaY_sofar;
+        if (!(Head_pos.x < inital_pos.x))
+        {
+            float deltaY_sofar = dist_so_far * curv_gain;
+            float newYrot = inital_rot.y + ((int)rotation_dir) * deltaY_sofar;
 
-        var newRot = Quaternion.Euler(inital_rot.x, newYrot, inital_rot.z);
-        Env.transform.rotation = Quaternion.Slerp(Env.transform.rotation, newRot, Time.deltaTime);
+            var newRot = Quaternion.Euler(inital_rot.x, newYrot, inital_rot.z);
+            Env.transform.rotation = Quaternion.Slerp(Env.transform.rotation, newRot, Time.deltaTime);
 
-        debugText.SetText("\n total dist: " + dist_so_far +
-            "\n delta y so far: " + deltaY_sofar.ToString() + "\n current rotation: " + Env.transform.localEulerAngles.ToString());
-
+            debugText.SetText("\n total dist: " + dist_so_far +
+                "\n delta y so far: " + deltaY_sofar.ToString() + "\n current rotation: " + Env.transform.localEulerAngles.ToString());
+        }
+            
     }
 
 }

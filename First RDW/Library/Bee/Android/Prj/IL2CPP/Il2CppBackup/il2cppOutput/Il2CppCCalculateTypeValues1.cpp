@@ -462,8 +462,6 @@ struct GUISkin_t8C65CE1424D4B5D8D73022E266BDAD3BDE8612D9;
 struct GUIStyle_t20BA2F9F3FE9D13AAA607EEEBE5547835A6F6580;
 // UnityEngine.GUIStyleState
 struct GUIStyleState_t7A948723D9DCDFD8EE4F418B6EC909C18E023F95;
-// GameManager
-struct GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6;
 // UnityEngine.GameObject
 struct GameObject_t76FEDD663AB33C991A9C9A23129337651094216F;
 // UnityEngineInternal.GenericStack
@@ -8679,19 +8677,6 @@ struct U3CStartU3Ed__4_t7AF0F1ABA8D3AE9575A02603D2DC2137FA816557  : public Runti
 	Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 ___U3CmatrixU3E5__2_3;
 };
 
-// GameManager/<rotationCoroutine>d__18
-struct U3CrotationCoroutineU3Ed__18_tBE53C36CD9C64E0ADFBB1305C5C24B694AC900A8  : public RuntimeObject
-{
-	// System.Int32 GameManager/<rotationCoroutine>d__18::<>1__state
-	int32_t ___U3CU3E1__state_0;
-	// System.Object GameManager/<rotationCoroutine>d__18::<>2__current
-	RuntimeObject* ___U3CU3E2__current_1;
-	// GameManager GameManager/<rotationCoroutine>d__18::<>4__this
-	GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* ___U3CU3E4__this_2;
-	// UnityEngine.Quaternion GameManager/<rotationCoroutine>d__18::newRot
-	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___newRot_3;
-};
-
 // UnityEngine.XR.OpenXR.Input.OpenXRInput/SerializedGuid
 struct SerializedGuid_t5F8366FCA963DA3A841F2499A511B9CAD43EEF28 
 {
@@ -11671,24 +11656,28 @@ struct GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6  : public MonoBehav
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___zigzag_9;
 	// System.Single GameManager::radius
 	float ___radius_10;
+	// GameManager/Rotation_dir GameManager::rotation_dir
+	int32_t ___rotation_dir_11;
 	// System.Collections.Generic.List`1<UnityEngine.XR.XRNodeState> GameManager::nodes
-	List_1_t8AE5A65CCFBC753343962D38B82C801F7BDE3C87* ___nodes_11;
+	List_1_t8AE5A65CCFBC753343962D38B82C801F7BDE3C87* ___nodes_12;
 	// UnityEngine.Vector3 GameManager::Head_pos
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___Head_pos_12;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___Head_pos_13;
+	// UnityEngine.Quaternion GameManager::Head_rot
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___Head_rot_14;
 	// UnityEngine.Vector3 GameManager::inital_pos
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___inital_pos_13;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___inital_pos_15;
 	// UnityEngine.Vector3 GameManager::inital_rot
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___inital_rot_14;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___inital_rot_16;
 	// System.Boolean GameManager::paused
-	bool ___paused_15;
+	bool ___paused_17;
 	// System.Boolean GameManager::prev_state_pause
-	bool ___prev_state_pause_16;
+	bool ___prev_state_pause_18;
 	// System.Boolean GameManager::prev_state_touch
-	bool ___prev_state_touch_17;
+	bool ___prev_state_touch_19;
 	// System.Boolean GameManager::ui_active
-	bool ___ui_active_18;
+	bool ___ui_active_20;
 	// System.Single GameManager::curv_gain
-	float ___curv_gain_19;
+	float ___curv_gain_21;
 };
 
 // UnityEngine.XR.OpenXR.Features.Interactions.HTCViveControllerProfile
@@ -13393,7 +13382,7 @@ const Il2CppTypeDefinitionSizes g_typeDefinitionSize5646 = { sizeof(U3CPrivateIm
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize5647;
 const Il2CppTypeDefinitionSizes g_typeDefinitionSize5647 = { sizeof(U3CModuleU3E_tBB65183F1134474D09FF49B95625D25472B9BA8B), -1, 0, 0 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize5648;
-const Il2CppTypeDefinitionSizes g_typeDefinitionSize5648 = { sizeof(U3CrotationCoroutineU3Ed__18_tBE53C36CD9C64E0ADFBB1305C5C24B694AC900A8), -1, 0, 0 };
+const Il2CppTypeDefinitionSizes g_typeDefinitionSize5648 = { sizeof(int32_t)+ sizeof(RuntimeObject), sizeof(int32_t), 0, 0 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize5649;
 const Il2CppTypeDefinitionSizes g_typeDefinitionSize5649 = { sizeof(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6), -1, 0, 0 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize5650;

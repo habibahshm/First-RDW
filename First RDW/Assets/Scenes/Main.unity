@@ -2899,6 +2899,7 @@ MonoBehaviour:
   Env: {fileID: 190541074}
   zigzag: {fileID: 1844327321}
   radius: 10
+  rotation_dir: -1
 --- !u!4 &1607188699
 Transform:
   m_ObjectHideFlags: 0
