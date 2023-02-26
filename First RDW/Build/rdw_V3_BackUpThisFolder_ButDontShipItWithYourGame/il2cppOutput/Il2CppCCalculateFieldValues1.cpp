@@ -37768,16 +37768,18 @@ struct GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6  : public MonoBehav
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___inital_pos_15;
 	// UnityEngine.Vector3 GameManager::inital_rot
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___inital_rot_16;
+	// UnityEngine.Vector3 GameManager::env_forward
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___env_forward_17;
 	// System.Boolean GameManager::paused
-	bool ___paused_17;
+	bool ___paused_18;
 	// System.Boolean GameManager::prev_state_pause
-	bool ___prev_state_pause_18;
+	bool ___prev_state_pause_19;
 	// System.Boolean GameManager::prev_state_touch
-	bool ___prev_state_touch_19;
+	bool ___prev_state_touch_20;
 	// System.Boolean GameManager::ui_active
-	bool ___ui_active_20;
+	bool ___ui_active_21;
 	// System.Single GameManager::curv_gain
-	float ___curv_gain_21;
+	float ___curv_gain_22;
 };
 
 // UnityEngine.XR.OpenXR.Features.Interactions.HTCViveControllerProfile
@@ -37865,10 +37867,8 @@ struct Linw_tC8F4B4598840ABA2B26F7EFEE905560B757AAA2F  : public MonoBehaviour_t5
 {
 	// TMPro.TextMeshProUGUI Linw::debugText
 	TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* ___debugText_4;
-	// Stick Linw::stickScript
-	Stick_t7BF3726F5814B9748BBA6CB55FD172DC1A346BE2* ___stickScript_5;
 	// System.Boolean Linw::onLine
-	bool ___onLine_6;
+	bool ___onLine_5;
 };
 
 // UnityEngine.XR.Interaction.Toolkit.LocomotionProvider
@@ -48721,12 +48721,12 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5645[2] =
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5648[3] = 
 {
 	static_cast<int32_t>(sizeof(RuntimeObject)),0,0,};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5649[18] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5649[19] = 
 {
-	static_cast<int32_t>(offsetof(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6, ___debugText_4)),static_cast<int32_t>(offsetof(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6, ___UI_5)),static_cast<int32_t>(offsetof(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6, ___desk_6)),static_cast<int32_t>(offsetof(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6, ___stick_7)),static_cast<int32_t>(offsetof(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6, ___Env_8)),static_cast<int32_t>(offsetof(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6, ___zigzag_9)),static_cast<int32_t>(offsetof(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6, ___radius_10)),static_cast<int32_t>(offsetof(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6, ___rotation_dir_11)),static_cast<int32_t>(offsetof(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6, ___nodes_12)),static_cast<int32_t>(offsetof(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6, ___Head_pos_13)),static_cast<int32_t>(offsetof(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6, ___Head_rot_14)),static_cast<int32_t>(offsetof(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6, ___inital_pos_15)),static_cast<int32_t>(offsetof(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6, ___inital_rot_16)),static_cast<int32_t>(offsetof(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6, ___paused_17)),static_cast<int32_t>(offsetof(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6, ___prev_state_pause_18)),static_cast<int32_t>(offsetof(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6, ___prev_state_touch_19)),static_cast<int32_t>(offsetof(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6, ___ui_active_20)),static_cast<int32_t>(offsetof(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6, ___curv_gain_21)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5650[3] = 
+	static_cast<int32_t>(offsetof(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6, ___debugText_4)),static_cast<int32_t>(offsetof(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6, ___UI_5)),static_cast<int32_t>(offsetof(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6, ___desk_6)),static_cast<int32_t>(offsetof(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6, ___stick_7)),static_cast<int32_t>(offsetof(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6, ___Env_8)),static_cast<int32_t>(offsetof(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6, ___zigzag_9)),static_cast<int32_t>(offsetof(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6, ___radius_10)),static_cast<int32_t>(offsetof(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6, ___rotation_dir_11)),static_cast<int32_t>(offsetof(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6, ___nodes_12)),static_cast<int32_t>(offsetof(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6, ___Head_pos_13)),static_cast<int32_t>(offsetof(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6, ___Head_rot_14)),static_cast<int32_t>(offsetof(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6, ___inital_pos_15)),static_cast<int32_t>(offsetof(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6, ___inital_rot_16)),static_cast<int32_t>(offsetof(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6, ___env_forward_17)),static_cast<int32_t>(offsetof(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6, ___paused_18)),static_cast<int32_t>(offsetof(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6, ___prev_state_pause_19)),static_cast<int32_t>(offsetof(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6, ___prev_state_touch_20)),static_cast<int32_t>(offsetof(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6, ___ui_active_21)),static_cast<int32_t>(offsetof(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6, ___curv_gain_22)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5650[2] = 
 {
-	static_cast<int32_t>(offsetof(Linw_tC8F4B4598840ABA2B26F7EFEE905560B757AAA2F, ___debugText_4)),static_cast<int32_t>(offsetof(Linw_tC8F4B4598840ABA2B26F7EFEE905560B757AAA2F, ___stickScript_5)),static_cast<int32_t>(offsetof(Linw_tC8F4B4598840ABA2B26F7EFEE905560B757AAA2F, ___onLine_6)),};
+	static_cast<int32_t>(offsetof(Linw_tC8F4B4598840ABA2B26F7EFEE905560B757AAA2F, ___debugText_4)),static_cast<int32_t>(offsetof(Linw_tC8F4B4598840ABA2B26F7EFEE905560B757AAA2F, ___onLine_5)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5651[1] = 
 {
 	static_cast<int32_t>(offsetof(Stick_t7BF3726F5814B9748BBA6CB55FD172DC1A346BE2, ___debugText_98)),};

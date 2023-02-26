@@ -11668,16 +11668,18 @@ struct GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6  : public MonoBehav
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___inital_pos_15;
 	// UnityEngine.Vector3 GameManager::inital_rot
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___inital_rot_16;
+	// UnityEngine.Vector3 GameManager::env_forward
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___env_forward_17;
 	// System.Boolean GameManager::paused
-	bool ___paused_17;
+	bool ___paused_18;
 	// System.Boolean GameManager::prev_state_pause
-	bool ___prev_state_pause_18;
+	bool ___prev_state_pause_19;
 	// System.Boolean GameManager::prev_state_touch
-	bool ___prev_state_touch_19;
+	bool ___prev_state_touch_20;
 	// System.Boolean GameManager::ui_active
-	bool ___ui_active_20;
+	bool ___ui_active_21;
 	// System.Single GameManager::curv_gain
-	float ___curv_gain_21;
+	float ___curv_gain_22;
 };
 
 // UnityEngine.XR.OpenXR.Features.Interactions.HTCViveControllerProfile
@@ -11695,10 +11697,8 @@ struct Linw_tC8F4B4598840ABA2B26F7EFEE905560B757AAA2F  : public MonoBehaviour_t5
 {
 	// TMPro.TextMeshProUGUI Linw::debugText
 	TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* ___debugText_4;
-	// Stick Linw::stickScript
-	Stick_t7BF3726F5814B9748BBA6CB55FD172DC1A346BE2* ___stickScript_5;
 	// System.Boolean Linw::onLine
-	bool ___onLine_6;
+	bool ___onLine_5;
 };
 
 // UnityEngine.XR.OpenXR.Features.Interactions.MicrosoftHandInteraction

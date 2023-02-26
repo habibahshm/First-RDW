@@ -60,6 +60,9 @@ extern "C" void RegisterStaticallyLinkedModulesGranular()
 	void RegisterModule_UIElements();
 	RegisterModule_UIElements();
 
+	void RegisterModule_Umbra();
+	RegisterModule_Umbra();
+
 	void RegisterModule_UnityAnalyticsCommon();
 	RegisterModule_UnityAnalyticsCommon();
 
@@ -169,12 +172,14 @@ namespace TextRenderingPrivate { class TextMesh; } template <> void RegisterUnit
 namespace UI { class Canvas; } template <> void RegisterUnityClass<UI::Canvas>(const char*);
 namespace UI { class CanvasGroup; } template <> void RegisterUnityClass<UI::CanvasGroup>(const char*);
 namespace UI { class CanvasRenderer; } template <> void RegisterUnityClass<UI::CanvasRenderer>(const char*);
+class OcclusionCullingData; template <> void RegisterUnityClass<OcclusionCullingData>(const char*);
+class OcclusionCullingSettings; template <> void RegisterUnityClass<OcclusionCullingSettings>(const char*);
 
 void RegisterAllClasses()
 {
 void RegisterBuiltinTypes();
 RegisterBuiltinTypes();
-	//Total: 81 non stripped classes
+	//Total: 83 non stripped classes
 	//0. Animator
 	RegisterUnityClass<Animator>("Animation");
 	//1. AnimatorController
@@ -337,5 +342,9 @@ RegisterBuiltinTypes();
 	RegisterUnityClass<UI::CanvasGroup>("UI");
 	//80. CanvasRenderer
 	RegisterUnityClass<UI::CanvasRenderer>("UI");
+	//81. OcclusionCullingData
+	RegisterUnityClass<OcclusionCullingData>("Umbra");
+	//82. OcclusionCullingSettings
+	RegisterUnityClass<OcclusionCullingSettings>("Umbra");
 
 }

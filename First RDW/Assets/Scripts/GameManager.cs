@@ -23,6 +23,7 @@ public class GameManager : MonoBehaviour
     private Quaternion Head_rot;
     private Vector3 inital_pos;
     private Vector3 inital_rot;
+    private Vector3 env_forward;
 
     private bool paused = false;
     private bool prev_state_pause = false;
@@ -59,6 +60,7 @@ public class GameManager : MonoBehaviour
         //Place env position neasr the user
         Env.transform.position = new(Env.transform.position.x + Head_pos.x, Env.transform.position.y, Env.transform.position.z + Head_pos.z);
         inital_rot = Env.transform.rotation.eulerAngles;
+        env_forward = Env.transform.forward;
        
         //Adjust desk height according to the height of the user
         float deskHeight = (float)Head_pos.y - 0.5f;
@@ -119,10 +121,11 @@ public class GameManager : MonoBehaviour
                 node.TryGetPosition(out Head_pos);
         }
 
-        float dist_so_far = Mathf.Abs(Head_pos.x - inital_pos.x);
+        Vector3 distance_vector = Head_pos - inital_pos;
+        float dist_so_far = distance_vector.magnitude;
         dist_so_far = Mathf.Round(dist_so_far * 10f) / 10f;
 
-        if (!(Head_pos.x < inital_pos.x))
+        if (Vector3.Dot(distance_vector.normalized, env_forward) > 0.8)
         {
             float deltaY_sofar = dist_so_far * curv_gain;
             float newYrot = inital_rot.y + ((int)rotation_dir) * deltaY_sofar;
