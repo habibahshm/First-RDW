@@ -417,6 +417,11 @@
 -r:"Library/Bee/artifacts/1300b0aEDbg.dag/UnityEngine.UI.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aEDbg.dag/UnityEngine.XR.LegacyInputHelpers.ref.dll"
 "Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs"
+"Assets/_Course Library/Source Files/Editor/XRButtonEditor.cs"
+"Assets/_Course Library/Source Files/Editor/XRJoystickEditor.cs"
+"Assets/_Course Library/Source Files/Editor/XRKnobEditor.cs"
+"Assets/_Course Library/Source Files/Editor/XRLeverEditor.cs"
+"Assets/_Course Library/Source Files/Editor/XRSliderEditor.cs"
 -langversion:9.0
 
 /deterministic

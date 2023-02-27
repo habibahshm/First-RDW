@@ -1,7 +1,6 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
-    - DisplayFPS
     - GameManager
     - Linw
     - Stick
@@ -201,6 +200,9 @@ ScriptsOnlyBuild:
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
   - assembly: Unity.RenderPipelines.Core.Runtime
     fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerPanel
     methodName: OnScrollbarClicked
@@ -277,7 +279,9 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 654}
+      Script: {instanceID: 652}
+    - Class: 114
+      Script: {instanceID: 1838}
     - Class: 114
       Script: {instanceID: 1840}
     - Class: 114
@@ -287,137 +291,133 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1846}
     - Class: 114
-      Script: {instanceID: 1848}
+      Script: {instanceID: 1852}
     - Class: 114
-      Script: {instanceID: 1854}
+      Script: {instanceID: 1996}
     - Class: 114
-      Script: {instanceID: 1998}
+      Script: {instanceID: 2574}
     - Class: 114
-      Script: {instanceID: 2576}
+      Script: {instanceID: 2774}
     - Class: 114
-      Script: {instanceID: 2776}
+      Script: {instanceID: 2958}
     - Class: 114
-      Script: {instanceID: 2960}
+      Script: {instanceID: 3298}
     - Class: 114
-      Script: {instanceID: 3300}
+      Script: {instanceID: 3418}
     - Class: 114
-      Script: {instanceID: 3420}
+      Script: {instanceID: 3486}
     - Class: 114
-      Script: {instanceID: 3488}
+      Script: {instanceID: 3628}
     - Class: 114
-      Script: {instanceID: 3630}
+      Script: {instanceID: 3882}
     - Class: 114
-      Script: {instanceID: 3884}
+      Script: {instanceID: 4182}
     - Class: 114
-      Script: {instanceID: 4184}
+      Script: {instanceID: 4640}
     - Class: 114
-      Script: {instanceID: 4642}
+      Script: {instanceID: 4942}
     - Class: 114
       Script: {instanceID: 4944}
     - Class: 114
-      Script: {instanceID: 4946}
+      Script: {instanceID: 5050}
     - Class: 114
-      Script: {instanceID: 5052}
+      Script: {instanceID: 5118}
     - Class: 114
-      Script: {instanceID: 5120}
+      Script: {instanceID: 5284}
     - Class: 114
-      Script: {instanceID: 5286}
+      Script: {instanceID: 5306}
     - Class: 114
-      Script: {instanceID: 5308}
+      Script: {instanceID: 5766}
     - Class: 114
-      Script: {instanceID: 5768}
+      Script: {instanceID: 5772}
     - Class: 114
-      Script: {instanceID: 5774}
+      Script: {instanceID: 5838}
     - Class: 114
-      Script: {instanceID: 5840}
+      Script: {instanceID: 5934}
     - Class: 114
-      Script: {instanceID: 5936}
+      Script: {instanceID: 6010}
     - Class: 114
-      Script: {instanceID: 6012}
+      Script: {instanceID: 6386}
     - Class: 114
-      Script: {instanceID: 6388}
+      Script: {instanceID: 6398}
     - Class: 114
-      Script: {instanceID: 6400}
+      Script: {instanceID: 6592}
     - Class: 114
-      Script: {instanceID: 6594}
+      Script: {instanceID: 6950}
     - Class: 114
-      Script: {instanceID: 6952}
+      Script: {instanceID: 7226}
     - Class: 114
-      Script: {instanceID: 7228}
+      Script: {instanceID: 7262}
     - Class: 114
-      Script: {instanceID: 7264}
+      Script: {instanceID: 7396}
     - Class: 114
-      Script: {instanceID: 7398}
+      Script: {instanceID: 8212}
     - Class: 114
-      Script: {instanceID: 8214}
+      Script: {instanceID: 8282}
     - Class: 114
-      Script: {instanceID: 8284}
+      Script: {instanceID: 8424}
     - Class: 114
-      Script: {instanceID: 8426}
+      Script: {instanceID: 8616}
     - Class: 114
-      Script: {instanceID: 8618}
+      Script: {instanceID: 9146}
     - Class: 114
-      Script: {instanceID: 9148}
+      Script: {instanceID: 9240}
     - Class: 114
-      Script: {instanceID: 9214}
+      Script: {instanceID: 9464}
     - Class: 114
-      Script: {instanceID: 9242}
+      Script: {instanceID: 9542}
     - Class: 114
-      Script: {instanceID: 9466}
+      Script: {instanceID: 9658}
     - Class: 114
-      Script: {instanceID: 9544}
+      Script: {instanceID: 9672}
     - Class: 114
-      Script: {instanceID: 9660}
+      Script: {instanceID: 9796}
     - Class: 114
-      Script: {instanceID: 9674}
+      Script: {instanceID: 9804}
     - Class: 114
-      Script: {instanceID: 9798}
+      Script: {instanceID: 9908}
     - Class: 114
-      Script: {instanceID: 9806}
+      Script: {instanceID: 9930}
     - Class: 114
-      Script: {instanceID: 9910}
+      Script: {instanceID: 10158}
     - Class: 114
-      Script: {instanceID: 9932}
+      Script: {instanceID: 10230}
     - Class: 114
-      Script: {instanceID: 10160}
+      Script: {instanceID: 10594}
     - Class: 114
-      Script: {instanceID: 10232}
+      Script: {instanceID: 10866}
     - Class: 114
-      Script: {instanceID: 10596}
+      Script: {instanceID: 10926}
     - Class: 114
-      Script: {instanceID: 10868}
+      Script: {instanceID: 11122}
     - Class: 114
-      Script: {instanceID: 10928}
-    - Class: 114
-      Script: {instanceID: 11124}
+      Script: {instanceID: 11372}
     - Class: 114
       Script: {instanceID: 11374}
     - Class: 114
-      Script: {instanceID: 11376}
+      Script: {instanceID: 11460}
     - Class: 114
-      Script: {instanceID: 11462}
+      Script: {instanceID: 11690}
     - Class: 114
-      Script: {instanceID: 11692}
+      Script: {instanceID: 11830}
     - Class: 114
-      Script: {instanceID: 11832}
+      Script: {instanceID: 11930}
     - Class: 114
-      Script: {instanceID: 11932}
+      Script: {instanceID: 12016}
     - Class: 114
-      Script: {instanceID: 12018}
+      Script: {instanceID: 12146}
     - Class: 114
-      Script: {instanceID: 12148}
+      Script: {instanceID: 12252}
     - Class: 114
-      Script: {instanceID: 12254}
+      Script: {instanceID: 12308}
     - Class: 114
-      Script: {instanceID: 12310}
+      Script: {instanceID: 12600}
     - Class: 114
-      Script: {instanceID: 12602}
+      Script: {instanceID: 12928}
     - Class: 114
-      Script: {instanceID: 12930}
+      Script: {instanceID: 13340}
     - Class: 114
-      Script: {instanceID: 13342}
-    - Class: 114
-      Script: {instanceID: 13390}
+      Script: {instanceID: 13388}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -969,7 +969,7 @@ ScriptsOnlyBuild:
     className: UniversalRenderPipelineEditorResources
   - hash:
       serializedVersion: 2
-      Hash: d5fe818536c8b4b0556239cabd0dd27b
+      Hash: 408aac009f3b071b52f51e6b27483133
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: GameManager
@@ -2479,6 +2479,342 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: ab6b2f84f239fe0ff76df95197415059
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TeleportAnchorWithFade
+  - hash:
+      serializedVersion: 2
+      Hash: 5a917778b7920edb8ce01844875fe44a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: OnSceneLoad
+  - hash:
+      serializedVersion: 2
+      Hash: 02a66d5c0f636de15c69f662631bf3c9
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RotateObject
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SetLightIntensity
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ToggleParticle
+  - hash:
+      serializedVersion: 2
+      Hash: 102e8cba3594049c68d5fab9a9f6abf7
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: XRJoystick
+  - hash:
+      serializedVersion: 2
+      Hash: be28fa4b17921ef05559c659c6d7bf85
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: OnVelocity
+  - hash:
+      serializedVersion: 2
+      Hash: c29f97dda87bd16fe8eeaccdb6e3c63c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TeleportAreaWithFade
+  - hash:
+      serializedVersion: 2
+      Hash: 93787b523f8aca8dfbea3d8072310fd8
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ShowMessageFromList
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SetLightColor
+  - hash:
+      serializedVersion: 2
+      Hash: c680a3d7e58ac94d3acb4dbfbecf7361
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: OnButtonPress
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: StickToObject
+  - hash:
+      serializedVersion: 2
+      Hash: fa1b8f752232fabcddda0ab23d08ead4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CreateTrail
+  - hash:
+      serializedVersion: 2
+      Hash: eacd1c5c43a0d75d35f839fbfc29fa8d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: OnJoystickMove
+  - hash:
+      serializedVersion: 2
+      Hash: bf594dfe1a1ecee9de902a38f4799b2c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: OnTilt
+  - hash:
+      serializedVersion: 2
+      Hash: 45a25aec6d23377600135c9dd313e31b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ToggleInterface
+  - hash:
+      serializedVersion: 2
+      Hash: 973d4e7742486c0c4292c78015127899
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ChangeMaterial
+  - hash:
+      serializedVersion: 2
+      Hash: 96c7d1f123a31b999acebd9b42e16743
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: OnTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: fe6dca6f0e7b1e496d2331e99916a960
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SetInteractionLayer
+  - hash:
+      serializedVersion: 2
+      Hash: d5afb67082cab7e8f4a887d9989368db
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ScaleObject
+  - hash:
+      serializedVersion: 2
+      Hash: f938be00cf26e669bc6fc7d22261b81e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: OnTimedInterval
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RemoveObjectsWithTag
+  - hash:
+      serializedVersion: 2
+      Hash: a637df83858b9fca9957bfefd27c9743
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: OnCollision
+  - hash:
+      serializedVersion: 2
+      Hash: e2c80d0b26e7c3cf739d01cbc445174e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: DestroyObject
+  - hash:
+      serializedVersion: 2
+      Hash: 0dc8b6cdbe03abff3fa66dd0b2060654
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ConvertValueToHue
+  - hash:
+      serializedVersion: 2
+      Hash: b7906238f5f7a55cbcc3dcb90a8686a3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PlayContinuousSound
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ToggleVisibility
+  - hash:
+      serializedVersion: 2
+      Hash: 0e993a50af5487156c31f655f4006a9a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PlaySoundsFromList
+  - hash:
+      serializedVersion: 2
+      Hash: ca7d5460be6c11daefbdee78baee6159
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: XRKnob
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ApplyPhysics
+  - hash:
+      serializedVersion: 2
+      Hash: 37e1215b8fdc50cdce3fc8b0442791b9
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: FadeCanvas
+  - hash:
+      serializedVersion: 2
+      Hash: 8c983db55472a73fa683d0e35e6230ea
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PlayVideo
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SetParticleRate
+  - hash:
+      serializedVersion: 2
+      Hash: aa3fa2feca4aaefd25678b41cd492b03
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SpawnObject
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TranslateObject
+  - hash:
+      serializedVersion: 2
+      Hash: 536f73b9b4e8af2f1e55cdeab5099722
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: XRButton
+  - hash:
+      serializedVersion: 2
+      Hash: a03cbe79471e3582f06b442e7ea48fee
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SetVolume
+  - hash:
+      serializedVersion: 2
+      Hash: cc641e53819f7d943847debad320446c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: XRLever
+  - hash:
+      serializedVersion: 2
+      Hash: 8893012eabaa593ff53c46741b37c190
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: OnPull
+  - hash:
+      serializedVersion: 2
+      Hash: f816324bdea703018b138a920c2dfa08
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MoveWithVelocity
+  - hash:
+      serializedVersion: 2
+      Hash: 7c3c775d1fdc6e4c9f334f4a5ee99c32
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MatchRotation
+  - hash:
+      serializedVersion: 2
+      Hash: 09573f12001c5b46e55cdaf09635400e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: XRSlider
+  - hash:
+      serializedVersion: 2
+      Hash: fbad1fad9aab6644f8d610ac86bef2aa
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ManuallySelectObject
+  - hash:
+      serializedVersion: 2
+      Hash: 0efba55861b7fe158768928ce104be26
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Notes
+  - hash:
+      serializedVersion: 2
+      Hash: be18f029682aee51028f9dc20d5433ec
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ToggleRay
+  - hash:
+      serializedVersion: 2
+      Hash: 50f01ac698ed80e719b38cb832020cea
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SpawnFromList
+  - hash:
+      serializedVersion: 2
+      Hash: 0f3cf0dc8fed295cef8fd9d0ec1d77a0
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SetMaterialColor
+  - hash:
+      serializedVersion: 2
+      Hash: 75b3019d4e7c01653373b5084027dafe
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: LookAtPlayer
+  - hash:
+      serializedVersion: 2
+      Hash: a7d8d64be118c9de0f89b5a87c4ac39b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PlayQuickSound
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PlayAnimation
+  - hash:
+      serializedVersion: 2
+      Hash: fe2ac33c3c21721bb7f2ef68b73f6467
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: VibrateController
+  - hash:
+      serializedVersion: 2
+      Hash: 020517680c28d8da551ee61f3bd454fa
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ToggleLight
+  - hash:
+      serializedVersion: 2
+      Hash: 0c8c2efc64679c86438614f3eb0512fe
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: LaunchProjectile
+  - hash:
+      serializedVersion: 2
+      Hash: c3694feace50de4334ce1bc0dd846db7
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: FadeCanvasOnOverlap
+  - hash:
+      serializedVersion: 2
+      Hash: a70037250036cd526304847b6a3b77be
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TeleportPlayer
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: LoadScene
   platform: 13
   scenePathNames:
   - Assets/Scenes/Main.unity

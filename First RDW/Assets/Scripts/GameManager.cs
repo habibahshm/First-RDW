@@ -13,6 +13,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] private GameObject stick;
     [SerializeField] private GameObject Env;
     [SerializeField] private GameObject zigzag;
+    [SerializeField] private GameObject welcome_ui;
     [SerializeField] private float radius;
     private enum Rotation_dir:int {  left = -1,  right = 1 }
     [SerializeField] private Rotation_dir rotation_dir;
@@ -67,7 +68,14 @@ public class GameManager : MonoBehaviour
         desk.transform.localScale = new Vector3(.5f, deskHeight, 1);
         desk.transform.position = new Vector3(desk.transform.position.x, deskHeight / 2.0f, desk.transform.position.z);
 
+        //Place zigzag line
+        zigzag.transform.position = new Vector3(zigzag.transform.position.x, deskHeight + 0.25f, zigzag.transform.position.z);
+
         //Place stick on top of the desk
+        newRot = new Vector3(stick.transform.localRotation.x, Head_rot.eulerAngles.y + 5, stick.transform.localRotation.z);
+        currentQ = new Quaternion();
+        currentQ.eulerAngles = newRot;
+        stick.transform.rotation = currentQ;
         stick.transform.position = new Vector3(desk.transform.position.x, deskHeight + 0.025f, desk.transform.position.z);
 
         curv_gain = (180 * (1 / radius)) / Mathf.PI;
