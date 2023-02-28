@@ -53,7 +53,7 @@ public class GameManager : MonoBehaviour
         }
 
         //Adjust Env direction according to where the user is looking at the beginning (rotation around y axis)
-        Vector3 newRot = new Vector3(Env.transform.localRotation.x, Head_rot.eulerAngles.y, Env.transform.localRotation.z);
+        Vector3 newRot = new Vector3(Env.transform.eulerAngles.x, Head_rot.eulerAngles.y, Env.transform.eulerAngles.z);
         Quaternion currentQ = new Quaternion();
         currentQ.eulerAngles = newRot;
         Env.transform.rotation = currentQ;
@@ -72,7 +72,7 @@ public class GameManager : MonoBehaviour
         zigzag.transform.position = new Vector3(zigzag.transform.position.x, deskHeight + 0.25f, zigzag.transform.position.z);
 
         //Place stick on top of the desk
-        newRot = new Vector3(stick.transform.localRotation.x, Head_rot.eulerAngles.y + 5, stick.transform.localRotation.z);
+        newRot = new Vector3(stick.transform.eulerAngles.x, Head_rot.eulerAngles.y - 85f, stick.transform.eulerAngles.z);
         currentQ = new Quaternion();
         currentQ.eulerAngles = newRot;
         stick.transform.rotation = currentQ;
